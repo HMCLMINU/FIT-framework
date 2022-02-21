@@ -1,0 +1,9 @@
+<!-- -->
+<launch>
+  <arg name='host' default='localhost'/>
+  <arg name='port' default='2000'/>
+  <arg name='timeout' default='10'/>
+  <arg name='agent' default='agent'/>
+  <node pkg="sensor_config_edit" type="create_sensor_config.py" name="FIT_test" output='screen'/>
+
+</launch>

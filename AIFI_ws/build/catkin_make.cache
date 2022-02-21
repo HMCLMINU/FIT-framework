@@ -1,0 +1,2 @@
+sensor_config_edit
+-DCATKIN_DEVEL_PREFIX=/home/autoware/AIFI_ws/devel -DCMAKE_INSTALL_PREFIX=/home/autoware/AIFI_ws/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/autoware/AIFI_ws/devel
+
+Name: sensor_config_edit
+Description: Description of sensor_config_edit
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
