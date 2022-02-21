@@ -15,5 +15,5 @@ docker run \
     --privileged \
     --net=host \
     $RUNTIME \
-    carla-autoware:latest
+    alsdn452/minu:FIT
 
