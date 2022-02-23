@@ -1,0 +1,6 @@
+Invoking command in '/home/autoware/Autoware/build/vehicle_gazebo_simulation_launcher': /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_gazebo_simulation_launcher -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/vehicle_gazebo_simulation_launcher' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_gazebo_simulation_launcher -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/vehicle_gazebo_simulation_launcher': /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_gazebo_simulation_launcher --target tests -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/vehicle_gazebo_simulation_launcher' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_gazebo_simulation_launcher --target tests -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/vehicle_gazebo_simulation_launcher': /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_gazebo_simulation_launcher --target install -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/vehicle_gazebo_simulation_launcher' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_gazebo_simulation_launcher --target install -- -j32 -l32

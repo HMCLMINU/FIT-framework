@@ -1,0 +1,109 @@
+[0.012s] Invoking command in '/home/autoware/Autoware/build/microstrain_driver': /usr/bin/cmake /home/autoware/Autoware/src/drivers/awf_drivers/microstrain -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/microstrain_driver
+[0.083s] -- The C compiler identification is GNU 7.5.0
+[0.154s] -- The CXX compiler identification is GNU 7.5.0
+[0.159s] -- Check for working C compiler: /usr/bin/cc
+[0.250s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.250s] -- Detecting C compiler ABI info
+[0.342s] -- Detecting C compiler ABI info - done
+[0.344s] -- Detecting C compile features
+[0.599s] -- Detecting C compile features - done
+[0.599s] -- Check for working CXX compiler: /usr/bin/c++
+[0.694s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.698s] -- Detecting CXX compiler ABI info
+[0.796s] -- Detecting CXX compiler ABI info - done
+[0.802s] -- Detecting CXX compile features
+[1.232s] -- Detecting CXX compile features - done
+[1.234s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/microstrain_driver/devel
+[1.235s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[1.235s] -- This workspace overlays: /opt/ros/melodic
+[1.249s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.249s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.249s] -- Using Debian Python package layout
+[1.250s] -- Using empy: /usr/bin/empy
+[1.401s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.401s] -- Call enable_testing()
+[1.403s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/microstrain_driver/test_results
+[1.428s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.428s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.441s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.442s] -- Looking for pthread.h
+[1.518s] -- Looking for pthread.h - found
+[1.518s] -- Looking for pthread_create
+[1.600s] -- Looking for pthread_create - not found
+[1.600s] -- Looking for pthread_create in pthreads
+[1.676s] -- Looking for pthread_create in pthreads - not found
+[1.676s] -- Looking for pthread_create in pthread
+[1.748s] -- Looking for pthread_create in pthread - found
+[1.750s] -- Found Threads: TRUE  
+[1.753s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.795s] -- catkin 0.7.26
+[1.795s] -- BUILD_SHARED_LIBS is on
+[1.941s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.243s] -- Configuring done
+[2.298s] -- Generating done
+[2.306s] -- Build files have been written to: /home/autoware/Autoware/build/microstrain_driver
+[2.314s] Invoked command in '/home/autoware/Autoware/build/microstrain_driver' returned '0': /usr/bin/cmake /home/autoware/Autoware/src/drivers/awf_drivers/microstrain -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/microstrain_driver
+[2.315s] Invoking command in '/home/autoware/Autoware/build/microstrain_driver': /usr/bin/cmake --build /home/autoware/Autoware/build/microstrain_driver -- -j2 -l2
+[2.402s] Scanning dependencies of target microstrain_driver
+[2.420s] [  5%] Building CXX object CMakeFiles/microstrain_driver.dir/src/microstrain.cpp.o
+[5.670s] [ 11%] Building C object CMakeFiles/microstrain_driver.dir/src/mip_sdk_user_functions.c.o
+[5.874s] [ 17%] Building C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Library/Source/mip.c.o
+[5.900s] /home/autoware/Autoware/src/drivers/awf_drivers/microstrain/MIPSDK/C/Library/Source/mip.c: In function ‘mip_add_field’:
+[5.901s] /home/autoware/Autoware/src/drivers/awf_drivers/microstrain/MIPSDK/C/Library/Source/mip.c:189:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+[5.901s]    memcpy(field_data_ptr, field_data, data_size);
+[5.901s]    ^~~~~~
+[5.901s] /home/autoware/Autoware/src/drivers/awf_drivers/microstrain/MIPSDK/C/Library/Source/mip.c:189:3: warning: incompatible implicit declaration of built-in function ‘memcpy’
+[5.901s] /home/autoware/Autoware/src/drivers/awf_drivers/microstrain/MIPSDK/C/Library/Source/mip.c:189:3: note: include ‘<string.h>’ or provide a declaration of ‘memcpy’
+[5.901s] /home/autoware/Autoware/src/drivers/awf_drivers/microstrain/MIPSDK/C/Library/Source/mip.c: In function ‘mip_add_formatted_field’:
+[5.901s] /home/autoware/Autoware/src/drivers/awf_drivers/microstrain/MIPSDK/C/Library/Source/mip.c:250:2: warning: incompatible implicit declaration of built-in function ‘memcpy’
+[5.901s]   memcpy(field_location, field, field_header_ptr->size);
+[5.901s]   ^~~~~~
+[5.901s] /home/autoware/Autoware/src/drivers/awf_drivers/microstrain/MIPSDK/C/Library/Source/mip.c:250:2: note: include ‘<string.h>’ or provide a declaration of ‘memcpy’
+[6.013s] [ 23%] Building C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Library/Source/mip_sdk_base.c.o
+[6.169s] [ 29%] Building C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Library/Source/mip_sdk_inteface.c.o
+[6.252s] /home/autoware/Autoware/src/drivers/awf_drivers/microstrain/MIPSDK/C/Library/Source/mip_sdk_inteface.c: In function ‘__mip_interface_command_response_handler’:
+[6.252s] /home/autoware/Autoware/src/drivers/awf_drivers/microstrain/MIPSDK/C/Library/Source/mip_sdk_inteface.c:755:49: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+[6.252s]     device_interface->command_response_data      = field_header_ptr;
+[6.252s]                                                  ^
+[6.471s] [ 35%] Building C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Library/Source/mip_sdk_3dm.c.o
+[6.762s] [ 41%] Building C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Library/Source/mip_sdk_filter.c.o
+[7.026s] [ 47%] Building C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Library/Source/mip_sdk_system.c.o
+[7.082s] [ 52%] Building C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Library/Source/mip_sdk_ahrs.c.o
+[7.166s] [ 58%] Building C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Library/Source/mip_sdk_gps.c.o
+[7.253s] [ 64%] Building C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Library/Source/ring_buffer.c.o
+[7.384s] [ 70%] Building C object CMakeFiles/microstrain_driver.dir/MIPSDK/C/Utilities/Source/byteswap_utilities.c.o
+[7.428s] [ 76%] Linking CXX shared library devel/lib/libmicrostrain_driver.so
+[7.539s] [ 76%] Built target microstrain_driver
+[7.567s] Scanning dependencies of target 3dm_gx5_15_node
+[7.593s] [ 82%] Building CXX object CMakeFiles/3dm_gx5_15_node.dir/src/3dm_gx5_15_node.cpp.o
+[9.129s] [ 88%] Linking CXX executable devel/lib/microstrain_driver/3dm_gx5_15_node
+[9.266s] [ 88%] Built target 3dm_gx5_15_node
+[9.304s] Scanning dependencies of target 3dm_gx5_45_node
+[9.334s] [ 94%] Building CXX object CMakeFiles/3dm_gx5_45_node.dir/src/3dm_gx5_45_node.cpp.o
+[10.891s] [100%] Linking CXX executable devel/lib/microstrain_driver/3dm_gx5_45_node
+[11.029s] [100%] Built target 3dm_gx5_45_node
+[11.046s] Invoked command in '/home/autoware/Autoware/build/microstrain_driver' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/microstrain_driver -- -j2 -l2
+[11.193s] Invoking command in '/home/autoware/Autoware/build/microstrain_driver': /usr/bin/cmake --build /home/autoware/Autoware/build/microstrain_driver --target tests -- -j2 -l2
+[11.268s] Scanning dependencies of target tests
+[11.281s] Built target tests
+[11.295s] Invoked command in '/home/autoware/Autoware/build/microstrain_driver' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/microstrain_driver --target tests -- -j2 -l2
+[11.433s] Invoking command in '/home/autoware/Autoware/build/microstrain_driver': /usr/bin/cmake --build /home/autoware/Autoware/build/microstrain_driver --target install -- -j2 -l2
+[11.515s] [ 76%] Built target microstrain_driver
+[11.551s] [ 88%] Built target 3dm_gx5_15_node
+[11.591s] [100%] Built target 3dm_gx5_45_node
+[11.619s] Install the project...
+[11.630s] -- Install configuration: "Release"
+[11.630s] -- Installing: /home/autoware/Autoware/install/microstrain_driver/lib/pkgconfig/microstrain_driver.pc
+[11.630s] -- Installing: /home/autoware/Autoware/install/microstrain_driver/share/microstrain_driver/cmake/microstrain_driverConfig.cmake
+[11.631s] -- Installing: /home/autoware/Autoware/install/microstrain_driver/share/microstrain_driver/cmake/microstrain_driverConfig-version.cmake
+[11.631s] -- Installing: /home/autoware/Autoware/install/microstrain_driver/share/microstrain_driver/package.xml
+[11.631s] -- Installing: /home/autoware/Autoware/install/microstrain_driver/lib/libmicrostrain_driver.so
+[11.632s] -- Set runtime path of "/home/autoware/Autoware/install/microstrain_driver/lib/libmicrostrain_driver.so" to ""
+[11.633s] -- Installing: /home/autoware/Autoware/install/microstrain_driver/lib/microstrain_driver/3dm_gx5_15_node
+[11.633s] -- Set runtime path of "/home/autoware/Autoware/install/microstrain_driver/lib/microstrain_driver/3dm_gx5_15_node" to ""
+[11.634s] -- Installing: /home/autoware/Autoware/install/microstrain_driver/lib/microstrain_driver/3dm_gx5_45_node
+[11.634s] -- Set runtime path of "/home/autoware/Autoware/install/microstrain_driver/lib/microstrain_driver/3dm_gx5_45_node" to ""
+[11.635s] -- Installing: /home/autoware/Autoware/install/microstrain_driver/share/microstrain_driver/launch
+[11.635s] -- Installing: /home/autoware/Autoware/install/microstrain_driver/share/microstrain_driver/launch/microstrain.launch
+[11.635s] -- Installing: /home/autoware/Autoware/install/microstrain_driver/share/microstrain_driver/launch/3dm_gx5_15.launch
+[11.641s] Invoked command in '/home/autoware/Autoware/build/microstrain_driver' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/microstrain_driver --target install -- -j2 -l2

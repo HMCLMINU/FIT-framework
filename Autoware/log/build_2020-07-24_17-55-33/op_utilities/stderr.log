@@ -1,0 +1,4 @@
+/home/autoware/Autoware/src/autoware/core_planning/op_utilities/nodes/op_data_logger/op_data_logger_core.cpp: In member function ‘void DataLoggerNS::OpenPlannerDataLogger::CompareAndLog(DataLoggerNS::VehicleDataContainer&, PlannerHNS::DetectedObject&)’:
+/home/autoware/Autoware/src/autoware/core_planning/op_utilities/nodes/op_data_logger/op_data_logger_core.cpp:293:42: warning: comparison between ‘enum PlannerHNS::STATE_TYPE’ and ‘enum PlannerHNS::BEH_STATE_TYPE’ [-Wenum-compare]
+   if(ground_truth.beh.state == predicted.behavior_state)
+                                          ^~~~~~~~~~~~~~

@@ -1,0 +1,8 @@
+prefix=/home/autoware/Autoware/install/sick_ldmrs_msgs
+
+Name: sick_ldmrs_msgs
+Description: Description of sick_ldmrs_msgs
+Version: 1.12.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs message_runtime std_msgs

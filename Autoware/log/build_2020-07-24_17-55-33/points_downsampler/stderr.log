@@ -1,0 +1,4 @@
+/home/autoware/Autoware/src/autoware/core_perception/points_downsampler/nodes/random_filter/random_filter.cpp: In function ‘void scan_callback(const ConstPtr&)’:
+/home/autoware/Autoware/src/autoware/core_perception/points_downsampler/nodes/random_filter/random_filter.cpp:74:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(scan.points.size() >= sample_num)
+      ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~

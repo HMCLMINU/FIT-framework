@@ -1,0 +1,8 @@
+prefix=/home/autoware/Autoware/install/as
+
+Name: as
+Description: Description of as
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

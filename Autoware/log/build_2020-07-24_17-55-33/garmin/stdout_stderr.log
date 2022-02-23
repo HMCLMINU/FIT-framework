@@ -1,0 +1,58 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CUDA compilation status: ON.
+-- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/garmin/devel
+-- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/garmin/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.26
+-- BUILD_SHARED_LIBS is on
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/autoware/Autoware/build/garmin
+Scanning dependencies of target garmin_gps_18x_lvc
+[ 50%] Building CXX object CMakeFiles/garmin_gps_18x_lvc.dir/src/garmin_gps_18x_lvc.cc.o
+[100%] Linking CXX executable devel/lib/garmin/garmin_gps_18x_lvc
+[100%] Built target garmin_gps_18x_lvc
+Scanning dependencies of target tests
+Built target tests
+[100%] Built target garmin_gps_18x_lvc
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/autoware/Autoware/install/garmin/lib/pkgconfig/garmin.pc
+-- Installing: /home/autoware/Autoware/install/garmin/share/garmin/cmake/garminConfig.cmake
+-- Installing: /home/autoware/Autoware/install/garmin/share/garmin/cmake/garminConfig-version.cmake
+-- Installing: /home/autoware/Autoware/install/garmin/share/garmin/package.xml
+-- Installing: /home/autoware/Autoware/install/garmin/lib/garmin/garmin_gps_18x_lvc
+-- Set runtime path of "/home/autoware/Autoware/install/garmin/lib/garmin/garmin_gps_18x_lvc" to ""

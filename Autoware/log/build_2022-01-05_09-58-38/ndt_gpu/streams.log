@@ -1,0 +1,26 @@
+[0.811s] Invoking command in '/home/autoware/Autoware/build/ndt_gpu': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_gpu -- -j32 -l32
+[1.134s] [100%] Built target ndt_gpu
+[1.223s] Invoked command in '/home/autoware/Autoware/build/ndt_gpu' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_gpu -- -j32 -l32
+[1.519s] Invoking command in '/home/autoware/Autoware/build/ndt_gpu': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_gpu --target tests -- -j32 -l32
+[1.612s] Built target tests
+[1.669s] Invoked command in '/home/autoware/Autoware/build/ndt_gpu' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_gpu --target tests -- -j32 -l32
+[1.903s] Invoking command in '/home/autoware/Autoware/build/ndt_gpu': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_gpu --target install -- -j32 -l32
+[2.171s] [100%] Built target ndt_gpu
+[2.171s] Install the project...
+[2.171s] -- Install configuration: "Release"
+[2.171s] -- Up-to-date: /home/autoware/Autoware/install/ndt_gpu/lib/pkgconfig/ndt_gpu.pc
+[2.172s] -- Up-to-date: /home/autoware/Autoware/install/ndt_gpu/share/ndt_gpu/cmake/ndt_gpuConfig.cmake
+[2.172s] -- Up-to-date: /home/autoware/Autoware/install/ndt_gpu/share/ndt_gpu/cmake/ndt_gpuConfig-version.cmake
+[2.172s] -- Up-to-date: /home/autoware/Autoware/install/ndt_gpu/share/ndt_gpu/package.xml
+[2.172s] -- Up-to-date: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu
+[2.172s] -- Up-to-date: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu/SymmetricEigenSolver.h
+[2.172s] -- Up-to-date: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu/Registration.h
+[2.172s] -- Up-to-date: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu/debug.h
+[2.172s] -- Up-to-date: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu/common.h
+[2.172s] -- Up-to-date: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu/VoxelGrid.h
+[2.172s] -- Up-to-date: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu/MatrixDevice.h
+[2.172s] -- Up-to-date: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu/MatrixHost.h
+[2.173s] -- Up-to-date: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu/NormalDistributionsTransform.h
+[2.173s] -- Up-to-date: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu/Matrix.h
+[2.173s] -- Up-to-date: /home/autoware/Autoware/install/ndt_gpu/lib/libndt_gpu.so
+[2.432s] Invoked command in '/home/autoware/Autoware/build/ndt_gpu' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_gpu --target install -- -j32 -l32

@@ -1,0 +1,2 @@
+Invoking command in '/home/autoware/Autoware/build/gazebo_imu_description': /usr/bin/cmake /home/autoware/Autoware/src/autoware/simulation/gazebo_imu_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/gazebo_imu_description
+Invoked command in '/home/autoware/Autoware/build/gazebo_imu_description' returned '-2': /usr/bin/cmake /home/autoware/Autoware/src/autoware/simulation/gazebo_imu_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/gazebo_imu_description

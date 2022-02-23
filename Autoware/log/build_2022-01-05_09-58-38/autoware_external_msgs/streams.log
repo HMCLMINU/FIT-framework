@@ -1,0 +1,13 @@
+[0.422s] Invoking command in '/home/autoware/Autoware/build/autoware_external_msgs': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_external_msgs -- -j32 -l32
+[0.801s] Invoked command in '/home/autoware/Autoware/build/autoware_external_msgs' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_external_msgs -- -j32 -l32
+[0.897s] Invoking command in '/home/autoware/Autoware/build/autoware_external_msgs': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_external_msgs --target tests -- -j32 -l32
+[1.019s] Built target tests
+[1.062s] Invoked command in '/home/autoware/Autoware/build/autoware_external_msgs' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_external_msgs --target tests -- -j32 -l32
+[1.185s] Invoking command in '/home/autoware/Autoware/build/autoware_external_msgs': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_external_msgs --target install -- -j32 -l32
+[1.293s] Install the project...
+[1.293s] -- Install configuration: "Release"
+[1.294s] -- Up-to-date: /home/autoware/Autoware/install/autoware_external_msgs/lib/pkgconfig/autoware_external_msgs.pc
+[1.294s] -- Up-to-date: /home/autoware/Autoware/install/autoware_external_msgs/share/autoware_external_msgs/cmake/autoware_external_msgsConfig.cmake
+[1.296s] -- Up-to-date: /home/autoware/Autoware/install/autoware_external_msgs/share/autoware_external_msgs/cmake/autoware_external_msgsConfig-version.cmake
+[1.296s] -- Up-to-date: /home/autoware/Autoware/install/autoware_external_msgs/share/autoware_external_msgs/package.xml
+[1.409s] Invoked command in '/home/autoware/Autoware/build/autoware_external_msgs' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_external_msgs --target install -- -j32 -l32

@@ -1,0 +1,8 @@
+prefix=/home/autoware/Autoware/install/memsic_imu
+
+Name: memsic_imu
+Description: Description of memsic_imu
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

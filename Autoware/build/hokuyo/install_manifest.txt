@@ -1,0 +1,7 @@
+/home/autoware/Autoware/install/hokuyo/lib/pkgconfig/hokuyo.pc
+/home/autoware/Autoware/install/hokuyo/share/hokuyo/cmake/hokuyoConfig.cmake
+/home/autoware/Autoware/install/hokuyo/share/hokuyo/cmake/hokuyoConfig-version.cmake
+/home/autoware/Autoware/install/hokuyo/share/hokuyo/package.xml
+/home/autoware/Autoware/install/hokuyo/lib/hokuyo/hokuyo_3d
+/home/autoware/Autoware/install/hokuyo/share/hokuyo/launch/top_urg.launch
+/home/autoware/Autoware/install/hokuyo/share/hokuyo/launch/hokuyo_3d.launch

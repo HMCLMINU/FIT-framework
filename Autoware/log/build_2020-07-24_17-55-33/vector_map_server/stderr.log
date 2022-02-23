@@ -1,0 +1,6 @@
+/home/autoware/Autoware/src/autoware/common/vector_map_server/nodes/vector_map_server/vector_map_server.cpp:317:19: warning: ‘std::vector<vector_map_msgs::Lane_<std::allocator<void> >, std::allocator<vector_map_msgs::Lane_<std::allocator<void> > > > {anonymous}::findNearLanes(const vector_map::VectorMap&, const std::vector<vector_map_msgs::Lane_<std::allocator<void> >, std::allocator<vector_map_msgs::Lane_<std::allocator<void> > > >&, const Point&, double)’ defined but not used [-Wunused-function]
+ std::vector<Lane> findNearLanes(const VectorMap& vmap, const std::vector<Lane>& lanes, const Point& base_point,
+                   ^~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/common/vector_map_server/nodes/vector_map_server/vector_map_server.cpp:104:6: warning: ‘bool {anonymous}::isMergingLane(const Lane&)’ defined but not used [-Wunused-function]
+ bool isMergingLane(const Lane& lane)
+      ^~~~~~~~~~~~~

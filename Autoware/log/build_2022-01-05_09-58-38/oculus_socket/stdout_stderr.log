@@ -1,0 +1,12 @@
+[100%] Built target oculus_sender
+Built target tests
+[100%] Built target oculus_sender
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: /home/autoware/Autoware/install/oculus_socket/lib/pkgconfig/oculus_socket.pc
+-- Up-to-date: /home/autoware/Autoware/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig.cmake
+-- Up-to-date: /home/autoware/Autoware/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig-version.cmake
+-- Up-to-date: /home/autoware/Autoware/install/oculus_socket/share/oculus_socket/package.xml
+-- Up-to-date: /home/autoware/Autoware/install/oculus_socket/lib/oculus_socket/oculus_sender
+-- Up-to-date: /home/autoware/Autoware/install/oculus_socket/share/oculus_socket/launch
+-- Up-to-date: /home/autoware/Autoware/install/oculus_socket/share/oculus_socket/launch/oculus_sender.launch

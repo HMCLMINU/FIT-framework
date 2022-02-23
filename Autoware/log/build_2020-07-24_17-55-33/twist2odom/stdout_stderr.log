@@ -1,0 +1,158 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/twist2odom/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+-- This workspace overlays: /opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/twist2odom/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.26
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/autoware/Autoware/build/twist2odom
+Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+Scanning dependencies of target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+Scanning dependencies of target nav_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_py
+Scanning dependencies of target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+Scanning dependencies of target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+Scanning dependencies of target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+Scanning dependencies of target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+Scanning dependencies of target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+Scanning dependencies of target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_py
+Scanning dependencies of target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+Scanning dependencies of target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+Scanning dependencies of target nav_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_nodejs
+Scanning dependencies of target nav_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_lisp
+Scanning dependencies of target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+Scanning dependencies of target nav_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_cpp
+Scanning dependencies of target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+Scanning dependencies of target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+Scanning dependencies of target nav_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_eus
+Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+Scanning dependencies of target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+Scanning dependencies of target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_py
+Scanning dependencies of target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_nodejs
+Scanning dependencies of target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+Scanning dependencies of target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+Scanning dependencies of target twist2odom
+[ 33%] Building CXX object CMakeFiles/twist2odom.dir/src/twist2odom.cpp.o
+[ 66%] Building CXX object CMakeFiles/twist2odom.dir/src/twist2odom_node.cpp.o
+[100%] Linking CXX executable devel/lib/twist2odom/twist2odom
+[100%] Built target twist2odom
+Scanning dependencies of target gtest
+[ 20%] Building CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 40%] Linking CXX shared library libgtest.so
+[ 40%] Built target gtest
+Scanning dependencies of target twist2odom_test
+[ 60%] Building CXX object CMakeFiles/twist2odom_test.dir/test/twist2odom_test.cpp.o
+[ 80%] Building CXX object CMakeFiles/twist2odom_test.dir/src/twist2odom.cpp.o
+[100%] Linking CXX executable devel/lib/twist2odom/twist2odom_test
+[100%] Built target twist2odom_test
+Scanning dependencies of target tests
+[100%] Built target tests
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[100%] Built target twist2odom
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/autoware/Autoware/install/twist2odom/lib/pkgconfig/twist2odom.pc
+-- Installing: /home/autoware/Autoware/install/twist2odom/share/twist2odom/cmake/twist2odomConfig.cmake
+-- Installing: /home/autoware/Autoware/install/twist2odom/share/twist2odom/cmake/twist2odomConfig-version.cmake
+-- Installing: /home/autoware/Autoware/install/twist2odom/share/twist2odom/package.xml
+-- Installing: /home/autoware/Autoware/install/twist2odom/lib/twist2odom/twist2odom
+-- Set runtime path of "/home/autoware/Autoware/install/twist2odom/lib/twist2odom/twist2odom" to ""

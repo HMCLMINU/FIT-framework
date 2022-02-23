@@ -1,0 +1,5 @@
+/home/autoware/Autoware/install/garmin/lib/pkgconfig/garmin.pc
+/home/autoware/Autoware/install/garmin/share/garmin/cmake/garminConfig.cmake
+/home/autoware/Autoware/install/garmin/share/garmin/cmake/garminConfig-version.cmake
+/home/autoware/Autoware/install/garmin/share/garmin/package.xml
+/home/autoware/Autoware/install/garmin/lib/garmin/garmin_gps_18x_lvc

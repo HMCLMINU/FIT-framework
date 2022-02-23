@@ -1,0 +1,13 @@
+/home/autoware/Autoware/install/autoware_quickstart_examples/lib/pkgconfig/autoware_quickstart_examples.pc
+/home/autoware/Autoware/install/autoware_quickstart_examples/share/autoware_quickstart_examples/cmake/autoware_quickstart_examplesConfig.cmake
+/home/autoware/Autoware/install/autoware_quickstart_examples/share/autoware_quickstart_examples/cmake/autoware_quickstart_examplesConfig-version.cmake
+/home/autoware/Autoware/install/autoware_quickstart_examples/share/autoware_quickstart_examples/package.xml
+/home/autoware/Autoware/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/tf_local.launch
+/home/autoware/Autoware/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_localization.launch
+/home/autoware/Autoware/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/README.md
+/home/autoware/Autoware/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_map.launch
+/home/autoware/Autoware/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/default.rviz
+/home/autoware/Autoware/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_mission_planning.launch
+/home/autoware/Autoware/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_detection.launch
+/home/autoware/Autoware/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_sensing.launch
+/home/autoware/Autoware/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_motion_planning.launch

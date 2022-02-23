@@ -1,0 +1,6 @@
+Invoking command in '/home/autoware/Autoware/build/nmea_navsat': /usr/bin/cmake --build /home/autoware/Autoware/build/nmea_navsat -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/nmea_navsat' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/nmea_navsat -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/nmea_navsat': /usr/bin/cmake --build /home/autoware/Autoware/build/nmea_navsat --target tests -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/nmea_navsat' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/nmea_navsat --target tests -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/nmea_navsat': /usr/bin/cmake --build /home/autoware/Autoware/build/nmea_navsat --target install -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/nmea_navsat' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/nmea_navsat --target install -- -j32 -l32

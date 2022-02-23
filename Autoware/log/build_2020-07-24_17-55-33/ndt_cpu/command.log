@@ -1,0 +1,8 @@
+Invoking command in '/home/autoware/Autoware/build/ndt_cpu': /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_perception/ndt_cpu -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/ndt_cpu
+Invoked command in '/home/autoware/Autoware/build/ndt_cpu' returned '0': /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_perception/ndt_cpu -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/ndt_cpu
+Invoking command in '/home/autoware/Autoware/build/ndt_cpu': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_cpu -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_cpu -- -j2 -l2
+Invoking command in '/home/autoware/Autoware/build/ndt_cpu': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_cpu --target tests -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_cpu --target tests -- -j2 -l2
+Invoking command in '/home/autoware/Autoware/build/ndt_cpu': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_cpu --target install -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_cpu --target install -- -j2 -l2

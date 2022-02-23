@@ -1,0 +1,2 @@
+Invoking command in '/home/autoware/Autoware/build/ros_observer': /usr/bin/cmake /home/autoware/Autoware/src/autoware/common/ros_observer -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/ros_observer
+Invoked command in '/home/autoware/Autoware/build/ros_observer' returned '-2': /usr/bin/cmake /home/autoware/Autoware/src/autoware/common/ros_observer -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/ros_observer

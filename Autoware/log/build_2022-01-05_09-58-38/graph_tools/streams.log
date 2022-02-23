@@ -1,0 +1,13 @@
+[0.499s] Invoking command in '/home/autoware/Autoware/build/graph_tools': /usr/bin/cmake --build /home/autoware/Autoware/build/graph_tools -- -j32 -l32
+[0.752s] Invoked command in '/home/autoware/Autoware/build/graph_tools' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/graph_tools -- -j32 -l32
+[0.875s] Invoking command in '/home/autoware/Autoware/build/graph_tools': /usr/bin/cmake --build /home/autoware/Autoware/build/graph_tools --target tests -- -j32 -l32
+[1.008s] Built target tests
+[1.030s] Invoked command in '/home/autoware/Autoware/build/graph_tools' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/graph_tools --target tests -- -j32 -l32
+[1.165s] Invoking command in '/home/autoware/Autoware/build/graph_tools': /usr/bin/cmake --build /home/autoware/Autoware/build/graph_tools --target install -- -j32 -l32
+[1.247s] Install the project...
+[1.248s] -- Install configuration: "Release"
+[1.248s] -- Up-to-date: /home/autoware/Autoware/install/graph_tools/lib/pkgconfig/graph_tools.pc
+[1.248s] -- Up-to-date: /home/autoware/Autoware/install/graph_tools/share/graph_tools/cmake/graph_toolsConfig.cmake
+[1.248s] -- Up-to-date: /home/autoware/Autoware/install/graph_tools/share/graph_tools/cmake/graph_toolsConfig-version.cmake
+[1.248s] -- Up-to-date: /home/autoware/Autoware/install/graph_tools/share/graph_tools/package.xml
+[1.549s] Invoked command in '/home/autoware/Autoware/build/graph_tools' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/graph_tools --target install -- -j32 -l32

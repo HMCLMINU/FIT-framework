@@ -1,0 +1,6 @@
+/home/autoware/Autoware/install/lidar_naive_l_shape_detect/lib/pkgconfig/lidar_naive_l_shape_detect.pc
+/home/autoware/Autoware/install/lidar_naive_l_shape_detect/share/lidar_naive_l_shape_detect/cmake/lidar_naive_l_shape_detectConfig.cmake
+/home/autoware/Autoware/install/lidar_naive_l_shape_detect/share/lidar_naive_l_shape_detect/cmake/lidar_naive_l_shape_detectConfig-version.cmake
+/home/autoware/Autoware/install/lidar_naive_l_shape_detect/share/lidar_naive_l_shape_detect/package.xml
+/home/autoware/Autoware/install/lidar_naive_l_shape_detect/lib/lidar_naive_l_shape_detect/lidar_naive_l_shape_detect
+/home/autoware/Autoware/install/lidar_naive_l_shape_detect/share/lidar_naive_l_shape_detect/launch/lidar_naive_l_shape_detect.launch

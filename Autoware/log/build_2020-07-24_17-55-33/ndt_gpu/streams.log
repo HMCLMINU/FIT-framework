@@ -1,0 +1,581 @@
+[0.014s] Invoking command in '/home/autoware/Autoware/build/ndt_gpu': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/ndt_gpu
+[0.097s] -- The C compiler identification is GNU 7.5.0
+[0.180s] -- The CXX compiler identification is GNU 7.5.0
+[0.186s] -- Check for working C compiler: /usr/bin/cc
+[0.268s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.269s] -- Detecting C compiler ABI info
+[0.356s] -- Detecting C compiler ABI info - done
+[0.360s] -- Detecting C compile features
+[0.608s] -- Detecting C compile features - done
+[0.612s] -- Check for working CXX compiler: /usr/bin/c++
+[0.708s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.709s] -- Detecting CXX compiler ABI info
+[0.804s] -- Detecting CXX compiler ABI info - done
+[0.809s] -- Detecting CXX compile features
+[1.231s] -- Detecting CXX compile features - done
+[1.234s] -- CUDA compilation status: ON.
+[1.236s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/ndt_gpu/devel
+[1.237s] -- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.237s] -- This workspace overlays: /home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.256s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.256s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.257s] -- Using Debian Python package layout
+[1.257s] -- Using empy: /usr/bin/empy
+[1.430s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.430s] -- Call enable_testing()
+[1.432s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/ndt_gpu/test_results
+[1.462s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.462s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.479s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.480s] -- Looking for pthread.h
+[1.571s] -- Looking for pthread.h - found
+[1.572s] -- Looking for pthread_create
+[1.660s] -- Looking for pthread_create - not found
+[1.660s] -- Looking for pthread_create in pthreads
+[1.733s] -- Looking for pthread_create in pthreads - not found
+[1.733s] -- Looking for pthread_create in pthread
+[1.816s] -- Looking for pthread_create in pthread - found
+[1.818s] -- Found Threads: TRUE  
+[1.823s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.871s] -- catkin 0.7.26
+[1.871s] -- BUILD_SHARED_LIBS is on
+[1.994s] -- Checking for module 'eigen3'
+[2.017s] --   Found eigen3, version 3.3.7
+[2.077s] -- Found eigen: /usr/local/include/eigen3  
+[2.161s] -- Boost version: 1.65.1
+[2.161s] -- Found the following Boost libraries:
+[2.161s] --   system
+[2.161s] --   filesystem
+[2.161s] --   thread
+[2.161s] --   date_time
+[2.161s] --   iostreams
+[2.161s] --   serialization
+[2.161s] --   chrono
+[2.161s] --   atomic
+[2.161s] --   regex
+[2.163s] -- Checking for module 'libopenni'
+[2.184s] --   Found libopenni, version 1.5.4.0
+[2.254s] -- Found openni: /usr/lib/libOpenNI.so  
+[2.255s] -- Checking for module 'libopenni2'
+[2.277s] --   Found libopenni2, version 2.2.0.3
+[2.341s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[2.346s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[2.347s] ** WARNING ** io features related to ensenso will be disabled
+[2.350s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[2.350s] ** WARNING ** io features related to davidSDK will be disabled
+[2.352s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[2.352s] ** WARNING ** io features related to dssdk will be disabled
+[2.352s] ** WARNING ** io features related to pcap will be disabled
+[2.353s] ** WARNING ** io features related to png will be disabled
+[2.432s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.432s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.432s] but this file does not exist.  Possible reasons include:
+[2.432s] * The file was deleted, renamed, or moved to another location.
+[2.432s] * An install or uninstall procedure did not complete successfully.
+[2.432s] * The installation package was faulty and contained
+[2.432s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[2.433s] but not all the files it references.
+[2.433s] 
+[2.434s] -- The imported target "vtk" references the file
+[2.434s]    "/usr/bin/vtk"
+[2.434s] but this file does not exist.  Possible reasons include:
+[2.434s] * The file was deleted, renamed, or moved to another location.
+[2.434s] * An install or uninstall procedure did not complete successfully.
+[2.434s] * The installation package was faulty and contained
+[2.434s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[2.434s] but not all the files it references.
+[2.434s] 
+[2.522s] -- Found libusb-1.0: /usr/include  
+[2.522s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[2.522s] -- Checking for module 'flann'
+[2.545s] --   Found flann, version 1.9.1
+[2.608s] -- Found Flann: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a  
+[2.655s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[2.655s] ** WARNING ** visualization features related to ensenso will be disabled
+[2.658s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[2.658s] ** WARNING ** visualization features related to davidSDK will be disabled
+[2.659s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[2.659s] ** WARNING ** visualization features related to dssdk will be disabled
+[2.660s] -- Could NOT find RSSDK (missing: _RSSDK_LIBRARIES) 
+[2.660s] ** WARNING ** visualization features related to rssdk will be disabled
+[2.700s] -- Found qhull: /usr/lib/x86_64-linux-gnu/libqhull.so  
+[2.740s] -- looking for PCL_COMMON
+[2.742s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.742s] -- looking for PCL_OCTREE
+[2.743s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.744s] -- looking for PCL_IO
+[2.745s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.745s] -- looking for PCL_KDTREE
+[2.747s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.747s] -- looking for PCL_SEARCH
+[2.748s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.749s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.750s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.751s] -- looking for PCL_FILTERS
+[2.752s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.753s] -- looking for PCL_2D
+[2.753s] -- Found PCL_2D: /usr/include/pcl-1.8  
+[2.754s] -- looking for PCL_GEOMETRY
+[2.755s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.8  
+[2.755s] -- looking for PCL_FEATURES
+[2.756s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.757s] -- looking for PCL_ML
+[2.758s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.759s] -- looking for PCL_SEGMENTATION
+[2.760s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.761s] -- looking for PCL_VISUALIZATION
+[2.762s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.763s] -- looking for PCL_SURFACE
+[2.764s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.765s] -- looking for PCL_REGISTRATION
+[2.766s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.767s] -- looking for PCL_KEYPOINTS
+[2.769s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.769s] -- looking for PCL_TRACKING
+[2.771s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.772s] -- looking for PCL_RECOGNITION
+[2.773s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.774s] -- looking for PCL_STEREO
+[2.776s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.776s] -- looking for PCL_APPS
+[2.777s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.781s] -- looking for PCL_IN_HAND_SCANNER
+[2.782s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.8  
+[2.782s] -- looking for PCL_MODELER
+[2.783s] -- Found PCL_MODELER: /usr/include/pcl-1.8  
+[2.783s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.784s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.8  
+[2.784s] -- looking for PCL_OUTOFCORE
+[2.785s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.786s] -- looking for PCL_PEOPLE
+[2.788s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.816s] -- Found PCL: /usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_common.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_common.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava;optimized;/usr/lib/x86_64-linux-gnu/libpcl_io.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_io.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;optimized;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_search.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_search.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_features.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_features.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_visualization.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_visualization.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_registration.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_registration.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_keypoints.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_keypoints.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_tracking.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_tracking.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_recognition.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_recognition.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_stereo.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_stereo.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_apps.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_apps.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_outofcore.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_outofcore.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_people.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_people.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava  
+[2.833s] -- Found CUDA: /usr/local/cuda (found version "10.0") 
+[3.230s] -- Configuring done
+[3.354s] -- Generating done
+[3.357s] -- Build files have been written to: /home/autoware/Autoware/build/ndt_gpu
+[3.367s] Invoked command in '/home/autoware/Autoware/build/ndt_gpu' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/ndt_gpu
+[3.371s] Invoking command in '/home/autoware/Autoware/build/ndt_gpu': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_gpu -- -j2 -l2
+[3.424s] [ 14%] Building NVCC (Device) object CMakeFiles/ndt_gpu.dir/src/ndt_gpu_generated_SymmetricEigenSolver.cu.o
+[4.246s] ptxas info    : 0 bytes gmem
+[4.586s] [ 28%] Building NVCC (Device) object CMakeFiles/ndt_gpu.dir/src/ndt_gpu_generated_MatrixDevice.cu.o
+[5.112s] ptxas info    : 0 bytes gmem
+[5.418s] [ 42%] Building NVCC (Device) object CMakeFiles/ndt_gpu.dir/src/ndt_gpu_generated_MatrixHost.cu.o
+[6.233s] ptxas info    : 0 bytes gmem
+[6.233s] ptxas info    : Compiling entry function 'copyMatrixDevToDev' for 'sm_52'
+[6.233s] ptxas info    : Function properties for copyMatrixDevToDev
+[6.233s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[6.234s] ptxas info    : Used 7 registers, 368 bytes cmem[0]
+[6.993s] [ 57%] Building NVCC (Device) object CMakeFiles/ndt_gpu.dir/src/ndt_gpu_generated_NormalDistributionsTransform.cu.o
+[7.154s] In file included from /usr/local/include/eigen3/Eigen/Core:257:0,
+[7.154s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[7.154s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/Registration.h:10,
+[7.154s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/NormalDistributionsTransform.h:6,
+[7.155s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/src/NormalDistributionsTransform.cu:1:
+[7.155s] /usr/local/cuda/include/host_defines.h:54:2: warning: #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+[7.155s]  #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[7.155s]   ^~~~~~~
+[8.592s] In file included from /usr/local/include/eigen3/Eigen/Core:257:0,
+[8.592s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[8.592s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/Registration.h:10,
+[8.592s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/NormalDistributionsTransform.h:6,
+[8.592s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/src/NormalDistributionsTransform.cu:1:
+[8.593s] /usr/local/cuda/include/host_defines.h:54:2: warning: #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+[8.593s]  #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[8.593s]   ^~~~~~~
+[10.179s] In file included from /usr/local/include/eigen3/Eigen/Core:257:0,
+[10.180s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[10.180s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/Registration.h:10,
+[10.180s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/NormalDistributionsTransform.h:6,
+[10.180s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/src/NormalDistributionsTransform.cu:1:
+[10.180s] /usr/local/cuda/include/host_defines.h:54:2: warning: #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+[10.180s]  #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[10.180s]   ^~~~~~~
+[20.846s] ptxas info    : 12 bytes gmem
+[20.846s] ptxas info    : Compiling entry function '_ZN3gpu6gpuSumIiEEvPT_ii' for 'sm_52'
+[20.847s] ptxas info    : Function properties for _ZN3gpu6gpuSumIiEEvPT_ii
+[20.847s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[20.847s] ptxas info    : Used 10 registers, 336 bytes cmem[0]
+[20.847s] ptxas info    : Compiling entry function '_ZN3gpu6gpuSumIdEEvPT_ii' for 'sm_52'
+[20.847s] ptxas info    : Function properties for _ZN3gpu6gpuSumIdEEvPT_ii
+[20.847s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[20.847s] ptxas info    : Used 11 registers, 336 bytes cmem[0]
+[20.847s] ptxas info    : Compiling entry function '_ZN3gpu12gpuTransformEPfS0_S0_S0_S0_S0_iNS_12MatrixDeviceE' for 'sm_52'
+[20.847s] ptxas info    : Function properties for _ZN3gpu12gpuTransformEPfS0_S0_S0_S0_S0_iNS_12MatrixDeviceE
+[20.847s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[20.847s] ptxas info    : Used 40 registers, 400 bytes cmem[0]
+[20.847s] ptxas info    : Compiling entry function '_ZN3gpu8sumScoreEPdii' for 'sm_52'
+[20.847s] ptxas info    : Function properties for _ZN3gpu8sumScoreEPdii
+[20.847s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[20.848s] ptxas info    : Used 12 registers, 336 bytes cmem[0]
+[20.848s] ptxas info    : Compiling entry function '_ZN3gpu9matrixSumEPdiiiii' for 'sm_52'
+[20.848s] ptxas info    : Function properties for _ZN3gpu9matrixSumEPdiiiii
+[20.848s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[20.848s] ptxas info    : Used 13 registers, 348 bytes cmem[0]
+[20.848s] ptxas info    : Compiling entry function '_ZN3gpu20computeHessianListS2EPfS0_S0_PiS1_S1_iPdS2_S2_dS2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_i' for 'sm_52'
+[20.848s] ptxas info    : Function properties for _ZN3gpu20computeHessianListS2EPfS0_S0_PiS1_S1_iPdS2_S2_dS2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_i
+[20.848s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[20.848s] ptxas info    : Used 40 registers, 508 bytes cmem[0]
+[20.848s] ptxas info    : Compiling entry function '_ZN3gpu20computeHessianListS1EPfS0_S0_PiS1_S1_iPdS2_S2_ddS2_S2_S2_S2_S2_i' for 'sm_52'
+[20.848s] ptxas info    : Function properties for _ZN3gpu20computeHessianListS1EPfS0_S0_PiS1_S1_iPdS2_S2_ddS2_S2_S2_S2_S2_i
+[20.848s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[20.848s] ptxas info    : Used 55 registers, 460 bytes cmem[0]
+[20.848s] ptxas info    : Compiling entry function '_ZN3gpu20computeHessianListS0EPfS0_S0_PiS1_S1_iPdS2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_i' for 'sm_52'
+[20.848s] ptxas info    : Function properties for _ZN3gpu20computeHessianListS0EPfS0_S0_PiS1_S1_iPdS2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_i
+[20.849s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[20.849s] ptxas info    : Used 32 registers, 492 bytes cmem[0]
+[20.849s] ptxas info    : Compiling entry function '_ZN3gpu15computeCovDxdPiEPiS0_S0_iPdiddS1_S1_i' for 'sm_52'
+[20.849s] ptxas info    : Function properties for _ZN3gpu15computeCovDxdPiEPiS0_S0_iPdiddS1_S1_i
+[20.849s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[20.849s] ptxas info    : Used 32 registers, 404 bytes cmem[0]
+[20.849s] ptxas info    : Compiling entry function '_ZN3gpu12updateExCovXEPddi' for 'sm_52'
+[20.849s] ptxas info    : Function properties for _ZN3gpu12updateExCovXEPddi
+[20.849s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[20.849s] ptxas info    : Used 8 registers, 340 bytes cmem[0]
+[20.849s] ptxas info    : Compiling entry function '_ZN3gpu13computeExCovXEPfS0_S0_PiS1_S1_iPdS2_S2_ddS2_S2_S2_S2_S2_S2_S2_S2_S2_S2_' for 'sm_52'
+[20.849s] ptxas info    : Function properties for _ZN3gpu13computeExCovXEPfS0_S0_PiS1_S1_iPdS2_S2_ddS2_S2_S2_S2_S2_S2_S2_S2_S2_S2_
+[20.849s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[20.849s] ptxas info    : Used 32 registers, 496 bytes cmem[0], 112 bytes cmem[2]
+[20.849s] ptxas info    : Compiling entry function '_ZN3gpu24computeScoreGradientListEPfS0_S0_PiS1_S1_iPdS2_S2_iS2_S2_diS2_' for 'sm_52'
+[20.849s] ptxas info    : Function properties for _ZN3gpu24computeScoreGradientListEPfS0_S0_PiS1_S1_iPdS2_S2_iS2_S2_diS2_
+[20.850s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[20.850s] ptxas info    : Used 40 registers, 448 bytes cmem[0]
+[20.850s] ptxas info    : Compiling entry function '_ZN3gpu16computeScoreListEPiS0_iPddS1_' for 'sm_52'
+[20.850s] ptxas info    : Function properties for _ZN3gpu16computeScoreListEPiS0_iPddS1_
+[20.850s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[20.850s] ptxas info    : Used 32 registers, 368 bytes cmem[0]
+[20.850s] ptxas info    : Compiling entry function '_ZN3gpu20computePointHessian2EPfS0_S0_iPiiPdS2_S2_S2_' for 'sm_52'
+[20.850s] ptxas info    : Function properties for _ZN3gpu20computePointHessian2EPfS0_S0_iPiiPdS2_S2_S2_
+[20.850s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[20.850s] ptxas info    : Used 32 registers, 72 bytes smem, 400 bytes cmem[0]
+[20.850s] ptxas info    : Compiling entry function '_ZN3gpu20computePointHessian1EPfS0_S0_iPiiPdS2_S2_S2_S2_S2_S2_S2_S2_S2_' for 'sm_52'
+[20.850s] ptxas info    : Function properties for _ZN3gpu20computePointHessian1EPfS0_S0_iPiiPdS2_S2_S2_S2_S2_S2_S2_S2_S2_
+[20.850s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[20.850s] ptxas info    : Used 56 registers, 144 bytes smem, 448 bytes cmem[0]
+[20.850s] ptxas info    : Compiling entry function '_ZN3gpu20computePointHessian0EPfS0_S0_iPiiPdS2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_' for 'sm_52'
+[20.850s] ptxas info    : Function properties for _ZN3gpu20computePointHessian0EPfS0_S0_iPiiPdS2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_S2_
+[20.850s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[20.851s] ptxas info    : Used 56 registers, 144 bytes smem, 496 bytes cmem[0]
+[20.851s] ptxas info    : Compiling entry function '_ZN3gpu22computePointGradients1EPfS0_S0_iPiiPdS2_S2_S2_S2_' for 'sm_52'
+[20.851s] ptxas info    : Function properties for _ZN3gpu22computePointGradients1EPfS0_S0_iPiiPdS2_S2_S2_S2_
+[20.851s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[20.851s] ptxas info    : Used 40 registers, 96 bytes smem, 408 bytes cmem[0]
+[20.851s] ptxas info    : Compiling entry function '_ZN3gpu22computePointGradients0EPfS0_S0_iPiiPdS2_S2_S2_S2_S2_S2_S2_' for 'sm_52'
+[20.851s] ptxas info    : Function properties for _ZN3gpu22computePointGradients0EPfS0_S0_iPiiPdS2_S2_S2_S2_S2_S2_S2_
+[20.851s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[20.851s] ptxas info    : Used 40 registers, 96 bytes smem, 432 bytes cmem[0]
+[20.974s] In file included from /usr/local/include/eigen3/Eigen/Core:257:0,
+[20.974s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[20.974s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/Registration.h:10,
+[20.974s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/NormalDistributionsTransform.h:6,
+[20.974s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/src/NormalDistributionsTransform.cu:1:
+[20.975s] /usr/local/cuda/include/host_defines.h:54:2: warning: #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+[20.975s]  #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[20.975s]   ^~~~~~~
+[37.751s] [ 71%] Building NVCC (Device) object CMakeFiles/ndt_gpu.dir/src/ndt_gpu_generated_Registration.cu.o
+[37.916s] In file included from /usr/local/include/eigen3/Eigen/Core:257:0,
+[37.916s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[37.916s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/Registration.h:10,
+[37.916s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/src/Registration.cu:1:
+[37.916s] /usr/local/cuda/include/host_defines.h:54:2: warning: #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+[37.916s]  #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[37.916s]   ^~~~~~~
+[39.034s] In file included from /usr/local/include/eigen3/Eigen/Core:257:0,
+[39.034s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[39.034s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/Registration.h:10,
+[39.034s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/src/Registration.cu:1:
+[39.034s] /usr/local/cuda/include/host_defines.h:54:2: warning: #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+[39.034s]  #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[39.034s]   ^~~~~~~
+[40.297s] In file included from /usr/local/include/eigen3/Eigen/Core:257:0,
+[40.297s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[40.297s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/Registration.h:10,
+[40.297s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/src/Registration.cu:1:
+[40.297s] /usr/local/cuda/include/host_defines.h:54:2: warning: #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+[40.297s]  #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[40.297s]   ^~~~~~~
+[43.033s] ptxas info    : 0 bytes gmem
+[43.033s] ptxas info    : Compiling entry function '_ZN3gpu12convertInputIN3pcl8PointXYZEEEvPT_PfS5_S5_i' for 'sm_52'
+[43.034s] ptxas info    : Function properties for _ZN3gpu12convertInputIN3pcl8PointXYZEEEvPT_PfS5_S5_i
+[43.034s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[43.034s] ptxas info    : Used 14 registers, 356 bytes cmem[0]
+[43.034s] ptxas info    : Compiling entry function '_ZN3gpu12convertInputIN3pcl9PointXYZIEEEvPT_PfS5_S5_i' for 'sm_52'
+[43.034s] ptxas info    : Function properties for _ZN3gpu12convertInputIN3pcl9PointXYZIEEEvPT_PfS5_S5_i
+[43.034s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[43.034s] ptxas info    : Used 14 registers, 356 bytes cmem[0]
+[43.151s] In file included from /usr/local/include/eigen3/Eigen/Core:257:0,
+[43.151s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[43.151s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/include/ndt_gpu/Registration.h:10,
+[43.152s]                  from /home/autoware/Autoware/src/autoware/core_perception/ndt_gpu/src/Registration.cu:1:
+[43.152s] /usr/local/cuda/include/host_defines.h:54:2: warning: #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead." [-Wcpp]
+[43.152s]  #warning "host_defines.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead."
+[43.152s]   ^~~~~~~
+[48.133s] [ 85%] Building NVCC (Device) object CMakeFiles/ndt_gpu.dir/src/ndt_gpu_generated_VoxelGrid.cu.o
+[51.440s] ptxas info    : 14 bytes gmem, 272 bytes cmem[3]
+[51.440s] ptxas info    : Compiling entry function '_ZN6thrust8cuda_cub4core13_kernel_agentINS0_14__parallel_for16ParallelForAgentINS0_11__transform17unary_transform_fINS_10device_ptrIiEEPiNS5_14no_stencil_tagENS_8identityIiEENS5_21always_true_predicateEEElEESE_lEEvT0_T1_' for 'sm_52'
+[51.440s] ptxas info    : Function properties for _ZN6thrust8cuda_cub4core13_kernel_agentINS0_14__parallel_for16ParallelForAgentINS0_11__transform17unary_transform_fINS_10device_ptrIiEEPiNS5_14no_stencil_tagENS_8identityIiEENS5_21always_true_predicateEEElEESE_lEEvT0_T1_
+[51.440s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.440s] ptxas info    : Used 8 registers, 352 bytes cmem[0]
+[51.440s] ptxas info    : Compiling entry function '_ZN6thrust8cuda_cub4core13_kernel_agentINS0_14__parallel_for16ParallelForAgentINS0_11__transform17unary_transform_fIPKiNS_10device_ptrIiEENS5_14no_stencil_tagENS_8identityIiEENS5_21always_true_predicateEEElEESF_lEEvT0_T1_' for 'sm_52'
+[51.440s] ptxas info    : Function properties for _ZN6thrust8cuda_cub4core13_kernel_agentINS0_14__parallel_for16ParallelForAgentINS0_11__transform17unary_transform_fIPKiNS_10device_ptrIiEENS5_14no_stencil_tagENS_8identityIiEENS5_21always_true_predicateEEElEESF_lEEvT0_T1_
+[51.440s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.440s] ptxas info    : Used 12 registers, 352 bytes cmem[0]
+[51.441s] ptxas info    : Compiling entry function '_ZN6thrust8cuda_cub4core13_kernel_agentINS0_6__scan9ScanAgentINS_10device_ptrIiEES6_NS_4plusIiEEiiNS_6detail17integral_constantIbLb0EEEEES6_S6_S8_iNS0_3cub13ScanTileStateIiLb1EEENS3_22AddInitToExclusiveScanIiS8_EEEEvT0_T1_T2_T3_T4_T5_' for 'sm_52'
+[51.441s] ptxas info    : Function properties for _ZN6thrust8cuda_cub4core13_kernel_agentINS0_6__scan9ScanAgentINS_10device_ptrIiEES6_NS_4plusIiEEiiNS_6detail17integral_constantIbLb0EEEEES6_S6_S8_iNS0_3cub13ScanTileStateIiLb1EEENS3_22AddInitToExclusiveScanIiS8_EEEEvT0_T1_T2_T3_T4_T5_
+[51.441s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.441s] ptxas info    : Used 47 registers, 360 bytes cmem[0], 4 bytes cmem[2]
+[51.441s] ptxas info    : Compiling entry function '_ZN6thrust8cuda_cub4core13_kernel_agentINS0_6__scan9InitAgentINS0_3cub13ScanTileStateIiLb1EEEiEES7_iEEvT0_T1_' for 'sm_52'
+[51.441s] ptxas info    : Function properties for _ZN6thrust8cuda_cub4core13_kernel_agentINS0_6__scan9InitAgentINS0_3cub13ScanTileStateIiLb1EEEiEES7_iEEvT0_T1_
+[51.441s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.441s] ptxas info    : Used 10 registers, 332 bytes cmem[0]
+[51.441s] ptxas info    : Compiling entry function '_ZN6thrust8cuda_cub3cub11EmptyKernelIvEEvv' for 'sm_52'
+[51.441s] ptxas info    : Function properties for _ZN6thrust8cuda_cub3cub11EmptyKernelIvEEvv
+[51.441s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.441s] ptxas info    : Used 2 registers, 320 bytes cmem[0]
+[51.441s] ptxas info    : Compiling entry function 'verifyDistances' for 'sm_52'
+[51.441s] ptxas info    : Function properties for verifyDistances
+[51.441s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.441s] ptxas info    : Used 11 registers, 348 bytes cmem[0]
+[51.442s] ptxas info    : Compiling entry function 'nearestPointSearch' for 'sm_52'
+[51.442s] ptxas info    : Function properties for nearestPointSearch
+[51.442s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.442s] ptxas info    : Used 28 registers, 448 bytes cmem[0], 16 bytes cmem[2]
+[51.442s] ptxas info    : Compiling entry function 'nearestOctreeNodeSearch' for 'sm_52'
+[51.442s] ptxas info    : Function properties for nearestOctreeNodeSearch
+[51.442s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.442s] ptxas info    : Used 56 registers, 408 bytes cmem[0], 20 bytes cmem[2]
+[51.442s] ptxas info    : Compiling entry function 'scatterPointsToVoxels' for 'sm_52'
+[51.442s] ptxas info    : Function properties for scatterPointsToVoxels
+[51.442s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.442s] ptxas info    : Used 19 registers, 408 bytes cmem[0], 12 bytes cmem[2]
+[51.442s] ptxas info    : Compiling entry function 'insertPointsToGrid' for 'sm_52'
+[51.442s] ptxas info    : Function properties for insertPointsToGrid
+[51.442s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.442s] ptxas info    : Used 19 registers, 400 bytes cmem[0], 12 bytes cmem[2]
+[51.443s] ptxas info    : Compiling entry function 'buildParent' for 'sm_52'
+[51.443s] ptxas info    : Function properties for buildParent
+[51.443s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.443s] ptxas info    : Used 32 registers, 380 bytes cmem[0], 32 bytes cmem[2]
+[51.443s] ptxas info    : Compiling entry function 'collectValidVoxelCount' for 'sm_52'
+[51.443s] ptxas info    : Function properties for collectValidVoxelCount
+[51.443s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.443s] ptxas info    : Used 10 registers, 348 bytes cmem[0]
+[51.443s] ptxas info    : Compiling entry function 'collectValidVoxels' for 'sm_52'
+[51.443s] ptxas info    : Function properties for collectValidVoxels
+[51.443s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.443s] ptxas info    : Used 11 registers, 356 bytes cmem[0]
+[51.443s] ptxas info    : Compiling entry function 'inspectCandidateVoxels' for 'sm_52'
+[51.443s] ptxas info    : Function properties for inspectCandidateVoxels
+[51.443s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.444s] ptxas info    : Used 39 registers, 424 bytes cmem[0], 20 bytes cmem[2]
+[51.444s] ptxas info    : Compiling entry function 'updateCandidateVoxelIds' for 'sm_52'
+[51.444s] ptxas info    : Function properties for updateCandidateVoxelIds
+[51.444s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.444s] ptxas info    : Used 32 registers, 400 bytes cmem[0]
+[51.444s] ptxas info    : Compiling entry function 'collectValidPoints' for 'sm_52'
+[51.444s] ptxas info    : Function properties for collectValidPoints
+[51.444s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.444s] ptxas info    : Used 11 registers, 348 bytes cmem[0]
+[51.444s] ptxas info    : Compiling entry function 'findBoundariesOfCandidateVoxels' for 'sm_52'
+[51.444s] ptxas info    : Function properties for findBoundariesOfCandidateVoxels
+[51.444s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.444s] ptxas info    : Used 27 registers, 448 bytes cmem[0], 12 bytes cmem[2]
+[51.444s] ptxas info    : Compiling entry function 'findMin' for 'sm_52'
+[51.445s] ptxas info    : Function properties for findMin
+[51.445s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.445s] ptxas info    : Used 17 registers, 352 bytes cmem[0]
+[51.445s] ptxas info    : Compiling entry function 'findMax' for 'sm_52'
+[51.445s] ptxas info    : Function properties for findMax
+[51.445s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.445s] ptxas info    : Used 17 registers, 352 bytes cmem[0]
+[51.445s] ptxas info    : Compiling entry function 'updateEval2' for 'sm_52'
+[51.445s] ptxas info    : Function properties for updateEval2
+[51.445s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.445s] ptxas info    : Used 20 registers, 344 bytes cmem[0], 8 bytes cmem[2]
+[51.445s] ptxas info    : Compiling entry function 'updateEval' for 'sm_52'
+[51.445s] ptxas info    : Function properties for updateEval
+[51.445s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.445s] ptxas info    : Used 20 registers, 408 bytes cmem[0]
+[51.445s] ptxas info    : Compiling entry function 'computeEvec2' for 'sm_52'
+[51.446s] ptxas info    : Function properties for computeEvec2
+[51.446s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.446s] ptxas info    : Used 32 registers, 408 bytes cmem[0]
+[51.446s] ptxas info    : Compiling entry function 'computeEvec11' for 'sm_52'
+[51.446s] ptxas info    : Function properties for computeEvec11
+[51.446s]     16 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.446s] ptxas info    : Used 40 registers, 408 bytes cmem[0], 52 bytes cmem[2]
+[51.446s] ptxas info    : Compiling entry function 'computeEvec10' for 'sm_52'
+[51.446s] ptxas info    : Function properties for computeEvec10
+[51.446s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.446s] ptxas info    : Used 48 registers, 408 bytes cmem[0], 28 bytes cmem[2]
+[51.446s] ptxas info    : Compiling entry function 'computeEvec01' for 'sm_52'
+[51.446s] ptxas info    : Function properties for computeEvec01
+[51.446s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.446s] ptxas info    : Used 40 registers, 408 bytes cmem[0], 44 bytes cmem[2]
+[51.447s] ptxas info    : Compiling entry function 'computeEvec00' for 'sm_52'
+[51.447s] ptxas info    : Function properties for computeEvec00
+[51.447s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.447s] ptxas info    : Used 56 registers, 408 bytes cmem[0]
+[51.447s] ptxas info    : Compiling entry function 'computeEigenvalues' for 'sm_52'
+[51.447s] ptxas info    : Function properties for computeEigenvalues
+[51.447s]     48 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.447s] ptxas info    : Used 55 registers, 408 bytes cmem[0], 332 bytes cmem[2]
+[51.447s] ptxas info    : Function properties for __internal_trig_reduction_slowpathd
+[51.447s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.447s] ptxas info    : Compiling entry function 'normalize' for 'sm_52'
+[51.447s] ptxas info    : Function properties for normalize
+[51.447s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.447s] ptxas info    : Used 56 registers, 408 bytes cmem[0], 20 bytes cmem[2]
+[51.447s] ptxas info    : Compiling entry function 'initBoolean' for 'sm_52'
+[51.447s] ptxas info    : Function properties for initBoolean
+[51.448s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.448s] ptxas info    : Used 8 registers, 332 bytes cmem[0]
+[51.448s] ptxas info    : Compiling entry function 'computeInverseCovariance' for 'sm_52'
+[51.448s] ptxas info    : Function properties for computeInverseCovariance
+[51.448s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.448s] ptxas info    : Used 40 registers, 352 bytes cmem[0], 20 bytes cmem[2]
+[51.448s] ptxas info    : Compiling entry function 'updateCovarianceS1' for 'sm_52'
+[51.448s] ptxas info    : Function properties for updateCovarianceS1
+[51.456s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.456s] ptxas info    : Used 32 registers, 368 bytes cmem[0]
+[51.456s] ptxas info    : Compiling entry function 'updateCovarianceS0' for 'sm_52'
+[51.457s] ptxas info    : Function properties for updateCovarianceS0
+[51.457s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.457s] ptxas info    : Used 26 registers, 356 bytes cmem[0]
+[51.457s] ptxas info    : Compiling entry function 'computeInverseEigenvectors' for 'sm_52'
+[51.457s] ptxas info    : Function properties for computeInverseEigenvectors
+[51.457s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.457s] ptxas info    : Used 40 registers, 356 bytes cmem[0], 20 bytes cmem[2]
+[51.457s] ptxas info    : Compiling entry function 'updateVoxelCovariance' for 'sm_52'
+[51.457s] ptxas info    : Function properties for updateVoxelCovariance
+[51.457s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.457s] ptxas info    : Used 48 registers, 360 bytes cmem[0], 32 bytes cmem[2]
+[51.457s] ptxas info    : Compiling entry function 'updateVoxelCentroid' for 'sm_52'
+[51.457s] ptxas info    : Function properties for updateVoxelCentroid
+[51.457s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.457s] ptxas info    : Used 30 registers, 340 bytes cmem[0], 32 bytes cmem[2]
+[51.457s] ptxas info    : Compiling entry function 'initCentroidAndCovariance' for 'sm_52'
+[51.457s] ptxas info    : Function properties for initCentroidAndCovariance
+[51.458s]     0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+[51.458s] ptxas info    : Used 46 registers, 380 bytes cmem[0], 8 bytes cmem[2]
+[54.696s] Scanning dependencies of target ndt_gpu
+[54.717s] [100%] Linking CXX shared library devel/lib/libndt_gpu.so
+[55.402s] [100%] Built target ndt_gpu
+[55.418s] Invoked command in '/home/autoware/Autoware/build/ndt_gpu' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_gpu -- -j2 -l2
+[55.459s] Invoking command in '/home/autoware/Autoware/build/ndt_gpu': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_gpu --target tests -- -j2 -l2
+[55.497s] -- CUDA compilation status: ON.
+[55.498s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/ndt_gpu/devel
+[55.498s] -- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[55.499s] -- This workspace overlays: /home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[55.518s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[55.519s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[55.519s] -- Using Debian Python package layout
+[55.519s] -- Using empy: /usr/bin/empy
+[55.692s] -- Using CATKIN_ENABLE_TESTING: ON
+[55.693s] -- Call enable_testing()
+[55.693s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/ndt_gpu/test_results
+[55.719s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[55.720s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[55.740s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[55.744s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[55.793s] -- catkin 0.7.26
+[55.793s] -- BUILD_SHARED_LIBS is on
+[55.940s] -- Boost version: 1.65.1
+[55.940s] -- Found the following Boost libraries:
+[55.941s] --   system
+[55.941s] --   filesystem
+[55.941s] --   thread
+[55.941s] --   date_time
+[55.941s] --   iostreams
+[55.942s] --   serialization
+[55.942s] --   chrono
+[55.942s] --   atomic
+[55.942s] --   regex
+[55.950s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[55.951s] ** WARNING ** io features related to ensenso will be disabled
+[55.954s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[55.955s] ** WARNING ** io features related to davidSDK will be disabled
+[55.956s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[55.957s] ** WARNING ** io features related to dssdk will be disabled
+[55.957s] ** WARNING ** io features related to pcap will be disabled
+[55.958s] ** WARNING ** io features related to png will be disabled
+[56.025s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[56.025s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[56.025s] but this file does not exist.  Possible reasons include:
+[56.025s] * The file was deleted, renamed, or moved to another location.
+[56.025s] * An install or uninstall procedure did not complete successfully.
+[56.025s] * The installation package was faulty and contained
+[56.025s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[56.025s] but not all the files it references.
+[56.025s] 
+[56.026s] -- The imported target "vtk" references the file
+[56.026s]    "/usr/bin/vtk"
+[56.026s] but this file does not exist.  Possible reasons include:
+[56.026s] * The file was deleted, renamed, or moved to another location.
+[56.027s] * An install or uninstall procedure did not complete successfully.
+[56.027s] * The installation package was faulty and contained
+[56.027s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[56.027s] but not all the files it references.
+[56.027s] 
+[56.108s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[56.158s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[56.158s] ** WARNING ** visualization features related to ensenso will be disabled
+[56.161s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[56.162s] ** WARNING ** visualization features related to davidSDK will be disabled
+[56.163s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[56.164s] ** WARNING ** visualization features related to dssdk will be disabled
+[56.165s] -- Could NOT find RSSDK (missing: _RSSDK_LIBRARIES) 
+[56.165s] ** WARNING ** visualization features related to rssdk will be disabled
+[56.246s] -- looking for PCL_COMMON
+[56.247s] -- looking for PCL_OCTREE
+[56.248s] -- looking for PCL_IO
+[56.250s] -- looking for PCL_KDTREE
+[56.251s] -- looking for PCL_SEARCH
+[56.252s] -- looking for PCL_SAMPLE_CONSENSUS
+[56.254s] -- looking for PCL_FILTERS
+[56.255s] -- looking for PCL_2D
+[56.256s] -- looking for PCL_GEOMETRY
+[56.257s] -- looking for PCL_FEATURES
+[56.259s] -- looking for PCL_ML
+[56.260s] -- looking for PCL_SEGMENTATION
+[56.262s] -- looking for PCL_VISUALIZATION
+[56.263s] -- looking for PCL_SURFACE
+[56.264s] -- looking for PCL_REGISTRATION
+[56.266s] -- looking for PCL_KEYPOINTS
+[56.268s] -- looking for PCL_TRACKING
+[56.269s] -- looking for PCL_RECOGNITION
+[56.272s] -- looking for PCL_STEREO
+[56.273s] -- looking for PCL_APPS
+[56.278s] -- looking for PCL_IN_HAND_SCANNER
+[56.279s] -- looking for PCL_MODELER
+[56.280s] -- looking for PCL_POINT_CLOUD_EDITOR
+[56.281s] -- looking for PCL_OUTOFCORE
+[56.283s] -- looking for PCL_PEOPLE
+[56.749s] -- Configuring done
+[56.944s] -- Generating done
+[56.948s] -- Build files have been written to: /home/autoware/Autoware/build/ndt_gpu
+[56.994s] Scanning dependencies of target tests
+[57.006s] Built target tests
+[57.022s] Invoked command in '/home/autoware/Autoware/build/ndt_gpu' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_gpu --target tests -- -j2 -l2
+[57.060s] Invoking command in '/home/autoware/Autoware/build/ndt_gpu': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_gpu --target install -- -j2 -l2
+[57.242s] [ 14%] Linking CXX shared library devel/lib/libndt_gpu.so
+[57.897s] [100%] Built target ndt_gpu
+[57.921s] Install the project...
+[57.932s] -- Install configuration: "Release"
+[57.932s] -- Installing: /home/autoware/Autoware/install/ndt_gpu/lib/pkgconfig/ndt_gpu.pc
+[57.933s] -- Installing: /home/autoware/Autoware/install/ndt_gpu/share/ndt_gpu/cmake/ndt_gpuConfig.cmake
+[57.933s] -- Installing: /home/autoware/Autoware/install/ndt_gpu/share/ndt_gpu/cmake/ndt_gpuConfig-version.cmake
+[57.934s] -- Installing: /home/autoware/Autoware/install/ndt_gpu/share/ndt_gpu/package.xml
+[57.934s] -- Installing: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu
+[57.934s] -- Installing: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu/VoxelGrid.h
+[57.935s] -- Installing: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu/SymmetricEigenSolver.h
+[57.935s] -- Installing: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu/Matrix.h
+[57.935s] -- Installing: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu/MatrixHost.h
+[57.936s] -- Installing: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu/debug.h
+[57.936s] -- Installing: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu/MatrixDevice.h
+[57.937s] -- Installing: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu/Registration.h
+[57.937s] -- Installing: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu/NormalDistributionsTransform.h
+[57.937s] -- Installing: /home/autoware/Autoware/install/ndt_gpu/include/ndt_gpu/common.h
+[57.938s] -- Installing: /home/autoware/Autoware/install/ndt_gpu/lib/libndt_gpu.so
+[57.940s] -- Set runtime path of "/home/autoware/Autoware/install/ndt_gpu/lib/libndt_gpu.so" to ""
+[57.952s] Invoked command in '/home/autoware/Autoware/build/ndt_gpu' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_gpu --target install -- -j2 -l2

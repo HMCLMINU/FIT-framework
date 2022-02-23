@@ -1,0 +1,13 @@
+In file included from [01m[K/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/src/vision_darknet_detect_node.cpp:21:0[m[K:
+[01m[K/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/src/vision_darknet_detect.h:101:37:[m[K [01;31m[Kerror: [m[Kstorage class specified for ‘[01m[Kfault_flag_[m[K’
+     extern int                      [01;31m[Kfault_flag_[m[K;
+                                     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/src/vision_darknet_detect.cpp:22:0[m[K:
+[01m[K/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/src/vision_darknet_detect.h:101:37:[m[K [01;31m[Kerror: [m[Kstorage class specified for ‘[01m[Kfault_flag_[m[K’
+     extern int                      [01;31m[Kfault_flag_[m[K;
+                                     [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/vision_darknet_detect.dir/src/vision_darknet_detect_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/vision_darknet_detect.dir/src/vision_darknet_detect.cpp.o] Error 1
+make[1]: *** [CMakeFiles/vision_darknet_detect.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,79 @@
+[0.335s] Invoking command in '/home/autoware/Autoware/build/kvaser': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_can_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_can_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/kvaser -- -j32 -l32
+[0.504s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[0.505s] [  0%] Built target roscpp_generate_messages_lisp
+[0.505s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[0.505s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[0.505s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[0.506s] [  0%] Built target std_msgs_generate_messages_eus
+[0.506s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[0.506s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.508s] [  0%] Built target roscpp_generate_messages_cpp
+[0.508s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.508s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.508s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.509s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.509s] [  0%] Built target roscpp_generate_messages_eus
+[0.509s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[0.509s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.509s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.510s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.510s] [  0%] Built target visualization_msgs_generate_messages_eus
+[0.510s] [  0%] Built target visualization_msgs_generate_messages_py
+[0.511s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.511s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.512s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.512s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[0.512s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[0.513s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.513s] [  0%] Built target std_msgs_generate_messages_py
+[0.513s] [  0%] Built target roscpp_generate_messages_py
+[0.514s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.514s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.542s] [ 50%] Built target can_draw
+[0.542s] [100%] Built target can_converter
+[0.576s] Invoked command in '/home/autoware/Autoware/build/kvaser' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_can_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_can_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/kvaser -- -j32 -l32
+[0.741s] Invoking command in '/home/autoware/Autoware/build/kvaser': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_can_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_can_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/kvaser --target tests -- -j32 -l32
+[0.920s] Built target tests
+[0.933s] Invoked command in '/home/autoware/Autoware/build/kvaser' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_can_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_can_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/kvaser --target tests -- -j32 -l32
+[1.203s] Invoking command in '/home/autoware/Autoware/build/kvaser': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_can_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_can_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/kvaser --target install -- -j32 -l32
+[1.589s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[1.589s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.591s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[1.591s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[1.592s] [  0%] Built target roscpp_generate_messages_cpp
+[1.592s] [  0%] Built target roscpp_generate_messages_lisp
+[1.592s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.592s] [  0%] Built target std_msgs_generate_messages_eus
+[1.593s] [  0%] Built target roscpp_generate_messages_py
+[1.593s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[1.593s] [  0%] Built target std_msgs_generate_messages_py
+[1.593s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[1.593s] [  0%] Built target visualization_msgs_generate_messages_py
+[1.594s] [  0%] Built target geometry_msgs_generate_messages_py
+[1.594s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.594s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[1.594s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[1.594s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[1.595s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[1.596s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[1.596s] [  0%] Built target roscpp_generate_messages_eus
+[1.596s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[1.596s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[1.597s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[1.597s] [  0%] Built target geometry_msgs_generate_messages_eus
+[1.597s] [  0%] Built target visualization_msgs_generate_messages_eus
+[1.597s] [  0%] Built target roscpp_generate_messages_nodejs
+[1.597s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.598s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[1.598s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[1.599s] [ 50%] Built target can_draw
+[1.599s] [100%] Built target can_converter
+[1.599s] Install the project...
+[1.599s] -- Install configuration: "Release"
+[1.599s] -- Up-to-date: /home/autoware/Autoware/install/kvaser/lib/pkgconfig/kvaser.pc
+[1.600s] -- Up-to-date: /home/autoware/Autoware/install/kvaser/share/kvaser/cmake/kvaserConfig.cmake
+[1.600s] -- Up-to-date: /home/autoware/Autoware/install/kvaser/share/kvaser/cmake/kvaserConfig-version.cmake
+[1.600s] -- Up-to-date: /home/autoware/Autoware/install/kvaser/share/kvaser/package.xml
+[1.600s] -- Up-to-date: /home/autoware/Autoware/install/kvaser/lib/kvaser/can_converter
+[1.600s] -- Up-to-date: /home/autoware/Autoware/install/kvaser/lib/kvaser/can_draw
+[1.886s] Invoked command in '/home/autoware/Autoware/build/kvaser' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_can_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_can_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/kvaser --target install -- -j32 -l32

@@ -1,0 +1,67 @@
+[0.012s] Invoking command in '/home/autoware/Autoware/build/sick_ldmrs_description': /usr/bin/cmake /home/autoware/Autoware/src/drivers/awf_drivers/sick_ldmrs_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/sick_ldmrs_description
+[0.091s] -- The C compiler identification is GNU 7.5.0
+[0.166s] -- The CXX compiler identification is GNU 7.5.0
+[0.173s] -- Check for working C compiler: /usr/bin/cc
+[0.259s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.267s] -- Detecting C compiler ABI info
+[0.351s] -- Detecting C compiler ABI info - done
+[0.359s] -- Detecting C compile features
+[0.630s] -- Detecting C compile features - done
+[0.635s] -- Check for working CXX compiler: /usr/bin/c++
+[0.743s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.744s] -- Detecting CXX compiler ABI info
+[0.855s] -- Detecting CXX compiler ABI info - done
+[0.865s] -- Detecting CXX compile features
+[1.311s] -- Detecting CXX compile features - done
+[1.315s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/sick_ldmrs_description/devel
+[1.315s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[1.316s] -- This workspace overlays: /opt/ros/melodic
+[1.339s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.339s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.339s] -- Using Debian Python package layout
+[1.339s] -- Using empy: /usr/bin/empy
+[1.506s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.506s] -- Call enable_testing()
+[1.510s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/sick_ldmrs_description/test_results
+[1.536s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.537s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.555s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.555s] -- Looking for pthread.h
+[1.655s] -- Looking for pthread.h - found
+[1.656s] -- Looking for pthread_create
+[1.747s] -- Looking for pthread_create - not found
+[1.748s] -- Looking for pthread_create in pthreads
+[1.828s] -- Looking for pthread_create in pthreads - not found
+[1.828s] -- Looking for pthread_create in pthread
+[1.919s] -- Looking for pthread_create in pthread - found
+[1.920s] -- Found Threads: TRUE  
+[1.920s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.969s] -- catkin 0.7.26
+[1.969s] -- BUILD_SHARED_LIBS is on
+[2.234s] -- Configuring done
+[2.252s] -- Generating done
+[2.255s] -- Build files have been written to: /home/autoware/Autoware/build/sick_ldmrs_description
+[2.263s] Invoked command in '/home/autoware/Autoware/build/sick_ldmrs_description' returned '0': /usr/bin/cmake /home/autoware/Autoware/src/drivers/awf_drivers/sick_ldmrs_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/sick_ldmrs_description
+[2.264s] Invoking command in '/home/autoware/Autoware/build/sick_ldmrs_description': /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_description -- -j2 -l2
+[2.317s] Invoked command in '/home/autoware/Autoware/build/sick_ldmrs_description' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_description -- -j2 -l2
+[2.367s] Invoking command in '/home/autoware/Autoware/build/sick_ldmrs_description': /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_description --target tests -- -j2 -l2
+[2.434s] Scanning dependencies of target tests
+[2.448s] Built target tests
+[2.464s] Invoked command in '/home/autoware/Autoware/build/sick_ldmrs_description' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_description --target tests -- -j2 -l2
+[2.513s] Invoking command in '/home/autoware/Autoware/build/sick_ldmrs_description': /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_description --target install -- -j2 -l2
+[2.577s] Install the project...
+[2.588s] -- Install configuration: "Release"
+[2.588s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_description/lib/pkgconfig/sick_ldmrs_description.pc
+[2.589s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/cmake/sick_ldmrs_descriptionConfig.cmake
+[2.589s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/cmake/sick_ldmrs_descriptionConfig-version.cmake
+[2.590s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/package.xml
+[2.590s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/launch
+[2.590s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/launch/show_urdf.launch
+[2.591s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/launch/upload_urdf.launch
+[2.591s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/meshes
+[2.592s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/meshes/sick_ldmrs.dae
+[2.594s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/meshes/sick_ldmrs_color.png
+[2.595s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/urdf
+[2.595s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/urdf/sick_ldmrs.urdf.xacro
+[2.596s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/urdf/sick_ldmrs_macros.urdf.xacro
+[2.608s] Invoked command in '/home/autoware/Autoware/build/sick_ldmrs_description' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_description --target install -- -j2 -l2

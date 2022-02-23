@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autoware/Autoware/build/autoware_lanelet2_msgs/devel/setup.sh

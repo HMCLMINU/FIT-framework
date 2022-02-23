@@ -1,0 +1,7 @@
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:[m[K In function ‘[01m[KEControl pointsDetection(const pcl::PointCloud<pcl::PointXYZ>&, int, int, const Lane&, const ConstLanelets&, const VelocitySetInfo&, int*, ObstaclePoints*)[m[K’:
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:375:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoints_threshold[m[K’ was not declared in this scope
+                          [01;31m[Kpoints_threshold[m[K, vs_info.getLocalizerPose(), obstacle_points, &obstacle_type,
+                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/velocity_set_lanelet2.dir/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/velocity_set_lanelet2.dir/all] Error 2
+make: *** [all] Error 2

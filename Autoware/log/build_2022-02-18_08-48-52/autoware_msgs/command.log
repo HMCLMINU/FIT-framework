@@ -1,0 +1,2 @@
+Invoking command in '/home/autoware/Autoware/build/autoware_msgs': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_msgs -- -j20 -l20
+Invoked command in '/home/autoware/Autoware/build/autoware_msgs' returned '-2': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_msgs -- -j20 -l20

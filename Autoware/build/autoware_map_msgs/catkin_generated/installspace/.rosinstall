@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autoware/Autoware/install/autoware_map_msgs/setup.sh

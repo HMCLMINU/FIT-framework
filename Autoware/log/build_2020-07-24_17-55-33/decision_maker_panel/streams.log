@@ -1,0 +1,75 @@
+[0.014s] Invoking command in '/home/autoware/Autoware/build/decision_maker_panel': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/visualization/decision_maker_panel -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/decision_maker_panel
+[0.082s] -- The C compiler identification is GNU 7.5.0
+[0.154s] -- The CXX compiler identification is GNU 7.5.0
+[0.159s] -- Check for working C compiler: /usr/bin/cc
+[0.241s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.247s] -- Detecting C compiler ABI info
+[0.339s] -- Detecting C compiler ABI info - done
+[0.345s] -- Detecting C compile features
+[0.627s] -- Detecting C compile features - done
+[0.630s] -- Check for working CXX compiler: /usr/bin/c++
+[0.735s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.735s] -- Detecting CXX compiler ABI info
+[0.835s] -- Detecting CXX compiler ABI info - done
+[0.845s] -- Detecting CXX compile features
+[1.308s] -- Detecting CXX compile features - done
+[1.311s] -- CUDA compilation status: ON.
+[1.313s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/decision_maker_panel/devel
+[1.314s] -- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.314s] -- This workspace overlays: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.343s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.343s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.343s] -- Using Debian Python package layout
+[1.343s] -- Using empy: /usr/bin/empy
+[1.515s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.515s] -- Call enable_testing()
+[1.519s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/decision_maker_panel/test_results
+[1.548s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.548s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.567s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.568s] -- Looking for pthread.h
+[1.663s] -- Looking for pthread.h - found
+[1.663s] -- Looking for pthread_create
+[1.751s] -- Looking for pthread_create - not found
+[1.755s] -- Looking for pthread_create in pthreads
+[1.827s] -- Looking for pthread_create in pthreads - not found
+[1.827s] -- Looking for pthread_create in pthread
+[1.915s] -- Looking for pthread_create in pthread - found
+[1.915s] -- Found Threads: TRUE  
+[1.920s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.970s] -- catkin 0.7.26
+[1.970s] -- BUILD_SHARED_LIBS is on
+[2.167s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.547s] -- Using Qt5 based on the rviz_QT_VERSION: 5.9.5
+[2.704s] -- Configuring done
+[2.762s] -- Generating done
+[2.776s] -- Build files have been written to: /home/autoware/Autoware/build/decision_maker_panel
+[2.786s] Invoked command in '/home/autoware/Autoware/build/decision_maker_panel' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/visualization/decision_maker_panel -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/decision_maker_panel
+[2.787s] Invoking command in '/home/autoware/Autoware/build/decision_maker_panel': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/decision_maker_panel -- -j2 -l2
+[2.845s] Scanning dependencies of target decision_maker_panel_autogen
+[2.859s] [ 25%] Automatic MOC for target decision_maker_panel
+[2.895s] [ 25%] Built target decision_maker_panel_autogen
+[2.949s] Scanning dependencies of target decision_maker_panel
+[2.975s] [ 50%] Building CXX object CMakeFiles/decision_maker_panel.dir/src/decision_maker_panel.cpp.o
+[7.775s] [ 75%] Building CXX object CMakeFiles/decision_maker_panel.dir/decision_maker_panel_autogen/mocs_compilation.cpp.o
+[10.215s] [100%] Linking CXX shared library devel/lib/libdecision_maker_panel.so
+[10.654s] [100%] Built target decision_maker_panel
+[10.669s] Invoked command in '/home/autoware/Autoware/build/decision_maker_panel' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/decision_maker_panel -- -j2 -l2
+[10.792s] Invoking command in '/home/autoware/Autoware/build/decision_maker_panel': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/decision_maker_panel --target tests -- -j2 -l2
+[10.859s] Scanning dependencies of target tests
+[10.871s] Built target tests
+[10.886s] Invoked command in '/home/autoware/Autoware/build/decision_maker_panel' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/decision_maker_panel --target tests -- -j2 -l2
+[11.022s] Invoking command in '/home/autoware/Autoware/build/decision_maker_panel': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/decision_maker_panel --target install -- -j2 -l2
+[11.089s] [ 25%] Automatic MOC for target decision_maker_panel
+[11.109s] [ 25%] Built target decision_maker_panel_autogen
+[11.145s] [100%] Built target decision_maker_panel
+[11.169s] Install the project...
+[11.178s] -- Install configuration: "Release"
+[11.179s] -- Installing: /home/autoware/Autoware/install/decision_maker_panel/lib/pkgconfig/decision_maker_panel.pc
+[11.179s] -- Installing: /home/autoware/Autoware/install/decision_maker_panel/share/decision_maker_panel/cmake/decision_maker_panelConfig.cmake
+[11.180s] -- Installing: /home/autoware/Autoware/install/decision_maker_panel/share/decision_maker_panel/cmake/decision_maker_panelConfig-version.cmake
+[11.180s] -- Installing: /home/autoware/Autoware/install/decision_maker_panel/share/decision_maker_panel/package.xml
+[11.181s] -- Installing: /home/autoware/Autoware/install/decision_maker_panel/lib/libdecision_maker_panel.so
+[11.184s] -- Set runtime path of "/home/autoware/Autoware/install/decision_maker_panel/lib/libdecision_maker_panel.so" to ""
+[11.184s] -- Installing: /home/autoware/Autoware/install/decision_maker_panel/share/decision_maker_panel/plugin_description.xml
+[11.191s] Invoked command in '/home/autoware/Autoware/build/decision_maker_panel' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/decision_maker_panel --target install -- -j2 -l2

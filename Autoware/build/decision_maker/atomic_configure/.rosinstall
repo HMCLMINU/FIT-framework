@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autoware/Autoware/build/decision_maker/devel/setup.sh

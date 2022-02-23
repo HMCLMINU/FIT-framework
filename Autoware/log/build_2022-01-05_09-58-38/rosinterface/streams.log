@@ -1,0 +1,22 @@
+[0.808s] Invoking command in '/home/autoware/Autoware/build/rosinterface': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/rosinterface -- -j32 -l32
+[1.060s] [ 16%] Automatic MOC for target rosinterface
+[1.060s] [ 16%] Built target rosinterface_autogen
+[1.062s] [100%] Built target rosinterface
+[1.202s] Invoked command in '/home/autoware/Autoware/build/rosinterface' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/rosinterface -- -j32 -l32
+[1.531s] Invoking command in '/home/autoware/Autoware/build/rosinterface': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/rosinterface --target tests -- -j32 -l32
+[1.644s] Built target tests
+[1.670s] Invoked command in '/home/autoware/Autoware/build/rosinterface' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/rosinterface --target tests -- -j32 -l32
+[1.955s] Invoking command in '/home/autoware/Autoware/build/rosinterface': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/rosinterface --target install -- -j32 -l32
+[2.078s] [ 16%] Automatic MOC for target rosinterface
+[2.078s] [ 16%] Built target rosinterface_autogen
+[2.162s] [100%] Built target rosinterface
+[2.162s] Install the project...
+[2.162s] -- Install configuration: "Release"
+[2.163s] -- Up-to-date: /home/autoware/Autoware/install/rosinterface/lib/pkgconfig/rosinterface.pc
+[2.282s] -- Up-to-date: /home/autoware/Autoware/install/rosinterface/share/rosinterface/cmake/rosinterfaceConfig.cmake
+[2.282s] -- Up-to-date: /home/autoware/Autoware/install/rosinterface/share/rosinterface/cmake/rosinterfaceConfig-version.cmake
+[2.282s] -- Up-to-date: /home/autoware/Autoware/install/rosinterface/share/rosinterface/package.xml
+[2.282s] -- Up-to-date: /home/autoware/Autoware/install/rosinterface/include/rosinterface
+[2.282s] -- Up-to-date: /home/autoware/Autoware/install/rosinterface/include/rosinterface/rosinterface.h
+[2.282s] -- Up-to-date: /home/autoware/Autoware/install/rosinterface/lib/librosinterface.so
+[2.457s] Invoked command in '/home/autoware/Autoware/build/rosinterface' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/rosinterface --target install -- -j32 -l32

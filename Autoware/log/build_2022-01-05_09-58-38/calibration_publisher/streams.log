@@ -1,0 +1,148 @@
+[0.578s] Invoking command in '/home/autoware/Autoware/build/calibration_publisher': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/calibration_publisher -- -j32 -l32
+[1.108s] [  0%] Built target actionlib_generate_messages_cpp
+[1.108s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[1.108s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[1.108s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[1.108s] [  0%] Built target roscpp_generate_messages_cpp
+[1.108s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[1.108s] [  0%] Built target autoware_msgs_generate_messages_py
+[1.108s] [  0%] Built target std_msgs_generate_messages_py
+[1.108s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[1.108s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.108s] [  0%] Built target sensor_msgs_generate_messages_py
+[1.108s] [  0%] Built target tf_generate_messages_py
+[1.109s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[1.109s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[1.109s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[1.109s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[1.109s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[1.109s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[1.109s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.109s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[1.109s] [  0%] Built target sensor_msgs_generate_messages_eus
+[1.109s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[1.109s] [  0%] Built target pcl_msgs_generate_messages_eus
+[1.109s] [  0%] Built target _catkin_empty_exported_target
+[1.110s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[1.110s] [  0%] Built target geometry_msgs_generate_messages_py
+[1.110s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.110s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[1.110s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[1.110s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[1.110s] [  0%] Built target geometry_msgs_generate_messages_eus
+[1.110s] [  0%] Built target roscpp_generate_messages_nodejs
+[1.110s] [  0%] Built target roscpp_generate_messages_py
+[1.110s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[1.110s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[1.110s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[1.111s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[1.111s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.111s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[1.111s] [  0%] Built target tf_generate_messages_lisp
+[1.111s] [  0%] Built target actionlib_msgs_generate_messages_py
+[1.111s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[1.111s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[1.111s] [  0%] Built target actionlib_generate_messages_lisp
+[1.111s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[1.111s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[1.112s] [  0%] Built target roscpp_generate_messages_lisp
+[1.112s] [  0%] Built target actionlib_generate_messages_eus
+[1.112s] [  0%] Built target autoware_msgs_generate_messages_eus
+[1.112s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[1.112s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[1.112s] [  0%] Built target pcl_msgs_generate_messages_py
+[1.112s] [  0%] Built target roscpp_generate_messages_eus
+[1.112s] [  0%] Built target actionlib_generate_messages_py
+[1.112s] [  0%] Built target tf_generate_messages_cpp
+[1.112s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[1.112s] [  0%] Built target tf2_msgs_generate_messages_py
+[1.112s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[1.112s] [  0%] Built target actionlib_generate_messages_nodejs
+[1.113s] [  0%] Built target tf_generate_messages_nodejs
+[1.113s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[1.113s] [  0%] Built target std_msgs_generate_messages_eus
+[1.113s] [  0%] Built target tf_generate_messages_eus
+[1.113s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[1.113s] [  0%] Built target tf2_msgs_generate_messages_eus
+[1.113s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[1.464s] [100%] Built target calibration_publisher
+[1.569s] Invoked command in '/home/autoware/Autoware/build/calibration_publisher' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/calibration_publisher -- -j32 -l32
+[2.374s] Invoking command in '/home/autoware/Autoware/build/calibration_publisher': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/calibration_publisher --target tests -- -j32 -l32
+[2.671s] Built target tests
+[2.743s] Invoked command in '/home/autoware/Autoware/build/calibration_publisher' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/calibration_publisher --target tests -- -j32 -l32
+[2.919s] Invoking command in '/home/autoware/Autoware/build/calibration_publisher': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/calibration_publisher --target install -- -j32 -l32
+[3.204s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[3.205s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[3.205s] [  0%] Built target geometry_msgs_generate_messages_py
+[3.205s] [  0%] Built target roscpp_generate_messages_nodejs
+[3.205s] [  0%] Built target _catkin_empty_exported_target
+[3.205s] [  0%] Built target pcl_msgs_generate_messages_eus
+[3.205s] [  0%] Built target roscpp_generate_messages_cpp
+[3.205s] [  0%] Built target geometry_msgs_generate_messages_eus
+[3.205s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[3.205s] [  0%] Built target autoware_msgs_generate_messages_py
+[3.205s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[3.205s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[3.205s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[3.206s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[3.206s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[3.206s] [  0%] Built target std_msgs_generate_messages_nodejs
+[3.206s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[3.239s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[3.240s] [  0%] Built target sensor_msgs_generate_messages_eus
+[3.240s] [  0%] Built target std_msgs_generate_messages_py
+[3.240s] [  0%] Built target std_msgs_generate_messages_cpp
+[3.240s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[3.240s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[3.240s] [  0%] Built target tf_generate_messages_py
+[3.240s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[3.240s] [  0%] Built target sensor_msgs_generate_messages_py
+[3.240s] [  0%] Built target actionlib_generate_messages_cpp
+[3.240s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[3.240s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[3.241s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[3.241s] [  0%] Built target autoware_msgs_generate_messages_eus
+[3.241s] [  0%] Built target std_msgs_generate_messages_lisp
+[3.241s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[3.241s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[3.241s] [  0%] Built target actionlib_msgs_generate_messages_py
+[3.241s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[3.241s] [  0%] Built target roscpp_generate_messages_lisp
+[3.241s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[3.241s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[3.241s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[3.241s] [  0%] Built target roscpp_generate_messages_eus
+[3.242s] [  0%] Built target tf_generate_messages_cpp
+[3.242s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[3.242s] [  0%] Built target tf_generate_messages_nodejs
+[3.242s] [  0%] Built target tf_generate_messages_lisp
+[3.242s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[3.242s] [  0%] Built target actionlib_generate_messages_lisp
+[3.360s] [  0%] Built target actionlib_generate_messages_nodejs
+[3.360s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[3.360s] [  0%] Built target tf2_msgs_generate_messages_py
+[3.360s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[3.360s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[3.360s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[3.361s] [  0%] Built target actionlib_generate_messages_eus
+[3.361s] [  0%] Built target roscpp_generate_messages_py
+[3.361s] [  0%] Built target actionlib_generate_messages_py
+[3.361s] [  0%] Built target tf_generate_messages_eus
+[3.361s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[3.361s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[3.361s] [  0%] Built target pcl_msgs_generate_messages_py
+[3.361s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[3.361s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[3.361s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[3.516s] [  0%] Built target tf2_msgs_generate_messages_eus
+[3.516s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[3.516s] [  0%] Built target std_msgs_generate_messages_eus
+[3.553s] [100%] Built target calibration_publisher
+[3.554s] Install the project...
+[3.623s] -- Install configuration: "Release"
+[3.624s] -- Up-to-date: /home/autoware/Autoware/install/calibration_publisher/lib/pkgconfig/calibration_publisher.pc
+[3.624s] -- Up-to-date: /home/autoware/Autoware/install/calibration_publisher/share/calibration_publisher/cmake/calibration_publisherConfig.cmake
+[3.624s] -- Up-to-date: /home/autoware/Autoware/install/calibration_publisher/share/calibration_publisher/cmake/calibration_publisherConfig-version.cmake
+[3.624s] -- Up-to-date: /home/autoware/Autoware/install/calibration_publisher/share/calibration_publisher/package.xml
+[3.624s] -- Up-to-date: /home/autoware/Autoware/install/calibration_publisher/lib/calibration_publisher/calibration_publisher
+[3.770s] Invoked command in '/home/autoware/Autoware/build/calibration_publisher' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/calibration_publisher --target install -- -j32 -l32

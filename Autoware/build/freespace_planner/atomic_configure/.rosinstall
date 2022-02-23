@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autoware/Autoware/build/freespace_planner/devel/setup.sh

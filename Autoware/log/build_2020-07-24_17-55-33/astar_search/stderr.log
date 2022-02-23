@@ -1,0 +1,24 @@
+/home/autoware/Autoware/src/autoware/core_planning/astar_search/test/src/test_astar_search.cpp: In member function ‘virtual void TestSuite_checkSetPath_Test::TestBody()’:
+/home/autoware/Autoware/src/autoware/core_planning/astar_search/test/src/test_astar_search.cpp:143:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int row = 0; row < test_obj_.costmap_.info.height; ++row)
+                     ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_planning/astar_search/test/src/test_astar_search.cpp:145:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int col = 0; col < test_obj_.costmap_.info.width; ++col)
+                       ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/autoware/Autoware/src/autoware/core_planning/astar_search/test/src/test_astar_search.cpp:18:0:
+/usr/src/googletest/googletest/include/gtest/gtest.h: In instantiation of ‘testing::AssertionResult testing::internal::CmpHelperEQ(const char*, const char*, const T1&, const T2&) [with T1 = int; T2 = unsigned int]’:
+/usr/src/googletest/googletest/include/gtest/gtest.h:1421:23:   required from ‘static testing::AssertionResult testing::internal::EqHelper<lhs_is_null_literal>::Compare(const char*, const char*, const T1&, const T2&) [with T1 = int; T2 = unsigned int; bool lhs_is_null_literal = false]’
+/home/autoware/Autoware/src/autoware/core_planning/astar_search/test/src/test_astar_search.cpp:30:3:   required from here
+/usr/src/googletest/googletest/include/gtest/gtest.h:1392:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (lhs == rhs) {
+       ~~~~^~~~~~
+/home/autoware/Autoware/src/autoware/core_planning/astar_search/test/src/test_class.cpp: In constructor ‘TestClass::TestClass()’:
+/home/autoware/Autoware/src/autoware/core_planning/astar_search/test/src/test_class.cpp:54:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int idx = 0; idx < costmap_.info.width*costmap_.info.height; ++idx)
+                     ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_planning/astar_search/test/src/test_class.cpp:60:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int row = 0; row < costmap_.info.height; ++row)
+                     ~~~~^~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_planning/astar_search/test/src/test_class.cpp:62:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int col = 0; col < costmap_.info.width; ++col)
+                       ~~~~^~~~~~~~~~~~~~~~~~~~~

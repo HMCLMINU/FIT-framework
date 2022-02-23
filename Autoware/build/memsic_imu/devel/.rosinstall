@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autoware/Autoware/build/memsic_imu/devel/setup.sh

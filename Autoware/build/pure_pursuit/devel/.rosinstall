@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autoware/Autoware/build/pure_pursuit/devel/setup.sh

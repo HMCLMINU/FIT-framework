@@ -1,0 +1,24 @@
+In file included from /usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0,
+                 from /usr/include/pcl-1.8/pcl/sample_consensus/sac_model_plane.h:44,
+                 from /usr/include/pcl-1.8/pcl/segmentation/extract_polygonal_prism_data.h:42,
+                 from /opt/ros/melodic/include/jsk_recognition_utils/geo/convex_polygon.h:40,
+                 from /opt/ros/melodic/include/jsk_recognition_utils/geo/cube.h:40,
+                 from /home/autoware/Autoware/src/autoware/core_perception/range_vision_fusion/include/range_vision_fusion/range_vision_fusion.h:41,
+                 from /home/autoware/Autoware/src/autoware/core_perception/range_vision_fusion/src/range_vision_fusion.cpp:23:
+/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h: In function ‘void __static_initialization_and_destruction_0(int, int)’:
+/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3: warning: ‘pcl::SAC_SAMPLE_SIZE’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [-Wdeprecated-declarations]
+   SAC_SAMPLE_SIZE (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+   ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3: note: declared here
+In file included from /usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0,
+                 from /usr/include/pcl-1.8/pcl/sample_consensus/sac_model_plane.h:44,
+                 from /usr/include/pcl-1.8/pcl/segmentation/extract_polygonal_prism_data.h:42,
+                 from /opt/ros/melodic/include/jsk_recognition_utils/geo/convex_polygon.h:40,
+                 from /opt/ros/melodic/include/jsk_recognition_utils/geo/cube.h:40,
+                 from /home/autoware/Autoware/src/autoware/core_perception/range_vision_fusion/include/range_vision_fusion/range_vision_fusion.h:41,
+                 from /home/autoware/Autoware/src/autoware/core_perception/range_vision_fusion/src/range_vision_fusion_node.cpp:23:
+/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h: In function ‘void __static_initialization_and_destruction_0(int, int)’:
+/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3: warning: ‘pcl::SAC_SAMPLE_SIZE’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [-Wdeprecated-declarations]
+   SAC_SAMPLE_SIZE (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+   ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3: note: declared here

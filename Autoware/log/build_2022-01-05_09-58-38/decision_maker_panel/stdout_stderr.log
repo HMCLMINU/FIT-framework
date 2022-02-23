@@ -1,0 +1,15 @@
+[ 25%] Automatic MOC for target decision_maker_panel
+[ 25%] Built target decision_maker_panel_autogen
+[100%] Built target decision_maker_panel
+Built target tests
+[ 25%] Automatic MOC for target decision_maker_panel
+[ 25%] Built target decision_maker_panel_autogen
+[100%] Built target decision_maker_panel
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: /home/autoware/Autoware/install/decision_maker_panel/lib/pkgconfig/decision_maker_panel.pc
+-- Up-to-date: /home/autoware/Autoware/install/decision_maker_panel/share/decision_maker_panel/cmake/decision_maker_panelConfig.cmake
+-- Up-to-date: /home/autoware/Autoware/install/decision_maker_panel/share/decision_maker_panel/cmake/decision_maker_panelConfig-version.cmake
+-- Up-to-date: /home/autoware/Autoware/install/decision_maker_panel/share/decision_maker_panel/package.xml
+-- Up-to-date: /home/autoware/Autoware/install/decision_maker_panel/lib/libdecision_maker_panel.so
+-- Up-to-date: /home/autoware/Autoware/install/decision_maker_panel/share/decision_maker_panel/plugin_description.xml

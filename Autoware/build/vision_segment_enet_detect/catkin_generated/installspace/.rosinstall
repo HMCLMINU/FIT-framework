@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autoware/Autoware/install/vision_segment_enet_detect/setup.sh

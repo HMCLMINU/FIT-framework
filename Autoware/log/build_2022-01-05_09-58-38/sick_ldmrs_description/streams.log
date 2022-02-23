@@ -1,0 +1,22 @@
+[0.229s] Invoking command in '/home/autoware/Autoware/build/sick_ldmrs_description': /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_description -- -j32 -l32
+[0.825s] Invoked command in '/home/autoware/Autoware/build/sick_ldmrs_description' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_description -- -j32 -l32
+[0.960s] Invoking command in '/home/autoware/Autoware/build/sick_ldmrs_description': /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_description --target tests -- -j32 -l32
+[1.038s] Built target tests
+[1.116s] Invoked command in '/home/autoware/Autoware/build/sick_ldmrs_description' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_description --target tests -- -j32 -l32
+[1.233s] Invoking command in '/home/autoware/Autoware/build/sick_ldmrs_description': /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_description --target install -- -j32 -l32
+[1.327s] Install the project...
+[1.343s] -- Install configuration: "Release"
+[1.343s] -- Up-to-date: /home/autoware/Autoware/install/sick_ldmrs_description/lib/pkgconfig/sick_ldmrs_description.pc
+[1.343s] -- Up-to-date: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/cmake/sick_ldmrs_descriptionConfig.cmake
+[1.343s] -- Up-to-date: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/cmake/sick_ldmrs_descriptionConfig-version.cmake
+[1.344s] -- Up-to-date: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/package.xml
+[1.344s] -- Up-to-date: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/launch
+[1.344s] -- Up-to-date: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/launch/upload_urdf.launch
+[1.344s] -- Up-to-date: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/launch/show_urdf.launch
+[1.344s] -- Up-to-date: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/meshes
+[1.344s] -- Up-to-date: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/meshes/sick_ldmrs.dae
+[1.344s] -- Up-to-date: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/meshes/sick_ldmrs_color.png
+[1.345s] -- Up-to-date: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/urdf
+[1.345s] -- Up-to-date: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/urdf/sick_ldmrs_macros.urdf.xacro
+[1.345s] -- Up-to-date: /home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/urdf/sick_ldmrs.urdf.xacro
+[1.389s] Invoked command in '/home/autoware/Autoware/build/sick_ldmrs_description' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_description --target install -- -j32 -l32

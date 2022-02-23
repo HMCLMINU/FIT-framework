@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autoware/Autoware/install/sick_lms5xx/setup.sh

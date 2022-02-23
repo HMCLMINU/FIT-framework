@@ -1,0 +1,276 @@
+[0.017s] Invoking command in '/home/autoware/Autoware/build/vision_beyond_track': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_perception/vision_beyond_track -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/vision_beyond_track
+[0.104s] -- The C compiler identification is GNU 7.5.0
+[0.183s] -- The CXX compiler identification is GNU 7.5.0
+[0.189s] -- Check for working C compiler: /usr/bin/cc
+[0.279s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.280s] -- Detecting C compiler ABI info
+[0.371s] -- Detecting C compiler ABI info - done
+[0.382s] -- Detecting C compile features
+[0.665s] -- Detecting C compile features - done
+[0.669s] -- Check for working CXX compiler: /usr/bin/c++
+[0.779s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.779s] -- Detecting CXX compiler ABI info
+[0.887s] -- Detecting CXX compiler ABI info - done
+[0.896s] -- Detecting CXX compile features
+[1.380s] -- Detecting CXX compile features - done
+[1.403s] -- Found OpenCV: /usr (found version "3.2.0") 
+[1.405s] -- CUDA compilation status: ON.
+[1.407s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/vision_beyond_track/devel
+[1.407s] -- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.408s] -- This workspace overlays: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.430s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.430s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.430s] -- Using Debian Python package layout
+[1.430s] -- Using empy: /usr/bin/empy
+[1.608s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.608s] -- Call enable_testing()
+[1.611s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/vision_beyond_track/test_results
+[1.643s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.643s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.663s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.663s] -- Looking for pthread.h
+[1.763s] -- Looking for pthread.h - found
+[1.763s] -- Looking for pthread_create
+[1.860s] -- Looking for pthread_create - not found
+[1.860s] -- Looking for pthread_create in pthreads
+[1.959s] -- Looking for pthread_create in pthreads - not found
+[1.959s] -- Looking for pthread_create in pthread
+[2.046s] -- Looking for pthread_create in pthread - found
+[2.046s] -- Found Threads: TRUE  
+[2.052s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.108s] -- catkin 0.7.26
+[2.108s] -- BUILD_SHARED_LIBS is on
+[2.325s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.776s] -- Configuring done
+[2.838s] -- Generating done
+[2.851s] -- Build files have been written to: /home/autoware/Autoware/build/vision_beyond_track
+[2.860s] Invoked command in '/home/autoware/Autoware/build/vision_beyond_track' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_perception/vision_beyond_track -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/vision_beyond_track
+[2.861s] Invoking command in '/home/autoware/Autoware/build/vision_beyond_track': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vision_beyond_track -- -j2 -l2
+[2.921s] Scanning dependencies of target autoware_msgs_generate_messages_cpp
+[2.935s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[2.951s] Scanning dependencies of target geometry_msgs_generate_messages_py
+[2.966s] [  0%] Built target geometry_msgs_generate_messages_py
+[2.981s] Scanning dependencies of target sensor_msgs_generate_messages_nodejs
+[2.997s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[3.012s] Scanning dependencies of target roscpp_generate_messages_cpp
+[3.027s] [  0%] Built target roscpp_generate_messages_cpp
+[3.042s] Scanning dependencies of target actionlib_generate_messages_cpp
+[3.057s] [  0%] Built target actionlib_generate_messages_cpp
+[3.072s] Scanning dependencies of target pcl_msgs_generate_messages_eus
+[3.087s] [  0%] Built target pcl_msgs_generate_messages_eus
+[3.102s] Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+[3.116s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[3.130s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_lisp
+[3.145s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[3.160s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_eus
+[3.174s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[3.188s] Scanning dependencies of target tf2_msgs_generate_messages_cpp
+[3.203s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[3.218s] Scanning dependencies of target std_msgs_generate_messages_py
+[3.232s] [  0%] Built target std_msgs_generate_messages_py
+[3.246s] Scanning dependencies of target autoware_msgs_generate_messages_py
+[3.260s] [  0%] Built target autoware_msgs_generate_messages_py
+[3.274s] Scanning dependencies of target std_msgs_generate_messages_nodejs
+[3.287s] [  0%] Built target std_msgs_generate_messages_nodejs
+[3.300s] Scanning dependencies of target sensor_msgs_generate_messages_eus
+[3.313s] [  0%] Built target sensor_msgs_generate_messages_eus
+[3.326s] Scanning dependencies of target _catkin_empty_exported_target
+[3.339s] [  0%] Built target _catkin_empty_exported_target
+[3.353s] Scanning dependencies of target sensor_msgs_generate_messages_cpp
+[3.365s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[3.379s] Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+[3.392s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[3.406s] Scanning dependencies of target pcl_msgs_generate_messages_nodejs
+[3.419s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[3.433s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_py
+[3.447s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[3.461s] Scanning dependencies of target sensor_msgs_generate_messages_lisp
+[3.475s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[3.488s] Scanning dependencies of target sensor_msgs_generate_messages_py
+[3.502s] [  0%] Built target sensor_msgs_generate_messages_py
+[3.515s] Scanning dependencies of target tf_generate_messages_py
+[3.529s] [  0%] Built target tf_generate_messages_py
+[3.542s] Scanning dependencies of target std_msgs_generate_messages_cpp
+[3.555s] [  0%] Built target std_msgs_generate_messages_cpp
+[3.571s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_py
+[3.584s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[3.598s] Scanning dependencies of target geometry_msgs_generate_messages_eus
+[3.611s] [  0%] Built target geometry_msgs_generate_messages_eus
+[3.626s] Scanning dependencies of target std_msgs_generate_messages_lisp
+[3.639s] [  0%] Built target std_msgs_generate_messages_lisp
+[3.653s] Scanning dependencies of target roscpp_generate_messages_nodejs
+[3.667s] [  0%] Built target roscpp_generate_messages_nodejs
+[3.689s] Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+[3.707s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[3.721s] Scanning dependencies of target geometry_msgs_generate_messages_lisp
+[3.734s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[3.749s] Scanning dependencies of target pcl_msgs_generate_messages_cpp
+[3.763s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[3.777s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_cpp
+[3.791s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[3.805s] Scanning dependencies of target autoware_msgs_generate_messages_eus
+[3.818s] [  0%] Built target autoware_msgs_generate_messages_eus
+[3.833s] Scanning dependencies of target autoware_msgs_generate_messages_lisp
+[3.847s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[3.861s] Scanning dependencies of target autoware_msgs_generate_messages_nodejs
+[3.874s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[3.890s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_eus
+[3.905s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[3.919s] Scanning dependencies of target actionlib_msgs_generate_messages_py
+[3.932s] [  0%] Built target actionlib_msgs_generate_messages_py
+[3.945s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_lisp
+[3.958s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[3.971s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs
+[3.984s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[3.998s] Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+[4.011s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[4.025s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs
+[4.062s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[4.062s] Scanning dependencies of target roscpp_generate_messages_lisp
+[4.077s] [  0%] Built target roscpp_generate_messages_lisp
+[4.084s] Scanning dependencies of target roscpp_generate_messages_py
+[4.098s] [  0%] Built target roscpp_generate_messages_py
+[4.111s] Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+[4.125s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[4.140s] Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+[4.153s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[4.166s] Scanning dependencies of target roscpp_generate_messages_eus
+[4.180s] [  0%] Built target roscpp_generate_messages_eus
+[4.195s] Scanning dependencies of target actionlib_msgs_generate_messages_eus
+[4.209s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[4.223s] Scanning dependencies of target rosgraph_msgs_generate_messages_py
+[4.236s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[4.250s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_cpp
+[4.263s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[4.277s] Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+[4.290s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[4.305s] Scanning dependencies of target tf_generate_messages_eus
+[4.318s] [  0%] Built target tf_generate_messages_eus
+[4.332s] Scanning dependencies of target tf_generate_messages_lisp
+[4.348s] [  0%] Built target tf_generate_messages_lisp
+[4.362s] Scanning dependencies of target tf_generate_messages_nodejs
+[4.375s] [  0%] Built target tf_generate_messages_nodejs
+[4.389s] Scanning dependencies of target pcl_msgs_generate_messages_py
+[4.403s] [  0%] Built target pcl_msgs_generate_messages_py
+[4.418s] Scanning dependencies of target actionlib_generate_messages_eus
+[4.432s] [  0%] Built target actionlib_generate_messages_eus
+[4.451s] Scanning dependencies of target geometry_msgs_generate_messages_cpp
+[4.461s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[4.476s] Scanning dependencies of target actionlib_generate_messages_lisp
+[4.491s] [  0%] Built target actionlib_generate_messages_lisp
+[4.506s] Scanning dependencies of target pcl_msgs_generate_messages_lisp
+[4.522s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[4.537s] Scanning dependencies of target tf_generate_messages_cpp
+[4.555s] [  0%] Built target tf_generate_messages_cpp
+[4.572s] Scanning dependencies of target actionlib_generate_messages_nodejs
+[4.587s] [  0%] Built target actionlib_generate_messages_nodejs
+[4.601s] Scanning dependencies of target tf2_msgs_generate_messages_eus
+[4.615s] [  0%] Built target tf2_msgs_generate_messages_eus
+[4.629s] Scanning dependencies of target tf2_msgs_generate_messages_lisp
+[4.643s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[4.660s] Scanning dependencies of target actionlib_generate_messages_py
+[4.674s] [  0%] Built target actionlib_generate_messages_py
+[4.689s] Scanning dependencies of target tf2_msgs_generate_messages_py
+[4.704s] [  0%] Built target tf2_msgs_generate_messages_py
+[4.720s] Scanning dependencies of target tf2_msgs_generate_messages_nodejs
+[4.735s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[4.749s] Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+[4.763s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[4.781s] Scanning dependencies of target beyond_track_lib
+[4.796s] [ 16%] Building CXX object CMakeFiles/beyond_track_lib.dir/lib/hungarian.cpp.o
+[5.336s] [ 33%] Building CXX object CMakeFiles/beyond_track_lib.dir/lib/clipper.cpp.o
+[8.532s] [ 50%] Linking CXX static library devel/lib/libbeyond_track_lib.a
+[8.574s] [ 50%] Built target beyond_track_lib
+[8.588s] Scanning dependencies of target std_msgs_generate_messages_eus
+[8.602s] [ 50%] Built target std_msgs_generate_messages_eus
+[8.641s] Scanning dependencies of target vision_beyond_track
+[8.661s] [ 66%] Building CXX object CMakeFiles/vision_beyond_track.dir/src/vision_beyond_track_node.cpp.o
+[13.414s] [ 83%] Building CXX object CMakeFiles/vision_beyond_track.dir/src/vision_beyond_track.cpp.o
+[21.551s] [100%] Linking CXX executable devel/lib/vision_beyond_track/vision_beyond_track
+[21.774s] [100%] Built target vision_beyond_track
+[21.791s] Invoked command in '/home/autoware/Autoware/build/vision_beyond_track' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vision_beyond_track -- -j2 -l2
+[21.917s] Invoking command in '/home/autoware/Autoware/build/vision_beyond_track': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vision_beyond_track --target tests -- -j2 -l2
+[21.997s] Scanning dependencies of target tests
+[22.011s] Built target tests
+[22.027s] Invoked command in '/home/autoware/Autoware/build/vision_beyond_track' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vision_beyond_track --target tests -- -j2 -l2
+[22.157s] Invoking command in '/home/autoware/Autoware/build/vision_beyond_track': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vision_beyond_track --target install -- -j2 -l2
+[22.230s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[22.257s] [  0%] Built target geometry_msgs_generate_messages_py
+[22.284s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[22.311s] [  0%] Built target roscpp_generate_messages_cpp
+[22.340s] [  0%] Built target actionlib_generate_messages_cpp
+[22.367s] [  0%] Built target pcl_msgs_generate_messages_eus
+[22.395s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[22.423s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[22.450s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[22.479s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[22.507s] [  0%] Built target std_msgs_generate_messages_py
+[22.535s] [  0%] Built target autoware_msgs_generate_messages_py
+[22.564s] [  0%] Built target std_msgs_generate_messages_nodejs
+[22.593s] [  0%] Built target sensor_msgs_generate_messages_eus
+[22.620s] [  0%] Built target _catkin_empty_exported_target
+[22.650s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[22.678s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[22.706s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[22.733s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[22.761s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[22.789s] [  0%] Built target sensor_msgs_generate_messages_py
+[22.820s] [  0%] Built target tf_generate_messages_py
+[22.851s] [  0%] Built target std_msgs_generate_messages_cpp
+[22.880s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[22.907s] [  0%] Built target geometry_msgs_generate_messages_eus
+[22.936s] [  0%] Built target std_msgs_generate_messages_lisp
+[22.963s] [  0%] Built target roscpp_generate_messages_nodejs
+[22.990s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[23.017s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[23.047s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[23.077s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[23.105s] [  0%] Built target autoware_msgs_generate_messages_eus
+[23.132s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[23.159s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[23.185s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[23.212s] [  0%] Built target actionlib_msgs_generate_messages_py
+[23.241s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[23.269s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[23.295s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[23.322s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[23.350s] [  0%] Built target roscpp_generate_messages_lisp
+[23.379s] [  0%] Built target roscpp_generate_messages_py
+[23.407s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[23.434s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[23.461s] [  0%] Built target roscpp_generate_messages_eus
+[23.487s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[23.514s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[23.545s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[23.573s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[23.602s] [  0%] Built target tf_generate_messages_eus
+[23.630s] [  0%] Built target tf_generate_messages_lisp
+[23.658s] [  0%] Built target tf_generate_messages_nodejs
+[23.684s] [  0%] Built target pcl_msgs_generate_messages_py
+[23.711s] [  0%] Built target actionlib_generate_messages_eus
+[23.739s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[23.766s] [  0%] Built target actionlib_generate_messages_lisp
+[23.793s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[23.819s] [  0%] Built target tf_generate_messages_cpp
+[23.847s] [  0%] Built target actionlib_generate_messages_nodejs
+[23.875s] [  0%] Built target tf2_msgs_generate_messages_eus
+[23.903s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[23.931s] [  0%] Built target actionlib_generate_messages_py
+[23.958s] [  0%] Built target tf2_msgs_generate_messages_py
+[23.985s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[24.012s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[24.040s] [ 50%] Built target beyond_track_lib
+[24.067s] [ 50%] Built target std_msgs_generate_messages_eus
+[24.108s] [100%] Built target vision_beyond_track
+[24.136s] Install the project...
+[24.147s] -- Install configuration: "Release"
+[24.148s] -- Installing: /home/autoware/Autoware/install/vision_beyond_track/lib/pkgconfig/vision_beyond_track.pc
+[24.148s] -- Installing: /home/autoware/Autoware/install/vision_beyond_track/share/vision_beyond_track/cmake/vision_beyond_trackConfig.cmake
+[24.149s] -- Installing: /home/autoware/Autoware/install/vision_beyond_track/share/vision_beyond_track/cmake/vision_beyond_trackConfig-version.cmake
+[24.149s] -- Installing: /home/autoware/Autoware/install/vision_beyond_track/share/vision_beyond_track/package.xml
+[24.150s] -- Installing: /home/autoware/Autoware/install/vision_beyond_track/lib/libbeyond_track_lib.a
+[24.151s] -- Installing: /home/autoware/Autoware/install/vision_beyond_track/lib/vision_beyond_track/vision_beyond_track
+[24.152s] -- Set runtime path of "/home/autoware/Autoware/install/vision_beyond_track/lib/vision_beyond_track/vision_beyond_track" to ""
+[24.152s] -- Installing: /home/autoware/Autoware/install/vision_beyond_track/share/vision_beyond_track/launch
+[24.153s] -- Installing: /home/autoware/Autoware/install/vision_beyond_track/share/vision_beyond_track/launch/vision_beyond_track.launch
+[24.166s] Invoked command in '/home/autoware/Autoware/build/vision_beyond_track' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vision_beyond_track --target install -- -j2 -l2

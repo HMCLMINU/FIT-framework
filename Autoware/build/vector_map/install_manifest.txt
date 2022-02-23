@@ -1,0 +1,6 @@
+/home/autoware/Autoware/install/vector_map/lib/pkgconfig/vector_map.pc
+/home/autoware/Autoware/install/vector_map/share/vector_map/cmake/vector_mapConfig.cmake
+/home/autoware/Autoware/install/vector_map/share/vector_map/cmake/vector_mapConfig-version.cmake
+/home/autoware/Autoware/install/vector_map/share/vector_map/package.xml
+/home/autoware/Autoware/install/vector_map/include/vector_map/vector_map.h
+/home/autoware/Autoware/install/vector_map/lib/libvector_map.so

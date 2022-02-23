@@ -1,0 +1,7 @@
+/home/autoware/Autoware/install/ymc/lib/pkgconfig/ymc.pc
+/home/autoware/Autoware/install/ymc/share/ymc/cmake/ymcConfig.cmake
+/home/autoware/Autoware/install/ymc/share/ymc/cmake/ymcConfig-version.cmake
+/home/autoware/Autoware/install/ymc/share/ymc/package.xml
+/home/autoware/Autoware/install/ymc/lib/ymc/g30esli_interface
+/home/autoware/Autoware/install/ymc/share/ymc/launch/g30esli_interface.launch
+/home/autoware/Autoware/install/ymc/share/ymc/scripts/canset

@@ -1,0 +1,2 @@
+Invoking command in '/home/autoware/Autoware/build/tablet_socket_msgs': /usr/bin/cmake /home/autoware/Autoware/src/autoware/messages/tablet_socket_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/tablet_socket_msgs
+Invoked command in '/home/autoware/Autoware/build/tablet_socket_msgs' returned '-2': /usr/bin/cmake /home/autoware/Autoware/src/autoware/messages/tablet_socket_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/tablet_socket_msgs

@@ -1,0 +1,15 @@
+[0.257s] Invoking command in '/home/autoware/Autoware/build/gazebo_imu_description': /usr/bin/cmake --build /home/autoware/Autoware/build/gazebo_imu_description -- -j32 -l32
+[0.825s] Invoked command in '/home/autoware/Autoware/build/gazebo_imu_description' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/gazebo_imu_description -- -j32 -l32
+[0.931s] Invoking command in '/home/autoware/Autoware/build/gazebo_imu_description': /usr/bin/cmake --build /home/autoware/Autoware/build/gazebo_imu_description --target tests -- -j32 -l32
+[1.054s] Built target tests
+[1.100s] Invoked command in '/home/autoware/Autoware/build/gazebo_imu_description' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/gazebo_imu_description --target tests -- -j32 -l32
+[1.245s] Invoking command in '/home/autoware/Autoware/build/gazebo_imu_description': /usr/bin/cmake --build /home/autoware/Autoware/build/gazebo_imu_description --target install -- -j32 -l32
+[1.340s] Install the project...
+[1.430s] -- Install configuration: "Release"
+[1.430s] -- Up-to-date: /home/autoware/Autoware/install/gazebo_imu_description/lib/pkgconfig/gazebo_imu_description.pc
+[1.431s] -- Up-to-date: /home/autoware/Autoware/install/gazebo_imu_description/share/gazebo_imu_description/cmake/gazebo_imu_descriptionConfig.cmake
+[1.432s] -- Up-to-date: /home/autoware/Autoware/install/gazebo_imu_description/share/gazebo_imu_description/cmake/gazebo_imu_descriptionConfig-version.cmake
+[1.432s] -- Up-to-date: /home/autoware/Autoware/install/gazebo_imu_description/share/gazebo_imu_description/package.xml
+[1.434s] -- Up-to-date: /home/autoware/Autoware/install/gazebo_imu_description/share/gazebo_imu_description/urdf
+[1.435s] -- Up-to-date: /home/autoware/Autoware/install/gazebo_imu_description/share/gazebo_imu_description/urdf/imu.xacro
+[1.632s] Invoked command in '/home/autoware/Autoware/build/gazebo_imu_description' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/gazebo_imu_description --target install -- -j32 -l32

@@ -1,0 +1,1 @@
+/home/autoware/Autoware/install/sick_ldmrs_laser/share/sick_ldmrs_laser/package.xml

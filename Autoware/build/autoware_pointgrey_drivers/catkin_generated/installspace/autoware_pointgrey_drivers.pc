@@ -1,0 +1,8 @@
+prefix=/home/autoware/Autoware/install/autoware_pointgrey_drivers
+
+Name: autoware_pointgrey_drivers
+Description: Description of autoware_pointgrey_drivers
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

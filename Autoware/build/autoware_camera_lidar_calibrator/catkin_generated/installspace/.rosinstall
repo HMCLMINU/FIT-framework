@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autoware/Autoware/install/autoware_camera_lidar_calibrator/setup.sh

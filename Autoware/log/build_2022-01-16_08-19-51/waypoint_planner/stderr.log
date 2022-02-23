@@ -1,0 +1,9 @@
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set/velocity_set.cpp:17[m[K:
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set/velocity_set.cpp:[m[K In function ‘[01m[KEControl {anonymous}::pointsDetection(const pcl::PointCloud<pcl::PointXYZ>&, int, const Lane&, const CrossWalk&, const VelocitySetInfo&, int*, ObstaclePoints*)[m[K’:
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set/velocity_set.cpp:401:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+       [01;31m[KR[m[KOS_WARN("This STOP1");
+       [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/velocity_set.dir/src/velocity_set/velocity_set.cpp.o] Error 1
+make[1]: *** [CMakeFiles/velocity_set.dir/all] Error 2
+make: *** [all] Error 2

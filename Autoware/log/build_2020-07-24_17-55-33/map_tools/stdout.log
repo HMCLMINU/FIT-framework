@@ -1,0 +1,101 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CUDA compilation status: ON.
+-- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/map_tools/devel
+-- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/map_tools/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.26
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/autoware/Autoware/build/map_tools
+Scanning dependencies of target pcd_grid_divider
+[  7%] Building CXX object CMakeFiles/pcd_grid_divider.dir/nodes/pcd_grid_divider/pcd_grid_divider.cpp.o
+[ 14%] Linking CXX executable devel/lib/map_tools/pcd_grid_divider
+[ 14%] Built target pcd_grid_divider
+Scanning dependencies of target map_extender
+[ 21%] Building CXX object CMakeFiles/map_extender.dir/nodes/map_extender/map_extender.cpp.o
+[ 28%] Linking CXX executable devel/lib/map_tools/map_extender
+[ 28%] Built target map_extender
+Scanning dependencies of target pcd2csv
+[ 35%] Building CXX object CMakeFiles/pcd2csv.dir/nodes/pcd_converter/pcd2csv.cpp.o
+[ 42%] Linking CXX executable devel/lib/map_tools/pcd2csv
+[ 42%] Built target pcd2csv
+Scanning dependencies of target csv2pcd
+[ 50%] Building CXX object CMakeFiles/csv2pcd.dir/nodes/pcd_converter/csv2pcd.cpp.o
+[ 57%] Linking CXX executable devel/lib/map_tools/csv2pcd
+[ 57%] Built target csv2pcd
+Scanning dependencies of target pcd_arealist
+[ 64%] Building CXX object CMakeFiles/pcd_arealist.dir/nodes/pcd_arealist/pcd_arealist.cpp.o
+[ 71%] Linking CXX executable devel/lib/map_tools/pcd_arealist
+[ 71%] Built target pcd_arealist
+Scanning dependencies of target pcd_binarizer
+[ 78%] Building CXX object CMakeFiles/pcd_binarizer.dir/nodes/pcd_binarizer/pcd_binarizer.cpp.o
+[ 85%] Linking CXX executable devel/lib/map_tools/pcd_binarizer
+[ 85%] Built target pcd_binarizer
+Scanning dependencies of target pcd_filter
+[ 92%] Building CXX object CMakeFiles/pcd_filter.dir/nodes/pcd_filter/pcd_filter.cpp.o
+[100%] Linking CXX executable devel/lib/map_tools/pcd_filter
+[100%] Built target pcd_filter
+Scanning dependencies of target tests
+Built target tests
+[ 14%] Built target pcd_grid_divider
+[ 28%] Built target map_extender
+[ 42%] Built target pcd2csv
+[ 57%] Built target csv2pcd
+[ 71%] Built target pcd_arealist
+[ 85%] Built target pcd_binarizer
+[100%] Built target pcd_filter
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/autoware/Autoware/install/map_tools/lib/pkgconfig/map_tools.pc
+-- Installing: /home/autoware/Autoware/install/map_tools/share/map_tools/cmake/map_toolsConfig.cmake
+-- Installing: /home/autoware/Autoware/install/map_tools/share/map_tools/cmake/map_toolsConfig-version.cmake
+-- Installing: /home/autoware/Autoware/install/map_tools/share/map_tools/package.xml
+-- Installing: /home/autoware/Autoware/install/map_tools/lib/map_tools/csv2pcd
+-- Set runtime path of "/home/autoware/Autoware/install/map_tools/lib/map_tools/csv2pcd" to ""
+-- Installing: /home/autoware/Autoware/install/map_tools/lib/map_tools/map_extender
+-- Set runtime path of "/home/autoware/Autoware/install/map_tools/lib/map_tools/map_extender" to ""
+-- Installing: /home/autoware/Autoware/install/map_tools/lib/map_tools/pcd2csv
+-- Set runtime path of "/home/autoware/Autoware/install/map_tools/lib/map_tools/pcd2csv" to ""
+-- Installing: /home/autoware/Autoware/install/map_tools/lib/map_tools/pcd_arealist
+-- Set runtime path of "/home/autoware/Autoware/install/map_tools/lib/map_tools/pcd_arealist" to ""
+-- Installing: /home/autoware/Autoware/install/map_tools/lib/map_tools/pcd_binarizer
+-- Set runtime path of "/home/autoware/Autoware/install/map_tools/lib/map_tools/pcd_binarizer" to ""
+-- Installing: /home/autoware/Autoware/install/map_tools/lib/map_tools/pcd_filter
+-- Set runtime path of "/home/autoware/Autoware/install/map_tools/lib/map_tools/pcd_filter" to ""
+-- Installing: /home/autoware/Autoware/install/map_tools/lib/map_tools/pcd_grid_divider
+-- Set runtime path of "/home/autoware/Autoware/install/map_tools/lib/map_tools/pcd_grid_divider" to ""

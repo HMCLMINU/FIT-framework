@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CUDA compilation status: ON.
+-- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/decision_maker_panel/devel
+-- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/decision_maker_panel/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.26
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Using Qt5 based on the rviz_QT_VERSION: 5.9.5
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/autoware/Autoware/build/decision_maker_panel
+Scanning dependencies of target decision_maker_panel_autogen
+[ 25%] Automatic MOC for target decision_maker_panel
+[ 25%] Built target decision_maker_panel_autogen
+Scanning dependencies of target decision_maker_panel
+[ 50%] Building CXX object CMakeFiles/decision_maker_panel.dir/src/decision_maker_panel.cpp.o
+[ 75%] Building CXX object CMakeFiles/decision_maker_panel.dir/decision_maker_panel_autogen/mocs_compilation.cpp.o
+[100%] Linking CXX shared library devel/lib/libdecision_maker_panel.so
+[100%] Built target decision_maker_panel
+Scanning dependencies of target tests
+Built target tests
+[ 25%] Automatic MOC for target decision_maker_panel
+[ 25%] Built target decision_maker_panel_autogen
+[100%] Built target decision_maker_panel
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/autoware/Autoware/install/decision_maker_panel/lib/pkgconfig/decision_maker_panel.pc
+-- Installing: /home/autoware/Autoware/install/decision_maker_panel/share/decision_maker_panel/cmake/decision_maker_panelConfig.cmake
+-- Installing: /home/autoware/Autoware/install/decision_maker_panel/share/decision_maker_panel/cmake/decision_maker_panelConfig-version.cmake
+-- Installing: /home/autoware/Autoware/install/decision_maker_panel/share/decision_maker_panel/package.xml
+-- Installing: /home/autoware/Autoware/install/decision_maker_panel/lib/libdecision_maker_panel.so
+-- Set runtime path of "/home/autoware/Autoware/install/decision_maker_panel/lib/libdecision_maker_panel.so" to ""
+-- Installing: /home/autoware/Autoware/install/decision_maker_panel/share/decision_maker_panel/plugin_description.xml

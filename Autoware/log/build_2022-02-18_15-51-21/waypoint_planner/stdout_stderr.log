@@ -1,0 +1,158 @@
+[  0%] Built target topic_tools_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target bond_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target bond_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target vector_map_msgs_generate_messages_nodejs
+[  0%] Built target vector_map_msgs_generate_messages_py
+[  0%] Built target topic_tools_generate_messages_eus
+[  0%] Built target bond_generate_messages_lisp
+[  0%] Built target nodelet_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target nodelet_generate_messages_eus
+[  0%] Built target vector_map_msgs_generate_messages_eus
+[  0%] Built target vector_map_msgs_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target nodelet_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target autoware_lanelet2_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target bond_generate_messages_eus
+[  0%] Built target pcl_ros_gencfg
+[  0%] Built target autoware_system_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target autoware_lanelet2_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target autoware_lanelet2_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_lisp
+[  0%] Built target autoware_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target autoware_system_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target nodelet_generate_messages_lisp
+[  0%] Built target topic_tools_generate_messages_py
+[  0%] Built target vector_map_msgs_generate_messages_lisp
+[  0%] Built target nodelet_topic_tools_gencfg
+[  0%] Built target autoware_system_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target bond_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target autoware_config_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[  0%] Built target autoware_config_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target autoware_config_msgs_generate_messages_eus
+[  0%] Built target autoware_config_msgs_generate_messages_lisp
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target autoware_system_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target nodelet_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target autoware_system_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target autoware_lanelet2_msgs_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target autoware_lanelet2_msgs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target velocity_set_lanelet2[0m
+[ 23%] Built target astar_avoid
+[ 61%] Built target velocity_set
+[ 69%] [32mBuilding CXX object CMakeFiles/velocity_set_lanelet2.dir/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp.o[0m
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:387:77:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   ROS_INFO('Decelerate obstacle waypoint : %d', decelerate_obstacle_waypoint[01;35m[K)[m[K;
+                                                                             [01;35m[K^[m[K
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:410:31:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+     ROS_INFO('Both were found'[01;35m[K)[m[K;
+                               [01;35m[K^[m[K
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:416:20:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+     ROS_INFO('Else'[01;35m[K)[m[K;
+                    [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:17[m[K:
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:[m[K In function ‘[01m[KEControl pointsDetection(const pcl::PointCloud<pcl::PointXYZ>&, int, int, const Lane&, const ConstLanelets&, const VelocitySetInfo&, int*, ObstaclePoints*)[m[K’:
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:387:3:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kconst char*[m[K’ [[01;31m[K-fpermissive[m[K]
+   [01;31m[KR[m[KOS_INFO('Decelerate obstacle waypoint : %d', decelerate_obstacle_waypoint);
+   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:158:22:[m[K [01;36m[Knote: [m[K  initializing argument 7 of ‘[01m[Kvoid ros::console::print(ros::console::FilterBase*, void*, ros::console::Level, const char*, int, const char*, const char*, ...)[m[K’
+ ROSCONSOLE_DECL void [01;36m[Kprint[m[K(FilterBase* filter, void* logger, Level level,
+                      [01;36m[K^~~~~[m[K
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:410:5:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kconst char*[m[K’ [[01;31m[K-fpermissive[m[K]
+     [01;31m[KR[m[KOS_INFO('Both were found');
+     [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:158:22:[m[K [01;36m[Knote: [m[K  initializing argument 7 of ‘[01m[Kvoid ros::console::print(ros::console::FilterBase*, void*, ros::console::Level, const char*, int, const char*, const char*, ...)[m[K’
+ ROSCONSOLE_DECL void [01;36m[Kprint[m[K(FilterBase* filter, void* logger, Level level,
+                      [01;36m[K^~~~~[m[K
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:416:5:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kconst char*[m[K’ [[01;31m[K-fpermissive[m[K]
+     [01;31m[KR[m[KOS_INFO('Else');
+     [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:158:22:[m[K [01;36m[Knote: [m[K  initializing argument 7 of ‘[01m[Kvoid ros::console::print(ros::console::FilterBase*, void*, ros::console::Level, const char*, int, const char*, const char*, ...)[m[K’
+ ROSCONSOLE_DECL void [01;36m[Kprint[m[K(FilterBase* filter, void* logger, Level level,
+                      [01;36m[K^~~~~[m[K
+CMakeFiles/velocity_set_lanelet2.dir/build.make:62: recipe for target 'CMakeFiles/velocity_set_lanelet2.dir/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp.o' failed
+make[2]: *** [CMakeFiles/velocity_set_lanelet2.dir/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp.o] Error 1
+CMakeFiles/Makefile2:248: recipe for target 'CMakeFiles/velocity_set_lanelet2.dir/all' failed
+make[1]: *** [CMakeFiles/velocity_set_lanelet2.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

@@ -1,0 +1,97 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CUDA compilation status: ON.
+-- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/way_planner/devel
+-- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/op_simu;/home/autoware/Autoware/install/op_planner;/home/autoware/Autoware/install/op_utility;/home/autoware/Autoware/install/vector_map_server;/home/autoware/Autoware/install/libwaypoint_follower;/home/autoware/Autoware/install/vector_map;/home/autoware/Autoware/install/amathutils_lib;/home/autoware/Autoware/install/vector_map_msgs;/home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_can_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/autoware/Autoware/install/op_simu;/home/autoware/Autoware/install/op_planner;/home/autoware/Autoware/install/op_utility;/home/autoware/Autoware/install/vector_map_server;/home/autoware/Autoware/install/libwaypoint_follower;/home/autoware/Autoware/install/vector_map;/home/autoware/Autoware/install/amathutils_lib;/home/autoware/Autoware/install/vector_map_msgs;/home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_can_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/way_planner/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.26
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/autoware/Autoware/build/way_planner
+Scanning dependencies of target way_planner
+[ 20%] Building CXX object CMakeFiles/way_planner.dir/nodes/way_planner.cpp.o
+In file included from /home/autoware/Autoware/src/autoware/core_planning/way_planner/include/way_planner_core.h:50:0,
+                 from /home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/way_planner.cpp:27:
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/include/ROSHelpers.h: In static member function ‘static std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)’:
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/include/ROSHelpers.h:105:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while (iSecondPart > 0 && iSecondPart < str.size())
+                               ~~~~~~~~~~~~^~~~~~~~~~~~
+[ 40%] Building CXX object CMakeFiles/way_planner.dir/nodes/way_planner_core.cpp.o
+In file included from /home/autoware/Autoware/src/autoware/core_planning/way_planner/include/way_planner_core.h:50:0,
+                 from /home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/way_planner_core.cpp:17:
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/include/ROSHelpers.h: In static member function ‘static std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)’:
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/include/ROSHelpers.h:105:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while (iSecondPart > 0 && iSecondPart < str.size())
+                               ~~~~~~~~~~~~^~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/way_planner_core.cpp: In member function ‘void WayPlannerNS::way_planner_core::PlannerMainLoop()’:
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/way_planner_core.cpp:712:72: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+           if(ret == true && info.iGlobalPath >= 0 &&  info.iGlobalPath < m_GeneratedTotalPaths.size() && info.iFront > 0 && info.iFront < m_GeneratedTotalPaths.at(info.iGlobalPath).size())
+                                                       ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/way_planner_core.cpp:712:137: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+           if(ret == true && info.iGlobalPath >= 0 &&  info.iGlobalPath < m_GeneratedTotalPaths.size() && info.iFront > 0 && info.iFront < m_GeneratedTotalPaths.at(info.iGlobalPath).size())
+                                                                                                                             ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/way_planner_core.cpp:718:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+               if(m_iCurrentGoalIndex >= m_GoalsPos.size())
+                  ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+[ 60%] Building CXX object CMakeFiles/way_planner.dir/nodes/ROSHelpers.cpp.o
+In file included from /home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/ROSHelpers.cpp:8:0:
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/include/ROSHelpers.h: In static member function ‘static std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)’:
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/include/ROSHelpers.h:105:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while (iSecondPart > 0 && iSecondPart < str.size())
+                               ~~~~~~~~~~~~^~~~~~~~~~~~
+[ 80%] Building CXX object CMakeFiles/way_planner.dir/nodes/SocketServer.cpp.o
+In file included from /home/autoware/Autoware/src/autoware/core_planning/way_planner/include/SocketServer.h:19:0,
+                 from /home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/SocketServer.cpp:8:
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/include/ROSHelpers.h: In static member function ‘static std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)’:
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/include/ROSHelpers.h:105:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while (iSecondPart > 0 && iSecondPart < str.size())
+                               ~~~~~~~~~~~~^~~~~~~~~~~~
+[100%] Linking CXX executable devel/lib/way_planner/way_planner
+[100%] Built target way_planner
+Scanning dependencies of target tests
+Built target tests
+[100%] Built target way_planner
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/autoware/Autoware/install/way_planner/lib/pkgconfig/way_planner.pc
+-- Installing: /home/autoware/Autoware/install/way_planner/share/way_planner/cmake/way_plannerConfig.cmake
+-- Installing: /home/autoware/Autoware/install/way_planner/share/way_planner/cmake/way_plannerConfig-version.cmake
+-- Installing: /home/autoware/Autoware/install/way_planner/share/way_planner/package.xml
+-- Installing: /home/autoware/Autoware/install/way_planner/lib/way_planner/way_planner
+-- Set runtime path of "/home/autoware/Autoware/install/way_planner/lib/way_planner/way_planner" to ""
+-- Installing: /home/autoware/Autoware/install/way_planner/share/way_planner/launch
+-- Installing: /home/autoware/Autoware/install/way_planner/share/way_planner/launch/way_planner.launch

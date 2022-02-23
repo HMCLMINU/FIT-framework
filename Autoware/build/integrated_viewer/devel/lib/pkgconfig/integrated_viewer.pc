@@ -1,0 +1,8 @@
+prefix=/home/autoware/Autoware/build/integrated_viewer/devel
+
+Name: integrated_viewer
+Description: Description of integrated_viewer
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rviz

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autoware/Autoware/install/marker_downsampler/setup.sh

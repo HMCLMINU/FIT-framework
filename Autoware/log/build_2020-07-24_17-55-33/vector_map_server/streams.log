@@ -1,0 +1,866 @@
+[0.027s] Invoking command in '/home/autoware/Autoware/build/vector_map_server': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/common/vector_map_server -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/vector_map_server
+[0.131s] -- The C compiler identification is GNU 7.5.0
+[0.212s] -- The CXX compiler identification is GNU 7.5.0
+[0.219s] -- Check for working C compiler: /usr/bin/cc
+[0.310s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.310s] -- Detecting C compiler ABI info
+[0.393s] -- Detecting C compiler ABI info - done
+[0.403s] -- Detecting C compile features
+[0.714s] -- Detecting C compile features - done
+[0.718s] -- Check for working CXX compiler: /usr/bin/c++
+[0.846s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.846s] -- Detecting CXX compiler ABI info
+[0.946s] -- Detecting CXX compiler ABI info - done
+[0.952s] -- Detecting CXX compile features
+[1.396s] -- Detecting CXX compile features - done
+[1.398s] -- CUDA compilation status: ON.
+[1.400s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/vector_map_server/devel
+[1.401s] -- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/vector_map;/home/autoware/Autoware/install/vector_map_msgs;/home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.401s] -- This workspace overlays: /home/autoware/Autoware/install/vector_map;/home/autoware/Autoware/install/vector_map_msgs;/home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.419s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.419s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.419s] -- Using Debian Python package layout
+[1.420s] -- Using empy: /usr/bin/empy
+[1.582s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.582s] -- Call enable_testing()
+[1.582s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/vector_map_server/test_results
+[1.608s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.608s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.626s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.627s] -- Looking for pthread.h
+[1.754s] -- Looking for pthread.h - found
+[1.754s] -- Looking for pthread_create
+[1.858s] -- Looking for pthread_create - not found
+[1.858s] -- Looking for pthread_create in pthreads
+[1.958s] -- Looking for pthread_create in pthreads - not found
+[1.958s] -- Looking for pthread_create in pthread
+[2.067s] -- Looking for pthread_create in pthread - found
+[2.069s] -- Found Threads: TRUE  
+[2.074s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.129s] -- catkin 0.7.26
+[2.129s] -- BUILD_SHARED_LIBS is on
+[2.357s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.864s] -- vector_map_server: 0 messages, 27 services
+[3.095s] -- Configuring done
+[3.210s] -- Generating done
+[3.231s] -- Build files have been written to: /home/autoware/Autoware/build/vector_map_server
+[3.239s] Invoked command in '/home/autoware/Autoware/build/vector_map_server' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/common/vector_map_server -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/vector_map_server
+[3.243s] Invoking command in '/home/autoware/Autoware/build/vector_map_server': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vector_map_server -- -j2 -l2
+[3.310s] Scanning dependencies of target vector_map_msgs_generate_messages_eus
+[3.324s] [  0%] Built target vector_map_msgs_generate_messages_eus
+[3.339s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetCurb
+[3.388s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetCurb
+[3.403s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetWall
+[3.447s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetWall
+[3.461s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_PositionState
+[3.505s] [  0%] Built target _vector_map_server_generate_messages_check_deps_PositionState
+[3.518s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetFence
+[3.560s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetFence
+[3.575s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetGuardRail
+[3.621s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetGuardRail
+[3.635s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetRoadPole
+[3.683s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRoadPole
+[3.697s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetDriveOnPortion
+[3.743s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetDriveOnPortion
+[3.758s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetZebraZone
+[3.804s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetZebraZone
+[3.817s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetLane
+[3.859s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetLane
+[3.872s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetSignal
+[3.915s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetSignal
+[3.927s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetCrossWalk
+[3.969s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetCrossWalk
+[3.982s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetGutter
+[4.025s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetGutter
+[4.038s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetWhiteLine
+[4.082s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetWhiteLine
+[4.095s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetDTLane
+[4.141s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetDTLane
+[4.155s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetRoadSign
+[4.198s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRoadSign
+[4.211s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetUtilityPole
+[4.256s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetUtilityPole
+[4.270s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetStopLine
+[4.312s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetStopLine
+[4.325s] Scanning dependencies of target vector_map_msgs_generate_messages_nodejs
+[4.340s] [  0%] Built target vector_map_msgs_generate_messages_nodejs
+[4.354s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetSideWalk
+[4.398s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetSideWalk
+[4.412s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetRoadEdge
+[4.457s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRoadEdge
+[4.470s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetCurveMirror
+[4.515s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetCurveMirror
+[4.527s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetSideStrip
+[4.570s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetSideStrip
+[4.584s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetWayArea
+[4.629s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetWayArea
+[4.643s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetRailCrossing
+[4.687s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRailCrossing
+[4.702s] Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+[4.715s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[4.729s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetRoadMark
+[4.776s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRoadMark
+[4.790s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetNode
+[4.834s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetNode
+[4.848s] Scanning dependencies of target autoware_msgs_generate_messages_nodejs
+[4.861s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[4.875s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetStreetLight
+[4.918s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetStreetLight
+[4.933s] Scanning dependencies of target _vector_map_server_generate_messages_check_deps_GetCrossRoad
+[4.980s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetCrossRoad
+[4.995s] Scanning dependencies of target vector_map_msgs_generate_messages_py
+[5.009s] [  0%] Built target vector_map_msgs_generate_messages_py
+[5.022s] Scanning dependencies of target vector_map_msgs_generate_messages_lisp
+[5.034s] [  0%] Built target vector_map_msgs_generate_messages_lisp
+[5.047s] Scanning dependencies of target geometry_msgs_generate_messages_py
+[5.059s] [  0%] Built target geometry_msgs_generate_messages_py
+[5.072s] Scanning dependencies of target sensor_msgs_generate_messages_nodejs
+[5.085s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[5.099s] Scanning dependencies of target geometry_msgs_generate_messages_eus
+[5.112s] [  0%] Built target geometry_msgs_generate_messages_eus
+[5.125s] Scanning dependencies of target autoware_msgs_generate_messages_eus
+[5.138s] [  0%] Built target autoware_msgs_generate_messages_eus
+[5.151s] Scanning dependencies of target roscpp_generate_messages_cpp
+[5.164s] [  0%] Built target roscpp_generate_messages_cpp
+[5.177s] Scanning dependencies of target actionlib_generate_messages_cpp
+[5.189s] [  0%] Built target actionlib_generate_messages_cpp
+[5.202s] Scanning dependencies of target pcl_msgs_generate_messages_eus
+[5.214s] [  0%] Built target pcl_msgs_generate_messages_eus
+[5.228s] Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+[5.245s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[5.260s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_lisp
+[5.275s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[5.288s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_eus
+[5.301s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[5.314s] Scanning dependencies of target tf2_msgs_generate_messages_cpp
+[5.331s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[5.345s] Scanning dependencies of target std_msgs_generate_messages_py
+[5.359s] [  0%] Built target std_msgs_generate_messages_py
+[5.373s] Scanning dependencies of target autoware_msgs_generate_messages_py
+[5.387s] [  0%] Built target autoware_msgs_generate_messages_py
+[5.401s] Scanning dependencies of target std_msgs_generate_messages_nodejs
+[5.414s] [  0%] Built target std_msgs_generate_messages_nodejs
+[5.427s] Scanning dependencies of target sensor_msgs_generate_messages_eus
+[5.440s] [  0%] Built target sensor_msgs_generate_messages_eus
+[5.453s] Scanning dependencies of target _catkin_empty_exported_target
+[5.466s] [  0%] Built target _catkin_empty_exported_target
+[5.480s] Scanning dependencies of target sensor_msgs_generate_messages_cpp
+[5.492s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[5.506s] Scanning dependencies of target autoware_msgs_generate_messages_cpp
+[5.519s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[5.533s] Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+[5.548s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[5.563s] Scanning dependencies of target pcl_msgs_generate_messages_nodejs
+[5.576s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[5.590s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_py
+[5.603s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[5.616s] Scanning dependencies of target sensor_msgs_generate_messages_lisp
+[5.629s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[5.643s] Scanning dependencies of target sensor_msgs_generate_messages_py
+[5.656s] [  0%] Built target sensor_msgs_generate_messages_py
+[5.669s] Scanning dependencies of target tf_generate_messages_py
+[5.682s] [  0%] Built target tf_generate_messages_py
+[5.696s] Scanning dependencies of target std_msgs_generate_messages_cpp
+[5.708s] [  0%] Built target std_msgs_generate_messages_cpp
+[5.722s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_py
+[5.736s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[5.749s] Scanning dependencies of target visualization_msgs_generate_messages_nodejs
+[5.764s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[5.779s] Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+[5.798s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[5.815s] Scanning dependencies of target std_msgs_generate_messages_lisp
+[5.829s] [  0%] Built target std_msgs_generate_messages_lisp
+[5.842s] Scanning dependencies of target roscpp_generate_messages_nodejs
+[5.855s] [  0%] Built target roscpp_generate_messages_nodejs
+[5.869s] Scanning dependencies of target geometry_msgs_generate_messages_lisp
+[5.883s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[5.896s] Scanning dependencies of target pcl_msgs_generate_messages_cpp
+[5.909s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[5.921s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_cpp
+[5.934s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[5.951s] Scanning dependencies of target autoware_msgs_generate_messages_lisp
+[5.965s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[5.982s] Scanning dependencies of target visualization_msgs_generate_messages_lisp
+[5.996s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[6.011s] Scanning dependencies of target std_msgs_generate_messages_eus
+[6.026s] [  0%] Built target std_msgs_generate_messages_eus
+[6.040s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_eus
+[6.054s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[6.069s] Scanning dependencies of target actionlib_msgs_generate_messages_py
+[6.084s] [  0%] Built target actionlib_msgs_generate_messages_py
+[6.099s] Scanning dependencies of target vector_map_server_generate_messages_lisp
+[6.116s] [  0%] Generating Lisp code from vector_map_server/GetStopLine.srv
+[6.171s] [  1%] Generating Lisp code from vector_map_server/GetSideStrip.srv
+[6.226s] [  2%] Generating Lisp code from vector_map_server/GetUtilityPole.srv
+[6.283s] [  2%] Generating Lisp code from vector_map_server/GetRoadSign.srv
+[6.338s] [  3%] Generating Lisp code from vector_map_server/GetCurb.srv
+[6.413s] [  4%] Generating Lisp code from vector_map_server/GetWayArea.srv
+[6.476s] [  4%] Generating Lisp code from vector_map_server/GetRailCrossing.srv
+[6.529s] [  5%] Generating Lisp code from vector_map_server/GetRoadMark.srv
+[6.584s] [  5%] Generating Lisp code from vector_map_server/GetStreetLight.srv
+[6.639s] [  6%] Generating Lisp code from vector_map_server/GetNode.srv
+[6.692s] [  7%] Generating Lisp code from vector_map_server/GetRoadEdge.srv
+[6.747s] [  7%] Generating Lisp code from vector_map_server/GetSideWalk.srv
+[6.808s] [  8%] Generating Lisp code from vector_map_server/GetDTLane.srv
+[6.869s] [  9%] Generating Lisp code from vector_map_server/GetWhiteLine.srv
+[6.925s] [  9%] Generating Lisp code from vector_map_server/GetGutter.srv
+[6.982s] [ 10%] Generating Lisp code from vector_map_server/GetCrossWalk.srv
+[7.039s] [ 11%] Generating Lisp code from vector_map_server/GetLane.srv
+[7.094s] [ 11%] Generating Lisp code from vector_map_server/GetZebraZone.srv
+[7.128s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_lisp
+[7.174s] [ 12%] Generating Lisp code from vector_map_server/GetCurveMirror.srv
+[7.174s] [ 12%] Built target jsk_footstep_msgs_generate_messages_lisp
+[7.200s] [ 13%] Generating Lisp code from vector_map_server/GetDriveOnPortion.srv
+[7.226s] [ 13%] Generating Lisp code from vector_map_server/GetRoadPole.srv
+[7.266s] [ 15%] Generating Lisp code from vector_map_server/GetGuardRail.srv
+[7.308s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs
+[7.334s] [ 15%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[7.335s] [ 16%] Generating Lisp code from vector_map_server/GetSignal.srv
+[7.396s] [ 16%] Generating Lisp code from vector_map_server/GetCrossRoad.srv
+[7.412s] Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+[7.441s] [ 16%] Built target actionlib_msgs_generate_messages_lisp
+[7.494s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs
+[7.498s] [ 17%] Generating Lisp code from vector_map_server/GetFence.srv
+[7.523s] [ 17%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[7.536s] Scanning dependencies of target roscpp_generate_messages_lisp
+[7.549s] [ 17%] Built target roscpp_generate_messages_lisp
+[7.562s] Scanning dependencies of target roscpp_generate_messages_py
+[7.582s] [ 17%] Built target roscpp_generate_messages_py
+[7.595s] [ 18%] Generating Lisp code from vector_map_server/PositionState.srv
+[7.604s] Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+[7.635s] [ 18%] Built target rosgraph_msgs_generate_messages_lisp
+[7.665s] Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+[7.673s] [ 18%] Generating Lisp code from vector_map_server/GetWall.srv
+[7.696s] [ 18%] Built target rosgraph_msgs_generate_messages_nodejs
+[7.733s] Scanning dependencies of target vector_map_server_generate_messages_py
+[7.757s] [ 19%] Generating Python code from SRV vector_map_server/GetStopLine
+[7.795s] [ 19%] Built target vector_map_server_generate_messages_lisp
+[7.817s] [ 19%] Generating Python code from SRV vector_map_server/GetSideStrip
+[8.037s] Scanning dependencies of target roscpp_generate_messages_eus
+[8.053s] [ 19%] Built target roscpp_generate_messages_eus
+[8.068s] [ 20%] Generating Python code from SRV vector_map_server/GetUtilityPole
+[8.209s] [ 21%] Generating Python code from SRV vector_map_server/GetRoadSign
+[8.222s] Scanning dependencies of target actionlib_msgs_generate_messages_eus
+[8.262s] [ 21%] Built target actionlib_msgs_generate_messages_eus
+[8.297s] Scanning dependencies of target rosgraph_msgs_generate_messages_py
+[8.340s] [ 21%] Built target rosgraph_msgs_generate_messages_py
+[8.385s] [ 21%] Generating Python code from SRV vector_map_server/GetCurb
+[8.385s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_cpp
+[8.416s] [ 21%] Built target jsk_footstep_msgs_generate_messages_cpp
+[8.453s] Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+[8.523s] [ 22%] Generating Python code from SRV vector_map_server/GetWayArea
+[8.524s] [ 22%] Built target actionlib_msgs_generate_messages_cpp
+[8.556s] Scanning dependencies of target tf_generate_messages_eus
+[8.579s] [ 22%] Built target tf_generate_messages_eus
+[8.599s] Scanning dependencies of target tf_generate_messages_lisp
+[8.635s] [ 22%] Built target tf_generate_messages_lisp
+[8.672s] Scanning dependencies of target tf_generate_messages_nodejs
+[8.701s] [ 23%] Generating Python code from SRV vector_map_server/GetRailCrossing
+[8.704s] [ 23%] Built target tf_generate_messages_nodejs
+[8.720s] Scanning dependencies of target pcl_msgs_generate_messages_py
+[8.745s] [ 23%] Built target pcl_msgs_generate_messages_py
+[8.765s] Scanning dependencies of target actionlib_generate_messages_eus
+[8.779s] [ 23%] Built target actionlib_generate_messages_eus
+[8.793s] Scanning dependencies of target geometry_msgs_generate_messages_cpp
+[8.806s] [ 23%] Built target geometry_msgs_generate_messages_cpp
+[8.824s] Scanning dependencies of target actionlib_generate_messages_lisp
+[8.855s] [ 23%] Built target actionlib_generate_messages_lisp
+[8.874s] Scanning dependencies of target pcl_msgs_generate_messages_lisp
+[8.887s] [ 23%] Generating Python code from SRV vector_map_server/GetRoadMark
+[8.903s] [ 23%] Built target pcl_msgs_generate_messages_lisp
+[8.931s] [ 24%] Generating Python code from SRV vector_map_server/GetStreetLight
+[9.074s] Scanning dependencies of target tf_generate_messages_cpp
+[9.106s] [ 24%] Built target tf_generate_messages_cpp
+[9.108s] [ 25%] Generating Python code from SRV vector_map_server/GetNode
+[9.242s] [ 25%] Generating Python code from SRV vector_map_server/GetRoadEdge
+[9.257s] Scanning dependencies of target actionlib_generate_messages_nodejs
+[9.281s] [ 25%] Built target actionlib_generate_messages_nodejs
+[9.327s] Scanning dependencies of target tf2_msgs_generate_messages_lisp
+[9.357s] [ 25%] Built target tf2_msgs_generate_messages_lisp
+[9.386s] [ 26%] Generating Python code from SRV vector_map_server/GetSideWalk
+[9.411s] Scanning dependencies of target actionlib_generate_messages_py
+[9.432s] [ 26%] Built target actionlib_generate_messages_py
+[9.455s] [ 27%] Generating Python code from SRV vector_map_server/GetDTLane
+[9.549s] Scanning dependencies of target tf2_msgs_generate_messages_py
+[9.585s] [ 27%] Built target tf2_msgs_generate_messages_py
+[9.621s] [ 27%] Generating Python code from SRV vector_map_server/GetWhiteLine
+[9.645s] Scanning dependencies of target tf2_msgs_generate_messages_nodejs
+[9.667s] [ 27%] Built target tf2_msgs_generate_messages_nodejs
+[9.760s] [ 29%] Generating Python code from SRV vector_map_server/GetGutter
+[9.893s] [ 30%] Generating Python code from SRV vector_map_server/GetCrossWalk
+[10.023s] [ 30%] Generating Python code from SRV vector_map_server/GetLane
+[10.155s] [ 31%] Generating Python code from SRV vector_map_server/GetZebraZone
+[10.287s] [ 32%] Generating Python code from SRV vector_map_server/GetCurveMirror
+[10.428s] [ 32%] Generating Python code from SRV vector_map_server/GetDriveOnPortion
+[10.432s] [ 33%] Generating Python code from SRV vector_map_server/GetRoadPole
+[10.609s] [ 34%] Generating Python code from SRV vector_map_server/GetGuardRail
+[10.635s] [ 34%] Generating Python code from SRV vector_map_server/GetSignal
+[10.746s] [ 35%] Generating Python code from SRV vector_map_server/GetCrossRoad
+[10.809s] [ 36%] Generating Python code from SRV vector_map_server/GetFence
+[10.890s] [ 36%] Generating Python code from SRV vector_map_server/PositionState
+[11.023s] [ 37%] Generating Python code from SRV vector_map_server/GetWall
+[11.031s] Scanning dependencies of target tf2_msgs_generate_messages_eus
+[11.044s] [ 37%] Built target tf2_msgs_generate_messages_eus
+[11.084s] Scanning dependencies of target visualization_msgs_generate_messages_cpp
+[11.117s] [ 37%] Built target visualization_msgs_generate_messages_cpp
+[11.150s] Scanning dependencies of target vector_map_msgs_generate_messages_cpp
+[11.170s] [ 37%] Built target vector_map_msgs_generate_messages_cpp
+[11.180s] [ 38%] Generating Python srv __init__.py for vector_map_server
+[11.199s] Scanning dependencies of target visualization_msgs_generate_messages_eus
+[11.225s] [ 38%] Built target visualization_msgs_generate_messages_eus
+[11.256s] Scanning dependencies of target visualization_msgs_generate_messages_py
+[11.303s] [ 38%] Built target visualization_msgs_generate_messages_py
+[11.349s] Scanning dependencies of target vector_map_server_generate_messages_nodejs
+[11.352s] [ 38%] Built target vector_map_server_generate_messages_py
+[11.374s] Scanning dependencies of target vector_map_server_generate_messages_eus
+[11.388s] [ 39%] Generating Javascript code from vector_map_server/GetStopLine.srv
+[11.402s] [ 40%] Generating EusLisp code from vector_map_server/GetStopLine.srv
+[11.467s] [ 41%] Generating Javascript code from vector_map_server/GetSideStrip.srv
+[11.536s] [ 41%] Generating Javascript code from vector_map_server/GetUtilityPole.srv
+[11.567s] [ 41%] Generating EusLisp code from vector_map_server/GetSideStrip.srv
+[11.672s] [ 43%] Generating Javascript code from vector_map_server/GetRoadSign.srv
+[11.692s] [ 44%] Generating EusLisp code from vector_map_server/GetUtilityPole.srv
+[11.770s] [ 45%] Generating Javascript code from vector_map_server/GetCurb.srv
+[11.824s] [ 46%] Generating EusLisp code from vector_map_server/GetRoadSign.srv
+[11.855s] [ 46%] Generating Javascript code from vector_map_server/GetWayArea.srv
+[11.947s] [ 47%] Generating Javascript code from vector_map_server/GetRailCrossing.srv
+[11.960s] [ 47%] Generating EusLisp code from vector_map_server/GetCurb.srv
+[12.022s] [ 48%] Generating Javascript code from vector_map_server/GetRoadMark.srv
+[12.060s] [ 49%] Generating EusLisp code from vector_map_server/GetWayArea.srv
+[12.095s] [ 49%] Generating Javascript code from vector_map_server/GetStreetLight.srv
+[12.155s] [ 50%] Generating EusLisp code from vector_map_server/GetRailCrossing.srv
+[12.199s] [ 51%] Generating Javascript code from vector_map_server/GetNode.srv
+[12.238s] [ 51%] Generating EusLisp code from vector_map_server/GetRoadMark.srv
+[12.283s] [ 52%] Generating Javascript code from vector_map_server/GetRoadEdge.srv
+[12.343s] [ 53%] Generating EusLisp code from vector_map_server/GetStreetLight.srv
+[12.344s] [ 53%] Generating Javascript code from vector_map_server/GetSideWalk.srv
+[12.432s] [ 54%] Generating Javascript code from vector_map_server/GetDTLane.srv
+[12.434s] [ 55%] Generating EusLisp code from vector_map_server/GetNode.srv
+[12.506s] [ 56%] Generating Javascript code from vector_map_server/GetWhiteLine.srv
+[12.534s] [ 56%] Generating EusLisp code from vector_map_server/GetRoadEdge.srv
+[12.594s] [ 56%] Generating Javascript code from vector_map_server/GetGutter.srv
+[12.653s] [ 58%] Generating EusLisp code from vector_map_server/GetSideWalk.srv
+[12.661s] [ 59%] Generating Javascript code from vector_map_server/GetCrossWalk.srv
+[12.722s] [ 60%] Generating Javascript code from vector_map_server/GetLane.srv
+[12.816s] [ 60%] Generating Javascript code from vector_map_server/GetZebraZone.srv
+[12.819s] [ 61%] Generating EusLisp code from vector_map_server/GetDTLane.srv
+[12.915s] [ 61%] Generating EusLisp code from vector_map_server/GetWhiteLine.srv
+[12.917s] [ 62%] Generating Javascript code from vector_map_server/GetCurveMirror.srv
+[13.033s] [ 62%] Generating Javascript code from vector_map_server/GetDriveOnPortion.srv
+[13.044s] [ 63%] Generating EusLisp code from vector_map_server/GetGutter.srv
+[13.122s] [ 64%] Generating Javascript code from vector_map_server/GetRoadPole.srv
+[13.134s] [ 65%] Generating EusLisp code from vector_map_server/GetCrossWalk.srv
+[13.231s] [ 66%] Generating Javascript code from vector_map_server/GetGuardRail.srv
+[13.261s] [ 66%] Generating EusLisp code from vector_map_server/GetLane.srv
+[13.306s] [ 66%] Generating Javascript code from vector_map_server/GetSignal.srv
+[13.347s] [ 67%] Generating EusLisp code from vector_map_server/GetZebraZone.srv
+[13.436s] [ 68%] Generating EusLisp code from vector_map_server/GetCurveMirror.srv
+[13.458s] [ 69%] Generating Javascript code from vector_map_server/GetCrossRoad.srv
+[13.551s] [ 70%] Generating Javascript code from vector_map_server/GetFence.srv
+[13.564s] [ 70%] Generating EusLisp code from vector_map_server/GetDriveOnPortion.srv
+[13.658s] [ 70%] Generating Javascript code from vector_map_server/PositionState.srv
+[13.714s] [ 72%] Generating EusLisp code from vector_map_server/GetRoadPole.srv
+[13.753s] [ 73%] Generating Javascript code from vector_map_server/GetWall.srv
+[13.834s] [ 74%] Generating EusLisp code from vector_map_server/GetGuardRail.srv
+[13.852s] [ 74%] Built target vector_map_server_generate_messages_nodejs
+[13.918s] [ 74%] Generating EusLisp code from vector_map_server/GetSignal.srv
+[14.000s] [ 75%] Generating EusLisp code from vector_map_server/GetCrossRoad.srv
+[14.093s] [ 76%] Generating EusLisp code from vector_map_server/GetFence.srv
+[14.183s] [ 76%] Generating EusLisp code from vector_map_server/PositionState.srv
+[14.261s] [ 77%] Generating EusLisp code from vector_map_server/GetWall.srv
+[14.339s] [ 78%] Generating EusLisp manifest code for vector_map_server
+[15.322s] [ 78%] Built target vector_map_server_generate_messages_eus
+[15.337s] Scanning dependencies of target vector_map_server_generate_messages_cpp
+[15.353s] [ 79%] Generating C++ code from vector_map_server/GetStopLine.srv
+[15.705s] [ 80%] Generating C++ code from vector_map_server/GetSideStrip.srv
+[15.962s] [ 80%] Generating C++ code from vector_map_server/GetUtilityPole.srv
+[16.215s] [ 81%] Generating C++ code from vector_map_server/GetRoadSign.srv
+[16.475s] [ 82%] Generating C++ code from vector_map_server/GetCurb.srv
+[16.735s] [ 82%] Generating C++ code from vector_map_server/GetWayArea.srv
+[17.007s] [ 83%] Generating C++ code from vector_map_server/GetRailCrossing.srv
+[17.264s] [ 84%] Generating C++ code from vector_map_server/GetRoadMark.srv
+[17.537s] [ 84%] Generating C++ code from vector_map_server/GetStreetLight.srv
+[17.813s] [ 86%] Generating C++ code from vector_map_server/GetNode.srv
+[18.075s] [ 87%] Generating C++ code from vector_map_server/GetRoadEdge.srv
+[18.339s] [ 87%] Generating C++ code from vector_map_server/GetSideWalk.srv
+[18.616s] [ 88%] Generating C++ code from vector_map_server/GetDTLane.srv
+[18.872s] [ 89%] Generating C++ code from vector_map_server/GetWhiteLine.srv
+[19.126s] [ 89%] Generating C++ code from vector_map_server/GetGutter.srv
+[19.382s] [ 90%] Generating C++ code from vector_map_server/GetCrossWalk.srv
+[19.656s] [ 91%] Generating C++ code from vector_map_server/GetLane.srv
+[19.921s] [ 91%] Generating C++ code from vector_map_server/GetZebraZone.srv
+[20.187s] [ 92%] Generating C++ code from vector_map_server/GetCurveMirror.srv
+[20.454s] [ 93%] Generating C++ code from vector_map_server/GetDriveOnPortion.srv
+[20.719s] [ 93%] Generating C++ code from vector_map_server/GetRoadPole.srv
+[20.982s] [ 94%] Generating C++ code from vector_map_server/GetGuardRail.srv
+[21.241s] [ 95%] Generating C++ code from vector_map_server/GetSignal.srv
+[21.505s] [ 95%] Generating C++ code from vector_map_server/GetCrossRoad.srv
+[21.785s] [ 96%] Generating C++ code from vector_map_server/GetFence.srv
+[22.058s] [ 96%] Generating C++ code from vector_map_server/PositionState.srv
+[22.331s] [ 97%] Generating C++ code from vector_map_server/GetWall.srv
+[22.600s] [ 97%] Built target vector_map_server_generate_messages_cpp
+[22.637s] Scanning dependencies of target vector_map_client
+[22.660s] [ 97%] Building CXX object CMakeFiles/vector_map_client.dir/nodes/vector_map_client/vector_map_client.cpp.o
+[27.514s] [ 98%] Linking CXX executable devel/lib/vector_map_server/vector_map_client
+[27.673s] [ 98%] Built target vector_map_client
+[27.688s] Scanning dependencies of target vector_map_server_generate_messages
+[27.702s] [ 98%] Built target vector_map_server_generate_messages
+[27.744s] Scanning dependencies of target vector_map_server
+[27.769s] [100%] Building CXX object CMakeFiles/vector_map_server.dir/nodes/vector_map_server/vector_map_server.cpp.o
+[32.463s] /home/autoware/Autoware/src/autoware/common/vector_map_server/nodes/vector_map_server/vector_map_server.cpp:317:19: warning: ‘std::vector<vector_map_msgs::Lane_<std::allocator<void> >, std::allocator<vector_map_msgs::Lane_<std::allocator<void> > > > {anonymous}::findNearLanes(const vector_map::VectorMap&, const std::vector<vector_map_msgs::Lane_<std::allocator<void> >, std::allocator<vector_map_msgs::Lane_<std::allocator<void> > > >&, const Point&, double)’ defined but not used [-Wunused-function]
+[32.463s]  std::vector<Lane> findNearLanes(const VectorMap& vmap, const std::vector<Lane>& lanes, const Point& base_point,
+[32.463s]                    ^~~~~~~~~~~~~
+[32.463s] /home/autoware/Autoware/src/autoware/common/vector_map_server/nodes/vector_map_server/vector_map_server.cpp:104:6: warning: ‘bool {anonymous}::isMergingLane(const Lane&)’ defined but not used [-Wunused-function]
+[32.464s]  bool isMergingLane(const Lane& lane)
+[32.464s]       ^~~~~~~~~~~~~
+[42.129s] [100%] Linking CXX executable devel/lib/vector_map_server/vector_map_server
+[42.352s] [100%] Built target vector_map_server
+[42.370s] Invoked command in '/home/autoware/Autoware/build/vector_map_server' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vector_map_server -- -j2 -l2
+[42.543s] Invoking command in '/home/autoware/Autoware/build/vector_map_server': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vector_map_server --target tests -- -j2 -l2
+[42.624s] Scanning dependencies of target tests
+[42.637s] Built target tests
+[42.652s] Invoked command in '/home/autoware/Autoware/build/vector_map_server' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vector_map_server --target tests -- -j2 -l2
+[42.817s] Invoking command in '/home/autoware/Autoware/build/vector_map_server': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vector_map_server --target install -- -j2 -l2
+[42.894s] [  0%] Built target vector_map_msgs_generate_messages_eus
+[42.959s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetCurb
+[43.014s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetWall
+[43.071s] [  0%] Built target _vector_map_server_generate_messages_check_deps_PositionState
+[43.129s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetFence
+[43.186s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetGuardRail
+[43.240s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRoadPole
+[43.295s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetDriveOnPortion
+[43.353s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetZebraZone
+[43.416s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetLane
+[43.476s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetSignal
+[43.534s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetCrossWalk
+[43.594s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetGutter
+[43.653s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetWhiteLine
+[43.712s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetDTLane
+[43.773s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRoadSign
+[43.835s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetUtilityPole
+[43.896s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetStopLine
+[43.923s] [  0%] Built target vector_map_msgs_generate_messages_nodejs
+[43.982s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetSideWalk
+[44.039s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRoadEdge
+[44.095s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetCurveMirror
+[44.149s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetSideStrip
+[44.205s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetWayArea
+[44.265s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRailCrossing
+[44.294s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[44.352s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRoadMark
+[44.414s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetNode
+[44.441s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[44.501s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetStreetLight
+[44.561s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetCrossRoad
+[44.591s] [  0%] Built target vector_map_msgs_generate_messages_py
+[44.619s] [  0%] Built target vector_map_msgs_generate_messages_lisp
+[44.646s] [  0%] Built target geometry_msgs_generate_messages_py
+[44.672s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[44.698s] [  0%] Built target geometry_msgs_generate_messages_eus
+[44.725s] [  0%] Built target autoware_msgs_generate_messages_eus
+[44.751s] [  0%] Built target roscpp_generate_messages_cpp
+[44.777s] [  0%] Built target actionlib_generate_messages_cpp
+[44.803s] [  0%] Built target pcl_msgs_generate_messages_eus
+[44.829s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[44.855s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[44.884s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[44.909s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[44.935s] [  0%] Built target std_msgs_generate_messages_py
+[44.966s] [  0%] Built target autoware_msgs_generate_messages_py
+[44.996s] [  0%] Built target std_msgs_generate_messages_nodejs
+[45.025s] [  0%] Built target sensor_msgs_generate_messages_eus
+[45.052s] [  0%] Built target _catkin_empty_exported_target
+[45.078s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[45.105s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[45.132s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[45.159s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[45.185s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[45.211s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[45.239s] [  0%] Built target sensor_msgs_generate_messages_py
+[45.265s] [  0%] Built target tf_generate_messages_py
+[45.292s] [  0%] Built target std_msgs_generate_messages_cpp
+[45.318s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[45.344s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[45.369s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[45.397s] [  0%] Built target std_msgs_generate_messages_lisp
+[45.422s] [  0%] Built target roscpp_generate_messages_nodejs
+[45.450s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[45.477s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[45.505s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[45.530s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[45.555s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[45.580s] [  0%] Built target std_msgs_generate_messages_eus
+[45.604s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[45.628s] [  0%] Built target actionlib_msgs_generate_messages_py
+[45.660s] [ 18%] Built target vector_map_server_generate_messages_lisp
+[45.684s] [ 18%] Built target jsk_footstep_msgs_generate_messages_lisp
+[45.710s] [ 18%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[45.734s] [ 18%] Built target actionlib_msgs_generate_messages_lisp
+[45.762s] [ 18%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[45.788s] [ 18%] Built target roscpp_generate_messages_lisp
+[45.816s] [ 18%] Built target roscpp_generate_messages_py
+[45.842s] [ 18%] Built target rosgraph_msgs_generate_messages_lisp
+[45.868s] [ 18%] Built target rosgraph_msgs_generate_messages_nodejs
+[45.902s] [ 38%] Built target vector_map_server_generate_messages_py
+[45.929s] [ 38%] Built target roscpp_generate_messages_eus
+[45.956s] [ 38%] Built target actionlib_msgs_generate_messages_eus
+[45.984s] [ 38%] Built target rosgraph_msgs_generate_messages_py
+[46.013s] [ 38%] Built target jsk_footstep_msgs_generate_messages_cpp
+[46.040s] [ 38%] Built target actionlib_msgs_generate_messages_cpp
+[46.067s] [ 38%] Built target tf_generate_messages_eus
+[46.095s] [ 38%] Built target tf_generate_messages_lisp
+[46.122s] [ 38%] Built target tf_generate_messages_nodejs
+[46.149s] [ 38%] Built target pcl_msgs_generate_messages_py
+[46.176s] [ 38%] Built target actionlib_generate_messages_eus
+[46.203s] [ 38%] Built target geometry_msgs_generate_messages_cpp
+[46.228s] [ 38%] Built target actionlib_generate_messages_lisp
+[46.254s] [ 38%] Built target pcl_msgs_generate_messages_lisp
+[46.279s] [ 38%] Built target tf_generate_messages_cpp
+[46.306s] [ 38%] Built target actionlib_generate_messages_nodejs
+[46.332s] [ 38%] Built target tf2_msgs_generate_messages_lisp
+[46.357s] [ 38%] Built target actionlib_generate_messages_py
+[46.382s] [ 38%] Built target tf2_msgs_generate_messages_py
+[46.408s] [ 38%] Built target tf2_msgs_generate_messages_nodejs
+[46.434s] [ 38%] Built target tf2_msgs_generate_messages_eus
+[46.460s] [ 38%] Built target visualization_msgs_generate_messages_cpp
+[46.487s] [ 38%] Built target vector_map_msgs_generate_messages_cpp
+[46.518s] [ 38%] Built target visualization_msgs_generate_messages_eus
+[46.545s] [ 38%] Built target visualization_msgs_generate_messages_py
+[46.577s] [ 58%] Built target vector_map_server_generate_messages_nodejs
+[46.609s] [ 78%] Built target vector_map_server_generate_messages_eus
+[46.639s] [ 97%] Built target vector_map_server_generate_messages_cpp
+[46.676s] [ 98%] Built target vector_map_client
+[46.703s] [ 98%] Built target vector_map_server_generate_messages
+[46.739s] [100%] Built target vector_map_server
+[46.769s] Install the project...
+[46.778s] -- Install configuration: "Release"
+[46.779s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetCrossRoad.srv
+[46.779s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetCrossWalk.srv
+[46.779s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetCurb.srv
+[46.780s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetCurveMirror.srv
+[46.780s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetDTLane.srv
+[46.780s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetDriveOnPortion.srv
+[46.781s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetFence.srv
+[46.781s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetGuardRail.srv
+[46.781s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetGutter.srv
+[46.782s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetLane.srv
+[46.782s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetNode.srv
+[46.783s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetRailCrossing.srv
+[46.783s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetRoadEdge.srv
+[46.783s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetRoadMark.srv
+[46.784s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetRoadPole.srv
+[46.784s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetRoadSign.srv
+[46.784s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetSideStrip.srv
+[46.785s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetSideWalk.srv
+[46.785s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetSignal.srv
+[46.785s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetStopLine.srv
+[46.786s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetStreetLight.srv
+[46.786s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetUtilityPole.srv
+[46.786s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetWall.srv
+[46.787s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetWayArea.srv
+[46.787s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetWhiteLine.srv
+[46.787s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/GetZebraZone.srv
+[46.788s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/srv/PositionState.srv
+[46.788s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/cmake/vector_map_server-msg-paths.cmake
+[46.789s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server
+[46.789s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetCrossRoad.h
+[46.789s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetZebraZone.h
+[46.790s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetLane.h
+[46.790s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetCrossRoadResponse.h
+[46.790s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetWallResponse.h
+[46.791s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetRoadMarkRequest.h
+[46.791s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetSignalResponse.h
+[46.792s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetDriveOnPortionRequest.h
+[46.792s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetStreetLightResponse.h
+[46.792s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetCurveMirror.h
+[46.793s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetGuardRailResponse.h
+[46.793s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetRoadEdgeRequest.h
+[46.793s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetRailCrossingRequest.h
+[46.794s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetGutterResponse.h
+[46.794s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetGuardRail.h
+[46.794s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetFence.h
+[46.795s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetFenceRequest.h
+[46.795s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/PositionStateResponse.h
+[46.795s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetSideWalkResponse.h
+[46.796s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetGuardRailRequest.h
+[46.796s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetLaneResponse.h
+[46.796s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetSideStrip.h
+[46.797s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetRailCrossingResponse.h
+[46.797s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetSideWalk.h
+[46.797s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetNodeResponse.h
+[46.798s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetRoadSign.h
+[46.798s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetUtilityPoleRequest.h
+[46.799s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/PositionStateRequest.h
+[46.799s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetRoadPoleRequest.h
+[46.799s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetSignal.h
+[46.800s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetRoadPoleResponse.h
+[46.800s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetSideWalkRequest.h
+[46.800s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetWallRequest.h
+[46.800s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetCrossWalkRequest.h
+[46.801s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetGutter.h
+[46.801s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetRoadSignRequest.h
+[46.801s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetRoadEdge.h
+[46.802s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetCrossRoadRequest.h
+[46.802s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetDTLane.h
+[46.802s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetRailCrossing.h
+[46.803s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetStreetLight.h
+[46.803s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetSignalRequest.h
+[46.803s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetCrossWalkResponse.h
+[46.804s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetCrossWalk.h
+[46.804s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetCurbRequest.h
+[46.804s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetRoadMarkResponse.h
+[46.805s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetDTLaneRequest.h
+[46.805s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetWayAreaResponse.h
+[46.805s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetRoadPole.h
+[46.806s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetCurveMirrorResponse.h
+[46.806s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetWall.h
+[46.806s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetWhiteLineRequest.h
+[46.807s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/PositionState.h
+[46.807s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetUtilityPoleResponse.h
+[46.807s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetDTLaneResponse.h
+[46.808s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetCurveMirrorRequest.h
+[46.808s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetStreetLightRequest.h
+[46.808s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetNodeRequest.h
+[46.809s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetRoadEdgeResponse.h
+[46.809s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetDriveOnPortionResponse.h
+[46.809s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetSideStripRequest.h
+[46.810s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetRoadSignResponse.h
+[46.810s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetZebraZoneRequest.h
+[46.810s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetRoadMark.h
+[46.811s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetSideStripResponse.h
+[46.811s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetStopLineResponse.h
+[46.811s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetCurbResponse.h
+[46.811s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetLaneRequest.h
+[46.812s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetCurb.h
+[46.812s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetGutterRequest.h
+[46.813s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetWhiteLineResponse.h
+[46.813s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetUtilityPole.h
+[46.813s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetFenceResponse.h
+[46.814s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetDriveOnPortion.h
+[46.814s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetStopLine.h
+[46.814s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetWayAreaRequest.h
+[46.815s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetWayArea.h
+[46.815s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetZebraZoneResponse.h
+[46.815s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetStopLineRequest.h
+[46.816s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetWhiteLine.h
+[46.816s] -- Installing: /home/autoware/Autoware/install/vector_map_server/include/vector_map_server/GetNode.h
+[46.816s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server
+[46.817s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv
+[46.817s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetNode.l
+[46.817s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetRoadSign.l
+[46.818s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetCurb.l
+[46.818s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetCrossRoad.l
+[46.818s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetCurveMirror.l
+[46.819s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetLane.l
+[46.819s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetRailCrossing.l
+[46.820s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetUtilityPole.l
+[46.820s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetZebraZone.l
+[46.820s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetStreetLight.l
+[46.820s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetWhiteLine.l
+[46.821s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetGuardRail.l
+[46.821s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/PositionState.l
+[46.821s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetRoadPole.l
+[46.822s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetWall.l
+[46.822s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetFence.l
+[46.823s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetCrossWalk.l
+[46.823s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetGutter.l
+[46.823s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetWayArea.l
+[46.824s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetSideStrip.l
+[46.824s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetDTLane.l
+[46.824s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetStopLine.l
+[46.825s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetRoadMark.l
+[46.825s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetRoadEdge.l
+[46.825s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetDriveOnPortion.l
+[46.826s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetSideWalk.l
+[46.826s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetSignal.l
+[46.826s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/roseus/ros/vector_map_server/manifest.l
+[46.827s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server
+[46.827s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv
+[46.828s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetWall.lisp
+[46.828s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetGutter.lisp
+[46.829s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetCrossRoad.lisp
+[46.829s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetRoadPole.lisp
+[46.829s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package.lisp
+[46.830s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetRoadSign.lisp
+[46.830s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetStreetLight.lisp
+[46.831s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetCurveMirror.lisp
+[46.831s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetRoadEdge.lisp
+[46.831s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetCrossRoad.lisp
+[46.832s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetCurb.lisp
+[46.832s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetRoadSign.lisp
+[46.832s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetWhiteLine.lisp
+[46.833s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetDTLane.lisp
+[46.833s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetStreetLight.lisp
+[46.833s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetSideWalk.lisp
+[46.834s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetZebraZone.lisp
+[46.834s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/PositionState.lisp
+[46.834s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetDTLane.lisp
+[46.834s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetRoadEdge.lisp
+[46.835s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetCurveMirror.lisp
+[46.835s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetWayArea.lisp
+[46.835s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetLane.lisp
+[46.836s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetCrossWalk.lisp
+[46.836s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetLane.lisp
+[46.837s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetNode.lisp
+[46.837s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetWall.lisp
+[46.837s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetDriveOnPortion.lisp
+[46.837s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetRoadMark.lisp
+[46.838s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetCrossWalk.lisp
+[46.838s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/vector_map_server-srv.asd
+[46.839s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_PositionState.lisp
+[46.839s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetWhiteLine.lisp
+[46.839s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetUtilityPole.lisp
+[46.840s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetSideStrip.lisp
+[46.840s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetStopLine.lisp
+[46.840s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetGuardRail.lisp
+[46.840s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetRailCrossing.lisp
+[46.841s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetWayArea.lisp
+[46.841s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetNode.lisp
+[46.841s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetSideWalk.lisp
+[46.842s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetSideStrip.lisp
+[46.842s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetGutter.lisp
+[46.842s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetRoadPole.lisp
+[46.843s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetUtilityPole.lisp
+[46.843s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetSignal.lisp
+[46.844s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetFence.lisp
+[46.844s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetGuardRail.lisp
+[46.844s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetZebraZone.lisp
+[46.845s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetRoadMark.lisp
+[46.845s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetSignal.lisp
+[46.846s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetRailCrossing.lisp
+[46.846s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetFence.lisp
+[46.846s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetDriveOnPortion.lisp
+[46.847s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetStopLine.lisp
+[46.847s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetCurb.lisp
+[46.847s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server
+[46.848s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv
+[46.848s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetDriveOnPortion.js
+[46.848s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetRoadMark.js
+[46.849s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetStreetLight.js
+[46.849s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetDTLane.js
+[46.850s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetNode.js
+[46.850s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetWhiteLine.js
+[46.850s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetSideStrip.js
+[46.851s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetSideWalk.js
+[46.851s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/_index.js
+[46.851s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetSignal.js
+[46.852s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetCrossWalk.js
+[46.852s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetCrossRoad.js
+[46.852s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetCurveMirror.js
+[46.853s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetGuardRail.js
+[46.853s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetRailCrossing.js
+[46.853s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetStopLine.js
+[46.854s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetLane.js
+[46.854s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetWayArea.js
+[46.854s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetGutter.js
+[46.855s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetRoadEdge.js
+[46.855s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/PositionState.js
+[46.855s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetUtilityPole.js
+[46.856s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetRoadSign.js
+[46.856s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetWall.js
+[46.856s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetCurb.js
+[46.857s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetRoadPole.js
+[46.857s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetFence.js
+[46.857s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetZebraZone.js
+[46.858s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/gennodejs/ros/vector_map_server/_index.js
+[47.018s] Listing /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server ...
+[47.018s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/__init__.py ...
+[47.018s] Listing /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv ...
+[47.018s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetCrossRoad.py ...
+[47.018s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetCrossWalk.py ...
+[47.018s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetCurb.py ...
+[47.018s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetCurveMirror.py ...
+[47.018s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetDTLane.py ...
+[47.018s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetDriveOnPortion.py ...
+[47.018s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetFence.py ...
+[47.019s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetGuardRail.py ...
+[47.019s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetGutter.py ...
+[47.019s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetLane.py ...
+[47.019s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetNode.py ...
+[47.019s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetRailCrossing.py ...
+[47.019s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadEdge.py ...
+[47.019s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadMark.py ...
+[47.019s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadPole.py ...
+[47.019s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadSign.py ...
+[47.019s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetSideStrip.py ...
+[47.019s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetSideWalk.py ...
+[47.019s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetSignal.py ...
+[47.019s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetStopLine.py ...
+[47.020s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetStreetLight.py ...
+[47.020s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetUtilityPole.py ...
+[47.020s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetWall.py ...
+[47.020s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetWayArea.py ...
+[47.020s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetWhiteLine.py ...
+[47.020s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetZebraZone.py ...
+[47.020s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_PositionState.py ...
+[47.021s] Compiling /home/autoware/Autoware/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/__init__.py ...
+[47.030s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server
+[47.030s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv
+[47.030s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetWall.pyc
+[47.031s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadPole.pyc
+[47.031s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadMark.pyc
+[47.031s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetStopLine.pyc
+[47.031s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetLane.pyc
+[47.031s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadEdge.pyc
+[47.031s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadEdge.py
+[47.031s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetFence.pyc
+[47.031s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetStreetLight.pyc
+[47.031s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetDriveOnPortion.py
+[47.031s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadMark.py
+[47.031s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadPole.py
+[47.031s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetDTLane.pyc
+[47.032s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetDriveOnPortion.pyc
+[47.032s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRailCrossing.pyc
+[47.032s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetCurb.py
+[47.032s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/__init__.pyc
+[47.032s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetGuardRail.pyc
+[47.032s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetSideWalk.pyc
+[47.032s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetNode.pyc
+[47.032s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetNode.py
+[47.032s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetCurb.pyc
+[47.032s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetWhiteLine.py
+[47.032s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetCurveMirror.py
+[47.033s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetCrossRoad.pyc
+[47.033s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetGuardRail.py
+[47.033s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetCurveMirror.pyc
+[47.033s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetSignal.py
+[47.033s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetCrossWalk.py
+[47.033s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetWall.py
+[47.033s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetLane.py
+[47.033s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetCrossRoad.py
+[47.033s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_PositionState.pyc
+[47.033s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetSideStrip.pyc
+[47.033s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetWhiteLine.pyc
+[47.033s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetUtilityPole.pyc
+[47.033s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetCrossWalk.pyc
+[47.033s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetWayArea.py
+[47.033s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadSign.pyc
+[47.034s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetWayArea.pyc
+[47.034s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetStopLine.py
+[47.034s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRailCrossing.py
+[47.034s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetGutter.py
+[47.035s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/__init__.py
+[47.035s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetZebraZone.pyc
+[47.035s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetStreetLight.py
+[47.036s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadSign.py
+[47.036s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetFence.py
+[47.036s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetDTLane.py
+[47.037s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetSideWalk.py
+[47.037s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetGutter.pyc
+[47.038s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetZebraZone.py
+[47.038s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_PositionState.py
+[47.038s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetUtilityPole.py
+[47.039s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetSignal.pyc
+[47.039s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetSideStrip.py
+[47.039s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/__init__.pyc
+[47.040s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/__init__.py
+[47.040s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/pkgconfig/vector_map_server.pc
+[47.041s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/cmake/vector_map_server-msg-extras.cmake
+[47.041s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/cmake/vector_map_serverConfig.cmake
+[47.041s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/cmake/vector_map_serverConfig-version.cmake
+[47.042s] -- Installing: /home/autoware/Autoware/install/vector_map_server/share/vector_map_server/package.xml
+[47.042s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/vector_map_server/vector_map_server
+[47.044s] -- Set runtime path of "/home/autoware/Autoware/install/vector_map_server/lib/vector_map_server/vector_map_server" to ""
+[47.045s] -- Installing: /home/autoware/Autoware/install/vector_map_server/lib/vector_map_server/vector_map_client
+[47.046s] -- Set runtime path of "/home/autoware/Autoware/install/vector_map_server/lib/vector_map_server/vector_map_client" to ""
+[47.054s] Invoked command in '/home/autoware/Autoware/build/vector_map_server' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vector_map_server --target install -- -j2 -l2

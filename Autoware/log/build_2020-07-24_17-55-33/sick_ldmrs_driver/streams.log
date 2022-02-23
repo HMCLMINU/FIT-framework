@@ -1,0 +1,468 @@
+[0.016s] Invoking command in '/home/autoware/Autoware/build/sick_ldmrs_driver': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs:/home/autoware/Autoware/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/share:/home/autoware/Autoware/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/drivers/awf_drivers/sick_ldmrs_driver -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/sick_ldmrs_driver
+[0.093s] -- The C compiler identification is GNU 7.5.0
+[0.166s] -- The CXX compiler identification is GNU 7.5.0
+[0.172s] -- Check for working C compiler: /usr/bin/cc
+[0.261s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.261s] -- Detecting C compiler ABI info
+[0.452s] -- Detecting C compiler ABI info - done
+[0.461s] -- Detecting C compile features
+[0.720s] -- Detecting C compile features - done
+[0.724s] -- Check for working CXX compiler: /usr/bin/c++
+[0.836s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.836s] -- Detecting CXX compiler ABI info
+[0.942s] -- Detecting CXX compiler ABI info - done
+[0.949s] -- Detecting CXX compile features
+[1.455s] -- Detecting CXX compile features - done
+[1.458s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/sick_ldmrs_driver/devel
+[1.458s] -- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/sick_ldmrs_msgs;/home/autoware/Autoware/install/sick_ldmrs_description;/opt/ros/melodic
+[1.458s] -- This workspace overlays: /home/autoware/Autoware/install/sick_ldmrs_msgs;/home/autoware/Autoware/install/sick_ldmrs_description;/opt/ros/melodic
+[1.478s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.478s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.478s] -- Using Debian Python package layout
+[1.480s] -- Using empy: /usr/bin/empy
+[1.656s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.656s] -- Call enable_testing()
+[1.663s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/sick_ldmrs_driver/test_results
+[1.687s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.688s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.709s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.710s] -- Looking for pthread.h
+[1.808s] -- Looking for pthread.h - found
+[1.809s] -- Looking for pthread_create
+[1.904s] -- Looking for pthread_create - not found
+[1.904s] -- Looking for pthread_create in pthreads
+[1.984s] -- Looking for pthread_create in pthreads - not found
+[1.984s] -- Looking for pthread_create in pthread
+[2.076s] -- Looking for pthread_create in pthread - found
+[2.077s] -- Found Threads: TRUE  
+[2.082s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.136s] -- catkin 0.7.26
+[2.137s] -- BUILD_SHARED_LIBS is on
+[2.655s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.868s] -- Boost version: 1.65.1
+[2.868s] -- Found the following Boost libraries:
+[2.869s] --   system
+[3.049s] -- Configuring done
+[3.148s] -- Generating done
+[3.161s] -- Build files have been written to: /home/autoware/Autoware/build/sick_ldmrs_driver
+[3.168s] Invoked command in '/home/autoware/Autoware/build/sick_ldmrs_driver' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs:/home/autoware/Autoware/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/share:/home/autoware/Autoware/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/drivers/awf_drivers/sick_ldmrs_driver -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/sick_ldmrs_driver
+[3.169s] Invoking command in '/home/autoware/Autoware/build/sick_ldmrs_driver': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs:/home/autoware/Autoware/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/share:/home/autoware/Autoware/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_driver -- -j2 -l2
+[3.231s] Scanning dependencies of target sick_ldmrs_driver_gencfg
+[3.244s] [  1%] Generating dynamic reconfigure files from cfg/SickLDMRSDriver.cfg: /home/autoware/Autoware/build/sick_ldmrs_driver/devel/include/sick_ldmrs_driver/SickLDMRSDriverConfig.h /home/autoware/Autoware/build/sick_ldmrs_driver/devel/lib/python2.7/dist-packages/sick_ldmrs_driver/cfg/SickLDMRSDriverConfig.py
+[3.336s] Generating reconfiguration files for SickLDMRSDriver in sick_ldmrs_driver
+[3.336s] Wrote header file in /home/autoware/Autoware/build/sick_ldmrs_driver/devel/include/sick_ldmrs_driver/SickLDMRSDriverConfig.h
+[3.394s] [  1%] Built target sick_ldmrs_driver_gencfg
+[3.439s] Scanning dependencies of target sick_ldmrs
+[3.460s] [  2%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/application/LdmrsApp.cpp.o
+[4.032s] [  3%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/application/LdmrsFieldApp.cpp.o
+[4.939s] [  3%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/application/LdmrsSectorChangeApp.cpp.o
+[5.843s] [  4%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/application/LdmrsNtpTimeApp.cpp.o
+[6.450s] [  5%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/application/LdmrsScanpointCoordinateApp.cpp.o
+[7.100s] [  6%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/application/BasicApplication.cpp.o
+[7.329s] [  7%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/devices/BasicDevice.cpp.o
+[7.573s] [  8%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/devices/LD_MRS.cpp.o
+[8.547s] [  9%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/devices/LuxBase.cpp.o
+[10.603s] [  9%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/sopas/LdmrsSopasLayer.cpp.o
+[13.014s] [ 10%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/sopas/SopasBase.cpp.o
+[15.016s] [ 12%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/sopas/colaa.cpp.o
+[15.489s] [ 13%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/sopas/colab.cpp.o
+[15.762s] [ 14%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/Measurement.cpp.o
+[16.007s] [ 15%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/SensorStateInfo.cpp.o
+[16.980s] [ 15%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/Fields.cpp.o
+[17.618s] [ 16%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/FieldParameter.cpp.o
+[18.052s] [ 17%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/FieldDescription.cpp.o
+[18.408s] [ 18%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCase.cpp.o
+[18.710s] [ 19%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCases.cpp.o
+[18.980s] [ 20%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCaseResult.cpp.o
+[19.395s] [ 21%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/EvalCaseResults.cpp.o
+[19.820s] [ 21%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/Polygon2D.cpp.o
+[20.640s] [ 23%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/Polygon3D.cpp.o
+[21.323s] [ 24%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/Trigger.cpp.o
+[21.673s] [ 25%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/Point2D.cpp.o
+[22.035s] [ 26%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/Point3D.cpp.o
+[22.499s] [ 27%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/Position3D.cpp.o
+[22.969s] [ 27%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/PositionWGS84.cpp.o
+[23.596s] [ 28%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/Circle2D.cpp.o
+[23.972s] [ 29%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/Ellipse2D.cpp.o
+[24.437s] [ 30%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/Box2D.cpp.o
+[25.047s] [ 31%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/Line2D.cpp.o
+[25.582s] [ 32%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/Msg.cpp.o
+[25.905s] [ 34%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/Scan.cpp.o
+[26.832s] [ 34%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/ScanPoint.cpp.o
+[27.315s] [ 35%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/ScannerInfo.cpp.o
+[27.711s] [ 36%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/datatypes/Object.cpp.o
+[28.560s] [ 37%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/interfaces/tcp.cpp.o
+[29.055s] [ 38%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/interfaces/file.cpp.o
+[29.497s] [ 39%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/tools/errorhandler.cpp.o
+[29.729s] [ 39%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/tools/SickThread.cpp.o
+[29.937s] [ 40%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/tools/Mutex.cpp.o
+[30.142s] [ 41%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/tools/toolbox.cpp.o
+[30.877s] [ 42%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/tools/MathToolbox.cpp.o
+[31.117s] [ 43%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/tools/BasicDataBuffer.cpp.o
+[31.392s] [ 45%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/tools/Timer.cpp.o
+[31.615s] [ 46%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/tools/Time.cpp.o
+[31.905s] [ 46%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/tools/WatchdogTimer.cpp.o
+[32.122s] [ 47%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/manager.cpp.o
+[33.180s] [ 48%] Building CXX object src/driver/src/CMakeFiles/sick_ldmrs.dir/main.cpp.o
+[33.692s] [ 49%] Linking CXX shared library libsick_ldmrs.so
+[33.853s] [ 49%] Built target sick_ldmrs
+[33.868s] Scanning dependencies of target sick_ldmrs_msgs_generate_messages_lisp
+[33.883s] [ 49%] Built target sick_ldmrs_msgs_generate_messages_lisp
+[33.898s] Scanning dependencies of target pcl_msgs_generate_messages_eus
+[33.913s] [ 49%] Built target pcl_msgs_generate_messages_eus
+[33.928s] Scanning dependencies of target pcl_msgs_generate_messages_cpp
+[33.943s] [ 49%] Built target pcl_msgs_generate_messages_cpp
+[33.958s] Scanning dependencies of target dynamic_reconfigure_generate_messages_lisp
+[33.973s] [ 49%] Built target dynamic_reconfigure_generate_messages_lisp
+[33.989s] Scanning dependencies of target dynamic_reconfigure_generate_messages_py
+[34.004s] [ 49%] Built target dynamic_reconfigure_generate_messages_py
+[34.019s] Scanning dependencies of target diagnostic_msgs_generate_messages_nodejs
+[34.034s] [ 49%] Built target diagnostic_msgs_generate_messages_nodejs
+[34.050s] Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+[34.066s] [ 49%] Built target rosgraph_msgs_generate_messages_lisp
+[34.082s] Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+[34.097s] [ 49%] Built target rosgraph_msgs_generate_messages_eus
+[34.112s] Scanning dependencies of target dynamic_reconfigure_generate_messages_nodejs
+[34.126s] [ 49%] Built target dynamic_reconfigure_generate_messages_nodejs
+[34.142s] Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+[34.157s] [ 49%] Built target rosgraph_msgs_generate_messages_cpp
+[34.173s] Scanning dependencies of target roscpp_generate_messages_py
+[34.187s] [ 49%] Built target roscpp_generate_messages_py
+[34.202s] Scanning dependencies of target roscpp_generate_messages_lisp
+[34.217s] [ 49%] Built target roscpp_generate_messages_lisp
+[34.232s] Scanning dependencies of target geometry_msgs_generate_messages_eus
+[34.246s] [ 49%] Built target geometry_msgs_generate_messages_eus
+[34.261s] Scanning dependencies of target pcl_msgs_generate_messages_nodejs
+[34.276s] [ 49%] Built target pcl_msgs_generate_messages_nodejs
+[34.291s] Scanning dependencies of target sensor_msgs_generate_messages_lisp
+[34.305s] [ 49%] Built target sensor_msgs_generate_messages_lisp
+[34.320s] Scanning dependencies of target std_msgs_generate_messages_cpp
+[34.335s] [ 49%] Built target std_msgs_generate_messages_cpp
+[34.350s] Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+[34.365s] [ 49%] Built target actionlib_msgs_generate_messages_nodejs
+[34.381s] Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+[34.396s] [ 49%] Built target rosgraph_msgs_generate_messages_nodejs
+[34.411s] Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+[34.425s] [ 49%] Built target actionlib_msgs_generate_messages_lisp
+[34.441s] Scanning dependencies of target diagnostic_msgs_generate_messages_eus
+[34.455s] [ 49%] Built target diagnostic_msgs_generate_messages_eus
+[34.470s] Scanning dependencies of target diagnostic_msgs_generate_messages_lisp
+[34.485s] [ 49%] Built target diagnostic_msgs_generate_messages_lisp
+[34.500s] Scanning dependencies of target dynamic_reconfigure_generate_messages_eus
+[34.514s] [ 49%] Built target dynamic_reconfigure_generate_messages_eus
+[34.529s] Scanning dependencies of target sick_ldmrs_msgs_generate_messages_nodejs
+[34.545s] [ 49%] Built target sick_ldmrs_msgs_generate_messages_nodejs
+[34.561s] Scanning dependencies of target diagnostic_msgs_generate_messages_py
+[34.576s] [ 49%] Built target diagnostic_msgs_generate_messages_py
+[34.591s] Scanning dependencies of target roscpp_generate_messages_nodejs
+[34.606s] [ 49%] Built target roscpp_generate_messages_nodejs
+[34.622s] Scanning dependencies of target std_msgs_generate_messages_lisp
+[34.638s] [ 49%] Built target std_msgs_generate_messages_lisp
+[34.653s] Scanning dependencies of target std_msgs_generate_messages_nodejs
+[34.668s] [ 49%] Built target std_msgs_generate_messages_nodejs
+[34.684s] Scanning dependencies of target sick_ldmrs_msgs_generate_messages_eus
+[34.699s] [ 49%] Built target sick_ldmrs_msgs_generate_messages_eus
+[34.715s] Scanning dependencies of target std_msgs_generate_messages_py
+[34.730s] [ 49%] Built target std_msgs_generate_messages_py
+[34.745s] Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+[34.760s] [ 49%] Built target geometry_msgs_generate_messages_nodejs
+[34.774s] Scanning dependencies of target sensor_msgs_generate_messages_nodejs
+[34.789s] [ 49%] Built target sensor_msgs_generate_messages_nodejs
+[34.804s] Scanning dependencies of target actionlib_generate_messages_cpp
+[34.819s] [ 49%] Built target actionlib_generate_messages_cpp
+[34.834s] Scanning dependencies of target sensor_msgs_generate_messages_cpp
+[34.849s] [ 49%] Built target sensor_msgs_generate_messages_cpp
+[34.865s] Scanning dependencies of target roscpp_generate_messages_cpp
+[34.879s] [ 49%] Built target roscpp_generate_messages_cpp
+[34.895s] Scanning dependencies of target sensor_msgs_generate_messages_eus
+[34.910s] [ 49%] Built target sensor_msgs_generate_messages_eus
+[34.925s] Scanning dependencies of target sensor_msgs_generate_messages_py
+[34.939s] [ 49%] Built target sensor_msgs_generate_messages_py
+[34.955s] Scanning dependencies of target dynamic_reconfigure_generate_messages_cpp
+[34.972s] [ 49%] Built target dynamic_reconfigure_generate_messages_cpp
+[34.987s] Scanning dependencies of target tf_generate_messages_py
+[35.001s] [ 49%] Built target tf_generate_messages_py
+[35.026s] Scanning dependencies of target geometry_msgs_generate_messages_lisp
+[35.043s] [ 49%] Built target geometry_msgs_generate_messages_lisp
+[35.058s] Scanning dependencies of target geometry_msgs_generate_messages_py
+[35.074s] [ 49%] Built target geometry_msgs_generate_messages_py
+[35.090s] Scanning dependencies of target sick_ldmrs_msgs_generate_messages_cpp
+[35.105s] [ 49%] Built target sick_ldmrs_msgs_generate_messages_cpp
+[35.121s] Scanning dependencies of target dynamic_reconfigure_gencfg
+[35.136s] [ 49%] Built target dynamic_reconfigure_gencfg
+[35.153s] Scanning dependencies of target tf2_msgs_generate_messages_lisp
+[35.166s] [ 49%] Built target tf2_msgs_generate_messages_lisp
+[35.181s] Scanning dependencies of target tf_generate_messages_lisp
+[35.196s] [ 49%] Built target tf_generate_messages_lisp
+[35.210s] Scanning dependencies of target tf_generate_messages_nodejs
+[35.227s] [ 49%] Built target tf_generate_messages_nodejs
+[35.242s] Scanning dependencies of target pcl_msgs_generate_messages_py
+[35.256s] [ 49%] Built target pcl_msgs_generate_messages_py
+[35.273s] Scanning dependencies of target diagnostic_msgs_generate_messages_cpp
+[35.288s] [ 49%] Built target diagnostic_msgs_generate_messages_cpp
+[35.304s] Scanning dependencies of target actionlib_generate_messages_eus
+[35.319s] [ 49%] Built target actionlib_generate_messages_eus
+[35.334s] Scanning dependencies of target geometry_msgs_generate_messages_cpp
+[35.349s] [ 49%] Built target geometry_msgs_generate_messages_cpp
+[35.366s] Scanning dependencies of target actionlib_generate_messages_lisp
+[35.381s] [ 49%] Built target actionlib_generate_messages_lisp
+[35.397s] Scanning dependencies of target pcl_msgs_generate_messages_lisp
+[35.411s] [ 49%] Built target pcl_msgs_generate_messages_lisp
+[35.426s] Scanning dependencies of target tf_generate_messages_cpp
+[35.441s] [ 49%] Built target tf_generate_messages_cpp
+[35.456s] Scanning dependencies of target actionlib_generate_messages_nodejs
+[35.471s] [ 49%] Built target actionlib_generate_messages_nodejs
+[35.485s] Scanning dependencies of target tf2_msgs_generate_messages_py
+[35.499s] [ 49%] Built target tf2_msgs_generate_messages_py
+[35.514s] Scanning dependencies of target sick_ldmrs_msgs_generate_messages_py
+[35.528s] [ 49%] Built target sick_ldmrs_msgs_generate_messages_py
+[35.543s] Scanning dependencies of target actionlib_generate_messages_py
+[35.559s] [ 49%] Built target actionlib_generate_messages_py
+[35.575s] Scanning dependencies of target tf_generate_messages_eus
+[35.590s] [ 49%] Built target tf_generate_messages_eus
+[35.606s] Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+[35.621s] [ 49%] Built target actionlib_msgs_generate_messages_cpp
+[35.636s] Scanning dependencies of target roscpp_generate_messages_eus
+[35.650s] [ 49%] Built target roscpp_generate_messages_eus
+[35.665s] Scanning dependencies of target rosgraph_msgs_generate_messages_py
+[35.680s] [ 49%] Built target rosgraph_msgs_generate_messages_py
+[35.696s] Scanning dependencies of target actionlib_msgs_generate_messages_eus
+[35.710s] [ 49%] Built target actionlib_msgs_generate_messages_eus
+[35.726s] Scanning dependencies of target actionlib_msgs_generate_messages_py
+[35.741s] [ 49%] Built target actionlib_msgs_generate_messages_py
+[35.756s] Scanning dependencies of target tf2_msgs_generate_messages_cpp
+[35.771s] [ 49%] Built target tf2_msgs_generate_messages_cpp
+[35.786s] Scanning dependencies of target tf2_msgs_generate_messages_eus
+[35.801s] [ 49%] Built target tf2_msgs_generate_messages_eus
+[35.816s] Scanning dependencies of target tf2_msgs_generate_messages_nodejs
+[35.830s] [ 49%] Built target tf2_msgs_generate_messages_nodejs
+[35.845s] Scanning dependencies of target std_msgs_generate_messages_eus
+[35.860s] [ 49%] Built target std_msgs_generate_messages_eus
+[35.907s] Scanning dependencies of target LDMRS_Example
+[35.929s] [ 49%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/application/LdmrsApp.cpp.o
+[36.512s] [ 50%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/application/LdmrsFieldApp.cpp.o
+[37.356s] [ 51%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/application/LdmrsSectorChangeApp.cpp.o
+[38.235s] [ 52%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/application/LdmrsNtpTimeApp.cpp.o
+[38.838s] [ 53%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/application/LdmrsScanpointCoordinateApp.cpp.o
+[39.485s] [ 54%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/application/BasicApplication.cpp.o
+[39.727s] [ 54%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/devices/BasicDevice.cpp.o
+[39.955s] [ 56%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/devices/LD_MRS.cpp.o
+[40.859s] [ 57%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/devices/LuxBase.cpp.o
+[42.804s] [ 58%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/sopas/LdmrsSopasLayer.cpp.o
+[45.014s] [ 59%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/sopas/SopasBase.cpp.o
+[46.904s] [ 60%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/sopas/colaa.cpp.o
+[47.492s] [ 61%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/sopas/colab.cpp.o
+[47.748s] [ 61%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/Measurement.cpp.o
+[47.982s] [ 62%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/SensorStateInfo.cpp.o
+[48.915s] [ 63%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/Fields.cpp.o
+[49.503s] [ 64%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldParameter.cpp.o
+[49.899s] [ 65%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/FieldDescription.cpp.o
+[50.228s] [ 67%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCase.cpp.o
+[50.523s] [ 67%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCases.cpp.o
+[50.783s] [ 68%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResult.cpp.o
+[51.178s] [ 69%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/EvalCaseResults.cpp.o
+[51.567s] [ 70%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon2D.cpp.o
+[52.420s] [ 71%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/Polygon3D.cpp.o
+[53.067s] [ 72%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/Trigger.cpp.o
+[53.395s] [ 73%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/Point2D.cpp.o
+[53.743s] [ 73%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/Point3D.cpp.o
+[54.151s] [ 74%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/Position3D.cpp.o
+[54.594s] [ 75%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/PositionWGS84.cpp.o
+[55.221s] [ 76%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/Circle2D.cpp.o
+[55.545s] [ 78%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/Ellipse2D.cpp.o
+[55.974s] [ 79%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/Box2D.cpp.o
+[56.535s] [ 79%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/Line2D.cpp.o
+[57.038s] [ 80%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/Msg.cpp.o
+[57.336s] [ 81%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/Scan.cpp.o
+[58.262s] [ 82%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/ScanPoint.cpp.o
+[58.706s] [ 83%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/ScannerInfo.cpp.o
+[59.077s] [ 84%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/datatypes/Object.cpp.o
+[59.906s] [ 85%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/interfaces/tcp.cpp.o
+[60.391s] [ 85%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/interfaces/file.cpp.o
+[60.823s] [ 86%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/tools/errorhandler.cpp.o
+[61.042s] [ 87%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/tools/SickThread.cpp.o
+[61.238s] [ 89%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/tools/Mutex.cpp.o
+[61.430s] [ 90%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/tools/toolbox.cpp.o
+[62.172s] [ 91%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/tools/MathToolbox.cpp.o
+[62.393s] [ 91%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/tools/BasicDataBuffer.cpp.o
+[62.654s] [ 92%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/tools/Timer.cpp.o
+[62.883s] [ 93%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/tools/Time.cpp.o
+[63.159s] [ 94%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/tools/WatchdogTimer.cpp.o
+[63.363s] [ 95%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/manager.cpp.o
+[64.373s] [ 96%] Building CXX object src/driver/src/CMakeFiles/LDMRS_Example.dir/main.cpp.o
+[64.856s] [ 97%] Linking CXX executable LDMRS_Example
+[64.982s] [ 97%] Built target LDMRS_Example
+[65.081s] Scanning dependencies of target sick_ldmrs_node
+[65.118s] [ 98%] Building CXX object CMakeFiles/sick_ldmrs_node.dir/src/sick_ldmrs_node.cpp.o
+[77.963s] [100%] Linking CXX executable devel/lib/sick_ldmrs_driver/sick_ldmrs_node
+[78.266s] [100%] Built target sick_ldmrs_node
+[78.282s] Invoked command in '/home/autoware/Autoware/build/sick_ldmrs_driver' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs:/home/autoware/Autoware/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/share:/home/autoware/Autoware/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_driver -- -j2 -l2
+[78.401s] Invoking command in '/home/autoware/Autoware/build/sick_ldmrs_driver': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs:/home/autoware/Autoware/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/share:/home/autoware/Autoware/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_driver --target tests -- -j2 -l2
+[78.474s] Scanning dependencies of target tests
+[78.487s] Built target tests
+[78.500s] Invoked command in '/home/autoware/Autoware/build/sick_ldmrs_driver' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs:/home/autoware/Autoware/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/share:/home/autoware/Autoware/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_driver --target tests -- -j2 -l2
+[78.623s] Invoking command in '/home/autoware/Autoware/build/sick_ldmrs_driver': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs:/home/autoware/Autoware/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/share:/home/autoware/Autoware/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_driver --target install -- -j2 -l2
+[78.692s] [  1%] Built target sick_ldmrs_driver_gencfg
+[78.740s] [ 49%] Built target sick_ldmrs
+[78.767s] [ 49%] Built target sick_ldmrs_msgs_generate_messages_lisp
+[78.793s] [ 49%] Built target pcl_msgs_generate_messages_eus
+[78.823s] [ 49%] Built target pcl_msgs_generate_messages_cpp
+[78.848s] [ 49%] Built target dynamic_reconfigure_generate_messages_lisp
+[78.875s] [ 49%] Built target dynamic_reconfigure_generate_messages_py
+[78.901s] [ 49%] Built target diagnostic_msgs_generate_messages_nodejs
+[78.925s] [ 49%] Built target rosgraph_msgs_generate_messages_lisp
+[78.950s] [ 49%] Built target rosgraph_msgs_generate_messages_eus
+[78.975s] [ 49%] Built target dynamic_reconfigure_generate_messages_nodejs
+[79.000s] [ 49%] Built target rosgraph_msgs_generate_messages_cpp
+[79.024s] [ 49%] Built target roscpp_generate_messages_py
+[79.049s] [ 49%] Built target roscpp_generate_messages_lisp
+[79.073s] [ 49%] Built target geometry_msgs_generate_messages_eus
+[79.098s] [ 49%] Built target pcl_msgs_generate_messages_nodejs
+[79.123s] [ 49%] Built target sensor_msgs_generate_messages_lisp
+[79.148s] [ 49%] Built target std_msgs_generate_messages_cpp
+[79.174s] [ 49%] Built target actionlib_msgs_generate_messages_nodejs
+[79.200s] [ 49%] Built target rosgraph_msgs_generate_messages_nodejs
+[79.225s] [ 49%] Built target actionlib_msgs_generate_messages_lisp
+[79.251s] [ 49%] Built target diagnostic_msgs_generate_messages_eus
+[79.275s] [ 49%] Built target diagnostic_msgs_generate_messages_lisp
+[79.302s] [ 49%] Built target dynamic_reconfigure_generate_messages_eus
+[79.328s] [ 49%] Built target sick_ldmrs_msgs_generate_messages_nodejs
+[79.353s] [ 49%] Built target diagnostic_msgs_generate_messages_py
+[79.378s] [ 49%] Built target roscpp_generate_messages_nodejs
+[79.402s] [ 49%] Built target std_msgs_generate_messages_lisp
+[79.427s] [ 49%] Built target std_msgs_generate_messages_nodejs
+[79.452s] [ 49%] Built target sick_ldmrs_msgs_generate_messages_eus
+[79.477s] [ 49%] Built target std_msgs_generate_messages_py
+[79.503s] [ 49%] Built target geometry_msgs_generate_messages_nodejs
+[79.529s] [ 49%] Built target sensor_msgs_generate_messages_nodejs
+[79.555s] [ 49%] Built target actionlib_generate_messages_cpp
+[79.580s] [ 49%] Built target sensor_msgs_generate_messages_cpp
+[79.605s] [ 49%] Built target roscpp_generate_messages_cpp
+[79.630s] [ 49%] Built target sensor_msgs_generate_messages_eus
+[79.657s] [ 49%] Built target sensor_msgs_generate_messages_py
+[79.684s] [ 49%] Built target dynamic_reconfigure_generate_messages_cpp
+[79.710s] [ 49%] Built target tf_generate_messages_py
+[79.738s] [ 49%] Built target geometry_msgs_generate_messages_lisp
+[79.765s] [ 49%] Built target geometry_msgs_generate_messages_py
+[79.793s] [ 49%] Built target sick_ldmrs_msgs_generate_messages_cpp
+[79.822s] [ 49%] Built target dynamic_reconfigure_gencfg
+[79.851s] [ 49%] Built target tf2_msgs_generate_messages_lisp
+[79.880s] [ 49%] Built target tf_generate_messages_lisp
+[79.907s] [ 49%] Built target tf_generate_messages_nodejs
+[79.934s] [ 49%] Built target pcl_msgs_generate_messages_py
+[79.960s] [ 49%] Built target diagnostic_msgs_generate_messages_cpp
+[79.989s] [ 49%] Built target actionlib_generate_messages_eus
+[80.016s] [ 49%] Built target geometry_msgs_generate_messages_cpp
+[80.041s] [ 49%] Built target actionlib_generate_messages_lisp
+[80.067s] [ 49%] Built target pcl_msgs_generate_messages_lisp
+[80.094s] [ 49%] Built target tf_generate_messages_cpp
+[80.120s] [ 49%] Built target actionlib_generate_messages_nodejs
+[80.146s] [ 49%] Built target tf2_msgs_generate_messages_py
+[80.172s] [ 49%] Built target sick_ldmrs_msgs_generate_messages_py
+[80.198s] [ 49%] Built target actionlib_generate_messages_py
+[80.225s] [ 49%] Built target tf_generate_messages_eus
+[80.251s] [ 49%] Built target actionlib_msgs_generate_messages_cpp
+[80.277s] [ 49%] Built target roscpp_generate_messages_eus
+[80.303s] [ 49%] Built target rosgraph_msgs_generate_messages_py
+[80.331s] [ 49%] Built target actionlib_msgs_generate_messages_eus
+[80.358s] [ 49%] Built target actionlib_msgs_generate_messages_py
+[80.383s] [ 49%] Built target tf2_msgs_generate_messages_cpp
+[80.408s] [ 49%] Built target tf2_msgs_generate_messages_eus
+[80.433s] [ 49%] Built target tf2_msgs_generate_messages_nodejs
+[80.460s] [ 49%] Built target std_msgs_generate_messages_eus
+[80.501s] [ 97%] Built target LDMRS_Example
+[80.548s] [100%] Built target sick_ldmrs_node
+[80.574s] Install the project...
+[80.584s] -- Install configuration: "Release"
+[80.584s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs_driver/SickLDMRSDriverConfig.h
+[80.585s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/lib/python2.7/dist-packages/sick_ldmrs_driver/__init__.py
+[80.601s] Listing /home/autoware/Autoware/build/sick_ldmrs_driver/devel/lib/python2.7/dist-packages/sick_ldmrs_driver/cfg ...
+[80.602s] Compiling /home/autoware/Autoware/build/sick_ldmrs_driver/devel/lib/python2.7/dist-packages/sick_ldmrs_driver/cfg/SickLDMRSDriverConfig.py ...
+[80.602s] Compiling /home/autoware/Autoware/build/sick_ldmrs_driver/devel/lib/python2.7/dist-packages/sick_ldmrs_driver/cfg/__init__.py ...
+[80.605s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/lib/python2.7/dist-packages/sick_ldmrs_driver/cfg
+[80.605s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/lib/python2.7/dist-packages/sick_ldmrs_driver/cfg/SickLDMRSDriverConfig.py
+[80.605s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/lib/python2.7/dist-packages/sick_ldmrs_driver/cfg/SickLDMRSDriverConfig.pyc
+[80.605s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/lib/python2.7/dist-packages/sick_ldmrs_driver/cfg/__init__.pyc
+[80.606s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/lib/python2.7/dist-packages/sick_ldmrs_driver/cfg/__init__.py
+[80.606s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/lib/pkgconfig/sick_ldmrs_driver.pc
+[80.606s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/share/sick_ldmrs_driver/cmake/sick_ldmrs_driverConfig.cmake
+[80.606s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/share/sick_ldmrs_driver/cmake/sick_ldmrs_driverConfig-version.cmake
+[80.607s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/share/sick_ldmrs_driver/package.xml
+[80.608s] -- Up-to-date: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs_driver
+[80.608s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs_driver/sick_ldmrs_node.hpp
+[80.608s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/lib/sick_ldmrs_driver/sick_ldmrs_node
+[80.608s] -- Set runtime path of "/home/autoware/Autoware/install/sick_ldmrs_driver/lib/sick_ldmrs_driver/sick_ldmrs_node" to ""
+[80.608s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/share/sick_ldmrs_driver/config
+[80.609s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/share/sick_ldmrs_driver/config/analyzers.yaml
+[80.610s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/share/sick_ldmrs_driver/launch
+[80.610s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/share/sick_ldmrs_driver/launch/sick_ldmrs_node.launch
+[80.611s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/share/sick_ldmrs_driver/launch/sick_ldmrs_node_with_aggregator.launch
+[80.612s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/share/sick_ldmrs_driver/launch/sick_ldmrs.launch
+[80.613s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/lib/cmake/SickLDMRS/SickLDMRSConfig.cmake
+[80.614s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/lib/cmake/SickLDMRS/SickLDMRSConfigVersion.cmake
+[80.614s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/lib/cmake/SickLDMRS/SickLDMRSTargets.cmake
+[80.615s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/lib/cmake/SickLDMRS/SickLDMRSTargets-release.cmake
+[80.615s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/share/sick_ldmrs/package.xml
+[80.617s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/bin/LDMRS_Example
+[80.619s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/lib/libsick_ldmrs.so.0.1.0
+[80.621s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/lib/libsick_ldmrs.so.0
+[80.621s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/lib/libsick_ldmrs.so
+[80.622s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/.
+[80.622s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./interfaces
+[80.622s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./interfaces/tcp.hpp
+[80.623s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./interfaces/file.hpp
+[80.623s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./application
+[80.623s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./application/BasicApplication.hpp
+[80.624s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./application/LdmrsNtpTimeApp.hpp
+[80.624s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./application/LdmrsApp.hpp
+[80.624s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./application/LdmrsFieldApp.hpp
+[80.625s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./application/LdmrsSectorChangeApp.hpp
+[80.625s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./application/LdmrsScanpointCoordinateApp.hpp
+[80.625s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./manager.hpp
+[80.626s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes
+[80.626s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/Measurement.hpp
+[80.626s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/Polygon3D.hpp
+[80.627s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/Msg.hpp
+[80.627s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/EvalCases.hpp
+[80.627s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/FieldDescription.hpp
+[80.628s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/EvalCaseResults.hpp
+[80.628s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/Object.hpp
+[80.628s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/EvalCaseResult.hpp
+[80.629s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/Scan.hpp
+[80.629s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/ScanPoint.hpp
+[80.629s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/PositionWGS84.hpp
+[80.630s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/Ellipse2D.hpp
+[80.630s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/ScannerInfo.hpp
+[80.631s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/Line2D.hpp
+[80.631s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/FieldParameter.hpp
+[80.631s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/Fields.hpp
+[80.632s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/Point3D.hpp
+[80.632s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/Point2D.hpp
+[80.632s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/EvalCase.hpp
+[80.633s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/Box2D.hpp
+[80.633s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/Polygon2D.hpp
+[80.633s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/Circle2D.hpp
+[80.634s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/Position3D.hpp
+[80.634s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/SensorStateInfo.hpp
+[80.634s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./datatypes/Trigger.hpp
+[80.635s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./tools
+[80.635s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./tools/SickThread.hpp
+[80.635s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./tools/WatchdogTimer.hpp
+[80.636s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./tools/toolbox.hpp
+[80.636s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./tools/errorhandler.hpp
+[80.636s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./tools/Timer.hpp
+[80.637s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./tools/MathToolbox.hpp
+[80.637s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./tools/BasicDataBuffer.hpp
+[80.637s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./tools/Time.hpp
+[80.638s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./tools/Mutex.hpp
+[80.638s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./BasicDatatypes.hpp
+[80.638s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./devices
+[80.639s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./devices/LuxBase.hpp
+[80.639s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./devices/BasicDevice.hpp
+[80.639s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./devices/LD_MRS.hpp
+[80.640s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./sopas
+[80.640s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./sopas/colaa.hpp
+[80.640s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./sopas/colab.hpp
+[80.641s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./sopas/SopasBase.hpp
+[80.641s] -- Installing: /home/autoware/Autoware/install/sick_ldmrs_driver/include/sick_ldmrs/./sopas/LdmrsSopasLayer.hpp
+[80.647s] Invoked command in '/home/autoware/Autoware/build/sick_ldmrs_driver' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs:/home/autoware/Autoware/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/sick_ldmrs_msgs/share:/home/autoware/Autoware/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_driver --target install -- -j2 -l2

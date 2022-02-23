@@ -1,0 +1,560 @@
+[0.015s] Invoking command in '/home/autoware/Autoware/build/autoware_health_checker': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/ros_observer:/home/autoware/Autoware/install/autoware_system_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_system_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/ros_observer/share:/home/autoware/Autoware/install/autoware_system_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/common/autoware_health_checker -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/autoware_health_checker
+[0.099s] -- The C compiler identification is GNU 7.5.0
+[0.172s] -- The CXX compiler identification is GNU 7.5.0
+[0.178s] -- Check for working C compiler: /usr/bin/cc
+[0.270s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.270s] -- Detecting C compiler ABI info
+[0.359s] -- Detecting C compiler ABI info - done
+[0.364s] -- Detecting C compile features
+[0.623s] -- Detecting C compile features - done
+[0.624s] -- Check for working CXX compiler: /usr/bin/c++
+[0.715s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.716s] -- Detecting CXX compiler ABI info
+[0.823s] -- Detecting CXX compiler ABI info - done
+[0.829s] -- Detecting CXX compile features
+[1.278s] -- Detecting CXX compile features - done
+[1.281s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/autoware_health_checker/devel
+[1.282s] -- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/ros_observer;/home/autoware/Autoware/install/autoware_system_msgs;/opt/ros/melodic
+[1.282s] -- This workspace overlays: /home/autoware/Autoware/install/ros_observer;/home/autoware/Autoware/install/autoware_system_msgs;/opt/ros/melodic
+[1.302s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.302s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.302s] -- Using Debian Python package layout
+[1.302s] -- Using empy: /usr/bin/empy
+[1.470s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.470s] -- Call enable_testing()
+[1.472s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/autoware_health_checker/test_results
+[1.502s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.502s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.519s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.521s] -- Looking for pthread.h
+[1.608s] -- Looking for pthread.h - found
+[1.609s] -- Looking for pthread_create
+[1.699s] -- Looking for pthread_create - not found
+[1.699s] -- Looking for pthread_create in pthreads
+[1.772s] -- Looking for pthread_create in pthreads - not found
+[1.772s] -- Looking for pthread_create in pthread
+[1.861s] -- Looking for pthread_create in pthread - found
+[1.862s] -- Found Threads: TRUE  
+[1.867s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.916s] -- catkin 0.7.26
+[1.916s] -- BUILD_SHARED_LIBS is on
+[2.153s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.960s] -- Configuring done
+[4.319s] -- Generating done
+[4.344s] -- Build files have been written to: /home/autoware/Autoware/build/autoware_health_checker
+[4.356s] Invoked command in '/home/autoware/Autoware/build/autoware_health_checker' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/ros_observer:/home/autoware/Autoware/install/autoware_system_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_system_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/ros_observer/share:/home/autoware/Autoware/install/autoware_system_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/common/autoware_health_checker -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/autoware_health_checker
+[4.357s] Invoking command in '/home/autoware/Autoware/build/autoware_health_checker': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/ros_observer:/home/autoware/Autoware/install/autoware_system_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_system_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/ros_observer/share:/home/autoware/Autoware/install/autoware_system_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_health_checker -- -j2 -l2
+[4.419s] Scanning dependencies of target dynamic_reconfigure_generate_messages_nodejs
+[4.432s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[4.445s] Scanning dependencies of target nav_msgs_generate_messages_nodejs
+[4.457s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[4.471s] Scanning dependencies of target map_msgs_generate_messages_lisp
+[4.484s] [  0%] Built target map_msgs_generate_messages_lisp
+[4.496s] Scanning dependencies of target rviz_generate_messages_py
+[4.508s] [  0%] Built target rviz_generate_messages_py
+[4.526s] Scanning dependencies of target rviz_generate_messages_cpp
+[4.540s] [  0%] Built target rviz_generate_messages_cpp
+[4.551s] Scanning dependencies of target people_msgs_generate_messages_lisp
+[4.564s] [  0%] Built target people_msgs_generate_messages_lisp
+[4.580s] Scanning dependencies of target rviz_generate_messages_eus
+[4.592s] [  0%] Built target rviz_generate_messages_eus
+[4.605s] Scanning dependencies of target people_msgs_generate_messages_eus
+[4.624s] [  0%] Built target people_msgs_generate_messages_eus
+[4.641s] Scanning dependencies of target people_msgs_generate_messages_cpp
+[4.652s] [  0%] Built target people_msgs_generate_messages_cpp
+[4.664s] Scanning dependencies of target visualization_msgs_generate_messages_py
+[4.676s] [  0%] Built target visualization_msgs_generate_messages_py
+[4.688s] Scanning dependencies of target visualization_msgs_generate_messages_nodejs
+[4.699s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[4.711s] Scanning dependencies of target visualization_msgs_generate_messages_eus
+[4.724s] [  0%] Built target visualization_msgs_generate_messages_eus
+[4.739s] Scanning dependencies of target tf2_msgs_generate_messages_nodejs
+[4.747s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[4.760s] Scanning dependencies of target nav_msgs_generate_messages_eus
+[4.773s] [  0%] Built target nav_msgs_generate_messages_eus
+[4.787s] Scanning dependencies of target visualization_msgs_generate_messages_cpp
+[4.799s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[4.811s] Scanning dependencies of target tf2_msgs_generate_messages_eus
+[4.824s] [  0%] Built target tf2_msgs_generate_messages_eus
+[4.837s] Scanning dependencies of target tf2_msgs_generate_messages_cpp
+[4.850s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[4.862s] Scanning dependencies of target map_msgs_generate_messages_cpp
+[4.873s] [  0%] Built target map_msgs_generate_messages_cpp
+[4.886s] Scanning dependencies of target tf2_msgs_generate_messages_py
+[4.900s] [  0%] Built target tf2_msgs_generate_messages_py
+[4.913s] Scanning dependencies of target actionlib_generate_messages_py
+[4.925s] [  0%] Built target actionlib_generate_messages_py
+[4.938s] Scanning dependencies of target actionlib_generate_messages_cpp
+[4.950s] [  0%] Built target actionlib_generate_messages_cpp
+[4.962s] Scanning dependencies of target tf_generate_messages_nodejs
+[4.975s] [  0%] Built target tf_generate_messages_nodejs
+[4.989s] Scanning dependencies of target tf_generate_messages_lisp
+[5.002s] [  0%] Built target tf_generate_messages_lisp
+[5.016s] Scanning dependencies of target topic_tools_generate_messages_nodejs
+[5.030s] [  0%] Built target topic_tools_generate_messages_nodejs
+[5.045s] Scanning dependencies of target topic_tools_generate_messages_eus
+[5.062s] [  0%] Built target topic_tools_generate_messages_eus
+[5.085s] Scanning dependencies of target topic_tools_generate_messages_cpp
+[5.100s] [  0%] Built target topic_tools_generate_messages_cpp
+[5.114s] Scanning dependencies of target std_srvs_generate_messages_py
+[5.127s] [  0%] Built target std_srvs_generate_messages_py
+[5.141s] Scanning dependencies of target std_srvs_generate_messages_nodejs
+[5.153s] [  0%] Built target std_srvs_generate_messages_nodejs
+[5.167s] Scanning dependencies of target std_srvs_generate_messages_lisp
+[5.180s] [  0%] Built target std_srvs_generate_messages_lisp
+[5.194s] Scanning dependencies of target bond_generate_messages_py
+[5.208s] [  0%] Built target bond_generate_messages_py
+[5.221s] Scanning dependencies of target bond_generate_messages_nodejs
+[5.235s] [  0%] Built target bond_generate_messages_nodejs
+[5.249s] Scanning dependencies of target bond_generate_messages_lisp
+[5.263s] [  0%] Built target bond_generate_messages_lisp
+[5.276s] Scanning dependencies of target bond_generate_messages_eus
+[5.294s] [  0%] Built target bond_generate_messages_eus
+[5.307s] Scanning dependencies of target bond_generate_messages_cpp
+[5.320s] [  0%] Built target bond_generate_messages_cpp
+[5.334s] Scanning dependencies of target nodelet_generate_messages_nodejs
+[5.348s] [  0%] Built target nodelet_generate_messages_nodejs
+[5.362s] Scanning dependencies of target nodelet_generate_messages_lisp
+[5.376s] [  0%] Built target nodelet_generate_messages_lisp
+[5.391s] Scanning dependencies of target map_msgs_generate_messages_eus
+[5.405s] [  0%] Built target map_msgs_generate_messages_eus
+[5.419s] Scanning dependencies of target nodelet_generate_messages_eus
+[5.433s] [  0%] Built target nodelet_generate_messages_eus
+[5.446s] Scanning dependencies of target nodelet_generate_messages_cpp
+[5.459s] [  0%] Built target nodelet_generate_messages_cpp
+[5.472s] Scanning dependencies of target nav_msgs_generate_messages_py
+[5.485s] [  0%] Built target nav_msgs_generate_messages_py
+[5.498s] Scanning dependencies of target tf2_msgs_generate_messages_lisp
+[5.510s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[5.524s] Scanning dependencies of target dynamic_reconfigure_gencfg
+[5.537s] [  0%] Built target dynamic_reconfigure_gencfg
+[5.550s] Scanning dependencies of target jsk_rviz_plugins_generate_messages_py
+[5.568s] [  0%] Built target jsk_rviz_plugins_generate_messages_py
+[5.583s] Scanning dependencies of target jsk_hark_msgs_generate_messages_eus
+[5.598s] [  0%] Built target jsk_hark_msgs_generate_messages_eus
+[5.615s] Scanning dependencies of target jsk_rviz_plugins_generate_messages_nodejs
+[5.629s] [  0%] Built target jsk_rviz_plugins_generate_messages_nodejs
+[5.643s] Scanning dependencies of target rviz_generate_messages_lisp
+[5.658s] [  0%] Built target rviz_generate_messages_lisp
+[5.674s] Scanning dependencies of target jsk_rviz_plugins_gencfg
+[5.689s] [  0%] Built target jsk_rviz_plugins_gencfg
+[5.703s] Scanning dependencies of target visualization_msgs_generate_messages_lisp
+[5.716s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[5.730s] Scanning dependencies of target std_msgs_generate_messages_eus
+[5.744s] [  0%] Built target std_msgs_generate_messages_eus
+[5.758s] Scanning dependencies of target diagnostic_msgs_generate_messages_nodejs
+[5.771s] [  0%] Built target diagnostic_msgs_generate_messages_nodejs
+[5.784s] Scanning dependencies of target dynamic_reconfigure_generate_messages_py
+[5.797s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[5.810s] Scanning dependencies of target rviz_generate_messages_nodejs
+[5.823s] [  0%] Built target rviz_generate_messages_nodejs
+[5.837s] Scanning dependencies of target jsk_hark_msgs_generate_messages_nodejs
+[5.850s] [  0%] Built target jsk_hark_msgs_generate_messages_nodejs
+[5.863s] Scanning dependencies of target diagnostic_msgs_generate_messages_lisp
+[5.877s] [  0%] Built target diagnostic_msgs_generate_messages_lisp
+[5.894s] Scanning dependencies of target dynamic_reconfigure_generate_messages_eus
+[5.907s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[5.921s] Scanning dependencies of target roscpp_generate_messages_py
+[5.935s] [  0%] Built target roscpp_generate_messages_py
+[5.949s] Scanning dependencies of target people_msgs_generate_messages_py
+[5.962s] [  0%] Built target people_msgs_generate_messages_py
+[5.975s] Scanning dependencies of target autoware_system_msgs_generate_messages_cpp
+[5.989s] [  0%] Built target autoware_system_msgs_generate_messages_cpp
+[6.003s] Scanning dependencies of target geometry_msgs_generate_messages_eus
+[6.016s] [  0%] Built target geometry_msgs_generate_messages_eus
+[6.030s] Scanning dependencies of target std_msgs_generate_messages_py
+[6.043s] [  0%] Built target std_msgs_generate_messages_py
+[6.056s] Scanning dependencies of target sensor_msgs_generate_messages_eus
+[6.069s] [  0%] Built target sensor_msgs_generate_messages_eus
+[6.084s] Scanning dependencies of target std_srvs_generate_messages_cpp
+[6.100s] [  0%] Built target std_srvs_generate_messages_cpp
+[6.116s] Scanning dependencies of target nav_msgs_generate_messages_cpp
+[6.129s] [  0%] Built target nav_msgs_generate_messages_cpp
+[6.142s] Scanning dependencies of target sensor_msgs_generate_messages_lisp
+[6.155s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[6.169s] Scanning dependencies of target map_msgs_generate_messages_nodejs
+[6.183s] [  0%] Built target map_msgs_generate_messages_nodejs
+[6.196s] Scanning dependencies of target topic_tools_generate_messages_py
+[6.209s] [  0%] Built target topic_tools_generate_messages_py
+[6.222s] Scanning dependencies of target nodelet_topic_tools_gencfg
+[6.235s] [  0%] Built target nodelet_topic_tools_gencfg
+[6.255s] Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+[6.268s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[6.282s] Scanning dependencies of target diagnostic_msgs_generate_messages_eus
+[6.297s] [  0%] Built target diagnostic_msgs_generate_messages_eus
+[6.314s] Scanning dependencies of target autoware_system_msgs_generate_messages_nodejs
+[6.328s] [  0%] Built target autoware_system_msgs_generate_messages_nodejs
+[6.343s] Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+[6.358s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[6.372s] Scanning dependencies of target std_msgs_generate_messages_cpp
+[6.386s] [  0%] Built target std_msgs_generate_messages_cpp
+[6.400s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_py
+[6.413s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[6.426s] Scanning dependencies of target autoware_system_msgs_generate_messages_lisp
+[6.439s] [  0%] Built target autoware_system_msgs_generate_messages_lisp
+[6.453s] Scanning dependencies of target roscpp_generate_messages_cpp
+[6.466s] [  0%] Built target roscpp_generate_messages_cpp
+[6.480s] Scanning dependencies of target autoware_system_msgs_generate_messages_py
+[6.493s] [  0%] Built target autoware_system_msgs_generate_messages_py
+[6.507s] Scanning dependencies of target sensor_msgs_generate_messages_nodejs
+[6.519s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[6.532s] Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+[6.544s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[6.556s] Scanning dependencies of target diagnostic_msgs_generate_messages_py
+[6.569s] [  0%] Built target diagnostic_msgs_generate_messages_py
+[6.582s] Scanning dependencies of target autoware_system_msgs_generate_messages_eus
+[6.596s] [  0%] Built target autoware_system_msgs_generate_messages_eus
+[6.609s] Scanning dependencies of target jsk_rviz_plugins_generate_messages_cpp
+[6.622s] [  0%] Built target jsk_rviz_plugins_generate_messages_cpp
+[6.635s] Scanning dependencies of target roscpp_generate_messages_nodejs
+[6.648s] [  0%] Built target roscpp_generate_messages_nodejs
+[6.661s] Scanning dependencies of target std_msgs_generate_messages_lisp
+[6.674s] [  0%] Built target std_msgs_generate_messages_lisp
+[6.687s] Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+[6.700s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[6.717s] Scanning dependencies of target actionlib_generate_messages_lisp
+[6.730s] [  0%] Built target actionlib_generate_messages_lisp
+[6.744s] Scanning dependencies of target geometry_msgs_generate_messages_cpp
+[6.758s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[6.772s] Scanning dependencies of target geometry_msgs_generate_messages_lisp
+[6.786s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[6.800s] Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+[6.814s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[6.827s] Scanning dependencies of target tf_generate_messages_py
+[6.840s] [  0%] Built target tf_generate_messages_py
+[6.856s] Scanning dependencies of target dynamic_reconfigure_generate_messages_cpp
+[6.870s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[6.883s] Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+[6.896s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[6.909s] Scanning dependencies of target std_srvs_generate_messages_eus
+[6.922s] [  0%] Built target std_srvs_generate_messages_eus
+[6.936s] Scanning dependencies of target roscpp_generate_messages_lisp
+[6.949s] [  0%] Built target roscpp_generate_messages_lisp
+[6.962s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs
+[6.975s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[6.988s] Scanning dependencies of target jsk_rviz_plugins_generate_messages_lisp
+[7.002s] [  0%] Built target jsk_rviz_plugins_generate_messages_lisp
+[7.015s] Scanning dependencies of target jsk_recognition_utils_gencfg
+[7.027s] [  0%] Built target jsk_recognition_utils_gencfg
+[7.041s] Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+[7.054s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[7.068s] Scanning dependencies of target jsk_hark_msgs_generate_messages_cpp
+[7.080s] [  0%] Built target jsk_hark_msgs_generate_messages_cpp
+[7.092s] Scanning dependencies of target std_msgs_generate_messages_nodejs
+[7.105s] [  0%] Built target std_msgs_generate_messages_nodejs
+[7.120s] Scanning dependencies of target jsk_hark_msgs_generate_messages_lisp
+[7.138s] [  0%] Built target jsk_hark_msgs_generate_messages_lisp
+[7.152s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_eus
+[7.165s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[7.177s] Scanning dependencies of target actionlib_msgs_generate_messages_py
+[7.190s] [  0%] Built target actionlib_msgs_generate_messages_py
+[7.203s] Scanning dependencies of target jsk_hark_msgs_generate_messages_py
+[7.216s] [  0%] Built target jsk_hark_msgs_generate_messages_py
+[7.229s] Scanning dependencies of target nav_msgs_generate_messages_lisp
+[7.243s] [  0%] Built target nav_msgs_generate_messages_lisp
+[7.256s] Scanning dependencies of target pcl_msgs_generate_messages_nodejs
+[7.268s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[7.281s] Scanning dependencies of target geometry_msgs_generate_messages_py
+[7.294s] [  0%] Built target geometry_msgs_generate_messages_py
+[7.308s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_lisp
+[7.322s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[7.336s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs
+[7.350s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[7.364s] Scanning dependencies of target tf_generate_messages_eus
+[7.377s] [  0%] Built target tf_generate_messages_eus
+[7.391s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_cpp
+[7.404s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[7.418s] Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+[7.431s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[7.443s] Scanning dependencies of target roscpp_generate_messages_eus
+[7.456s] [  0%] Built target roscpp_generate_messages_eus
+[7.469s] Scanning dependencies of target rosgraph_msgs_generate_messages_py
+[7.481s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[7.494s] Scanning dependencies of target actionlib_msgs_generate_messages_eus
+[7.506s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[7.519s] Scanning dependencies of target topic_tools_generate_messages_lisp
+[7.532s] [  0%] Built target topic_tools_generate_messages_lisp
+[7.545s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_cpp
+[7.557s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[7.570s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_eus
+[7.582s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[7.595s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_lisp
+[7.608s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[7.622s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_py
+[7.635s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[7.648s] Scanning dependencies of target sensor_msgs_generate_messages_cpp
+[7.660s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[7.673s] Scanning dependencies of target nodelet_generate_messages_py
+[7.686s] [  0%] Built target nodelet_generate_messages_py
+[7.698s] Scanning dependencies of target sensor_msgs_generate_messages_py
+[7.710s] [  0%] Built target sensor_msgs_generate_messages_py
+[7.723s] Scanning dependencies of target pcl_msgs_generate_messages_cpp
+[7.735s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[7.748s] Scanning dependencies of target people_msgs_generate_messages_nodejs
+[7.760s] [  0%] Built target people_msgs_generate_messages_nodejs
+[7.773s] Scanning dependencies of target dynamic_reconfigure_generate_messages_lisp
+[7.785s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[7.797s] Scanning dependencies of target pcl_msgs_generate_messages_eus
+[7.809s] [  0%] Built target pcl_msgs_generate_messages_eus
+[7.823s] Scanning dependencies of target actionlib_generate_messages_nodejs
+[7.836s] [  0%] Built target actionlib_generate_messages_nodejs
+[7.848s] Scanning dependencies of target tf_generate_messages_cpp
+[7.861s] [  0%] Built target tf_generate_messages_cpp
+[7.874s] Scanning dependencies of target pcl_msgs_generate_messages_lisp
+[7.886s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[7.900s] Scanning dependencies of target actionlib_generate_messages_eus
+[7.912s] [  0%] Built target actionlib_generate_messages_eus
+[7.925s] Scanning dependencies of target jsk_rviz_plugins_generate_messages_eus
+[7.938s] [  0%] Built target jsk_rviz_plugins_generate_messages_eus
+[7.950s] Scanning dependencies of target diagnostic_msgs_generate_messages_cpp
+[7.962s] [  0%] Built target diagnostic_msgs_generate_messages_cpp
+[7.975s] Scanning dependencies of target pcl_msgs_generate_messages_py
+[7.987s] [  0%] Built target pcl_msgs_generate_messages_py
+[8.000s] Scanning dependencies of target map_msgs_generate_messages_py
+[8.013s] [  0%] Built target map_msgs_generate_messages_py
+[8.026s] Scanning dependencies of target pcl_ros_gencfg
+[8.039s] [  0%] Built target pcl_ros_gencfg
+[8.089s] Scanning dependencies of target health_checker
+[8.108s] [  6%] Building CXX object CMakeFiles/health_checker.dir/src/health_checker/health_checker.cpp.o
+[9.922s] /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp: In member function ‘autoware_health_checker::ErrorLevel autoware_health_checker::HealthChecker::CHECK_MIN_VALUE(const ErrorKey&, double, double, double, double, const string&)’:
+[9.922s] /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:198:32: warning: capture of variable ‘thresh_type’ with non-automatic storage duration
+[9.923s]    auto identify = [key, value, thresh_type, this](ErrorLevel level)
+[9.923s]                                 ^~~~~~~~~~~
+[9.923s] /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:195:27: note: ‘const ThreshType thresh_type’ declared here
+[9.923s]    static const ThreshType thresh_type = "min";
+[9.923s]                            ^~~~~~~~~~~
+[9.924s] /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp: In member function ‘autoware_health_checker::ErrorLevel autoware_health_checker::HealthChecker::CHECK_MAX_VALUE(const ErrorKey&, double, double, double, double, const string&)’:
+[9.924s] /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:223:32: warning: capture of variable ‘thresh_type’ with non-automatic storage duration
+[9.924s]    auto identify = [key, value, thresh_type, this](ErrorLevel level)
+[9.925s]                                 ^~~~~~~~~~~
+[9.925s] /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:220:27: note: ‘const ThreshType thresh_type’ declared here
+[9.925s]    static const ThreshType thresh_type = "max";
+[9.925s]                            ^~~~~~~~~~~
+[12.533s] [ 13%] Building CXX object CMakeFiles/health_checker.dir/src/health_checker/diag_buffer.cpp.o
+[15.783s] [ 20%] Building CXX object CMakeFiles/health_checker.dir/src/health_checker/rate_checker.cpp.o
+[17.532s] [ 26%] Building CXX object CMakeFiles/health_checker.dir/src/health_checker/value_manager.cpp.o
+[19.646s] [ 33%] Building CXX object CMakeFiles/health_checker.dir/src/health_checker/param_manager.cpp.o
+[21.518s] [ 40%] Linking CXX shared library devel/lib/libhealth_checker.so
+[22.604s] [ 40%] Built target health_checker
+[22.637s] Scanning dependencies of target system_status_subscriber
+[22.660s] [ 46%] Building CXX object CMakeFiles/system_status_subscriber.dir/src/system_status_subscriber/system_status_subscriber.cpp.o
+[26.214s] [ 53%] Linking CXX shared library devel/lib/libsystem_status_subscriber.so
+[26.881s] [ 53%] Built target system_status_subscriber
+[26.920s] Scanning dependencies of target health_analyzer
+[26.941s] [ 60%] Building CXX object CMakeFiles/health_analyzer.dir/src/health_analyzer/health_analyzer_node.cpp.o
+[31.249s] [ 66%] Building CXX object CMakeFiles/health_analyzer.dir/src/health_analyzer/health_analyzer.cpp.o
+[39.973s] [ 73%] Linking CXX executable devel/lib/autoware_health_checker/health_analyzer
+[40.690s] [ 73%] Built target health_analyzer
+[40.734s] Scanning dependencies of target health_aggregator
+[40.755s] [ 80%] Building CXX object CMakeFiles/health_aggregator.dir/src/health_aggregator/health_aggregator_node.cpp.o
+[42.857s] [ 86%] Building CXX object CMakeFiles/health_aggregator.dir/src/health_aggregator/health_aggregator.cpp.o
+[52.992s] [ 93%] Building CXX object CMakeFiles/health_aggregator.dir/src/health_aggregator/status_monitor.cpp.o
+[55.049s] [100%] Linking CXX executable devel/lib/autoware_health_checker/health_aggregator
+[55.516s] [100%] Built target health_aggregator
+[55.533s] Invoked command in '/home/autoware/Autoware/build/autoware_health_checker' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/ros_observer:/home/autoware/Autoware/install/autoware_system_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_system_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/ros_observer/share:/home/autoware/Autoware/install/autoware_system_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_health_checker -- -j2 -l2
+[55.764s] Invoking command in '/home/autoware/Autoware/build/autoware_health_checker': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/ros_observer:/home/autoware/Autoware/install/autoware_system_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_system_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/ros_observer/share:/home/autoware/Autoware/install/autoware_system_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_health_checker --target tests -- -j2 -l2
+[55.862s] Scanning dependencies of target gtest
+[55.876s] [ 11%] Building CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[61.261s] [ 22%] Linking CXX shared library libgtest.so
+[61.350s] [ 22%] Built target gtest
+[61.420s] Scanning dependencies of target test-autoware_health_checker
+[61.440s] [ 33%] Building CXX object CMakeFiles/test-autoware_health_checker.dir/test/src/test_autoware_health_checker.cpp.o
+[65.681s] [ 44%] Building CXX object CMakeFiles/test-autoware_health_checker.dir/src/health_checker/health_checker.cpp.o
+[67.374s] /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp: In member function ‘autoware_health_checker::ErrorLevel autoware_health_checker::HealthChecker::CHECK_MIN_VALUE(const ErrorKey&, double, double, double, double, const string&)’:
+[67.374s] /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:198:32: warning: capture of variable ‘thresh_type’ with non-automatic storage duration
+[67.374s]    auto identify = [key, value, thresh_type, this](ErrorLevel level)
+[67.374s]                                 ^~~~~~~~~~~
+[67.374s] /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:195:27: note: ‘const ThreshType thresh_type’ declared here
+[67.374s]    static const ThreshType thresh_type = "min";
+[67.375s]                            ^~~~~~~~~~~
+[67.376s] /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp: In member function ‘autoware_health_checker::ErrorLevel autoware_health_checker::HealthChecker::CHECK_MAX_VALUE(const ErrorKey&, double, double, double, double, const string&)’:
+[67.376s] /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:223:32: warning: capture of variable ‘thresh_type’ with non-automatic storage duration
+[67.376s]    auto identify = [key, value, thresh_type, this](ErrorLevel level)
+[67.376s]                                 ^~~~~~~~~~~
+[67.377s] /home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:220:27: note: ‘const ThreshType thresh_type’ declared here
+[67.377s]    static const ThreshType thresh_type = "max";
+[67.377s]                            ^~~~~~~~~~~
+[70.059s] [ 55%] Building CXX object CMakeFiles/test-autoware_health_checker.dir/src/health_checker/diag_buffer.cpp.o
+[73.337s] [ 66%] Building CXX object CMakeFiles/test-autoware_health_checker.dir/src/health_checker/rate_checker.cpp.o
+[75.096s] [ 77%] Building CXX object CMakeFiles/test-autoware_health_checker.dir/src/health_checker/value_manager.cpp.o
+[77.233s] [ 88%] Building CXX object CMakeFiles/test-autoware_health_checker.dir/src/health_checker/param_manager.cpp.o
+[79.155s] [100%] Linking CXX executable devel/lib/autoware_health_checker/test-autoware_health_checker
+[79.641s] [100%] Built target test-autoware_health_checker
+[79.657s] Scanning dependencies of target tests
+[79.670s] [100%] Built target tests
+[79.688s] Invoked command in '/home/autoware/Autoware/build/autoware_health_checker' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/ros_observer:/home/autoware/Autoware/install/autoware_system_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_system_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/ros_observer/share:/home/autoware/Autoware/install/autoware_system_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_health_checker --target tests -- -j2 -l2
+[79.927s] Invoking command in '/home/autoware/Autoware/build/autoware_health_checker': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/ros_observer:/home/autoware/Autoware/install/autoware_system_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_system_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/ros_observer/share:/home/autoware/Autoware/install/autoware_system_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_health_checker --target install -- -j2 -l2
+[80.015s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[80.045s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[80.072s] [  0%] Built target map_msgs_generate_messages_lisp
+[80.100s] [  0%] Built target rviz_generate_messages_py
+[80.126s] [  0%] Built target rviz_generate_messages_cpp
+[80.152s] [  0%] Built target people_msgs_generate_messages_lisp
+[80.176s] [  0%] Built target rviz_generate_messages_eus
+[80.202s] [  0%] Built target people_msgs_generate_messages_eus
+[80.228s] [  0%] Built target people_msgs_generate_messages_cpp
+[80.255s] [  0%] Built target visualization_msgs_generate_messages_py
+[80.282s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[80.309s] [  0%] Built target visualization_msgs_generate_messages_eus
+[80.336s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[80.365s] [  0%] Built target nav_msgs_generate_messages_eus
+[80.394s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[80.420s] [  0%] Built target tf2_msgs_generate_messages_eus
+[80.444s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[80.470s] [  0%] Built target map_msgs_generate_messages_cpp
+[80.495s] [  0%] Built target tf2_msgs_generate_messages_py
+[80.518s] [  0%] Built target actionlib_generate_messages_py
+[80.544s] [  0%] Built target actionlib_generate_messages_cpp
+[80.568s] [  0%] Built target tf_generate_messages_nodejs
+[80.593s] [  0%] Built target tf_generate_messages_lisp
+[80.619s] [  0%] Built target topic_tools_generate_messages_nodejs
+[80.644s] [  0%] Built target topic_tools_generate_messages_eus
+[80.669s] [  0%] Built target topic_tools_generate_messages_cpp
+[80.694s] [  0%] Built target std_srvs_generate_messages_py
+[80.719s] [  0%] Built target std_srvs_generate_messages_nodejs
+[80.745s] [  0%] Built target std_srvs_generate_messages_lisp
+[80.772s] [  0%] Built target bond_generate_messages_py
+[80.798s] [  0%] Built target bond_generate_messages_nodejs
+[80.823s] [  0%] Built target bond_generate_messages_lisp
+[80.849s] [  0%] Built target bond_generate_messages_eus
+[80.877s] [  0%] Built target bond_generate_messages_cpp
+[80.904s] [  0%] Built target nodelet_generate_messages_nodejs
+[80.930s] [  0%] Built target nodelet_generate_messages_lisp
+[80.955s] [  0%] Built target map_msgs_generate_messages_eus
+[80.981s] [  0%] Built target nodelet_generate_messages_eus
+[81.006s] [  0%] Built target nodelet_generate_messages_cpp
+[81.031s] [  0%] Built target nav_msgs_generate_messages_py
+[81.058s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[81.088s] [  0%] Built target dynamic_reconfigure_gencfg
+[81.114s] [  0%] Built target jsk_rviz_plugins_generate_messages_py
+[81.139s] [  0%] Built target jsk_hark_msgs_generate_messages_eus
+[81.164s] [  0%] Built target jsk_rviz_plugins_generate_messages_nodejs
+[81.189s] [  0%] Built target rviz_generate_messages_lisp
+[81.215s] [  0%] Built target jsk_rviz_plugins_gencfg
+[81.240s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[81.264s] [  0%] Built target std_msgs_generate_messages_eus
+[81.288s] [  0%] Built target diagnostic_msgs_generate_messages_nodejs
+[81.313s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[81.339s] [  0%] Built target rviz_generate_messages_nodejs
+[81.364s] [  0%] Built target jsk_hark_msgs_generate_messages_nodejs
+[81.390s] [  0%] Built target diagnostic_msgs_generate_messages_lisp
+[81.416s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[81.442s] [  0%] Built target roscpp_generate_messages_py
+[81.469s] [  0%] Built target people_msgs_generate_messages_py
+[81.495s] [  0%] Built target autoware_system_msgs_generate_messages_cpp
+[81.520s] [  0%] Built target geometry_msgs_generate_messages_eus
+[81.547s] [  0%] Built target std_msgs_generate_messages_py
+[81.575s] [  0%] Built target sensor_msgs_generate_messages_eus
+[81.601s] [  0%] Built target std_srvs_generate_messages_cpp
+[81.627s] [  0%] Built target nav_msgs_generate_messages_cpp
+[81.653s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[81.679s] [  0%] Built target map_msgs_generate_messages_nodejs
+[81.704s] [  0%] Built target topic_tools_generate_messages_py
+[81.730s] [  0%] Built target nodelet_topic_tools_gencfg
+[81.756s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[81.785s] [  0%] Built target diagnostic_msgs_generate_messages_eus
+[81.811s] [  0%] Built target autoware_system_msgs_generate_messages_nodejs
+[81.837s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[81.864s] [  0%] Built target std_msgs_generate_messages_cpp
+[81.890s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[81.921s] [  0%] Built target autoware_system_msgs_generate_messages_lisp
+[81.949s] [  0%] Built target roscpp_generate_messages_cpp
+[81.976s] [  0%] Built target autoware_system_msgs_generate_messages_py
+[82.003s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[82.029s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[82.057s] [  0%] Built target diagnostic_msgs_generate_messages_py
+[82.083s] [  0%] Built target autoware_system_msgs_generate_messages_eus
+[82.108s] [  0%] Built target jsk_rviz_plugins_generate_messages_cpp
+[82.134s] [  0%] Built target roscpp_generate_messages_nodejs
+[82.160s] [  0%] Built target std_msgs_generate_messages_lisp
+[82.186s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[82.212s] [  0%] Built target actionlib_generate_messages_lisp
+[82.238s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[82.263s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[82.290s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[82.317s] [  0%] Built target tf_generate_messages_py
+[82.344s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[82.369s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[82.394s] [  0%] Built target std_srvs_generate_messages_eus
+[82.421s] [  0%] Built target roscpp_generate_messages_lisp
+[82.448s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[82.475s] [  0%] Built target jsk_rviz_plugins_generate_messages_lisp
+[82.502s] [  0%] Built target jsk_recognition_utils_gencfg
+[82.528s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[82.553s] [  0%] Built target jsk_hark_msgs_generate_messages_cpp
+[82.578s] [  0%] Built target std_msgs_generate_messages_nodejs
+[82.603s] [  0%] Built target jsk_hark_msgs_generate_messages_lisp
+[82.629s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[82.654s] [  0%] Built target actionlib_msgs_generate_messages_py
+[82.680s] [  0%] Built target jsk_hark_msgs_generate_messages_py
+[82.706s] [  0%] Built target nav_msgs_generate_messages_lisp
+[82.733s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[82.761s] [  0%] Built target geometry_msgs_generate_messages_py
+[82.792s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[82.818s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[82.845s] [  0%] Built target tf_generate_messages_eus
+[82.870s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[82.894s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[82.921s] [  0%] Built target roscpp_generate_messages_eus
+[82.947s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[82.974s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[83.001s] [  0%] Built target topic_tools_generate_messages_lisp
+[83.027s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[83.052s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[83.076s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[83.101s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[83.127s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[83.154s] [  0%] Built target nodelet_generate_messages_py
+[83.183s] [  0%] Built target sensor_msgs_generate_messages_py
+[83.211s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[83.238s] [  0%] Built target people_msgs_generate_messages_nodejs
+[83.265s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[83.292s] [  0%] Built target pcl_msgs_generate_messages_eus
+[83.318s] [  0%] Built target actionlib_generate_messages_nodejs
+[83.344s] [  0%] Built target tf_generate_messages_cpp
+[83.370s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[83.396s] [  0%] Built target actionlib_generate_messages_eus
+[83.421s] [  0%] Built target jsk_rviz_plugins_generate_messages_eus
+[83.449s] [  0%] Built target diagnostic_msgs_generate_messages_cpp
+[83.477s] [  0%] Built target pcl_msgs_generate_messages_py
+[83.503s] [  0%] Built target map_msgs_generate_messages_py
+[83.531s] [  0%] Built target pcl_ros_gencfg
+[83.574s] [ 40%] Built target health_checker
+[83.613s] [ 53%] Built target system_status_subscriber
+[83.655s] [ 73%] Built target health_analyzer
+[83.697s] [100%] Built target health_aggregator
+[83.728s] Install the project...
+[83.738s] -- Install configuration: "Release"
+[83.739s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/lib/pkgconfig/autoware_health_checker.pc
+[83.739s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/share/autoware_health_checker/cmake/autoware_health_checkerConfig.cmake
+[83.740s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/share/autoware_health_checker/cmake/autoware_health_checkerConfig-version.cmake
+[83.740s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/share/autoware_health_checker/package.xml
+[83.741s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/lib/autoware_health_checker/health_aggregator
+[83.743s] -- Set runtime path of "/home/autoware/Autoware/install/autoware_health_checker/lib/autoware_health_checker/health_aggregator" to ""
+[83.743s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/lib/autoware_health_checker/health_analyzer
+[83.744s] -- Set runtime path of "/home/autoware/Autoware/install/autoware_health_checker/lib/autoware_health_checker/health_analyzer" to ""
+[83.744s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/include/autoware_health_checker
+[83.745s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/include/autoware_health_checker/health_analyzer
+[83.745s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/include/autoware_health_checker/health_analyzer/health_analyzer.h
+[83.745s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/include/autoware_health_checker/health_checker
+[83.746s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/include/autoware_health_checker/health_checker/health_checker.h
+[83.746s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/include/autoware_health_checker/health_checker/value_manager.h
+[83.746s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/include/autoware_health_checker/health_checker/param_manager.h
+[83.747s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/include/autoware_health_checker/health_checker/rate_checker.h
+[83.747s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/include/autoware_health_checker/health_checker/diag_buffer.h
+[83.748s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/include/autoware_health_checker/constants.h
+[83.748s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/include/autoware_health_checker/system_status_subscriber
+[83.748s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/include/autoware_health_checker/system_status_subscriber/system_status_subscriber.h
+[83.749s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/include/autoware_health_checker/health_aggregator
+[83.749s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/include/autoware_health_checker/health_aggregator/health_aggregator.h
+[83.749s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/include/autoware_health_checker/health_aggregator/status_monitor.h
+[83.750s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/lib/libhealth_checker.so
+[83.751s] -- Set runtime path of "/home/autoware/Autoware/install/autoware_health_checker/lib/libhealth_checker.so" to ""
+[83.751s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/lib/libsystem_status_subscriber.so
+[83.752s] -- Set runtime path of "/home/autoware/Autoware/install/autoware_health_checker/lib/libsystem_status_subscriber.so" to ""
+[83.752s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/share/autoware_health_checker/launch
+[83.753s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/share/autoware_health_checker/launch/health_checker.launch
+[83.754s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/share/autoware_health_checker/launch/health_analyzer.launch
+[83.754s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/share/autoware_health_checker/config
+[83.754s] -- Installing: /home/autoware/Autoware/install/autoware_health_checker/share/autoware_health_checker/config/README.md
+[83.768s] Invoked command in '/home/autoware/Autoware/build/autoware_health_checker' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/ros_observer:/home/autoware/Autoware/install/autoware_system_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_system_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/ros_observer/share:/home/autoware/Autoware/install/autoware_system_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_health_checker --target install -- -j2 -l2

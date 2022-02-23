@@ -1,0 +1,6 @@
+/home/autoware/Autoware/install/memsic_imu/lib/pkgconfig/memsic_imu.pc
+/home/autoware/Autoware/install/memsic_imu/share/memsic_imu/cmake/memsic_imuConfig.cmake
+/home/autoware/Autoware/install/memsic_imu/share/memsic_imu/cmake/memsic_imuConfig-version.cmake
+/home/autoware/Autoware/install/memsic_imu/share/memsic_imu/package.xml
+/home/autoware/Autoware/install/memsic_imu/lib/memsic_imu/vg440_node
+/home/autoware/Autoware/install/memsic_imu/share/memsic_imu/launch/vg440.launch

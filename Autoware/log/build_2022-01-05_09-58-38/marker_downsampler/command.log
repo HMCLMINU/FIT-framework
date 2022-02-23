@@ -1,0 +1,6 @@
+Invoking command in '/home/autoware/Autoware/build/marker_downsampler': /usr/bin/cmake --build /home/autoware/Autoware/build/marker_downsampler -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/marker_downsampler -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/marker_downsampler': /usr/bin/cmake --build /home/autoware/Autoware/build/marker_downsampler --target tests -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/marker_downsampler --target tests -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/marker_downsampler': /usr/bin/cmake --build /home/autoware/Autoware/build/marker_downsampler --target install -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/marker_downsampler --target install -- -j32 -l32

@@ -1,0 +1,33 @@
+In file included from /home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set/velocity_set_info.cpp:17:0:
+/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/include/waypoint_planner/velocity_set/velocity_set_info.h: In constructor ‘VelocitySetInfo::VelocitySetInfo()’:
+/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/include/waypoint_planner/velocity_set/velocity_set_info.h:53:8: warning: ‘VelocitySetInfo::set_pose_’ will be initialized after [-Wreorder]
+   bool set_pose_;
+        ^~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/include/waypoint_planner/velocity_set/velocity_set_info.h:45:8: warning:   ‘int VelocitySetInfo::wpidx_detectionResultByOtherNodes_’ [-Wreorder]
+   int  wpidx_detectionResultByOtherNodes_; // waypoints index@finalwaypoints
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set/velocity_set_info.cpp:27:1: warning:   when initialized here [-Wreorder]
+ VelocitySetInfo::VelocitySetInfo()
+ ^~~~~~~~~~~~~~~
+In file included from /home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set/velocity_set_info.cpp:17:0:
+/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/include/waypoint_planner/velocity_set/velocity_set_info.h: In constructor ‘VelocitySetInfo::VelocitySetInfo()’:
+/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/include/waypoint_planner/velocity_set/velocity_set_info.h:53:8: warning: ‘VelocitySetInfo::set_pose_’ will be initialized after [-Wreorder]
+   bool set_pose_;
+        ^~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/include/waypoint_planner/velocity_set/velocity_set_info.h:45:8: warning:   ‘int VelocitySetInfo::wpidx_detectionResultByOtherNodes_’ [-Wreorder]
+   int  wpidx_detectionResultByOtherNodes_; // waypoints index@finalwaypoints
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set/velocity_set_info.cpp:27:1: warning:   when initialized here [-Wreorder]
+ VelocitySetInfo::VelocitySetInfo()
+ ^~~~~~~~~~~~~~~
+In file included from /home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/astar_avoid/astar_avoid.cpp:17:0:
+/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/include/waypoint_planner/astar_avoid/astar_avoid.h: In constructor ‘AstarAvoid::AstarAvoid()’:
+/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/include/waypoint_planner/astar_avoid/astar_avoid.h:105:8: warning: ‘AstarAvoid::closest_waypoint_initialized_’ will be initialized after [-Wreorder]
+   bool closest_waypoint_initialized_;
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/include/waypoint_planner/astar_avoid/astar_avoid.h:87:8: warning:   ‘bool AstarAvoid::terminate_thread_’ [-Wreorder]
+   bool terminate_thread_;
+        ^~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/astar_avoid/astar_avoid.cpp:19:1: warning:   when initialized here [-Wreorder]
+ AstarAvoid::AstarAvoid()
+ ^~~~~~~~~~

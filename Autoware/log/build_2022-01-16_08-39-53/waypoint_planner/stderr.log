@@ -1,0 +1,11 @@
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set/velocity_set.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set/velocity_set.cpp:621:5:[m[K [01;31m[Kerror: [m[K‘[01m[KOS_INFO[m[K’ was not declared in this scope
+     [01;31m[KOS_INFO[m[K("CLOSEST WAYPOINT_3 : %d", closest_waypoint);
+     [01;31m[K^~~~~~~[m[K
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set/velocity_set.cpp:621:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KROS_INFO[m[K’
+     [01;36m[KOS_INFO[m[K("CLOSEST WAYPOINT_3 : %d", closest_waypoint);
+     [01;36m[K^~~~~~~[m[K
+     [32m[KROS_INFO[m[K
+make[2]: *** [CMakeFiles/velocity_set.dir/src/velocity_set/velocity_set.cpp.o] Error 1
+make[1]: *** [CMakeFiles/velocity_set.dir/all] Error 2
+make: *** [all] Error 2

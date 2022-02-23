@@ -1,0 +1,18 @@
+[0.736s] Invoking command in '/home/autoware/Autoware/build/oculus_socket': /usr/bin/cmake --build /home/autoware/Autoware/build/oculus_socket -- -j32 -l32
+[0.963s] [100%] Built target oculus_sender
+[1.054s] Invoked command in '/home/autoware/Autoware/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/oculus_socket -- -j32 -l32
+[1.378s] Invoking command in '/home/autoware/Autoware/build/oculus_socket': /usr/bin/cmake --build /home/autoware/Autoware/build/oculus_socket --target tests -- -j32 -l32
+[1.521s] Built target tests
+[1.563s] Invoked command in '/home/autoware/Autoware/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/oculus_socket --target tests -- -j32 -l32
+[1.831s] Invoking command in '/home/autoware/Autoware/build/oculus_socket': /usr/bin/cmake --build /home/autoware/Autoware/build/oculus_socket --target install -- -j32 -l32
+[2.116s] [100%] Built target oculus_sender
+[2.117s] Install the project...
+[2.117s] -- Install configuration: "Release"
+[2.117s] -- Up-to-date: /home/autoware/Autoware/install/oculus_socket/lib/pkgconfig/oculus_socket.pc
+[2.117s] -- Up-to-date: /home/autoware/Autoware/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig.cmake
+[2.117s] -- Up-to-date: /home/autoware/Autoware/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig-version.cmake
+[2.117s] -- Up-to-date: /home/autoware/Autoware/install/oculus_socket/share/oculus_socket/package.xml
+[2.117s] -- Up-to-date: /home/autoware/Autoware/install/oculus_socket/lib/oculus_socket/oculus_sender
+[2.117s] -- Up-to-date: /home/autoware/Autoware/install/oculus_socket/share/oculus_socket/launch
+[2.117s] -- Up-to-date: /home/autoware/Autoware/install/oculus_socket/share/oculus_socket/launch/oculus_sender.launch
+[2.323s] Invoked command in '/home/autoware/Autoware/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/oculus_socket --target install -- -j32 -l32

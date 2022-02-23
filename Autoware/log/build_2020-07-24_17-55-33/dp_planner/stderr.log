@@ -1,0 +1,15 @@
+/home/autoware/Autoware/src/autoware/core_planning/dp_planner/nodes/ROSHelpers.cpp: In static member function ‘static void PlannerXNS::ROSHelpers::ConvertFromPlannerHRectangleToAutowareRviz(const std::vector<PlannerHNS::GPSPoint>&, visualization_msgs::Marker&)’:
+/home/autoware/Autoware/src/autoware/core_planning/dp_planner/nodes/ROSHelpers.cpp:142:7: warning: unused variable ‘id’ [-Wunused-variable]
+   int id = 0;
+       ^~
+/home/autoware/Autoware/src/autoware/core_planning/dp_planner/nodes/ROSHelpers.cpp: In static member function ‘static void PlannerXNS::ROSHelpers::ConvertFromPlannerHToAutowareVisualizePathFormat(const std::vector<PlannerHNS::WayPoint>&, const std::vector<std::vector<std::vector<PlannerHNS::WayPoint> > >&, const PlannerHNS::LocalPlannerH&, visualization_msgs::MarkerArray&)’:
+/home/autoware/Autoware/src/autoware/core_planning/dp_planner/nodes/ROSHelpers.cpp:245:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if(i == localPlanner.m_iSafeTrajectory && il == localPlanner.m_iCurrentTotalPathId)
+          ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_planning/dp_planner/nodes/ROSHelpers.cpp:245:52: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if(i == localPlanner.m_iSafeTrajectory && il == localPlanner.m_iCurrentTotalPathId)
+                                                 ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_planning/dp_planner/nodes/ROSHelpers.cpp: In static member function ‘static void PlannerXNS::ROSHelpers::ConvertFromAutowareCloudClusterObstaclesToPlannerH(const PlannerHNS::WayPoint&, const PlannerHNS::CAR_BASIC_INFO&, const CloudClusterArray&, std::vector<PlannerHNS::DetectedObject>&, int&, int&)’:
+/home/autoware/Autoware/src/autoware/core_planning/dp_planner/nodes/ROSHelpers.cpp:646:12: warning: unused variable ‘size’ [-Wunused-variable]
+     double size = (obj.w+obj.l)/2.0;
+            ^~~~

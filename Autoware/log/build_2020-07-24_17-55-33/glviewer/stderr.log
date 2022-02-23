@@ -1,0 +1,8 @@
+In file included from /usr/local/include/eigen3/Eigen/Core:450:0,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/autoware/Autoware/src/autoware/visualization/glviewer/include/glviewer/glviewer.h:22,
+                 from /home/autoware/Autoware/src/autoware/visualization/glviewer/GLViewer/glviewer.cpp:17:
+/usr/local/include/eigen3/Eigen/src/Core/DenseStorage.h: In member function ‘void GLViewer::addDisplayLists(GLuint, GLuint)’:
+/usr/local/include/eigen3/Eigen/src/Core/DenseStorage.h:194:66: warning: ‘*((void*)(& list)+16).Eigen::DenseStorage<double, 16, 4, 4, 0>::m_data’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     DenseStorage(const DenseStorage& other) : m_data(other.m_data) {
+                                                                  ^

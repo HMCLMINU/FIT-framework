@@ -1,0 +1,8 @@
+prefix=/home/autoware/Autoware/build/nmea_navsat/devel
+
+Name: nmea_navsat
+Description: Description of nmea_navsat
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

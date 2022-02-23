@@ -1,0 +1,8 @@
+prefix=/home/autoware/Autoware/install/ymc
+
+Name: ymc
+Description: Description of ymc
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

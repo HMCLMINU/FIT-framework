@@ -1,0 +1,30 @@
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:[m[K In function ‘[01m[Kint detectStopObstacle(const pcl::PointCloud<pcl::PointXYZ>&, int, int, const Lane&, const ConstLanelets&, double, double, const PoseStamped&, ObstaclePoints*, EObstacleType*, int)[m[K’:
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:227:57:[m[K [01;31m[Kerror: [m[K‘[01m[KSTOP_SEARCH_DISTANCE[m[K’ was not declared in this scope
+   for (int i = closest_waypoint; i < closest_waypoint + [01;31m[KSTOP_SEARCH_DISTANCE[m[K; i++)
+                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:[m[K In function ‘[01m[Kint detectDecelerateObstacle(const pcl::PointCloud<pcl::PointXYZ>&, int, const Lane&, double, double, double, const PoseStamped&, ObstaclePoints*)[m[K’:
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:302:57:[m[K [01;31m[Kerror: [m[K‘[01m[KDECELERATION_SEARCH_DISTANCE[m[K’ was not declared in this scope
+   for (int i = closest_waypoint; i < closest_waypoint + [01;31m[KDECELERATION_SEARCH_DISTANCE[m[K; i++)
+                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:[m[K In function ‘[01m[Kvoid displayDetectionRange(const Lane&, const ConstLanelets&, int, int, const EControl&, int, double, double, const ros::Publisher&)[m[K’:
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:537:23:[m[K [01;31m[Kerror: [m[K‘[01m[KSTOP_SEARCH_DISTANCE[m[K’ was not declared in this scope
+   for (int i = 0; i < [01;31m[KSTOP_SEARCH_DISTANCE[m[K; i++)
+                       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:547:13:[m[K [01;31m[Kerror: [m[K‘[01m[KDECELERATION_SEARCH_DISTANCE[m[K’ was not declared in this scope
+     if (i > [01;31m[KDECELERATION_SEARCH_DISTANCE[m[K)
+             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:[m[K In function ‘[01m[KEControl obstacleDetection(int, int, const Lane&, const ConstLanelets&, VelocitySetInfo, const ros::Publisher&, const ros::Publisher&, int*)[m[K’:
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:599:23:[m[K [01;31m[Kerror: [m[K‘[01m[KLOOP_RATE[m[K’ was not declared in this scope
+     if (false_count < [01;31m[KLOOP_RATE[m[K / 2)
+                       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:599:23:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KLOCK_WRITE[m[K’
+     if (false_count < [01;36m[KLOOP_RATE[m[K / 2)
+                       [01;36m[K^~~~~~~~~[m[K
+                       [32m[KLOCK_WRITE[m[K
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:662:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KDECELERATION_SEARCH_DISTANCE[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   constexpr double [01;35m[KDECELERATION_SEARCH_DISTANCE[m[K = 30;
+                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/velocity_set_lanelet2.dir/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/velocity_set_lanelet2.dir/all] Error 2
+make: *** [all] Error 2

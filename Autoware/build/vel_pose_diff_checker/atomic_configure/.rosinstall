@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autoware/Autoware/build/vel_pose_diff_checker/devel/setup.sh

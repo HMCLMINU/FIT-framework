@@ -1,0 +1,51 @@
+[0.576s] Invoking command in '/home/autoware/Autoware/build/carla_autoware_bridge': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/carla_autoware_bridge -- -j32 -l32
+[1.110s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/carla_autoware_bridge/devel
+[1.110s] -- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_msgs;/opt/ros/melodic
+[1.111s] -- This workspace overlays: /home/autoware/Autoware/install/autoware_msgs;/opt/ros/melodic
+[1.111s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.111s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.111s] -- Using Debian Python package layout
+[1.111s] -- Using empy: /usr/bin/empy
+[1.462s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.462s] -- Call enable_testing()
+[1.462s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/carla_autoware_bridge/test_results
+[1.523s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.523s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.523s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.524s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.587s] -- catkin 0.7.26
+[1.587s] -- BUILD_SHARED_LIBS is on
+[2.057s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.893s] -- Configuring done
+[2.944s] -- Generating done
+[2.945s] -- Build files have been written to: /home/autoware/Autoware/build/carla_autoware_bridge
+[3.035s] Invoked command in '/home/autoware/Autoware/build/carla_autoware_bridge' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/carla_autoware_bridge -- -j32 -l32
+[3.842s] Invoking command in '/home/autoware/Autoware/build/carla_autoware_bridge': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/carla_autoware_bridge --target tests -- -j32 -l32
+[4.143s] Built target tests
+[4.340s] Invoked command in '/home/autoware/Autoware/build/carla_autoware_bridge' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/carla_autoware_bridge --target tests -- -j32 -l32
+[5.480s] Invoking command in '/home/autoware/Autoware/build/carla_autoware_bridge': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/carla_autoware_bridge --target install -- -j32 -l32
+[5.707s] Install the project...
+[5.708s] -- Install configuration: "Release"
+[5.708s] + cd /home/autoware/Autoware/src/autoware/simulation/carla_simulator_bridge/carla_autoware_bridge
+[5.708s] + mkdir -p /home/autoware/Autoware/install/carla_autoware_bridge/lib/python2.7/dist-packages
+[5.708s] + /usr/bin/env PYTHONPATH=/home/autoware/Autoware/install/carla_autoware_bridge/lib/python2.7/dist-packages:/home/autoware/Autoware/build/carla_autoware_bridge/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/autoware/Autoware/build/carla_autoware_bridge /usr/bin/python2 /home/autoware/Autoware/src/autoware/simulation/carla_simulator_bridge/carla_autoware_bridge/setup.py build --build-base /home/autoware/Autoware/build/carla_autoware_bridge install --root=/ --install-layout=deb --prefix=/home/autoware/Autoware/install/carla_autoware_bridge --install-scripts=/home/autoware/Autoware/install/carla_autoware_bridge/bin
+[5.774s] running build
+[5.775s] running build_py
+[5.775s] running install
+[5.775s] running install_lib
+[5.775s] running install_egg_info
+[5.775s] Removing /home/autoware/Autoware/install/carla_autoware_bridge/lib/python2.7/dist-packages/carla_autoware_bridge-0.0.0.egg-info
+[5.775s] Writing /home/autoware/Autoware/install/carla_autoware_bridge/lib/python2.7/dist-packages/carla_autoware_bridge-0.0.0.egg-info
+[5.775s] -- Installing: /home/autoware/Autoware/install/carla_autoware_bridge/lib/pkgconfig/carla_autoware_bridge.pc
+[5.776s] -- Up-to-date: /home/autoware/Autoware/install/carla_autoware_bridge/share/carla_autoware_bridge/cmake/carla_autoware_bridgeConfig.cmake
+[5.776s] -- Up-to-date: /home/autoware/Autoware/install/carla_autoware_bridge/share/carla_autoware_bridge/cmake/carla_autoware_bridgeConfig-version.cmake
+[5.776s] -- Installing: /home/autoware/Autoware/install/carla_autoware_bridge/share/carla_autoware_bridge/package.xml
+[5.776s] -- Installing: /home/autoware/Autoware/install/carla_autoware_bridge/lib/carla_autoware_bridge/carla_to_autoware_vehicle_status
+[5.776s] -- Installing: /home/autoware/Autoware/install/carla_autoware_bridge/lib/carla_autoware_bridge/carla_to_autoware_waypoints
+[5.776s] -- Installing: /home/autoware/Autoware/install/carla_autoware_bridge/lib/carla_autoware_bridge/odometry_to_posestamped
+[5.777s] -- Installing: /home/autoware/Autoware/install/carla_autoware_bridge/lib/carla_autoware_bridge/vehiclecmd_to_ackermanndrive
+[5.777s] -- Installing: /home/autoware/Autoware/install/carla_autoware_bridge/lib/carla_autoware_bridge/carla_to_autoware_detected_objects
+[5.777s] -- Installing: /home/autoware/Autoware/install/carla_autoware_bridge/lib/carla_autoware_bridge/carla_to_autoware_localization
+[5.777s] -- Up-to-date: /home/autoware/Autoware/install/carla_autoware_bridge/share/carla_autoware_bridge/launch
+[5.777s] -- Installing: /home/autoware/Autoware/install/carla_autoware_bridge/share/carla_autoware_bridge/launch/carla_autoware_bridge.launch
+[5.909s] Invoked command in '/home/autoware/Autoware/build/carla_autoware_bridge' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/carla_autoware_bridge --target install -- -j32 -l32

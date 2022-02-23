@@ -1,0 +1,87 @@
+[0.014s] Invoking command in '/home/autoware/Autoware/build/vehicle_sim_model': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/common/vehicle_sim_model -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/vehicle_sim_model
+[0.109s] -- The C compiler identification is GNU 7.5.0
+[0.192s] -- The CXX compiler identification is GNU 7.5.0
+[0.199s] -- Check for working C compiler: /usr/bin/cc
+[0.295s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.302s] -- Detecting C compiler ABI info
+[0.395s] -- Detecting C compiler ABI info - done
+[0.401s] -- Detecting C compile features
+[0.674s] -- Detecting C compile features - done
+[0.678s] -- Check for working CXX compiler: /usr/bin/c++
+[0.783s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.783s] -- Detecting CXX compiler ABI info
+[0.883s] -- Detecting CXX compiler ABI info - done
+[0.894s] -- Detecting CXX compile features
+[1.348s] -- Detecting CXX compile features - done
+[1.351s] -- CUDA compilation status: ON.
+[1.353s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/vehicle_sim_model/devel
+[1.354s] -- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.354s] -- This workspace overlays: /home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.374s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.374s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.374s] -- Using Debian Python package layout
+[1.374s] -- Using empy: /usr/bin/empy
+[1.541s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.542s] -- Call enable_testing()
+[1.551s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/vehicle_sim_model/test_results
+[1.572s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.573s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.595s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.595s] -- Looking for pthread.h
+[1.686s] -- Looking for pthread.h - found
+[1.686s] -- Looking for pthread_create
+[1.775s] -- Looking for pthread_create - not found
+[1.775s] -- Looking for pthread_create in pthreads
+[1.843s] -- Looking for pthread_create in pthreads - not found
+[1.843s] -- Looking for pthread_create in pthread
+[1.935s] -- Looking for pthread_create in pthread - found
+[1.935s] -- Found Threads: TRUE  
+[1.938s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.988s] -- catkin 0.7.26
+[1.988s] -- BUILD_SHARED_LIBS is on
+[2.256s] -- Configuring done
+[2.279s] -- Generating done
+[2.284s] -- Build files have been written to: /home/autoware/Autoware/build/vehicle_sim_model
+[2.291s] Invoked command in '/home/autoware/Autoware/build/vehicle_sim_model' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/common/vehicle_sim_model -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/vehicle_sim_model
+[2.292s] Invoking command in '/home/autoware/Autoware/build/vehicle_sim_model': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_sim_model -- -j2 -l2
+[2.343s] Scanning dependencies of target _catkin_empty_exported_target
+[2.355s] [  0%] Built target _catkin_empty_exported_target
+[2.371s] Scanning dependencies of target vehicle_sim_model
+[2.387s] [ 20%] Building CXX object CMakeFiles/vehicle_sim_model.dir/src/vehicle_model_interface.cpp.o
+[3.721s] [ 40%] Building CXX object CMakeFiles/vehicle_sim_model.dir/src/vehicle_model_ideal.cpp.o
+[4.517s] [ 60%] Building CXX object CMakeFiles/vehicle_sim_model.dir/src/vehicle_model_constant_acceleration.cpp.o
+[5.285s] [ 80%] Building CXX object CMakeFiles/vehicle_sim_model.dir/src/vehicle_model_time_delay.cpp.o
+[6.334s] [100%] Linking CXX shared library devel/lib/libvehicle_sim_model.so
+[6.441s] [100%] Built target vehicle_sim_model
+[6.457s] Invoked command in '/home/autoware/Autoware/build/vehicle_sim_model' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_sim_model -- -j2 -l2
+[6.529s] Invoking command in '/home/autoware/Autoware/build/vehicle_sim_model': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_sim_model --target tests -- -j2 -l2
+[6.606s] Scanning dependencies of target gtest
+[6.619s] [ 11%] Building CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[12.114s] [ 22%] Linking CXX shared library libgtest.so
+[12.205s] [ 22%] Built target gtest
+[12.228s] [ 22%] Built target _catkin_empty_exported_target
+[12.252s] [ 77%] Built target vehicle_sim_model
+[12.278s] Scanning dependencies of target test-vehicle_sim_model
+[12.293s] [ 88%] Building CXX object CMakeFiles/test-vehicle_sim_model.dir/test/src/test_vehicle_sim_model.cpp.o
+[14.221s] [100%] Linking CXX executable devel/lib/vehicle_sim_model/test-vehicle_sim_model
+[14.317s] [100%] Built target test-vehicle_sim_model
+[14.330s] Scanning dependencies of target tests
+[14.341s] [100%] Built target tests
+[14.354s] Invoked command in '/home/autoware/Autoware/build/vehicle_sim_model' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_sim_model --target tests -- -j2 -l2
+[14.416s] Invoking command in '/home/autoware/Autoware/build/vehicle_sim_model': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_sim_model --target install -- -j2 -l2
+[14.472s] [  0%] Built target _catkin_empty_exported_target
+[14.493s] [100%] Built target vehicle_sim_model
+[14.512s] Install the project...
+[14.521s] -- Install configuration: "Release"
+[14.521s] -- Installing: /home/autoware/Autoware/install/vehicle_sim_model/lib/pkgconfig/vehicle_sim_model.pc
+[14.521s] -- Installing: /home/autoware/Autoware/install/vehicle_sim_model/share/vehicle_sim_model/cmake/vehicle_sim_modelConfig.cmake
+[14.523s] -- Installing: /home/autoware/Autoware/install/vehicle_sim_model/share/vehicle_sim_model/cmake/vehicle_sim_modelConfig-version.cmake
+[14.523s] -- Installing: /home/autoware/Autoware/install/vehicle_sim_model/share/vehicle_sim_model/package.xml
+[14.523s] -- Installing: /home/autoware/Autoware/install/vehicle_sim_model/lib/libvehicle_sim_model.so
+[14.526s] -- Installing: /home/autoware/Autoware/install/vehicle_sim_model/include/vehicle_sim_model
+[14.527s] -- Installing: /home/autoware/Autoware/install/vehicle_sim_model/include/vehicle_sim_model/vehicle_model_time_delay.h
+[14.527s] -- Installing: /home/autoware/Autoware/install/vehicle_sim_model/include/vehicle_sim_model/vehicle_model_interface.h
+[14.527s] -- Installing: /home/autoware/Autoware/install/vehicle_sim_model/include/vehicle_sim_model/vehicle_model_ideal.h
+[14.528s] -- Installing: /home/autoware/Autoware/install/vehicle_sim_model/include/vehicle_sim_model/vehicle_model_constant_acceleration.h
+[14.528s] -- Installing: /home/autoware/Autoware/install/vehicle_sim_model/lib/vehicle_sim_model/fitParamDelayInputModel.py
+[14.535s] Invoked command in '/home/autoware/Autoware/build/vehicle_sim_model' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_sim_model --target install -- -j2 -l2

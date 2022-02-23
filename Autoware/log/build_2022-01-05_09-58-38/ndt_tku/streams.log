@@ -1,0 +1,19 @@
+[0.341s] Invoking command in '/home/autoware/Autoware/build/ndt_tku': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_tku -- -j32 -l32
+[0.749s] [100%] Built target ndt_tku
+[0.818s] Invoked command in '/home/autoware/Autoware/build/ndt_tku' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_tku -- -j32 -l32
+[0.975s] Invoking command in '/home/autoware/Autoware/build/ndt_tku': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_tku --target tests -- -j32 -l32
+[1.103s] Built target tests
+[1.124s] Invoked command in '/home/autoware/Autoware/build/ndt_tku' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_tku --target tests -- -j32 -l32
+[1.257s] Invoking command in '/home/autoware/Autoware/build/ndt_tku': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_tku --target install -- -j32 -l32
+[1.482s] [100%] Built target ndt_tku
+[1.558s] Install the project...
+[1.563s] -- Install configuration: "Release"
+[1.563s] -- Up-to-date: /home/autoware/Autoware/install/ndt_tku/lib/pkgconfig/ndt_tku.pc
+[1.563s] -- Up-to-date: /home/autoware/Autoware/install/ndt_tku/share/ndt_tku/cmake/ndt_tkuConfig.cmake
+[1.563s] -- Up-to-date: /home/autoware/Autoware/install/ndt_tku/share/ndt_tku/cmake/ndt_tkuConfig-version.cmake
+[1.563s] -- Up-to-date: /home/autoware/Autoware/install/ndt_tku/share/ndt_tku/package.xml
+[1.564s] -- Up-to-date: /home/autoware/Autoware/install/ndt_tku/lib/libndt_tku.so
+[1.564s] -- Up-to-date: /home/autoware/Autoware/install/ndt_tku/include
+[1.565s] -- Up-to-date: /home/autoware/Autoware/install/ndt_tku/include/algebra.h
+[1.565s] -- Up-to-date: /home/autoware/Autoware/install/ndt_tku/include/ndt.h
+[1.747s] Invoked command in '/home/autoware/Autoware/build/ndt_tku' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_tku --target install -- -j32 -l32

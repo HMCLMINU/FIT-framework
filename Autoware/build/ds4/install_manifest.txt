@@ -1,0 +1,1 @@
+/home/autoware/Autoware/install/ds4/share/ds4/package.xml

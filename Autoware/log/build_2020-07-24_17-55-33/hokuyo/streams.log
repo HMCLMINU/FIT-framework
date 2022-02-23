@@ -1,0 +1,73 @@
+[0.012s] Invoking command in '/home/autoware/Autoware/build/hokuyo': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/drivers/awf_drivers/hokuyo -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/hokuyo
+[0.084s] -- The C compiler identification is GNU 7.5.0
+[0.152s] -- The CXX compiler identification is GNU 7.5.0
+[0.157s] -- Check for working C compiler: /usr/bin/cc
+[0.245s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.245s] -- Detecting C compiler ABI info
+[0.325s] -- Detecting C compiler ABI info - done
+[0.332s] -- Detecting C compile features
+[0.557s] -- Detecting C compile features - done
+[0.560s] -- Check for working CXX compiler: /usr/bin/c++
+[0.657s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.657s] -- Detecting CXX compiler ABI info
+[0.757s] -- Detecting CXX compiler ABI info - done
+[0.761s] -- Detecting CXX compile features
+[1.161s] -- Detecting CXX compile features - done
+[1.163s] -- CUDA compilation status: ON.
+[1.165s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/hokuyo/devel
+[1.165s] -- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.166s] -- This workspace overlays: /home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.184s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.184s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.184s] -- Using Debian Python package layout
+[1.184s] -- Using empy: /usr/bin/empy
+[1.325s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.325s] -- Call enable_testing()
+[1.333s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/hokuyo/test_results
+[1.354s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.354s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.373s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.373s] -- Looking for pthread.h
+[1.457s] -- Looking for pthread.h - found
+[1.457s] -- Looking for pthread_create
+[1.545s] -- Looking for pthread_create - not found
+[1.545s] -- Looking for pthread_create in pthreads
+[1.621s] -- Looking for pthread_create in pthreads - not found
+[1.621s] -- Looking for pthread_create in pthread
+[1.713s] -- Looking for pthread_create in pthread - found
+[1.713s] -- Found Threads: TRUE  
+[1.717s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.768s] -- catkin 0.7.26
+[1.768s] -- BUILD_SHARED_LIBS is on
+[2.067s] -- Boost version: 1.65.1
+[2.067s] -- Found the following Boost libraries:
+[2.067s] --   system
+[2.067s] --   serialization
+[2.223s] -- Configuring done
+[2.250s] -- Generating done
+[2.256s] -- Build files have been written to: /home/autoware/Autoware/build/hokuyo
+[2.261s] Invoked command in '/home/autoware/Autoware/build/hokuyo' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/drivers/awf_drivers/hokuyo -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/hokuyo
+[2.262s] Invoking command in '/home/autoware/Autoware/build/hokuyo': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/hokuyo -- -j2 -l2
+[2.331s] Scanning dependencies of target hokuyo_3d
+[2.351s] [ 50%] Building CXX object CMakeFiles/hokuyo_3d.dir/nodes/hokuyo_3d/hokuyo_3d.cpp.o
+[8.695s] [100%] Linking CXX executable devel/lib/hokuyo/hokuyo_3d
+[8.856s] [100%] Built target hokuyo_3d
+[8.868s] Invoked command in '/home/autoware/Autoware/build/hokuyo' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/hokuyo -- -j2 -l2
+[8.935s] Invoking command in '/home/autoware/Autoware/build/hokuyo': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/hokuyo --target tests -- -j2 -l2
+[9.002s] Scanning dependencies of target tests
+[9.013s] Built target tests
+[9.026s] Invoked command in '/home/autoware/Autoware/build/hokuyo' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/hokuyo --target tests -- -j2 -l2
+[9.093s] Invoking command in '/home/autoware/Autoware/build/hokuyo': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/hokuyo --target install -- -j2 -l2
+[9.165s] [100%] Built target hokuyo_3d
+[9.185s] Install the project...
+[9.196s] -- Install configuration: "Release"
+[9.196s] -- Installing: /home/autoware/Autoware/install/hokuyo/lib/pkgconfig/hokuyo.pc
+[9.197s] -- Installing: /home/autoware/Autoware/install/hokuyo/share/hokuyo/cmake/hokuyoConfig.cmake
+[9.197s] -- Installing: /home/autoware/Autoware/install/hokuyo/share/hokuyo/cmake/hokuyoConfig-version.cmake
+[9.197s] -- Installing: /home/autoware/Autoware/install/hokuyo/share/hokuyo/package.xml
+[9.198s] -- Installing: /home/autoware/Autoware/install/hokuyo/lib/hokuyo/hokuyo_3d
+[9.199s] -- Set runtime path of "/home/autoware/Autoware/install/hokuyo/lib/hokuyo/hokuyo_3d" to ""
+[9.199s] -- Installing: /home/autoware/Autoware/install/hokuyo/share/hokuyo/launch
+[9.200s] -- Installing: /home/autoware/Autoware/install/hokuyo/share/hokuyo/launch/hokuyo_3d.launch
+[9.200s] -- Installing: /home/autoware/Autoware/install/hokuyo/share/hokuyo/launch/top_urg.launch
+[9.205s] Invoked command in '/home/autoware/Autoware/build/hokuyo' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/hokuyo --target install -- -j2 -l2

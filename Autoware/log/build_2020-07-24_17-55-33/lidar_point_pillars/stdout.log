@@ -1,0 +1,395 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found CUDA: /usr/local/cuda (found version "10.0") 
+-- CUDA compilation status: ON.
+-- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/lidar_point_pillars/devel
+-- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/lidar_point_pillars/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.26
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/autoware/Autoware/build/lidar_point_pillars
+[  8%] Building NVCC (Device) object CMakeFiles/gpu_point_pillars_lib.dir/nodes/gpu_point_pillars_lib_generated_nms_cuda.cu.o
+[ 16%] Building NVCC (Device) object CMakeFiles/gpu_point_pillars_lib.dir/nodes/gpu_point_pillars_lib_generated_preprocess_points_cuda.cu.o
+[ 25%] Building NVCC (Device) object CMakeFiles/gpu_point_pillars_lib.dir/nodes/gpu_point_pillars_lib_generated_anchor_mask_cuda.cu.o
+[ 33%] Building NVCC (Device) object CMakeFiles/gpu_point_pillars_lib.dir/nodes/gpu_point_pillars_lib_generated_scatter_cuda.cu.o
+[ 41%] Building NVCC (Device) object CMakeFiles/gpu_point_pillars_lib.dir/nodes/gpu_point_pillars_lib_generated_postprocess_cuda.cu.o
+Scanning dependencies of target gpu_point_pillars_lib
+[ 50%] Linking CXX shared library devel/lib/libgpu_point_pillars_lib.so
+[ 50%] Built target gpu_point_pillars_lib
+Scanning dependencies of target actionlib_msgs_generate_messages_py
+[ 50%] Built target actionlib_msgs_generate_messages_py
+Scanning dependencies of target jsk_footstep_msgs_generate_messages_py
+[ 50%] Built target jsk_footstep_msgs_generate_messages_py
+Scanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs
+[ 50%] Built target jsk_footstep_msgs_generate_messages_nodejs
+Scanning dependencies of target jsk_footstep_msgs_generate_messages_lisp
+[ 50%] Built target jsk_footstep_msgs_generate_messages_lisp
+Scanning dependencies of target jsk_footstep_msgs_generate_messages_eus
+[ 50%] Built target jsk_footstep_msgs_generate_messages_eus
+Scanning dependencies of target jsk_recognition_msgs_generate_messages_py
+[ 50%] Built target jsk_recognition_msgs_generate_messages_py
+Scanning dependencies of target jsk_recognition_msgs_generate_messages_lisp
+[ 50%] Built target jsk_recognition_msgs_generate_messages_lisp
+Scanning dependencies of target jsk_recognition_msgs_generate_messages_eus
+[ 50%] Built target jsk_recognition_msgs_generate_messages_eus
+Scanning dependencies of target autoware_msgs_generate_messages_nodejs
+[ 50%] Built target autoware_msgs_generate_messages_nodejs
+Scanning dependencies of target autoware_msgs_generate_messages_lisp
+[ 50%] Built target autoware_msgs_generate_messages_lisp
+Scanning dependencies of target autoware_msgs_generate_messages_eus
+[ 50%] Built target autoware_msgs_generate_messages_eus
+Scanning dependencies of target autoware_msgs_generate_messages_cpp
+[ 50%] Built target autoware_msgs_generate_messages_cpp
+Scanning dependencies of target tf2_msgs_generate_messages_nodejs
+[ 50%] Built target tf2_msgs_generate_messages_nodejs
+Scanning dependencies of target tf2_msgs_generate_messages_eus
+[ 50%] Built target tf2_msgs_generate_messages_eus
+Scanning dependencies of target tf2_msgs_generate_messages_cpp
+[ 50%] Built target tf2_msgs_generate_messages_cpp
+Scanning dependencies of target nodelet_generate_messages_nodejs
+[ 50%] Built target nodelet_generate_messages_nodejs
+Scanning dependencies of target pcl_msgs_generate_messages_nodejs
+[ 50%] Built target pcl_msgs_generate_messages_nodejs
+Scanning dependencies of target nodelet_generate_messages_eus
+[ 50%] Built target nodelet_generate_messages_eus
+Scanning dependencies of target geometry_msgs_generate_messages_lisp
+[ 50%] Built target geometry_msgs_generate_messages_lisp
+Scanning dependencies of target tf2_msgs_generate_messages_lisp
+[ 50%] Built target tf2_msgs_generate_messages_lisp
+Scanning dependencies of target dynamic_reconfigure_gencfg
+[ 50%] Built target dynamic_reconfigure_gencfg
+Scanning dependencies of target geometry_msgs_generate_messages_py
+[ 50%] Built target geometry_msgs_generate_messages_py
+Scanning dependencies of target dynamic_reconfigure_generate_messages_py
+[ 50%] Built target dynamic_reconfigure_generate_messages_py
+Scanning dependencies of target dynamic_reconfigure_generate_messages_lisp
+[ 50%] Built target dynamic_reconfigure_generate_messages_lisp
+Scanning dependencies of target pcl_msgs_generate_messages_cpp
+[ 50%] Built target pcl_msgs_generate_messages_cpp
+Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+[ 50%] Built target rosgraph_msgs_generate_messages_cpp
+Scanning dependencies of target topic_tools_generate_messages_cpp
+[ 50%] Built target topic_tools_generate_messages_cpp
+Scanning dependencies of target pcl_ros_gencfg
+[ 50%] Built target pcl_ros_gencfg
+Scanning dependencies of target topic_tools_generate_messages_nodejs
+[ 50%] Built target topic_tools_generate_messages_nodejs
+Scanning dependencies of target tf2_msgs_generate_messages_py
+[ 50%] Built target tf2_msgs_generate_messages_py
+Scanning dependencies of target actionlib_generate_messages_py
+[ 50%] Built target actionlib_generate_messages_py
+Scanning dependencies of target dynamic_reconfigure_generate_messages_eus
+[ 50%] Built target dynamic_reconfigure_generate_messages_eus
+Scanning dependencies of target std_msgs_generate_messages_nodejs
+[ 50%] Built target std_msgs_generate_messages_nodejs
+Scanning dependencies of target bond_generate_messages_lisp
+[ 50%] Built target bond_generate_messages_lisp
+Scanning dependencies of target autoware_msgs_generate_messages_py
+[ 50%] Built target autoware_msgs_generate_messages_py
+Scanning dependencies of target nodelet_generate_messages_lisp
+[ 50%] Built target nodelet_generate_messages_lisp
+Scanning dependencies of target sensor_msgs_generate_messages_lisp
+[ 50%] Built target sensor_msgs_generate_messages_lisp
+Scanning dependencies of target std_msgs_generate_messages_cpp
+[ 50%] Built target std_msgs_generate_messages_cpp
+Scanning dependencies of target nodelet_generate_messages_cpp
+[ 50%] Built target nodelet_generate_messages_cpp
+Scanning dependencies of target bond_generate_messages_py
+[ 50%] Built target bond_generate_messages_py
+Scanning dependencies of target std_srvs_generate_messages_nodejs
+[ 50%] Built target std_srvs_generate_messages_nodejs
+Scanning dependencies of target geometry_msgs_generate_messages_cpp
+[ 50%] Built target geometry_msgs_generate_messages_cpp
+Scanning dependencies of target actionlib_generate_messages_lisp
+[ 50%] Built target actionlib_generate_messages_lisp
+Scanning dependencies of target roscpp_generate_messages_cpp
+[ 50%] Built target roscpp_generate_messages_cpp
+Scanning dependencies of target sensor_msgs_generate_messages_nodejs
+[ 50%] Built target sensor_msgs_generate_messages_nodejs
+Scanning dependencies of target actionlib_generate_messages_cpp
+[ 50%] Built target actionlib_generate_messages_cpp
+Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+[ 50%] Built target geometry_msgs_generate_messages_nodejs
+Scanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs
+[ 50%] Built target jsk_recognition_msgs_generate_messages_nodejs
+Scanning dependencies of target std_srvs_generate_messages_eus
+[ 50%] Built target std_srvs_generate_messages_eus
+Scanning dependencies of target roscpp_generate_messages_lisp
+[ 50%] Built target roscpp_generate_messages_lisp
+Scanning dependencies of target bond_generate_messages_eus
+[ 50%] Built target bond_generate_messages_eus
+Scanning dependencies of target std_msgs_generate_messages_lisp
+[ 50%] Built target std_msgs_generate_messages_lisp
+Scanning dependencies of target roscpp_generate_messages_nodejs
+[ 50%] Built target roscpp_generate_messages_nodejs
+Scanning dependencies of target geometry_msgs_generate_messages_eus
+[ 50%] Built target geometry_msgs_generate_messages_eus
+Scanning dependencies of target std_msgs_generate_messages_py
+[ 50%] Built target std_msgs_generate_messages_py
+Scanning dependencies of target roscpp_generate_messages_py
+[ 50%] Built target roscpp_generate_messages_py
+Scanning dependencies of target dynamic_reconfigure_generate_messages_nodejs
+[ 50%] Built target dynamic_reconfigure_generate_messages_nodejs
+Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+[ 50%] Built target rosgraph_msgs_generate_messages_eus
+Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+[ 50%] Built target rosgraph_msgs_generate_messages_lisp
+Scanning dependencies of target std_msgs_generate_messages_eus
+[ 50%] Built target std_msgs_generate_messages_eus
+Scanning dependencies of target actionlib_msgs_generate_messages_eus
+[ 50%] Built target actionlib_msgs_generate_messages_eus
+Scanning dependencies of target roscpp_generate_messages_eus
+[ 50%] Built target roscpp_generate_messages_eus
+Scanning dependencies of target rosgraph_msgs_generate_messages_py
+[ 50%] Built target rosgraph_msgs_generate_messages_py
+Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+[ 50%] Built target rosgraph_msgs_generate_messages_nodejs
+Scanning dependencies of target bond_generate_messages_cpp
+[ 50%] Built target bond_generate_messages_cpp
+Scanning dependencies of target bond_generate_messages_nodejs
+[ 50%] Built target bond_generate_messages_nodejs
+Scanning dependencies of target topic_tools_generate_messages_py
+[ 50%] Built target topic_tools_generate_messages_py
+Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+[ 50%] Built target actionlib_msgs_generate_messages_nodejs
+Scanning dependencies of target nodelet_topic_tools_gencfg
+[ 50%] Built target nodelet_topic_tools_gencfg
+Scanning dependencies of target std_srvs_generate_messages_lisp
+[ 50%] Built target std_srvs_generate_messages_lisp
+Scanning dependencies of target jsk_recognition_msgs_generate_messages_cpp
+[ 50%] Built target jsk_recognition_msgs_generate_messages_cpp
+Scanning dependencies of target topic_tools_generate_messages_lisp
+[ 50%] Built target topic_tools_generate_messages_lisp
+Scanning dependencies of target pcl_msgs_generate_messages_eus
+[ 50%] Built target pcl_msgs_generate_messages_eus
+Scanning dependencies of target topic_tools_generate_messages_eus
+[ 50%] Built target topic_tools_generate_messages_eus
+Scanning dependencies of target sensor_msgs_generate_messages_cpp
+[ 50%] Built target sensor_msgs_generate_messages_cpp
+Scanning dependencies of target sensor_msgs_generate_messages_eus
+[ 50%] Built target sensor_msgs_generate_messages_eus
+Scanning dependencies of target nodelet_generate_messages_py
+[ 50%] Built target nodelet_generate_messages_py
+Scanning dependencies of target sensor_msgs_generate_messages_py
+[ 50%] Built target sensor_msgs_generate_messages_py
+Scanning dependencies of target dynamic_reconfigure_generate_messages_cpp
+[ 50%] Built target dynamic_reconfigure_generate_messages_cpp
+Scanning dependencies of target tf_generate_messages_py
+[ 50%] Built target tf_generate_messages_py
+Scanning dependencies of target std_srvs_generate_messages_cpp
+[ 50%] Built target std_srvs_generate_messages_cpp
+Scanning dependencies of target jsk_footstep_msgs_generate_messages_cpp
+[ 50%] Built target jsk_footstep_msgs_generate_messages_cpp
+Scanning dependencies of target tf_generate_messages_eus
+[ 50%] Built target tf_generate_messages_eus
+Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+[ 50%] Built target actionlib_msgs_generate_messages_cpp
+Scanning dependencies of target std_srvs_generate_messages_py
+[ 50%] Built target std_srvs_generate_messages_py
+Scanning dependencies of target tf_generate_messages_lisp
+[ 50%] Built target tf_generate_messages_lisp
+Scanning dependencies of target tf_generate_messages_nodejs
+[ 50%] Built target tf_generate_messages_nodejs
+Scanning dependencies of target pcl_msgs_generate_messages_py
+[ 50%] Built target pcl_msgs_generate_messages_py
+Scanning dependencies of target actionlib_generate_messages_eus
+[ 50%] Built target actionlib_generate_messages_eus
+Scanning dependencies of target pcl_msgs_generate_messages_lisp
+[ 50%] Built target pcl_msgs_generate_messages_lisp
+Scanning dependencies of target tf_generate_messages_cpp
+[ 50%] Built target tf_generate_messages_cpp
+Scanning dependencies of target actionlib_generate_messages_nodejs
+[ 50%] Built target actionlib_generate_messages_nodejs
+Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+[ 50%] Built target actionlib_msgs_generate_messages_lisp
+Scanning dependencies of target point_pillars_lib
+[ 58%] Building CXX object CMakeFiles/point_pillars_lib.dir/nodes/point_pillars.cpp.o
+[ 66%] Building CXX object CMakeFiles/point_pillars_lib.dir/nodes/preprocess_points.cpp.o
+[ 75%] Linking CXX shared library devel/lib/libpoint_pillars_lib.so
+[ 75%] Built target point_pillars_lib
+Scanning dependencies of target lidar_point_pillars
+[ 83%] Building CXX object CMakeFiles/lidar_point_pillars.dir/nodes/lidar_point_pillars_node.cpp.o
+[ 91%] Building CXX object CMakeFiles/lidar_point_pillars.dir/nodes/point_pillars_ros.cpp.o
+[100%] Linking CXX executable devel/lib/lidar_point_pillars/lidar_point_pillars
+[100%] Built target lidar_point_pillars
+-- CUDA compilation status: ON.
+-- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/lidar_point_pillars/devel
+-- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/lidar_point_pillars/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.26
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/autoware/Autoware/build/lidar_point_pillars
+Scanning dependencies of target tests
+Built target tests
+[  8%] Linking CXX shared library devel/lib/libgpu_point_pillars_lib.so
+[ 50%] Built target gpu_point_pillars_lib
+[ 50%] Built target actionlib_msgs_generate_messages_py
+[ 50%] Built target jsk_footstep_msgs_generate_messages_py
+[ 50%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[ 50%] Built target jsk_footstep_msgs_generate_messages_lisp
+[ 50%] Built target jsk_footstep_msgs_generate_messages_eus
+[ 50%] Built target jsk_recognition_msgs_generate_messages_py
+[ 50%] Built target jsk_recognition_msgs_generate_messages_lisp
+[ 50%] Built target jsk_recognition_msgs_generate_messages_eus
+[ 50%] Built target autoware_msgs_generate_messages_nodejs
+[ 50%] Built target autoware_msgs_generate_messages_lisp
+[ 50%] Built target autoware_msgs_generate_messages_eus
+[ 50%] Built target autoware_msgs_generate_messages_cpp
+[ 50%] Built target tf2_msgs_generate_messages_nodejs
+[ 50%] Built target tf2_msgs_generate_messages_eus
+[ 50%] Built target tf2_msgs_generate_messages_cpp
+[ 50%] Built target nodelet_generate_messages_nodejs
+[ 50%] Built target pcl_msgs_generate_messages_nodejs
+[ 50%] Built target nodelet_generate_messages_eus
+[ 50%] Built target geometry_msgs_generate_messages_lisp
+[ 50%] Built target tf2_msgs_generate_messages_lisp
+[ 50%] Built target dynamic_reconfigure_gencfg
+[ 50%] Built target geometry_msgs_generate_messages_py
+[ 50%] Built target dynamic_reconfigure_generate_messages_py
+[ 50%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 50%] Built target pcl_msgs_generate_messages_cpp
+[ 50%] Built target rosgraph_msgs_generate_messages_cpp
+[ 50%] Built target topic_tools_generate_messages_cpp
+[ 50%] Built target pcl_ros_gencfg
+[ 50%] Built target topic_tools_generate_messages_nodejs
+[ 50%] Built target tf2_msgs_generate_messages_py
+[ 50%] Built target actionlib_generate_messages_py
+[ 50%] Built target dynamic_reconfigure_generate_messages_eus
+[ 50%] Built target std_msgs_generate_messages_nodejs
+[ 50%] Built target bond_generate_messages_lisp
+[ 50%] Built target autoware_msgs_generate_messages_py
+[ 50%] Built target nodelet_generate_messages_lisp
+[ 50%] Built target sensor_msgs_generate_messages_lisp
+[ 50%] Built target std_msgs_generate_messages_cpp
+[ 50%] Built target nodelet_generate_messages_cpp
+[ 50%] Built target bond_generate_messages_py
+[ 50%] Built target std_srvs_generate_messages_nodejs
+[ 50%] Built target geometry_msgs_generate_messages_cpp
+[ 50%] Built target actionlib_generate_messages_lisp
+[ 50%] Built target roscpp_generate_messages_cpp
+[ 50%] Built target sensor_msgs_generate_messages_nodejs
+[ 50%] Built target actionlib_generate_messages_cpp
+[ 50%] Built target geometry_msgs_generate_messages_nodejs
+[ 50%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[ 50%] Built target std_srvs_generate_messages_eus
+[ 50%] Built target roscpp_generate_messages_lisp
+[ 50%] Built target bond_generate_messages_eus
+[ 50%] Built target std_msgs_generate_messages_lisp
+[ 50%] Built target roscpp_generate_messages_nodejs
+[ 50%] Built target geometry_msgs_generate_messages_eus
+[ 50%] Built target std_msgs_generate_messages_py
+[ 50%] Built target roscpp_generate_messages_py
+[ 50%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 50%] Built target rosgraph_msgs_generate_messages_eus
+[ 50%] Built target rosgraph_msgs_generate_messages_lisp
+[ 50%] Built target std_msgs_generate_messages_eus
+[ 50%] Built target actionlib_msgs_generate_messages_eus
+[ 50%] Built target roscpp_generate_messages_eus
+[ 50%] Built target rosgraph_msgs_generate_messages_py
+[ 50%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 50%] Built target bond_generate_messages_cpp
+[ 50%] Built target bond_generate_messages_nodejs
+[ 50%] Built target topic_tools_generate_messages_py
+[ 50%] Built target actionlib_msgs_generate_messages_nodejs
+[ 50%] Built target nodelet_topic_tools_gencfg
+[ 50%] Built target std_srvs_generate_messages_lisp
+[ 50%] Built target jsk_recognition_msgs_generate_messages_cpp
+[ 50%] Built target topic_tools_generate_messages_lisp
+[ 50%] Built target pcl_msgs_generate_messages_eus
+[ 50%] Built target topic_tools_generate_messages_eus
+[ 50%] Built target sensor_msgs_generate_messages_cpp
+[ 50%] Built target sensor_msgs_generate_messages_eus
+[ 50%] Built target nodelet_generate_messages_py
+[ 50%] Built target sensor_msgs_generate_messages_py
+[ 50%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 50%] Built target tf_generate_messages_py
+[ 50%] Built target std_srvs_generate_messages_cpp
+[ 50%] Built target jsk_footstep_msgs_generate_messages_cpp
+[ 50%] Built target tf_generate_messages_eus
+[ 50%] Built target actionlib_msgs_generate_messages_cpp
+[ 50%] Built target std_srvs_generate_messages_py
+[ 50%] Built target tf_generate_messages_lisp
+[ 50%] Built target tf_generate_messages_nodejs
+[ 50%] Built target pcl_msgs_generate_messages_py
+[ 50%] Built target actionlib_generate_messages_eus
+[ 50%] Built target pcl_msgs_generate_messages_lisp
+[ 50%] Built target tf_generate_messages_cpp
+[ 50%] Built target actionlib_generate_messages_nodejs
+[ 50%] Built target actionlib_msgs_generate_messages_lisp
+[ 58%] Linking CXX shared library devel/lib/libpoint_pillars_lib.so
+[ 75%] Built target point_pillars_lib
+[ 83%] Linking CXX executable devel/lib/lidar_point_pillars/lidar_point_pillars
+[100%] Built target lidar_point_pillars
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/lib/pkgconfig/lidar_point_pillars.pc
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/share/lidar_point_pillars/cmake/lidar_point_pillarsConfig.cmake
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/share/lidar_point_pillars/cmake/lidar_point_pillarsConfig-version.cmake
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/share/lidar_point_pillars/package.xml
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/lib/libgpu_point_pillars_lib.so
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/lib/libpoint_pillars_lib.so
+-- Set runtime path of "/home/autoware/Autoware/install/lidar_point_pillars/lib/libpoint_pillars_lib.so" to ""
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/lib/lidar_point_pillars/lidar_point_pillars
+-- Set runtime path of "/home/autoware/Autoware/install/lidar_point_pillars/lib/lidar_point_pillars/lidar_point_pillars" to ""
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/share/lidar_point_pillars/launch
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/share/lidar_point_pillars/launch/lidar_point_pillars.launch
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/include/lidar_point_pillars/lidar_point_pillars/
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/include/lidar_point_pillars/lidar_point_pillars//lidar_point_pillars
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/include/lidar_point_pillars/lidar_point_pillars//lidar_point_pillars/point_pillars.h
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/include/lidar_point_pillars/lidar_point_pillars//lidar_point_pillars/preprocess_points.h
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/include/lidar_point_pillars/lidar_point_pillars//lidar_point_pillars/nms_cuda.h
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/include/lidar_point_pillars/lidar_point_pillars//lidar_point_pillars/anchor_mask_cuda.h
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/include/lidar_point_pillars/lidar_point_pillars//lidar_point_pillars/scatter_cuda.h
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/include/lidar_point_pillars/lidar_point_pillars//lidar_point_pillars/postprocess_cuda.h
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/include/lidar_point_pillars/lidar_point_pillars//lidar_point_pillars/point_pillars_ros.h
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/include/lidar_point_pillars/lidar_point_pillars//lidar_point_pillars/preprocess_points_cuda.h
+-- Installing: /home/autoware/Autoware/install/lidar_point_pillars/include/lidar_point_pillars/lidar_point_pillars//lidar_point_pillars/common.h

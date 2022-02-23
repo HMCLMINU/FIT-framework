@@ -1,0 +1,6 @@
+Invoking command in '/home/autoware/Autoware/build/memsic_imu': /usr/bin/cmake --build /home/autoware/Autoware/build/memsic_imu -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/memsic_imu' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/memsic_imu -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/memsic_imu': /usr/bin/cmake --build /home/autoware/Autoware/build/memsic_imu --target tests -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/memsic_imu' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/memsic_imu --target tests -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/memsic_imu': /usr/bin/cmake --build /home/autoware/Autoware/build/memsic_imu --target install -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/memsic_imu' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/memsic_imu --target install -- -j32 -l32

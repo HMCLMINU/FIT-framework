@@ -1,0 +1,8 @@
+prefix=/home/autoware/Autoware/build/xsens_driver/devel
+
+Name: xsens_driver
+Description: Description of xsens_driver
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

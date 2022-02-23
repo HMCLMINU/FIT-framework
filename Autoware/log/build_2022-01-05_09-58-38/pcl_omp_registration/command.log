@@ -1,0 +1,6 @@
+Invoking command in '/home/autoware/Autoware/build/pcl_omp_registration': /usr/bin/cmake --build /home/autoware/Autoware/build/pcl_omp_registration -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/pcl_omp_registration' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/pcl_omp_registration -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/pcl_omp_registration': /usr/bin/cmake --build /home/autoware/Autoware/build/pcl_omp_registration --target tests -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/pcl_omp_registration' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/pcl_omp_registration --target tests -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/pcl_omp_registration': /usr/bin/cmake --build /home/autoware/Autoware/build/pcl_omp_registration --target install -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/pcl_omp_registration' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/pcl_omp_registration --target install -- -j32 -l32

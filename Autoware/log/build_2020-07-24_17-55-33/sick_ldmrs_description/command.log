@@ -1,0 +1,8 @@
+Invoking command in '/home/autoware/Autoware/build/sick_ldmrs_description': /usr/bin/cmake /home/autoware/Autoware/src/drivers/awf_drivers/sick_ldmrs_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/sick_ldmrs_description
+Invoked command in '/home/autoware/Autoware/build/sick_ldmrs_description' returned '0': /usr/bin/cmake /home/autoware/Autoware/src/drivers/awf_drivers/sick_ldmrs_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/sick_ldmrs_description
+Invoking command in '/home/autoware/Autoware/build/sick_ldmrs_description': /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_description -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/sick_ldmrs_description' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_description -- -j2 -l2
+Invoking command in '/home/autoware/Autoware/build/sick_ldmrs_description': /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_description --target tests -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/sick_ldmrs_description' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_description --target tests -- -j2 -l2
+Invoking command in '/home/autoware/Autoware/build/sick_ldmrs_description': /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_description --target install -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/sick_ldmrs_description' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/sick_ldmrs_description --target install -- -j2 -l2

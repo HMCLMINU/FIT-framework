@@ -1,0 +1,6 @@
+/home/autoware/Autoware/install/as/lib/pkgconfig/as.pc
+/home/autoware/Autoware/install/as/share/as/cmake/asConfig.cmake
+/home/autoware/Autoware/install/as/share/as/cmake/asConfig-version.cmake
+/home/autoware/Autoware/install/as/share/as/package.xml
+/home/autoware/Autoware/install/as/lib/as/ssc_interface
+/home/autoware/Autoware/install/as/share/as/launch/ssc_interface.launch

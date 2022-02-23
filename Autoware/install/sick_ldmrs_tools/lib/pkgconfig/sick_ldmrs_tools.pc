@@ -1,0 +1,8 @@
+prefix=/home/autoware/Autoware/install/sick_ldmrs_tools
+
+Name: sick_ldmrs_tools
+Description: Description of sick_ldmrs_tools
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

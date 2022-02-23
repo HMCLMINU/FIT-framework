@@ -1,0 +1,23 @@
+[0.320s] Invoking command in '/home/autoware/Autoware/build/ndt_cpu': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_cpu -- -j32 -l32
+[0.755s] [100%] Built target ndt_cpu
+[0.821s] Invoked command in '/home/autoware/Autoware/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_cpu -- -j32 -l32
+[0.977s] Invoking command in '/home/autoware/Autoware/build/ndt_cpu': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_cpu --target tests -- -j32 -l32
+[1.109s] Built target tests
+[1.136s] Invoked command in '/home/autoware/Autoware/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_cpu --target tests -- -j32 -l32
+[1.279s] Invoking command in '/home/autoware/Autoware/build/ndt_cpu': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_cpu --target install -- -j32 -l32
+[1.609s] [100%] Built target ndt_cpu
+[1.609s] Install the project...
+[1.609s] -- Install configuration: "Release"
+[1.609s] -- Up-to-date: /home/autoware/Autoware/install/ndt_cpu/lib/pkgconfig/ndt_cpu.pc
+[1.609s] -- Up-to-date: /home/autoware/Autoware/install/ndt_cpu/share/ndt_cpu/cmake/ndt_cpuConfig.cmake
+[1.609s] -- Up-to-date: /home/autoware/Autoware/install/ndt_cpu/share/ndt_cpu/cmake/ndt_cpuConfig-version.cmake
+[1.609s] -- Up-to-date: /home/autoware/Autoware/install/ndt_cpu/share/ndt_cpu/package.xml
+[1.609s] -- Up-to-date: /home/autoware/Autoware/install/ndt_cpu/include/ndt_cpu
+[1.609s] -- Up-to-date: /home/autoware/Autoware/install/ndt_cpu/include/ndt_cpu/Octree.h
+[1.609s] -- Up-to-date: /home/autoware/Autoware/install/ndt_cpu/include/ndt_cpu/SymmetricEigenSolver.h
+[1.609s] -- Up-to-date: /home/autoware/Autoware/install/ndt_cpu/include/ndt_cpu/Registration.h
+[1.609s] -- Up-to-date: /home/autoware/Autoware/install/ndt_cpu/include/ndt_cpu/debug.h
+[1.609s] -- Up-to-date: /home/autoware/Autoware/install/ndt_cpu/include/ndt_cpu/VoxelGrid.h
+[1.610s] -- Up-to-date: /home/autoware/Autoware/install/ndt_cpu/include/ndt_cpu/NormalDistributionsTransform.h
+[1.610s] -- Up-to-date: /home/autoware/Autoware/install/ndt_cpu/lib/libndt_cpu.so
+[1.802s] Invoked command in '/home/autoware/Autoware/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_cpu --target install -- -j32 -l32

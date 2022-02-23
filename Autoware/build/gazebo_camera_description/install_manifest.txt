@@ -1,0 +1,5 @@
+/home/autoware/Autoware/install/gazebo_camera_description/lib/pkgconfig/gazebo_camera_description.pc
+/home/autoware/Autoware/install/gazebo_camera_description/share/gazebo_camera_description/cmake/gazebo_camera_descriptionConfig.cmake
+/home/autoware/Autoware/install/gazebo_camera_description/share/gazebo_camera_description/cmake/gazebo_camera_descriptionConfig-version.cmake
+/home/autoware/Autoware/install/gazebo_camera_description/share/gazebo_camera_description/package.xml
+/home/autoware/Autoware/install/gazebo_camera_description/share/gazebo_camera_description/urdf/monocular_camera.xacro

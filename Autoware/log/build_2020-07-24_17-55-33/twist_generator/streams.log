@@ -1,0 +1,279 @@
+[0.021s] Invoking command in '/home/autoware/Autoware/build/twist_generator': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_perception/twist_generator -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/twist_generator
+[0.099s] -- The C compiler identification is GNU 7.5.0
+[0.169s] -- The CXX compiler identification is GNU 7.5.0
+[0.174s] -- Check for working C compiler: /usr/bin/cc
+[0.258s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.259s] -- Detecting C compiler ABI info
+[0.346s] -- Detecting C compiler ABI info - done
+[0.354s] -- Detecting C compile features
+[0.634s] -- Detecting C compile features - done
+[0.635s] -- Check for working CXX compiler: /usr/bin/c++
+[0.833s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.835s] -- Detecting CXX compiler ABI info
+[0.994s] -- Detecting CXX compiler ABI info - done
+[0.998s] -- Detecting CXX compile features
+[1.468s] -- Detecting CXX compile features - done
+[1.469s] -- CUDA compilation status: ON.
+[1.471s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/twist_generator/devel
+[1.471s] -- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/amathutils_lib;/home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.471s] -- This workspace overlays: /home/autoware/Autoware/install/amathutils_lib;/home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.489s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.489s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.489s] -- Using Debian Python package layout
+[1.489s] -- Using empy: /usr/bin/empy
+[1.670s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.670s] -- Call enable_testing()
+[1.674s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/twist_generator/test_results
+[1.701s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.701s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.718s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.719s] -- Looking for pthread.h
+[1.812s] -- Looking for pthread.h - found
+[1.812s] -- Looking for pthread_create
+[1.918s] -- Looking for pthread_create - not found
+[1.918s] -- Looking for pthread_create in pthreads
+[1.990s] -- Looking for pthread_create in pthreads - not found
+[1.990s] -- Looking for pthread_create in pthread
+[2.086s] -- Looking for pthread_create in pthread - found
+[2.086s] -- Found Threads: TRUE  
+[2.086s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.135s] -- catkin 0.7.26
+[2.135s] -- BUILD_SHARED_LIBS is on
+[2.338s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.722s] -- Configuring done
+[2.778s] -- Generating done
+[2.789s] -- Build files have been written to: /home/autoware/Autoware/build/twist_generator
+[2.798s] Invoked command in '/home/autoware/Autoware/build/twist_generator' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_perception/twist_generator -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/twist_generator
+[2.799s] Invoking command in '/home/autoware/Autoware/build/twist_generator': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/twist_generator -- -j2 -l2
+[2.862s] Scanning dependencies of target tf2_msgs_generate_messages_nodejs
+[2.877s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[2.891s] Scanning dependencies of target sensor_msgs_generate_messages_nodejs
+[2.904s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[2.918s] Scanning dependencies of target roscpp_generate_messages_cpp
+[2.932s] [  0%] Built target roscpp_generate_messages_cpp
+[2.947s] Scanning dependencies of target actionlib_generate_messages_cpp
+[2.961s] [  0%] Built target actionlib_generate_messages_cpp
+[2.975s] Scanning dependencies of target pcl_msgs_generate_messages_eus
+[2.989s] [  0%] Built target pcl_msgs_generate_messages_eus
+[3.003s] Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+[3.016s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[3.029s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_lisp
+[3.041s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[3.055s] Scanning dependencies of target tf2_msgs_generate_messages_cpp
+[3.068s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[3.081s] Scanning dependencies of target std_msgs_generate_messages_py
+[3.093s] [  0%] Built target std_msgs_generate_messages_py
+[3.107s] Scanning dependencies of target autoware_msgs_generate_messages_py
+[3.120s] [  0%] Built target autoware_msgs_generate_messages_py
+[3.134s] Scanning dependencies of target std_msgs_generate_messages_nodejs
+[3.148s] [  0%] Built target std_msgs_generate_messages_nodejs
+[3.161s] Scanning dependencies of target sensor_msgs_generate_messages_eus
+[3.174s] [  0%] Built target sensor_msgs_generate_messages_eus
+[3.188s] Scanning dependencies of target _catkin_empty_exported_target
+[3.201s] [  0%] Built target _catkin_empty_exported_target
+[3.214s] Scanning dependencies of target geometry_msgs_generate_messages_py
+[3.228s] [  0%] Built target geometry_msgs_generate_messages_py
+[3.241s] Scanning dependencies of target sensor_msgs_generate_messages_cpp
+[3.255s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[3.268s] Scanning dependencies of target autoware_msgs_generate_messages_cpp
+[3.281s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[3.295s] Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+[3.308s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[3.321s] Scanning dependencies of target pcl_msgs_generate_messages_nodejs
+[3.335s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[3.349s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_py
+[3.362s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[3.376s] Scanning dependencies of target sensor_msgs_generate_messages_lisp
+[3.390s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[3.404s] Scanning dependencies of target sensor_msgs_generate_messages_py
+[3.417s] [  0%] Built target sensor_msgs_generate_messages_py
+[3.431s] Scanning dependencies of target tf_generate_messages_py
+[3.443s] [  0%] Built target tf_generate_messages_py
+[3.455s] Scanning dependencies of target std_msgs_generate_messages_cpp
+[3.471s] [  0%] Built target std_msgs_generate_messages_cpp
+[3.492s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_py
+[3.505s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[3.519s] Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+[3.531s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[3.545s] Scanning dependencies of target geometry_msgs_generate_messages_eus
+[3.558s] [  0%] Built target geometry_msgs_generate_messages_eus
+[3.581s] Scanning dependencies of target std_msgs_generate_messages_lisp
+[3.595s] [  0%] Built target std_msgs_generate_messages_lisp
+[3.610s] Scanning dependencies of target roscpp_generate_messages_nodejs
+[3.623s] [  0%] Built target roscpp_generate_messages_nodejs
+[3.638s] Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+[3.652s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[3.667s] Scanning dependencies of target geometry_msgs_generate_messages_lisp
+[3.680s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[3.693s] Scanning dependencies of target pcl_msgs_generate_messages_cpp
+[3.707s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[3.721s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_cpp
+[3.734s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[3.749s] Scanning dependencies of target autoware_msgs_generate_messages_eus
+[3.763s] [  0%] Built target autoware_msgs_generate_messages_eus
+[3.779s] Scanning dependencies of target autoware_msgs_generate_messages_lisp
+[3.793s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[3.808s] Scanning dependencies of target std_msgs_generate_messages_eus
+[3.823s] [  0%] Built target std_msgs_generate_messages_eus
+[3.838s] Scanning dependencies of target autoware_msgs_generate_messages_nodejs
+[3.852s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[3.868s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_eus
+[3.882s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[3.897s] Scanning dependencies of target actionlib_msgs_generate_messages_py
+[3.912s] [  0%] Built target actionlib_msgs_generate_messages_py
+[3.927s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_lisp
+[3.942s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[3.957s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs
+[3.972s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[3.987s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_eus
+[4.001s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[4.016s] Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+[4.031s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[4.045s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_cpp
+[4.060s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[4.075s] Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+[4.089s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[4.105s] Scanning dependencies of target tf_generate_messages_eus
+[4.118s] [  0%] Built target tf_generate_messages_eus
+[4.133s] Scanning dependencies of target tf_generate_messages_lisp
+[4.146s] [  0%] Built target tf_generate_messages_lisp
+[4.161s] Scanning dependencies of target tf_generate_messages_nodejs
+[4.175s] [  0%] Built target tf_generate_messages_nodejs
+[4.189s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs
+[4.204s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[4.218s] Scanning dependencies of target roscpp_generate_messages_lisp
+[4.232s] [  0%] Built target roscpp_generate_messages_lisp
+[4.247s] Scanning dependencies of target roscpp_generate_messages_py
+[4.262s] [  0%] Built target roscpp_generate_messages_py
+[4.277s] Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+[4.290s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[4.303s] Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+[4.317s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[4.331s] Scanning dependencies of target roscpp_generate_messages_eus
+[4.345s] [  0%] Built target roscpp_generate_messages_eus
+[4.359s] Scanning dependencies of target actionlib_msgs_generate_messages_eus
+[4.374s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[4.390s] Scanning dependencies of target rosgraph_msgs_generate_messages_py
+[4.404s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[4.419s] Scanning dependencies of target pcl_msgs_generate_messages_py
+[4.433s] [  0%] Built target pcl_msgs_generate_messages_py
+[4.447s] Scanning dependencies of target actionlib_generate_messages_eus
+[4.461s] [  0%] Built target actionlib_generate_messages_eus
+[4.476s] Scanning dependencies of target geometry_msgs_generate_messages_cpp
+[4.489s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[4.504s] Scanning dependencies of target actionlib_generate_messages_lisp
+[4.518s] [  0%] Built target actionlib_generate_messages_lisp
+[4.532s] Scanning dependencies of target pcl_msgs_generate_messages_lisp
+[4.549s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[4.563s] Scanning dependencies of target tf_generate_messages_cpp
+[4.578s] [  0%] Built target tf_generate_messages_cpp
+[4.593s] Scanning dependencies of target actionlib_generate_messages_nodejs
+[4.607s] [  0%] Built target actionlib_generate_messages_nodejs
+[4.622s] Scanning dependencies of target tf2_msgs_generate_messages_eus
+[4.636s] [  0%] Built target tf2_msgs_generate_messages_eus
+[4.650s] Scanning dependencies of target tf2_msgs_generate_messages_lisp
+[4.664s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[4.679s] Scanning dependencies of target actionlib_generate_messages_py
+[4.693s] [  0%] Built target actionlib_generate_messages_py
+[4.708s] Scanning dependencies of target tf2_msgs_generate_messages_py
+[4.722s] [  0%] Built target tf2_msgs_generate_messages_py
+[4.757s] Scanning dependencies of target vehicle_status_converter
+[4.781s] [ 33%] Building CXX object CMakeFiles/vehicle_status_converter.dir/src/vehicle_status_converter.cpp.o
+[8.974s] [ 66%] Building CXX object CMakeFiles/vehicle_status_converter.dir/src/vehicle_status_converter_node.cpp.o
+[11.672s] [100%] Linking CXX executable devel/lib/twist_generator/vehicle_status_converter
+[11.813s] [100%] Built target vehicle_status_converter
+[11.829s] Invoked command in '/home/autoware/Autoware/build/twist_generator' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/twist_generator -- -j2 -l2
+[11.948s] Invoking command in '/home/autoware/Autoware/build/twist_generator': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/twist_generator --target tests -- -j2 -l2
+[12.034s] Scanning dependencies of target gtest
+[12.048s] [ 20%] Building CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[17.461s] [ 40%] Linking CXX shared library libgtest.so
+[17.554s] [ 40%] Built target gtest
+[17.596s] Scanning dependencies of target vehicle_status_converter-test
+[17.620s] [ 60%] Building CXX object CMakeFiles/vehicle_status_converter-test.dir/test/src/test_vehicle_status_converter.cpp.o
+[20.648s] [ 80%] Building CXX object CMakeFiles/vehicle_status_converter-test.dir/src/vehicle_status_converter.cpp.o
+[24.984s] [100%] Linking CXX executable devel/lib/twist_generator/vehicle_status_converter-test
+[25.149s] [100%] Built target vehicle_status_converter-test
+[25.167s] Scanning dependencies of target tests
+[25.183s] [100%] Built target tests
+[25.202s] Invoked command in '/home/autoware/Autoware/build/twist_generator' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/twist_generator --target tests -- -j2 -l2
+[25.349s] Invoking command in '/home/autoware/Autoware/build/twist_generator': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/twist_generator --target install -- -j2 -l2
+[25.429s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[25.460s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[25.492s] [  0%] Built target roscpp_generate_messages_cpp
+[25.524s] [  0%] Built target actionlib_generate_messages_cpp
+[25.555s] [  0%] Built target pcl_msgs_generate_messages_eus
+[25.587s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[25.619s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[25.651s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[25.683s] [  0%] Built target std_msgs_generate_messages_py
+[25.718s] [  0%] Built target autoware_msgs_generate_messages_py
+[25.753s] [  0%] Built target std_msgs_generate_messages_nodejs
+[25.785s] [  0%] Built target sensor_msgs_generate_messages_eus
+[25.817s] [  0%] Built target _catkin_empty_exported_target
+[25.849s] [  0%] Built target geometry_msgs_generate_messages_py
+[25.881s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[25.913s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[25.945s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[25.975s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[26.005s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[26.038s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[26.068s] [  0%] Built target sensor_msgs_generate_messages_py
+[26.096s] [  0%] Built target tf_generate_messages_py
+[26.124s] [  0%] Built target std_msgs_generate_messages_cpp
+[26.152s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[26.180s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[26.208s] [  0%] Built target geometry_msgs_generate_messages_eus
+[26.237s] [  0%] Built target std_msgs_generate_messages_lisp
+[26.266s] [  0%] Built target roscpp_generate_messages_nodejs
+[26.295s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[26.324s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[26.356s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[26.388s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[26.422s] [  0%] Built target autoware_msgs_generate_messages_eus
+[26.455s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[26.487s] [  0%] Built target std_msgs_generate_messages_eus
+[26.519s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[26.551s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[26.584s] [  0%] Built target actionlib_msgs_generate_messages_py
+[26.615s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[26.648s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[26.681s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[26.713s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[26.744s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[26.776s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[26.808s] [  0%] Built target tf_generate_messages_eus
+[26.839s] [  0%] Built target tf_generate_messages_lisp
+[26.874s] [  0%] Built target tf_generate_messages_nodejs
+[26.907s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[26.942s] [  0%] Built target roscpp_generate_messages_lisp
+[26.971s] [  0%] Built target roscpp_generate_messages_py
+[27.007s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[27.035s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[27.063s] [  0%] Built target roscpp_generate_messages_eus
+[27.091s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[27.118s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[27.146s] [  0%] Built target pcl_msgs_generate_messages_py
+[27.173s] [  0%] Built target actionlib_generate_messages_eus
+[27.201s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[27.229s] [  0%] Built target actionlib_generate_messages_lisp
+[27.256s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[27.285s] [  0%] Built target tf_generate_messages_cpp
+[27.313s] [  0%] Built target actionlib_generate_messages_nodejs
+[27.341s] [  0%] Built target tf2_msgs_generate_messages_eus
+[27.369s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[27.397s] [  0%] Built target actionlib_generate_messages_py
+[27.424s] [  0%] Built target tf2_msgs_generate_messages_py
+[27.463s] [100%] Built target vehicle_status_converter
+[27.492s] Install the project...
+[27.503s] -- Install configuration: "Release"
+[27.504s] -- Installing: /home/autoware/Autoware/install/twist_generator/lib/pkgconfig/twist_generator.pc
+[27.504s] -- Installing: /home/autoware/Autoware/install/twist_generator/share/twist_generator/cmake/twist_generatorConfig.cmake
+[27.504s] -- Installing: /home/autoware/Autoware/install/twist_generator/share/twist_generator/cmake/twist_generatorConfig-version.cmake
+[27.505s] -- Installing: /home/autoware/Autoware/install/twist_generator/share/twist_generator/package.xml
+[27.505s] -- Installing: /home/autoware/Autoware/install/twist_generator/lib/twist_generator/vehicle_status_converter
+[27.506s] -- Set runtime path of "/home/autoware/Autoware/install/twist_generator/lib/twist_generator/vehicle_status_converter" to ""
+[27.507s] -- Installing: /home/autoware/Autoware/install/twist_generator/share/twist_generator/launch
+[27.507s] -- Installing: /home/autoware/Autoware/install/twist_generator/share/twist_generator/launch/vehicle_status_converter.launch
+[27.508s] -- Installing: /home/autoware/Autoware/install/twist_generator/include/twist_generator
+[27.508s] -- Installing: /home/autoware/Autoware/install/twist_generator/include/twist_generator/vehicle_status_converter.hpp
+[27.513s] Invoked command in '/home/autoware/Autoware/build/twist_generator' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/twist_generator --target install -- -j2 -l2

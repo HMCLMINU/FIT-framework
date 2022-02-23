@@ -1,0 +1,8 @@
+/home/autoware/Autoware/install/pixel_cloud_fusion/lib/pkgconfig/pixel_cloud_fusion.pc
+/home/autoware/Autoware/install/pixel_cloud_fusion/share/pixel_cloud_fusion/cmake/pixel_cloud_fusionConfig.cmake
+/home/autoware/Autoware/install/pixel_cloud_fusion/share/pixel_cloud_fusion/cmake/pixel_cloud_fusionConfig-version.cmake
+/home/autoware/Autoware/install/pixel_cloud_fusion/share/pixel_cloud_fusion/package.xml
+/home/autoware/Autoware/install/pixel_cloud_fusion/lib/pixel_cloud_fusion/pixel_cloud_fusion
+/home/autoware/Autoware/install/pixel_cloud_fusion/lib/libpixel_cloud_fusion_lib.so
+/home/autoware/Autoware/install/pixel_cloud_fusion/include/pixel_cloud_fusion/pixel_cloud_fusion.h
+/home/autoware/Autoware/install/pixel_cloud_fusion/share/pixel_cloud_fusion/launch/pixel_cloud_fusion.launch

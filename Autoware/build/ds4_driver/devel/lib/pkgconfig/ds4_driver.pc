@@ -1,0 +1,8 @@
+prefix=/home/autoware/Autoware/build/ds4_driver/devel
+
+Name: ds4_driver
+Description: Description of ds4_driver
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: sensor_msgs

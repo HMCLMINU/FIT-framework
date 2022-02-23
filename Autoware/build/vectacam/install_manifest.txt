@@ -1,0 +1,7 @@
+/home/autoware/Autoware/install/vectacam/lib/pkgconfig/vectacam.pc
+/home/autoware/Autoware/install/vectacam/share/vectacam/cmake/vectacamConfig.cmake
+/home/autoware/Autoware/install/vectacam/share/vectacam/cmake/vectacamConfig-version.cmake
+/home/autoware/Autoware/install/vectacam/share/vectacam/package.xml
+/home/autoware/Autoware/install/vectacam/lib/vectacam/vectacam_node
+/home/autoware/Autoware/install/vectacam/share/vectacam/launch/vectacam.launch
+/home/autoware/Autoware/install/vectacam/share/vectacam/launch/initialization_params.txt

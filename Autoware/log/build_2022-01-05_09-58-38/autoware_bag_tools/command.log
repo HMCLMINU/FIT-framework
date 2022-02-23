@@ -1,0 +1,6 @@
+Invoking command in '/home/autoware/Autoware/build/autoware_bag_tools': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_bag_tools -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/autoware_bag_tools' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_bag_tools -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/autoware_bag_tools': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_bag_tools --target tests -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/autoware_bag_tools' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_bag_tools --target tests -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/autoware_bag_tools': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_bag_tools --target install -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/autoware_bag_tools' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_bag_tools --target install -- -j32 -l32

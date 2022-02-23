@@ -1,0 +1,8 @@
+Invoking command in '/home/autoware/Autoware/build/javad_navsat_driver': /usr/bin/cmake /home/autoware/Autoware/src/drivers/awf_drivers/javad_navsat_driver -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/javad_navsat_driver
+Invoked command in '/home/autoware/Autoware/build/javad_navsat_driver' returned '0': /usr/bin/cmake /home/autoware/Autoware/src/drivers/awf_drivers/javad_navsat_driver -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/javad_navsat_driver
+Invoking command in '/home/autoware/Autoware/build/javad_navsat_driver': /usr/bin/cmake --build /home/autoware/Autoware/build/javad_navsat_driver -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/javad_navsat_driver' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/javad_navsat_driver -- -j2 -l2
+Invoking command in '/home/autoware/Autoware/build/javad_navsat_driver': /usr/bin/cmake --build /home/autoware/Autoware/build/javad_navsat_driver --target tests -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/javad_navsat_driver' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/javad_navsat_driver --target tests -- -j2 -l2
+Invoking command in '/home/autoware/Autoware/build/javad_navsat_driver': /usr/bin/cmake --build /home/autoware/Autoware/build/javad_navsat_driver --target install -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/javad_navsat_driver' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/javad_navsat_driver --target install -- -j2 -l2

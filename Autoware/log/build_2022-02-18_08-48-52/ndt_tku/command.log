@@ -1,0 +1,2 @@
+Invoking command in '/home/autoware/Autoware/build/ndt_tku': /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_perception/ndt_tku -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/ndt_tku
+Invoked command in '/home/autoware/Autoware/build/ndt_tku' returned '-2': /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_perception/ndt_tku -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/ndt_tku

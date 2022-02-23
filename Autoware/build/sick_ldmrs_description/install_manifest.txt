@@ -1,0 +1,10 @@
+/home/autoware/Autoware/install/sick_ldmrs_description/lib/pkgconfig/sick_ldmrs_description.pc
+/home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/cmake/sick_ldmrs_descriptionConfig.cmake
+/home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/cmake/sick_ldmrs_descriptionConfig-version.cmake
+/home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/package.xml
+/home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/launch/upload_urdf.launch
+/home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/launch/show_urdf.launch
+/home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/meshes/sick_ldmrs.dae
+/home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/meshes/sick_ldmrs_color.png
+/home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/urdf/sick_ldmrs_macros.urdf.xacro
+/home/autoware/Autoware/install/sick_ldmrs_description/share/sick_ldmrs_description/urdf/sick_ldmrs.urdf.xacro

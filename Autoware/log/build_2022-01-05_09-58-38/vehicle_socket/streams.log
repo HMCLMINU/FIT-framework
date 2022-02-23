@@ -1,0 +1,139 @@
+[0.628s] Invoking command in '/home/autoware/Autoware/build/vehicle_socket': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/tablet_socket_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_can_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/tablet_socket_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_can_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_socket -- -j32 -l32
+[0.976s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.976s] [  0%] Built target pcl_msgs_generate_messages_eus
+[0.976s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[0.976s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[0.976s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[0.976s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.976s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[0.976s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.976s] [  0%] Built target geometry_msgs_generate_messages_py
+[1.035s] [  0%] Built target roscpp_generate_messages_py
+[1.035s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[1.035s] [  0%] Built target std_msgs_generate_messages_eus
+[1.035s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[1.035s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[1.035s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[1.035s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[1.035s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.035s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[1.035s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[1.035s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.197s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[1.198s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[1.198s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[1.198s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[1.198s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[1.198s] [  0%] Built target pcl_msgs_generate_messages_py
+[1.198s] [  0%] Built target sensor_msgs_generate_messages_eus
+[1.198s] [  0%] Built target roscpp_generate_messages_lisp
+[1.199s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.199s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[1.199s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[1.199s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[1.199s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[1.199s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[1.199s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[1.199s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[1.199s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[1.199s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[1.290s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[1.291s] [  0%] Built target autoware_msgs_generate_messages_py
+[1.291s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[1.291s] [  0%] Built target roscpp_generate_messages_nodejs
+[1.291s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[1.291s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[1.291s] [  0%] Built target sensor_msgs_generate_messages_py
+[1.291s] [  0%] Built target autoware_msgs_generate_messages_eus
+[1.291s] [  0%] Built target std_msgs_generate_messages_py
+[1.291s] [  0%] Built target roscpp_generate_messages_eus
+[1.291s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[1.291s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[1.292s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[1.292s] [  0%] Built target geometry_msgs_generate_messages_eus
+[1.292s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[1.292s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[1.292s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[1.323s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[1.323s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[1.323s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[1.323s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[1.323s] [  0%] Built target roscpp_generate_messages_cpp
+[1.569s] [ 50%] Built target vehicle_receiver
+[1.569s] [100%] Built target vehicle_sender
+[1.662s] Invoked command in '/home/autoware/Autoware/build/vehicle_socket' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/tablet_socket_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_can_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/tablet_socket_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_can_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_socket -- -j32 -l32
+[2.220s] Invoking command in '/home/autoware/Autoware/build/vehicle_socket': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/tablet_socket_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_can_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/tablet_socket_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_can_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_socket --target tests -- -j32 -l32
+[2.489s] Built target tests
+[2.573s] Invoked command in '/home/autoware/Autoware/build/vehicle_socket' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/tablet_socket_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_can_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/tablet_socket_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_can_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_socket --target tests -- -j32 -l32
+[3.394s] Invoking command in '/home/autoware/Autoware/build/vehicle_socket': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/tablet_socket_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_can_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/tablet_socket_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_can_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_socket --target install -- -j32 -l32
+[3.720s] [  0%] Built target pcl_msgs_generate_messages_py
+[3.720s] [  0%] Built target roscpp_generate_messages_py
+[3.720s] [  0%] Built target std_msgs_generate_messages_nodejs
+[3.759s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[3.759s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[3.759s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[3.759s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[3.759s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[3.759s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[3.759s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[3.760s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[3.760s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[3.760s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[3.760s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[3.760s] [  0%] Built target roscpp_generate_messages_lisp
+[3.760s] [  0%] Built target std_msgs_generate_messages_eus
+[3.760s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[3.760s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[3.760s] [  0%] Built target pcl_msgs_generate_messages_eus
+[3.760s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[3.760s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[3.760s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[3.761s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[3.761s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[3.761s] [  0%] Built target std_msgs_generate_messages_lisp
+[3.761s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[3.761s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[3.761s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[3.761s] [  0%] Built target actionlib_msgs_generate_messages_py
+[3.761s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[3.783s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[3.783s] [  0%] Built target autoware_msgs_generate_messages_py
+[3.783s] [  0%] Built target sensor_msgs_generate_messages_eus
+[3.783s] [  0%] Built target std_msgs_generate_messages_cpp
+[3.783s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[3.783s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[3.784s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[3.784s] [  0%] Built target geometry_msgs_generate_messages_py
+[3.784s] [  0%] Built target sensor_msgs_generate_messages_py
+[3.784s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[3.806s] [  0%] Built target autoware_msgs_generate_messages_eus
+[3.814s] [  0%] Built target std_msgs_generate_messages_py
+[3.814s] [  0%] Built target roscpp_generate_messages_nodejs
+[3.814s] [  0%] Built target geometry_msgs_generate_messages_eus
+[3.814s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[3.814s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[3.814s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[3.815s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[3.815s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[3.815s] [  0%] Built target roscpp_generate_messages_eus
+[3.830s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[3.830s] [  0%] Built target roscpp_generate_messages_cpp
+[3.864s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[3.867s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[3.868s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[3.868s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[3.868s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[3.868s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[3.868s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[3.868s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[3.971s] [ 50%] Built target vehicle_receiver
+[4.058s] [100%] Built target vehicle_sender
+[4.124s] Install the project...
+[4.152s] -- Install configuration: "Release"
+[4.152s] -- Up-to-date: /home/autoware/Autoware/install/vehicle_socket/lib/pkgconfig/vehicle_socket.pc
+[4.152s] -- Up-to-date: /home/autoware/Autoware/install/vehicle_socket/share/vehicle_socket/cmake/vehicle_socketConfig.cmake
+[4.152s] -- Up-to-date: /home/autoware/Autoware/install/vehicle_socket/share/vehicle_socket/cmake/vehicle_socketConfig-version.cmake
+[4.152s] -- Up-to-date: /home/autoware/Autoware/install/vehicle_socket/share/vehicle_socket/package.xml
+[4.152s] -- Up-to-date: /home/autoware/Autoware/install/vehicle_socket/lib/vehicle_socket/vehicle_sender
+[4.152s] -- Up-to-date: /home/autoware/Autoware/install/vehicle_socket/lib/vehicle_socket/vehicle_receiver
+[4.300s] Invoked command in '/home/autoware/Autoware/build/vehicle_socket' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/tablet_socket_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_can_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/tablet_socket_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_can_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_socket --target install -- -j32 -l32

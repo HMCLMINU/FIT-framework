@@ -1,0 +1,8 @@
+prefix=/home/autoware/Autoware/build/sick_lms5xx/devel
+
+Name: sick_lms5xx
+Description: Description of sick_lms5xx
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

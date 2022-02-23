@@ -1,0 +1,307 @@
+[0.013s] Invoking command in '/home/autoware/Autoware/build/autoware_launcher': /usr/bin/cmake /home/autoware/Autoware/src/autoware/utilities/autoware_launcher -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/autoware_launcher
+[0.088s] -- The C compiler identification is GNU 7.5.0
+[0.156s] -- The CXX compiler identification is GNU 7.5.0
+[0.162s] -- Check for working C compiler: /usr/bin/cc
+[0.242s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.242s] -- Detecting C compiler ABI info
+[0.318s] -- Detecting C compiler ABI info - done
+[0.323s] -- Detecting C compile features
+[0.550s] -- Detecting C compile features - done
+[0.553s] -- Check for working CXX compiler: /usr/bin/c++
+[0.646s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.653s] -- Detecting CXX compiler ABI info
+[0.738s] -- Detecting CXX compiler ABI info - done
+[0.741s] -- Detecting CXX compile features
+[1.140s] -- Detecting CXX compile features - done
+[1.143s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/autoware_launcher/devel
+[1.144s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[1.144s] -- This workspace overlays: /opt/ros/melodic
+[1.162s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.162s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.162s] -- Using Debian Python package layout
+[1.162s] -- Using empy: /usr/bin/empy
+[1.306s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.306s] -- Call enable_testing()
+[1.314s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/autoware_launcher/test_results
+[1.333s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.333s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.348s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.348s] -- Looking for pthread.h
+[1.426s] -- Looking for pthread.h - found
+[1.426s] -- Looking for pthread_create
+[1.502s] -- Looking for pthread_create - not found
+[1.503s] -- Looking for pthread_create in pthreads
+[1.565s] -- Looking for pthread_create in pthreads - not found
+[1.565s] -- Looking for pthread_create in pthread
+[1.642s] -- Looking for pthread_create in pthread - found
+[1.643s] -- Found Threads: TRUE  
+[1.647s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.692s] -- catkin 0.7.26
+[1.692s] -- BUILD_SHARED_LIBS is on
+[2.432s] -- Configuring done
+[2.449s] -- Generating done
+[2.453s] -- Build files have been written to: /home/autoware/Autoware/build/autoware_launcher
+[2.460s] Invoked command in '/home/autoware/Autoware/build/autoware_launcher' returned '0': /usr/bin/cmake /home/autoware/Autoware/src/autoware/utilities/autoware_launcher -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/autoware_launcher
+[2.461s] Invoking command in '/home/autoware/Autoware/build/autoware_launcher': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_launcher -- -j2 -l2
+[2.511s] Invoked command in '/home/autoware/Autoware/build/autoware_launcher' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_launcher -- -j2 -l2
+[2.554s] Invoking command in '/home/autoware/Autoware/build/autoware_launcher': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_launcher --target tests -- -j2 -l2
+[2.614s] Scanning dependencies of target tests
+[2.626s] Built target tests
+[2.639s] Invoked command in '/home/autoware/Autoware/build/autoware_launcher' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_launcher --target tests -- -j2 -l2
+[2.692s] Invoking command in '/home/autoware/Autoware/build/autoware_launcher': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_launcher --target install -- -j2 -l2
+[2.749s] Install the project...
+[2.759s] -- Install configuration: "Release"
+[2.761s] + cd /home/autoware/Autoware/src/autoware/utilities/autoware_launcher
+[2.761s] + mkdir -p /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages
+[2.764s] + /usr/bin/env PYTHONPATH=/home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages:/home/autoware/Autoware/build/autoware_launcher/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/autoware/Autoware/build/autoware_launcher /usr/bin/python2 /home/autoware/Autoware/src/autoware/utilities/autoware_launcher/setup.py build --build-base /home/autoware/Autoware/build/autoware_launcher install --root=/ --install-layout=deb --prefix=/home/autoware/Autoware/install/autoware_launcher --install-scripts=/home/autoware/Autoware/install/autoware_launcher/bin
+[2.809s] running build
+[2.809s] running build_py
+[2.811s] creating /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7
+[2.811s] creating /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher
+[2.812s] copying src/autoware_launcher/__init__.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher
+[2.812s] creating /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/tool
+[2.812s] copying src/autoware_launcher/tool/wizard.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/tool
+[2.814s] copying src/autoware_launcher/tool/editor.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/tool
+[2.815s] copying src/autoware_launcher/tool/__init__.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/tool
+[2.816s] creating /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core
+[2.816s] copying src/autoware_launcher/core/basetree.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core
+[2.817s] copying src/autoware_launcher/core/mylog.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core
+[2.818s] copying src/autoware_launcher/core/myutils.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core
+[2.819s] copying src/autoware_launcher/core/server.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core
+[2.820s] copying src/autoware_launcher/core/plugin.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core
+[2.821s] copying src/autoware_launcher/core/launch.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core
+[2.821s] copying src/autoware_launcher/core/__init__.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core
+[2.822s] creating /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+[2.823s] copying src/autoware_launcher/gui/guimgr.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+[2.826s] copying src/autoware_launcher/gui/summary.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+[2.827s] copying src/autoware_launcher/gui/mirror.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+[2.827s] copying src/autoware_launcher/gui/widgets.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+[2.828s] copying src/autoware_launcher/gui/window.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+[2.829s] copying src/autoware_launcher/gui/network.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+[2.830s] copying src/autoware_launcher/gui/client.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+[2.835s] copying src/autoware_launcher/gui/quickstart.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+[2.835s] copying src/autoware_launcher/gui/treeview.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+[2.836s] copying src/autoware_launcher/gui/__init__.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+[2.837s] copying src/autoware_launcher/gui/procmgr.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+[2.839s] creating /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/simulation
+[2.839s] copying src/autoware_launcher/gui/simulation/rosbag.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/simulation
+[2.840s] copying src/autoware_launcher/gui/simulation/gazebo.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/simulation
+[2.840s] copying src/autoware_launcher/gui/simulation/__init__.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/simulation
+[2.841s] copying src/autoware_launcher/gui/simulation/lgsvl.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/simulation
+[2.843s] creating /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/plugins
+[2.843s] copying src/autoware_launcher/gui/plugins/camera.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/plugins
+[2.844s] copying src/autoware_launcher/gui/plugins/basic.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/plugins
+[2.844s] copying src/autoware_launcher/gui/plugins/node.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/plugins
+[2.845s] copying src/autoware_launcher/gui/plugins/__init__.py -> /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/plugins
+[2.847s] running install
+[2.848s] running install_lib
+[2.849s] creating /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher
+[2.849s] creating /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/tool
+[2.849s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/tool/wizard.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/tool
+[2.850s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/tool/editor.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/tool
+[2.850s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/tool/__init__.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/tool
+[2.851s] creating /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+[2.851s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/guimgr.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+[2.851s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/summary.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+[2.852s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/mirror.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+[2.852s] creating /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/simulation
+[2.853s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/simulation/rosbag.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/simulation
+[2.853s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/simulation/gazebo.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/simulation
+[2.853s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/simulation/__init__.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/simulation
+[2.854s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/simulation/lgsvl.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/simulation
+[2.854s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/widgets.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+[2.854s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/window.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+[2.855s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/network.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+[2.855s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/client.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+[2.856s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/quickstart.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+[2.856s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/treeview.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+[2.856s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/__init__.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+[2.857s] creating /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/plugins
+[2.857s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/plugins/camera.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/plugins
+[2.858s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/plugins/basic.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/plugins
+[2.858s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/plugins/node.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/plugins
+[2.858s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/plugins/__init__.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/plugins
+[2.859s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/procmgr.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+[2.859s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/__init__.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher
+[2.860s] creating /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core
+[2.860s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core/basetree.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core
+[2.860s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core/mylog.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core
+[2.861s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core/myutils.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core
+[2.861s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core/server.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core
+[2.862s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core/plugin.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core
+[2.862s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core/launch.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core
+[2.863s] copying /home/autoware/Autoware/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core/__init__.py -> /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core
+[2.863s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/tool/wizard.py to wizard.pyc
+[2.866s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/tool/editor.py to editor.pyc
+[2.868s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/tool/__init__.py to __init__.pyc
+[2.868s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/guimgr.py to guimgr.pyc
+[2.870s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/summary.py to summary.pyc
+[2.870s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/mirror.py to mirror.pyc
+[2.871s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/simulation/rosbag.py to rosbag.pyc
+[2.872s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/simulation/gazebo.py to gazebo.pyc
+[2.873s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/simulation/__init__.py to __init__.pyc
+[2.873s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/simulation/lgsvl.py to lgsvl.pyc
+[2.875s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/widgets.py to widgets.pyc
+[2.876s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/window.py to window.pyc
+[2.876s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/network.py to network.pyc
+[2.877s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/client.py to client.pyc
+[2.879s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/quickstart.py to quickstart.pyc
+[2.880s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/treeview.py to treeview.pyc
+[2.881s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/__init__.py to __init__.pyc
+[2.881s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/plugins/camera.py to camera.pyc
+[2.882s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/plugins/basic.py to basic.pyc
+[2.884s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/plugins/node.py to node.pyc
+[2.886s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/plugins/__init__.py to __init__.pyc
+[2.886s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/procmgr.py to procmgr.pyc
+[2.887s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/__init__.py to __init__.pyc
+[2.887s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core/basetree.py to basetree.pyc
+[2.888s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core/mylog.py to mylog.pyc
+[2.889s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core/myutils.py to myutils.pyc
+[2.889s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core/server.py to server.pyc
+[2.891s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core/plugin.py to plugin.pyc
+[2.893s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core/launch.py to launch.pyc
+[2.895s] byte-compiling /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core/__init__.py to __init__.pyc
+[2.895s] running install_egg_info
+[2.898s] Writing /home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher-1.12.0.egg-info
+[2.904s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/lib/pkgconfig/autoware_launcher.pc
+[2.904s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/cmake/autoware_launcherConfig.cmake
+[2.904s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/cmake/autoware_launcherConfig-version.cmake
+[2.904s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/package.xml
+[2.904s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/lib/autoware_launcher/main
+[2.904s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/lib/autoware_launcher/tool
+[2.904s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/resources
+[2.904s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/resources/rosbagplay.xml
+[2.905s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/resources/skins
+[2.905s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/resources/skins/qt.css
+[2.906s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/resources/skins/autoware.css
+[2.907s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/resources/dummy.yaml
+[2.907s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/resources/lgsvl.yaml
+[2.908s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/resources/autoware_logo.png
+[2.909s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins
+[2.910s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/refs
+[2.910s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/refs/imm_ukf_pda_track.yaml
+[2.911s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/refs/tl_mxnet.yaml
+[2.912s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/refs/range_vision_fusion.yaml
+[2.913s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/refs/native_motion_predict.yaml
+[2.913s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/refs/tl_projection.yaml
+[2.914s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/refs/tl_recognition.yaml
+[2.915s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/refs/yolov3.yaml
+[2.917s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/refs/vel_pose_connect.yaml
+[2.917s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/refs/lane_select.yaml
+[2.918s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/refs/ndt_matching.yaml
+[2.919s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/refs/ray_ground_filter.yaml
+[2.919s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/refs/astar_avoid.yaml
+[2.920s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/refs/twist_filter.yaml
+[2.921s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/refs/euclidean_cluster.yaml
+[2.921s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/refs/velocity_set.yaml
+[2.922s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/refs/nmea2tfpose.yaml
+[2.923s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/driver
+[2.923s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/driver/lidar
+[2.924s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/driver/lidar/vlp16.yaml
+[2.926s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/driver/lidar/vlp32c.yaml
+[2.927s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/driver/lidar/vlp16.xml
+[2.927s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/driver/lidar/vlp32c.xml
+[2.928s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/driver/camera
+[2.928s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/driver/camera/usb.xml
+[2.929s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/driver/camera/usb.yaml
+[2.930s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/root
+[2.930s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/root/default.yaml
+[2.931s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf
+[2.931s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/concat.xml
+[2.932s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/lane_rule.yaml
+[2.932s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/transform_v2b.yaml
+[2.933s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/transform_v2b.xml
+[2.934s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/calibration.yaml
+[2.934s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/pure_pursuit.yaml
+[2.935s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/lane_rule.xml
+[2.936s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/rviz.yaml
+[2.937s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/vehicle.yaml
+[2.939s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/lane_stop.yaml
+[2.939s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/transform_v2v.xml
+[2.940s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/lane_stop.xml
+[2.941s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/map.yaml
+[2.943s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/vehicle.xml
+[2.943s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/rviz.xml
+[2.944s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/pure_pursuit.xml
+[2.944s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/voxel_grid_filter.yaml
+[2.946s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/voxel_grid_filter.xml
+[2.950s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/waypoint_loader.xml
+[2.954s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/map.xml
+[2.955s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/waypoint_loader.yaml
+[2.956s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/concat.yaml
+[2.956s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/transform_v2v.yaml
+[2.957s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/leaf/calibration.xml
+[2.958s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/node
+[2.958s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/node/lidar_node.yaml
+[2.959s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/node/camera_group.yaml
+[2.960s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/node/motion.yaml
+[2.961s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/node/lidar_single.yaml
+[2.961s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/node/detection.yaml
+[2.962s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/node/localization.yaml
+[2.963s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/node/prediction.yaml
+[2.963s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/node/mission.yaml
+[2.967s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/node/decision.yaml
+[2.967s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/node/sensing.yaml
+[2.968s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/node/detect_obj.yaml
+[2.969s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/node/lidar_merge.yaml
+[2.969s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/node/detect_tl.yaml
+[2.970s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/node/lidar_group.yaml
+[2.971s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/node/camera_node.yaml
+[2.971s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/plugins/node/lidar_multi.yaml
+[2.973s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles
+[2.973s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/.gitignore
+[2.974s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart.launch
+[2.974s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart
+[2.975s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root.yaml
+[2.975s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root
+[2.975s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/localization
+[2.976s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/localization/downsampler.yaml
+[2.976s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/localization/localizer.yaml
+[2.977s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/localization/vel_pose_connect.yaml
+[2.977s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/motion.yaml
+[2.979s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection.yaml
+[2.979s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/localization.yaml
+[2.980s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/visualization.yaml
+[2.981s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/mission
+[2.981s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/mission/lane_rule.yaml
+[2.981s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/mission/lane_stop.yaml
+[2.982s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/mission/lane_select.yaml
+[2.986s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/prediction.yaml
+[2.987s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/vehicle.yaml
+[2.988s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/prediction
+[2.988s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/prediction/native_motion_predict.yaml
+[2.988s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/mission.yaml
+[2.989s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection
+[2.989s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/traffic_lights.yaml
+[2.990s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/object
+[2.990s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/object/points_detect.yaml
+[2.991s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/object/points_preproc.yaml
+[2.992s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/object/fusion.yaml
+[2.993s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/object/images_detect.yaml
+[2.993s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/object/tracking.yaml
+[2.994s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/traffic_lights
+[2.994s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/traffic_lights/projection.yaml
+[2.995s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/traffic_lights/recognition.yaml
+[2.995s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/object.yaml
+[2.996s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/map.yaml
+[2.997s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/decision.yaml
+[2.998s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing.yaml
+[3.002s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing
+[3.002s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing/lidar
+[3.002s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing/lidar/transform.yaml
+[3.003s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing/lidar.yaml
+[3.004s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing/gnss.yaml
+[3.004s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing/camera
+[3.005s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing/camera/camera0.yaml
+[3.006s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing/camera/camera0
+[3.006s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing/camera/camera0/calibration.yaml
+[3.008s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing/camera.yaml
+[3.009s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/motion
+[3.010s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/motion/pure_pursuit.yaml
+[3.010s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/motion/astar_avoid.yaml
+[3.011s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/motion/waypoint_loader.yaml
+[3.012s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/motion/twist_filter.yaml
+[3.012s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/motion/velocity_set.yaml
+[3.013s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/files
+[3.013s] -- Installing: /home/autoware/Autoware/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/files/default.rviz
+[3.022s] Invoked command in '/home/autoware/Autoware/build/autoware_launcher' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_launcher --target install -- -j2 -l2

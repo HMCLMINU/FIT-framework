@@ -1,0 +1,6 @@
+/home/autoware/Autoware/install/kvaser/lib/pkgconfig/kvaser.pc
+/home/autoware/Autoware/install/kvaser/share/kvaser/cmake/kvaserConfig.cmake
+/home/autoware/Autoware/install/kvaser/share/kvaser/cmake/kvaserConfig-version.cmake
+/home/autoware/Autoware/install/kvaser/share/kvaser/package.xml
+/home/autoware/Autoware/install/kvaser/lib/kvaser/can_converter
+/home/autoware/Autoware/install/kvaser/lib/kvaser/can_draw

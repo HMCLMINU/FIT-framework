@@ -1,0 +1,87 @@
+[0.637s] Invoking command in '/home/autoware/Autoware/build/obj_db': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/gnss:/home/autoware/Autoware/install/autoware_can_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/gnss/lib/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/gnss/share:/home/autoware/Autoware/install/autoware_can_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/obj_db -- -j32 -l32
+[1.067s] [ 33%] Built target obj_db
+[1.068s] [ 33%] Built target geometry_msgs_generate_messages_py
+[1.068s] [ 33%] Built target roscpp_generate_messages_eus
+[1.068s] [ 33%] Built target std_msgs_generate_messages_eus
+[1.068s] [ 33%] Built target rosgraph_msgs_generate_messages_lisp
+[1.068s] [ 33%] Built target std_msgs_generate_messages_lisp
+[1.068s] [ 33%] Built target roscpp_generate_messages_py
+[1.068s] [ 33%] Built target std_msgs_generate_messages_cpp
+[1.068s] [ 33%] Built target autoware_can_msgs_generate_messages_cpp
+[1.068s] [ 33%] Built target visualization_msgs_generate_messages_nodejs
+[1.069s] [ 33%] Built target rosgraph_msgs_generate_messages_cpp
+[1.069s] [ 33%] Built target autoware_can_msgs_generate_messages_py
+[1.149s] [ 33%] Built target visualization_msgs_generate_messages_cpp
+[1.149s] [ 33%] Built target autoware_can_msgs_generate_messages_lisp
+[1.149s] [ 33%] Built target autoware_can_msgs_generate_messages_nodejs
+[1.149s] [ 33%] Built target rosgraph_msgs_generate_messages_eus
+[1.149s] [ 33%] Built target geometry_msgs_generate_messages_eus
+[1.149s] [ 33%] Built target geometry_msgs_generate_messages_nodejs
+[1.192s] [ 33%] Built target roscpp_generate_messages_nodejs
+[1.192s] [ 55%] Built target obj_uploader
+[1.192s] [ 55%] Built target visualization_msgs_generate_messages_py
+[1.192s] [ 55%] Built target autoware_can_msgs_generate_messages_eus
+[1.192s] [ 55%] Built target roscpp_generate_messages_lisp
+[1.240s] [ 55%] Built target roscpp_generate_messages_cpp
+[1.240s] [ 55%] Built target std_msgs_generate_messages_py
+[1.240s] [ 55%] Built target geometry_msgs_generate_messages_cpp
+[1.241s] [ 55%] Built target rosgraph_msgs_generate_messages_py
+[1.241s] [ 55%] Built target visualization_msgs_generate_messages_eus
+[1.241s] [ 77%] Built target obj_downloader
+[1.256s] [ 77%] Built target geometry_msgs_generate_messages_lisp
+[1.256s] [ 77%] Built target std_msgs_generate_messages_nodejs
+[1.384s] [ 77%] Built target visualization_msgs_generate_messages_lisp
+[1.416s] [ 77%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.680s] [100%] Built target can_uploader
+[1.733s] Invoked command in '/home/autoware/Autoware/build/obj_db' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/gnss:/home/autoware/Autoware/install/autoware_can_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/gnss/lib/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/gnss/share:/home/autoware/Autoware/install/autoware_can_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/obj_db -- -j32 -l32
+[1.966s] Invoking command in '/home/autoware/Autoware/build/obj_db': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/gnss:/home/autoware/Autoware/install/autoware_can_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/gnss/lib/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/gnss/share:/home/autoware/Autoware/install/autoware_can_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/obj_db --target tests -- -j32 -l32
+[2.301s] Built target tests
+[2.320s] Invoked command in '/home/autoware/Autoware/build/obj_db' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/gnss:/home/autoware/Autoware/install/autoware_can_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/gnss/lib/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/gnss/share:/home/autoware/Autoware/install/autoware_can_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/obj_db --target tests -- -j32 -l32
+[2.483s] Invoking command in '/home/autoware/Autoware/build/obj_db': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/gnss:/home/autoware/Autoware/install/autoware_can_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/gnss/lib/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/gnss/share:/home/autoware/Autoware/install/autoware_can_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/obj_db --target install -- -j32 -l32
+[2.760s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[2.760s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[2.760s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[2.760s] [  0%] Built target roscpp_generate_messages_eus
+[2.760s] [  0%] Built target std_msgs_generate_messages_py
+[2.761s] [  0%] Built target std_msgs_generate_messages_nodejs
+[2.761s] [  0%] Built target geometry_msgs_generate_messages_py
+[2.761s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[2.761s] [  0%] Built target std_msgs_generate_messages_eus
+[2.761s] [  0%] Built target roscpp_generate_messages_lisp
+[2.761s] [  0%] Built target geometry_msgs_generate_messages_eus
+[2.762s] [  0%] Built target roscpp_generate_messages_py
+[2.762s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[2.762s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[2.762s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[2.762s] [ 33%] Built target obj_db
+[2.762s] [ 33%] Built target visualization_msgs_generate_messages_py
+[2.762s] [ 33%] Built target std_msgs_generate_messages_cpp
+[2.762s] [ 33%] Built target roscpp_generate_messages_cpp
+[2.762s] [ 33%] Built target visualization_msgs_generate_messages_lisp
+[2.762s] [ 33%] Built target geometry_msgs_generate_messages_cpp
+[2.762s] [ 33%] Built target rosgraph_msgs_generate_messages_cpp
+[2.762s] [ 33%] Built target visualization_msgs_generate_messages_cpp
+[2.763s] [ 33%] Built target autoware_can_msgs_generate_messages_nodejs
+[2.763s] [ 33%] Built target visualization_msgs_generate_messages_eus
+[2.763s] [ 33%] Built target autoware_can_msgs_generate_messages_lisp
+[2.763s] [ 33%] Built target visualization_msgs_generate_messages_nodejs
+[2.763s] [ 33%] Built target rosgraph_msgs_generate_messages_lisp
+[2.763s] [ 33%] Built target roscpp_generate_messages_nodejs
+[2.763s] [ 33%] Built target std_msgs_generate_messages_lisp
+[2.808s] [ 33%] Built target autoware_can_msgs_generate_messages_eus
+[2.921s] [ 55%] Built target can_uploader
+[2.921s] [ 77%] Built target obj_uploader
+[2.921s] [100%] Built target obj_downloader
+[3.082s] Install the project...
+[3.083s] -- Install configuration: "Release"
+[3.087s] -- Up-to-date: /home/autoware/Autoware/install/obj_db/lib/pkgconfig/obj_db.pc
+[3.087s] -- Up-to-date: /home/autoware/Autoware/install/obj_db/share/obj_db/cmake/obj_dbConfig.cmake
+[3.087s] -- Up-to-date: /home/autoware/Autoware/install/obj_db/share/obj_db/cmake/obj_dbConfig-version.cmake
+[3.087s] -- Up-to-date: /home/autoware/Autoware/install/obj_db/share/obj_db/package.xml
+[3.087s] -- Up-to-date: /home/autoware/Autoware/install/obj_db/lib/obj_db/can_uploader
+[3.088s] -- Up-to-date: /home/autoware/Autoware/install/obj_db/lib/obj_db/obj_uploader
+[3.088s] -- Up-to-date: /home/autoware/Autoware/install/obj_db/lib/libobj_db.so
+[3.088s] -- Up-to-date: /home/autoware/Autoware/install/obj_db/lib/obj_db/obj_downloader
+[3.088s] -- Up-to-date: /home/autoware/Autoware/install/obj_db/include/obj_db/include
+[3.088s] -- Up-to-date: /home/autoware/Autoware/install/obj_db/include/obj_db/include/obj_db.h
+[3.132s] Invoked command in '/home/autoware/Autoware/build/obj_db' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/gnss:/home/autoware/Autoware/install/autoware_can_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/gnss/lib/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/gnss/share:/home/autoware/Autoware/install/autoware_can_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/obj_db --target install -- -j32 -l32

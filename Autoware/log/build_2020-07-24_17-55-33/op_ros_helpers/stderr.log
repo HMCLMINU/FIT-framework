@@ -1,0 +1,11 @@
+/home/autoware/Autoware/src/autoware/common/op_ros_helpers/src/op_ROSHelpers.cpp: In static member function ‘static void PlannerHNS::ROSHelpers::ConvertPredictedTrqajectoryMarkers(std::vector<std::vector<PlannerHNS::WayPoint> >&, visualization_msgs::MarkerArray&, visualization_msgs::MarkerArray&)’:
+/home/autoware/Autoware/src/autoware/common/op_ros_helpers/src/op_ROSHelpers.cpp:328:12: warning: unused variable ‘basic_color’ [-Wunused-variable]
+     double basic_color = 0.5;
+            ^~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/common/op_ros_helpers/src/op_ROSHelpers.cpp:330:10: warning: unused variable ‘bCurrent’ [-Wunused-variable]
+     bool bCurrent = false;
+          ^~~~~~~~
+/home/autoware/Autoware/src/autoware/common/op_ros_helpers/src/op_ROSHelpers.cpp: In static member function ‘static void PlannerHNS::ROSHelpers::TrajectoriesToColoredMarkers(const std::vector<std::vector<PlannerHNS::WayPoint> >&, const std::vector<PlannerHNS::TrajectoryCost>&, const int&, visualization_msgs::MarkerArray&)’:
+/home/autoware/Autoware/src/autoware/common/op_ros_helpers/src/op_ROSHelpers.cpp:720:10: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(i == iClosest)
+        ~~^~~~~~~~~~~

@@ -1,0 +1,93 @@
+[0.013s] Invoking command in '/home/autoware/Autoware/build/lgsvl_simulator_bridge': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/simulation/lgsvl_simulator_bridge -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/lgsvl_simulator_bridge
+[0.123s] -- The C compiler identification is GNU 7.5.0
+[0.194s] -- The CXX compiler identification is GNU 7.5.0
+[0.199s] -- Check for working C compiler: /usr/bin/cc
+[0.279s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.279s] -- Detecting C compiler ABI info
+[0.355s] -- Detecting C compiler ABI info - done
+[0.362s] -- Detecting C compile features
+[0.593s] -- Detecting C compile features - done
+[0.596s] -- Check for working CXX compiler: /usr/bin/c++
+[0.699s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.699s] -- Detecting CXX compiler ABI info
+[0.791s] -- Detecting CXX compiler ABI info - done
+[0.799s] -- Detecting CXX compile features
+[1.228s] -- Detecting CXX compile features - done
+[1.231s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/lgsvl_simulator_bridge/devel
+[1.231s] -- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_msgs;/opt/ros/melodic
+[1.232s] -- This workspace overlays: /home/autoware/Autoware/install/autoware_msgs;/opt/ros/melodic
+[1.249s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.249s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.249s] -- Using Debian Python package layout
+[1.249s] -- Using empy: /usr/bin/empy
+[1.391s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.391s] -- Call enable_testing()
+[1.395s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/lgsvl_simulator_bridge/test_results
+[1.418s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.418s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.435s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.435s] -- Looking for pthread.h
+[1.515s] -- Looking for pthread.h - found
+[1.520s] -- Looking for pthread_create
+[1.599s] -- Looking for pthread_create - not found
+[1.599s] -- Looking for pthread_create in pthreads
+[1.675s] -- Looking for pthread_create in pthreads - not found
+[1.675s] -- Looking for pthread_create in pthread
+[1.751s] -- Looking for pthread_create in pthread - found
+[1.752s] -- Found Threads: TRUE  
+[1.757s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.804s] -- catkin 0.7.26
+[1.804s] -- BUILD_SHARED_LIBS is on
+[1.973s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.588s] -- Configuring done
+[2.611s] -- Generating done
+[2.618s] -- Build files have been written to: /home/autoware/Autoware/build/lgsvl_simulator_bridge
+[2.623s] Invoked command in '/home/autoware/Autoware/build/lgsvl_simulator_bridge' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/simulation/lgsvl_simulator_bridge -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/lgsvl_simulator_bridge
+[2.626s] Invoking command in '/home/autoware/Autoware/build/lgsvl_simulator_bridge': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/lgsvl_simulator_bridge -- -j2 -l2
+[2.674s] Invoked command in '/home/autoware/Autoware/build/lgsvl_simulator_bridge' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/lgsvl_simulator_bridge -- -j2 -l2
+[2.748s] Invoking command in '/home/autoware/Autoware/build/lgsvl_simulator_bridge': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/lgsvl_simulator_bridge --target tests -- -j2 -l2
+[2.821s] Scanning dependencies of target tests
+[2.833s] Built target tests
+[2.846s] Invoked command in '/home/autoware/Autoware/build/lgsvl_simulator_bridge' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/lgsvl_simulator_bridge --target tests -- -j2 -l2
+[2.926s] Invoking command in '/home/autoware/Autoware/build/lgsvl_simulator_bridge': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/lgsvl_simulator_bridge --target install -- -j2 -l2
+[2.994s] Install the project...
+[3.006s] -- Install configuration: "Release"
+[3.008s] + cd /home/autoware/Autoware/src/autoware/simulation/lgsvl_simulator_bridge
+[3.008s] + mkdir -p /home/autoware/Autoware/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages
+[3.010s] + /usr/bin/env PYTHONPATH=/home/autoware/Autoware/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages:/home/autoware/Autoware/build/lgsvl_simulator_bridge/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/autoware/Autoware/build/lgsvl_simulator_bridge /usr/bin/python2 /home/autoware/Autoware/src/autoware/simulation/lgsvl_simulator_bridge/setup.py build --build-base /home/autoware/Autoware/build/lgsvl_simulator_bridge install --root=/ --install-layout=deb --prefix=/home/autoware/Autoware/install/lgsvl_simulator_bridge --install-scripts=/home/autoware/Autoware/install/lgsvl_simulator_bridge/bin
+[3.055s] running build
+[3.055s] running build_py
+[3.056s] creating /home/autoware/Autoware/build/lgsvl_simulator_bridge/lib.linux-x86_64-2.7
+[3.056s] creating /home/autoware/Autoware/build/lgsvl_simulator_bridge/lib.linux-x86_64-2.7/lgsvl_simulator_bridge
+[3.057s] copying src/lgsvl_simulator_bridge/configurator.py -> /home/autoware/Autoware/build/lgsvl_simulator_bridge/lib.linux-x86_64-2.7/lgsvl_simulator_bridge
+[3.057s] copying src/lgsvl_simulator_bridge/__init__.py -> /home/autoware/Autoware/build/lgsvl_simulator_bridge/lib.linux-x86_64-2.7/lgsvl_simulator_bridge
+[3.058s] running install
+[3.059s] running install_lib
+[3.059s] creating /home/autoware/Autoware/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages/lgsvl_simulator_bridge
+[3.060s] copying /home/autoware/Autoware/build/lgsvl_simulator_bridge/lib.linux-x86_64-2.7/lgsvl_simulator_bridge/configurator.py -> /home/autoware/Autoware/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages/lgsvl_simulator_bridge
+[3.060s] copying /home/autoware/Autoware/build/lgsvl_simulator_bridge/lib.linux-x86_64-2.7/lgsvl_simulator_bridge/__init__.py -> /home/autoware/Autoware/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages/lgsvl_simulator_bridge
+[3.061s] byte-compiling /home/autoware/Autoware/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages/lgsvl_simulator_bridge/configurator.py to configurator.pyc
+[3.064s] byte-compiling /home/autoware/Autoware/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages/lgsvl_simulator_bridge/__init__.py to __init__.pyc
+[3.065s] running install_egg_info
+[3.065s] Writing /home/autoware/Autoware/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages/lgsvl_simulator_bridge-1.12.0.egg-info
+[3.071s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/lib/pkgconfig/lgsvl_simulator_bridge.pc
+[3.071s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/cmake/lgsvl_simulator_bridgeConfig.cmake
+[3.071s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/cmake/lgsvl_simulator_bridgeConfig-version.cmake
+[3.071s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/package.xml
+[3.071s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/launch
+[3.071s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/launch/lgsvl_simulator.launch
+[3.072s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/launch/bridge.launch
+[3.073s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/rviz
+[3.073s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/rviz/lgsvl_simulator.rviz
+[3.073s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/config
+[3.073s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/config/sample.json
+[3.074s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/media
+[3.074s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/media/lgsvl_simulator_bridge.png
+[3.114s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/media/autoware.png
+[3.116s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/resource
+[3.117s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/resource/LgsvlSimulatorConfigratorPlugin.ui
+[3.118s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/lib/lgsvl_simulator_bridge/launch_sim.bash
+[3.119s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/lib/lgsvl_simulator_bridge/__init__.py
+[3.120s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/lib/lgsvl_simulator_bridge/configurator.py
+[3.121s] -- Installing: /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/plugin.xml
+[3.131s] Invoked command in '/home/autoware/Autoware/build/lgsvl_simulator_bridge' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/lgsvl_simulator_bridge --target install -- -j2 -l2

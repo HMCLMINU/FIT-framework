@@ -1,0 +1,302 @@
+[0.026s] Invoking command in '/home/autoware/Autoware/build/vehicle_gazebo_simulation_interface': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/simulation/vehicle_gazebo_simulation_interface -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/vehicle_gazebo_simulation_interface
+[0.115s] -- The C compiler identification is GNU 7.5.0
+[0.197s] -- The CXX compiler identification is GNU 7.5.0
+[0.203s] -- Check for working C compiler: /usr/bin/cc
+[0.298s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.298s] -- Detecting C compiler ABI info
+[0.394s] -- Detecting C compiler ABI info - done
+[0.399s] -- Detecting C compile features
+[0.680s] -- Detecting C compile features - done
+[0.684s] -- Check for working CXX compiler: /usr/bin/c++
+[0.794s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.794s] -- Detecting CXX compiler ABI info
+[0.902s] -- Detecting CXX compiler ABI info - done
+[0.906s] -- Detecting CXX compile features
+[1.378s] -- Detecting CXX compile features - done
+[1.381s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/vehicle_gazebo_simulation_interface/devel
+[1.382s] -- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.383s] -- This workspace overlays: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.402s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.404s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.405s] -- Using Debian Python package layout
+[1.405s] -- Using empy: /usr/bin/empy
+[1.576s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.576s] -- Call enable_testing()
+[1.582s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/vehicle_gazebo_simulation_interface/test_results
+[1.609s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.609s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.630s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.630s] -- Looking for pthread.h
+[1.730s] -- Looking for pthread.h - found
+[1.730s] -- Looking for pthread_create
+[1.826s] -- Looking for pthread_create - not found
+[1.826s] -- Looking for pthread_create in pthreads
+[1.914s] -- Looking for pthread_create in pthreads - not found
+[1.914s] -- Looking for pthread_create in pthread
+[2.006s] -- Looking for pthread_create in pthread - found
+[2.006s] -- Found Threads: TRUE  
+[2.010s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.066s] -- catkin 0.7.26
+[2.066s] -- BUILD_SHARED_LIBS is on
+[2.192s] -- CUDA compilation status: ON.
+[2.283s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.681s] -- Configuring done
+[2.739s] -- Generating done
+[2.754s] -- Build files have been written to: /home/autoware/Autoware/build/vehicle_gazebo_simulation_interface
+[2.762s] Invoked command in '/home/autoware/Autoware/build/vehicle_gazebo_simulation_interface' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/simulation/vehicle_gazebo_simulation_interface -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/vehicle_gazebo_simulation_interface
+[2.763s] Invoking command in '/home/autoware/Autoware/build/vehicle_gazebo_simulation_interface': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_gazebo_simulation_interface -- -j2 -l2
+[2.822s] Scanning dependencies of target actionlib_generate_messages_eus
+[2.836s] [  0%] Built target actionlib_generate_messages_eus
+[2.851s] Scanning dependencies of target geometry_msgs_generate_messages_py
+[2.865s] [  0%] Built target geometry_msgs_generate_messages_py
+[2.880s] Scanning dependencies of target sensor_msgs_generate_messages_nodejs
+[2.894s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[2.908s] Scanning dependencies of target roscpp_generate_messages_cpp
+[2.921s] [  0%] Built target roscpp_generate_messages_cpp
+[2.935s] Scanning dependencies of target actionlib_generate_messages_cpp
+[2.948s] [  0%] Built target actionlib_generate_messages_cpp
+[2.963s] Scanning dependencies of target pcl_msgs_generate_messages_eus
+[2.976s] [  0%] Built target pcl_msgs_generate_messages_eus
+[2.990s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_lisp
+[3.003s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[3.017s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_eus
+[3.030s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[3.043s] Scanning dependencies of target tf2_msgs_generate_messages_cpp
+[3.057s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[3.071s] Scanning dependencies of target std_msgs_generate_messages_py
+[3.084s] [  0%] Built target std_msgs_generate_messages_py
+[3.097s] Scanning dependencies of target autoware_msgs_generate_messages_py
+[3.110s] [  0%] Built target autoware_msgs_generate_messages_py
+[3.124s] Scanning dependencies of target std_msgs_generate_messages_nodejs
+[3.138s] [  0%] Built target std_msgs_generate_messages_nodejs
+[3.152s] Scanning dependencies of target gazebo_msgs_generate_messages_cpp
+[3.166s] [  0%] Built target gazebo_msgs_generate_messages_cpp
+[3.180s] Scanning dependencies of target sensor_msgs_generate_messages_eus
+[3.194s] [  0%] Built target sensor_msgs_generate_messages_eus
+[3.208s] Scanning dependencies of target sensor_msgs_generate_messages_cpp
+[3.222s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[3.236s] Scanning dependencies of target autoware_msgs_generate_messages_cpp
+[3.249s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[3.264s] Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+[3.278s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[3.292s] Scanning dependencies of target pcl_msgs_generate_messages_nodejs
+[3.306s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[3.321s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_py
+[3.335s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[3.349s] Scanning dependencies of target sensor_msgs_generate_messages_lisp
+[3.363s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[3.378s] Scanning dependencies of target sensor_msgs_generate_messages_py
+[3.391s] [  0%] Built target sensor_msgs_generate_messages_py
+[3.405s] Scanning dependencies of target std_msgs_generate_messages_cpp
+[3.419s] [  0%] Built target std_msgs_generate_messages_cpp
+[3.433s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_py
+[3.446s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[3.460s] Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+[3.474s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[3.487s] Scanning dependencies of target geometry_msgs_generate_messages_eus
+[3.501s] [  0%] Built target geometry_msgs_generate_messages_eus
+[3.516s] Scanning dependencies of target std_msgs_generate_messages_lisp
+[3.530s] [  0%] Built target std_msgs_generate_messages_lisp
+[3.545s] Scanning dependencies of target roscpp_generate_messages_nodejs
+[3.558s] [  0%] Built target roscpp_generate_messages_nodejs
+[3.572s] Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+[3.586s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[3.600s] Scanning dependencies of target geometry_msgs_generate_messages_lisp
+[3.613s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[3.627s] Scanning dependencies of target actionlib_generate_messages_lisp
+[3.640s] [  0%] Built target actionlib_generate_messages_lisp
+[3.654s] Scanning dependencies of target geometry_msgs_generate_messages_cpp
+[3.667s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[3.683s] Scanning dependencies of target pcl_msgs_generate_messages_cpp
+[3.700s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[3.716s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_cpp
+[3.730s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[3.745s] Scanning dependencies of target trajectory_msgs_generate_messages_nodejs
+[3.758s] [  0%] Built target trajectory_msgs_generate_messages_nodejs
+[3.772s] Scanning dependencies of target autoware_msgs_generate_messages_eus
+[3.785s] [  0%] Built target autoware_msgs_generate_messages_eus
+[3.799s] Scanning dependencies of target autoware_msgs_generate_messages_lisp
+[3.813s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[3.827s] Scanning dependencies of target actionlib_generate_messages_nodejs
+[3.842s] [  0%] Built target actionlib_generate_messages_nodejs
+[3.856s] Scanning dependencies of target pcl_msgs_generate_messages_lisp
+[3.870s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[3.884s] Scanning dependencies of target std_msgs_generate_messages_eus
+[3.897s] [  0%] Built target std_msgs_generate_messages_eus
+[3.912s] Scanning dependencies of target gazebo_msgs_generate_messages_py
+[3.926s] [  0%] Built target gazebo_msgs_generate_messages_py
+[3.941s] Scanning dependencies of target trajectory_msgs_generate_messages_py
+[3.956s] [  0%] Built target trajectory_msgs_generate_messages_py
+[3.972s] Scanning dependencies of target autoware_msgs_generate_messages_nodejs
+[3.987s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[4.003s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_eus
+[4.021s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[4.036s] Scanning dependencies of target actionlib_msgs_generate_messages_py
+[4.050s] [  0%] Built target actionlib_msgs_generate_messages_py
+[4.064s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_lisp
+[4.078s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[4.093s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs
+[4.106s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[4.120s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_cpp
+[4.135s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[4.149s] Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+[4.164s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[4.179s] Scanning dependencies of target std_srvs_generate_messages_cpp
+[4.194s] [  0%] Built target std_srvs_generate_messages_cpp
+[4.210s] Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+[4.225s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[4.240s] Scanning dependencies of target gazebo_msgs_generate_messages_eus
+[4.255s] [  0%] Built target gazebo_msgs_generate_messages_eus
+[4.269s] Scanning dependencies of target gazebo_msgs_generate_messages_lisp
+[4.283s] [  0%] Built target gazebo_msgs_generate_messages_lisp
+[4.297s] Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+[4.311s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[4.325s] Scanning dependencies of target gazebo_msgs_generate_messages_nodejs
+[4.339s] [  0%] Built target gazebo_msgs_generate_messages_nodejs
+[4.353s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs
+[4.366s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[4.380s] Scanning dependencies of target std_srvs_generate_messages_eus
+[4.393s] [  0%] Built target std_srvs_generate_messages_eus
+[4.407s] Scanning dependencies of target roscpp_generate_messages_lisp
+[4.420s] [  0%] Built target roscpp_generate_messages_lisp
+[4.434s] Scanning dependencies of target trajectory_msgs_generate_messages_cpp
+[4.448s] [  0%] Built target trajectory_msgs_generate_messages_cpp
+[4.463s] Scanning dependencies of target trajectory_msgs_generate_messages_eus
+[4.477s] [  0%] Built target trajectory_msgs_generate_messages_eus
+[4.492s] Scanning dependencies of target roscpp_generate_messages_py
+[4.506s] [  0%] Built target roscpp_generate_messages_py
+[4.520s] Scanning dependencies of target trajectory_msgs_generate_messages_lisp
+[4.534s] [  0%] Built target trajectory_msgs_generate_messages_lisp
+[4.548s] Scanning dependencies of target _catkin_empty_exported_target
+[4.562s] [  0%] Built target _catkin_empty_exported_target
+[4.577s] Scanning dependencies of target std_srvs_generate_messages_lisp
+[4.590s] [  0%] Built target std_srvs_generate_messages_lisp
+[4.604s] Scanning dependencies of target std_srvs_generate_messages_nodejs
+[4.617s] [  0%] Built target std_srvs_generate_messages_nodejs
+[4.631s] Scanning dependencies of target std_srvs_generate_messages_py
+[4.644s] [  0%] Built target std_srvs_generate_messages_py
+[4.658s] Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+[4.671s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[4.685s] Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+[4.699s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[4.717s] Scanning dependencies of target roscpp_generate_messages_eus
+[4.731s] [  0%] Built target roscpp_generate_messages_eus
+[4.746s] Scanning dependencies of target actionlib_msgs_generate_messages_eus
+[4.760s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[4.774s] Scanning dependencies of target rosgraph_msgs_generate_messages_py
+[4.787s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[4.801s] Scanning dependencies of target tf2_msgs_generate_messages_eus
+[4.815s] [  0%] Built target tf2_msgs_generate_messages_eus
+[4.829s] Scanning dependencies of target tf2_msgs_generate_messages_lisp
+[4.842s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[4.856s] Scanning dependencies of target actionlib_generate_messages_py
+[4.869s] [  0%] Built target actionlib_generate_messages_py
+[4.883s] Scanning dependencies of target tf2_msgs_generate_messages_py
+[4.896s] [  0%] Built target tf2_msgs_generate_messages_py
+[4.910s] Scanning dependencies of target tf2_msgs_generate_messages_nodejs
+[4.923s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[4.936s] Scanning dependencies of target pcl_msgs_generate_messages_py
+[4.950s] [  0%] Built target pcl_msgs_generate_messages_py
+[4.979s] Scanning dependencies of target vehicle_gazebo_input_subscriber
+[5.003s] [ 25%] Building CXX object CMakeFiles/vehicle_gazebo_input_subscriber.dir/src/vehicle_gazebo_input_subscriber.cpp.o
+[8.255s] [ 50%] Linking CXX executable devel/lib/vehicle_gazebo_simulation_interface/vehicle_gazebo_input_subscriber
+[8.408s] [ 50%] Built target vehicle_gazebo_input_subscriber
+[8.439s] Scanning dependencies of target vehicle_gazebo_info_publisher
+[8.462s] [ 75%] Building CXX object CMakeFiles/vehicle_gazebo_info_publisher.dir/src/vehicle_gazebo_info_publisher.cpp.o
+[13.853s] [100%] Linking CXX executable devel/lib/vehicle_gazebo_simulation_interface/vehicle_gazebo_info_publisher
+[14.016s] [100%] Built target vehicle_gazebo_info_publisher
+[14.031s] Invoked command in '/home/autoware/Autoware/build/vehicle_gazebo_simulation_interface' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_gazebo_simulation_interface -- -j2 -l2
+[14.162s] Invoking command in '/home/autoware/Autoware/build/vehicle_gazebo_simulation_interface': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_gazebo_simulation_interface --target tests -- -j2 -l2
+[14.248s] Scanning dependencies of target tests
+[14.263s] Built target tests
+[14.280s] Invoked command in '/home/autoware/Autoware/build/vehicle_gazebo_simulation_interface' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_gazebo_simulation_interface --target tests -- -j2 -l2
+[14.421s] Invoking command in '/home/autoware/Autoware/build/vehicle_gazebo_simulation_interface': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_gazebo_simulation_interface --target install -- -j2 -l2
+[14.518s] [  0%] Built target actionlib_generate_messages_eus
+[14.550s] [  0%] Built target geometry_msgs_generate_messages_py
+[14.580s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[14.608s] [  0%] Built target roscpp_generate_messages_cpp
+[14.635s] [  0%] Built target actionlib_generate_messages_cpp
+[14.662s] [  0%] Built target pcl_msgs_generate_messages_eus
+[14.689s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[14.715s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[14.743s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[14.770s] [  0%] Built target std_msgs_generate_messages_py
+[14.801s] [  0%] Built target autoware_msgs_generate_messages_py
+[14.830s] [  0%] Built target std_msgs_generate_messages_nodejs
+[14.859s] [  0%] Built target gazebo_msgs_generate_messages_cpp
+[14.888s] [  0%] Built target sensor_msgs_generate_messages_eus
+[14.916s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[14.944s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[14.971s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[14.998s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[15.025s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[15.053s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[15.081s] [  0%] Built target sensor_msgs_generate_messages_py
+[15.110s] [  0%] Built target std_msgs_generate_messages_cpp
+[15.139s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[15.168s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[15.198s] [  0%] Built target geometry_msgs_generate_messages_eus
+[15.229s] [  0%] Built target std_msgs_generate_messages_lisp
+[15.257s] [  0%] Built target roscpp_generate_messages_nodejs
+[15.284s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[15.312s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[15.339s] [  0%] Built target actionlib_generate_messages_lisp
+[15.368s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[15.396s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[15.423s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[15.450s] [  0%] Built target trajectory_msgs_generate_messages_nodejs
+[15.478s] [  0%] Built target autoware_msgs_generate_messages_eus
+[15.506s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[15.534s] [  0%] Built target actionlib_generate_messages_nodejs
+[15.561s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[15.588s] [  0%] Built target std_msgs_generate_messages_eus
+[15.615s] [  0%] Built target gazebo_msgs_generate_messages_py
+[15.642s] [  0%] Built target trajectory_msgs_generate_messages_py
+[15.669s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[15.697s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[15.724s] [  0%] Built target actionlib_msgs_generate_messages_py
+[15.752s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[15.779s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[15.805s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[15.833s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[15.863s] [  0%] Built target std_srvs_generate_messages_cpp
+[15.894s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[15.924s] [  0%] Built target gazebo_msgs_generate_messages_eus
+[15.954s] [  0%] Built target gazebo_msgs_generate_messages_lisp
+[15.982s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[16.009s] [  0%] Built target gazebo_msgs_generate_messages_nodejs
+[16.036s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[16.063s] [  0%] Built target std_srvs_generate_messages_eus
+[16.092s] [  0%] Built target roscpp_generate_messages_lisp
+[16.121s] [  0%] Built target trajectory_msgs_generate_messages_cpp
+[16.149s] [  0%] Built target trajectory_msgs_generate_messages_eus
+[16.178s] [  0%] Built target roscpp_generate_messages_py
+[16.207s] [  0%] Built target trajectory_msgs_generate_messages_lisp
+[16.235s] [  0%] Built target _catkin_empty_exported_target
+[16.264s] [  0%] Built target std_srvs_generate_messages_lisp
+[16.292s] [  0%] Built target std_srvs_generate_messages_nodejs
+[16.321s] [  0%] Built target std_srvs_generate_messages_py
+[16.351s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[16.382s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[16.412s] [  0%] Built target roscpp_generate_messages_eus
+[16.446s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[16.478s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[16.505s] [  0%] Built target tf2_msgs_generate_messages_eus
+[16.531s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[16.558s] [  0%] Built target actionlib_generate_messages_py
+[16.585s] [  0%] Built target tf2_msgs_generate_messages_py
+[16.611s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[16.638s] [  0%] Built target pcl_msgs_generate_messages_py
+[16.673s] [ 50%] Built target vehicle_gazebo_input_subscriber
+[16.709s] [100%] Built target vehicle_gazebo_info_publisher
+[16.736s] Install the project...
+[16.747s] -- Install configuration: "Release"
+[16.748s] -- Installing: /home/autoware/Autoware/install/vehicle_gazebo_simulation_interface/lib/pkgconfig/vehicle_gazebo_simulation_interface.pc
+[16.748s] -- Installing: /home/autoware/Autoware/install/vehicle_gazebo_simulation_interface/share/vehicle_gazebo_simulation_interface/cmake/vehicle_gazebo_simulation_interfaceConfig.cmake
+[16.749s] -- Installing: /home/autoware/Autoware/install/vehicle_gazebo_simulation_interface/share/vehicle_gazebo_simulation_interface/cmake/vehicle_gazebo_simulation_interfaceConfig-version.cmake
+[16.749s] -- Installing: /home/autoware/Autoware/install/vehicle_gazebo_simulation_interface/share/vehicle_gazebo_simulation_interface/package.xml
+[16.750s] -- Installing: /home/autoware/Autoware/install/vehicle_gazebo_simulation_interface/lib/vehicle_gazebo_simulation_interface/vehicle_gazebo_input_subscriber
+[16.751s] -- Set runtime path of "/home/autoware/Autoware/install/vehicle_gazebo_simulation_interface/lib/vehicle_gazebo_simulation_interface/vehicle_gazebo_input_subscriber" to ""
+[16.752s] -- Installing: /home/autoware/Autoware/install/vehicle_gazebo_simulation_interface/lib/vehicle_gazebo_simulation_interface/vehicle_gazebo_info_publisher
+[16.753s] -- Set runtime path of "/home/autoware/Autoware/install/vehicle_gazebo_simulation_interface/lib/vehicle_gazebo_simulation_interface/vehicle_gazebo_info_publisher" to ""
+[16.762s] Invoked command in '/home/autoware/Autoware/build/vehicle_gazebo_simulation_interface' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_gazebo_simulation_interface --target install -- -j2 -l2

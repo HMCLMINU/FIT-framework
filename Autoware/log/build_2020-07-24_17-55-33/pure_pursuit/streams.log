@@ -1,0 +1,387 @@
+[0.031s] Invoking command in '/home/autoware/Autoware/build/pure_pursuit': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/libwaypoint_follower:/home/autoware/Autoware/install/autoware_health_checker:/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/ros_observer:/home/autoware/Autoware/install/autoware_system_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/libwaypoint_follower/lib:/home/autoware/Autoware/install/autoware_health_checker/lib:/home/autoware/Autoware/install/amathutils_lib/lib:/home/autoware/Autoware/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/libwaypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/pkgconfig:/home/autoware/Autoware/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_health_checker/lib/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/libwaypoint_follower/share:/home/autoware/Autoware/install/autoware_health_checker/share:/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/ros_observer/share:/home/autoware/Autoware/install/autoware_system_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_planning/pure_pursuit -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/pure_pursuit
+[0.171s] -- The C compiler identification is GNU 7.5.0
+[0.248s] -- The CXX compiler identification is GNU 7.5.0
+[0.257s] -- Check for working C compiler: /usr/bin/cc
+[0.357s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.357s] -- Detecting C compiler ABI info
+[0.449s] -- Detecting C compiler ABI info - done
+[0.460s] -- Detecting C compile features
+[0.736s] -- Detecting C compile features - done
+[0.740s] -- Check for working CXX compiler: /usr/bin/c++
+[0.850s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.850s] -- Detecting CXX compiler ABI info
+[0.958s] -- Detecting CXX compiler ABI info - done
+[0.965s] -- Detecting CXX compile features
+[1.439s] -- Detecting CXX compile features - done
+[1.443s] -- CUDA compilation status: ON.
+[1.446s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/pure_pursuit/devel
+[1.446s] -- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/libwaypoint_follower;/home/autoware/Autoware/install/autoware_health_checker;/home/autoware/Autoware/install/amathutils_lib;/home/autoware/Autoware/install/ros_observer;/home/autoware/Autoware/install/autoware_system_msgs;/home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_config_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.447s] -- This workspace overlays: /home/autoware/Autoware/install/libwaypoint_follower;/home/autoware/Autoware/install/autoware_health_checker;/home/autoware/Autoware/install/amathutils_lib;/home/autoware/Autoware/install/ros_observer;/home/autoware/Autoware/install/autoware_system_msgs;/home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_config_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.468s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.468s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.469s] -- Using Debian Python package layout
+[1.469s] -- Using empy: /usr/bin/empy
+[1.639s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.639s] -- Call enable_testing()
+[1.644s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/pure_pursuit/test_results
+[1.676s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.676s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.700s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.701s] -- Looking for pthread.h
+[1.797s] -- Looking for pthread.h - found
+[1.797s] -- Looking for pthread_create
+[1.901s] -- Looking for pthread_create - not found
+[1.901s] -- Looking for pthread_create in pthreads
+[1.981s] -- Looking for pthread_create in pthreads - not found
+[1.981s] -- Looking for pthread_create in pthread
+[2.073s] -- Looking for pthread_create in pthread - found
+[2.074s] -- Found Threads: TRUE  
+[2.080s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.133s] -- catkin 0.7.26
+[2.133s] -- BUILD_SHARED_LIBS is on
+[2.370s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.840s] -- Configuring done
+[2.904s] -- Generating done
+[2.918s] -- Build files have been written to: /home/autoware/Autoware/build/pure_pursuit
+[2.925s] Invoked command in '/home/autoware/Autoware/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/libwaypoint_follower:/home/autoware/Autoware/install/autoware_health_checker:/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/ros_observer:/home/autoware/Autoware/install/autoware_system_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/libwaypoint_follower/lib:/home/autoware/Autoware/install/autoware_health_checker/lib:/home/autoware/Autoware/install/amathutils_lib/lib:/home/autoware/Autoware/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/libwaypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/pkgconfig:/home/autoware/Autoware/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_health_checker/lib/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/libwaypoint_follower/share:/home/autoware/Autoware/install/autoware_health_checker/share:/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/ros_observer/share:/home/autoware/Autoware/install/autoware_system_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_planning/pure_pursuit -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/pure_pursuit
+[2.928s] Invoking command in '/home/autoware/Autoware/build/pure_pursuit': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/libwaypoint_follower:/home/autoware/Autoware/install/autoware_health_checker:/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/ros_observer:/home/autoware/Autoware/install/autoware_system_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/libwaypoint_follower/lib:/home/autoware/Autoware/install/autoware_health_checker/lib:/home/autoware/Autoware/install/amathutils_lib/lib:/home/autoware/Autoware/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/libwaypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/pkgconfig:/home/autoware/Autoware/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_health_checker/lib/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/libwaypoint_follower/share:/home/autoware/Autoware/install/autoware_health_checker/share:/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/ros_observer/share:/home/autoware/Autoware/install/autoware_system_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/pure_pursuit -- -j2 -l2
+[2.996s] Scanning dependencies of target autoware_config_msgs_generate_messages_lisp
+[3.011s] [  0%] Built target autoware_config_msgs_generate_messages_lisp
+[3.026s] Scanning dependencies of target autoware_system_msgs_generate_messages_lisp
+[3.040s] [  0%] Built target autoware_system_msgs_generate_messages_lisp
+[3.055s] Scanning dependencies of target geometry_msgs_generate_messages_py
+[3.069s] [  0%] Built target geometry_msgs_generate_messages_py
+[3.084s] Scanning dependencies of target autoware_system_msgs_generate_messages_py
+[3.099s] [  0%] Built target autoware_system_msgs_generate_messages_py
+[3.114s] Scanning dependencies of target sensor_msgs_generate_messages_nodejs
+[3.128s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[3.143s] Scanning dependencies of target roscpp_generate_messages_cpp
+[3.158s] [  0%] Built target roscpp_generate_messages_cpp
+[3.172s] Scanning dependencies of target actionlib_generate_messages_cpp
+[3.187s] [  0%] Built target actionlib_generate_messages_cpp
+[3.202s] Scanning dependencies of target pcl_msgs_generate_messages_eus
+[3.215s] [  0%] Built target pcl_msgs_generate_messages_eus
+[3.230s] Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+[3.244s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[3.258s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_lisp
+[3.272s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[3.292s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_eus
+[3.311s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[3.326s] Scanning dependencies of target tf2_msgs_generate_messages_cpp
+[3.341s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[3.363s] Scanning dependencies of target std_msgs_generate_messages_py
+[3.380s] [  0%] Built target std_msgs_generate_messages_py
+[3.398s] Scanning dependencies of target autoware_msgs_generate_messages_py
+[3.413s] [  0%] Built target autoware_msgs_generate_messages_py
+[3.428s] Scanning dependencies of target std_msgs_generate_messages_nodejs
+[3.443s] [  0%] Built target std_msgs_generate_messages_nodejs
+[3.457s] Scanning dependencies of target sensor_msgs_generate_messages_eus
+[3.470s] [  0%] Built target sensor_msgs_generate_messages_eus
+[3.485s] Scanning dependencies of target _catkin_empty_exported_target
+[3.503s] [  0%] Built target _catkin_empty_exported_target
+[3.518s] Scanning dependencies of target sensor_msgs_generate_messages_cpp
+[3.534s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[3.550s] Scanning dependencies of target autoware_msgs_generate_messages_cpp
+[3.566s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[3.581s] Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+[3.597s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[3.611s] Scanning dependencies of target pcl_msgs_generate_messages_nodejs
+[3.627s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[3.642s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_py
+[3.656s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[3.671s] Scanning dependencies of target sensor_msgs_generate_messages_lisp
+[3.687s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[3.711s] Scanning dependencies of target sensor_msgs_generate_messages_py
+[3.725s] [  0%] Built target sensor_msgs_generate_messages_py
+[3.740s] Scanning dependencies of target tf_generate_messages_py
+[3.755s] [  0%] Built target tf_generate_messages_py
+[3.770s] Scanning dependencies of target std_msgs_generate_messages_cpp
+[3.784s] [  0%] Built target std_msgs_generate_messages_cpp
+[3.798s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_py
+[3.811s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[3.826s] Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+[3.841s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[3.857s] Scanning dependencies of target geometry_msgs_generate_messages_eus
+[3.874s] [  0%] Built target geometry_msgs_generate_messages_eus
+[3.888s] Scanning dependencies of target std_msgs_generate_messages_lisp
+[3.904s] [  0%] Built target std_msgs_generate_messages_lisp
+[3.919s] Scanning dependencies of target roscpp_generate_messages_nodejs
+[3.933s] [  0%] Built target roscpp_generate_messages_nodejs
+[3.949s] Scanning dependencies of target autoware_system_msgs_generate_messages_cpp
+[3.963s] [  0%] Built target autoware_system_msgs_generate_messages_cpp
+[3.978s] Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+[3.992s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[4.006s] Scanning dependencies of target geometry_msgs_generate_messages_lisp
+[4.020s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[4.034s] Scanning dependencies of target pcl_msgs_generate_messages_cpp
+[4.049s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[4.064s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_cpp
+[4.078s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[4.092s] Scanning dependencies of target autoware_msgs_generate_messages_eus
+[4.106s] [  0%] Built target autoware_msgs_generate_messages_eus
+[4.121s] Scanning dependencies of target autoware_msgs_generate_messages_lisp
+[4.136s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[4.152s] Scanning dependencies of target std_msgs_generate_messages_eus
+[4.168s] [  0%] Built target std_msgs_generate_messages_eus
+[4.184s] Scanning dependencies of target autoware_msgs_generate_messages_nodejs
+[4.200s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[4.215s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_eus
+[4.229s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[4.243s] Scanning dependencies of target actionlib_msgs_generate_messages_py
+[4.257s] [  0%] Built target actionlib_msgs_generate_messages_py
+[4.271s] Scanning dependencies of target autoware_config_msgs_generate_messages_eus
+[4.285s] [  0%] Built target autoware_config_msgs_generate_messages_eus
+[4.299s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_lisp
+[4.313s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[4.327s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs
+[4.341s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[4.355s] Scanning dependencies of target autoware_system_msgs_generate_messages_nodejs
+[4.370s] [  0%] Built target autoware_system_msgs_generate_messages_nodejs
+[4.385s] Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+[4.400s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[4.414s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_cpp
+[4.429s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[4.444s] Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+[4.459s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[4.474s] Scanning dependencies of target tf_generate_messages_eus
+[4.488s] [  0%] Built target tf_generate_messages_eus
+[4.503s] Scanning dependencies of target tf_generate_messages_lisp
+[4.517s] [  0%] Built target tf_generate_messages_lisp
+[4.533s] Scanning dependencies of target autoware_config_msgs_generate_messages_nodejs
+[4.548s] [  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[4.563s] Scanning dependencies of target tf_generate_messages_nodejs
+[4.577s] [  0%] Built target tf_generate_messages_nodejs
+[4.592s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs
+[4.607s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[4.621s] Scanning dependencies of target roscpp_generate_messages_lisp
+[4.640s] [  0%] Built target roscpp_generate_messages_lisp
+[4.654s] Scanning dependencies of target roscpp_generate_messages_py
+[4.668s] [  0%] Built target roscpp_generate_messages_py
+[4.682s] Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+[4.697s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[4.713s] Scanning dependencies of target autoware_config_msgs_generate_messages_cpp
+[4.729s] [  0%] Built target autoware_config_msgs_generate_messages_cpp
+[4.744s] Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+[4.759s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[4.774s] Scanning dependencies of target roscpp_generate_messages_eus
+[4.789s] [  0%] Built target roscpp_generate_messages_eus
+[4.805s] Scanning dependencies of target actionlib_msgs_generate_messages_eus
+[4.819s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[4.835s] Scanning dependencies of target rosgraph_msgs_generate_messages_py
+[4.851s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[4.867s] Scanning dependencies of target autoware_config_msgs_generate_messages_py
+[4.884s] [  0%] Built target autoware_config_msgs_generate_messages_py
+[4.902s] Scanning dependencies of target pcl_msgs_generate_messages_py
+[4.918s] [  0%] Built target pcl_msgs_generate_messages_py
+[4.934s] Scanning dependencies of target actionlib_generate_messages_eus
+[4.950s] [  0%] Built target actionlib_generate_messages_eus
+[4.966s] Scanning dependencies of target geometry_msgs_generate_messages_cpp
+[4.981s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[4.997s] Scanning dependencies of target actionlib_generate_messages_lisp
+[5.011s] [  0%] Built target actionlib_generate_messages_lisp
+[5.027s] Scanning dependencies of target pcl_msgs_generate_messages_lisp
+[5.041s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[5.055s] Scanning dependencies of target tf_generate_messages_cpp
+[5.069s] [  0%] Built target tf_generate_messages_cpp
+[5.084s] Scanning dependencies of target actionlib_generate_messages_nodejs
+[5.099s] [  0%] Built target actionlib_generate_messages_nodejs
+[5.118s] Scanning dependencies of target autoware_system_msgs_generate_messages_eus
+[5.135s] [  0%] Built target autoware_system_msgs_generate_messages_eus
+[5.150s] Scanning dependencies of target tf2_msgs_generate_messages_eus
+[5.164s] [  0%] Built target tf2_msgs_generate_messages_eus
+[5.178s] Scanning dependencies of target tf2_msgs_generate_messages_lisp
+[5.191s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[5.205s] Scanning dependencies of target actionlib_generate_messages_py
+[5.219s] [  0%] Built target actionlib_generate_messages_py
+[5.233s] Scanning dependencies of target tf2_msgs_generate_messages_py
+[5.247s] [  0%] Built target tf2_msgs_generate_messages_py
+[5.260s] Scanning dependencies of target tf2_msgs_generate_messages_nodejs
+[5.274s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[5.335s] Scanning dependencies of target pure_pursuit
+[5.355s] [ 20%] Building CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit_node.cpp.o
+[11.045s] [ 40%] Building CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o
+[16.483s] [ 60%] Building CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit_core.cpp.o
+[25.129s] [ 80%] Building CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit_viz.cpp.o
+[30.570s] [100%] Linking CXX executable devel/lib/pure_pursuit/pure_pursuit
+[30.792s] [100%] Built target pure_pursuit
+[30.807s] Invoked command in '/home/autoware/Autoware/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/libwaypoint_follower:/home/autoware/Autoware/install/autoware_health_checker:/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/ros_observer:/home/autoware/Autoware/install/autoware_system_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/libwaypoint_follower/lib:/home/autoware/Autoware/install/autoware_health_checker/lib:/home/autoware/Autoware/install/amathutils_lib/lib:/home/autoware/Autoware/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/libwaypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/pkgconfig:/home/autoware/Autoware/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_health_checker/lib/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/libwaypoint_follower/share:/home/autoware/Autoware/install/autoware_health_checker/share:/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/ros_observer/share:/home/autoware/Autoware/install/autoware_system_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/pure_pursuit -- -j2 -l2
+[30.934s] Invoking command in '/home/autoware/Autoware/build/pure_pursuit': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/libwaypoint_follower:/home/autoware/Autoware/install/autoware_health_checker:/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/ros_observer:/home/autoware/Autoware/install/autoware_system_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/libwaypoint_follower/lib:/home/autoware/Autoware/install/autoware_health_checker/lib:/home/autoware/Autoware/install/amathutils_lib/lib:/home/autoware/Autoware/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/libwaypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/pkgconfig:/home/autoware/Autoware/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_health_checker/lib/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/libwaypoint_follower/share:/home/autoware/Autoware/install/autoware_health_checker/share:/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/ros_observer/share:/home/autoware/Autoware/install/autoware_system_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/pure_pursuit --target tests -- -j2 -l2
+[31.021s] Scanning dependencies of target gtest
+[31.035s] [ 14%] Building CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[36.604s] [ 28%] Linking CXX shared library libgtest.so
+[36.703s] [ 28%] Built target gtest
+[36.740s] [ 28%] Built target autoware_system_msgs_generate_messages_lisp
+[36.772s] [ 28%] Built target geometry_msgs_generate_messages_py
+[36.816s] [ 28%] Built target autoware_system_msgs_generate_messages_py
+[36.859s] [ 28%] Built target sensor_msgs_generate_messages_nodejs
+[36.891s] [ 28%] Built target roscpp_generate_messages_cpp
+[36.924s] [ 28%] Built target actionlib_generate_messages_cpp
+[36.956s] [ 28%] Built target pcl_msgs_generate_messages_eus
+[36.987s] [ 28%] Built target rosgraph_msgs_generate_messages_eus
+[37.023s] [ 28%] Built target jsk_recognition_msgs_generate_messages_lisp
+[37.054s] [ 28%] Built target jsk_recognition_msgs_generate_messages_eus
+[37.086s] [ 28%] Built target tf2_msgs_generate_messages_cpp
+[37.116s] [ 28%] Built target std_msgs_generate_messages_py
+[37.147s] [ 28%] Built target autoware_msgs_generate_messages_py
+[37.179s] [ 28%] Built target std_msgs_generate_messages_nodejs
+[37.222s] [ 28%] Built target sensor_msgs_generate_messages_eus
+[37.254s] [ 28%] Built target _catkin_empty_exported_target
+[37.286s] [ 28%] Built target sensor_msgs_generate_messages_cpp
+[37.316s] [ 28%] Built target autoware_msgs_generate_messages_cpp
+[37.348s] [ 28%] Built target rosgraph_msgs_generate_messages_cpp
+[37.382s] [ 28%] Built target pcl_msgs_generate_messages_nodejs
+[37.417s] [ 28%] Built target jsk_recognition_msgs_generate_messages_py
+[37.446s] [ 28%] Built target sensor_msgs_generate_messages_lisp
+[37.475s] [ 28%] Built target sensor_msgs_generate_messages_py
+[37.515s] [ 28%] Built target tf_generate_messages_py
+[37.546s] [ 28%] Built target std_msgs_generate_messages_cpp
+[37.576s] [ 28%] Built target jsk_footstep_msgs_generate_messages_py
+[37.609s] [ 28%] Built target actionlib_msgs_generate_messages_nodejs
+[37.638s] [ 28%] Built target geometry_msgs_generate_messages_eus
+[37.668s] [ 28%] Built target std_msgs_generate_messages_lisp
+[37.696s] [ 28%] Built target roscpp_generate_messages_nodejs
+[37.724s] [ 28%] Built target autoware_system_msgs_generate_messages_cpp
+[37.757s] [ 28%] Built target geometry_msgs_generate_messages_nodejs
+[37.785s] [ 28%] Built target geometry_msgs_generate_messages_lisp
+[37.810s] [ 28%] Built target pcl_msgs_generate_messages_cpp
+[37.836s] [ 28%] Built target jsk_recognition_msgs_generate_messages_cpp
+[37.861s] [ 28%] Built target autoware_msgs_generate_messages_eus
+[37.886s] [ 28%] Built target autoware_msgs_generate_messages_lisp
+[37.917s] [ 28%] Built target std_msgs_generate_messages_eus
+[37.942s] [ 28%] Built target autoware_msgs_generate_messages_nodejs
+[37.973s] [ 28%] Built target jsk_footstep_msgs_generate_messages_eus
+[38.005s] [ 28%] Built target actionlib_msgs_generate_messages_py
+[38.038s] [ 28%] Built target autoware_config_msgs_generate_messages_eus
+[38.071s] [ 28%] Built target jsk_footstep_msgs_generate_messages_lisp
+[38.108s] [ 28%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[38.137s] [ 28%] Built target autoware_system_msgs_generate_messages_nodejs
+[38.168s] [ 28%] Built target actionlib_msgs_generate_messages_lisp
+[38.198s] [ 28%] Built target jsk_footstep_msgs_generate_messages_cpp
+[38.227s] [ 28%] Built target actionlib_msgs_generate_messages_cpp
+[38.256s] [ 28%] Built target tf_generate_messages_eus
+[38.284s] [ 28%] Built target tf_generate_messages_lisp
+[38.312s] [ 28%] Built target autoware_config_msgs_generate_messages_nodejs
+[38.342s] [ 28%] Built target tf_generate_messages_nodejs
+[38.371s] [ 28%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[38.400s] [ 28%] Built target roscpp_generate_messages_lisp
+[38.429s] [ 28%] Built target roscpp_generate_messages_py
+[38.459s] [ 28%] Built target rosgraph_msgs_generate_messages_lisp
+[38.487s] [ 28%] Built target autoware_config_msgs_generate_messages_cpp
+[38.517s] [ 28%] Built target rosgraph_msgs_generate_messages_nodejs
+[38.546s] [ 28%] Built target roscpp_generate_messages_eus
+[38.577s] [ 28%] Built target actionlib_msgs_generate_messages_eus
+[38.603s] [ 28%] Built target rosgraph_msgs_generate_messages_py
+[38.630s] [ 28%] Built target autoware_config_msgs_generate_messages_py
+[38.657s] [ 28%] Built target pcl_msgs_generate_messages_py
+[38.687s] [ 28%] Built target actionlib_generate_messages_eus
+[38.715s] [ 28%] Built target geometry_msgs_generate_messages_cpp
+[38.743s] [ 28%] Built target actionlib_generate_messages_lisp
+[38.772s] [ 28%] Built target pcl_msgs_generate_messages_lisp
+[38.799s] [ 28%] Built target tf_generate_messages_cpp
+[38.826s] [ 28%] Built target actionlib_generate_messages_nodejs
+[38.853s] [ 28%] Built target autoware_system_msgs_generate_messages_eus
+[38.883s] [ 28%] Built target tf2_msgs_generate_messages_eus
+[38.913s] [ 28%] Built target tf2_msgs_generate_messages_lisp
+[38.942s] [ 28%] Built target actionlib_generate_messages_py
+[38.971s] [ 28%] Built target tf2_msgs_generate_messages_py
+[38.999s] [ 28%] Built target tf2_msgs_generate_messages_nodejs
+[39.028s] [ 28%] Built target autoware_config_msgs_generate_messages_lisp
+[39.087s] Scanning dependencies of target test-pure_pursuit
+[39.109s] [ 42%] Building CXX object CMakeFiles/test-pure_pursuit.dir/test/src/test_pure_pursuit.cpp.o
+[46.113s] [ 57%] Building CXX object CMakeFiles/test-pure_pursuit.dir/src/pure_pursuit_core.cpp.o
+[54.638s] [ 71%] Building CXX object CMakeFiles/test-pure_pursuit.dir/src/pure_pursuit.cpp.o
+[59.521s] [ 85%] Building CXX object CMakeFiles/test-pure_pursuit.dir/src/pure_pursuit_viz.cpp.o
+[64.840s] [100%] Linking CXX executable devel/lib/pure_pursuit/test-pure_pursuit
+[65.103s] [100%] Built target test-pure_pursuit
+[65.118s] Scanning dependencies of target tests
+[65.133s] [100%] Built target tests
+[65.150s] Invoked command in '/home/autoware/Autoware/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/libwaypoint_follower:/home/autoware/Autoware/install/autoware_health_checker:/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/ros_observer:/home/autoware/Autoware/install/autoware_system_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/libwaypoint_follower/lib:/home/autoware/Autoware/install/autoware_health_checker/lib:/home/autoware/Autoware/install/amathutils_lib/lib:/home/autoware/Autoware/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/libwaypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/pkgconfig:/home/autoware/Autoware/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_health_checker/lib/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/libwaypoint_follower/share:/home/autoware/Autoware/install/autoware_health_checker/share:/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/ros_observer/share:/home/autoware/Autoware/install/autoware_system_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/pure_pursuit --target tests -- -j2 -l2
+[65.301s] Invoking command in '/home/autoware/Autoware/build/pure_pursuit': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/libwaypoint_follower:/home/autoware/Autoware/install/autoware_health_checker:/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/ros_observer:/home/autoware/Autoware/install/autoware_system_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/libwaypoint_follower/lib:/home/autoware/Autoware/install/autoware_health_checker/lib:/home/autoware/Autoware/install/amathutils_lib/lib:/home/autoware/Autoware/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/libwaypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/pkgconfig:/home/autoware/Autoware/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_health_checker/lib/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/libwaypoint_follower/share:/home/autoware/Autoware/install/autoware_health_checker/share:/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/ros_observer/share:/home/autoware/Autoware/install/autoware_system_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/pure_pursuit --target install -- -j2 -l2
+[65.385s] [  0%] Built target autoware_config_msgs_generate_messages_lisp
+[65.417s] [  0%] Built target autoware_system_msgs_generate_messages_lisp
+[65.448s] [  0%] Built target geometry_msgs_generate_messages_py
+[65.475s] [  0%] Built target autoware_system_msgs_generate_messages_py
+[65.507s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[65.538s] [  0%] Built target roscpp_generate_messages_cpp
+[65.567s] [  0%] Built target actionlib_generate_messages_cpp
+[65.600s] [  0%] Built target pcl_msgs_generate_messages_eus
+[65.631s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[65.665s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[65.697s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[65.727s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[65.758s] [  0%] Built target std_msgs_generate_messages_py
+[65.789s] [  0%] Built target autoware_msgs_generate_messages_py
+[65.820s] [  0%] Built target std_msgs_generate_messages_nodejs
+[65.852s] [  0%] Built target sensor_msgs_generate_messages_eus
+[65.882s] [  0%] Built target _catkin_empty_exported_target
+[65.913s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[65.944s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[65.974s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[66.004s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[66.036s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[66.067s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[66.097s] [  0%] Built target sensor_msgs_generate_messages_py
+[66.126s] [  0%] Built target tf_generate_messages_py
+[66.156s] [  0%] Built target std_msgs_generate_messages_cpp
+[66.188s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[66.220s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[66.260s] [  0%] Built target geometry_msgs_generate_messages_eus
+[66.293s] [  0%] Built target std_msgs_generate_messages_lisp
+[66.325s] [  0%] Built target roscpp_generate_messages_nodejs
+[66.357s] [  0%] Built target autoware_system_msgs_generate_messages_cpp
+[66.386s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[66.417s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[66.448s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[66.478s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[66.508s] [  0%] Built target autoware_msgs_generate_messages_eus
+[66.539s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[66.571s] [  0%] Built target std_msgs_generate_messages_eus
+[66.601s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[66.630s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[66.660s] [  0%] Built target actionlib_msgs_generate_messages_py
+[66.689s] [  0%] Built target autoware_config_msgs_generate_messages_eus
+[66.720s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[66.750s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[66.779s] [  0%] Built target autoware_system_msgs_generate_messages_nodejs
+[66.810s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[66.841s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[66.870s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[66.899s] [  0%] Built target tf_generate_messages_eus
+[66.929s] [  0%] Built target tf_generate_messages_lisp
+[66.958s] [  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[66.988s] [  0%] Built target tf_generate_messages_nodejs
+[67.019s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[67.059s] [  0%] Built target roscpp_generate_messages_lisp
+[67.091s] [  0%] Built target roscpp_generate_messages_py
+[67.121s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[67.152s] [  0%] Built target autoware_config_msgs_generate_messages_cpp
+[67.182s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[67.221s] [  0%] Built target roscpp_generate_messages_eus
+[67.253s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[67.285s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[67.317s] [  0%] Built target autoware_config_msgs_generate_messages_py
+[67.351s] [  0%] Built target pcl_msgs_generate_messages_py
+[67.383s] [  0%] Built target actionlib_generate_messages_eus
+[67.421s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[67.453s] [  0%] Built target actionlib_generate_messages_lisp
+[67.485s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[67.518s] [  0%] Built target tf_generate_messages_cpp
+[67.549s] [  0%] Built target actionlib_generate_messages_nodejs
+[67.584s] [  0%] Built target autoware_system_msgs_generate_messages_eus
+[67.616s] [  0%] Built target tf2_msgs_generate_messages_eus
+[67.649s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[67.680s] [  0%] Built target actionlib_generate_messages_py
+[67.711s] [  0%] Built target tf2_msgs_generate_messages_py
+[67.743s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[67.789s] [100%] Built target pure_pursuit
+[67.820s] Install the project...
+[67.832s] -- Install configuration: "Release"
+[67.833s] -- Installing: /home/autoware/Autoware/install/pure_pursuit/lib/pkgconfig/pure_pursuit.pc
+[67.833s] -- Installing: /home/autoware/Autoware/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+[67.834s] -- Installing: /home/autoware/Autoware/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+[67.834s] -- Installing: /home/autoware/Autoware/install/pure_pursuit/share/pure_pursuit/package.xml
+[67.835s] -- Installing: /home/autoware/Autoware/install/pure_pursuit/lib/pure_pursuit/pure_pursuit
+[67.843s] -- Set runtime path of "/home/autoware/Autoware/install/pure_pursuit/lib/pure_pursuit/pure_pursuit" to ""
+[67.843s] -- Installing: /home/autoware/Autoware/install/pure_pursuit/share/pure_pursuit/launch
+[67.843s] -- Installing: /home/autoware/Autoware/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit.launch
+[67.856s] Invoked command in '/home/autoware/Autoware/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/libwaypoint_follower:/home/autoware/Autoware/install/autoware_health_checker:/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/ros_observer:/home/autoware/Autoware/install/autoware_system_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/libwaypoint_follower/lib:/home/autoware/Autoware/install/autoware_health_checker/lib:/home/autoware/Autoware/install/amathutils_lib/lib:/home/autoware/Autoware/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/libwaypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/pkgconfig:/home/autoware/Autoware/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_health_checker/lib/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/libwaypoint_follower/share:/home/autoware/Autoware/install/autoware_health_checker/share:/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/ros_observer/share:/home/autoware/Autoware/install/autoware_system_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/pure_pursuit --target install -- -j2 -l2

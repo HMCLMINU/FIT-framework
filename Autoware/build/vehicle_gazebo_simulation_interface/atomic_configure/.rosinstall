@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autoware/Autoware/build/vehicle_gazebo_simulation_interface/devel/setup.sh

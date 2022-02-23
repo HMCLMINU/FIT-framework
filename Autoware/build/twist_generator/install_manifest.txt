@@ -1,0 +1,7 @@
+/home/autoware/Autoware/install/twist_generator/lib/pkgconfig/twist_generator.pc
+/home/autoware/Autoware/install/twist_generator/share/twist_generator/cmake/twist_generatorConfig.cmake
+/home/autoware/Autoware/install/twist_generator/share/twist_generator/cmake/twist_generatorConfig-version.cmake
+/home/autoware/Autoware/install/twist_generator/share/twist_generator/package.xml
+/home/autoware/Autoware/install/twist_generator/lib/twist_generator/vehicle_status_converter
+/home/autoware/Autoware/install/twist_generator/share/twist_generator/launch/vehicle_status_converter.launch
+/home/autoware/Autoware/install/twist_generator/include/twist_generator/vehicle_status_converter.hpp

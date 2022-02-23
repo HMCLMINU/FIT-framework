@@ -1,0 +1,8 @@
+Invoking command in '/home/autoware/Autoware/build/ros_observer': /usr/bin/cmake /home/autoware/Autoware/src/autoware/common/ros_observer -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/ros_observer
+Invoked command in '/home/autoware/Autoware/build/ros_observer' returned '0': /usr/bin/cmake /home/autoware/Autoware/src/autoware/common/ros_observer -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/ros_observer
+Invoking command in '/home/autoware/Autoware/build/ros_observer': /usr/bin/cmake --build /home/autoware/Autoware/build/ros_observer -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/ros_observer' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/ros_observer -- -j2 -l2
+Invoking command in '/home/autoware/Autoware/build/ros_observer': /usr/bin/cmake --build /home/autoware/Autoware/build/ros_observer --target tests -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/ros_observer' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/ros_observer --target tests -- -j2 -l2
+Invoking command in '/home/autoware/Autoware/build/ros_observer': /usr/bin/cmake --build /home/autoware/Autoware/build/ros_observer --target install -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/ros_observer' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/ros_observer --target install -- -j2 -l2

@@ -1,0 +1,86 @@
+[0.015s] Invoking command in '/home/autoware/Autoware/build/glviewer': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/visualization/glviewer -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/glviewer
+[0.105s] -- The C compiler identification is GNU 7.5.0
+[0.178s] -- The CXX compiler identification is GNU 7.5.0
+[0.185s] -- Check for working C compiler: /usr/bin/cc
+[0.276s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.276s] -- Detecting C compiler ABI info
+[0.355s] -- Detecting C compiler ABI info - done
+[0.366s] -- Detecting C compile features
+[0.623s] -- Detecting C compile features - done
+[0.628s] -- Check for working CXX compiler: /usr/bin/c++
+[0.731s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.732s] -- Detecting CXX compiler ABI info
+[0.831s] -- Detecting CXX compiler ABI info - done
+[0.834s] -- Detecting CXX compile features
+[1.290s] -- Detecting CXX compile features - done
+[1.295s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.296s] -- CUDA compilation status: ON.
+[1.298s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/glviewer/devel
+[1.299s] -- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.299s] -- This workspace overlays: /home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.316s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.316s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.316s] -- Using Debian Python package layout
+[1.318s] -- Using empy: /usr/bin/empy
+[1.472s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.472s] -- Call enable_testing()
+[1.479s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/glviewer/test_results
+[1.501s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.502s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.516s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.517s] -- Looking for pthread.h
+[1.600s] -- Looking for pthread.h - found
+[1.601s] -- Looking for pthread_create
+[1.687s] -- Looking for pthread_create - not found
+[1.687s] -- Looking for pthread_create in pthreads
+[1.755s] -- Looking for pthread_create in pthreads - not found
+[1.756s] -- Looking for pthread_create in pthread
+[1.851s] -- Looking for pthread_create in pthread - found
+[1.851s] -- Found Threads: TRUE  
+[1.855s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.897s] -- catkin 0.7.26
+[1.897s] -- BUILD_SHARED_LIBS is on
+[2.136s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.273s] -- Configuring done
+[2.299s] -- Generating done
+[2.308s] -- Build files have been written to: /home/autoware/Autoware/build/glviewer
+[2.309s] Invoked command in '/home/autoware/Autoware/build/glviewer' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/visualization/glviewer -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/glviewer
+[2.312s] Invoking command in '/home/autoware/Autoware/build/glviewer': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/glviewer -- -j2 -l2
+[2.365s] Scanning dependencies of target glviewer_autogen
+[2.379s] [ 16%] Automatic MOC for target glviewer
+[2.408s] [ 16%] Built target glviewer_autogen
+[2.419s] [ 33%] Generating include/glviewer/moc_glviewer.cpp
+[2.788s] Scanning dependencies of target glviewer
+[2.807s] [ 50%] Building CXX object CMakeFiles/glviewer.dir/GLViewer/glviewer.cpp.o
+[6.519s] In file included from /usr/local/include/eigen3/Eigen/Core:450:0,
+[6.519s]                  from /usr/local/include/eigen3/Eigen/Dense:1,
+[6.519s]                  from /home/autoware/Autoware/src/autoware/visualization/glviewer/include/glviewer/glviewer.h:22,
+[6.520s]                  from /home/autoware/Autoware/src/autoware/visualization/glviewer/GLViewer/glviewer.cpp:17:
+[6.520s] /usr/local/include/eigen3/Eigen/src/Core/DenseStorage.h: In member function ‘void GLViewer::addDisplayLists(GLuint, GLuint)’:
+[6.520s] /usr/local/include/eigen3/Eigen/src/Core/DenseStorage.h:194:66: warning: ‘*((void*)(& list)+16).Eigen::DenseStorage<double, 16, 4, 4, 0>::m_data’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+[6.520s]      DenseStorage(const DenseStorage& other) : m_data(other.m_data) {
+[6.520s]                                                                   ^
+[6.908s] [ 66%] Building CXX object CMakeFiles/glviewer.dir/include/glviewer/moc_glviewer.cpp.o
+[8.533s] [ 83%] Building CXX object CMakeFiles/glviewer.dir/glviewer_autogen/mocs_compilation.cpp.o
+[8.559s] [100%] Linking CXX shared library devel/lib/libglviewer.so
+[8.882s] [100%] Built target glviewer
+[8.898s] Invoked command in '/home/autoware/Autoware/build/glviewer' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/glviewer -- -j2 -l2
+[8.958s] Invoking command in '/home/autoware/Autoware/build/glviewer': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/glviewer --target tests -- -j2 -l2
+[9.019s] Scanning dependencies of target tests
+[9.030s] Built target tests
+[9.045s] Invoked command in '/home/autoware/Autoware/build/glviewer' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/glviewer --target tests -- -j2 -l2
+[9.103s] Invoking command in '/home/autoware/Autoware/build/glviewer': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/glviewer --target install -- -j2 -l2
+[9.169s] [ 16%] Automatic MOC for target glviewer
+[9.189s] [ 16%] Built target glviewer_autogen
+[9.227s] [100%] Built target glviewer
+[9.249s] Install the project...
+[9.260s] -- Install configuration: "Release"
+[9.260s] -- Installing: /home/autoware/Autoware/install/glviewer/lib/pkgconfig/glviewer.pc
+[9.261s] -- Installing: /home/autoware/Autoware/install/glviewer/share/glviewer/cmake/glviewerConfig.cmake
+[9.261s] -- Installing: /home/autoware/Autoware/install/glviewer/share/glviewer/cmake/glviewerConfig-version.cmake
+[9.262s] -- Installing: /home/autoware/Autoware/install/glviewer/share/glviewer/package.xml
+[9.262s] -- Installing: /home/autoware/Autoware/install/glviewer/include/glviewer
+[9.263s] -- Installing: /home/autoware/Autoware/install/glviewer/include/glviewer/glviewer.h
+[9.263s] -- Installing: /home/autoware/Autoware/install/glviewer/lib/libglviewer.so
+[9.268s] -- Set runtime path of "/home/autoware/Autoware/install/glviewer/lib/libglviewer.so" to ""
+[9.275s] Invoked command in '/home/autoware/Autoware/build/glviewer' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/glviewer --target install -- -j2 -l2

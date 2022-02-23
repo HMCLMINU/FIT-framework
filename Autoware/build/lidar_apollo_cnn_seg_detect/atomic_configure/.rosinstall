@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autoware/Autoware/build/lidar_apollo_cnn_seg_detect/devel/setup.sh

@@ -1,0 +1,8 @@
+prefix=/home/autoware/Autoware/build/ndt_tku/devel
+
+Name: ndt_tku
+Description: Description of ndt_tku
+Version: 1.12.0
+Cflags: -I/home/autoware/Autoware/src/autoware/core_perception/ndt_tku/include
+Libs: -L${prefix}/lib -lndt_tku
+Requires: 

@@ -1,0 +1,14 @@
+[0.738s] Invoking command in '/home/autoware/Autoware/build/pc2_downsampler': /usr/bin/cmake --build /home/autoware/Autoware/build/pc2_downsampler -- -j32 -l32
+[1.054s] Invoked command in '/home/autoware/Autoware/build/pc2_downsampler' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/pc2_downsampler -- -j32 -l32
+[1.341s] Invoking command in '/home/autoware/Autoware/build/pc2_downsampler': /usr/bin/cmake --build /home/autoware/Autoware/build/pc2_downsampler --target tests -- -j32 -l32
+[1.445s] Built target tests
+[1.514s] Invoked command in '/home/autoware/Autoware/build/pc2_downsampler' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/pc2_downsampler --target tests -- -j32 -l32
+[1.749s] Invoking command in '/home/autoware/Autoware/build/pc2_downsampler': /usr/bin/cmake --build /home/autoware/Autoware/build/pc2_downsampler --target install -- -j32 -l32
+[1.906s] Install the project...
+[1.906s] -- Install configuration: "Release"
+[1.906s] -- Up-to-date: /home/autoware/Autoware/install/pc2_downsampler/lib/pkgconfig/pc2_downsampler.pc
+[1.906s] -- Up-to-date: /home/autoware/Autoware/install/pc2_downsampler/share/pc2_downsampler/cmake/pc2_downsamplerConfig.cmake
+[1.906s] -- Up-to-date: /home/autoware/Autoware/install/pc2_downsampler/share/pc2_downsampler/cmake/pc2_downsamplerConfig-version.cmake
+[1.906s] -- Up-to-date: /home/autoware/Autoware/install/pc2_downsampler/share/pc2_downsampler/package.xml
+[1.906s] -- Up-to-date: /home/autoware/Autoware/install/pc2_downsampler/lib/pc2_downsampler/app.py
+[2.063s] Invoked command in '/home/autoware/Autoware/build/pc2_downsampler' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/pc2_downsampler --target install -- -j32 -l32

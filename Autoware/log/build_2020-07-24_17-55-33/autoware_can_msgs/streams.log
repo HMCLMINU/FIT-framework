@@ -1,0 +1,170 @@
+[0.011s] Invoking command in '/home/autoware/Autoware/build/autoware_can_msgs': /usr/bin/cmake /home/autoware/Autoware/src/autoware/messages/autoware_can_msgs -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/autoware_can_msgs
+[0.132s] -- The C compiler identification is GNU 7.5.0
+[0.254s] -- The CXX compiler identification is GNU 7.5.0
+[0.260s] -- Check for working C compiler: /usr/bin/cc
+[0.422s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.422s] -- Detecting C compiler ABI info
+[0.598s] -- Detecting C compiler ABI info - done
+[0.612s] -- Detecting C compile features
+[0.985s] -- Detecting C compile features - done
+[0.989s] -- Check for working CXX compiler: /usr/bin/c++
+[1.155s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.156s] -- Detecting CXX compiler ABI info
+[1.340s] -- Detecting CXX compiler ABI info - done
+[1.351s] -- Detecting CXX compile features
+[1.829s] -- Detecting CXX compile features - done
+[1.832s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/autoware_can_msgs/devel
+[1.832s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[1.832s] -- This workspace overlays: /opt/ros/melodic
+[1.849s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.850s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.850s] -- Using Debian Python package layout
+[1.850s] -- Using empy: /usr/bin/empy
+[2.013s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.013s] -- Call enable_testing()
+[2.015s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/autoware_can_msgs/test_results
+[2.048s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.048s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.062s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.062s] -- Looking for pthread.h
+[2.162s] -- Looking for pthread.h - found
+[2.162s] -- Looking for pthread_create
+[2.302s] -- Looking for pthread_create - not found
+[2.302s] -- Looking for pthread_create in pthreads
+[2.502s] -- Looking for pthread_create in pthreads - not found
+[2.502s] -- Looking for pthread_create in pthread
+[2.738s] -- Looking for pthread_create in pthread - found
+[2.738s] -- Found Threads: TRUE  
+[2.743s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.806s] -- catkin 0.7.26
+[2.806s] -- BUILD_SHARED_LIBS is on
+[2.989s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.309s] -- autoware_can_msgs: 3 messages, 0 services
+[3.498s] -- Configuring done
+[3.534s] -- Generating done
+[3.542s] -- Build files have been written to: /home/autoware/Autoware/build/autoware_can_msgs
+[3.550s] Invoked command in '/home/autoware/Autoware/build/autoware_can_msgs' returned '0': /usr/bin/cmake /home/autoware/Autoware/src/autoware/messages/autoware_can_msgs -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/autoware_can_msgs
+[3.551s] Invoking command in '/home/autoware/Autoware/build/autoware_can_msgs': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_can_msgs -- -j2 -l2
+[3.670s] Scanning dependencies of target _autoware_can_msgs_generate_messages_check_deps_CANPacket
+[3.715s] [  0%] Built target _autoware_can_msgs_generate_messages_check_deps_CANPacket
+[3.764s] Scanning dependencies of target std_msgs_generate_messages_cpp
+[3.787s] [  0%] Built target std_msgs_generate_messages_cpp
+[3.814s] Scanning dependencies of target _autoware_can_msgs_generate_messages_check_deps_CANData
+[3.919s] [  0%] Built target _autoware_can_msgs_generate_messages_check_deps_CANData
+[3.939s] Scanning dependencies of target _autoware_can_msgs_generate_messages_check_deps_CANInfo
+[4.042s] [  0%] Built target _autoware_can_msgs_generate_messages_check_deps_CANInfo
+[4.083s] Scanning dependencies of target std_msgs_generate_messages_py
+[4.116s] [  0%] Built target std_msgs_generate_messages_py
+[4.168s] Scanning dependencies of target std_msgs_generate_messages_nodejs
+[4.197s] [  0%] Built target std_msgs_generate_messages_nodejs
+[4.244s] Scanning dependencies of target std_msgs_generate_messages_lisp
+[4.269s] [  0%] Built target std_msgs_generate_messages_lisp
+[4.296s] Scanning dependencies of target std_msgs_generate_messages_eus
+[4.309s] [  0%] Built target std_msgs_generate_messages_eus
+[4.333s] Scanning dependencies of target autoware_can_msgs_generate_messages_cpp
+[4.356s] [  5%] Generating C++ code from autoware_can_msgs/CANInfo.msg
+[4.594s] [ 11%] Generating C++ code from autoware_can_msgs/CANPacket.msg
+[4.785s] [ 17%] Generating C++ code from autoware_can_msgs/CANData.msg
+[4.993s] [ 17%] Built target autoware_can_msgs_generate_messages_cpp
+[5.027s] Scanning dependencies of target autoware_can_msgs_generate_messages_py
+[5.068s] [ 23%] Generating Python from MSG autoware_can_msgs/CANInfo
+[5.272s] [ 29%] Generating Python from MSG autoware_can_msgs/CANPacket
+[5.439s] [ 35%] Generating Python from MSG autoware_can_msgs/CANData
+[5.587s] [ 41%] Generating Python msg __init__.py for autoware_can_msgs
+[5.723s] [ 41%] Built target autoware_can_msgs_generate_messages_py
+[5.737s] Scanning dependencies of target autoware_can_msgs_generate_messages_nodejs
+[5.751s] [ 47%] Generating Javascript code from autoware_can_msgs/CANInfo.msg
+[5.803s] [ 52%] Generating Javascript code from autoware_can_msgs/CANPacket.msg
+[5.853s] [ 58%] Generating Javascript code from autoware_can_msgs/CANData.msg
+[5.905s] [ 58%] Built target autoware_can_msgs_generate_messages_nodejs
+[5.932s] Scanning dependencies of target autoware_can_msgs_generate_messages_lisp
+[5.944s] [ 64%] Generating Lisp code from autoware_can_msgs/CANInfo.msg
+[5.995s] [ 70%] Generating Lisp code from autoware_can_msgs/CANPacket.msg
+[6.051s] [ 76%] Generating Lisp code from autoware_can_msgs/CANData.msg
+[6.099s] [ 76%] Built target autoware_can_msgs_generate_messages_lisp
+[6.120s] Scanning dependencies of target autoware_can_msgs_generate_messages_eus
+[6.136s] [ 82%] Generating EusLisp code from autoware_can_msgs/CANInfo.msg
+[6.219s] [ 88%] Generating EusLisp code from autoware_can_msgs/CANPacket.msg
+[6.292s] [ 94%] Generating EusLisp code from autoware_can_msgs/CANData.msg
+[6.415s] [100%] Generating EusLisp manifest code for autoware_can_msgs
+[7.444s] [100%] Built target autoware_can_msgs_generate_messages_eus
+[7.458s] Scanning dependencies of target autoware_can_msgs_generate_messages
+[7.479s] [100%] Built target autoware_can_msgs_generate_messages
+[7.494s] Invoked command in '/home/autoware/Autoware/build/autoware_can_msgs' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_can_msgs -- -j2 -l2
+[7.549s] Invoking command in '/home/autoware/Autoware/build/autoware_can_msgs': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_can_msgs --target tests -- -j2 -l2
+[7.614s] Scanning dependencies of target tests
+[7.626s] Built target tests
+[7.640s] Invoked command in '/home/autoware/Autoware/build/autoware_can_msgs' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_can_msgs --target tests -- -j2 -l2
+[7.696s] Invoking command in '/home/autoware/Autoware/build/autoware_can_msgs': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_can_msgs --target install -- -j2 -l2
+[7.787s] [  0%] Built target _autoware_can_msgs_generate_messages_check_deps_CANPacket
+[7.811s] [  0%] Built target std_msgs_generate_messages_cpp
+[7.863s] [  0%] Built target _autoware_can_msgs_generate_messages_check_deps_CANData
+[7.913s] [  0%] Built target _autoware_can_msgs_generate_messages_check_deps_CANInfo
+[7.937s] [  0%] Built target std_msgs_generate_messages_py
+[7.961s] [  0%] Built target std_msgs_generate_messages_nodejs
+[7.986s] [  0%] Built target std_msgs_generate_messages_lisp
+[8.010s] [  0%] Built target std_msgs_generate_messages_eus
+[8.037s] [ 17%] Built target autoware_can_msgs_generate_messages_cpp
+[8.067s] [ 41%] Built target autoware_can_msgs_generate_messages_py
+[8.093s] [ 58%] Built target autoware_can_msgs_generate_messages_nodejs
+[8.116s] [ 76%] Built target autoware_can_msgs_generate_messages_lisp
+[8.140s] [100%] Built target autoware_can_msgs_generate_messages_eus
+[8.165s] [100%] Built target autoware_can_msgs_generate_messages
+[8.187s] Install the project...
+[8.198s] -- Install configuration: "Release"
+[8.199s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/autoware_can_msgs/msg/CANData.msg
+[8.199s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/autoware_can_msgs/msg/CANInfo.msg
+[8.200s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/autoware_can_msgs/msg/CANPacket.msg
+[8.200s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/autoware_can_msgs/cmake/autoware_can_msgs-msg-paths.cmake
+[8.201s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/include/autoware_can_msgs
+[8.201s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/include/autoware_can_msgs/CANPacket.h
+[8.201s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/include/autoware_can_msgs/CANData.h
+[8.202s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/include/autoware_can_msgs/CANInfo.h
+[8.202s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/roseus/ros/autoware_can_msgs
+[8.203s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/roseus/ros/autoware_can_msgs/msg
+[8.203s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/roseus/ros/autoware_can_msgs/msg/CANInfo.l
+[8.204s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/roseus/ros/autoware_can_msgs/msg/CANPacket.l
+[8.204s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/roseus/ros/autoware_can_msgs/msg/CANData.l
+[8.204s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/roseus/ros/autoware_can_msgs/manifest.l
+[8.205s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs
+[8.205s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs/msg
+[8.206s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs/msg/_package_CANData.lisp
+[8.206s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs/msg/_package_CANInfo.lisp
+[8.207s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs/msg/CANData.lisp
+[8.207s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs/msg/CANPacket.lisp
+[8.207s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs/msg/_package.lisp
+[8.207s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs/msg/_package_CANPacket.lisp
+[8.208s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs/msg/CANInfo.lisp
+[8.208s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/common-lisp/ros/autoware_can_msgs/msg/autoware_can_msgs-msg.asd
+[8.209s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/gennodejs/ros/autoware_can_msgs
+[8.209s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/gennodejs/ros/autoware_can_msgs/msg
+[8.209s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/gennodejs/ros/autoware_can_msgs/msg/CANInfo.js
+[8.210s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/gennodejs/ros/autoware_can_msgs/msg/_index.js
+[8.210s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/gennodejs/ros/autoware_can_msgs/msg/CANData.js
+[8.210s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/gennodejs/ros/autoware_can_msgs/msg/CANPacket.js
+[8.211s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/gennodejs/ros/autoware_can_msgs/_index.js
+[8.232s] Listing /home/autoware/Autoware/build/autoware_can_msgs/devel/lib/python2.7/dist-packages/autoware_can_msgs ...
+[8.232s] Compiling /home/autoware/Autoware/build/autoware_can_msgs/devel/lib/python2.7/dist-packages/autoware_can_msgs/__init__.py ...
+[8.232s] Listing /home/autoware/Autoware/build/autoware_can_msgs/devel/lib/python2.7/dist-packages/autoware_can_msgs/msg ...
+[8.232s] Compiling /home/autoware/Autoware/build/autoware_can_msgs/devel/lib/python2.7/dist-packages/autoware_can_msgs/msg/_CANData.py ...
+[8.232s] Compiling /home/autoware/Autoware/build/autoware_can_msgs/devel/lib/python2.7/dist-packages/autoware_can_msgs/msg/_CANInfo.py ...
+[8.232s] Compiling /home/autoware/Autoware/build/autoware_can_msgs/devel/lib/python2.7/dist-packages/autoware_can_msgs/msg/_CANPacket.py ...
+[8.232s] Compiling /home/autoware/Autoware/build/autoware_can_msgs/devel/lib/python2.7/dist-packages/autoware_can_msgs/msg/__init__.py ...
+[8.240s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages/autoware_can_msgs
+[8.240s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages/autoware_can_msgs/msg
+[8.240s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages/autoware_can_msgs/msg/_CANData.py
+[8.240s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages/autoware_can_msgs/msg/_CANPacket.py
+[8.240s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages/autoware_can_msgs/msg/__init__.pyc
+[8.240s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages/autoware_can_msgs/msg/_CANInfo.pyc
+[8.240s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages/autoware_can_msgs/msg/_CANInfo.py
+[8.241s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages/autoware_can_msgs/msg/__init__.py
+[8.241s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages/autoware_can_msgs/msg/_CANData.pyc
+[8.241s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages/autoware_can_msgs/msg/_CANPacket.pyc
+[8.241s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages/autoware_can_msgs/__init__.pyc
+[8.241s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages/autoware_can_msgs/__init__.py
+[8.241s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig/autoware_can_msgs.pc
+[8.241s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/autoware_can_msgs/cmake/autoware_can_msgs-msg-extras.cmake
+[8.241s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/autoware_can_msgs/cmake/autoware_can_msgsConfig.cmake
+[8.241s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/autoware_can_msgs/cmake/autoware_can_msgsConfig-version.cmake
+[8.241s] -- Installing: /home/autoware/Autoware/install/autoware_can_msgs/share/autoware_can_msgs/package.xml
+[8.250s] Invoked command in '/home/autoware/Autoware/build/autoware_can_msgs' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_can_msgs --target install -- -j2 -l2

@@ -1,0 +1,9 @@
+/home/autoware/Autoware/install/pos_db/lib/pkgconfig/pos_db.pc
+/home/autoware/Autoware/install/pos_db/share/pos_db/cmake/pos_dbConfig.cmake
+/home/autoware/Autoware/install/pos_db/share/pos_db/cmake/pos_dbConfig-version.cmake
+/home/autoware/Autoware/install/pos_db/share/pos_db/package.xml
+/home/autoware/Autoware/install/pos_db/lib/pos_db/pos_downloader
+/home/autoware/Autoware/install/pos_db/lib/libpos_db.so
+/home/autoware/Autoware/install/pos_db/lib/pos_db/pos_uploader
+/home/autoware/Autoware/install/pos_db/include/pos_db/include/pos_db.h
+/home/autoware/Autoware/install/pos_db/share/pos_db/model/prius_model.dae

@@ -1,0 +1,6 @@
+Invoking command in '/home/autoware/Autoware/build/sound_player': /usr/bin/cmake --build /home/autoware/Autoware/build/sound_player -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/sound_player' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/sound_player -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/sound_player': /usr/bin/cmake --build /home/autoware/Autoware/build/sound_player --target tests -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/sound_player' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/sound_player --target tests -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/sound_player': /usr/bin/cmake --build /home/autoware/Autoware/build/sound_player --target install -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/sound_player' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/sound_player --target install -- -j32 -l32

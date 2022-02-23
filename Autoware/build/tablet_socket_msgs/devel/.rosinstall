@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autoware/Autoware/build/tablet_socket_msgs/devel/setup.sh

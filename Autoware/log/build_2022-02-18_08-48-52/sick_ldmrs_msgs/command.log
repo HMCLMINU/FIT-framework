@@ -1,0 +1,2 @@
+Invoking command in '/home/autoware/Autoware/build/sick_ldmrs_msgs': /usr/bin/cmake /home/autoware/Autoware/src/drivers/awf_drivers/sick_ldmrs_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/sick_ldmrs_msgs
+Invoked command in '/home/autoware/Autoware/build/sick_ldmrs_msgs' returned '-2': /usr/bin/cmake /home/autoware/Autoware/src/drivers/awf_drivers/sick_ldmrs_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/sick_ldmrs_msgs

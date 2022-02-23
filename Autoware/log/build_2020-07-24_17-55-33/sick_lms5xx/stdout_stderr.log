@@ -1,0 +1,830 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/sick_lms5xx/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+-- This workspace overlays: /opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/sick_lms5xx/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.26
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/autoware/Autoware/build/sick_lms5xx
+Scanning dependencies of target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+Scanning dependencies of target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_nodejs
+Scanning dependencies of target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_lisp
+Scanning dependencies of target actionlib_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_eus
+Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+Scanning dependencies of target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+Scanning dependencies of target actionlib_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+Scanning dependencies of target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+Scanning dependencies of target tf2_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_py
+Scanning dependencies of target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+Scanning dependencies of target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_eus
+Scanning dependencies of target tf2_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+Scanning dependencies of target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_py
+Scanning dependencies of target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_py
+Scanning dependencies of target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+Scanning dependencies of target tf_generate_messages_eus
+[  0%] Built target tf_generate_messages_eus
+Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+Scanning dependencies of target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+Scanning dependencies of target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+Scanning dependencies of target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+Scanning dependencies of target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_nodejs
+Scanning dependencies of target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+Scanning dependencies of target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+Scanning dependencies of target tf_generate_messages_lisp
+[  0%] Built target tf_generate_messages_lisp
+Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+Scanning dependencies of target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+Scanning dependencies of target tf_generate_messages_py
+[  0%] Built target tf_generate_messages_py
+Scanning dependencies of target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+Scanning dependencies of target tf_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_nodejs
+Scanning dependencies of target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+Scanning dependencies of target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+Scanning dependencies of target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_eus
+Scanning dependencies of target tf_generate_messages_cpp
+[  0%] Built target tf_generate_messages_cpp
+Scanning dependencies of target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+Scanning dependencies of target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+Scanning dependencies of target actionlib_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_cpp
+Scanning dependencies of target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+Scanning dependencies of target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+Scanning dependencies of target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+Scanning dependencies of target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+Scanning dependencies of target lms511_node
+[ 20%] Building CXX object CMakeFiles/lms511_node.dir/nodes/lms511/src/lms5xx_node.cpp.o
+In file included from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:33:0,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/lms5xx_node.cpp:40:
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:87:29: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _startListening( ) throw( SickThreadException );
+                             ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:90:29: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _stopListening( )  throw( SickThreadException );
+                             ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:96:34: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _setBlockingIO( ) const throw ( SickIOException );
+                                  ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:99:37: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _setNonBlockingIO( ) const throw ( SickIOException );
+                                     ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:103:7: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+       throw( SickIOException );
+       ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:106:95: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _recvMessage( SICK_MSG_CLASS &sick_message, const unsigned int timeout_value ) const throw ( SickTimeoutException );
+                                                                                               ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:112:65: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                        const unsigned int timeout_value ) const throw ( SickTimeoutException );
+                                                                 ^~~~~
+In file included from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:33:0,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/lms5xx_node.cpp:40:
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:124:74: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                                           const unsigned int num_tries ) throw( SickTimeoutException, SickIOException);
+                                                                          ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:162:76: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_startListening( ) throw( SickThreadException ) {
+                                                                            ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:190:75: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_stopListening( ) throw( SickThreadException ) {
+                                                                           ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:218:81: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_setBlockingIO( ) const throw( SickIOException ) {
+                                                                                 ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:237:84: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_setNonBlockingIO( ) const throw ( SickIOException ) {
+                                                                                    ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:259:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw( SickIOException ) {
+     ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:302:112: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                                                                       const unsigned int timeout_value ) const throw ( SickTimeoutException ) {
+                                                                                                                ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:340:112: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                                                                       const unsigned int timeout_value ) const throw( SickTimeoutException ) {
+                                                                                                                ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:405:82: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                                                                                  throw( SickTimeoutException, SickIOException ) {
+                                                                                  ^~~~~
+In file included from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:25:0,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:34,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/lms5xx_node.cpp:40:
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxMessage.hh:54:63: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void ParseMessage( const uint8_t * const message_buffer ) throw ( SickIOException );
+                                                               ^~~~~
+In file included from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:26:0,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:34,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/lms5xx_node.cpp:40:
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:37:70: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) throw( SickThreadException );
+                                                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:40:54: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void SetDataStream( const unsigned int sick_fd ) throw( SickThreadException );
+                                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:43:53: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void StartMonitor( const unsigned int sick_fd ) throw( SickThreadException );
+                                                     ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:46:68: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     bool GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) throw( SickThreadException );
+                                                                    ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:49:25: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void StopMonitor( ) throw( SickThreadException );
+                         ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:52:31: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void AcquireDataStream( ) throw( SickThreadException );
+                               ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:58:31: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void ReleaseDataStream( ) throw( SickThreadException );
+                               ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:61:27: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     ~SickBufferMonitor( ) throw( SickThreadException );
+                           ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:69:125: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _readBytes( uint8_t * const dest_buffer, const int num_bytes_to_read, const unsigned int timeout_value = 0 ) const throw ( SickTimeoutException, SickIOException );
+                                                                                                                             ^~~~~
+In file included from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:26:0,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:34,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/lms5xx_node.cpp:40:
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:92:38: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _acquireMessageContainer( ) throw( SickThreadException );
+                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:95:38: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _releaseMessageContainer( ) throw( SickThreadException );
+                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:107:125: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) throw( SickThreadException ) :
+                                                                                                                             ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:127:109: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::SetDataStream( const unsigned int sick_fd ) throw ( SickThreadException ) {
+                                                                                                             ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:160:108: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::StartMonitor( const unsigned int sick_fd ) throw ( SickThreadException ) {
+                                                                                                            ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:181:123: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   bool SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) throw( SickThreadException ) {
+                                                                                                                           ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:227:80: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::StopMonitor( ) throw ( SickThreadException ) {
+                                                                                ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:263:86: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::AcquireDataStream( ) throw( SickThreadException ) {
+                                                                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:276:86: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::ReleaseDataStream( ) throw( SickThreadException ) {
+                                                                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:289:82: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::~SickBufferMonitor( ) throw( SickThreadException ) {
+                                                                                  ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:307:93: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_acquireMessageContainer( ) throw( SickThreadException ) {
+                                                                                             ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:320:93: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_releaseMessageContainer( ) throw( SickThreadException ) {
+                                                                                             ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:338:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw ( SickTimeoutException, SickIOException ) {
+     ^~~~~
+In file included from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:34:0,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/lms5xx_node.cpp:40:
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:43:74: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void GetNextMessageFromDataStream( SickLMS5xxMessage &sick_message ) throw( SickIOException );
+                                                                          ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:51:39: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _flushTCPRecvBuffer( ) const throw ( SickIOException );
+                                       ^~~~~
+In file included from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/lms5xx_node.cpp:40:0:
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:137:54: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void Initialize( const bool disp_banner = true ) throw( SickIOException, SickThreadException, SickTimeoutException, SickErrorException );
+                                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:141:74: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                                 const sick_lms_5xx_scan_res_t scan_res ) throw( SickTimeoutException, SickIOException, SickErrorException );
+                                                                          ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:144:68: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void SetSickEchoFilter(sick_lms_5xx_echo_filter_t echo_filter) throw( SickTimeoutException, SickIOException, SickErrorException );
+                                                                    ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:147:55: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     sick_lms_5xx_scan_freq_t GetSickScanFreq( ) const throw ( SickIOException );
+                                                       ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:150:53: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     sick_lms_5xx_scan_res_t GetSickScanRes( ) const throw ( SickIOException );
+                                                     ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:153:39: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     double GetSickStartAngle( ) const throw ( SickIOException );
+                                       ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:156:38: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     double GetSickStopAngle( ) const throw ( SickIOException );
+                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:159:80: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void SetSickScanDataFormat( const sick_lms_5xx_scan_format_t scan_format ) throw( SickTimeoutException, SickIOException, SickThreadException, SickErrorException );
+                                                                                ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:173:72: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                               unsigned int * const dev_status = NULL ) throw ( SickIOException, SickConfigException, SickTimeoutException );
+                                                                        ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:176:56: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void Uninitialize( const bool disp_banner = true ) throw( SickIOException, SickTimeoutException, SickErrorException, SickThreadException );
+                                                        ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:239:30: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _setupConnection( ) throw( SickIOException, SickTimeoutException );
+                              ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:242:27: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _reinitialize( ) throw( SickIOException, SickThreadException, SickTimeoutException, SickErrorException );
+                           ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:245:33: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _teardownConnection( ) throw( SickIOException );
+                                 ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:248:31: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _updateSickStatus( ) throw( SickTimeoutException, SickIOException );
+                               ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:251:32: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _getSickScanConfig( ) throw( SickTimeoutException, SickIOException );
+                                ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:256:76: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                              const int start_angle, const int stop_angle ) throw( SickTimeoutException, SickIOException, SickErrorException );
+                                                                            ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:259:44: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _setAuthorizedClientAccessMode( ) throw( SickTimeoutException, SickErrorException, SickIOException );
+                                            ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:262:28: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _writeToEEPROM( ) throw( SickTimeoutException, SickIOException );
+                            ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:265:70: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _sendMessage( const SickLMS5xxMessage &send_message ) const throw ( SickIOException );
+                                                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:273:70: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                                   const unsigned int num_tries = 1 ) throw( SickIOException, SickTimeoutException );
+                                                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:276:64: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _recvMessage( SickLMS5xxMessage &sick_message ) const throw ( SickTimeoutException );
+                                                                ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:279:29: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _startMeasuring( ) throw ( SickTimeoutException, SickIOException );
+                             ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:282:28: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _stopMeasuring( ) throw ( SickTimeoutException, SickIOException );
+                            ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:285:32: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _requestDataStream( ) throw ( SickTimeoutException, SickConfigException, SickIOException );
+                                ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:288:56: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _startStopStreamingMeasurements( bool start ) throw ( SickTimeoutException, SickIOException );
+                                                        ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:291:103: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _checkForMeasuringStatus( unsigned int timeout_value = DEFAULT_SICK_LMS_5XX_STATUS_TIMEOUT ) throw( SickTimeoutException, SickIOException );
+                                                                                                       ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:294:81: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _setSickScanDataFormat( const sick_lms_5xx_scan_format_t scan_format ) throw( SickTimeoutException, SickIOException, SickThreadException, SickErrorException );
+                                                                                 ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:297:69: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _setSickEchoFilter(sick_lms_5xx_echo_filter_t echo_filter) throw( SickTimeoutException, SickIOException, SickErrorException );
+                                                                     ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:300:35: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _restoreMeasuringMode( ) throw( SickTimeoutException, SickIOException );
+                                   ^~~~~
+[ 40%] Building CXX object CMakeFiles/lms511_node.dir/nodes/lms511/src/SickLMS5xx.cc.o
+In file included from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:33:0,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:39:
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:87:29: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _startListening( ) throw( SickThreadException );
+                             ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:90:29: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _stopListening( )  throw( SickThreadException );
+                             ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:96:34: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _setBlockingIO( ) const throw ( SickIOException );
+                                  ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:99:37: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _setNonBlockingIO( ) const throw ( SickIOException );
+                                     ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:103:7: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+       throw( SickIOException );
+       ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:106:95: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _recvMessage( SICK_MSG_CLASS &sick_message, const unsigned int timeout_value ) const throw ( SickTimeoutException );
+                                                                                               ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:112:65: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                        const unsigned int timeout_value ) const throw ( SickTimeoutException );
+                                                                 ^~~~~
+In file included from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:33:0,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:39:
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:124:74: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                                           const unsigned int num_tries ) throw( SickTimeoutException, SickIOException);
+                                                                          ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:162:76: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_startListening( ) throw( SickThreadException ) {
+                                                                            ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:190:75: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_stopListening( ) throw( SickThreadException ) {
+                                                                           ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:218:81: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_setBlockingIO( ) const throw( SickIOException ) {
+                                                                                 ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:237:84: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_setNonBlockingIO( ) const throw ( SickIOException ) {
+                                                                                    ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:259:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw( SickIOException ) {
+     ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:302:112: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                                                                       const unsigned int timeout_value ) const throw ( SickTimeoutException ) {
+                                                                                                                ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:340:112: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                                                                       const unsigned int timeout_value ) const throw( SickTimeoutException ) {
+                                                                                                                ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLIDAR.hh:405:82: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                                                                                  throw( SickTimeoutException, SickIOException ) {
+                                                                                  ^~~~~
+In file included from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:25:0,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:34,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:39:
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxMessage.hh:54:63: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void ParseMessage( const uint8_t * const message_buffer ) throw ( SickIOException );
+                                                               ^~~~~
+In file included from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:26:0,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:34,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:39:
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:37:70: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) throw( SickThreadException );
+                                                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:40:54: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void SetDataStream( const unsigned int sick_fd ) throw( SickThreadException );
+                                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:43:53: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void StartMonitor( const unsigned int sick_fd ) throw( SickThreadException );
+                                                     ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:46:68: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     bool GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) throw( SickThreadException );
+                                                                    ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:49:25: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void StopMonitor( ) throw( SickThreadException );
+                         ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:52:31: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void AcquireDataStream( ) throw( SickThreadException );
+                               ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:58:31: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void ReleaseDataStream( ) throw( SickThreadException );
+                               ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:61:27: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     ~SickBufferMonitor( ) throw( SickThreadException );
+                           ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:69:125: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _readBytes( uint8_t * const dest_buffer, const int num_bytes_to_read, const unsigned int timeout_value = 0 ) const throw ( SickTimeoutException, SickIOException );
+                                                                                                                             ^~~~~
+In file included from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:26:0,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:34,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:39:
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:92:38: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _acquireMessageContainer( ) throw( SickThreadException );
+                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:95:38: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _releaseMessageContainer( ) throw( SickThreadException );
+                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:107:125: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) throw( SickThreadException ) :
+                                                                                                                             ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:127:109: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::SetDataStream( const unsigned int sick_fd ) throw ( SickThreadException ) {
+                                                                                                             ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:160:108: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::StartMonitor( const unsigned int sick_fd ) throw ( SickThreadException ) {
+                                                                                                            ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:181:123: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   bool SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) throw( SickThreadException ) {
+                                                                                                                           ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:227:80: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::StopMonitor( ) throw ( SickThreadException ) {
+                                                                                ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:263:86: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::AcquireDataStream( ) throw( SickThreadException ) {
+                                                                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:276:86: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::ReleaseDataStream( ) throw( SickThreadException ) {
+                                                                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:289:82: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::~SickBufferMonitor( ) throw( SickThreadException ) {
+                                                                                  ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:307:93: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_acquireMessageContainer( ) throw( SickThreadException ) {
+                                                                                             ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:320:93: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_releaseMessageContainer( ) throw( SickThreadException ) {
+                                                                                             ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:338:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw ( SickTimeoutException, SickIOException ) {
+     ^~~~~
+In file included from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:34:0,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:39:
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:43:74: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void GetNextMessageFromDataStream( SickLMS5xxMessage &sick_message ) throw( SickIOException );
+                                                                          ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:51:39: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _flushTCPRecvBuffer( ) const throw ( SickIOException );
+                                       ^~~~~
+In file included from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:39:0:
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:137:54: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void Initialize( const bool disp_banner = true ) throw( SickIOException, SickThreadException, SickTimeoutException, SickErrorException );
+                                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:141:74: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                                 const sick_lms_5xx_scan_res_t scan_res ) throw( SickTimeoutException, SickIOException, SickErrorException );
+                                                                          ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:144:68: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void SetSickEchoFilter(sick_lms_5xx_echo_filter_t echo_filter) throw( SickTimeoutException, SickIOException, SickErrorException );
+                                                                    ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:147:55: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     sick_lms_5xx_scan_freq_t GetSickScanFreq( ) const throw ( SickIOException );
+                                                       ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:150:53: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     sick_lms_5xx_scan_res_t GetSickScanRes( ) const throw ( SickIOException );
+                                                     ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:153:39: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     double GetSickStartAngle( ) const throw ( SickIOException );
+                                       ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:156:38: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     double GetSickStopAngle( ) const throw ( SickIOException );
+                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:159:80: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void SetSickScanDataFormat( const sick_lms_5xx_scan_format_t scan_format ) throw( SickTimeoutException, SickIOException, SickThreadException, SickErrorException );
+                                                                                ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:173:72: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                               unsigned int * const dev_status = NULL ) throw ( SickIOException, SickConfigException, SickTimeoutException );
+                                                                        ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:176:56: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void Uninitialize( const bool disp_banner = true ) throw( SickIOException, SickTimeoutException, SickErrorException, SickThreadException );
+                                                        ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:239:30: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _setupConnection( ) throw( SickIOException, SickTimeoutException );
+                              ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:242:27: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _reinitialize( ) throw( SickIOException, SickThreadException, SickTimeoutException, SickErrorException );
+                           ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:245:33: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _teardownConnection( ) throw( SickIOException );
+                                 ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:248:31: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _updateSickStatus( ) throw( SickTimeoutException, SickIOException );
+                               ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:251:32: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _getSickScanConfig( ) throw( SickTimeoutException, SickIOException );
+                                ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:256:76: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                              const int start_angle, const int stop_angle ) throw( SickTimeoutException, SickIOException, SickErrorException );
+                                                                            ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:259:44: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _setAuthorizedClientAccessMode( ) throw( SickTimeoutException, SickErrorException, SickIOException );
+                                            ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:262:28: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _writeToEEPROM( ) throw( SickTimeoutException, SickIOException );
+                            ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:265:70: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _sendMessage( const SickLMS5xxMessage &send_message ) const throw ( SickIOException );
+                                                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:273:70: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                                   const unsigned int num_tries = 1 ) throw( SickIOException, SickTimeoutException );
+                                                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:276:64: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _recvMessage( SickLMS5xxMessage &sick_message ) const throw ( SickTimeoutException );
+                                                                ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:279:29: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _startMeasuring( ) throw ( SickTimeoutException, SickIOException );
+                             ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:282:28: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _stopMeasuring( ) throw ( SickTimeoutException, SickIOException );
+                            ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:285:32: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _requestDataStream( ) throw ( SickTimeoutException, SickConfigException, SickIOException );
+                                ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:288:56: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _startStopStreamingMeasurements( bool start ) throw ( SickTimeoutException, SickIOException );
+                                                        ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:291:103: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _checkForMeasuringStatus( unsigned int timeout_value = DEFAULT_SICK_LMS_5XX_STATUS_TIMEOUT ) throw( SickTimeoutException, SickIOException );
+                                                                                                       ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:294:81: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _setSickScanDataFormat( const sick_lms_5xx_scan_format_t scan_format ) throw( SickTimeoutException, SickIOException, SickThreadException, SickErrorException );
+                                                                                 ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:297:69: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _setSickEchoFilter(sick_lms_5xx_echo_filter_t echo_filter) throw( SickTimeoutException, SickIOException, SickErrorException );
+                                                                     ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xx.hh:300:35: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _restoreMeasuringMode( ) throw( SickTimeoutException, SickIOException );
+                                   ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:74:58: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::Initialize( const bool disp_banner  ) throw( SickIOException, SickThreadException, SickTimeoutException, SickErrorException ) {
+                                                          ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:151:84: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                                           const sick_lms_5xx_scan_res_t scan_res ) throw( SickTimeoutException, SickIOException, SickErrorException ) {
+                                                                                    ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:200:20: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                    throw( SickTimeoutException, SickIOException, SickErrorException )
+                    ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:248:65: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   sick_lms_5xx_scan_freq_t SickLMS5xx::GetSickScanFreq( ) const throw( SickIOException ) {
+                                                                 ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:263:63: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   sick_lms_5xx_scan_res_t SickLMS5xx::GetSickScanRes( ) const throw( SickIOException ) {
+                                                               ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:278:49: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   double SickLMS5xx::GetSickStartAngle( ) const throw( SickIOException ) {
+                                                 ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:293:48: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   double SickLMS5xx::GetSickStopAngle( ) const throw( SickIOException ) {
+                                                ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:307:90: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::SetSickScanDataFormat( const sick_lms_5xx_scan_format_t scan_format ) throw( SickTimeoutException, SickIOException, SickThreadException, SickErrorException ) {
+                                                                                          ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:374:75: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                                         unsigned int * const dev_status ) throw ( SickIOException, SickConfigException, SickTimeoutException ) {
+                                                                           ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:525:59: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::Uninitialize( const bool disp_banner ) throw( SickIOException, SickTimeoutException, SickErrorException, SickThreadException ){
+                                                           ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:691:40: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::_setupConnection( ) throw( SickIOException, SickTimeoutException ) {
+                                        ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:798:37: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::_reinitialize( ) throw( SickIOException, SickThreadException, SickTimeoutException, SickErrorException ) {
+                                     ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:848:43: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::_teardownConnection( ) throw( SickIOException ) {
+                                           ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:860:41: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::_updateSickStatus( ) throw( SickTimeoutException, SickIOException ) {
+                                         ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:926:42: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::_getSickScanConfig( ) throw( SickTimeoutException, SickIOException ) {
+                                          ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1073:86: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                                        const int start_angle, const int stop_angle ) throw( SickTimeoutException, SickIOException, SickErrorException ) {
+                                                                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1247:53: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::_setAuthorizedClientAccessMode() throw( SickTimeoutException, SickErrorException, SickIOException ) {
+                                                     ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1341:38: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::_writeToEEPROM( ) throw( SickTimeoutException, SickIOException ) {
+                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1415:39: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::_startMeasuring( ) throw( SickTimeoutException, SickIOException ) {
+                                       ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1487:38: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::_stopMeasuring( ) throw( SickTimeoutException, SickIOException ) {
+                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1560:42: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::_requestDataStream( ) throw( SickTimeoutException, SickConfigException, SickIOException ) {
+                                          ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1606:66: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::_startStopStreamingMeasurements( bool start ) throw( SickTimeoutException, SickIOException ) {
+                                                                  ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1684:75: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::_checkForMeasuringStatus( unsigned int timeout_value ) throw( SickTimeoutException, SickIOException ) {
+                                                                           ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1755:91: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::_setSickScanDataFormat( const sick_lms_5xx_scan_format_t scan_format ) throw( SickTimeoutException, SickIOException, SickThreadException, SickErrorException ) {
+                                                                                           ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1884:79: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::_setSickEchoFilter(sick_lms_5xx_echo_filter_t echo_filter) throw( SickTimeoutException, SickIOException, SickErrorException )
+                                                                               ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:1966:45: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::_restoreMeasuringMode( ) throw( SickTimeoutException, SickIOException ) {
+                                             ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:2054:80: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::_sendMessage( const SickLMS5xxMessage &send_message ) const throw( SickIOException ) {
+                                                                                ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:2093:76: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+                                             const unsigned int num_tries ) throw( SickIOException, SickTimeoutException ) {
+                                                                            ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xx.cc:2131:74: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xx::_recvMessage( SickLMS5xxMessage &sick_message ) const throw ( SickTimeoutException ) {
+                                                                          ^~~~~
+[ 60%] Building CXX object CMakeFiles/lms511_node.dir/nodes/lms511/src/SickLMS5xxBufferMonitor.cc.o
+In file included from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:25:0,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xxBufferMonitor.cc:25:
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxMessage.hh:54:63: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void ParseMessage( const uint8_t * const message_buffer ) throw ( SickIOException );
+                                                               ^~~~~
+In file included from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:26:0,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xxBufferMonitor.cc:25:
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:37:70: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) throw( SickThreadException );
+                                                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:40:54: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void SetDataStream( const unsigned int sick_fd ) throw( SickThreadException );
+                                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:43:53: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void StartMonitor( const unsigned int sick_fd ) throw( SickThreadException );
+                                                     ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:46:68: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     bool GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) throw( SickThreadException );
+                                                                    ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:49:25: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void StopMonitor( ) throw( SickThreadException );
+                         ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:52:31: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void AcquireDataStream( ) throw( SickThreadException );
+                               ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:58:31: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void ReleaseDataStream( ) throw( SickThreadException );
+                               ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:61:27: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     ~SickBufferMonitor( ) throw( SickThreadException );
+                           ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:69:125: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _readBytes( uint8_t * const dest_buffer, const int num_bytes_to_read, const unsigned int timeout_value = 0 ) const throw ( SickTimeoutException, SickIOException );
+                                                                                                                             ^~~~~
+In file included from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:26:0,
+                 from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xxBufferMonitor.cc:25:
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:92:38: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _acquireMessageContainer( ) throw( SickThreadException );
+                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:95:38: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _releaseMessageContainer( ) throw( SickThreadException );
+                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:107:125: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) throw( SickThreadException ) :
+                                                                                                                             ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:127:109: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::SetDataStream( const unsigned int sick_fd ) throw ( SickThreadException ) {
+                                                                                                             ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:160:108: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::StartMonitor( const unsigned int sick_fd ) throw ( SickThreadException ) {
+                                                                                                            ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:181:123: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   bool SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) throw( SickThreadException ) {
+                                                                                                                           ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:227:80: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::StopMonitor( ) throw ( SickThreadException ) {
+                                                                                ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:263:86: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::AcquireDataStream( ) throw( SickThreadException ) {
+                                                                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:276:86: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::ReleaseDataStream( ) throw( SickThreadException ) {
+                                                                                      ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:289:82: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::~SickBufferMonitor( ) throw( SickThreadException ) {
+                                                                                  ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:307:93: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_acquireMessageContainer( ) throw( SickThreadException ) {
+                                                                                             ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:320:93: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_releaseMessageContainer( ) throw( SickThreadException ) {
+                                                                                             ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickBufferMonitor.hh:338:5: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     throw ( SickTimeoutException, SickIOException ) {
+     ^~~~~
+In file included from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xxBufferMonitor.cc:25:0:
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:43:74: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void GetNextMessageFromDataStream( SickLMS5xxMessage &sick_message ) throw( SickIOException );
+                                                                          ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxBufferMonitor.hh:51:39: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void _flushTCPRecvBuffer( ) const throw ( SickIOException );
+                                       ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xxBufferMonitor.cc:42:97: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xxBufferMonitor::GetNextMessageFromDataStream( SickLMS5xxMessage &sick_message ) throw( SickIOException ) {
+                                                                                                 ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xxBufferMonitor.cc:102:62: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xxBufferMonitor::_flushTCPRecvBuffer( ) const throw (SickIOException) {
+                                                              ^~~~~
+[ 80%] Building CXX object CMakeFiles/lms511_node.dir/nodes/lms511/src/SickLMS5xxMessage.cc.o
+In file included from /home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xxMessage.cc:24:0:
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/include/lms511/SickLMS5xxMessage.hh:54:63: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     void ParseMessage( const uint8_t * const message_buffer ) throw ( SickIOException );
+                                                               ^~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx/nodes/lms511/src/SickLMS5xxMessage.cc:122:80: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+   void SickLMS5xxMessage::ParseMessage( const uint8_t * const message_buffer ) throw (SickIOException) {
+                                                                                ^~~~~
+[100%] Linking CXX executable devel/lib/sick_lms5xx/lms511_node
+[100%] Built target lms511_node
+Scanning dependencies of target tests
+Built target tests
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[100%] Built target lms511_node
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/autoware/Autoware/install/sick_lms5xx/lib/pkgconfig/sick_lms5xx.pc
+-- Installing: /home/autoware/Autoware/install/sick_lms5xx/share/sick_lms5xx/cmake/sick_lms5xxConfig.cmake
+-- Installing: /home/autoware/Autoware/install/sick_lms5xx/share/sick_lms5xx/cmake/sick_lms5xxConfig-version.cmake
+-- Installing: /home/autoware/Autoware/install/sick_lms5xx/share/sick_lms5xx/package.xml
+-- Installing: /home/autoware/Autoware/install/sick_lms5xx/lib/sick_lms5xx/lms511_node
+-- Set runtime path of "/home/autoware/Autoware/install/sick_lms5xx/lib/sick_lms5xx/lms511_node" to ""

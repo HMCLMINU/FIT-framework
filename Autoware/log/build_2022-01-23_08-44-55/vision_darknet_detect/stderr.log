@@ -1,0 +1,27 @@
+In file included from [01m[K/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/src/vision_darknet_detect_node.cpp:21:0[m[K:
+[01m[K/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/src/vision_darknet_detect.h:101:18:[m[K [01;31m[Kerror: [m[Kstorage class specified for ‘[01m[Kfault_flag[m[K’
+     extern int64 [01;31m[Kfault_flag[m[K;
+                  [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/src/vision_darknet_detect.cpp:22:0[m[K:
+[01m[K/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/src/vision_darknet_detect.h:101:18:[m[K [01;31m[Kerror: [m[Kstorage class specified for ‘[01m[Kfault_flag[m[K’
+     extern int64 [01;31m[Kfault_flag[m[K;
+                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/src/vision_darknet_detect.cpp:[m[K In member function ‘[01m[Kvoid Yolo3DetectorNode::image_callback(const ImageConstPtr&)[m[K’:
+[01m[K/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/src/vision_darknet_detect.cpp:270:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Kfault_flag[m[K’
+     if [01;31m[Kfault_flag[m[K == 0
+        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/src/vision_darknet_detect.cpp:274:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+     [01;31m[Kelse[m[K
+     [01;31m[K^~~~[m[K
+[01m[K/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/src/vision_darknet_detect.cpp:[m[K In member function ‘[01m[Kvoid Yolo3DetectorNode::fit_image_callback(const ImageConstPtr&)[m[K’:
+[01m[K/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/src/vision_darknet_detect.cpp:296:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Kfault_flag[m[K’
+     if [01;31m[Kfault_flag[m[K == 1
+        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/src/vision_darknet_detect.cpp:300:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+     [01;31m[Kelse[m[K
+     [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/vision_darknet_detect.dir/src/vision_darknet_detect_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/vision_darknet_detect.dir/src/vision_darknet_detect.cpp.o] Error 1
+make[1]: *** [CMakeFiles/vision_darknet_detect.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,9 @@
+/home/autoware/Autoware/install/integrated_viewer/lib/pkgconfig/integrated_viewer.pc
+/home/autoware/Autoware/install/integrated_viewer/share/integrated_viewer/cmake/integrated_viewerConfig.cmake
+/home/autoware/Autoware/install/integrated_viewer/share/integrated_viewer/cmake/integrated_viewerConfig-version.cmake
+/home/autoware/Autoware/install/integrated_viewer/share/integrated_viewer/package.xml
+/home/autoware/Autoware/install/integrated_viewer/lib/libintegrated_viewer.so
+/home/autoware/Autoware/install/integrated_viewer/share/integrated_viewer/rviz_plugin_description.xml
+/home/autoware/Autoware/install/integrated_viewer/share/integrated_viewer/node/image_viewer_plugin/autoware_logo.png
+/home/autoware/Autoware/install/integrated_viewer/share/integrated_viewer/node/image_viewer_plugin/car.png
+/home/autoware/Autoware/install/integrated_viewer/share/integrated_viewer/node/image_viewer_plugin/pedestrian.png

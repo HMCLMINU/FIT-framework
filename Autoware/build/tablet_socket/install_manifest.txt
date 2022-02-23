@@ -1,0 +1,6 @@
+/home/autoware/Autoware/install/tablet_socket/lib/pkgconfig/tablet_socket.pc
+/home/autoware/Autoware/install/tablet_socket/share/tablet_socket/cmake/tablet_socketConfig.cmake
+/home/autoware/Autoware/install/tablet_socket/share/tablet_socket/cmake/tablet_socketConfig-version.cmake
+/home/autoware/Autoware/install/tablet_socket/share/tablet_socket/package.xml
+/home/autoware/Autoware/install/tablet_socket/lib/tablet_socket/tablet_receiver
+/home/autoware/Autoware/install/tablet_socket/lib/tablet_socket/tablet_sender

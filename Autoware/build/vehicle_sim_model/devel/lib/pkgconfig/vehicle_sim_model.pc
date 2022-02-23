@@ -1,0 +1,8 @@
+prefix=/home/autoware/Autoware/build/vehicle_sim_model/devel
+
+Name: vehicle_sim_model
+Description: Description of vehicle_sim_model
+Version: 1.13.0
+Cflags: -I/home/autoware/Autoware/src/autoware/common/vehicle_sim_model/include
+Libs: -L${prefix}/lib -lvehicle_sim_model
+Requires: 

@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CUDA compilation status: ON.
+-- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/data_preprocessor/devel
+-- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/data_preprocessor/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.26
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found OpenCV: /usr (found version "3.2.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/autoware/Autoware/build/data_preprocessor
+Scanning dependencies of target get_PCD
+[ 16%] Building CXX object CMakeFiles/get_PCD.dir/nodes/get_PCD/get_PCD.cpp.o
+[ 33%] Linking CXX executable devel/lib/data_preprocessor/get_PCD
+[ 33%] Built target get_PCD
+Scanning dependencies of target get_Image
+[ 50%] Building CXX object CMakeFiles/get_Image.dir/nodes/get_Image/get_Image.cpp.o
+[ 66%] Linking CXX executable devel/lib/data_preprocessor/get_Image
+[ 66%] Built target get_Image
+Scanning dependencies of target get_Depth
+[ 83%] Building CXX object CMakeFiles/get_Depth.dir/nodes/get_Depth/get_Depth.cpp.o
+[100%] Linking CXX executable devel/lib/data_preprocessor/get_Depth
+[100%] Built target get_Depth
+Scanning dependencies of target tests
+Built target tests
+[ 33%] Built target get_PCD
+[ 66%] Built target get_Image
+[100%] Built target get_Depth
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/autoware/Autoware/install/data_preprocessor/lib/pkgconfig/data_preprocessor.pc
+-- Installing: /home/autoware/Autoware/install/data_preprocessor/share/data_preprocessor/cmake/data_preprocessorConfig.cmake
+-- Installing: /home/autoware/Autoware/install/data_preprocessor/share/data_preprocessor/cmake/data_preprocessorConfig-version.cmake
+-- Installing: /home/autoware/Autoware/install/data_preprocessor/share/data_preprocessor/package.xml
+-- Installing: /home/autoware/Autoware/install/data_preprocessor/lib/data_preprocessor/get_Image
+-- Set runtime path of "/home/autoware/Autoware/install/data_preprocessor/lib/data_preprocessor/get_Image" to ""
+-- Installing: /home/autoware/Autoware/install/data_preprocessor/lib/data_preprocessor/get_PCD
+-- Set runtime path of "/home/autoware/Autoware/install/data_preprocessor/lib/data_preprocessor/get_PCD" to ""
+-- Installing: /home/autoware/Autoware/install/data_preprocessor/lib/data_preprocessor/get_Depth
+-- Set runtime path of "/home/autoware/Autoware/install/data_preprocessor/lib/data_preprocessor/get_Depth" to ""

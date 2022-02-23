@@ -1,0 +1,219 @@
+[0.419s] Invoking command in '/home/autoware/Autoware/build/road_occupancy_processor': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/road_occupancy_processor -- -j32 -l32
+[0.776s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[0.776s] [  0%] Built target roscpp_generate_messages_py
+[0.802s] [  0%] Built target topic_tools_generate_messages_cpp
+[0.802s] [  0%] Built target grid_map_msgs_generate_messages_lisp
+[0.802s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.802s] [  0%] Built target pcl_msgs_generate_messages_eus
+[0.803s] [  0%] Built target vector_map_msgs_generate_messages_nodejs
+[0.803s] [  0%] Built target nodelet_generate_messages_lisp
+[0.803s] [  0%] Built target nodelet_generate_messages_nodejs
+[0.803s] [  0%] Built target grid_map_msgs_generate_messages_cpp
+[0.803s] [  0%] Built target bond_generate_messages_py
+[0.805s] [  0%] Built target grid_map_msgs_generate_messages_nodejs
+[0.805s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.805s] [  0%] Built target nodelet_generate_messages_eus
+[0.806s] [  0%] Built target vector_map_msgs_generate_messages_cpp
+[0.806s] [  0%] Built target nodelet_generate_messages_cpp
+[0.806s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.806s] [  0%] Built target vector_map_msgs_generate_messages_py
+[0.806s] [  0%] Built target bond_generate_messages_nodejs
+[0.806s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[0.806s] [  0%] Built target pcl_ros_gencfg
+[0.806s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[0.806s] [  0%] Built target bond_generate_messages_eus
+[0.900s] [  0%] Built target bond_generate_messages_cpp
+[0.900s] [  0%] Built target vector_map_msgs_generate_messages_eus
+[0.901s] [  0%] Built target vector_map_msgs_generate_messages_lisp
+[0.901s] [  0%] Built target std_msgs_generate_messages_py
+[0.902s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[0.902s] [  0%] Built target grid_map_msgs_generate_messages_eus
+[0.903s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.942s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[0.943s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.943s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[0.943s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.944s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.944s] [  0%] Built target bond_generate_messages_lisp
+[1.000s] [  0%] Built target std_srvs_generate_messages_cpp
+[1.000s] [  0%] Built target nav_msgs_generate_messages_cpp
+[1.000s] [  0%] Built target grid_map_msgs_generate_messages_py
+[1.001s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.002s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[1.002s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[1.002s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[1.002s] [  0%] Built target roscpp_generate_messages_cpp
+[1.002s] [  0%] Built target roscpp_generate_messages_lisp
+[1.002s] [  0%] Built target roscpp_generate_messages_nodejs
+[1.002s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[1.002s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.002s] [  0%] Built target std_msgs_generate_messages_eus
+[1.003s] [  0%] Built target std_srvs_generate_messages_eus
+[1.003s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.003s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[1.003s] [  0%] Built target nodelet_generate_messages_py
+[1.008s] [  0%] Built target nav_msgs_generate_messages_lisp
+[1.008s] [  0%] Built target sensor_msgs_generate_messages_eus
+[1.008s] [  0%] Built target tf_generate_messages_py
+[1.008s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[1.022s] [  0%] Built target roscpp_generate_messages_eus
+[1.022s] [  0%] Built target geometry_msgs_generate_messages_py
+[1.022s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[1.022s] [  0%] Built target std_srvs_generate_messages_nodejs
+[1.022s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[1.022s] [  0%] Built target topic_tools_generate_messages_lisp
+[1.022s] [  0%] Built target actionlib_generate_messages_cpp
+[1.023s] [  0%] Built target topic_tools_generate_messages_py
+[1.023s] [  0%] Built target nodelet_topic_tools_gencfg
+[1.044s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[1.044s] [  0%] Built target std_srvs_generate_messages_py
+[1.044s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[1.044s] [  0%] Built target std_srvs_generate_messages_lisp
+[1.044s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[1.044s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[1.044s] [  0%] Built target actionlib_msgs_generate_messages_py
+[1.044s] [  0%] Built target actionlib_generate_messages_nodejs
+[1.044s] [  0%] Built target tf_generate_messages_nodejs
+[1.045s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[1.045s] [  0%] Built target topic_tools_generate_messages_eus
+[1.136s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[1.137s] [  0%] Built target sensor_msgs_generate_messages_py
+[1.137s] [  0%] Built target tf_generate_messages_eus
+[1.137s] [  0%] Built target tf2_msgs_generate_messages_py
+[1.137s] [  0%] Built target actionlib_generate_messages_lisp
+[1.137s] [  0%] Built target tf_generate_messages_lisp
+[1.137s] [  0%] Built target pcl_msgs_generate_messages_py
+[1.137s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[1.137s] [  0%] Built target tf_generate_messages_cpp
+[1.137s] [  0%] Built target tf2_msgs_generate_messages_eus
+[1.137s] [  0%] Built target dynamic_reconfigure_gencfg
+[1.138s] [  0%] Built target visualization_msgs_generate_messages_py
+[1.138s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[1.138s] [  0%] Built target actionlib_generate_messages_eus
+[1.138s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[1.138s] [  0%] Built target visualization_msgs_generate_messages_eus
+[1.138s] [  0%] Built target topic_tools_generate_messages_nodejs
+[1.138s] [  0%] Built target nav_msgs_generate_messages_py
+[1.138s] [  0%] Built target actionlib_generate_messages_py
+[1.138s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[1.174s] [  0%] Built target nav_msgs_generate_messages_eus
+[1.242s] [ 50%] Built target road_occupancy_processor_lib
+[1.270s] [100%] Built target road_occupancy_processor
+[1.546s] Invoked command in '/home/autoware/Autoware/build/road_occupancy_processor' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/road_occupancy_processor -- -j32 -l32
+[2.504s] Invoking command in '/home/autoware/Autoware/build/road_occupancy_processor': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/road_occupancy_processor --target tests -- -j32 -l32
+[2.880s] Built target tests
+[2.977s] Invoked command in '/home/autoware/Autoware/build/road_occupancy_processor' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/road_occupancy_processor --target tests -- -j32 -l32
+[4.127s] Invoking command in '/home/autoware/Autoware/build/road_occupancy_processor': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/road_occupancy_processor --target install -- -j32 -l32
+[4.267s] [  0%] Built target pcl_msgs_generate_messages_eus
+[4.267s] [  0%] Built target roscpp_generate_messages_py
+[4.269s] [  0%] Built target nodelet_generate_messages_lisp
+[4.269s] [  0%] Built target nodelet_generate_messages_eus
+[4.269s] [  0%] Built target vector_map_msgs_generate_messages_py
+[4.270s] [  0%] Built target bond_generate_messages_nodejs
+[4.275s] [  0%] Built target grid_map_msgs_generate_messages_cpp
+[4.276s] [  0%] Built target bond_generate_messages_eus
+[4.276s] [  0%] Built target bond_generate_messages_cpp
+[4.277s] [  0%] Built target std_msgs_generate_messages_py
+[4.277s] [  0%] Built target vector_map_msgs_generate_messages_cpp
+[4.277s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[4.283s] [  0%] Built target geometry_msgs_generate_messages_eus
+[4.320s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[4.320s] [  0%] Built target vector_map_msgs_generate_messages_eus
+[4.320s] [  0%] Built target bond_generate_messages_py
+[4.320s] [  0%] Built target vector_map_msgs_generate_messages_lisp
+[4.320s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[4.320s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[4.320s] [  0%] Built target grid_map_msgs_generate_messages_eus
+[4.321s] [  0%] Built target topic_tools_generate_messages_cpp
+[4.321s] [  0%] Built target bond_generate_messages_lisp
+[4.321s] [  0%] Built target std_msgs_generate_messages_nodejs
+[4.321s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[4.321s] [  0%] Built target pcl_ros_gencfg
+[4.321s] [  0%] Built target nodelet_generate_messages_nodejs
+[4.322s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[4.322s] [  0%] Built target nodelet_generate_messages_cpp
+[4.323s] [  0%] Built target grid_map_msgs_generate_messages_nodejs
+[4.329s] [  0%] Built target grid_map_msgs_generate_messages_lisp
+[4.333s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[4.334s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[4.334s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[4.334s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[4.335s] [  0%] Built target std_srvs_generate_messages_cpp
+[4.340s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[4.362s] [  0%] Built target nav_msgs_generate_messages_cpp
+[4.362s] [  0%] Built target vector_map_msgs_generate_messages_nodejs
+[4.363s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[4.367s] [  0%] Built target std_msgs_generate_messages_cpp
+[4.373s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[4.373s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[4.376s] [  0%] Built target roscpp_generate_messages_cpp
+[4.377s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[4.380s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[4.382s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[4.382s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[4.389s] [  0%] Built target topic_tools_generate_messages_lisp
+[4.390s] [  0%] Built target std_srvs_generate_messages_eus
+[4.391s] [  0%] Built target roscpp_generate_messages_eus
+[4.392s] [  0%] Built target std_msgs_generate_messages_eus
+[4.392s] [  0%] Built target roscpp_generate_messages_nodejs
+[4.396s] [  0%] Built target std_srvs_generate_messages_lisp
+[4.396s] [  0%] Built target roscpp_generate_messages_lisp
+[4.400s] [  0%] Built target std_msgs_generate_messages_lisp
+[4.403s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[4.403s] [  0%] Built target actionlib_generate_messages_cpp
+[4.404s] [  0%] Built target sensor_msgs_generate_messages_py
+[4.409s] [  0%] Built target std_srvs_generate_messages_py
+[4.410s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[4.410s] [  0%] Built target sensor_msgs_generate_messages_eus
+[4.414s] [  0%] Built target actionlib_msgs_generate_messages_py
+[4.414s] [  0%] Built target tf_generate_messages_py
+[4.416s] [  0%] Built target std_srvs_generate_messages_nodejs
+[4.416s] [  0%] Built target nav_msgs_generate_messages_lisp
+[4.417s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[4.417s] [  0%] Built target nodelet_generate_messages_py
+[4.418s] [  0%] Built target actionlib_generate_messages_lisp
+[4.425s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[4.425s] [  0%] Built target grid_map_msgs_generate_messages_py
+[4.452s] [  0%] Built target topic_tools_generate_messages_nodejs
+[4.459s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[4.460s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[4.463s] [  0%] Built target tf_generate_messages_eus
+[4.466s] [  0%] Built target tf_generate_messages_lisp
+[4.470s] [  0%] Built target geometry_msgs_generate_messages_py
+[4.515s] [  0%] Built target nodelet_topic_tools_gencfg
+[4.516s] [  0%] Built target nav_msgs_generate_messages_eus
+[4.516s] [  0%] Built target tf2_msgs_generate_messages_py
+[4.516s] [  0%] Built target tf_generate_messages_cpp
+[4.516s] [  0%] Built target actionlib_generate_messages_eus
+[4.516s] [  0%] Built target topic_tools_generate_messages_eus
+[4.516s] [  0%] Built target visualization_msgs_generate_messages_eus
+[4.516s] [  0%] Built target dynamic_reconfigure_gencfg
+[4.517s] [  0%] Built target actionlib_generate_messages_py
+[4.517s] [  0%] Built target actionlib_generate_messages_nodejs
+[4.517s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[4.517s] [  0%] Built target visualization_msgs_generate_messages_py
+[4.517s] [  0%] Built target topic_tools_generate_messages_py
+[4.519s] [  0%] Built target nav_msgs_generate_messages_py
+[4.519s] [  0%] Built target pcl_msgs_generate_messages_py
+[4.521s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[4.524s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[4.529s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[4.530s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[4.538s] [  0%] Built target tf_generate_messages_nodejs
+[4.545s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[4.545s] [  0%] Built target tf2_msgs_generate_messages_eus
+[4.711s] [ 50%] Built target road_occupancy_processor_lib
+[4.846s] [100%] Built target road_occupancy_processor
+[4.884s] Install the project...
+[4.892s] -- Install configuration: "Release"
+[4.893s] -- Up-to-date: /home/autoware/Autoware/install/road_occupancy_processor/lib/pkgconfig/road_occupancy_processor.pc
+[4.894s] -- Up-to-date: /home/autoware/Autoware/install/road_occupancy_processor/share/road_occupancy_processor/cmake/road_occupancy_processorConfig.cmake
+[4.900s] -- Up-to-date: /home/autoware/Autoware/install/road_occupancy_processor/share/road_occupancy_processor/cmake/road_occupancy_processorConfig-version.cmake
+[4.900s] -- Up-to-date: /home/autoware/Autoware/install/road_occupancy_processor/share/road_occupancy_processor/package.xml
+[4.900s] -- Up-to-date: /home/autoware/Autoware/install/road_occupancy_processor/lib/road_occupancy_processor/road_occupancy_processor
+[4.910s] -- Up-to-date: /home/autoware/Autoware/install/road_occupancy_processor/lib/libroad_occupancy_processor_lib.so
+[4.923s] -- Up-to-date: /home/autoware/Autoware/install/road_occupancy_processor/include/road_occupancy_processor
+[4.924s] -- Up-to-date: /home/autoware/Autoware/install/road_occupancy_processor/include/road_occupancy_processor/road_occupancy_processor.h
+[4.925s] -- Up-to-date: /home/autoware/Autoware/install/road_occupancy_processor/share/road_occupancy_processor/launch
+[4.926s] -- Up-to-date: /home/autoware/Autoware/install/road_occupancy_processor/share/road_occupancy_processor/launch/road_occupancy_processor.launch
+[4.951s] Invoked command in '/home/autoware/Autoware/build/road_occupancy_processor' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/road_occupancy_processor --target install -- -j32 -l32

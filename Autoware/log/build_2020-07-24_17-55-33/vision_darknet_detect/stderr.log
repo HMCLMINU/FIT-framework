@@ -1,0 +1,114 @@
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/gemm.c: In function ‘time_gpu’:
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/gemm.c:232:9: warning: ‘cudaThreadSynchronize’ is deprecated [-Wdeprecated-declarations]
+         cudaThreadSynchronize();
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/local/cuda/include/cuda_runtime.h:96:0,
+                 from /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/darknet.h:14,
+                 from /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/utils.h:5,
+                 from /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/gemm.c:2:
+/usr/local/cuda/include/cuda_runtime_api.h:947:57: note: declared here
+ extern __CUDA_DEPRECATED __host__ cudaError_t CUDARTAPI cudaThreadSynchronize(void);
+                                                         ^~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/utils.c: In function ‘read_file’:
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/utils.c:267:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(text, 1, size, fp);
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/utils.c: In function ‘fgetl’:
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/utils.c:355:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+         fgets(&line[curr], readsize, fp);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.c: In function ‘load_regression_labels_paths’:
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.c:574:13: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
+             fscanf(file, "%f", &(y.vals[i][j]));
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.c: In function ‘load_cifar10_data’:
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.c:1354:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(bytes, 1, 3073, fp);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.c: In function ‘load_all_cifar10’:
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.c:1417:13: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+             fread(bytes, 1, 3073, fp);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c: In function ‘load_connected_weights’:
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1085:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.biases, sizeof(float), l.outputs, fp);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1086:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.weights, sizeof(float), l.outputs*l.inputs, fp);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1093:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.scales, sizeof(float), l.outputs, fp);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1094:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.rolling_mean, sizeof(float), l.outputs, fp);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1095:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.rolling_variance, sizeof(float), l.outputs, fp);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c: In function ‘load_batchnorm_weights’:
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1109:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.scales, sizeof(float), l.c, fp);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1110:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.rolling_mean, sizeof(float), l.c, fp);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1111:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.rolling_variance, sizeof(float), l.c, fp);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c: In function ‘load_convolutional_weights_binary’:
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1121:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.biases, sizeof(float), l.n, fp);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1123:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.scales, sizeof(float), l.n, fp);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1124:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.rolling_mean, sizeof(float), l.n, fp);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1125:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.rolling_variance, sizeof(float), l.n, fp);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1131:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(&mean, sizeof(float), 1, fp);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1135:13: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+             fread(&c, sizeof(char), 1, fp);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c: In function ‘load_convolutional_weights’:
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1156:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.biases, sizeof(float), l.n, fp);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1158:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.scales, sizeof(float), l.n, fp);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1159:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.rolling_mean, sizeof(float), l.n, fp);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1160:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.rolling_variance, sizeof(float), l.n, fp);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1188:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.weights, sizeof(float), num, fp);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c: In function ‘load_weights_upto’:
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1217:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(&major, sizeof(int), 1, fp);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1218:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(&minor, sizeof(int), 1, fp);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1219:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(&revision, sizeof(int), 1, fp);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1221:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(net->seen, sizeof(size_t), 1, fp);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1224:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(&iseen, sizeof(int), 1, fp);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1279:13: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+             fread(l.biases, sizeof(float), l.outputs, fp);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1280:13: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+             fread(l.weights, sizeof(float), size, fp);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

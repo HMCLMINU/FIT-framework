@@ -1,0 +1,6 @@
+/home/autoware/Autoware/install/freespace_planner/lib/pkgconfig/freespace_planner.pc
+/home/autoware/Autoware/install/freespace_planner/share/freespace_planner/cmake/freespace_plannerConfig.cmake
+/home/autoware/Autoware/install/freespace_planner/share/freespace_planner/cmake/freespace_plannerConfig-version.cmake
+/home/autoware/Autoware/install/freespace_planner/share/freespace_planner/package.xml
+/home/autoware/Autoware/install/freespace_planner/lib/freespace_planner/astar_navi
+/home/autoware/Autoware/install/freespace_planner/share/freespace_planner/launch/astar_navi.launch

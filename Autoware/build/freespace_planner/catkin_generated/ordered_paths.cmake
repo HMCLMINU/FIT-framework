@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/home/autoware/Autoware/install/astar_search/lib;/opt/ros/melodic/lib")

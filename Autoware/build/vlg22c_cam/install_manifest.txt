@@ -1,0 +1,4 @@
+/home/autoware/Autoware/install/vlg22c_cam/lib/pkgconfig/vlg22c_cam.pc
+/home/autoware/Autoware/install/vlg22c_cam/share/vlg22c_cam/cmake/vlg22c_camConfig.cmake
+/home/autoware/Autoware/install/vlg22c_cam/share/vlg22c_cam/cmake/vlg22c_camConfig-version.cmake
+/home/autoware/Autoware/install/vlg22c_cam/share/vlg22c_cam/package.xml

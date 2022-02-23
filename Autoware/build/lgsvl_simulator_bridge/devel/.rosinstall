@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autoware/Autoware/build/lgsvl_simulator_bridge/devel/setup.sh

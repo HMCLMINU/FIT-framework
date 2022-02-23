@@ -1,0 +1,28 @@
+-- USING ACCELERATED CLUSTERING --
+Version: 10.0
+Library: CUDA_CUDA_LIBRARY-NOTFOUND
+Runtime: /usr/local/cuda/lib64/libcudart.so
+/home/autoware/Autoware/src/autoware/core_perception/lidar_euclidean_cluster_detect/nodes/lidar_euclidean_cluster_detect/lidar_euclidean_cluster_detect.cpp: In function ‘void segmentByDistance(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZRGB>::Ptr, autoware_msgs::Centroids&, autoware_msgs::CloudClusterArray&)’:
+/home/autoware/Autoware/src/autoware/core_perception/lidar_euclidean_cluster_detect/nodes/lidar_euclidean_cluster_detect/lidar_euclidean_cluster_detect.cpp:662:3: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+   else
+   ^~~~
+/home/autoware/Autoware/src/autoware/core_perception/lidar_euclidean_cluster_detect/nodes/lidar_euclidean_cluster_detect/lidar_euclidean_cluster_detect.cpp:666:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘else’
+     for (unsigned int i = 0; i < final_clusters.size(); i++)
+     ^~~
+In file included from /home/autoware/Autoware/src/autoware/core_perception/lidar_euclidean_cluster_detect/nodes/lidar_euclidean_cluster_detect/lidar_euclidean_cluster_detect.cpp:31:0:
+/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h: In function ‘void __static_initialization_and_destruction_0(int, int)’:
+/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3: warning: ‘pcl::SAC_SAMPLE_SIZE’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [-Wdeprecated-declarations]
+   SAC_SAMPLE_SIZE (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+   ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3: note: declared here
+In file included from /home/autoware/Autoware/src/autoware/core_perception/lidar_euclidean_cluster_detect/include/cluster.h:30:0,
+                 from /home/autoware/Autoware/src/autoware/core_perception/lidar_euclidean_cluster_detect/nodes/lidar_euclidean_cluster_detect/cluster.cpp:8:
+/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h: In function ‘void __static_initialization_and_destruction_0(int, int)’:
+/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3: warning: ‘pcl::SAC_SAMPLE_SIZE’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [-Wdeprecated-declarations]
+   SAC_SAMPLE_SIZE (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+   ^~~~~~~~~~~~~~~
+/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3: note: declared here
+-- USING ACCELERATED CLUSTERING --
+Version: 10.0
+Library: CUDA_CUDA_LIBRARY-NOTFOUND
+Runtime: /usr/local/cuda/lib64/libcudart.so

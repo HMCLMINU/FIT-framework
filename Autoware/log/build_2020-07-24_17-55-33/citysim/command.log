@@ -1,0 +1,6 @@
+Invoking command in '/home/autoware/Autoware/build/citysim': /usr/bin/cmake /home/autoware/Autoware/src/citysim -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/citysim
+Invoked command in '/home/autoware/Autoware/build/citysim' returned '0': /usr/bin/cmake /home/autoware/Autoware/src/citysim -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/citysim
+Invoking command in '/home/autoware/Autoware/build/citysim': /usr/bin/cmake --build /home/autoware/Autoware/build/citysim -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/citysim' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/citysim -- -j2 -l2
+Invoking command in '/home/autoware/Autoware/build/citysim': /usr/bin/cmake --build /home/autoware/Autoware/build/citysim --target install -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/citysim' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/citysim --target install -- -j2 -l2

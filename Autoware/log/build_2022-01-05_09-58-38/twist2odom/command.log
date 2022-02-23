@@ -1,0 +1,6 @@
+Invoking command in '/home/autoware/Autoware/build/twist2odom': /usr/bin/cmake --build /home/autoware/Autoware/build/twist2odom -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/twist2odom' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/twist2odom -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/twist2odom': /usr/bin/cmake --build /home/autoware/Autoware/build/twist2odom --target tests -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/twist2odom' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/twist2odom --target tests -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/twist2odom': /usr/bin/cmake --build /home/autoware/Autoware/build/twist2odom --target install -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/twist2odom' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/twist2odom --target install -- -j32 -l32

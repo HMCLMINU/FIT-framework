@@ -1,0 +1,43 @@
+CUDA is available!
+CUDA Libs: /usr/local/cuda/lib64/libcudart_static.a;-lpthread;dl;/usr/lib/x86_64-linux-gnu/librt.so
+CUDA Headers: /usr/local/cuda/include
+TensorRT is available!
+NVINFER: /usr/lib/x86_64-linux-gnu/libnvinfer.so
+NVPARSERS: /usr/lib/x86_64-linux-gnu/libnvparsers.so
+NVONNXPARSERS: /usr/lib/x86_64-linux-gnu/libnvonnxparser.so
+CUDNN is available!
+CUDNN_LIBRARY: /usr/lib/x86_64-linux-gnu/libcudnn.so
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp: In member function ‘void PointPillars::onnxToTRTModel(const string&, nvinfer1::IHostMemory*&)’:
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp:429:66: warning: ‘virtual nvinfer1::INetworkDefinition* nvinfer1::IBuilder::createNetwork()’ is deprecated [-Wdeprecated-declarations]
+   nvinfer1::INetworkDefinition* network = builder->createNetwork();
+                                                                  ^
+In file included from /home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/include/lidar_point_pillars/point_pillars.h:37:0,
+                 from /home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp:22:
+/usr/include/x86_64-linux-gnu/NvInfer.h:5431:58: note: declared here
+     TRT_DEPRECATED virtual nvinfer1::INetworkDefinition* createNetwork() TRTNOEXCEPT = 0;
+                                                          ^~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp:442:39: warning: ‘virtual void nvinfer1::IBuilder::setMaxWorkspaceSize(std::size_t)’ is deprecated [-Wdeprecated-declarations]
+   builder->setMaxWorkspaceSize(1 << 20);
+                                       ^
+In file included from /home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/include/lidar_point_pillars/point_pillars.h:37:0,
+                 from /home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp:22:
+/usr/include/x86_64-linux-gnu/NvInfer.h:5462:33: note: declared here
+     TRT_DEPRECATED virtual void setMaxWorkspaceSize(std::size_t workspaceSize) TRTNOEXCEPT = 0;
+                                 ^~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp:444:68: warning: ‘virtual nvinfer1::ICudaEngine* nvinfer1::IBuilder::buildCudaEngine(nvinfer1::INetworkDefinition&)’ is deprecated [-Wdeprecated-declarations]
+   nvinfer1::ICudaEngine* engine = builder->buildCudaEngine(*network);
+                                                                    ^
+In file included from /home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/include/lidar_point_pillars/point_pillars.h:37:0,
+                 from /home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/nodes/point_pillars.cpp:22:
+/usr/include/x86_64-linux-gnu/NvInfer.h:5566:51: note: declared here
+     TRT_DEPRECATED virtual nvinfer1::ICudaEngine* buildCudaEngine(
+                                                   ^~~~~~~~~~~~~~~
+CUDA is available!
+CUDA Libs: /usr/local/cuda/lib64/libcudart_static.a;-lpthread;dl;/usr/lib/x86_64-linux-gnu/librt.so
+CUDA Headers: /usr/local/cuda/include
+TensorRT is available!
+NVINFER: /usr/lib/x86_64-linux-gnu/libnvinfer.so
+NVPARSERS: /usr/lib/x86_64-linux-gnu/libnvparsers.so
+NVONNXPARSERS: /usr/lib/x86_64-linux-gnu/libnvonnxparser.so
+CUDNN is available!
+CUDNN_LIBRARY: /usr/lib/x86_64-linux-gnu/libcudnn.so

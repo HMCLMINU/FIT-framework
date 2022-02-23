@@ -1,0 +1,180 @@
+[0.448s] Invoking command in '/home/autoware/Autoware/build/autoware_msgs': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_msgs -- -j20 -l20
+[0.941s] [  0%] Built target geometry_msgs_generate_messages_eus
+[1.038s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[1.142s] [  0%] Built target std_msgs_generate_messages_eus
+[1.198s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ImageObjTracked
+[1.263s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ObjLabel
+[1.319s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_RecognizeLightState
+[1.324s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ExtractedPosition
+[1.352s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_VscanTracked
+[1.367s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_DetectedObject
+[1.435s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_RemoteCmd
+[1.459s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_SyncTimeDiff
+[1.470s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ImageRectRanged
+[1.489s] [  0%] Built target sensor_msgs_generate_messages_eus
+[1.491s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ColorSet
+[1.513s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_DTLane
+[1.513s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_LampCmd
+[1.526s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_VehicleCmd
+[1.555s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ValueSet
+[1.557s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ControlCommandStamped
+[1.580s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_WaypointState
+[1.723s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_CloudClusterArray
+[1.975s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_NDTStat
+[2.091s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_Lane
+[2.124s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ImageRect
+[2.177s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_IndicatorCmd
+[2.183s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ProjectionMatrix
+[2.227s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_AdjustXY
+[2.229s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ObjPose
+[2.235s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_VscanTrackedArray
+[2.284s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_State
+[2.332s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_StateCmd
+[2.389s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_TrafficLightResultArray
+[2.427s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_SyncTimeMonitor
+[2.489s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_Centroids
+[2.502s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_BrakeCmd
+[2.503s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_ImageObj
+[2.515s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_TrafficLight
+[2.540s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_AccelCmd
+[2.648s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_Gear
+[2.651s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_LaneArray
+[2.707s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_Waypoint
+[2.907s] [  0%] Built target _autoware_msgs_generate_messages_check_deps_DetectedObjectArray
+[2.909s] CMakeFiles/_autoware_msgs_generate_messages_check_deps_PointsImage.dir/build.make:57: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_PointsImage' failed
+[2.909s] Traceback (most recent call last):
+[2.910s]   File "/opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py", line 41, in <module>
+[2.910s] make[2]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_PointsImage] Interrupt
+[2.910s]     from genmsg import EXT_MSG, EXT_SRV, MsgContext
+[2.910s]   File "/opt/ros/melodic/lib/python2.7/dist-packages/genmsg/__init__.py", line 33, in <module>
+[2.910s] Traceback (most recent call last):
+[2.910s]   File "/usr/lib/python2.7/site.py", line 554, in <module>
+[2.910s]     from . base import MSG_DIR, SRV_DIR, EXT_MSG, EXT_SRV, SEP, log, plog, InvalidMsgSpec, log_verbose, MsgGenerationException
+[2.910s]   File "/opt/ros/melodic/lib/python2.7/dist-packages/genmsg/base.py", line 52, in <module>
+[2.910s] make[2]: *** wait: No child processes.  Stop.
+[2.910s] make[2]: *** Waiting for unfinished jobs....
+[2.910s] make[2]: *** wait: No child processes.  Stop.
+[2.910s] CMakeFiles/Makefile2:779: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_PointsImage.dir/all' failed
+[2.910s] CMakeFiles/_autoware_msgs_generate_messages_check_deps_GeometricRectangle.dir/build.make:57: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_GeometricRectangle' failed
+[2.910s] CMakeFiles/Makefile2:1227: recipe for target 'CMakeFiles/std_msgs_generate_messages_cpp.dir/all' failed
+[2.910s] CMakeFiles/Makefile2:1931: recipe for target 'CMakeFiles/jsk_recognition_msgs_generate_messages_cpp.dir/all' failed
+[2.910s] CMakeFiles/Makefile2:3332: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_VehicleStatus.dir/all' failed
+[2.910s] CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make:70: recipe for target 'CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend' failed
+[2.910s] CMakeFiles/_autoware_msgs_generate_messages_check_deps_VehicleLocation.dir/build.make:57: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_VehicleLocation' failed
+[2.910s] CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make:70: recipe for target 'CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend' failed
+[2.910s] CMakeFiles/Makefile2:3652: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_GeometricRectangle.dir/all' failed
+[2.910s] CMakeFiles/Makefile2:3300: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_DetectedObjectArray.dir/all' failed
+[2.910s] CMakeFiles/Makefile2:2155: recipe for target 'CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all' failed
+[2.911s] CMakeFiles/Makefile2:747: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_ImageLaneObjects.dir/all' failed
+[2.911s] CMakeFiles/Makefile2:3108: recipe for target 'CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all' failed
+[2.911s] CMakeFiles/Makefile2:971: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_VehicleLocation.dir/all' failed
+[2.911s] CMakeFiles/Makefile2:1099: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_ICPStat.dir/all' failed
+[2.911s] CMakeFiles/Makefile2:459: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_Signals.dir/all' failed
+[2.911s] CMakeFiles/Makefile2:3556: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_ScanImage.dir/all' failed
+[2.911s] CMakeFiles/Makefile2:3460: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_ControlCommand.dir/all' failed
+[2.911s] CMakeFiles/_autoware_msgs_generate_messages_check_deps_TrafficLightResult.dir/build.make:57: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_TrafficLightResult' failed
+[2.911s] make[1]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_PointsImage.dir/all] Interrupt
+[2.911s] Traceback (most recent call last):
+[2.911s] make[1]: *** [CMakeFiles/std_msgs_generate_messages_cpp.dir/all] Interrupt
+[2.911s]   File "/usr/lib/python2.7/site.py", line 68, in <module>
+[2.911s] make[2]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_GeometricRectangle] Interrupt
+[2.911s] make[1]: *** [CMakeFiles/jsk_recognition_msgs_generate_messages_cpp.dir/all] Interrupt
+[2.911s]     import os
+[2.912s]   File "/usr/lib/python2.7/os.py", line 49, in <module>
+[2.912s]     import posixpath as path
+[2.912s]   File "/usr/lib/python2.7/posixpath.py", line 11, in <module>
+[2.912s]     import inspect, pprint
+[2.912s]   File "/usr/lib/python2.7/inspect.py", line 39, in <module>
+[2.912s]     """
+[2.912s] KeyboardInterrupt
+[2.912s] Traceback (most recent call last):
+[2.912s]   File "/opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py", line 41, in <module>
+[2.912s] make[2]: *** wait: No child processes.  Stop.
+[2.912s] make[2]: *** Waiting for unfinished jobs....
+[2.912s] make[2]: *** wait: No child processes.  Stop.
+[2.912s]     from genmsg import EXT_MSG, EXT_SRV, MsgContext
+[2.913s]   File "/opt/ros/melodic/lib/python2.7/dist-packages/genmsg/__init__.py", line 33, in <module>
+[2.913s]     from . base import MSG_DIR, SRV_DIR, EXT_MSG, EXT_SRV, SEP, log, plog, InvalidMsgSpec, log_verbose, MsgGenerationException
+[2.913s] make[2]: *** wait: No child processes.  Stop.
+[2.913s]   File "/opt/ros/melodic/lib/python2.7/dist-packages/genmsg/base.py", line 52, in <module>
+[2.913s] make[2]: *** Waiting for unfinished jobs....
+[2.913s] make[2]: *** wait: No child processes.  Stop.
+[2.913s]     import inspect, pprint
+[2.913s]   File "/usr/lib/python2.7/inspect.py", line 35, in <module>
+[2.913s] make[2]: *** [CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend] Interrupt
+[2.914s] make[2]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_VehicleLocation] Interrupt
+[2.914s] make[2]: *** [CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend] Interrupt
+[2.914s] make[1]: *** wait: No child processes.  Stop.
+[2.914s] make[1]: *** Waiting for unfinished jobs....
+[2.914s] make[1]: *** wait: No child processes.  Stop.
+[2.914s] make[1]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_GeometricRectangle.dir/all] Interrupt
+[2.914s] make[1]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_DetectedObjectArray.dir/all] Interrupt
+[2.914s] make[1]: *** [CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all] Interrupt
+[2.914s] make[1]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_ImageLaneObjects.dir/all] Error 2
+[2.914s] make[1]: *** [CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all] Interrupt
+[2.914s] make[1]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_VehicleLocation.dir/all] Interrupt
+[2.914s] make[1]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_ICPStat.dir/all] Error 2
+[2.914s] make[1]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_ScanImage.dir/all] Interrupt
+[2.914s] make[1]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_ControlCommand.dir/all] Error 2
+[2.915s] Traceback (most recent call last):
+[2.915s]   File "/usr/lib/python2.7/site.py", line 554, in <module>
+[2.915s] make[2]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_TrafficLightResult] Interrupt
+[2.915s] make[2]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_ImageObjects] Error 1
+[2.915s] make[1]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_TrafficLightResult.dir/all] Interrupt
+[2.915s] CMakeFiles/_autoware_msgs_generate_messages_check_deps_ImageObjects.dir/build.make:57: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_ImageObjects' failed
+[2.915s] CMakeFiles/Makefile2:427: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_TrafficLightResult.dir/all' failed
+[2.915s] CMakeFiles/Makefile2:3588: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_ImageObjects.dir/all' failed
+[2.915s] make[1]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_ImageObjects.dir/all] Interrupt
+[2.915s]         import string
+[2.915s] import tokenize
+[2.915s]   File "/usr/lib/python2.7/string.py", line 20, in <module>
+[2.916s]   File "/usr/lib/python2.7/tokenize.py", line 31, in <module>
+[2.916s]         main()
+[2.916s] main()
+[2.916s]   File "/usr/lib/python2.7/site.py", line 547, in main
+[2.916s]   File "/usr/lib/python2.7/site.py", line 536, in main
+[2.917s]     execusercustomize()
+[2.917s]   File "/usr/lib/python2.7/site.py", line 518, in execusercustomize
+[2.917s]     known_paths = addusersitepackages(known_paths)
+[2.917s]   File "/usr/lib/python2.7/site.py", line 272, in addusersitepackages
+[2.917s]         import usercustomize
+[2.920s] user_site = getusersitepackages()
+[2.920s] KeyboardInterrupt  File "/usr/lib/python2.7/site.py", line 247, in getusersitepackages
+[2.920s] 
+[2.920s]     user_base = getuserbase() # this will also set USER_BASE
+[2.920s]   File "/usr/lib/python2.7/site.py", line 237, in getuserbase
+[2.920s]     USER_BASE = get_config_var('userbase')
+[2.920s]   File "/usr/lib/python2.7/sysconfig.py", line 587, in get_config_var
+[2.920s]     """
+[2.920s] KeyboardInterrupt
+[2.920s]     return get_config_vars().get(name)
+[2.920s]   File "/usr/lib/python2.7/sysconfig.py", line 533, in get_config_vars
+[2.920s] CMakeFiles/_autoware_msgs_generate_messages_check_deps_CloudCluster.dir/build.make:57: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_CloudCluster' failed
+[2.921s] CMakeFiles/Makefile2:3620: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_CloudCluster.dir/all' failed
+[2.921s]     _init_posix(_CONFIG_VARS)
+[2.921s]   File "/usr/lib/python2.7/sysconfig.py", line 417, in _init_posix
+[2.921s]     from _sysconfigdata import build_time_vars
+[2.921s]   File "/usr/lib/python2.7/_sysconfigdata.py", line 1, in <module>
+[2.921s] make[2]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_CloudCluster] Error 1
+[2.921s] make[1]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_CloudCluster.dir/all] Interrupt
+[2.921s]     from token import *
+[2.921s]   File "/usr/lib/python2.7/token.py", line 1, in <module>
+[2.921s]     """Token constants (from "token.h")."""
+[2.921s] KeyboardInterrupt
+[2.921s]     import sys
+[2.921s] KeyboardInterrupt
+[2.921s] make[2]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_ImageObjRanged] Error 1
+[2.922s] make[1]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_ImageObjRanged.dir/all] Interrupt
+[2.922s] CMakeFiles/_autoware_msgs_generate_messages_check_deps_ImageObjRanged.dir/build.make:57: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_ImageObjRanged' failed
+[2.922s] CMakeFiles/Makefile2:3364: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_ImageObjRanged.dir/all' failed
+[2.922s] CMakeFiles/_autoware_msgs_generate_messages_check_deps_SteerCmd.dir/build.make:57: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_SteerCmd' failed
+[2.923s] make[2]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_SteerCmd] Error 1
+[2.923s] CMakeFiles/_autoware_msgs_generate_messages_check_deps_TunedResult.dir/build.make:57: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_TunedResult' failed
+[2.924s] make[2]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_TunedResult] Error 1
+[2.924s] CMakeFiles/Makefile2:3524: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_SteerCmd.dir/all' failed
+[2.924s] make[1]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_SteerCmd.dir/all] Interrupt
+[2.924s] CMakeFiles/Makefile2:3396: recipe for target 'CMakeFiles/_autoware_msgs_generate_messages_check_deps_TunedResult.dir/all' failed
+[2.924s] make[1]: *** [CMakeFiles/_autoware_msgs_generate_messages_check_deps_TunedResult.dir/all] Interrupt
+[2.925s] Makefile:140: recipe for target 'all' failed
+[2.925s] make: *** [all] Interrupt
+[3.277s] Invoked command in '/home/autoware/Autoware/build/autoware_msgs' returned '-2': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_msgs -- -j20 -l20

@@ -1,0 +1,6 @@
+/home/autoware/Autoware/install/way_planner/lib/pkgconfig/way_planner.pc
+/home/autoware/Autoware/install/way_planner/share/way_planner/cmake/way_plannerConfig.cmake
+/home/autoware/Autoware/install/way_planner/share/way_planner/cmake/way_plannerConfig-version.cmake
+/home/autoware/Autoware/install/way_planner/share/way_planner/package.xml
+/home/autoware/Autoware/install/way_planner/lib/way_planner/way_planner
+/home/autoware/Autoware/install/way_planner/share/way_planner/launch/way_planner.launch

@@ -1,0 +1,70 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- CUDA compilation status: ON.
+-- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/rosinterface/devel
+-- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/rosinterface/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.26
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/autoware/Autoware/build/rosinterface
+Scanning dependencies of target rosinterface_autogen
+[ 16%] Automatic MOC for target rosinterface
+[ 16%] Built target rosinterface_autogen
+[ 33%] Generating include/rosinterface/moc_rosinterface.cpp
+Scanning dependencies of target rosinterface
+[ 50%] Building CXX object CMakeFiles/rosinterface.dir/ROSInterface/rosinterface.cpp.o
+[ 66%] Building CXX object CMakeFiles/rosinterface.dir/include/rosinterface/moc_rosinterface.cpp.o
+[ 83%] Building CXX object CMakeFiles/rosinterface.dir/rosinterface_autogen/mocs_compilation.cpp.o
+[100%] Linking CXX shared library devel/lib/librosinterface.so
+[100%] Built target rosinterface
+Scanning dependencies of target tests
+Built target tests
+[ 16%] Automatic MOC for target rosinterface
+[ 16%] Built target rosinterface_autogen
+[100%] Built target rosinterface
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/autoware/Autoware/install/rosinterface/lib/pkgconfig/rosinterface.pc
+-- Installing: /home/autoware/Autoware/install/rosinterface/share/rosinterface/cmake/rosinterfaceConfig.cmake
+-- Installing: /home/autoware/Autoware/install/rosinterface/share/rosinterface/cmake/rosinterfaceConfig-version.cmake
+-- Installing: /home/autoware/Autoware/install/rosinterface/share/rosinterface/package.xml
+-- Installing: /home/autoware/Autoware/install/rosinterface/include/rosinterface
+-- Installing: /home/autoware/Autoware/install/rosinterface/include/rosinterface/rosinterface.h
+-- Installing: /home/autoware/Autoware/install/rosinterface/lib/librosinterface.so
+-- Set runtime path of "/home/autoware/Autoware/install/rosinterface/lib/librosinterface.so" to ""

@@ -1,0 +1,402 @@
+[0.055s] Invoking command in '/home/autoware/Autoware/build/waypoint_maker': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/lane_planner:/home/autoware/Autoware/install/libwaypoint_follower:/home/autoware/Autoware/install/lanelet2_extension:/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/tablet_socket_msgs:/home/autoware/Autoware/install/gnss:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_lanelet2_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/lane_planner/lib:/home/autoware/Autoware/install/libwaypoint_follower/lib:/home/autoware/Autoware/install/lanelet2_extension/lib:/home/autoware/Autoware/install/vector_map/lib:/home/autoware/Autoware/install/amathutils_lib/lib:/home/autoware/Autoware/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/lane_planner/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lane_planner/lib/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/pkgconfig:/home/autoware/Autoware/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lanelet2_extension/lib/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/pkgconfig:/home/autoware/Autoware/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/gnss/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/lane_planner/share:/home/autoware/Autoware/install/libwaypoint_follower/share:/home/autoware/Autoware/install/lanelet2_extension/share:/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/tablet_socket_msgs/share:/home/autoware/Autoware/install/gnss/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_lanelet2_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_planning/waypoint_maker -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/waypoint_maker
+[0.148s] -- The C compiler identification is GNU 7.5.0
+[0.235s] -- The CXX compiler identification is GNU 7.5.0
+[0.241s] -- Check for working C compiler: /usr/bin/cc
+[0.342s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.342s] -- Detecting C compiler ABI info
+[0.450s] -- Detecting C compiler ABI info - done
+[0.455s] -- Detecting C compile features
+[0.765s] -- Detecting C compile features - done
+[0.770s] -- Check for working CXX compiler: /usr/bin/c++
+[0.886s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.886s] -- Detecting CXX compiler ABI info
+[0.994s] -- Detecting CXX compiler ABI info - done
+[1.004s] -- Detecting CXX compile features
+[1.503s] -- Detecting CXX compile features - done
+[1.506s] -- CUDA compilation status: ON.
+[1.510s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/waypoint_maker/devel
+[1.511s] -- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/lane_planner;/home/autoware/Autoware/install/libwaypoint_follower;/home/autoware/Autoware/install/lanelet2_extension;/home/autoware/Autoware/install/vector_map;/home/autoware/Autoware/install/amathutils_lib;/home/autoware/Autoware/install/vector_map_msgs;/home/autoware/Autoware/install/tablet_socket_msgs;/home/autoware/Autoware/install/gnss;/home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_lanelet2_msgs;/home/autoware/Autoware/install/autoware_config_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.512s] -- This workspace overlays: /home/autoware/Autoware/install/lane_planner;/home/autoware/Autoware/install/libwaypoint_follower;/home/autoware/Autoware/install/lanelet2_extension;/home/autoware/Autoware/install/vector_map;/home/autoware/Autoware/install/amathutils_lib;/home/autoware/Autoware/install/vector_map_msgs;/home/autoware/Autoware/install/tablet_socket_msgs;/home/autoware/Autoware/install/gnss;/home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_lanelet2_msgs;/home/autoware/Autoware/install/autoware_config_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.534s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.534s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.534s] -- Using Debian Python package layout
+[1.535s] -- Using empy: /usr/bin/empy
+[1.710s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.710s] -- Call enable_testing()
+[1.718s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/waypoint_maker/test_results
+[1.745s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.745s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.770s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.770s] -- Looking for pthread.h
+[1.866s] -- Looking for pthread.h - found
+[1.870s] -- Looking for pthread_create
+[1.970s] -- Looking for pthread_create - not found
+[1.970s] -- Looking for pthread_create in pthreads
+[2.062s] -- Looking for pthread_create in pthreads - not found
+[2.062s] -- Looking for pthread_create in pthread
+[2.166s] -- Looking for pthread_create in pthread - found
+[2.166s] -- Found Threads: TRUE  
+[2.167s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.226s] -- catkin 0.7.26
+[2.226s] -- BUILD_SHARED_LIBS is on
+[2.486s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.929s] -- Boost version: 1.65.1
+[3.114s] -- Configuring done
+[3.244s] -- Generating done
+[3.263s] -- Build files have been written to: /home/autoware/Autoware/build/waypoint_maker
+[3.273s] Invoked command in '/home/autoware/Autoware/build/waypoint_maker' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/lane_planner:/home/autoware/Autoware/install/libwaypoint_follower:/home/autoware/Autoware/install/lanelet2_extension:/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/tablet_socket_msgs:/home/autoware/Autoware/install/gnss:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_lanelet2_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/lane_planner/lib:/home/autoware/Autoware/install/libwaypoint_follower/lib:/home/autoware/Autoware/install/lanelet2_extension/lib:/home/autoware/Autoware/install/vector_map/lib:/home/autoware/Autoware/install/amathutils_lib/lib:/home/autoware/Autoware/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/lane_planner/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lane_planner/lib/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/pkgconfig:/home/autoware/Autoware/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lanelet2_extension/lib/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/pkgconfig:/home/autoware/Autoware/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/gnss/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/lane_planner/share:/home/autoware/Autoware/install/libwaypoint_follower/share:/home/autoware/Autoware/install/lanelet2_extension/share:/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/tablet_socket_msgs/share:/home/autoware/Autoware/install/gnss/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_lanelet2_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_planning/waypoint_maker -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/waypoint_maker
+[3.275s] Invoking command in '/home/autoware/Autoware/build/waypoint_maker': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/lane_planner:/home/autoware/Autoware/install/libwaypoint_follower:/home/autoware/Autoware/install/lanelet2_extension:/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/tablet_socket_msgs:/home/autoware/Autoware/install/gnss:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_lanelet2_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/lane_planner/lib:/home/autoware/Autoware/install/libwaypoint_follower/lib:/home/autoware/Autoware/install/lanelet2_extension/lib:/home/autoware/Autoware/install/vector_map/lib:/home/autoware/Autoware/install/amathutils_lib/lib:/home/autoware/Autoware/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/lane_planner/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lane_planner/lib/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/pkgconfig:/home/autoware/Autoware/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lanelet2_extension/lib/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/pkgconfig:/home/autoware/Autoware/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/gnss/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/lane_planner/share:/home/autoware/Autoware/install/libwaypoint_follower/share:/home/autoware/Autoware/install/lanelet2_extension/share:/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/tablet_socket_msgs/share:/home/autoware/Autoware/install/gnss/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_lanelet2_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/waypoint_maker -- -j2 -l2
+[3.354s] Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+[3.371s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[3.388s] Scanning dependencies of target vector_map_msgs_generate_messages_py
+[3.404s] [  0%] Built target vector_map_msgs_generate_messages_py
+[3.420s] Scanning dependencies of target vector_map_msgs_generate_messages_nodejs
+[3.437s] [  0%] Built target vector_map_msgs_generate_messages_nodejs
+[3.452s] Scanning dependencies of target vector_map_msgs_generate_messages_lisp
+[3.468s] [  0%] Built target vector_map_msgs_generate_messages_lisp
+[3.486s] Scanning dependencies of target vector_map_msgs_generate_messages_eus
+[3.501s] [  0%] Built target vector_map_msgs_generate_messages_eus
+[3.516s] Scanning dependencies of target vector_map_msgs_generate_messages_cpp
+[3.532s] [  0%] Built target vector_map_msgs_generate_messages_cpp
+[3.548s] Scanning dependencies of target visualization_msgs_generate_messages_py
+[3.564s] [  0%] Built target visualization_msgs_generate_messages_py
+[3.581s] Scanning dependencies of target visualization_msgs_generate_messages_eus
+[3.597s] [  0%] Built target visualization_msgs_generate_messages_eus
+[3.612s] Scanning dependencies of target visualization_msgs_generate_messages_nodejs
+[3.628s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[3.643s] Scanning dependencies of target geometry_msgs_generate_messages_eus
+[3.658s] [  0%] Built target geometry_msgs_generate_messages_eus
+[3.673s] Scanning dependencies of target std_msgs_generate_messages_lisp
+[3.688s] [  0%] Built target std_msgs_generate_messages_lisp
+[3.703s] Scanning dependencies of target roscpp_generate_messages_nodejs
+[3.718s] [  0%] Built target roscpp_generate_messages_nodejs
+[3.733s] Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+[3.747s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[3.763s] Scanning dependencies of target geometry_msgs_generate_messages_lisp
+[3.778s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[3.793s] Scanning dependencies of target pcl_msgs_generate_messages_cpp
+[3.807s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[3.822s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_cpp
+[3.836s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[3.850s] Scanning dependencies of target autoware_msgs_generate_messages_eus
+[3.864s] [  0%] Built target autoware_msgs_generate_messages_eus
+[3.879s] Scanning dependencies of target autoware_msgs_generate_messages_lisp
+[3.894s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[3.911s] Scanning dependencies of target visualization_msgs_generate_messages_lisp
+[3.927s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[3.943s] Scanning dependencies of target std_msgs_generate_messages_eus
+[3.959s] [  0%] Built target std_msgs_generate_messages_eus
+[3.975s] Scanning dependencies of target autoware_msgs_generate_messages_nodejs
+[3.991s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[4.007s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_eus
+[4.025s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[4.042s] Scanning dependencies of target actionlib_msgs_generate_messages_py
+[4.059s] [  0%] Built target actionlib_msgs_generate_messages_py
+[4.077s] Scanning dependencies of target autoware_config_msgs_generate_messages_eus
+[4.093s] [  0%] Built target autoware_config_msgs_generate_messages_eus
+[4.109s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_lisp
+[4.125s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[4.140s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs
+[4.155s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[4.170s] Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+[4.185s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[4.201s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_cpp
+[4.215s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[4.231s] Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+[4.245s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[4.259s] Scanning dependencies of target tf_generate_messages_eus
+[4.275s] [  0%] Built target tf_generate_messages_eus
+[4.296s] Scanning dependencies of target tf_generate_messages_lisp
+[4.310s] [  0%] Built target tf_generate_messages_lisp
+[4.324s] Scanning dependencies of target autoware_config_msgs_generate_messages_nodejs
+[4.340s] [  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[4.364s] Scanning dependencies of target tf_generate_messages_nodejs
+[4.383s] [  0%] Built target tf_generate_messages_nodejs
+[4.401s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs
+[4.418s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[4.435s] Scanning dependencies of target roscpp_generate_messages_lisp
+[4.451s] [  0%] Built target roscpp_generate_messages_lisp
+[4.468s] Scanning dependencies of target roscpp_generate_messages_py
+[4.484s] [  0%] Built target roscpp_generate_messages_py
+[4.500s] Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+[4.516s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[4.533s] Scanning dependencies of target autoware_config_msgs_generate_messages_cpp
+[4.549s] [  0%] Built target autoware_config_msgs_generate_messages_cpp
+[4.565s] Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+[4.581s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[4.599s] Scanning dependencies of target roscpp_generate_messages_eus
+[4.614s] [  0%] Built target roscpp_generate_messages_eus
+[4.630s] Scanning dependencies of target actionlib_msgs_generate_messages_eus
+[4.645s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[4.660s] Scanning dependencies of target rosgraph_msgs_generate_messages_py
+[4.684s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[4.701s] Scanning dependencies of target autoware_config_msgs_generate_messages_py
+[4.716s] [  0%] Built target autoware_config_msgs_generate_messages_py
+[4.732s] Scanning dependencies of target pcl_msgs_generate_messages_py
+[4.747s] [  0%] Built target pcl_msgs_generate_messages_py
+[4.761s] Scanning dependencies of target actionlib_generate_messages_eus
+[4.777s] [  0%] Built target actionlib_generate_messages_eus
+[4.793s] Scanning dependencies of target geometry_msgs_generate_messages_cpp
+[4.809s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[4.824s] Scanning dependencies of target actionlib_generate_messages_lisp
+[4.839s] [  0%] Built target actionlib_generate_messages_lisp
+[4.854s] Scanning dependencies of target pcl_msgs_generate_messages_lisp
+[4.871s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[4.890s] Scanning dependencies of target tf_generate_messages_cpp
+[4.907s] [  0%] Built target tf_generate_messages_cpp
+[4.922s] Scanning dependencies of target actionlib_generate_messages_nodejs
+[4.937s] [  0%] Built target actionlib_generate_messages_nodejs
+[4.952s] Scanning dependencies of target visualization_msgs_generate_messages_cpp
+[4.968s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[4.983s] Scanning dependencies of target tablet_socket_msgs_generate_messages_eus
+[4.999s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[5.016s] Scanning dependencies of target nav_msgs_generate_messages_eus
+[5.031s] [  0%] Built target nav_msgs_generate_messages_eus
+[5.052s] Scanning dependencies of target tf2_msgs_generate_messages_eus
+[5.067s] [  0%] Built target tf2_msgs_generate_messages_eus
+[5.084s] Scanning dependencies of target nav_msgs_generate_messages_py
+[5.103s] [  0%] Built target nav_msgs_generate_messages_py
+[5.119s] Scanning dependencies of target tf2_msgs_generate_messages_lisp
+[5.134s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[5.150s] Scanning dependencies of target actionlib_generate_messages_py
+[5.166s] [  0%] Built target actionlib_generate_messages_py
+[5.182s] Scanning dependencies of target tf2_msgs_generate_messages_py
+[5.196s] [  0%] Built target tf2_msgs_generate_messages_py
+[5.213s] Scanning dependencies of target tf2_msgs_generate_messages_nodejs
+[5.228s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[5.244s] Scanning dependencies of target tablet_socket_msgs_generate_messages_cpp
+[5.261s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[5.280s] Scanning dependencies of target autoware_config_msgs_generate_messages_lisp
+[5.300s] [  0%] Built target autoware_config_msgs_generate_messages_lisp
+[5.314s] Scanning dependencies of target sensor_msgs_generate_messages_lisp
+[5.332s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[5.347s] Scanning dependencies of target nav_msgs_generate_messages_cpp
+[5.362s] [  0%] Built target nav_msgs_generate_messages_cpp
+[5.377s] Scanning dependencies of target tablet_socket_msgs_generate_messages_lisp
+[5.392s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[5.407s] Scanning dependencies of target nav_msgs_generate_messages_nodejs
+[5.423s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[5.439s] Scanning dependencies of target geometry_msgs_generate_messages_py
+[5.454s] [  0%] Built target geometry_msgs_generate_messages_py
+[5.471s] Scanning dependencies of target sensor_msgs_generate_messages_nodejs
+[5.486s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[5.502s] Scanning dependencies of target roscpp_generate_messages_cpp
+[5.517s] [  0%] Built target roscpp_generate_messages_cpp
+[5.532s] Scanning dependencies of target actionlib_generate_messages_cpp
+[5.547s] [  0%] Built target actionlib_generate_messages_cpp
+[5.562s] Scanning dependencies of target pcl_msgs_generate_messages_eus
+[5.576s] [  0%] Built target pcl_msgs_generate_messages_eus
+[5.591s] Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+[5.607s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[5.622s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_lisp
+[5.638s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[5.660s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_eus
+[5.678s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[5.696s] Scanning dependencies of target tf2_msgs_generate_messages_cpp
+[5.712s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[5.729s] Scanning dependencies of target std_msgs_generate_messages_py
+[5.747s] [  0%] Built target std_msgs_generate_messages_py
+[5.764s] Scanning dependencies of target autoware_msgs_generate_messages_py
+[5.780s] [  0%] Built target autoware_msgs_generate_messages_py
+[5.797s] Scanning dependencies of target std_msgs_generate_messages_nodejs
+[5.814s] [  0%] Built target std_msgs_generate_messages_nodejs
+[5.831s] Scanning dependencies of target sensor_msgs_generate_messages_eus
+[5.846s] [  0%] Built target sensor_msgs_generate_messages_eus
+[5.861s] Scanning dependencies of target _catkin_empty_exported_target
+[5.877s] [  0%] Built target _catkin_empty_exported_target
+[5.892s] Scanning dependencies of target sensor_msgs_generate_messages_cpp
+[5.907s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[5.922s] Scanning dependencies of target autoware_msgs_generate_messages_cpp
+[5.937s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[5.951s] Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+[5.966s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[5.982s] Scanning dependencies of target nav_msgs_generate_messages_lisp
+[6.000s] [  0%] Built target nav_msgs_generate_messages_lisp
+[6.015s] Scanning dependencies of target pcl_msgs_generate_messages_nodejs
+[6.030s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[6.046s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_py
+[6.061s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[6.077s] Scanning dependencies of target sensor_msgs_generate_messages_py
+[6.093s] [  0%] Built target sensor_msgs_generate_messages_py
+[6.110s] Scanning dependencies of target tablet_socket_msgs_generate_messages_nodejs
+[6.125s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[6.140s] Scanning dependencies of target tf_generate_messages_py
+[6.156s] [  0%] Built target tf_generate_messages_py
+[6.172s] Scanning dependencies of target std_msgs_generate_messages_cpp
+[6.187s] [  0%] Built target std_msgs_generate_messages_cpp
+[6.202s] Scanning dependencies of target tablet_socket_msgs_generate_messages_py
+[6.216s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[6.231s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_py
+[6.250s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[6.299s] Scanning dependencies of target waypoint_clicker
+[6.326s] [  5%] Building CXX object CMakeFiles/waypoint_clicker.dir/nodes/waypoint_clicker/waypoint_clicker.cpp.o
+[14.199s] [ 10%] Linking CXX executable devel/lib/waypoint_maker/waypoint_clicker
+[14.394s] [ 10%] Built target waypoint_clicker
+[14.436s] Scanning dependencies of target waypoint_marker_publisher
+[14.462s] [ 15%] Building CXX object CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o
+[18.832s] /home/autoware/Autoware/src/autoware/core_planning/waypoint_maker/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp:223:6: warning: ‘void {anonymous}::createGlobalLaneArrayMarker(std_msgs::ColorRGBA, const LaneArray&)’ defined but not used [-Wunused-function]
+[18.833s]  void createGlobalLaneArrayMarker(std_msgs::ColorRGBA color, const autoware_msgs::LaneArray& lane_waypoints_array)
+[18.833s]       ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[23.856s] [ 20%] Linking CXX executable devel/lib/waypoint_maker/waypoint_marker_publisher
+[24.062s] [ 20%] Built target waypoint_marker_publisher
+[24.095s] Scanning dependencies of target waypoint_extractor
+[24.119s] [ 25%] Building CXX object CMakeFiles/waypoint_extractor.dir/nodes/waypoint_extractor/waypoint_extractor.cpp.o
+[28.363s] [ 30%] Linking CXX executable devel/lib/waypoint_maker/waypoint_extractor
+[28.541s] [ 30%] Built target waypoint_extractor
+[28.577s] Scanning dependencies of target waypoint_loader
+[28.597s] [ 35%] Building CXX object CMakeFiles/waypoint_loader.dir/nodes/waypoint_loader/waypoint_loader_core.cpp.o
+[33.442s] [ 40%] Building CXX object CMakeFiles/waypoint_loader.dir/nodes/waypoint_loader/waypoint_loader_node.cpp.o
+[35.402s] [ 45%] Linking CXX executable devel/lib/waypoint_maker/waypoint_loader
+[35.591s] [ 45%] Built target waypoint_loader
+[35.636s] Scanning dependencies of target waypoint_saver
+[35.664s] [ 50%] Building CXX object CMakeFiles/waypoint_saver.dir/nodes/waypoint_saver/waypoint_saver.cpp.o
+[49.062s] [ 55%] Linking CXX executable devel/lib/waypoint_maker/waypoint_saver
+[49.301s] [ 55%] Built target waypoint_saver
+[49.347s] Scanning dependencies of target waypoint_creator
+[49.371s] [ 60%] Building CXX object CMakeFiles/waypoint_creator.dir/nodes/waypoint_creator/waypoint_creator_node.cpp.o
+[54.513s] [ 65%] Building CXX object CMakeFiles/waypoint_creator.dir/nodes/waypoint_creator/waypoint_creator_core.cpp.o
+[62.880s] [ 70%] Building CXX object CMakeFiles/waypoint_creator.dir/nodes/waypoint_creator/interpolate.cpp.o
+[63.639s] [ 75%] Linking CXX executable devel/lib/waypoint_maker/waypoint_creator
+[63.891s] [ 75%] Built target waypoint_creator
+[63.936s] Scanning dependencies of target waypoint_velocity_visualizer
+[63.963s] [ 80%] Building CXX object CMakeFiles/waypoint_velocity_visualizer.dir/nodes/waypoint_velocity_visualizer/waypoint_velocity_visualizer.cpp.o
+[79.147s] [ 85%] Linking CXX executable devel/lib/waypoint_maker/waypoint_velocity_visualizer
+[79.406s] [ 85%] Built target waypoint_velocity_visualizer
+[79.453s] Scanning dependencies of target waypoint_replanner
+[79.479s] [ 90%] Building CXX object CMakeFiles/waypoint_replanner.dir/nodes/waypoint_replanner/waypoint_replanner.cpp.o
+[86.440s] [ 95%] Building CXX object CMakeFiles/waypoint_replanner.dir/nodes/waypoint_replanner/waypoint_replanner_node.cpp.o
+[93.983s] [100%] Linking CXX executable devel/lib/waypoint_maker/waypoint_replanner
+[94.213s] [100%] Built target waypoint_replanner
+[94.232s] Invoked command in '/home/autoware/Autoware/build/waypoint_maker' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/lane_planner:/home/autoware/Autoware/install/libwaypoint_follower:/home/autoware/Autoware/install/lanelet2_extension:/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/tablet_socket_msgs:/home/autoware/Autoware/install/gnss:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_lanelet2_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/lane_planner/lib:/home/autoware/Autoware/install/libwaypoint_follower/lib:/home/autoware/Autoware/install/lanelet2_extension/lib:/home/autoware/Autoware/install/vector_map/lib:/home/autoware/Autoware/install/amathutils_lib/lib:/home/autoware/Autoware/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/lane_planner/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lane_planner/lib/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/pkgconfig:/home/autoware/Autoware/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lanelet2_extension/lib/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/pkgconfig:/home/autoware/Autoware/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/gnss/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/lane_planner/share:/home/autoware/Autoware/install/libwaypoint_follower/share:/home/autoware/Autoware/install/lanelet2_extension/share:/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/tablet_socket_msgs/share:/home/autoware/Autoware/install/gnss/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_lanelet2_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/waypoint_maker -- -j2 -l2
+[94.412s] Invoking command in '/home/autoware/Autoware/build/waypoint_maker': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/lane_planner:/home/autoware/Autoware/install/libwaypoint_follower:/home/autoware/Autoware/install/lanelet2_extension:/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/tablet_socket_msgs:/home/autoware/Autoware/install/gnss:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_lanelet2_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/lane_planner/lib:/home/autoware/Autoware/install/libwaypoint_follower/lib:/home/autoware/Autoware/install/lanelet2_extension/lib:/home/autoware/Autoware/install/vector_map/lib:/home/autoware/Autoware/install/amathutils_lib/lib:/home/autoware/Autoware/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/lane_planner/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lane_planner/lib/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/pkgconfig:/home/autoware/Autoware/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lanelet2_extension/lib/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/pkgconfig:/home/autoware/Autoware/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/gnss/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/lane_planner/share:/home/autoware/Autoware/install/libwaypoint_follower/share:/home/autoware/Autoware/install/lanelet2_extension/share:/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/tablet_socket_msgs/share:/home/autoware/Autoware/install/gnss/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_lanelet2_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/waypoint_maker --target tests -- -j2 -l2
+[94.505s] Scanning dependencies of target tests
+[94.522s] Built target tests
+[94.539s] Invoked command in '/home/autoware/Autoware/build/waypoint_maker' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/lane_planner:/home/autoware/Autoware/install/libwaypoint_follower:/home/autoware/Autoware/install/lanelet2_extension:/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/tablet_socket_msgs:/home/autoware/Autoware/install/gnss:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_lanelet2_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/lane_planner/lib:/home/autoware/Autoware/install/libwaypoint_follower/lib:/home/autoware/Autoware/install/lanelet2_extension/lib:/home/autoware/Autoware/install/vector_map/lib:/home/autoware/Autoware/install/amathutils_lib/lib:/home/autoware/Autoware/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/lane_planner/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lane_planner/lib/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/pkgconfig:/home/autoware/Autoware/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lanelet2_extension/lib/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/pkgconfig:/home/autoware/Autoware/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/gnss/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/lane_planner/share:/home/autoware/Autoware/install/libwaypoint_follower/share:/home/autoware/Autoware/install/lanelet2_extension/share:/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/tablet_socket_msgs/share:/home/autoware/Autoware/install/gnss/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_lanelet2_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/waypoint_maker --target tests -- -j2 -l2
+[94.723s] Invoking command in '/home/autoware/Autoware/build/waypoint_maker': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/lane_planner:/home/autoware/Autoware/install/libwaypoint_follower:/home/autoware/Autoware/install/lanelet2_extension:/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/tablet_socket_msgs:/home/autoware/Autoware/install/gnss:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_lanelet2_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/lane_planner/lib:/home/autoware/Autoware/install/libwaypoint_follower/lib:/home/autoware/Autoware/install/lanelet2_extension/lib:/home/autoware/Autoware/install/vector_map/lib:/home/autoware/Autoware/install/amathutils_lib/lib:/home/autoware/Autoware/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/lane_planner/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lane_planner/lib/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/pkgconfig:/home/autoware/Autoware/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lanelet2_extension/lib/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/pkgconfig:/home/autoware/Autoware/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/gnss/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/lane_planner/share:/home/autoware/Autoware/install/libwaypoint_follower/share:/home/autoware/Autoware/install/lanelet2_extension/share:/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/tablet_socket_msgs/share:/home/autoware/Autoware/install/gnss/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_lanelet2_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/waypoint_maker --target install -- -j2 -l2
+[94.809s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[94.841s] [  0%] Built target vector_map_msgs_generate_messages_py
+[94.872s] [  0%] Built target vector_map_msgs_generate_messages_nodejs
+[94.918s] [  0%] Built target vector_map_msgs_generate_messages_lisp
+[94.951s] [  0%] Built target vector_map_msgs_generate_messages_eus
+[94.984s] [  0%] Built target vector_map_msgs_generate_messages_cpp
+[95.016s] [  0%] Built target visualization_msgs_generate_messages_py
+[95.048s] [  0%] Built target visualization_msgs_generate_messages_eus
+[95.081s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[95.114s] [  0%] Built target geometry_msgs_generate_messages_eus
+[95.146s] [  0%] Built target std_msgs_generate_messages_lisp
+[95.177s] [  0%] Built target roscpp_generate_messages_nodejs
+[95.210s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[95.242s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[95.275s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[95.308s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[95.339s] [  0%] Built target autoware_msgs_generate_messages_eus
+[95.370s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[95.400s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[95.432s] [  0%] Built target std_msgs_generate_messages_eus
+[95.463s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[95.493s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[95.524s] [  0%] Built target actionlib_msgs_generate_messages_py
+[95.557s] [  0%] Built target autoware_config_msgs_generate_messages_eus
+[95.592s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[95.625s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[95.658s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[95.690s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[95.722s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[95.759s] [  0%] Built target tf_generate_messages_eus
+[95.791s] [  0%] Built target tf_generate_messages_lisp
+[95.823s] [  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[95.855s] [  0%] Built target tf_generate_messages_nodejs
+[95.887s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[95.920s] [  0%] Built target roscpp_generate_messages_lisp
+[95.951s] [  0%] Built target roscpp_generate_messages_py
+[95.983s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[96.017s] [  0%] Built target autoware_config_msgs_generate_messages_cpp
+[96.050s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[96.084s] [  0%] Built target roscpp_generate_messages_eus
+[96.116s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[96.147s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[96.179s] [  0%] Built target autoware_config_msgs_generate_messages_py
+[96.211s] [  0%] Built target pcl_msgs_generate_messages_py
+[96.242s] [  0%] Built target actionlib_generate_messages_eus
+[96.274s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[96.304s] [  0%] Built target actionlib_generate_messages_lisp
+[96.335s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[96.365s] [  0%] Built target tf_generate_messages_cpp
+[96.396s] [  0%] Built target actionlib_generate_messages_nodejs
+[96.427s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[96.459s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[96.489s] [  0%] Built target nav_msgs_generate_messages_eus
+[96.520s] [  0%] Built target tf2_msgs_generate_messages_eus
+[96.552s] [  0%] Built target nav_msgs_generate_messages_py
+[96.590s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[96.622s] [  0%] Built target actionlib_generate_messages_py
+[96.652s] [  0%] Built target tf2_msgs_generate_messages_py
+[96.687s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[96.724s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[96.756s] [  0%] Built target autoware_config_msgs_generate_messages_lisp
+[96.788s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[96.819s] [  0%] Built target nav_msgs_generate_messages_cpp
+[96.851s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[96.881s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[96.914s] [  0%] Built target geometry_msgs_generate_messages_py
+[96.947s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[96.979s] [  0%] Built target roscpp_generate_messages_cpp
+[97.010s] [  0%] Built target actionlib_generate_messages_cpp
+[97.041s] [  0%] Built target pcl_msgs_generate_messages_eus
+[97.075s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[97.106s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[97.137s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[97.168s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[97.198s] [  0%] Built target std_msgs_generate_messages_py
+[97.230s] [  0%] Built target autoware_msgs_generate_messages_py
+[97.264s] [  0%] Built target std_msgs_generate_messages_nodejs
+[97.295s] [  0%] Built target sensor_msgs_generate_messages_eus
+[97.327s] [  0%] Built target _catkin_empty_exported_target
+[97.358s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[97.390s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[97.422s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[97.453s] [  0%] Built target nav_msgs_generate_messages_lisp
+[97.486s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[97.518s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[97.551s] [  0%] Built target sensor_msgs_generate_messages_py
+[97.587s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[97.621s] [  0%] Built target tf_generate_messages_py
+[97.654s] [  0%] Built target std_msgs_generate_messages_cpp
+[97.693s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[97.726s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[97.768s] [ 10%] Built target waypoint_clicker
+[97.810s] [ 20%] Built target waypoint_marker_publisher
+[97.850s] [ 30%] Built target waypoint_extractor
+[97.890s] [ 45%] Built target waypoint_loader
+[97.932s] [ 55%] Built target waypoint_saver
+[97.975s] [ 75%] Built target waypoint_creator
+[98.018s] [ 85%] Built target waypoint_velocity_visualizer
+[98.063s] [100%] Built target waypoint_replanner
+[98.098s] Install the project...
+[98.111s] -- Install configuration: "Release"
+[98.112s] -- Installing: /home/autoware/Autoware/install/waypoint_maker/lib/pkgconfig/waypoint_maker.pc
+[98.113s] -- Installing: /home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/cmake/waypoint_makerConfig.cmake
+[98.113s] -- Installing: /home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/cmake/waypoint_makerConfig-version.cmake
+[98.114s] -- Installing: /home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/package.xml
+[98.114s] -- Installing: /home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_loader
+[98.117s] -- Set runtime path of "/home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_loader" to ""
+[98.118s] -- Installing: /home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_replanner
+[98.123s] -- Set runtime path of "/home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_replanner" to ""
+[98.123s] -- Installing: /home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_saver
+[98.130s] -- Set runtime path of "/home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_saver" to ""
+[98.131s] -- Installing: /home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_clicker
+[98.135s] -- Set runtime path of "/home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_clicker" to ""
+[98.135s] -- Installing: /home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_marker_publisher
+[98.140s] -- Set runtime path of "/home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_marker_publisher" to ""
+[98.141s] -- Installing: /home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_velocity_visualizer
+[98.149s] -- Set runtime path of "/home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_velocity_visualizer" to ""
+[98.149s] -- Installing: /home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_extractor
+[98.152s] -- Set runtime path of "/home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_extractor" to ""
+[98.152s] -- Installing: /home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_creator
+[98.158s] -- Set runtime path of "/home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_creator" to ""
+[98.158s] -- Installing: /home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/launch
+[98.159s] -- Installing: /home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/launch/waypoint_velocity_visualizer.launch
+[98.159s] -- Installing: /home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/launch/waypoint_creator.launch
+[98.160s] -- Installing: /home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/launch/waypoint_saver.launch
+[98.161s] -- Installing: /home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/launch/waypoint_loader.launch
+[98.170s] Invoked command in '/home/autoware/Autoware/build/waypoint_maker' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/lane_planner:/home/autoware/Autoware/install/libwaypoint_follower:/home/autoware/Autoware/install/lanelet2_extension:/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/tablet_socket_msgs:/home/autoware/Autoware/install/gnss:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_lanelet2_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/autoware/Autoware/install/lane_planner/lib:/home/autoware/Autoware/install/libwaypoint_follower/lib:/home/autoware/Autoware/install/lanelet2_extension/lib:/home/autoware/Autoware/install/vector_map/lib:/home/autoware/Autoware/install/amathutils_lib/lib:/home/autoware/Autoware/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/lane_planner/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lane_planner/lib/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/pkgconfig:/home/autoware/Autoware/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lanelet2_extension/lib/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/pkgconfig:/home/autoware/Autoware/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/gnss/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/lane_planner/share:/home/autoware/Autoware/install/libwaypoint_follower/share:/home/autoware/Autoware/install/lanelet2_extension/share:/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/tablet_socket_msgs/share:/home/autoware/Autoware/install/gnss/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_lanelet2_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/waypoint_maker --target install -- -j2 -l2

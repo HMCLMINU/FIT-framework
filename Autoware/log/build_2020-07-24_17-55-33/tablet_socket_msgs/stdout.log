@@ -1,0 +1,213 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/tablet_socket_msgs/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+-- This workspace overlays: /opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/tablet_socket_msgs/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.26
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- tablet_socket_msgs: 6 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/autoware/Autoware/build/tablet_socket_msgs
+Scanning dependencies of target _tablet_socket_msgs_generate_messages_check_deps_Waypoint
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_Waypoint
+Scanning dependencies of target _tablet_socket_msgs_generate_messages_check_deps_gear_cmd
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_gear_cmd
+Scanning dependencies of target _tablet_socket_msgs_generate_messages_check_deps_mode_cmd
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_mode_cmd
+Scanning dependencies of target _tablet_socket_msgs_generate_messages_check_deps_error_info
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_error_info
+Scanning dependencies of target _tablet_socket_msgs_generate_messages_check_deps_route_cmd
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_route_cmd
+Scanning dependencies of target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+Scanning dependencies of target _tablet_socket_msgs_generate_messages_check_deps_mode_info
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_mode_info
+Scanning dependencies of target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+Scanning dependencies of target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+Scanning dependencies of target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+Scanning dependencies of target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+Scanning dependencies of target tablet_socket_msgs_generate_messages_cpp
+[  3%] Generating C++ code from tablet_socket_msgs/mode_cmd.msg
+[  6%] Generating C++ code from tablet_socket_msgs/mode_info.msg
+[  9%] Generating C++ code from tablet_socket_msgs/error_info.msg
+[ 12%] Generating C++ code from tablet_socket_msgs/Waypoint.msg
+[ 15%] Generating C++ code from tablet_socket_msgs/gear_cmd.msg
+[ 18%] Generating C++ code from tablet_socket_msgs/route_cmd.msg
+[ 18%] Built target tablet_socket_msgs_generate_messages_cpp
+Scanning dependencies of target tablet_socket_msgs_generate_messages_py
+[ 21%] Generating Python from MSG tablet_socket_msgs/mode_cmd
+[ 25%] Generating Python from MSG tablet_socket_msgs/mode_info
+[ 28%] Generating Python from MSG tablet_socket_msgs/error_info
+[ 31%] Generating Python from MSG tablet_socket_msgs/Waypoint
+[ 34%] Generating Python from MSG tablet_socket_msgs/gear_cmd
+[ 37%] Generating Python from MSG tablet_socket_msgs/route_cmd
+[ 40%] Generating Python msg __init__.py for tablet_socket_msgs
+[ 40%] Built target tablet_socket_msgs_generate_messages_py
+Scanning dependencies of target tablet_socket_msgs_generate_messages_nodejs
+[ 43%] Generating Javascript code from tablet_socket_msgs/mode_cmd.msg
+[ 46%] Generating Javascript code from tablet_socket_msgs/mode_info.msg
+[ 50%] Generating Javascript code from tablet_socket_msgs/error_info.msg
+[ 53%] Generating Javascript code from tablet_socket_msgs/Waypoint.msg
+[ 56%] Generating Javascript code from tablet_socket_msgs/gear_cmd.msg
+[ 59%] Generating Javascript code from tablet_socket_msgs/route_cmd.msg
+[ 59%] Built target tablet_socket_msgs_generate_messages_nodejs
+Scanning dependencies of target tablet_socket_msgs_generate_messages_eus
+[ 62%] Generating EusLisp code from tablet_socket_msgs/mode_cmd.msg
+[ 65%] Generating EusLisp code from tablet_socket_msgs/mode_info.msg
+[ 68%] Generating EusLisp code from tablet_socket_msgs/error_info.msg
+[ 71%] Generating EusLisp code from tablet_socket_msgs/Waypoint.msg
+[ 75%] Generating EusLisp code from tablet_socket_msgs/gear_cmd.msg
+[ 78%] Generating EusLisp code from tablet_socket_msgs/route_cmd.msg
+[ 81%] Generating EusLisp manifest code for tablet_socket_msgs
+[ 81%] Built target tablet_socket_msgs_generate_messages_eus
+Scanning dependencies of target tablet_socket_msgs_generate_messages_lisp
+[ 84%] Generating Lisp code from tablet_socket_msgs/mode_cmd.msg
+[ 87%] Generating Lisp code from tablet_socket_msgs/mode_info.msg
+[ 90%] Generating Lisp code from tablet_socket_msgs/error_info.msg
+[ 93%] Generating Lisp code from tablet_socket_msgs/Waypoint.msg
+[ 96%] Generating Lisp code from tablet_socket_msgs/gear_cmd.msg
+[100%] Generating Lisp code from tablet_socket_msgs/route_cmd.msg
+[100%] Built target tablet_socket_msgs_generate_messages_lisp
+Scanning dependencies of target tablet_socket_msgs_generate_messages
+[100%] Built target tablet_socket_msgs_generate_messages
+Scanning dependencies of target tests
+Built target tests
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_Waypoint
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_gear_cmd
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_mode_cmd
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_error_info
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_route_cmd
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_mode_info
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[ 18%] Built target tablet_socket_msgs_generate_messages_cpp
+[ 40%] Built target tablet_socket_msgs_generate_messages_py
+[ 59%] Built target tablet_socket_msgs_generate_messages_nodejs
+[ 81%] Built target tablet_socket_msgs_generate_messages_eus
+[100%] Built target tablet_socket_msgs_generate_messages_lisp
+[100%] Built target tablet_socket_msgs_generate_messages
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/tablet_socket_msgs/msg/Waypoint.msg
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/tablet_socket_msgs/msg/error_info.msg
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/tablet_socket_msgs/msg/gear_cmd.msg
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/tablet_socket_msgs/msg/mode_cmd.msg
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/tablet_socket_msgs/msg/mode_info.msg
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/tablet_socket_msgs/msg/route_cmd.msg
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/tablet_socket_msgs/cmake/tablet_socket_msgs-msg-paths.cmake
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/include/tablet_socket_msgs
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/include/tablet_socket_msgs/mode_cmd.h
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/include/tablet_socket_msgs/Waypoint.h
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/include/tablet_socket_msgs/mode_info.h
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/include/tablet_socket_msgs/error_info.h
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/include/tablet_socket_msgs/gear_cmd.h
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/include/tablet_socket_msgs/route_cmd.h
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg/route_cmd.l
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg/gear_cmd.l
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg/Waypoint.l
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg/mode_cmd.l
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg/error_info.l
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg/mode_info.l
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/manifest.l
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package_error_info.lisp
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package.lisp
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/mode_cmd.lisp
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/error_info.lisp
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package_route_cmd.lisp
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package_gear_cmd.lisp
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/Waypoint.lisp
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package_Waypoint.lisp
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package_mode_cmd.lisp
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package_mode_info.lisp
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/mode_info.lisp
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/gear_cmd.lisp
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/route_cmd.lisp
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/tablet_socket_msgs-msg.asd
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/gear_cmd.js
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/Waypoint.js
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/route_cmd.js
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/_index.js
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/error_info.js
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/mode_cmd.js
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/mode_info.js
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/_index.js
+Listing /home/autoware/Autoware/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs ...
+Compiling /home/autoware/Autoware/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs/__init__.py ...
+Listing /home/autoware/Autoware/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs/msg ...
+Compiling /home/autoware/Autoware/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_Waypoint.py ...
+Compiling /home/autoware/Autoware/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs/msg/__init__.py ...
+Compiling /home/autoware/Autoware/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_error_info.py ...
+Compiling /home/autoware/Autoware/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_gear_cmd.py ...
+Compiling /home/autoware/Autoware/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_mode_cmd.py ...
+Compiling /home/autoware/Autoware/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_mode_info.py ...
+Compiling /home/autoware/Autoware/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_route_cmd.py ...
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_error_info.pyc
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_gear_cmd.py
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_gear_cmd.pyc
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/__init__.pyc
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_mode_info.pyc
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_route_cmd.py
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_mode_info.py
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_Waypoint.py
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_Waypoint.pyc
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_mode_cmd.pyc
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_route_cmd.pyc
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_mode_cmd.py
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/__init__.py
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_error_info.py
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/__init__.pyc
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/__init__.py
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/lib/pkgconfig/tablet_socket_msgs.pc
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/tablet_socket_msgs/cmake/tablet_socket_msgs-msg-extras.cmake
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/tablet_socket_msgs/cmake/tablet_socket_msgsConfig.cmake
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/tablet_socket_msgs/cmake/tablet_socket_msgsConfig-version.cmake
+-- Installing: /home/autoware/Autoware/install/tablet_socket_msgs/share/tablet_socket_msgs/package.xml

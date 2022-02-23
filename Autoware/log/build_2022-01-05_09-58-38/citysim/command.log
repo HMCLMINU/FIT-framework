@@ -1,0 +1,4 @@
+Invoking command in '/home/autoware/Autoware/build/citysim': /usr/bin/cmake --build /home/autoware/Autoware/build/citysim -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/citysim' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/citysim -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/citysim': /usr/bin/cmake --build /home/autoware/Autoware/build/citysim --target install -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/citysim' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/citysim --target install -- -j32 -l32

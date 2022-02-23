@@ -1,0 +1,8 @@
+prefix=/home/autoware/Autoware/build/adi_driver/devel
+
+Name: adi_driver
+Description: Description of adi_driver
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

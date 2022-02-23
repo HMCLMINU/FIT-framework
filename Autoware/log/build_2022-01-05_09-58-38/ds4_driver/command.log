@@ -1,0 +1,6 @@
+Invoking command in '/home/autoware/Autoware/build/ds4_driver': /usr/bin/cmake --build /home/autoware/Autoware/build/ds4_driver -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/ds4_driver' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/ds4_driver -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/ds4_driver': /usr/bin/cmake --build /home/autoware/Autoware/build/ds4_driver --target tests -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/ds4_driver' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/ds4_driver --target tests -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/ds4_driver': /usr/bin/cmake --build /home/autoware/Autoware/build/ds4_driver --target install -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/ds4_driver' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/ds4_driver --target install -- -j32 -l32

@@ -1,0 +1,17 @@
+[0.745s] Invoking command in '/home/autoware/Autoware/build/rosbag_controller': /usr/bin/cmake --build /home/autoware/Autoware/build/rosbag_controller -- -j32 -l32
+[0.963s] [100%] Built target rosbag_controller
+[1.055s] Invoked command in '/home/autoware/Autoware/build/rosbag_controller' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/rosbag_controller -- -j32 -l32
+[1.379s] Invoking command in '/home/autoware/Autoware/build/rosbag_controller': /usr/bin/cmake --build /home/autoware/Autoware/build/rosbag_controller --target tests -- -j32 -l32
+[1.505s] Built target tests
+[1.559s] Invoked command in '/home/autoware/Autoware/build/rosbag_controller' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/rosbag_controller --target tests -- -j32 -l32
+[1.836s] Invoking command in '/home/autoware/Autoware/build/rosbag_controller': /usr/bin/cmake --build /home/autoware/Autoware/build/rosbag_controller --target install -- -j32 -l32
+[2.118s] [100%] Built target rosbag_controller
+[2.118s] Install the project...
+[2.119s] -- Install configuration: "Release"
+[2.119s] -- Up-to-date: /home/autoware/Autoware/install/rosbag_controller/lib/pkgconfig/rosbag_controller.pc
+[2.119s] -- Up-to-date: /home/autoware/Autoware/install/rosbag_controller/share/rosbag_controller/cmake/rosbag_controllerConfig.cmake
+[2.119s] -- Up-to-date: /home/autoware/Autoware/install/rosbag_controller/share/rosbag_controller/cmake/rosbag_controllerConfig-version.cmake
+[2.120s] -- Up-to-date: /home/autoware/Autoware/install/rosbag_controller/share/rosbag_controller/package.xml
+[2.120s] -- Up-to-date: /home/autoware/Autoware/install/rosbag_controller/lib/librosbag_controller.so
+[2.120s] -- Up-to-date: /home/autoware/Autoware/install/rosbag_controller/share/rosbag_controller/plugin_description.xml
+[2.357s] Invoked command in '/home/autoware/Autoware/build/rosbag_controller' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/rosbag_controller --target install -- -j32 -l32

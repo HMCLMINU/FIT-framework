@@ -1,0 +1,14 @@
+[0.241s] Invoking command in '/home/autoware/Autoware/build/autoware_build_flags': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_build_flags -- -j32 -l32
+[0.869s] Invoked command in '/home/autoware/Autoware/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_build_flags -- -j32 -l32
+[1.013s] Invoking command in '/home/autoware/Autoware/build/autoware_build_flags': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_build_flags --target tests -- -j32 -l32
+[1.130s] Built target tests
+[1.181s] Invoked command in '/home/autoware/Autoware/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_build_flags --target tests -- -j32 -l32
+[1.316s] Invoking command in '/home/autoware/Autoware/build/autoware_build_flags': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_build_flags --target install -- -j32 -l32
+[1.428s] Install the project...
+[1.428s] -- Install configuration: "Release"
+[1.429s] -- Up-to-date: /home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig/autoware_build_flags.pc
+[1.429s] -- Up-to-date: /home/autoware/Autoware/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flags-extras.cmake
+[1.430s] -- Up-to-date: /home/autoware/Autoware/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flagsConfig.cmake
+[1.430s] -- Up-to-date: /home/autoware/Autoware/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flagsConfig-version.cmake
+[1.430s] -- Up-to-date: /home/autoware/Autoware/install/autoware_build_flags/share/autoware_build_flags/package.xml
+[1.572s] Invoked command in '/home/autoware/Autoware/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_build_flags --target install -- -j32 -l32

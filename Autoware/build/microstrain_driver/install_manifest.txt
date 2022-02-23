@@ -1,0 +1,9 @@
+/home/autoware/Autoware/install/microstrain_driver/lib/pkgconfig/microstrain_driver.pc
+/home/autoware/Autoware/install/microstrain_driver/share/microstrain_driver/cmake/microstrain_driverConfig.cmake
+/home/autoware/Autoware/install/microstrain_driver/share/microstrain_driver/cmake/microstrain_driverConfig-version.cmake
+/home/autoware/Autoware/install/microstrain_driver/share/microstrain_driver/package.xml
+/home/autoware/Autoware/install/microstrain_driver/lib/libmicrostrain_driver.so
+/home/autoware/Autoware/install/microstrain_driver/lib/microstrain_driver/3dm_gx5_15_node
+/home/autoware/Autoware/install/microstrain_driver/lib/microstrain_driver/3dm_gx5_45_node
+/home/autoware/Autoware/install/microstrain_driver/share/microstrain_driver/launch/microstrain.launch
+/home/autoware/Autoware/install/microstrain_driver/share/microstrain_driver/launch/3dm_gx5_15.launch

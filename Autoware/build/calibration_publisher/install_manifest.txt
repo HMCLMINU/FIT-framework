@@ -1,0 +1,5 @@
+/home/autoware/Autoware/install/calibration_publisher/lib/pkgconfig/calibration_publisher.pc
+/home/autoware/Autoware/install/calibration_publisher/share/calibration_publisher/cmake/calibration_publisherConfig.cmake
+/home/autoware/Autoware/install/calibration_publisher/share/calibration_publisher/cmake/calibration_publisherConfig-version.cmake
+/home/autoware/Autoware/install/calibration_publisher/share/calibration_publisher/package.xml
+/home/autoware/Autoware/install/calibration_publisher/lib/calibration_publisher/calibration_publisher

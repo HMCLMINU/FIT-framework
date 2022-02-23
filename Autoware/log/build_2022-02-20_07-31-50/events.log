@@ -1,0 +1,412 @@
+[0.000000] (-) TimerEvent: {}
+[0.000397] (-) JobUnselected: {'identifier': 'adi_driver'}
+[0.000431] (-) JobUnselected: {'identifier': 'amathutils_lib'}
+[0.000449] (-) JobUnselected: {'identifier': 'as'}
+[0.000464] (-) JobUnselected: {'identifier': 'astar_search'}
+[0.000479] (-) JobUnselected: {'identifier': 'autoware_bag_tools'}
+[0.000493] (-) JobUnselected: {'identifier': 'autoware_build_flags'}
+[0.000507] (-) JobUnselected: {'identifier': 'autoware_camera_lidar_calibrator'}
+[0.000522] (-) JobUnselected: {'identifier': 'autoware_can_msgs'}
+[0.000536] (-) JobUnselected: {'identifier': 'autoware_config_msgs'}
+[0.000550] (-) JobUnselected: {'identifier': 'autoware_connector'}
+[0.000565] (-) JobUnselected: {'identifier': 'autoware_driveworks_gmsl_interface'}
+[0.000579] (-) JobUnselected: {'identifier': 'autoware_driveworks_interface'}
+[0.000593] (-) JobUnselected: {'identifier': 'autoware_external_msgs'}
+[0.000612] (-) JobUnselected: {'identifier': 'autoware_health_checker'}
+[0.000626] (-) JobUnselected: {'identifier': 'autoware_lanelet2_msgs'}
+[0.000640] (-) JobUnselected: {'identifier': 'autoware_launcher'}
+[0.000654] (-) JobUnselected: {'identifier': 'autoware_launcher_rviz'}
+[0.000668] (-) JobUnselected: {'identifier': 'autoware_map_msgs'}
+[0.000685] (-) JobUnselected: {'identifier': 'autoware_msgs'}
+[0.000701] (-) JobUnselected: {'identifier': 'autoware_pointgrey_drivers'}
+[0.000715] (-) JobUnselected: {'identifier': 'autoware_quickstart_examples'}
+[0.000734] (-) JobUnselected: {'identifier': 'autoware_rviz_plugins'}
+[0.000749] (-) JobUnselected: {'identifier': 'autoware_system_msgs'}
+[0.000763] (-) JobUnselected: {'identifier': 'calibration_publisher'}
+[0.000777] (-) JobUnselected: {'identifier': 'carla_autoware_bridge'}
+[0.000791] (-) JobUnselected: {'identifier': 'citysim'}
+[0.000805] (-) JobUnselected: {'identifier': 'costmap_generator'}
+[0.000819] (-) JobUnselected: {'identifier': 'custom_msgs'}
+[0.000833] (-) JobUnselected: {'identifier': 'data_preprocessor'}
+[0.000847] (-) JobUnselected: {'identifier': 'decision_maker'}
+[0.000861] (-) JobUnselected: {'identifier': 'decision_maker_panel'}
+[0.000874] (-) JobUnselected: {'identifier': 'detected_objects_visualizer'}
+[0.000888] (-) JobUnselected: {'identifier': 'dp_planner'}
+[0.000902] (-) JobUnselected: {'identifier': 'ds4'}
+[0.000916] (-) JobUnselected: {'identifier': 'ds4_driver'}
+[0.000930] (-) JobUnselected: {'identifier': 'ds4_msgs'}
+[0.000944] (-) JobUnselected: {'identifier': 'ekf_localizer'}
+[0.000958] (-) JobUnselected: {'identifier': 'emergency_handler'}
+[0.000971] (-) JobUnselected: {'identifier': 'fastvirtualscan'}
+[0.000985] (-) JobUnselected: {'identifier': 'ff_waypoint_follower'}
+[0.000999] (-) JobUnselected: {'identifier': 'freespace_planner'}
+[0.001013] (-) JobUnselected: {'identifier': 'garmin'}
+[0.001027] (-) JobUnselected: {'identifier': 'gazebo_camera_description'}
+[0.001041] (-) JobUnselected: {'identifier': 'gazebo_imu_description'}
+[0.001055] (-) JobUnselected: {'identifier': 'gazebo_world_description'}
+[0.001069] (-) JobUnselected: {'identifier': 'glviewer'}
+[0.001083] (-) JobUnselected: {'identifier': 'gnss'}
+[0.001097] (-) JobUnselected: {'identifier': 'gnss_localizer'}
+[0.001111] (-) JobUnselected: {'identifier': 'graph_tools'}
+[0.001124] (-) JobUnselected: {'identifier': 'hokuyo'}
+[0.001138] (-) JobUnselected: {'identifier': 'image_processor'}
+[0.001152] (-) JobUnselected: {'identifier': 'imm_ukf_pda_track'}
+[0.001166] (-) JobUnselected: {'identifier': 'integrated_viewer'}
+[0.001179] (-) JobUnselected: {'identifier': 'javad_navsat_driver'}
+[0.001193] (-) JobUnselected: {'identifier': 'kitti_box_publisher'}
+[0.001207] (-) JobUnselected: {'identifier': 'kitti_launch'}
+[0.001221] (-) JobUnselected: {'identifier': 'kitti_player'}
+[0.001235] (-) JobUnselected: {'identifier': 'kvaser'}
+[0.001249] (-) JobUnselected: {'identifier': 'lane_planner'}
+[0.001262] (-) JobUnselected: {'identifier': 'lanelet2_extension'}
+[0.001276] (-) JobUnselected: {'identifier': 'lanelet_aisan_converter'}
+[0.001290] (-) JobUnselected: {'identifier': 'lattice_planner'}
+[0.001649] (-) JobUnselected: {'identifier': 'lgsvl_simulator_bridge'}
+[0.001663] (-) JobUnselected: {'identifier': 'libvectormap'}
+[0.001677] (-) JobUnselected: {'identifier': 'libwaypoint_follower'}
+[0.001691] (-) JobUnselected: {'identifier': 'lidar_apollo_cnn_seg_detect'}
+[0.001705] (-) JobUnselected: {'identifier': 'lidar_euclidean_cluster_detect'}
+[0.001719] (-) JobUnselected: {'identifier': 'lidar_fake_perception'}
+[0.001733] (-) JobUnselected: {'identifier': 'lidar_kf_contour_track'}
+[0.001747] (-) JobUnselected: {'identifier': 'lidar_localizer'}
+[0.001762] (-) JobUnselected: {'identifier': 'lidar_naive_l_shape_detect'}
+[0.001776] (-) JobUnselected: {'identifier': 'lidar_point_pillars'}
+[0.001790] (-) JobUnselected: {'identifier': 'lidar_shape_estimation'}
+[0.001804] (-) JobUnselected: {'identifier': 'log_tools'}
+[0.001818] (-) JobUnselected: {'identifier': 'map_file'}
+[0.001832] (-) JobUnselected: {'identifier': 'map_tf_generator'}
+[0.001846] (-) JobUnselected: {'identifier': 'map_tools'}
+[0.001860] (-) JobUnselected: {'identifier': 'marker_downsampler'}
+[0.001874] (-) JobUnselected: {'identifier': 'memsic_imu'}
+[0.001888] (-) JobUnselected: {'identifier': 'microstrain_driver'}
+[0.001901] (-) JobUnselected: {'identifier': 'mpc_follower'}
+[0.001915] (-) JobUnselected: {'identifier': 'mqtt_socket'}
+[0.001929] (-) JobUnselected: {'identifier': 'multi_lidar_calibrator'}
+[0.001943] (-) JobUnselected: {'identifier': 'naive_motion_predict'}
+[0.001957] (-) JobUnselected: {'identifier': 'ndt_cpu'}
+[0.001975] (-) JobUnselected: {'identifier': 'ndt_gpu'}
+[0.001989] (-) JobUnselected: {'identifier': 'ndt_tku'}
+[0.002003] (-) JobUnselected: {'identifier': 'nmea_navsat'}
+[0.002017] (-) JobUnselected: {'identifier': 'obj_db'}
+[0.002030] (-) JobUnselected: {'identifier': 'object_map'}
+[0.002044] (-) JobUnselected: {'identifier': 'oculus_socket'}
+[0.002058] (-) JobUnselected: {'identifier': 'op_global_planner'}
+[0.002072] (-) JobUnselected: {'identifier': 'op_local_planner'}
+[0.002086] (-) JobUnselected: {'identifier': 'op_planner'}
+[0.002100] (-) JobUnselected: {'identifier': 'op_ros_helpers'}
+[0.002115] (-) JobUnselected: {'identifier': 'op_simu'}
+[0.002128] (-) JobUnselected: {'identifier': 'op_simulation_package'}
+[0.002142] (-) JobUnselected: {'identifier': 'op_utilities'}
+[0.002156] (-) JobUnselected: {'identifier': 'op_utility'}
+[0.002170] (-) JobUnselected: {'identifier': 'pc2_downsampler'}
+[0.002184] (-) JobUnselected: {'identifier': 'pcl_omp_registration'}
+[0.002198] (-) JobUnselected: {'identifier': 'pixel_cloud_fusion'}
+[0.002211] (-) JobUnselected: {'identifier': 'points2image'}
+[0.002225] (-) JobUnselected: {'identifier': 'points_downsampler'}
+[0.002239] (-) JobUnselected: {'identifier': 'points_preprocessor'}
+[0.002253] (-) JobUnselected: {'identifier': 'pos_db'}
+[0.002266] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.002280] (-) JobUnselected: {'identifier': 'range_vision_fusion'}
+[0.002295] (-) JobUnselected: {'identifier': 'road_occupancy_processor'}
+[0.002308] (-) JobUnselected: {'identifier': 'roi_object_filter'}
+[0.002322] (-) JobUnselected: {'identifier': 'ros_observer'}
+[0.002336] (-) JobUnselected: {'identifier': 'rosbag_controller'}
+[0.002350] (-) JobUnselected: {'identifier': 'rosinterface'}
+[0.002363] (-) JobUnselected: {'identifier': 'runtime_manager'}
+[0.002377] (-) JobUnselected: {'identifier': 'sick_ldmrs_description'}
+[0.002391] (-) JobUnselected: {'identifier': 'sick_ldmrs_driver'}
+[0.002405] (-) JobUnselected: {'identifier': 'sick_ldmrs_laser'}
+[0.002419] (-) JobUnselected: {'identifier': 'sick_ldmrs_msgs'}
+[0.002435] (-) JobUnselected: {'identifier': 'sick_ldmrs_tools'}
+[0.002446] (-) JobUnselected: {'identifier': 'sick_lms5xx'}
+[0.002458] (-) JobUnselected: {'identifier': 'sound_player'}
+[0.002469] (-) JobUnselected: {'identifier': 'state_machine_lib'}
+[0.002480] (-) JobUnselected: {'identifier': 'tablet_socket'}
+[0.002492] (-) JobUnselected: {'identifier': 'tablet_socket_msgs'}
+[0.002503] (-) JobUnselected: {'identifier': 'trafficlight_recognizer'}
+[0.002514] (-) JobUnselected: {'identifier': 'twist2odom'}
+[0.002528] (-) JobUnselected: {'identifier': 'twist_filter'}
+[0.002542] (-) JobUnselected: {'identifier': 'twist_gate'}
+[0.002556] (-) JobUnselected: {'identifier': 'twist_generator'}
+[0.002570] (-) JobUnselected: {'identifier': 'udon_socket'}
+[0.002584] (-) JobUnselected: {'identifier': 'vectacam'}
+[0.002598] (-) JobUnselected: {'identifier': 'vector_map'}
+[0.002612] (-) JobUnselected: {'identifier': 'vector_map_msgs'}
+[0.002626] (-) JobUnselected: {'identifier': 'vector_map_server'}
+[0.002640] (-) JobUnselected: {'identifier': 'vehicle_description'}
+[0.002654] (-) JobUnselected: {'identifier': 'vehicle_engage_panel'}
+[0.002668] (-) JobUnselected: {'identifier': 'vehicle_gazebo_simulation_interface'}
+[0.002682] (-) JobUnselected: {'identifier': 'vehicle_gazebo_simulation_launcher'}
+[0.002695] (-) JobUnselected: {'identifier': 'vehicle_model'}
+[0.002709] (-) JobUnselected: {'identifier': 'vehicle_sim_model'}
+[0.002723] (-) JobUnselected: {'identifier': 'vehicle_socket'}
+[0.002737] (-) JobUnselected: {'identifier': 'vel_pose_diff_checker'}
+[0.002751] (-) JobUnselected: {'identifier': 'vision_beyond_track'}
+[0.002765] (-) JobUnselected: {'identifier': 'vision_darknet_detect'}
+[0.002779] (-) JobUnselected: {'identifier': 'vision_lane_detect'}
+[0.002793] (-) JobUnselected: {'identifier': 'vision_segment_enet_detect'}
+[0.002807] (-) JobUnselected: {'identifier': 'vision_ssd_detect'}
+[0.002821] (-) JobUnselected: {'identifier': 'vlg22c_cam'}
+[0.002835] (-) JobUnselected: {'identifier': 'way_planner'}
+[0.002849] (-) JobUnselected: {'identifier': 'waypoint_maker'}
+[0.002863] (-) JobUnselected: {'identifier': 'wf_simulator'}
+[0.002877] (-) JobUnselected: {'identifier': 'xsens_driver'}
+[0.002891] (-) JobUnselected: {'identifier': 'ymc'}
+[0.002907] (waypoint_planner) JobQueued: {'identifier': 'waypoint_planner', 'dependencies': OrderedDict([('autoware_build_flags', '/home/autoware/Autoware/install/autoware_build_flags'), ('autoware_config_msgs', '/home/autoware/Autoware/install/autoware_config_msgs'), ('autoware_lanelet2_msgs', '/home/autoware/Autoware/install/autoware_lanelet2_msgs'), ('autoware_msgs', '/home/autoware/Autoware/install/autoware_msgs'), ('autoware_system_msgs', '/home/autoware/Autoware/install/autoware_system_msgs'), ('ros_observer', '/home/autoware/Autoware/install/ros_observer'), ('vector_map_msgs', '/home/autoware/Autoware/install/vector_map_msgs'), ('amathutils_lib', '/home/autoware/Autoware/install/amathutils_lib'), ('astar_search', '/home/autoware/Autoware/install/astar_search'), ('autoware_health_checker', '/home/autoware/Autoware/install/autoware_health_checker'), ('vector_map', '/home/autoware/Autoware/install/vector_map'), ('lanelet2_extension', '/home/autoware/Autoware/install/lanelet2_extension'), ('libwaypoint_follower', '/home/autoware/Autoware/install/libwaypoint_follower')])}
+[0.002937] (waypoint_planner) JobStarted: {'identifier': 'waypoint_planner'}
+[0.099449] (-) TimerEvent: {}
+[0.200047] (-) TimerEvent: {}
+[0.300478] (-) TimerEvent: {}
+[0.368272] (waypoint_planner) JobProgress: {'identifier': 'waypoint_planner', 'progress': 'cmake'}
+[0.369418] (waypoint_planner) JobProgress: {'identifier': 'waypoint_planner', 'progress': 'build'}
+[0.370364] (waypoint_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/autoware/Autoware/build/waypoint_planner', '--', '-j20', '-l20'], 'cwd': '/home/autoware/Autoware/build/waypoint_planner', 'env': OrderedDict([('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('HOSTNAME', 'hmcl-System-Product-Name'), ('ROS_PACKAGE_PATH', '/home/autoware/Autoware/install/libwaypoint_follower/share:/home/autoware/Autoware/install/lanelet2_extension/share:/home/autoware/Autoware/install/vector_map/share:/home/autoware/Autoware/install/autoware_health_checker/share:/home/autoware/Autoware/install/astar_search/share:/home/autoware/Autoware/install/amathutils_lib/share:/home/autoware/Autoware/install/vector_map_msgs/share:/home/autoware/Autoware/install/ros_observer/share:/home/autoware/Autoware/install/autoware_system_msgs/share:/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_lanelet2_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:/home/autoware/Autoware/install/ymc/share:/home/autoware/Autoware/install/xsens_driver/share:/home/autoware/Autoware/install/wf_simulator/share:/home/autoware/Autoware/install/lattice_planner/share:/home/autoware/Autoware/install/waypoint_planner/share:/home/autoware/Autoware/install/waypoint_maker/share:/home/autoware/Autoware/install/way_planner/share:/home/autoware/Autoware/install/vlg22c_cam/share:/home/autoware/Autoware/install/vision_ssd_detect/share:/home/autoware/Autoware/install/vision_segment_enet_detect/share:/home/autoware/Autoware/install/vision_lane_detect/share:/home/autoware/Autoware/install/vision_darknet_detect/share:/home/autoware/Autoware/install/vision_beyond_track/share:/home/autoware/Autoware/install/vel_pose_diff_checker/share:/home/autoware/Autoware/install/vehicle_socket/share:/home/autoware/Autoware/install/vehicle_sim_model/share:/home/autoware/Autoware/install/vehicle_model/share:/home/autoware/Autoware/install/vehicle_gazebo_simulation_launcher/share:/home/autoware/Autoware/install/vehicle_gazebo_simulation_interface/share:/home/autoware/Autoware/install/vehicle_engage_panel/share:/home/autoware/Autoware/install/vehicle_description/share:/home/autoware/Autoware/install/trafficlight_recognizer/share:/home/autoware/Autoware/install/op_utilities/share:/home/autoware/Autoware/install/op_simulation_package/share:/home/autoware/Autoware/install/op_local_planner/share:/home/autoware/Autoware/install/op_global_planner/share:/home/autoware/Autoware/install/lidar_kf_contour_track/share:/home/autoware/Autoware/install/op_ros_helpers/share:/home/autoware/Autoware/install/ff_waypoint_follower/share:/home/autoware/Autoware/install/dp_planner/share:/home/autoware/Autoware/install/op_simu/share:/home/autoware/Autoware/install/op_planner/share:/home/autoware/Autoware/install/op_utility/share:/home/autoware/Autoware/install/lidar_euclidean_cluster_detect/share:/home/autoware/Autoware/install/vector_map_server/share:/home/autoware/Autoware/install/road_occupancy_processor/share:/home/autoware/Autoware/install/costmap_generator/share:/home/autoware/Autoware/install/object_map/share:/home/autoware/Autoware/install/naive_motion_predict/share:/home/autoware/Autoware/install/lanelet_aisan_converter/share:/home/autoware/Autoware/install/map_file/share:/home/autoware/Autoware/install/libvectormap/share:/home/autoware/Autoware/install/lane_planner/share:/home/autoware/Autoware/install/imm_ukf_pda_track/share:/home/autoware/Autoware/install/decision_maker/share:/home/autoware/Autoware/install/vectacam/share:/home/autoware/Autoware/install/udon_socket/share:/home/autoware/Autoware/install/twist_generator/share:/home/autoware/Autoware/install/twist_gate/share:/home/autoware/Autoware/install/twist_filter/share:/home/autoware/Autoware/install/twist2odom/share:/home/autoware/Autoware/install/tablet_socket/share:/home/autoware/Autoware/install/runtime_manager/share:/home/autoware/Autoware/install/mqtt_socket/share:/home/autoware/Autoware/install/tablet_socket_msgs/share:/home/autoware/Autoware/install/state_machine_lib/share:/home/autoware/Autoware/install/sound_player/share:/home/autoware/Autoware/install/sick_lms5xx/share:/home/autoware/Autoware/install/sick_ldmrs_laser/share:/home/autoware/Autoware/install/sick_ldmrs_tools/share:/home/autoware/Autoware/install/sick_ldmrs_driver/share:/home/autoware/Autoware/install/sick_ldmrs_msgs/share:/home/autoware/Autoware/install/sick_ldmrs_description/share:/home/autoware/Autoware/install/points2image/share:/home/autoware/Autoware/install/rosinterface/share:/home/autoware/Autoware/install/rosbag_controller/share:/home/autoware/Autoware/install/pure_pursuit/share:/home/autoware/Autoware/install/points_preprocessor/share:/home/autoware/Autoware/install/mpc_follower/share:/home/autoware/Autoware/install/lidar_localizer/share:/home/autoware/Autoware/install/emergency_handler/share:/home/autoware/Autoware/install/as/share:/home/autoware/Autoware/install/roi_object_filter/share:/home/autoware/Autoware/install/range_vision_fusion/share:/home/autoware/Autoware/install/pos_db/share:/home/autoware/Autoware/install/points_downsampler/share:/home/autoware/Autoware/install/pixel_cloud_fusion/share:/home/autoware/Autoware/install/pcl_omp_registration/share:/home/autoware/Autoware/install/pc2_downsampler/share:/home/autoware/Autoware/install/oculus_socket/share:/home/autoware/Autoware/install/obj_db/share:/home/autoware/Autoware/install/nmea_navsat/share:/home/autoware/Autoware/install/ndt_tku/share:/home/autoware/Autoware/install/ndt_gpu/share:/home/autoware/Autoware/install/ndt_cpu/share:/home/autoware/Autoware/install/multi_lidar_calibrator/share:/home/autoware/Autoware/install/microstrain_driver/share:/home/autoware/Autoware/install/memsic_imu/share:/home/autoware/Autoware/install/marker_downsampler/share:/home/autoware/Autoware/install/map_tools/share:/home/autoware/Autoware/install/map_tf_generator/share:/home/autoware/Autoware/install/log_tools/share:/home/autoware/Autoware/install/lidar_shape_estimation/share:/home/autoware/Autoware/install/lidar_point_pillars/share:/home/autoware/Autoware/install/lidar_naive_l_shape_detect/share:/home/autoware/Autoware/install/lidar_fake_perception/share:/home/autoware/Autoware/install/lidar_apollo_cnn_seg_detect/share:/home/autoware/Autoware/install/lgsvl_simulator_bridge/share:/home/autoware/Autoware/install/kvaser/share:/home/autoware/Autoware/install/kitti_launch/share:/home/autoware/Autoware/install/kitti_player/share:/home/autoware/Autoware/install/kitti_box_publisher/share:/home/autoware/Autoware/install/javad_navsat_driver/share:/home/autoware/Autoware/install/integrated_viewer/share:/home/autoware/Autoware/install/image_processor/share:/home/autoware/Autoware/install/hokuyo/share:/home/autoware/Autoware/install/graph_tools/share:/home/autoware/Autoware/install/gnss_localizer/share:/home/autoware/Autoware/install/gnss/share:/home/autoware/Autoware/install/glviewer/share:/home/autoware/Autoware/install/gazebo_world_description/share:/home/autoware/Autoware/install/gazebo_imu_description/share:/home/autoware/Autoware/install/gazebo_camera_description/share:/home/autoware/Autoware/install/garmin/share:/home/autoware/Autoware/install/freespace_planner/share:/home/autoware/Autoware/install/fastvirtualscan/share:/home/autoware/Autoware/install/ekf_localizer/share:/home/autoware/Autoware/install/ds4/share:/home/autoware/Autoware/install/ds4_msgs/share:/home/autoware/Autoware/install/ds4_driver/share:/home/autoware/Autoware/install/detected_objects_visualizer/share:/home/autoware/Autoware/install/decision_maker_panel/share:/home/autoware/Autoware/install/data_preprocessor/share:/home/autoware/Autoware/install/custom_msgs/share:/home/autoware/Autoware/install/carla_autoware_bridge/share:/home/autoware/Autoware/install/calibration_publisher/share:/home/autoware/Autoware/install/autoware_rviz_plugins/share:/home/autoware/Autoware/install/autoware_quickstart_examples/share:/home/autoware/Autoware/install/autoware_pointgrey_drivers/share:/home/autoware/Autoware/install/autoware_driveworks_interface/share:/home/autoware/Autoware/install/autoware_connector/share:/home/autoware/Autoware/install/autoware_camera_lidar_calibrator/share:/home/autoware/Autoware/install/autoware_map_msgs/share:/home/autoware/Autoware/install/autoware_launcher_rviz/share:/home/autoware/Autoware/install/autoware_launcher/share:/home/autoware/Autoware/install/autoware_external_msgs/share:/home/autoware/Autoware/install/autoware_driveworks_gmsl_interface/share:/home/autoware/Autoware/install/autoware_can_msgs/share:/home/autoware/Autoware/install/autoware_bag_tools/share:/home/autoware/Autoware/install/adi_driver/share:/home/autoware/carla_ws/src:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/home/autoware/Autoware/install/libwaypoint_follower/lib:/home/autoware/Autoware/install/lanelet2_extension/lib:/home/autoware/Autoware/install/vector_map/lib:/home/autoware/Autoware/install/autoware_health_checker/lib:/home/autoware/Autoware/install/astar_search/lib:/home/autoware/Autoware/install/amathutils_lib/lib:/home/autoware/Autoware/install/ros_observer/lib:/home/autoware/Autoware/install/lattice_planner/lib:/home/autoware/Autoware/install/vision_darknet_detect/lib:/home/autoware/Autoware/install/vehicle_sim_model/lib:/home/autoware/Autoware/install/vehicle_engage_panel/lib:/home/autoware/Autoware/install/trafficlight_recognizer/lib:/home/autoware/Autoware/install/op_ros_helpers/lib:/home/autoware/Autoware/install/op_simu/lib:/home/autoware/Autoware/install/op_planner/lib:/home/autoware/Autoware/install/op_utility/lib:/home/autoware/Autoware/install/lidar_euclidean_cluster_detect/lib:/home/autoware/Autoware/install/road_occupancy_processor/lib:/home/autoware/Autoware/install/object_map/lib:/home/autoware/Autoware/install/map_file/lib:/home/autoware/Autoware/install/lane_planner/lib:/home/autoware/Autoware/install/udon_socket/lib:/home/autoware/Autoware/install/twist_filter/lib:/home/autoware/Autoware/install/state_machine_lib/lib:/home/autoware/Autoware/install/sick_ldmrs_driver/lib:/home/autoware/Autoware/install/points2image/lib:/home/autoware/Autoware/install/rosinterface/lib:/home/autoware/Autoware/install/rosbag_controller/lib:/home/autoware/Autoware/install/points_preprocessor/lib:/home/autoware/Autoware/install/lidar_localizer/lib:/home/autoware/Autoware/install/emergency_handler/lib:/home/autoware/Autoware/install/roi_object_filter/lib:/home/autoware/Autoware/install/range_vision_fusion/lib:/home/autoware/Autoware/install/pos_db/lib:/home/autoware/Autoware/install/pixel_cloud_fusion/lib:/home/autoware/Autoware/install/pcl_omp_registration/lib:/home/autoware/Autoware/install/obj_db/lib:/home/autoware/Autoware/install/ndt_tku/lib:/home/autoware/Autoware/install/ndt_gpu/lib:/home/autoware/Autoware/install/ndt_cpu/lib:/home/autoware/Autoware/install/multi_lidar_calibrator/lib:/home/autoware/Autoware/install/microstrain_driver/lib:/home/autoware/Autoware/install/lidar_point_pillars/lib:/home/autoware/Autoware/install/integrated_viewer/lib:/home/autoware/Autoware/install/gnss/lib:/home/autoware/Autoware/install/glviewer/lib:/home/autoware/Autoware/install/fastvirtualscan/lib:/home/autoware/Autoware/install/decision_maker_panel/lib:/home/autoware/Autoware/install/autoware_rviz_plugins/lib:/home/autoware/Autoware/install/autoware_launcher_rviz/lib:/home/autoware/carla_ws/devel/lib:/opt/ros/melodic/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '2'), ('OLDPWD', '/home/autoware'), ('HOME', '/home/autoware/'), ('CARLA_AUTOWARE_CONTENTS', '/home/autoware//autoware-contents'), ('ROS_PYTHON_VERSION', '2'), ('ROS_IP', '192.168.0.215'), ('CUDA_VERSION', '10.0.130'), ('COLCON_PREFIX_PATH', '/home/autoware/Autoware/install'), ('ROS_DISTRO', 'melodic'), ('PULSE_SERVER', '/run/pulse/native'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=10.0 brand=tesla,driver>=384,driver<385 brand=tesla,driver>=410,driver<411'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('TENSORRT_VERSION', '6.0.1-1+cuda10.0'), ('PKG_CONFIG_PATH', '/home/autoware/Autoware/install/libwaypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/libwaypoint_follower/lib/pkgconfig:/home/autoware/Autoware/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lanelet2_extension/lib/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map/lib/pkgconfig:/home/autoware/Autoware/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_health_checker/lib/pkgconfig:/home/autoware/Autoware/install/astar_search/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/astar_search/lib/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:/home/autoware/Autoware/install/ymc/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ymc/lib/pkgconfig:/home/autoware/Autoware/install/xsens_driver/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/xsens_driver/lib/pkgconfig:/home/autoware/Autoware/install/wf_simulator/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/wf_simulator/lib/pkgconfig:/home/autoware/Autoware/install/lattice_planner/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lattice_planner/lib/pkgconfig:/home/autoware/Autoware/install/waypoint_planner/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/waypoint_planner/lib/pkgconfig:/home/autoware/Autoware/install/waypoint_maker/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/waypoint_maker/lib/pkgconfig:/home/autoware/Autoware/install/way_planner/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/way_planner/lib/pkgconfig:/home/autoware/Autoware/install/vlg22c_cam/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vlg22c_cam/lib/pkgconfig:/home/autoware/Autoware/install/vision_ssd_detect/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vision_ssd_detect/lib/pkgconfig:/home/autoware/Autoware/install/vision_segment_enet_detect/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vision_segment_enet_detect/lib/pkgconfig:/home/autoware/Autoware/install/vision_lane_detect/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vision_lane_detect/lib/pkgconfig:/home/autoware/Autoware/install/vision_darknet_detect/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vision_darknet_detect/lib/pkgconfig:/home/autoware/Autoware/install/vision_beyond_track/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vision_beyond_track/lib/pkgconfig:/home/autoware/Autoware/install/vel_pose_diff_checker/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vel_pose_diff_checker/lib/pkgconfig:/home/autoware/Autoware/install/vehicle_socket/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vehicle_socket/lib/pkgconfig:/home/autoware/Autoware/install/vehicle_sim_model/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vehicle_sim_model/lib/pkgconfig:/home/autoware/Autoware/install/vehicle_model/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vehicle_model/lib/pkgconfig:/home/autoware/Autoware/install/vehicle_gazebo_simulation_launcher/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vehicle_gazebo_simulation_launcher/lib/pkgconfig:/home/autoware/Autoware/install/vehicle_gazebo_simulation_interface/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vehicle_gazebo_simulation_interface/lib/pkgconfig:/home/autoware/Autoware/install/vehicle_engage_panel/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vehicle_engage_panel/lib/pkgconfig:/home/autoware/Autoware/install/vehicle_description/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vehicle_description/lib/pkgconfig:/home/autoware/Autoware/install/trafficlight_recognizer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/trafficlight_recognizer/lib/pkgconfig:/home/autoware/Autoware/install/op_utilities/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/op_utilities/lib/pkgconfig:/home/autoware/Autoware/install/op_simulation_package/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/op_simulation_package/lib/pkgconfig:/home/autoware/Autoware/install/op_local_planner/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/op_local_planner/lib/pkgconfig:/home/autoware/Autoware/install/op_global_planner/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/op_global_planner/lib/pkgconfig:/home/autoware/Autoware/install/lidar_kf_contour_track/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lidar_kf_contour_track/lib/pkgconfig:/home/autoware/Autoware/install/op_ros_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/op_ros_helpers/lib/pkgconfig:/home/autoware/Autoware/install/ff_waypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ff_waypoint_follower/lib/pkgconfig:/home/autoware/Autoware/install/dp_planner/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/dp_planner/lib/pkgconfig:/home/autoware/Autoware/install/op_simu/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/op_simu/lib/pkgconfig:/home/autoware/Autoware/install/op_planner/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/op_planner/lib/pkgconfig:/home/autoware/Autoware/install/op_utility/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/op_utility/lib/pkgconfig:/home/autoware/Autoware/install/lidar_euclidean_cluster_detect/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lidar_euclidean_cluster_detect/lib/pkgconfig:/home/autoware/Autoware/install/vector_map_server/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vector_map_server/lib/pkgconfig:/home/autoware/Autoware/install/road_occupancy_processor/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/road_occupancy_processor/lib/pkgconfig:/home/autoware/Autoware/install/costmap_generator/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/costmap_generator/lib/pkgconfig:/home/autoware/Autoware/install/object_map/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/object_map/lib/pkgconfig:/home/autoware/Autoware/install/naive_motion_predict/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/naive_motion_predict/lib/pkgconfig:/home/autoware/Autoware/install/lanelet_aisan_converter/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lanelet_aisan_converter/lib/pkgconfig:/home/autoware/Autoware/install/map_file/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/map_file/lib/pkgconfig:/home/autoware/Autoware/install/libvectormap/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/libvectormap/lib/pkgconfig:/home/autoware/Autoware/install/lane_planner/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lane_planner/lib/pkgconfig:/home/autoware/Autoware/install/imm_ukf_pda_track/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/imm_ukf_pda_track/lib/pkgconfig:/home/autoware/Autoware/install/decision_maker/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/decision_maker/lib/pkgconfig:/home/autoware/Autoware/install/vectacam/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/vectacam/lib/pkgconfig:/home/autoware/Autoware/install/udon_socket/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/udon_socket/lib/pkgconfig:/home/autoware/Autoware/install/twist_generator/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/twist_generator/lib/pkgconfig:/home/autoware/Autoware/install/twist_gate/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/twist_gate/lib/pkgconfig:/home/autoware/Autoware/install/twist_filter/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/twist_filter/lib/pkgconfig:/home/autoware/Autoware/install/twist2odom/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/twist2odom/lib/pkgconfig:/home/autoware/Autoware/install/tablet_socket/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/tablet_socket/lib/pkgconfig:/home/autoware/Autoware/install/runtime_manager/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/runtime_manager/lib/pkgconfig:/home/autoware/Autoware/install/mqtt_socket/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/mqtt_socket/lib/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/tablet_socket_msgs/lib/pkgconfig:/home/autoware/Autoware/install/state_machine_lib/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/state_machine_lib/lib/pkgconfig:/home/autoware/Autoware/install/sound_player/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sound_player/lib/pkgconfig:/home/autoware/Autoware/install/sick_lms5xx/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_lms5xx/lib/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_tools/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_tools/lib/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_driver/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_driver/lib/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_description/lib/pkgconfig:/home/autoware/Autoware/install/points2image/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/points2image/lib/pkgconfig:/home/autoware/Autoware/install/rosinterface/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/rosinterface/lib/pkgconfig:/home/autoware/Autoware/install/rosbag_controller/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/rosbag_controller/lib/pkgconfig:/home/autoware/Autoware/install/pure_pursuit/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/pure_pursuit/lib/pkgconfig:/home/autoware/Autoware/install/points_preprocessor/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/points_preprocessor/lib/pkgconfig:/home/autoware/Autoware/install/mpc_follower/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/mpc_follower/lib/pkgconfig:/home/autoware/Autoware/install/lidar_localizer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lidar_localizer/lib/pkgconfig:/home/autoware/Autoware/install/emergency_handler/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/emergency_handler/lib/pkgconfig:/home/autoware/Autoware/install/as/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/as/lib/pkgconfig:/home/autoware/Autoware/install/roi_object_filter/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/roi_object_filter/lib/pkgconfig:/home/autoware/Autoware/install/range_vision_fusion/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/range_vision_fusion/lib/pkgconfig:/home/autoware/Autoware/install/pos_db/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/pos_db/lib/pkgconfig:/home/autoware/Autoware/install/points_downsampler/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/points_downsampler/lib/pkgconfig:/home/autoware/Autoware/install/pixel_cloud_fusion/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/pixel_cloud_fusion/lib/pkgconfig:/home/autoware/Autoware/install/pcl_omp_registration/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/pcl_omp_registration/lib/pkgconfig:/home/autoware/Autoware/install/pc2_downsampler/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/pc2_downsampler/lib/pkgconfig:/home/autoware/Autoware/install/oculus_socket/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/oculus_socket/lib/pkgconfig:/home/autoware/Autoware/install/obj_db/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/obj_db/lib/pkgconfig:/home/autoware/Autoware/install/nmea_navsat/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/nmea_navsat/lib/pkgconfig:/home/autoware/Autoware/install/ndt_tku/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ndt_tku/lib/pkgconfig:/home/autoware/Autoware/install/ndt_gpu/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ndt_gpu/lib/pkgconfig:/home/autoware/Autoware/install/ndt_cpu/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ndt_cpu/lib/pkgconfig:/home/autoware/Autoware/install/multi_lidar_calibrator/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/multi_lidar_calibrator/lib/pkgconfig:/home/autoware/Autoware/install/microstrain_driver/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/microstrain_driver/lib/pkgconfig:/home/autoware/Autoware/install/memsic_imu/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/memsic_imu/lib/pkgconfig:/home/autoware/Autoware/install/marker_downsampler/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/marker_downsampler/lib/pkgconfig:/home/autoware/Autoware/install/map_tools/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/map_tools/lib/pkgconfig:/home/autoware/Autoware/install/map_tf_generator/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/map_tf_generator/lib/pkgconfig:/home/autoware/Autoware/install/log_tools/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/log_tools/lib/pkgconfig:/home/autoware/Autoware/install/lidar_shape_estimation/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lidar_shape_estimation/lib/pkgconfig:/home/autoware/Autoware/install/lidar_point_pillars/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lidar_point_pillars/lib/pkgconfig:/home/autoware/Autoware/install/lidar_naive_l_shape_detect/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lidar_naive_l_shape_detect/lib/pkgconfig:/home/autoware/Autoware/install/lidar_fake_perception/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lidar_fake_perception/lib/pkgconfig:/home/autoware/Autoware/install/lidar_apollo_cnn_seg_detect/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lidar_apollo_cnn_seg_detect/lib/pkgconfig:/home/autoware/Autoware/install/lgsvl_simulator_bridge/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/lgsvl_simulator_bridge/lib/pkgconfig:/home/autoware/Autoware/install/kvaser/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/kvaser/lib/pkgconfig:/home/autoware/Autoware/install/kitti_launch/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/kitti_launch/lib/pkgconfig:/home/autoware/Autoware/install/kitti_player/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/kitti_player/lib/pkgconfig:/home/autoware/Autoware/install/kitti_box_publisher/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/kitti_box_publisher/lib/pkgconfig:/home/autoware/Autoware/install/javad_navsat_driver/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/javad_navsat_driver/lib/pkgconfig:/home/autoware/Autoware/install/integrated_viewer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/integrated_viewer/lib/pkgconfig:/home/autoware/Autoware/install/image_processor/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/image_processor/lib/pkgconfig:/home/autoware/Autoware/install/hokuyo/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/hokuyo/lib/pkgconfig:/home/autoware/Autoware/install/graph_tools/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/graph_tools/lib/pkgconfig:/home/autoware/Autoware/install/gnss_localizer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/gnss_localizer/lib/pkgconfig:/home/autoware/Autoware/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/gnss/lib/pkgconfig:/home/autoware/Autoware/install/glviewer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/glviewer/lib/pkgconfig:/home/autoware/Autoware/install/gazebo_world_description/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/gazebo_world_description/lib/pkgconfig:/home/autoware/Autoware/install/gazebo_imu_description/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/gazebo_imu_description/lib/pkgconfig:/home/autoware/Autoware/install/gazebo_camera_description/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/gazebo_camera_description/lib/pkgconfig:/home/autoware/Autoware/install/garmin/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/garmin/lib/pkgconfig:/home/autoware/Autoware/install/freespace_planner/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/freespace_planner/lib/pkgconfig:/home/autoware/Autoware/install/fastvirtualscan/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/fastvirtualscan/lib/pkgconfig:/home/autoware/Autoware/install/ekf_localizer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ekf_localizer/lib/pkgconfig:/home/autoware/Autoware/install/ds4_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ds4_msgs/lib/pkgconfig:/home/autoware/Autoware/install/ds4_driver/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ds4_driver/lib/pkgconfig:/home/autoware/Autoware/install/detected_objects_visualizer/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/detected_objects_visualizer/lib/pkgconfig:/home/autoware/Autoware/install/decision_maker_panel/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/decision_maker_panel/lib/pkgconfig:/home/autoware/Autoware/install/data_preprocessor/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/data_preprocessor/lib/pkgconfig:/home/autoware/Autoware/install/custom_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/custom_msgs/lib/pkgconfig:/home/autoware/Autoware/install/carla_autoware_bridge/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/carla_autoware_bridge/lib/pkgconfig:/home/autoware/Autoware/install/calibration_publisher/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/calibration_publisher/lib/pkgconfig:/home/autoware/Autoware/install/autoware_rviz_plugins/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_rviz_plugins/lib/pkgconfig:/home/autoware/Autoware/install/autoware_quickstart_examples/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_quickstart_examples/lib/pkgconfig:/home/autoware/Autoware/install/autoware_pointgrey_drivers/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_pointgrey_drivers/lib/pkgconfig:/home/autoware/Autoware/install/autoware_driveworks_interface/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_driveworks_interface/lib/pkgconfig:/home/autoware/Autoware/install/autoware_connector/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_connector/lib/pkgconfig:/home/autoware/Autoware/install/autoware_camera_lidar_calibrator/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_camera_lidar_calibrator/lib/pkgconfig:/home/autoware/Autoware/install/autoware_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_map_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_launcher_rviz/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_launcher_rviz/lib/pkgconfig:/home/autoware/Autoware/install/autoware_launcher/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_launcher/lib/pkgconfig:/home/autoware/Autoware/install/autoware_external_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_external_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_driveworks_gmsl_interface/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_driveworks_gmsl_interface/lib/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_bag_tools/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_bag_tools/lib/pkgconfig:/home/autoware/Autoware/install/adi_driver/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/adi_driver/lib/pkgconfig:/home/autoware/carla_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_laser/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/sick_ldmrs_laser/lib/pkgconfig:/home/autoware/Autoware/install/ds4/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/ds4/lib/pkgconfig'), ('USERNAME', 'autoware'), ('TERM', 'xterm'), ('PATH', '/home/autoware/Autoware/install/sick_ldmrs_driver/bin:/opt/ros/melodic/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('AUTOWARE_COMPILE_WITH_CUDA', 'ON'), ('CUDA_PKG_VERSION', '10-0=10.0.130-1'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/autoware/carla_ws/devel/share/common-lisp'), ('CUDNN_VERSION', '7.6.5.32-1+cuda10.0'), ('ROS_MASTER_URI', 'http://192.168.0.215:11311'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/autoware/Autoware/build/waypoint_planner'), ('PYTHONPATH', '/home/autoware/Autoware/install/vector_map_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/vector_map_server/lib/python2.7/dist-packages:/home/autoware/Autoware/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/sick_ldmrs_driver/lib/python2.7/dist-packages:/home/autoware/Autoware/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/points_downsampler/lib/python2.7/dist-packages:/home/autoware/Autoware/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages:/home/autoware/Autoware/install/kitti_player/lib/python2.7/dist-packages:/home/autoware/Autoware/install/javad_navsat_driver/lib/python2.7/dist-packages:/home/autoware/Autoware/install/ds4_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/carla_autoware_bridge/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_camera_lidar_calibrator/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_map_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_launcher/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_can_msgs/lib/python2.7/dist-packages:/home/autoware/carla_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg:/home/autoware//PythonAPI/carla-0.9.10-py2.7-linux-x86_64.egg'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.4.2'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/autoware/Autoware/install/libwaypoint_follower:/home/autoware/Autoware/install/lanelet2_extension:/home/autoware/Autoware/install/vector_map:/home/autoware/Autoware/install/autoware_health_checker:/home/autoware/Autoware/install/astar_search:/home/autoware/Autoware/install/amathutils_lib:/home/autoware/Autoware/install/vector_map_msgs:/home/autoware/Autoware/install/ros_observer:/home/autoware/Autoware/install/autoware_system_msgs:/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_lanelet2_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:/home/autoware/Autoware/install/ymc:/home/autoware/Autoware/install/xsens_driver:/home/autoware/Autoware/install/wf_simulator:/home/autoware/Autoware/install/lattice_planner:/home/autoware/Autoware/install/waypoint_planner:/home/autoware/Autoware/install/waypoint_maker:/home/autoware/Autoware/install/way_planner:/home/autoware/Autoware/install/vlg22c_cam:/home/autoware/Autoware/install/vision_ssd_detect:/home/autoware/Autoware/install/vision_segment_enet_detect:/home/autoware/Autoware/install/vision_lane_detect:/home/autoware/Autoware/install/vision_darknet_detect:/home/autoware/Autoware/install/vision_beyond_track:/home/autoware/Autoware/install/vel_pose_diff_checker:/home/autoware/Autoware/install/vehicle_socket:/home/autoware/Autoware/install/vehicle_sim_model:/home/autoware/Autoware/install/vehicle_model:/home/autoware/Autoware/install/vehicle_gazebo_simulation_launcher:/home/autoware/Autoware/install/vehicle_gazebo_simulation_interface:/home/autoware/Autoware/install/vehicle_engage_panel:/home/autoware/Autoware/install/vehicle_description:/home/autoware/Autoware/install/trafficlight_recognizer:/home/autoware/Autoware/install/op_utilities:/home/autoware/Autoware/install/op_simulation_package:/home/autoware/Autoware/install/op_local_planner:/home/autoware/Autoware/install/op_global_planner:/home/autoware/Autoware/install/lidar_kf_contour_track:/home/autoware/Autoware/install/op_ros_helpers:/home/autoware/Autoware/install/ff_waypoint_follower:/home/autoware/Autoware/install/dp_planner:/home/autoware/Autoware/install/op_simu:/home/autoware/Autoware/install/op_planner:/home/autoware/Autoware/install/op_utility:/home/autoware/Autoware/install/lidar_euclidean_cluster_detect:/home/autoware/Autoware/install/vector_map_server:/home/autoware/Autoware/install/road_occupancy_processor:/home/autoware/Autoware/install/costmap_generator:/home/autoware/Autoware/install/object_map:/home/autoware/Autoware/install/naive_motion_predict:/home/autoware/Autoware/install/lanelet_aisan_converter:/home/autoware/Autoware/install/map_file:/home/autoware/Autoware/install/libvectormap:/home/autoware/Autoware/install/lane_planner:/home/autoware/Autoware/install/imm_ukf_pda_track:/home/autoware/Autoware/install/decision_maker:/home/autoware/Autoware/install/vectacam:/home/autoware/Autoware/install/udon_socket:/home/autoware/Autoware/install/twist_generator:/home/autoware/Autoware/install/twist_gate:/home/autoware/Autoware/install/twist_filter:/home/autoware/Autoware/install/twist2odom:/home/autoware/Autoware/install/tablet_socket:/home/autoware/Autoware/install/runtime_manager:/home/autoware/Autoware/install/mqtt_socket:/home/autoware/Autoware/install/tablet_socket_msgs:/home/autoware/Autoware/install/state_machine_lib:/home/autoware/Autoware/install/sound_player:/home/autoware/Autoware/install/sick_lms5xx:/home/autoware/Autoware/install/sick_ldmrs_tools:/home/autoware/Autoware/install/sick_ldmrs_driver:/home/autoware/Autoware/install/sick_ldmrs_msgs:/home/autoware/Autoware/install/sick_ldmrs_description:/home/autoware/Autoware/install/points2image:/home/autoware/Autoware/install/rosinterface:/home/autoware/Autoware/install/rosbag_controller:/home/autoware/Autoware/install/pure_pursuit:/home/autoware/Autoware/install/points_preprocessor:/home/autoware/Autoware/install/mpc_follower:/home/autoware/Autoware/install/lidar_localizer:/home/autoware/Autoware/install/emergency_handler:/home/autoware/Autoware/install/as:/home/autoware/Autoware/install/roi_object_filter:/home/autoware/Autoware/install/range_vision_fusion:/home/autoware/Autoware/install/pos_db:/home/autoware/Autoware/install/points_downsampler:/home/autoware/Autoware/install/pixel_cloud_fusion:/home/autoware/Autoware/install/pcl_omp_registration:/home/autoware/Autoware/install/pc2_downsampler:/home/autoware/Autoware/install/oculus_socket:/home/autoware/Autoware/install/obj_db:/home/autoware/Autoware/install/nmea_navsat:/home/autoware/Autoware/install/ndt_tku:/home/autoware/Autoware/install/ndt_gpu:/home/autoware/Autoware/install/ndt_cpu:/home/autoware/Autoware/install/multi_lidar_calibrator:/home/autoware/Autoware/install/microstrain_driver:/home/autoware/Autoware/install/memsic_imu:/home/autoware/Autoware/install/marker_downsampler:/home/autoware/Autoware/install/map_tools:/home/autoware/Autoware/install/map_tf_generator:/home/autoware/Autoware/install/log_tools:/home/autoware/Autoware/install/lidar_shape_estimation:/home/autoware/Autoware/install/lidar_point_pillars:/home/autoware/Autoware/install/lidar_naive_l_shape_detect:/home/autoware/Autoware/install/lidar_fake_perception:/home/autoware/Autoware/install/lidar_apollo_cnn_seg_detect:/home/autoware/Autoware/install/lgsvl_simulator_bridge:/home/autoware/Autoware/install/kvaser:/home/autoware/Autoware/install/kitti_launch:/home/autoware/Autoware/install/kitti_player:/home/autoware/Autoware/install/kitti_box_publisher:/home/autoware/Autoware/install/javad_navsat_driver:/home/autoware/Autoware/install/integrated_viewer:/home/autoware/Autoware/install/image_processor:/home/autoware/Autoware/install/hokuyo:/home/autoware/Autoware/install/graph_tools:/home/autoware/Autoware/install/gnss_localizer:/home/autoware/Autoware/install/gnss:/home/autoware/Autoware/install/glviewer:/home/autoware/Autoware/install/gazebo_world_description:/home/autoware/Autoware/install/gazebo_imu_description:/home/autoware/Autoware/install/gazebo_camera_description:/home/autoware/Autoware/install/garmin:/home/autoware/Autoware/install/freespace_planner:/home/autoware/Autoware/install/fastvirtualscan:/home/autoware/Autoware/install/ekf_localizer:/home/autoware/Autoware/install/ds4_msgs:/home/autoware/Autoware/install/ds4_driver:/home/autoware/Autoware/install/detected_objects_visualizer:/home/autoware/Autoware/install/decision_maker_panel:/home/autoware/Autoware/install/data_preprocessor:/home/autoware/Autoware/install/custom_msgs:/home/autoware/Autoware/install/carla_autoware_bridge:/home/autoware/Autoware/install/calibration_publisher:/home/autoware/Autoware/install/autoware_rviz_plugins:/home/autoware/Autoware/install/autoware_quickstart_examples:/home/autoware/Autoware/install/autoware_pointgrey_drivers:/home/autoware/Autoware/install/autoware_driveworks_interface:/home/autoware/Autoware/install/autoware_connector:/home/autoware/Autoware/install/autoware_camera_lidar_calibrator:/home/autoware/Autoware/install/autoware_map_msgs:/home/autoware/Autoware/install/autoware_launcher_rviz:/home/autoware/Autoware/install/autoware_launcher:/home/autoware/Autoware/install/autoware_external_msgs:/home/autoware/Autoware/install/autoware_driveworks_gmsl_interface:/home/autoware/Autoware/install/autoware_can_msgs:/home/autoware/Autoware/install/autoware_bag_tools:/home/autoware/Autoware/install/adi_driver:/home/autoware/carla_ws/devel:/opt/ros/melodic')]), 'shell': False}
+[0.400645] (-) TimerEvent: {}
+[0.501202] (-) TimerEvent: {}
+[0.601646] (-) TimerEvent: {}
+[0.701994] (-) TimerEvent: {}
+[0.702884] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target tf2_msgs_generate_messages_eus\n'}
+[0.711244] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target topic_tools_generate_messages_eus\n'}
+[0.712287] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target vector_map_msgs_generate_messages_eus\n'}
+[0.712945] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target vector_map_msgs_generate_messages_nodejs\n'}
+[0.713241] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target std_srvs_generate_messages_lisp\n'}
+[0.717940] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target bond_generate_messages_lisp\n'}
+[0.718696] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target topic_tools_generate_messages_nodejs\n'}
+[0.722055] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target topic_tools_generate_messages_cpp\n'}
+[0.722205] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target std_srvs_generate_messages_py\n'}
+[0.723187] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target bond_generate_messages_cpp\n'}
+[0.727482] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target nodelet_generate_messages_cpp\n'}
+[0.727668] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target dynamic_reconfigure_generate_messages_lisp\n'}
+[0.734781] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target vector_map_msgs_generate_messages_py\n'}
+[0.735882] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target nodelet_generate_messages_nodejs\n'}
+[0.739514] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target bond_generate_messages_py\n'}
+[0.741209] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target dynamic_reconfigure_generate_messages_nodejs\n'}
+[0.754214] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target std_srvs_generate_messages_nodejs\n'}
+[0.759258] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target vector_map_msgs_generate_messages_cpp\n'}
+[0.760713] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target dynamic_reconfigure_generate_messages_py\n'}
+[0.763202] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target nodelet_generate_messages_eus\n'}
+[0.802080] (-) TimerEvent: {}
+[0.902847] (-) TimerEvent: {}
+[0.936490] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target visualization_msgs_generate_messages_py\n'}
+[0.940881] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target dynamic_reconfigure_generate_messages_eus\n'}
+[0.942157] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target tf2_msgs_generate_messages_nodejs\n'}
+[0.952762] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target geometry_msgs_generate_messages_lisp\n'}
+[0.953135] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_lanelet2_msgs_generate_messages_lisp\n'}
+[0.955770] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target visualization_msgs_generate_messages_nodejs\n'}
+[0.958230] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_lanelet2_msgs_generate_messages_eus\n'}
+[0.962005] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target bond_generate_messages_eus\n'}
+[0.963893] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target pcl_ros_gencfg\n'}
+[0.970771] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_msgs_generate_messages_lisp\n'}
+[0.971430] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target geometry_msgs_generate_messages_py\n'}
+[0.971911] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_lanelet2_msgs_generate_messages_cpp\n'}
+[0.972168] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target visualization_msgs_generate_messages_eus\n'}
+[0.978662] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target geometry_msgs_generate_messages_eus\n'}
+[0.984185] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target jsk_recognition_msgs_generate_messages_cpp\n'}
+[0.988432] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_system_msgs_generate_messages_cpp\n'}
+[0.991289] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target rosgraph_msgs_generate_messages_cpp\n'}
+[1.002926] (-) TimerEvent: {}
+[1.016119] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target topic_tools_generate_messages_lisp\n'}
+[1.019239] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_msgs_generate_messages_eus\n'}
+[1.040690] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_msgs_generate_messages_cpp\n'}
+[1.103049] (-) TimerEvent: {}
+[1.159125] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_system_msgs_generate_messages_eus\n'}
+[1.178912] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target rosgraph_msgs_generate_messages_lisp\n'}
+[1.184935] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target rosgraph_msgs_generate_messages_eus\n'}
+[1.186631] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target std_msgs_generate_messages_py\n'}
+[1.193193] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target jsk_footstep_msgs_generate_messages_py\n'}
+[1.195862] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target jsk_recognition_msgs_generate_messages_eus\n'}
+[1.202712] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target nodelet_generate_messages_lisp\n'}
+[1.203093] (-) TimerEvent: {}
+[1.203454] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target tf2_msgs_generate_messages_cpp\n'}
+[1.209307] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target sensor_msgs_generate_messages_lisp\n'}
+[1.214354] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target topic_tools_generate_messages_py\n'}
+[1.215018] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_system_msgs_generate_messages_lisp\n'}
+[1.217870] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_msgs_generate_messages_py\n'}
+[1.223279] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target std_srvs_generate_messages_cpp\n'}
+[1.230195] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target std_msgs_generate_messages_cpp\n'}
+[1.230757] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target vector_map_msgs_generate_messages_lisp\n'}
+[1.247412] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target actionlib_msgs_generate_messages_nodejs\n'}
+[1.247757] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target dynamic_reconfigure_gencfg\n'}
+[1.261869] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target nodelet_topic_tools_gencfg\n'}
+[1.267613] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target tf2_msgs_generate_messages_lisp\n'}
+[1.303213] (-) TimerEvent: {}
+[1.337891] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target bond_generate_messages_nodejs\n'}
+[1.403331] (-) TimerEvent: {}
+[1.407008] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_config_msgs_generate_messages_py\n'}
+[1.419946] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target actionlib_msgs_generate_messages_eus\n'}
+[1.420709] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target geometry_msgs_generate_messages_nodejs\n'}
+[1.423741] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target roscpp_generate_messages_eus\n'}
+[1.426742] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_msgs_generate_messages_nodejs\n'}
+[1.441721] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target std_msgs_generate_messages_lisp\n'}
+[1.445077] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_config_msgs_generate_messages_cpp\n'}
+[1.454042] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target std_msgs_generate_messages_eus\n'}
+[1.454277] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target roscpp_generate_messages_nodejs\n'}
+[1.459711] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target rosgraph_msgs_generate_messages_py\n'}
+[1.463133] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target std_msgs_generate_messages_nodejs\n'}
+[1.473843] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target jsk_recognition_msgs_generate_messages_lisp\n'}
+[1.475306] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target visualization_msgs_generate_messages_lisp\n'}
+[1.475779] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target rosgraph_msgs_generate_messages_nodejs\n'}
+[1.476629] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_config_msgs_generate_messages_eus\n'}
+[1.488256] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target jsk_recognition_msgs_generate_messages_py\n'}
+[1.492364] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target sensor_msgs_generate_messages_eus\n'}
+[1.496175] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target sensor_msgs_generate_messages_cpp\n'}
+[1.503394] (-) TimerEvent: {}
+[1.522605] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_config_msgs_generate_messages_lisp\n'}
+[1.599794] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_system_msgs_generate_messages_py\n'}
+[1.603508] (-) TimerEvent: {}
+[1.642316] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target sensor_msgs_generate_messages_nodejs\n'}
+[1.654272] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target roscpp_generate_messages_cpp\n'}
+[1.655472] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target sensor_msgs_generate_messages_py\n'}
+[1.666266] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target nodelet_generate_messages_py\n'}
+[1.675552] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target actionlib_generate_messages_cpp\n'}
+[1.685947] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target dynamic_reconfigure_generate_messages_cpp\n'}
+[1.686811] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target pcl_msgs_generate_messages_eus\n'}
+[1.703592] (-) TimerEvent: {}
+[1.705429] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target jsk_footstep_msgs_generate_messages_eus\n'}
+[1.709811] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target actionlib_msgs_generate_messages_lisp\n'}
+[1.710027] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target pcl_msgs_generate_messages_cpp\n'}
+[1.712615] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target tf_generate_messages_py\n'}
+[1.714891] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target jsk_footstep_msgs_generate_messages_lisp\n'}
+[1.717443] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_system_msgs_generate_messages_nodejs\n'}
+[1.721742] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target actionlib_msgs_generate_messages_py\n'}
+[1.723143] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target pcl_msgs_generate_messages_nodejs\n'}
+[1.723500] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target actionlib_generate_messages_nodejs\n'}
+[1.742719] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs\n'}
+[1.770161] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target pcl_msgs_generate_messages_lisp\n'}
+[1.788412] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target tf_generate_messages_cpp\n'}
+[1.803697] (-) TimerEvent: {}
+[1.830963] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target jsk_footstep_msgs_generate_messages_cpp\n'}
+[1.893541] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target actionlib_msgs_generate_messages_cpp\n'}
+[1.903542] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target tf_generate_messages_lisp\n'}
+[1.903802] (-) TimerEvent: {}
+[1.907634] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target tf_generate_messages_nodejs\n'}
+[1.907969] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_config_msgs_generate_messages_nodejs\n'}
+[1.921013] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target pcl_msgs_generate_messages_py\n'}
+[1.922618] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target tf_generate_messages_eus\n'}
+[1.923597] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target std_srvs_generate_messages_eus\n'}
+[1.925416] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_lanelet2_msgs_generate_messages_py\n'}
+[1.929049] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target roscpp_generate_messages_lisp\n'}
+[1.932296] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs\n'}
+[1.933521] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target autoware_lanelet2_msgs_generate_messages_nodejs\n'}
+[1.933749] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target actionlib_generate_messages_lisp\n'}
+[1.936143] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target actionlib_generate_messages_eus\n'}
+[1.936769] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target roscpp_generate_messages_py\n'}
+[1.939592] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target geometry_msgs_generate_messages_cpp\n'}
+[1.941567] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target actionlib_generate_messages_py\n'}
+[1.943093] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target tf2_msgs_generate_messages_py\n'}
+[1.945650] (waypoint_planner) StdoutLine: {'line': b'[  0%] Built target visualization_msgs_generate_messages_cpp\n'}
+[1.991091] (waypoint_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target velocity_set_lanelet2\x1b[0m\n'}
+[2.003869] (-) TimerEvent: {}
+[2.053355] (waypoint_planner) StdoutLine: {'line': b'[ 23%] Built target astar_avoid\n'}
+[2.062105] (waypoint_planner) StdoutLine: {'line': b'[ 61%] Built target velocity_set\n'}
+[2.098463] (waypoint_planner) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/velocity_set_lanelet2.dir/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp.o\x1b[0m\n'}
+[2.103956] (-) TimerEvent: {}
+[2.204391] (-) TimerEvent: {}
+[2.304856] (-) TimerEvent: {}
+[2.405237] (-) TimerEvent: {}
+[2.505696] (-) TimerEvent: {}
+[2.606159] (-) TimerEvent: {}
+[2.706710] (-) TimerEvent: {}
+[2.807258] (-) TimerEvent: {}
+[2.907774] (-) TimerEvent: {}
+[3.008354] (-) TimerEvent: {}
+[3.108960] (-) TimerEvent: {}
+[3.209562] (-) TimerEvent: {}
+[3.310077] (-) TimerEvent: {}
+[3.410648] (-) TimerEvent: {}
+[3.511251] (-) TimerEvent: {}
+[3.611818] (-) TimerEvent: {}
+[3.712411] (-) TimerEvent: {}
+[3.812929] (-) TimerEvent: {}
+[3.913433] (-) TimerEvent: {}
+[4.013904] (-) TimerEvent: {}
+[4.114387] (-) TimerEvent: {}
+[4.214851] (-) TimerEvent: {}
+[4.315341] (-) TimerEvent: {}
+[4.415900] (-) TimerEvent: {}
+[4.516463] (-) TimerEvent: {}
+[4.617071] (-) TimerEvent: {}
+[4.717634] (-) TimerEvent: {}
+[4.818168] (-) TimerEvent: {}
+[4.918725] (-) TimerEvent: {}
+[5.019322] (-) TimerEvent: {}
+[5.119923] (-) TimerEvent: {}
+[5.220536] (-) TimerEvent: {}
+[5.321144] (-) TimerEvent: {}
+[5.421744] (-) TimerEvent: {}
+[5.522367] (-) TimerEvent: {}
+[5.623008] (-) TimerEvent: {}
+[5.723581] (-) TimerEvent: {}
+[5.824155] (-) TimerEvent: {}
+[5.924723] (-) TimerEvent: {}
+[6.025267] (-) TimerEvent: {}
+[6.125758] (-) TimerEvent: {}
+[6.226354] (-) TimerEvent: {}
+[6.326987] (-) TimerEvent: {}
+[6.427599] (-) TimerEvent: {}
+[6.528200] (-) TimerEvent: {}
+[6.628759] (-) TimerEvent: {}
+[6.729314] (-) TimerEvent: {}
+[6.829925] (-) TimerEvent: {}
+[6.930544] (-) TimerEvent: {}
+[7.031101] (-) TimerEvent: {}
+[7.131639] (-) TimerEvent: {}
+[7.232247] (-) TimerEvent: {}
+[7.332786] (-) TimerEvent: {}
+[7.433389] (-) TimerEvent: {}
+[7.533982] (-) TimerEvent: {}
+[7.634596] (-) TimerEvent: {}
+[7.735183] (-) TimerEvent: {}
+[7.803841] (waypoint_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KEControl pointsDetection(const pcl::PointCloud<pcl::PointXYZ>&, int, int, const Lane&, const ConstLanelets&, const VelocitySetInfo&, int*, ObstaclePoints*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.804406] (waypoint_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:375:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpoints_threshold\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.804765] (waypoint_planner) StderrLine: {'line': b'                          \x1b[01;31m\x1b[Kpoints_threshold\x1b[m\x1b[K, vs_info.getLocalizerPose(), obstacle_points, &obstacle_type,\n'}
+[7.804956] (waypoint_planner) StderrLine: {'line': b'                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.829098] (waypoint_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/melodic/include/ros/ros.h:40:0\x1b[m\x1b[K,\n'}
+[7.829401] (waypoint_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:17\x1b[m\x1b[K:\n'}
+[7.829588] (waypoint_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.829781] (waypoint_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:719:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpoints_threshold\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.829973] (waypoint_planner) StderrLine: {'line': b'     ROS_INFO("Points threshold : %d",\x1b[01;31m\x1b[Kp\x1b[m\x1b[Koints_threshold);\n'}
+[7.830138] (waypoint_planner) StderrLine: {'line': b'                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.835248] (-) TimerEvent: {}
+[7.837178] (waypoint_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:719:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kpoints_sub\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.935398] (-) TimerEvent: {}
+[8.035975] (-) TimerEvent: {}
+[8.136540] (-) TimerEvent: {}
+[8.237023] (-) TimerEvent: {}
+[8.337503] (-) TimerEvent: {}
+[8.438033] (-) TimerEvent: {}
+[8.538577] (-) TimerEvent: {}
+[8.639180] (-) TimerEvent: {}
+[8.739738] (-) TimerEvent: {}
+[8.840335] (-) TimerEvent: {}
+[8.940898] (-) TimerEvent: {}
+[9.041486] (-) TimerEvent: {}
+[9.142039] (-) TimerEvent: {}
+[9.242620] (-) TimerEvent: {}
+[9.343164] (-) TimerEvent: {}
+[9.443801] (-) TimerEvent: {}
+[9.544423] (-) TimerEvent: {}
+[9.645056] (-) TimerEvent: {}
+[9.745622] (-) TimerEvent: {}
+[9.846174] (-) TimerEvent: {}
+[9.946719] (-) TimerEvent: {}
+[10.047293] (-) TimerEvent: {}
+[10.147804] (-) TimerEvent: {}
+[10.248383] (-) TimerEvent: {}
+[10.348958] (-) TimerEvent: {}
+[10.449448] (-) TimerEvent: {}
+[10.549933] (-) TimerEvent: {}
+[10.650454] (-) TimerEvent: {}
+[10.751032] (-) TimerEvent: {}
+[10.851663] (-) TimerEvent: {}
+[10.952256] (-) TimerEvent: {}
+[11.052800] (-) TimerEvent: {}
+[11.136025] (waypoint_planner) StdoutLine: {'line': b"CMakeFiles/velocity_set_lanelet2.dir/build.make:62: recipe for target 'CMakeFiles/velocity_set_lanelet2.dir/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp.o' failed\n"}
+[11.136613] (waypoint_planner) StderrLine: {'line': b'make[2]: *** [CMakeFiles/velocity_set_lanelet2.dir/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp.o] Error 1\n'}
+[11.136834] (waypoint_planner) StderrLine: {'line': b'make[1]: *** [CMakeFiles/velocity_set_lanelet2.dir/all] Error 2\n'}
+[11.137075] (waypoint_planner) StdoutLine: {'line': b"CMakeFiles/Makefile2:248: recipe for target 'CMakeFiles/velocity_set_lanelet2.dir/all' failed\n"}
+[11.137274] (waypoint_planner) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[11.137441] (waypoint_planner) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[11.140386] (waypoint_planner) CommandEnded: {'returncode': 2}
+[11.153036] (-) TimerEvent: {}
+[11.172350] (waypoint_planner) JobEnded: {'identifier': 'waypoint_planner', 'rc': 2}
+[11.173554] (-) EventReactorShutdown: {}

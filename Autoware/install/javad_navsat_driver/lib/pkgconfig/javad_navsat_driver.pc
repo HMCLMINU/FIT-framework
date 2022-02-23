@@ -1,0 +1,8 @@
+prefix=/home/autoware/Autoware/install/javad_navsat_driver
+
+Name: javad_navsat_driver
+Description: Description of javad_navsat_driver
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

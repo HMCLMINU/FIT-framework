@@ -1,0 +1,8 @@
+Invoking command in '/home/autoware/Autoware/build/graph_tools': /usr/bin/cmake /home/autoware/Autoware/src/autoware/utilities/graph_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/graph_tools
+Invoked command in '/home/autoware/Autoware/build/graph_tools' returned '0': /usr/bin/cmake /home/autoware/Autoware/src/autoware/utilities/graph_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/graph_tools
+Invoking command in '/home/autoware/Autoware/build/graph_tools': /usr/bin/cmake --build /home/autoware/Autoware/build/graph_tools -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/graph_tools' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/graph_tools -- -j2 -l2
+Invoking command in '/home/autoware/Autoware/build/graph_tools': /usr/bin/cmake --build /home/autoware/Autoware/build/graph_tools --target tests -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/graph_tools' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/graph_tools --target tests -- -j2 -l2
+Invoking command in '/home/autoware/Autoware/build/graph_tools': /usr/bin/cmake --build /home/autoware/Autoware/build/graph_tools --target install -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/graph_tools' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/graph_tools --target install -- -j2 -l2

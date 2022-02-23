@@ -1,0 +1,8 @@
+Invoking command in '/home/autoware/Autoware/build/oculus_socket': /usr/bin/cmake /home/autoware/Autoware/src/autoware/utilities/oculus_socket -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/oculus_socket
+Invoked command in '/home/autoware/Autoware/build/oculus_socket' returned '0': /usr/bin/cmake /home/autoware/Autoware/src/autoware/utilities/oculus_socket -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/oculus_socket
+Invoking command in '/home/autoware/Autoware/build/oculus_socket': /usr/bin/cmake --build /home/autoware/Autoware/build/oculus_socket -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/oculus_socket -- -j2 -l2
+Invoking command in '/home/autoware/Autoware/build/oculus_socket': /usr/bin/cmake --build /home/autoware/Autoware/build/oculus_socket --target tests -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/oculus_socket --target tests -- -j2 -l2
+Invoking command in '/home/autoware/Autoware/build/oculus_socket': /usr/bin/cmake --build /home/autoware/Autoware/build/oculus_socket --target install -- -j2 -l2
+Invoked command in '/home/autoware/Autoware/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/oculus_socket --target install -- -j2 -l2

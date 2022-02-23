@@ -1,0 +1,31 @@
+[0.527s] Invoking command in '/home/autoware/Autoware/build/javad_navsat_driver': /usr/bin/cmake --build /home/autoware/Autoware/build/javad_navsat_driver -- -j32 -l32
+[0.771s] Invoked command in '/home/autoware/Autoware/build/javad_navsat_driver' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/javad_navsat_driver -- -j32 -l32
+[0.899s] Invoking command in '/home/autoware/Autoware/build/javad_navsat_driver': /usr/bin/cmake --build /home/autoware/Autoware/build/javad_navsat_driver --target tests -- -j32 -l32
+[1.011s] Built target tests
+[1.044s] Invoked command in '/home/autoware/Autoware/build/javad_navsat_driver' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/javad_navsat_driver --target tests -- -j32 -l32
+[1.175s] Invoking command in '/home/autoware/Autoware/build/javad_navsat_driver': /usr/bin/cmake --build /home/autoware/Autoware/build/javad_navsat_driver --target install -- -j32 -l32
+[1.403s] Install the project...
+[1.403s] -- Install configuration: "Release"
+[1.403s] + cd /home/autoware/Autoware/src/drivers/awf_drivers/javad_navsat_driver
+[1.403s] + mkdir -p /home/autoware/Autoware/install/javad_navsat_driver/lib/python2.7/dist-packages
+[1.403s] + /usr/bin/env PYTHONPATH=/home/autoware/Autoware/install/javad_navsat_driver/lib/python2.7/dist-packages:/home/autoware/Autoware/build/javad_navsat_driver/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/autoware/Autoware/build/javad_navsat_driver /usr/bin/python2 /home/autoware/Autoware/src/drivers/awf_drivers/javad_navsat_driver/setup.py build --build-base /home/autoware/Autoware/build/javad_navsat_driver install --root=/ --install-layout=deb --prefix=/home/autoware/Autoware/install/javad_navsat_driver --install-scripts=/home/autoware/Autoware/install/javad_navsat_driver/bin
+[1.403s] running build
+[1.403s] running build_py
+[1.404s] running install
+[1.404s] running install_lib
+[1.404s] running install_egg_info
+[1.404s] Removing /home/autoware/Autoware/install/javad_navsat_driver/lib/python2.7/dist-packages/javad_navsat_driver-1.12.0.egg-info
+[1.404s] Writing /home/autoware/Autoware/install/javad_navsat_driver/lib/python2.7/dist-packages/javad_navsat_driver-1.12.0.egg-info
+[1.563s] -- Up-to-date: /home/autoware/Autoware/install/javad_navsat_driver/lib/pkgconfig/javad_navsat_driver.pc
+[1.563s] -- Up-to-date: /home/autoware/Autoware/install/javad_navsat_driver/share/javad_navsat_driver/cmake/javad_navsat_driverConfig.cmake
+[1.563s] -- Up-to-date: /home/autoware/Autoware/install/javad_navsat_driver/share/javad_navsat_driver/cmake/javad_navsat_driverConfig-version.cmake
+[1.563s] -- Up-to-date: /home/autoware/Autoware/install/javad_navsat_driver/share/javad_navsat_driver/package.xml
+[1.563s] -- Up-to-date: /home/autoware/Autoware/install/javad_navsat_driver/lib/javad_navsat_driver/javad_serial_driver
+[1.563s] -- Up-to-date: /home/autoware/Autoware/install/javad_navsat_driver/lib/javad_navsat_driver/javad_topic_driver
+[1.563s] -- Up-to-date: /home/autoware/Autoware/install/javad_navsat_driver/lib/javad_navsat_driver/javad_topic_serial_reader
+[1.564s] -- Up-to-date: /home/autoware/Autoware/install/javad_navsat_driver/share/javad_navsat_driver/launch
+[1.564s] -- Up-to-date: /home/autoware/Autoware/install/javad_navsat_driver/share/javad_navsat_driver/launch/javad_navsat.launch
+[1.564s] -- Up-to-date: /home/autoware/Autoware/install/javad_navsat_driver/share/javad_navsat_driver/cfg
+[1.564s] -- Up-to-date: /home/autoware/Autoware/install/javad_navsat_driver/share/javad_navsat_driver/cfg/enable.cfg
+[1.564s] -- Up-to-date: /home/autoware/Autoware/install/javad_navsat_driver/share/javad_navsat_driver/cfg/disable.cfg
+[1.738s] Invoked command in '/home/autoware/Autoware/build/javad_navsat_driver' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/javad_navsat_driver --target install -- -j32 -l32

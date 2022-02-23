@@ -1,0 +1,8 @@
+prefix=/home/autoware/Autoware/install/pos_db
+
+Name: pos_db
+Description: Description of pos_db
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: gnss

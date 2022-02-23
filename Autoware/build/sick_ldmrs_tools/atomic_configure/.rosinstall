@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autoware/Autoware/build/sick_ldmrs_tools/devel/setup.sh

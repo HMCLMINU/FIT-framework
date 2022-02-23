@@ -1,0 +1,6 @@
+/home/autoware/Autoware/install/ds4_driver/lib/pkgconfig/ds4_driver.pc
+/home/autoware/Autoware/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig.cmake
+/home/autoware/Autoware/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig-version.cmake
+/home/autoware/Autoware/install/ds4_driver/share/ds4_driver/package.xml
+/home/autoware/Autoware/install/ds4_driver/lib/ds4_driver/ds4_driver
+/home/autoware/Autoware/install/ds4_driver/share/ds4_driver/launch/ds4_driver.launch

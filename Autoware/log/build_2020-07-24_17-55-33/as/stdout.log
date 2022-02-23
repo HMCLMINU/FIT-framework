@@ -1,0 +1,242 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CUDA compilation status: ON.
+-- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/as/devel
+-- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/ros_observer;/home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/autoware/Autoware/install/ros_observer;/home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/as/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.26
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/autoware/Autoware/build/as
+Scanning dependencies of target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+Scanning dependencies of target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+Scanning dependencies of target autoware_msgs_generate_messages_lisp
+[  0%] Built target autoware_msgs_generate_messages_lisp
+Scanning dependencies of target automotive_navigation_msgs_generate_messages_nodejs
+[  0%] Built target automotive_navigation_msgs_generate_messages_nodejs
+Scanning dependencies of target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+Scanning dependencies of target autoware_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_eus
+Scanning dependencies of target autoware_msgs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_cpp
+Scanning dependencies of target automotive_platform_msgs_generate_messages_py
+[  0%] Built target automotive_platform_msgs_generate_messages_py
+Scanning dependencies of target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+Scanning dependencies of target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+Scanning dependencies of target automotive_platform_msgs_generate_messages_eus
+[  0%] Built target automotive_platform_msgs_generate_messages_eus
+Scanning dependencies of target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+Scanning dependencies of target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+Scanning dependencies of target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+Scanning dependencies of target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+Scanning dependencies of target automotive_navigation_msgs_generate_messages_lisp
+[  0%] Built target automotive_navigation_msgs_generate_messages_lisp
+Scanning dependencies of target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+Scanning dependencies of target automotive_platform_msgs_generate_messages_cpp
+[  0%] Built target automotive_platform_msgs_generate_messages_cpp
+Scanning dependencies of target automotive_navigation_msgs_generate_messages_eus
+[  0%] Built target automotive_navigation_msgs_generate_messages_eus
+Scanning dependencies of target autoware_msgs_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_py
+Scanning dependencies of target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+Scanning dependencies of target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+Scanning dependencies of target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+Scanning dependencies of target automotive_platform_msgs_generate_messages_nodejs
+[  0%] Built target automotive_platform_msgs_generate_messages_nodejs
+Scanning dependencies of target autoware_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+Scanning dependencies of target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+Scanning dependencies of target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_nodejs
+Scanning dependencies of target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+Scanning dependencies of target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+Scanning dependencies of target automotive_navigation_msgs_generate_messages_cpp
+[  0%] Built target automotive_navigation_msgs_generate_messages_cpp
+Scanning dependencies of target pcl_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_lisp
+Scanning dependencies of target automotive_navigation_msgs_generate_messages_py
+[  0%] Built target automotive_navigation_msgs_generate_messages_py
+Scanning dependencies of target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+Scanning dependencies of target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+Scanning dependencies of target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+Scanning dependencies of target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+Scanning dependencies of target pcl_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_cpp
+Scanning dependencies of target pcl_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_eus
+Scanning dependencies of target pcl_msgs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+Scanning dependencies of target pcl_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_py
+Scanning dependencies of target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+Scanning dependencies of target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_py
+Scanning dependencies of target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+Scanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+Scanning dependencies of target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+Scanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+Scanning dependencies of target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+Scanning dependencies of target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+Scanning dependencies of target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+Scanning dependencies of target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_py
+Scanning dependencies of target automotive_platform_msgs_generate_messages_lisp
+[  0%] Built target automotive_platform_msgs_generate_messages_lisp
+Scanning dependencies of target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_eus
+Scanning dependencies of target ssc_interface
+[ 33%] Building CXX object CMakeFiles/ssc_interface.dir/src/ssc_interface_node.cpp.o
+[ 66%] Building CXX object CMakeFiles/ssc_interface.dir/src/ssc_interface.cpp.o
+[100%] Linking CXX executable devel/lib/as/ssc_interface
+[100%] Built target ssc_interface
+Scanning dependencies of target tests
+Built target tests
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target automotive_navigation_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target automotive_platform_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target automotive_platform_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target automotive_navigation_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target automotive_platform_msgs_generate_messages_cpp
+[  0%] Built target automotive_navigation_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target automotive_platform_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target automotive_navigation_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target automotive_navigation_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target automotive_platform_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[100%] Built target ssc_interface
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/autoware/Autoware/install/as/lib/pkgconfig/as.pc
+-- Installing: /home/autoware/Autoware/install/as/share/as/cmake/asConfig.cmake
+-- Installing: /home/autoware/Autoware/install/as/share/as/cmake/asConfig-version.cmake
+-- Installing: /home/autoware/Autoware/install/as/share/as/package.xml
+-- Installing: /home/autoware/Autoware/install/as/lib/as/ssc_interface
+-- Set runtime path of "/home/autoware/Autoware/install/as/lib/as/ssc_interface" to ""
+-- Installing: /home/autoware/Autoware/install/as/share/as/launch
+-- Installing: /home/autoware/Autoware/install/as/share/as/launch/ssc_interface.launch

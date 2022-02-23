@@ -1,0 +1,3 @@
+/home/autoware/Autoware/src/autoware/core_planning/waypoint_maker/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp:223:6: warning: ‘void {anonymous}::createGlobalLaneArrayMarker(std_msgs::ColorRGBA, const LaneArray&)’ defined but not used [-Wunused-function]
+ void createGlobalLaneArrayMarker(std_msgs::ColorRGBA color, const autoware_msgs::LaneArray& lane_waypoints_array)
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~

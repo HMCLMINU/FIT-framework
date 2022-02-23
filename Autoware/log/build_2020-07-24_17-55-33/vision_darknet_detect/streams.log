@@ -1,0 +1,448 @@
+[0.019s] Invoking command in '/home/autoware/Autoware/build/vision_darknet_detect': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/vision_darknet_detect
+[0.105s] -- The C compiler identification is GNU 7.5.0
+[0.193s] -- The CXX compiler identification is GNU 7.5.0
+[0.200s] -- Check for working C compiler: /usr/bin/cc
+[0.292s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.294s] -- Detecting C compiler ABI info
+[0.396s] -- Detecting C compiler ABI info - done
+[0.399s] -- Detecting C compile features
+[0.679s] -- Detecting C compile features - done
+[0.683s] -- Check for working CXX compiler: /usr/bin/c++
+[0.794s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.794s] -- Detecting CXX compiler ABI info
+[0.904s] -- Detecting CXX compiler ABI info - done
+[0.910s] -- Detecting CXX compile features
+[1.384s] -- Detecting CXX compile features - done
+[1.386s] -- CUDA compilation status: ON.
+[1.389s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/vision_darknet_detect/devel
+[1.389s] -- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_config_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.390s] -- This workspace overlays: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_config_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[1.413s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.413s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.413s] -- Using Debian Python package layout
+[1.413s] -- Using empy: /usr/bin/empy
+[1.588s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.588s] -- Call enable_testing()
+[1.596s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/vision_darknet_detect/test_results
+[1.621s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.621s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.644s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.644s] -- Looking for pthread.h
+[1.740s] -- Looking for pthread.h - found
+[1.740s] -- Looking for pthread_create
+[1.844s] -- Looking for pthread_create - not found
+[1.844s] -- Looking for pthread_create in pthreads
+[1.936s] -- Looking for pthread_create in pthreads - not found
+[1.936s] -- Looking for pthread_create in pthread
+[2.028s] -- Looking for pthread_create in pthread - found
+[2.028s] -- Found Threads: TRUE  
+[2.031s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.088s] -- catkin 0.7.26
+[2.088s] -- BUILD_SHARED_LIBS is on
+[2.318s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.530s] -- Found CUDA: /usr/local/cuda (found version "10.0") 
+[2.554s] -- Found OpenCV: /usr (found version "3.2.0") 
+[2.926s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[3.046s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[3.048s] -- Found OpenMP: TRUE (found version "4.5")  
+[3.275s] -- Configuring done
+[3.410s] -- Generating done
+[3.421s] -- Build files have been written to: /home/autoware/Autoware/build/vision_darknet_detect
+[3.431s] Invoked command in '/home/autoware/Autoware/build/vision_darknet_detect' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/vision_darknet_detect
+[3.432s] Invoking command in '/home/autoware/Autoware/build/vision_darknet_detect': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vision_darknet_detect -- -j2 -l2
+[3.495s] Scanning dependencies of target sensor_msgs_generate_messages_nodejs
+[3.509s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[3.523s] Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+[3.538s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[3.553s] Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+[3.572s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[3.586s] Scanning dependencies of target roscpp_generate_messages_py
+[3.600s] [  0%] Built target roscpp_generate_messages_py
+[3.614s] Scanning dependencies of target roscpp_generate_messages_lisp
+[3.628s] [  0%] Built target roscpp_generate_messages_lisp
+[3.643s] Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+[3.657s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[3.672s] Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+[3.686s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[3.701s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs
+[3.716s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[3.730s] Scanning dependencies of target actionlib_msgs_generate_messages_py
+[3.746s] [  0%] Built target actionlib_msgs_generate_messages_py
+[3.760s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_eus
+[3.775s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[3.790s] Scanning dependencies of target pcl_msgs_generate_messages_py
+[3.804s] [  0%] Built target pcl_msgs_generate_messages_py
+[3.819s] Scanning dependencies of target pcl_msgs_generate_messages_nodejs
+[3.833s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[3.848s] Scanning dependencies of target pcl_msgs_generate_messages_lisp
+[3.863s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[3.877s] Scanning dependencies of target pcl_msgs_generate_messages_eus
+[3.891s] [  0%] Built target pcl_msgs_generate_messages_eus
+[3.905s] Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+[3.920s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[3.937s] Scanning dependencies of target autoware_msgs_generate_messages_cpp
+[3.952s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[3.968s] Scanning dependencies of target std_msgs_generate_messages_nodejs
+[3.983s] [  0%] Built target std_msgs_generate_messages_nodejs
+[4.004s] Scanning dependencies of target std_msgs_generate_messages_lisp
+[4.019s] [  0%] Built target std_msgs_generate_messages_lisp
+[4.034s] Scanning dependencies of target sensor_msgs_generate_messages_cpp
+[4.049s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[4.064s] Scanning dependencies of target sensor_msgs_generate_messages_eus
+[4.079s] [  0%] Built target sensor_msgs_generate_messages_eus
+[4.094s] Scanning dependencies of target autoware_config_msgs_generate_messages_lisp
+[4.108s] [  0%] Built target autoware_config_msgs_generate_messages_lisp
+[4.122s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_lisp
+[4.137s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[4.151s] Scanning dependencies of target autoware_config_msgs_generate_messages_eus
+[4.165s] [  0%] Built target autoware_config_msgs_generate_messages_eus
+[4.179s] Scanning dependencies of target std_msgs_generate_messages_eus
+[4.193s] [  0%] Built target std_msgs_generate_messages_eus
+[4.208s] Scanning dependencies of target autoware_msgs_generate_messages_nodejs
+[4.223s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[4.237s] Scanning dependencies of target rosgraph_msgs_generate_messages_py
+[4.252s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[4.267s] Scanning dependencies of target autoware_config_msgs_generate_messages_py
+[4.282s] [  0%] Built target autoware_config_msgs_generate_messages_py
+[4.297s] Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+[4.311s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[4.326s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_py
+[4.342s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[4.358s] Scanning dependencies of target std_msgs_generate_messages_cpp
+[4.373s] [  0%] Built target std_msgs_generate_messages_cpp
+[4.388s] Scanning dependencies of target std_msgs_generate_messages_py
+[4.403s] [  0%] Built target std_msgs_generate_messages_py
+[4.419s] Scanning dependencies of target autoware_msgs_generate_messages_py
+[4.434s] [  0%] Built target autoware_msgs_generate_messages_py
+[4.449s] Scanning dependencies of target sensor_msgs_generate_messages_py
+[4.463s] [  0%] Built target sensor_msgs_generate_messages_py
+[4.479s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_py
+[4.493s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[4.508s] Scanning dependencies of target autoware_msgs_generate_messages_eus
+[4.522s] [  0%] Built target autoware_msgs_generate_messages_eus
+[4.537s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_cpp
+[4.551s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[4.564s] Scanning dependencies of target sensor_msgs_generate_messages_lisp
+[4.578s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[4.592s] Scanning dependencies of target pcl_msgs_generate_messages_cpp
+[4.609s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[4.626s] Scanning dependencies of target actionlib_msgs_generate_messages_eus
+[4.641s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[4.654s] Scanning dependencies of target autoware_msgs_generate_messages_lisp
+[4.668s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[4.684s] Scanning dependencies of target roscpp_generate_messages_nodejs
+[4.698s] [  0%] Built target roscpp_generate_messages_nodejs
+[4.712s] Scanning dependencies of target roscpp_generate_messages_eus
+[4.727s] [  0%] Built target roscpp_generate_messages_eus
+[4.742s] Scanning dependencies of target autoware_config_msgs_generate_messages_nodejs
+[4.756s] [  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[4.770s] Scanning dependencies of target geometry_msgs_generate_messages_eus
+[4.783s] [  0%] Built target geometry_msgs_generate_messages_eus
+[4.798s] Scanning dependencies of target geometry_msgs_generate_messages_cpp
+[4.811s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[4.825s] Scanning dependencies of target geometry_msgs_generate_messages_lisp
+[4.839s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[4.854s] Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+[4.868s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[4.882s] Scanning dependencies of target jsk_footstep_msgs_generate_messages_cpp
+[4.897s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[4.911s] Scanning dependencies of target geometry_msgs_generate_messages_py
+[4.926s] [  0%] Built target geometry_msgs_generate_messages_py
+[4.941s] Scanning dependencies of target autoware_config_msgs_generate_messages_cpp
+[4.956s] [  0%] Built target autoware_config_msgs_generate_messages_cpp
+[4.971s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_eus
+[4.985s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[5.000s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_lisp
+[5.014s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[5.029s] Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+[5.043s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[5.057s] Scanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs
+[5.071s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[5.085s] Scanning dependencies of target roscpp_generate_messages_cpp
+[5.099s] [  0%] Built target roscpp_generate_messages_cpp
+[5.115s] [  1%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_maxpool_layer_kernels.cu.o
+[6.197s] [  3%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_activation_kernels.cu.o
+[7.301s] [  5%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_avgpool_layer_kernels.cu.o
+[8.309s] [  7%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_convolutional_kernels.cu.o
+[9.410s] [  8%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_crop_layer_kernels.cu.o
+[10.525s] [ 10%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_col2im_kernels.cu.o
+[11.529s] [ 12%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_blas_kernels.cu.o
+[13.360s] [ 14%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_deconvolutional_kernels.cu.o
+[14.370s] [ 15%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_dropout_layer_kernels.cu.o
+[15.361s] [ 17%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_im2col_kernels.cu.o
+[16.530s] Scanning dependencies of target vision_darknet_detect_lib
+[16.563s] [ 19%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/gemm.c.o
+[16.616s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/gemm.c: In function ‘time_gpu’:
+[16.616s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/gemm.c:232:9: warning: ‘cudaThreadSynchronize’ is deprecated [-Wdeprecated-declarations]
+[16.616s]          cudaThreadSynchronize();
+[16.616s]          ^~~~~~~~~~~~~~~~~~~~~
+[16.617s] In file included from /usr/local/cuda/include/cuda_runtime.h:96:0,
+[16.617s]                  from /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/darknet.h:14,
+[16.617s]                  from /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/utils.h:5,
+[16.617s]                  from /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/gemm.c:2:
+[16.617s] /usr/local/cuda/include/cuda_runtime_api.h:947:57: note: declared here
+[16.617s]  extern __CUDA_DEPRECATED __host__ cudaError_t CUDARTAPI cudaThreadSynchronize(void);
+[16.617s]                                                          ^~~~~~~~~~~~~~~~~~~~~
+[16.853s] [ 21%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/utils.c.o
+[16.914s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/utils.c: In function ‘read_file’:
+[16.914s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/utils.c:267:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[16.914s]      fread(text, 1, size, fp);
+[16.914s]      ^~~~~~~~~~~~~~~~~~~~~~~~
+[16.915s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/utils.c: In function ‘fgetl’:
+[16.915s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/utils.c:355:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+[16.916s]          fgets(&line[curr], readsize, fp);
+[16.916s]          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[17.231s] [ 22%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/cuda.c.o
+[17.352s] [ 24%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/deconvolutional_layer.c.o
+[17.597s] [ 26%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/convolutional_layer.c.o
+[17.943s] [ 28%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/list.c.o
+[18.042s] [ 29%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/image.c.o
+[23.717s] [ 31%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/activations.c.o
+[23.850s] [ 33%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/im2col.c.o
+[23.913s] [ 35%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/col2im.c.o
+[23.980s] [ 36%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/blas.c.o
+[24.430s] [ 38%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/crop_layer.c.o
+[24.583s] [ 40%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/dropout_layer.c.o
+[24.688s] [ 42%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/maxpool_layer.c.o
+[24.817s] [ 43%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/softmax_layer.c.o
+[24.926s] [ 45%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/data.c.o
+[24.988s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.c: In function ‘load_regression_labels_paths’:
+[24.988s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.c:574:13: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
+[24.988s]              fscanf(file, "%f", &(y.vals[i][j]));
+[24.988s]              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[24.994s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.c: In function ‘load_cifar10_data’:
+[24.994s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.c:1354:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[24.994s]          fread(bytes, 1, 3073, fp);
+[24.994s]          ^~~~~~~~~~~~~~~~~~~~~~~~~
+[24.995s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.c: In function ‘load_all_cifar10’:
+[24.995s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.c:1417:13: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[24.996s]              fread(bytes, 1, 3073, fp);
+[24.996s]              ^~~~~~~~~~~~~~~~~~~~~~~~~
+[25.732s] [ 47%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/matrix.c.o
+[25.911s] [ 49%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/network.c.o
+[26.387s] [ 50%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/connected_layer.c.o
+[26.583s] [ 52%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/cost_layer.c.o
+[26.712s] [ 54%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/parser.c.o
+[26.779s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c: In function ‘load_connected_weights’:
+[26.779s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1085:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.779s]      fread(l.biases, sizeof(float), l.outputs, fp);
+[26.779s]      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.780s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1086:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.780s]      fread(l.weights, sizeof(float), l.outputs*l.inputs, fp);
+[26.780s]      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.780s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1093:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.780s]          fread(l.scales, sizeof(float), l.outputs, fp);
+[26.780s]          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.780s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1094:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.781s]          fread(l.rolling_mean, sizeof(float), l.outputs, fp);
+[26.781s]          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.781s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1095:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.781s]          fread(l.rolling_variance, sizeof(float), l.outputs, fp);
+[26.781s]          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.782s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c: In function ‘load_batchnorm_weights’:
+[26.782s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1109:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.782s]      fread(l.scales, sizeof(float), l.c, fp);
+[26.782s]      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.782s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1110:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.782s]      fread(l.rolling_mean, sizeof(float), l.c, fp);
+[26.782s]      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.783s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1111:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.783s]      fread(l.rolling_variance, sizeof(float), l.c, fp);
+[26.783s]      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.783s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c: In function ‘load_convolutional_weights_binary’:
+[26.783s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1121:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.783s]      fread(l.biases, sizeof(float), l.n, fp);
+[26.784s]      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.784s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1123:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.784s]          fread(l.scales, sizeof(float), l.n, fp);
+[26.784s]          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.784s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1124:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.784s]          fread(l.rolling_mean, sizeof(float), l.n, fp);
+[26.784s]          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.785s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1125:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.785s]          fread(l.rolling_variance, sizeof(float), l.n, fp);
+[26.785s]          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.785s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1131:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.785s]          fread(&mean, sizeof(float), 1, fp);
+[26.785s]          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.785s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1135:13: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.785s]              fread(&c, sizeof(char), 1, fp);
+[26.785s]              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.786s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c: In function ‘load_convolutional_weights’:
+[26.786s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1156:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.786s]      fread(l.biases, sizeof(float), l.n, fp);
+[26.786s]      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.787s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1158:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.787s]          fread(l.scales, sizeof(float), l.n, fp);
+[26.787s]          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.787s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1159:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.787s]          fread(l.rolling_mean, sizeof(float), l.n, fp);
+[26.787s]          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.787s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1160:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.787s]          fread(l.rolling_variance, sizeof(float), l.n, fp);
+[26.787s]          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.788s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1188:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.788s]      fread(l.weights, sizeof(float), num, fp);
+[26.788s]      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.789s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c: In function ‘load_weights_upto’:
+[26.789s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1217:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.789s]      fread(&major, sizeof(int), 1, fp);
+[26.789s]      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.789s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1218:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.789s]      fread(&minor, sizeof(int), 1, fp);
+[26.789s]      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.789s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1219:5: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.790s]      fread(&revision, sizeof(int), 1, fp);
+[26.790s]      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.790s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1221:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.790s]          fread(net->seen, sizeof(size_t), 1, fp);
+[26.790s]          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.790s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1224:9: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.790s]          fread(&iseen, sizeof(int), 1, fp);
+[26.790s]          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.791s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1279:13: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.791s]              fread(l.biases, sizeof(float), l.outputs, fp);
+[26.791s]              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[26.791s] /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1280:13: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+[26.791s]              fread(l.weights, sizeof(float), size, fp);
+[26.791s]              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[27.322s] [ 56%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/option_list.c.o
+[27.438s] [ 57%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/detection_layer.c.o
+[27.662s] [ 59%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/route_layer.c.o
+[27.802s] [ 61%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/upsample_layer.c.o
+[27.910s] [ 63%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/box.c.o
+[28.123s] [ 64%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/normalization_layer.c.o
+[28.267s] [ 66%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/avgpool_layer.c.o
+[28.397s] [ 68%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/layer.c.o
+[28.519s] [ 70%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/local_layer.c.o
+[28.710s] [ 71%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/shortcut_layer.c.o
+[28.821s] [ 73%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/logistic_layer.c.o
+[28.922s] [ 75%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/activation_layer.c.o
+[29.017s] [ 77%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/rnn_layer.c.o
+[29.265s] [ 78%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/gru_layer.c.o
+[29.593s] [ 80%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/crnn_layer.c.o
+[29.842s] [ 82%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/batchnorm_layer.c.o
+[30.029s] [ 84%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/region_layer.c.o
+[30.422s] [ 85%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/reorg_layer.c.o
+[30.549s] [ 87%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/tree.c.o
+[30.680s] [ 89%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/lstm_layer.c.o
+[31.232s] [ 91%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/l2norm_layer.c.o
+[31.329s] [ 92%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/yolo_layer.c.o
+[31.623s] [ 94%] Linking CXX shared library devel/lib/libvision_darknet_detect_lib.so
+[31.855s] [ 94%] Built target vision_darknet_detect_lib
+[31.908s] Scanning dependencies of target vision_darknet_detect
+[31.929s] [ 96%] Building CXX object CMakeFiles/vision_darknet_detect.dir/src/vision_darknet_detect_node.cpp.o
+[35.472s] [ 98%] Building CXX object CMakeFiles/vision_darknet_detect.dir/src/vision_darknet_detect.cpp.o
+[42.951s] [100%] Linking CXX executable devel/lib/vision_darknet_detect/vision_darknet_detect
+[43.558s] [100%] Built target vision_darknet_detect
+[43.576s] Invoked command in '/home/autoware/Autoware/build/vision_darknet_detect' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vision_darknet_detect -- -j2 -l2
+[43.858s] Invoking command in '/home/autoware/Autoware/build/vision_darknet_detect': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vision_darknet_detect --target tests -- -j2 -l2
+[43.898s] -- CUDA compilation status: ON.
+[43.899s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/vision_darknet_detect/devel
+[43.899s] -- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_config_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[43.900s] -- This workspace overlays: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_config_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+[43.920s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[43.920s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[43.920s] -- Using Debian Python package layout
+[43.920s] -- Using empy: /usr/bin/empy
+[44.097s] -- Using CATKIN_ENABLE_TESTING: ON
+[44.097s] -- Call enable_testing()
+[44.098s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/vision_darknet_detect/test_results
+[44.128s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[44.128s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[44.148s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[44.153s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[44.205s] -- catkin 0.7.26
+[44.206s] -- BUILD_SHARED_LIBS is on
+[44.397s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[44.606s] -- Found OpenMP_C: -fopenmp  
+[44.608s] -- Found OpenMP_CXX: -fopenmp  
+[44.609s] -- Found OpenMP: TRUE   
+[44.864s] -- Configuring done
+[45.029s] -- Generating done
+[45.044s] -- Build files have been written to: /home/autoware/Autoware/build/vision_darknet_detect
+[45.096s] Scanning dependencies of target tests
+[45.109s] Built target tests
+[45.123s] Invoked command in '/home/autoware/Autoware/build/vision_darknet_detect' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vision_darknet_detect --target tests -- -j2 -l2
+[45.370s] Invoking command in '/home/autoware/Autoware/build/vision_darknet_detect': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vision_darknet_detect --target install -- -j2 -l2
+[45.458s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[45.486s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[45.515s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[45.543s] [  0%] Built target roscpp_generate_messages_py
+[45.569s] [  0%] Built target roscpp_generate_messages_lisp
+[45.596s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[45.623s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[45.651s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[45.679s] [  0%] Built target actionlib_msgs_generate_messages_py
+[45.706s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[45.734s] [  0%] Built target pcl_msgs_generate_messages_py
+[45.768s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[45.799s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[45.825s] [  0%] Built target pcl_msgs_generate_messages_eus
+[45.851s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[45.878s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[45.905s] [  0%] Built target std_msgs_generate_messages_nodejs
+[45.934s] [  0%] Built target std_msgs_generate_messages_lisp
+[45.963s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[45.994s] [  0%] Built target sensor_msgs_generate_messages_eus
+[46.022s] [  0%] Built target autoware_config_msgs_generate_messages_lisp
+[46.050s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[46.078s] [  0%] Built target autoware_config_msgs_generate_messages_eus
+[46.105s] [  0%] Built target std_msgs_generate_messages_eus
+[46.134s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[46.161s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[46.186s] [  0%] Built target autoware_config_msgs_generate_messages_py
+[46.214s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[46.242s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[46.270s] [  0%] Built target std_msgs_generate_messages_cpp
+[46.299s] [  0%] Built target std_msgs_generate_messages_py
+[46.327s] [  0%] Built target autoware_msgs_generate_messages_py
+[46.354s] [  0%] Built target sensor_msgs_generate_messages_py
+[46.380s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[46.407s] [  0%] Built target autoware_msgs_generate_messages_eus
+[46.435s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[46.461s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[46.488s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[46.520s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[46.544s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[46.572s] [  0%] Built target roscpp_generate_messages_nodejs
+[46.602s] [  0%] Built target roscpp_generate_messages_eus
+[46.632s] [  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[46.659s] [  0%] Built target geometry_msgs_generate_messages_eus
+[46.686s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[46.716s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[46.744s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[46.771s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[46.797s] [  0%] Built target geometry_msgs_generate_messages_py
+[46.822s] [  0%] Built target autoware_config_msgs_generate_messages_cpp
+[46.849s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[46.877s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[46.904s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[46.929s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[46.955s] [  0%] Built target roscpp_generate_messages_cpp
+[47.058s] [  1%] Linking CXX shared library devel/lib/libvision_darknet_detect_lib.so
+[47.292s] [ 94%] Built target vision_darknet_detect_lib
+[47.336s] [ 96%] Linking CXX executable devel/lib/vision_darknet_detect/vision_darknet_detect
+[47.939s] [100%] Built target vision_darknet_detect
+[47.967s] Install the project...
+[47.979s] -- Install configuration: "Release"
+[47.979s] -- Installing: /home/autoware/Autoware/install/vision_darknet_detect/lib/pkgconfig/vision_darknet_detect.pc
+[47.980s] -- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/cmake/vision_darknet_detectConfig.cmake
+[47.980s] -- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/cmake/vision_darknet_detectConfig-version.cmake
+[47.980s] -- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/package.xml
+[47.981s] -- Installing: /home/autoware/Autoware/install/vision_darknet_detect/lib/libvision_darknet_detect_lib.so
+[47.984s] -- Set runtime path of "/home/autoware/Autoware/install/vision_darknet_detect/lib/libvision_darknet_detect_lib.so" to ""
+[47.984s] -- Installing: /home/autoware/Autoware/install/vision_darknet_detect/lib/vision_darknet_detect/vision_darknet_detect
+[47.989s] -- Set runtime path of "/home/autoware/Autoware/install/vision_darknet_detect/lib/vision_darknet_detect/vision_darknet_detect" to ""
+[47.989s] -- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/launch
+[47.990s] -- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/launch/vision_yolo3_detect.launch
+[47.991s] -- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/launch/vision_yolo2_detect.launch
+[47.991s] -- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg/
+[47.992s] -- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//coco.names
+[47.992s] -- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3-tiny.cfg
+[47.993s] -- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3-voc.cfg
+[47.994s] -- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov2.cfg
+[47.994s] -- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//voc.names
+[47.995s] -- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov2-tiny.cfg
+[47.995s] -- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3.cfg
+[48.004s] Invoked command in '/home/autoware/Autoware/build/vision_darknet_detect' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_msgs:/home/autoware/Autoware/install/autoware_config_msgs:/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/autoware/Autoware/install/autoware_msgs/lib/python2.7/dist-packages:/home/autoware/Autoware/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_msgs/share:/home/autoware/Autoware/install/autoware_config_msgs/share:/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/vision_darknet_detect --target install -- -j2 -l2

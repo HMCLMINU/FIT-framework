@@ -1,0 +1,10 @@
+/home/autoware/Autoware/install/image_processor/lib/pkgconfig/image_processor.pc
+/home/autoware/Autoware/install/image_processor/share/image_processor/cmake/image_processorConfig.cmake
+/home/autoware/Autoware/install/image_processor/share/image_processor/cmake/image_processorConfig-version.cmake
+/home/autoware/Autoware/install/image_processor/share/image_processor/package.xml
+/home/autoware/Autoware/install/image_processor/lib/image_processor/image_rotator
+/home/autoware/Autoware/install/image_processor/lib/image_processor/image_rectifier
+/home/autoware/Autoware/install/image_processor/share/image_processor/launch/launch/image_rectifier.launch
+/home/autoware/Autoware/install/image_processor/share/image_processor/launch/launch/image_rectifier_ladybug.launch
+/home/autoware/Autoware/install/image_processor/share/image_processor/launch/launch/image_rotator_ladybug.launch
+/home/autoware/Autoware/install/image_processor/share/image_processor/launch/launch/image_rotator.launch

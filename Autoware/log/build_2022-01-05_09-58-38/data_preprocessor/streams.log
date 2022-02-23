@@ -1,0 +1,22 @@
+[0.452s] Invoking command in '/home/autoware/Autoware/build/data_preprocessor': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/data_preprocessor -- -j32 -l32
+[0.630s] [ 33%] Built target get_Image
+[0.630s] [ 66%] Built target get_Depth
+[0.630s] [100%] Built target get_PCD
+[0.754s] Invoked command in '/home/autoware/Autoware/build/data_preprocessor' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/data_preprocessor -- -j32 -l32
+[0.957s] Invoking command in '/home/autoware/Autoware/build/data_preprocessor': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/data_preprocessor --target tests -- -j32 -l32
+[1.094s] Built target tests
+[1.178s] Invoked command in '/home/autoware/Autoware/build/data_preprocessor' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/data_preprocessor --target tests -- -j32 -l32
+[1.394s] Invoking command in '/home/autoware/Autoware/build/data_preprocessor': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/data_preprocessor --target install -- -j32 -l32
+[1.661s] [ 33%] Built target get_Image
+[1.661s] [ 66%] Built target get_PCD
+[1.661s] [100%] Built target get_Depth
+[1.662s] Install the project...
+[1.662s] -- Install configuration: "Release"
+[1.662s] -- Up-to-date: /home/autoware/Autoware/install/data_preprocessor/lib/pkgconfig/data_preprocessor.pc
+[1.662s] -- Up-to-date: /home/autoware/Autoware/install/data_preprocessor/share/data_preprocessor/cmake/data_preprocessorConfig.cmake
+[1.662s] -- Up-to-date: /home/autoware/Autoware/install/data_preprocessor/share/data_preprocessor/cmake/data_preprocessorConfig-version.cmake
+[1.663s] -- Up-to-date: /home/autoware/Autoware/install/data_preprocessor/share/data_preprocessor/package.xml
+[1.663s] -- Up-to-date: /home/autoware/Autoware/install/data_preprocessor/lib/data_preprocessor/get_Image
+[1.663s] -- Up-to-date: /home/autoware/Autoware/install/data_preprocessor/lib/data_preprocessor/get_PCD
+[1.663s] -- Up-to-date: /home/autoware/Autoware/install/data_preprocessor/lib/data_preprocessor/get_Depth
+[1.886s] Invoked command in '/home/autoware/Autoware/build/data_preprocessor' returned '0': CMAKE_PREFIX_PATH=/home/autoware/Autoware/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/autoware/Autoware/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/autoware/Autoware/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/autoware/Autoware/build/data_preprocessor --target install -- -j32 -l32

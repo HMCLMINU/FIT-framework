@@ -1,0 +1,433 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CUDA compilation status: ON.
+-- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/points_downsampler/devel
+-- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_config_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/autoware/Autoware/install/autoware_config_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/points_downsampler/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.26
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- points_downsampler: 1 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/autoware/Autoware/build/points_downsampler
+Scanning dependencies of target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_nodejs
+Scanning dependencies of target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+Scanning dependencies of target _points_downsampler_generate_messages_check_deps_PointsDownsamplerInfo
+[  0%] Built target _points_downsampler_generate_messages_check_deps_PointsDownsamplerInfo
+Scanning dependencies of target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+Scanning dependencies of target velodyne_msgs_generate_messages_py
+[  0%] Built target velodyne_msgs_generate_messages_py
+Scanning dependencies of target velodyne_msgs_generate_messages_nodejs
+[  0%] Built target velodyne_msgs_generate_messages_nodejs
+Scanning dependencies of target velodyne_msgs_generate_messages_lisp
+[  0%] Built target velodyne_msgs_generate_messages_lisp
+Scanning dependencies of target velodyne_msgs_generate_messages_eus
+[  0%] Built target velodyne_msgs_generate_messages_eus
+Scanning dependencies of target velodyne_msgs_generate_messages_cpp
+[  0%] Built target velodyne_msgs_generate_messages_cpp
+Scanning dependencies of target diagnostic_msgs_generate_messages_py
+[  0%] Built target diagnostic_msgs_generate_messages_py
+Scanning dependencies of target diagnostic_msgs_generate_messages_nodejs
+[  0%] Built target diagnostic_msgs_generate_messages_nodejs
+Scanning dependencies of target diagnostic_msgs_generate_messages_lisp
+[  0%] Built target diagnostic_msgs_generate_messages_lisp
+Scanning dependencies of target diagnostic_msgs_generate_messages_eus
+[  0%] Built target diagnostic_msgs_generate_messages_eus
+Scanning dependencies of target velodyne_driver_gencfg
+[  0%] Built target velodyne_driver_gencfg
+Scanning dependencies of target velodyne_pointcloud_gencfg
+[  0%] Built target velodyne_pointcloud_gencfg
+Scanning dependencies of target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+Scanning dependencies of target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_eus
+Scanning dependencies of target tf2_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+Scanning dependencies of target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_py
+Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+Scanning dependencies of target topic_tools_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_cpp
+Scanning dependencies of target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+Scanning dependencies of target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+Scanning dependencies of target bond_generate_messages_eus
+[  0%] Built target bond_generate_messages_eus
+Scanning dependencies of target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+Scanning dependencies of target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+Scanning dependencies of target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+Scanning dependencies of target actionlib_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_cpp
+Scanning dependencies of target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+Scanning dependencies of target pcl_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_eus
+Scanning dependencies of target pcl_msgs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+Scanning dependencies of target nodelet_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_nodejs
+Scanning dependencies of target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+Scanning dependencies of target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+Scanning dependencies of target std_srvs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_eus
+Scanning dependencies of target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+Scanning dependencies of target tf_generate_messages_py
+[  0%] Built target tf_generate_messages_py
+Scanning dependencies of target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+Scanning dependencies of target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+Scanning dependencies of target nodelet_generate_messages_py
+[  0%] Built target nodelet_generate_messages_py
+Scanning dependencies of target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+Scanning dependencies of target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+Scanning dependencies of target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_py
+Scanning dependencies of target topic_tools_generate_messages_eus
+[  0%] Built target topic_tools_generate_messages_eus
+Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+Scanning dependencies of target autoware_config_msgs_generate_messages_eus
+[  0%] Built target autoware_config_msgs_generate_messages_eus
+Scanning dependencies of target autoware_config_msgs_generate_messages_lisp
+[  0%] Built target autoware_config_msgs_generate_messages_lisp
+Scanning dependencies of target pcl_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_cpp
+Scanning dependencies of target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+Scanning dependencies of target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_eus
+Scanning dependencies of target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+Scanning dependencies of target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+Scanning dependencies of target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_nodejs
+Scanning dependencies of target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+Scanning dependencies of target bond_generate_messages_lisp
+[  0%] Built target bond_generate_messages_lisp
+Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+Scanning dependencies of target autoware_config_msgs_generate_messages_cpp
+[  0%] Built target autoware_config_msgs_generate_messages_cpp
+Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+Scanning dependencies of target pcl_ros_gencfg
+[  0%] Built target pcl_ros_gencfg
+Scanning dependencies of target topic_tools_generate_messages_nodejs
+[  0%] Built target topic_tools_generate_messages_nodejs
+Scanning dependencies of target tf2_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_py
+Scanning dependencies of target actionlib_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+Scanning dependencies of target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+Scanning dependencies of target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+Scanning dependencies of target dynamic_reconfigure_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+Scanning dependencies of target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+Scanning dependencies of target dynamic_reconfigure_gencfg
+[  0%] Built target dynamic_reconfigure_gencfg
+Scanning dependencies of target nodelet_generate_messages_cpp
+[  0%] Built target nodelet_generate_messages_cpp
+Scanning dependencies of target bond_generate_messages_py
+[  0%] Built target bond_generate_messages_py
+Scanning dependencies of target std_srvs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_nodejs
+Scanning dependencies of target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+Scanning dependencies of target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_lisp
+Scanning dependencies of target nodelet_generate_messages_eus
+[  0%] Built target nodelet_generate_messages_eus
+Scanning dependencies of target nodelet_generate_messages_lisp
+[  0%] Built target nodelet_generate_messages_lisp
+Scanning dependencies of target bond_generate_messages_cpp
+[  0%] Built target bond_generate_messages_cpp
+Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+Scanning dependencies of target tf_generate_messages_eus
+[  0%] Built target tf_generate_messages_eus
+Scanning dependencies of target autoware_config_msgs_generate_messages_py
+[  0%] Built target autoware_config_msgs_generate_messages_py
+Scanning dependencies of target bond_generate_messages_nodejs
+[  0%] Built target bond_generate_messages_nodejs
+Scanning dependencies of target points_downsampler_generate_messages_lisp
+[  6%] Generating Lisp code from points_downsampler/PointsDownsamplerInfo.msg
+[  6%] Built target points_downsampler_generate_messages_lisp
+Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+[  6%] Built target actionlib_msgs_generate_messages_nodejs
+Scanning dependencies of target topic_tools_generate_messages_py
+[  6%] Built target topic_tools_generate_messages_py
+Scanning dependencies of target nodelet_topic_tools_gencfg
+[  6%] Built target nodelet_topic_tools_gencfg
+Scanning dependencies of target std_srvs_generate_messages_lisp
+[  6%] Built target std_srvs_generate_messages_lisp
+Scanning dependencies of target topic_tools_generate_messages_lisp
+[  6%] Built target topic_tools_generate_messages_lisp
+Scanning dependencies of target std_srvs_generate_messages_cpp
+[  6%] Built target std_srvs_generate_messages_cpp
+Scanning dependencies of target std_srvs_generate_messages_py
+[  6%] Built target std_srvs_generate_messages_py
+Scanning dependencies of target tf_generate_messages_lisp
+[  6%] Built target tf_generate_messages_lisp
+Scanning dependencies of target points_downsampler_generate_messages_cpp
+[ 13%] Generating C++ code from points_downsampler/PointsDownsamplerInfo.msg
+[ 13%] Built target points_downsampler_generate_messages_cpp
+Scanning dependencies of target autoware_config_msgs_generate_messages_nodejs
+[ 13%] Built target autoware_config_msgs_generate_messages_nodejs
+Scanning dependencies of target tf_generate_messages_nodejs
+[ 13%] Built target tf_generate_messages_nodejs
+Scanning dependencies of target diagnostic_msgs_generate_messages_cpp
+[ 13%] Built target diagnostic_msgs_generate_messages_cpp
+Scanning dependencies of target pcl_msgs_generate_messages_py
+[ 13%] Built target pcl_msgs_generate_messages_py
+Scanning dependencies of target actionlib_generate_messages_eus
+[ 13%] Built target actionlib_generate_messages_eus
+Scanning dependencies of target pcl_msgs_generate_messages_lisp
+[ 13%] Built target pcl_msgs_generate_messages_lisp
+Scanning dependencies of target tf_generate_messages_cpp
+[ 13%] Built target tf_generate_messages_cpp
+Scanning dependencies of target points_downsampler_generate_messages_nodejs
+[ 20%] Generating Javascript code from points_downsampler/PointsDownsamplerInfo.msg
+[ 20%] Built target points_downsampler_generate_messages_nodejs
+Scanning dependencies of target points_downsampler_generate_messages_eus
+[ 26%] Generating EusLisp code from points_downsampler/PointsDownsamplerInfo.msg
+[ 33%] Generating EusLisp manifest code for points_downsampler
+[ 33%] Built target points_downsampler_generate_messages_eus
+Scanning dependencies of target points_downsampler_generate_messages_py
+[ 40%] Generating Python from MSG points_downsampler/PointsDownsamplerInfo
+[ 46%] Generating Python msg __init__.py for points_downsampler
+[ 46%] Built target points_downsampler_generate_messages_py
+Scanning dependencies of target random_filter
+[ 53%] Building CXX object CMakeFiles/random_filter.dir/nodes/random_filter/random_filter.cpp.o
+/home/autoware/Autoware/src/autoware/core_perception/points_downsampler/nodes/random_filter/random_filter.cpp: In function ‘void scan_callback(const ConstPtr&)’:
+/home/autoware/Autoware/src/autoware/core_perception/points_downsampler/nodes/random_filter/random_filter.cpp:74:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(scan.points.size() >= sample_num)
+      ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+[ 60%] Linking CXX executable devel/lib/points_downsampler/random_filter
+[ 60%] Built target random_filter
+Scanning dependencies of target distance_filter
+[ 66%] Building CXX object CMakeFiles/distance_filter.dir/nodes/distance_filter/distance_filter.cpp.o
+[ 73%] Linking CXX executable devel/lib/points_downsampler/distance_filter
+[ 73%] Built target distance_filter
+Scanning dependencies of target ring_filter
+[ 80%] Building CXX object CMakeFiles/ring_filter.dir/nodes/ring_filter/ring_filter.cpp.o
+[ 86%] Linking CXX executable devel/lib/points_downsampler/ring_filter
+[ 86%] Built target ring_filter
+Scanning dependencies of target points_downsampler_generate_messages
+[ 86%] Built target points_downsampler_generate_messages
+Scanning dependencies of target voxel_grid_filter
+[ 93%] Building CXX object CMakeFiles/voxel_grid_filter.dir/nodes/voxel_grid_filter/voxel_grid_filter.cpp.o
+[100%] Linking CXX executable devel/lib/points_downsampler/voxel_grid_filter
+[100%] Built target voxel_grid_filter
+Scanning dependencies of target tests
+Built target tests
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _points_downsampler_generate_messages_check_deps_PointsDownsamplerInfo
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target velodyne_msgs_generate_messages_py
+[  0%] Built target velodyne_msgs_generate_messages_nodejs
+[  0%] Built target velodyne_msgs_generate_messages_lisp
+[  0%] Built target velodyne_msgs_generate_messages_eus
+[  0%] Built target velodyne_msgs_generate_messages_cpp
+[  0%] Built target diagnostic_msgs_generate_messages_py
+[  0%] Built target diagnostic_msgs_generate_messages_nodejs
+[  0%] Built target diagnostic_msgs_generate_messages_lisp
+[  0%] Built target diagnostic_msgs_generate_messages_eus
+[  0%] Built target velodyne_driver_gencfg
+[  0%] Built target velodyne_pointcloud_gencfg
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target bond_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target nodelet_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target topic_tools_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target autoware_config_msgs_generate_messages_eus
+[  0%] Built target autoware_config_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target bond_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target autoware_config_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target pcl_ros_gencfg
+[  0%] Built target topic_tools_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target nodelet_generate_messages_cpp
+[  0%] Built target bond_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target nodelet_generate_messages_eus
+[  0%] Built target nodelet_generate_messages_lisp
+[  0%] Built target bond_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target autoware_config_msgs_generate_messages_py
+[  0%] Built target bond_generate_messages_nodejs
+[  6%] Built target points_downsampler_generate_messages_lisp
+[  6%] Built target actionlib_msgs_generate_messages_nodejs
+[  6%] Built target topic_tools_generate_messages_py
+[  6%] Built target nodelet_topic_tools_gencfg
+[  6%] Built target std_srvs_generate_messages_lisp
+[  6%] Built target topic_tools_generate_messages_lisp
+[  6%] Built target std_srvs_generate_messages_cpp
+[  6%] Built target std_srvs_generate_messages_py
+[  6%] Built target tf_generate_messages_lisp
+[ 13%] Built target points_downsampler_generate_messages_cpp
+[ 13%] Built target autoware_config_msgs_generate_messages_nodejs
+[ 13%] Built target tf_generate_messages_nodejs
+[ 13%] Built target diagnostic_msgs_generate_messages_cpp
+[ 13%] Built target pcl_msgs_generate_messages_py
+[ 13%] Built target actionlib_generate_messages_eus
+[ 13%] Built target pcl_msgs_generate_messages_lisp
+[ 13%] Built target tf_generate_messages_cpp
+[ 20%] Built target points_downsampler_generate_messages_nodejs
+[ 33%] Built target points_downsampler_generate_messages_eus
+[ 46%] Built target points_downsampler_generate_messages_py
+[ 60%] Built target random_filter
+[ 73%] Built target distance_filter
+[ 86%] Built target ring_filter
+[ 86%] Built target points_downsampler_generate_messages
+[100%] Built target voxel_grid_filter
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/points_downsampler/msg/PointsDownsamplerInfo.msg
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/points_downsampler/cmake/points_downsampler-msg-paths.cmake
+-- Installing: /home/autoware/Autoware/install/points_downsampler/include/points_downsampler
+-- Installing: /home/autoware/Autoware/install/points_downsampler/include/points_downsampler/PointsDownsamplerInfo.h
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/roseus/ros/points_downsampler
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/roseus/ros/points_downsampler/msg
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/roseus/ros/points_downsampler/msg/PointsDownsamplerInfo.l
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/roseus/ros/points_downsampler/manifest.l
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/common-lisp/ros/points_downsampler
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/common-lisp/ros/points_downsampler/msg
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/common-lisp/ros/points_downsampler/msg/_package.lisp
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/common-lisp/ros/points_downsampler/msg/_package_PointsDownsamplerInfo.lisp
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/common-lisp/ros/points_downsampler/msg/PointsDownsamplerInfo.lisp
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/common-lisp/ros/points_downsampler/msg/points_downsampler-msg.asd
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/gennodejs/ros/points_downsampler
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/gennodejs/ros/points_downsampler/msg
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/gennodejs/ros/points_downsampler/msg/PointsDownsamplerInfo.js
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/gennodejs/ros/points_downsampler/msg/_index.js
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/gennodejs/ros/points_downsampler/_index.js
+Listing /home/autoware/Autoware/build/points_downsampler/devel/lib/python2.7/dist-packages/points_downsampler ...
+Compiling /home/autoware/Autoware/build/points_downsampler/devel/lib/python2.7/dist-packages/points_downsampler/__init__.py ...
+Listing /home/autoware/Autoware/build/points_downsampler/devel/lib/python2.7/dist-packages/points_downsampler/msg ...
+Compiling /home/autoware/Autoware/build/points_downsampler/devel/lib/python2.7/dist-packages/points_downsampler/msg/_PointsDownsamplerInfo.py ...
+Compiling /home/autoware/Autoware/build/points_downsampler/devel/lib/python2.7/dist-packages/points_downsampler/msg/__init__.py ...
+-- Installing: /home/autoware/Autoware/install/points_downsampler/lib/python2.7/dist-packages/points_downsampler
+-- Installing: /home/autoware/Autoware/install/points_downsampler/lib/python2.7/dist-packages/points_downsampler/msg
+-- Installing: /home/autoware/Autoware/install/points_downsampler/lib/python2.7/dist-packages/points_downsampler/msg/__init__.pyc
+-- Installing: /home/autoware/Autoware/install/points_downsampler/lib/python2.7/dist-packages/points_downsampler/msg/_PointsDownsamplerInfo.pyc
+-- Installing: /home/autoware/Autoware/install/points_downsampler/lib/python2.7/dist-packages/points_downsampler/msg/_PointsDownsamplerInfo.py
+-- Installing: /home/autoware/Autoware/install/points_downsampler/lib/python2.7/dist-packages/points_downsampler/msg/__init__.py
+-- Installing: /home/autoware/Autoware/install/points_downsampler/lib/python2.7/dist-packages/points_downsampler/__init__.pyc
+-- Installing: /home/autoware/Autoware/install/points_downsampler/lib/python2.7/dist-packages/points_downsampler/__init__.py
+-- Installing: /home/autoware/Autoware/install/points_downsampler/lib/pkgconfig/points_downsampler.pc
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/points_downsampler/cmake/points_downsampler-msg-extras.cmake
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/points_downsampler/cmake/points_downsamplerConfig.cmake
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/points_downsampler/cmake/points_downsamplerConfig-version.cmake
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/points_downsampler/package.xml
+-- Installing: /home/autoware/Autoware/install/points_downsampler/lib/points_downsampler/voxel_grid_filter
+-- Set runtime path of "/home/autoware/Autoware/install/points_downsampler/lib/points_downsampler/voxel_grid_filter" to ""
+-- Installing: /home/autoware/Autoware/install/points_downsampler/lib/points_downsampler/ring_filter
+-- Set runtime path of "/home/autoware/Autoware/install/points_downsampler/lib/points_downsampler/ring_filter" to ""
+-- Installing: /home/autoware/Autoware/install/points_downsampler/lib/points_downsampler/distance_filter
+-- Set runtime path of "/home/autoware/Autoware/install/points_downsampler/lib/points_downsampler/distance_filter" to ""
+-- Installing: /home/autoware/Autoware/install/points_downsampler/lib/points_downsampler/random_filter
+-- Set runtime path of "/home/autoware/Autoware/install/points_downsampler/lib/points_downsampler/random_filter" to ""
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/points_downsampler/launch
+-- Installing: /home/autoware/Autoware/install/points_downsampler/share/points_downsampler/launch/points_downsample.launch

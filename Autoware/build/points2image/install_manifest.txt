@@ -1,0 +1,9 @@
+/home/autoware/Autoware/install/points2image/lib/pkgconfig/points2image.pc
+/home/autoware/Autoware/install/points2image/share/points2image/cmake/points2imageConfig.cmake
+/home/autoware/Autoware/install/points2image/share/points2image/cmake/points2imageConfig-version.cmake
+/home/autoware/Autoware/install/points2image/share/points2image/package.xml
+/home/autoware/Autoware/install/points2image/lib/libpoints_image.so
+/home/autoware/Autoware/install/points2image/lib/points2image/vscan2linelist
+/home/autoware/Autoware/install/points2image/lib/points2image/vscan2image
+/home/autoware/Autoware/install/points2image/lib/points2image/points2image
+/home/autoware/Autoware/install/points2image/lib/points2image/points2vscan

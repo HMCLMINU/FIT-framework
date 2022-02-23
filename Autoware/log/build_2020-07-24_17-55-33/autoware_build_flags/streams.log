@@ -1,0 +1,59 @@
+[0.022s] Invoking command in '/home/autoware/Autoware/build/autoware_build_flags': /usr/bin/cmake /home/autoware/Autoware/src/autoware/common/autoware_build_flags -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/autoware_build_flags
+[0.096s] -- The C compiler identification is GNU 7.5.0
+[0.164s] -- The CXX compiler identification is GNU 7.5.0
+[0.168s] -- Check for working C compiler: /usr/bin/cc
+[0.250s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.250s] -- Detecting C compiler ABI info
+[0.333s] -- Detecting C compiler ABI info - done
+[0.342s] -- Detecting C compile features
+[0.573s] -- Detecting C compile features - done
+[0.582s] -- Check for working CXX compiler: /usr/bin/c++
+[0.673s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.673s] -- Detecting CXX compiler ABI info
+[0.786s] -- Detecting CXX compiler ABI info - done
+[0.791s] -- Detecting CXX compile features
+[1.236s] -- Detecting CXX compile features - done
+[1.239s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/autoware_build_flags/devel
+[1.239s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[1.239s] -- This workspace overlays: /opt/ros/melodic
+[1.259s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.259s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.259s] -- Using Debian Python package layout
+[1.260s] -- Using empy: /usr/bin/empy
+[1.425s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.426s] -- Call enable_testing()
+[1.429s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/autoware_build_flags/test_results
+[1.460s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.460s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.482s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.482s] -- Looking for pthread.h
+[1.590s] -- Looking for pthread.h - found
+[1.590s] -- Looking for pthread_create
+[1.687s] -- Looking for pthread_create - not found
+[1.687s] -- Looking for pthread_create in pthreads
+[1.761s] -- Looking for pthread_create in pthreads - not found
+[1.761s] -- Looking for pthread_create in pthread
+[1.859s] -- Looking for pthread_create in pthread - found
+[1.860s] -- Found Threads: TRUE  
+[1.861s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.929s] -- catkin 0.7.26
+[1.930s] -- BUILD_SHARED_LIBS is on
+[2.226s] -- Configuring done
+[2.241s] -- Generating done
+[2.244s] -- Build files have been written to: /home/autoware/Autoware/build/autoware_build_flags
+[2.252s] Invoked command in '/home/autoware/Autoware/build/autoware_build_flags' returned '0': /usr/bin/cmake /home/autoware/Autoware/src/autoware/common/autoware_build_flags -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/autoware_build_flags
+[2.253s] Invoking command in '/home/autoware/Autoware/build/autoware_build_flags': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_build_flags -- -j2 -l2
+[2.310s] Invoked command in '/home/autoware/Autoware/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_build_flags -- -j2 -l2
+[2.345s] Invoking command in '/home/autoware/Autoware/build/autoware_build_flags': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_build_flags --target tests -- -j2 -l2
+[2.409s] Scanning dependencies of target tests
+[2.421s] Built target tests
+[2.435s] Invoked command in '/home/autoware/Autoware/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_build_flags --target tests -- -j2 -l2
+[2.484s] Invoking command in '/home/autoware/Autoware/build/autoware_build_flags': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_build_flags --target install -- -j2 -l2
+[2.546s] Install the project...
+[2.557s] -- Install configuration: "Release"
+[2.558s] -- Installing: /home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig/autoware_build_flags.pc
+[2.558s] -- Installing: /home/autoware/Autoware/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flags-extras.cmake
+[2.559s] -- Installing: /home/autoware/Autoware/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flagsConfig.cmake
+[2.560s] -- Installing: /home/autoware/Autoware/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flagsConfig-version.cmake
+[2.560s] -- Installing: /home/autoware/Autoware/install/autoware_build_flags/share/autoware_build_flags/package.xml
+[2.565s] Invoked command in '/home/autoware/Autoware/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_build_flags --target install -- -j2 -l2

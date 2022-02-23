@@ -1,0 +1,336 @@
+[0.015s] Invoking command in '/home/autoware/Autoware/build/custom_msgs': /usr/bin/cmake /home/autoware/Autoware/src/drivers/awf_drivers/custom_msgs -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/custom_msgs
+[0.100s] -- The C compiler identification is GNU 7.5.0
+[0.185s] -- The CXX compiler identification is GNU 7.5.0
+[0.192s] -- Check for working C compiler: /usr/bin/cc
+[0.277s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.277s] -- Detecting C compiler ABI info
+[0.365s] -- Detecting C compiler ABI info - done
+[0.374s] -- Detecting C compile features
+[0.625s] -- Detecting C compile features - done
+[0.629s] -- Check for working CXX compiler: /usr/bin/c++
+[0.723s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.724s] -- Detecting CXX compiler ABI info
+[0.829s] -- Detecting CXX compiler ABI info - done
+[0.839s] -- Detecting CXX compile features
+[1.292s] -- Detecting CXX compile features - done
+[1.294s] -- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/custom_msgs/devel
+[1.295s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[1.295s] -- This workspace overlays: /opt/ros/melodic
+[1.312s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.312s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.312s] -- Using Debian Python package layout
+[1.312s] -- Using empy: /usr/bin/empy
+[1.480s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.480s] -- Call enable_testing()
+[1.482s] -- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/custom_msgs/test_results
+[1.513s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.513s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.531s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.532s] -- Looking for pthread.h
+[1.624s] -- Looking for pthread.h - found
+[1.625s] -- Looking for pthread_create
+[1.723s] -- Looking for pthread_create - not found
+[1.723s] -- Looking for pthread_create in pthreads
+[1.798s] -- Looking for pthread_create in pthreads - not found
+[1.798s] -- Looking for pthread_create in pthread
+[1.883s] -- Looking for pthread_create in pthread - found
+[1.885s] -- Found Threads: TRUE  
+[1.890s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.937s] -- catkin 0.7.26
+[1.937s] -- BUILD_SHARED_LIBS is on
+[2.100s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.368s] -- custom_msgs: 11 messages, 0 services
+[2.561s] -- Configuring done
+[2.597s] -- Generating done
+[2.605s] -- Build files have been written to: /home/autoware/Autoware/build/custom_msgs
+[2.610s] Invoked command in '/home/autoware/Autoware/build/custom_msgs' returned '0': /usr/bin/cmake /home/autoware/Autoware/src/drivers/awf_drivers/custom_msgs -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/custom_msgs
+[2.614s] Invoking command in '/home/autoware/Autoware/build/custom_msgs': /usr/bin/cmake --build /home/autoware/Autoware/build/custom_msgs -- -j2 -l2
+[2.676s] Scanning dependencies of target std_msgs_generate_messages_cpp
+[2.691s] [  0%] Built target std_msgs_generate_messages_cpp
+[2.708s] Scanning dependencies of target sensor_msgs_generate_messages_cpp
+[2.724s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[2.739s] Scanning dependencies of target _custom_msgs_generate_messages_check_deps_orientationEstimate
+[2.785s] [  0%] Built target _custom_msgs_generate_messages_check_deps_orientationEstimate
+[2.800s] Scanning dependencies of target _custom_msgs_generate_messages_check_deps_ImuSensorSample
+[2.846s] [  0%] Built target _custom_msgs_generate_messages_check_deps_ImuSensorSample
+[2.861s] Scanning dependencies of target _custom_msgs_generate_messages_check_deps_GnssSensorSample
+[2.906s] [  0%] Built target _custom_msgs_generate_messages_check_deps_GnssSensorSample
+[2.920s] Scanning dependencies of target geometry_msgs_generate_messages_cpp
+[2.934s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[2.947s] Scanning dependencies of target _custom_msgs_generate_messages_check_deps_gnssSample
+[2.990s] [  0%] Built target _custom_msgs_generate_messages_check_deps_gnssSample
+[3.005s] Scanning dependencies of target _custom_msgs_generate_messages_check_deps_sensorSample
+[3.049s] [  0%] Built target _custom_msgs_generate_messages_check_deps_sensorSample
+[3.063s] Scanning dependencies of target _custom_msgs_generate_messages_check_deps_positionEstimate
+[3.105s] [  0%] Built target _custom_msgs_generate_messages_check_deps_positionEstimate
+[3.118s] Scanning dependencies of target _custom_msgs_generate_messages_check_deps_baroSample
+[3.159s] [  0%] Built target _custom_msgs_generate_messages_check_deps_baroSample
+[3.173s] Scanning dependencies of target _custom_msgs_generate_messages_check_deps_Internal
+[3.214s] [  0%] Built target _custom_msgs_generate_messages_check_deps_Internal
+[3.228s] Scanning dependencies of target _custom_msgs_generate_messages_check_deps_velocityEstimate
+[3.267s] [  0%] Built target _custom_msgs_generate_messages_check_deps_velocityEstimate
+[3.280s] Scanning dependencies of target _custom_msgs_generate_messages_check_deps_XsensQuaternion
+[3.320s] [  0%] Built target _custom_msgs_generate_messages_check_deps_XsensQuaternion
+[3.334s] Scanning dependencies of target _custom_msgs_generate_messages_check_deps_BaroSensorSample
+[3.374s] [  0%] Built target _custom_msgs_generate_messages_check_deps_BaroSensorSample
+[3.388s] Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+[3.402s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[3.416s] Scanning dependencies of target std_msgs_generate_messages_nodejs
+[3.428s] [  0%] Built target std_msgs_generate_messages_nodejs
+[3.440s] Scanning dependencies of target sensor_msgs_generate_messages_nodejs
+[3.453s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[3.465s] Scanning dependencies of target std_msgs_generate_messages_py
+[3.477s] [  0%] Built target std_msgs_generate_messages_py
+[3.489s] Scanning dependencies of target geometry_msgs_generate_messages_py
+[3.502s] [  0%] Built target geometry_msgs_generate_messages_py
+[3.516s] Scanning dependencies of target sensor_msgs_generate_messages_py
+[3.530s] [  0%] Built target sensor_msgs_generate_messages_py
+[3.544s] Scanning dependencies of target std_msgs_generate_messages_lisp
+[3.558s] [  0%] Built target std_msgs_generate_messages_lisp
+[3.573s] Scanning dependencies of target geometry_msgs_generate_messages_lisp
+[3.587s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[3.603s] Scanning dependencies of target sensor_msgs_generate_messages_lisp
+[3.618s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[3.633s] Scanning dependencies of target sensor_msgs_generate_messages_eus
+[3.648s] [  0%] Built target sensor_msgs_generate_messages_eus
+[3.663s] Scanning dependencies of target std_msgs_generate_messages_eus
+[3.678s] [  0%] Built target std_msgs_generate_messages_eus
+[3.693s] Scanning dependencies of target geometry_msgs_generate_messages_eus
+[3.708s] [  0%] Built target geometry_msgs_generate_messages_eus
+[3.724s] Scanning dependencies of target custom_msgs_generate_messages_cpp
+[3.740s] [  1%] Generating C++ code from custom_msgs/GnssSensorSample.msg
+[3.905s] [  3%] Generating C++ code from custom_msgs/ImuSensorSample.msg
+[4.071s] [  5%] Generating C++ code from custom_msgs/baroSample.msg
+[4.220s] [  7%] Generating C++ code from custom_msgs/positionEstimate.msg
+[4.380s] [  8%] Generating C++ code from custom_msgs/gnssSample.msg
+[4.549s] [ 10%] Generating C++ code from custom_msgs/XsensQuaternion.msg
+[4.702s] [ 12%] Generating C++ code from custom_msgs/velocityEstimate.msg
+[4.860s] [ 14%] Generating C++ code from custom_msgs/orientationEstimate.msg
+[5.010s] [ 15%] Generating C++ code from custom_msgs/sensorSample.msg
+[5.165s] [ 17%] Generating C++ code from custom_msgs/Internal.msg
+[5.322s] [ 19%] Generating C++ code from custom_msgs/BaroSensorSample.msg
+[5.483s] [ 19%] Built target custom_msgs_generate_messages_cpp
+[5.500s] Scanning dependencies of target custom_msgs_generate_messages_nodejs
+[5.515s] [ 21%] Generating Javascript code from custom_msgs/GnssSensorSample.msg
+[5.572s] [ 22%] Generating Javascript code from custom_msgs/ImuSensorSample.msg
+[5.628s] [ 24%] Generating Javascript code from custom_msgs/baroSample.msg
+[5.682s] [ 26%] Generating Javascript code from custom_msgs/positionEstimate.msg
+[5.736s] [ 28%] Generating Javascript code from custom_msgs/gnssSample.msg
+[5.791s] [ 29%] Generating Javascript code from custom_msgs/XsensQuaternion.msg
+[5.845s] [ 31%] Generating Javascript code from custom_msgs/velocityEstimate.msg
+[5.899s] [ 33%] Generating Javascript code from custom_msgs/orientationEstimate.msg
+[5.959s] [ 35%] Generating Javascript code from custom_msgs/sensorSample.msg
+[6.017s] [ 36%] Generating Javascript code from custom_msgs/Internal.msg
+[6.075s] [ 38%] Generating Javascript code from custom_msgs/BaroSensorSample.msg
+[6.130s] [ 38%] Built target custom_msgs_generate_messages_nodejs
+[6.146s] Scanning dependencies of target custom_msgs_generate_messages_py
+[6.162s] [ 40%] Generating Python from MSG custom_msgs/GnssSensorSample
+[6.295s] [ 42%] Generating Python from MSG custom_msgs/ImuSensorSample
+[6.426s] [ 43%] Generating Python from MSG custom_msgs/baroSample
+[6.558s] [ 45%] Generating Python from MSG custom_msgs/positionEstimate
+[6.691s] [ 47%] Generating Python from MSG custom_msgs/gnssSample
+[6.825s] [ 49%] Generating Python from MSG custom_msgs/XsensQuaternion
+[6.955s] [ 50%] Generating Python from MSG custom_msgs/velocityEstimate
+[7.088s] [ 52%] Generating Python from MSG custom_msgs/orientationEstimate
+[7.227s] [ 54%] Generating Python from MSG custom_msgs/sensorSample
+[7.363s] [ 56%] Generating Python from MSG custom_msgs/Internal
+[7.496s] [ 57%] Generating Python from MSG custom_msgs/BaroSensorSample
+[7.635s] [ 59%] Generating Python msg __init__.py for custom_msgs
+[7.764s] [ 59%] Built target custom_msgs_generate_messages_py
+[7.780s] Scanning dependencies of target custom_msgs_generate_messages_lisp
+[7.796s] [ 61%] Generating Lisp code from custom_msgs/GnssSensorSample.msg
+[7.849s] [ 63%] Generating Lisp code from custom_msgs/ImuSensorSample.msg
+[7.902s] [ 64%] Generating Lisp code from custom_msgs/baroSample.msg
+[7.954s] [ 66%] Generating Lisp code from custom_msgs/positionEstimate.msg
+[8.005s] [ 68%] Generating Lisp code from custom_msgs/gnssSample.msg
+[8.060s] [ 70%] Generating Lisp code from custom_msgs/XsensQuaternion.msg
+[8.113s] [ 71%] Generating Lisp code from custom_msgs/velocityEstimate.msg
+[8.164s] [ 73%] Generating Lisp code from custom_msgs/orientationEstimate.msg
+[8.213s] [ 75%] Generating Lisp code from custom_msgs/sensorSample.msg
+[8.261s] [ 77%] Generating Lisp code from custom_msgs/Internal.msg
+[8.308s] [ 78%] Generating Lisp code from custom_msgs/BaroSensorSample.msg
+[8.356s] [ 78%] Built target custom_msgs_generate_messages_lisp
+[8.369s] Scanning dependencies of target custom_msgs_generate_messages_eus
+[8.383s] [ 80%] Generating EusLisp code from custom_msgs/GnssSensorSample.msg
+[8.455s] [ 82%] Generating EusLisp code from custom_msgs/ImuSensorSample.msg
+[8.526s] [ 84%] Generating EusLisp code from custom_msgs/baroSample.msg
+[8.600s] [ 85%] Generating EusLisp code from custom_msgs/positionEstimate.msg
+[8.678s] [ 87%] Generating EusLisp code from custom_msgs/gnssSample.msg
+[8.751s] [ 89%] Generating EusLisp code from custom_msgs/XsensQuaternion.msg
+[8.829s] [ 91%] Generating EusLisp code from custom_msgs/velocityEstimate.msg
+[8.902s] [ 92%] Generating EusLisp code from custom_msgs/orientationEstimate.msg
+[8.974s] [ 94%] Generating EusLisp code from custom_msgs/sensorSample.msg
+[9.050s] [ 96%] Generating EusLisp code from custom_msgs/Internal.msg
+[9.128s] [ 98%] Generating EusLisp code from custom_msgs/BaroSensorSample.msg
+[9.210s] [100%] Generating EusLisp manifest code for custom_msgs
+[10.217s] [100%] Built target custom_msgs_generate_messages_eus
+[10.231s] Scanning dependencies of target custom_msgs_generate_messages
+[10.245s] [100%] Built target custom_msgs_generate_messages
+[10.263s] Invoked command in '/home/autoware/Autoware/build/custom_msgs' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/custom_msgs -- -j2 -l2
+[10.340s] Invoking command in '/home/autoware/Autoware/build/custom_msgs': /usr/bin/cmake --build /home/autoware/Autoware/build/custom_msgs --target tests -- -j2 -l2
+[10.408s] Scanning dependencies of target tests
+[10.423s] Built target tests
+[10.440s] Invoked command in '/home/autoware/Autoware/build/custom_msgs' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/custom_msgs --target tests -- -j2 -l2
+[10.517s] Invoking command in '/home/autoware/Autoware/build/custom_msgs': /usr/bin/cmake --build /home/autoware/Autoware/build/custom_msgs --target install -- -j2 -l2
+[10.586s] [  0%] Built target std_msgs_generate_messages_cpp
+[10.612s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[10.668s] [  0%] Built target _custom_msgs_generate_messages_check_deps_orientationEstimate
+[10.722s] [  0%] Built target _custom_msgs_generate_messages_check_deps_ImuSensorSample
+[10.773s] [  0%] Built target _custom_msgs_generate_messages_check_deps_GnssSensorSample
+[10.799s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[10.858s] [  0%] Built target _custom_msgs_generate_messages_check_deps_gnssSample
+[10.918s] [  0%] Built target _custom_msgs_generate_messages_check_deps_sensorSample
+[10.979s] [  0%] Built target _custom_msgs_generate_messages_check_deps_positionEstimate
+[11.040s] [  0%] Built target _custom_msgs_generate_messages_check_deps_baroSample
+[11.106s] [  0%] Built target _custom_msgs_generate_messages_check_deps_Internal
+[11.168s] [  0%] Built target _custom_msgs_generate_messages_check_deps_velocityEstimate
+[11.229s] [  0%] Built target _custom_msgs_generate_messages_check_deps_XsensQuaternion
+[11.287s] [  0%] Built target _custom_msgs_generate_messages_check_deps_BaroSensorSample
+[11.315s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[11.344s] [  0%] Built target std_msgs_generate_messages_nodejs
+[11.373s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[11.402s] [  0%] Built target std_msgs_generate_messages_py
+[11.430s] [  0%] Built target geometry_msgs_generate_messages_py
+[11.458s] [  0%] Built target sensor_msgs_generate_messages_py
+[11.487s] [  0%] Built target std_msgs_generate_messages_lisp
+[11.516s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[11.544s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[11.574s] [  0%] Built target sensor_msgs_generate_messages_eus
+[11.603s] [  0%] Built target std_msgs_generate_messages_eus
+[11.632s] [  0%] Built target geometry_msgs_generate_messages_eus
+[11.663s] [ 19%] Built target custom_msgs_generate_messages_cpp
+[11.695s] [ 38%] Built target custom_msgs_generate_messages_nodejs
+[11.726s] [ 59%] Built target custom_msgs_generate_messages_py
+[11.756s] [ 78%] Built target custom_msgs_generate_messages_lisp
+[11.787s] [100%] Built target custom_msgs_generate_messages_eus
+[11.817s] [100%] Built target custom_msgs_generate_messages
+[11.846s] Install the project...
+[11.858s] -- Install configuration: "Release"
+[11.859s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/custom_msgs/msg/BaroSensorSample.msg
+[11.860s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/custom_msgs/msg/GnssSensorSample.msg
+[11.860s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/custom_msgs/msg/ImuSensorSample.msg
+[11.860s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/custom_msgs/msg/Internal.msg
+[11.861s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/custom_msgs/msg/XsensQuaternion.msg
+[11.861s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/custom_msgs/msg/baroSample.msg
+[11.861s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/custom_msgs/msg/gnssSample.msg
+[11.862s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/custom_msgs/msg/orientationEstimate.msg
+[11.862s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/custom_msgs/msg/positionEstimate.msg
+[11.862s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/custom_msgs/msg/sensorSample.msg
+[11.863s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/custom_msgs/msg/velocityEstimate.msg
+[11.863s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/custom_msgs/cmake/custom_msgs-msg-paths.cmake
+[11.864s] -- Installing: /home/autoware/Autoware/install/custom_msgs/include/custom_msgs
+[11.864s] -- Installing: /home/autoware/Autoware/install/custom_msgs/include/custom_msgs/baroSample.h
+[11.864s] -- Installing: /home/autoware/Autoware/install/custom_msgs/include/custom_msgs/orientationEstimate.h
+[11.865s] -- Installing: /home/autoware/Autoware/install/custom_msgs/include/custom_msgs/velocityEstimate.h
+[11.865s] -- Installing: /home/autoware/Autoware/install/custom_msgs/include/custom_msgs/BaroSensorSample.h
+[11.866s] -- Installing: /home/autoware/Autoware/install/custom_msgs/include/custom_msgs/gnssSample.h
+[11.866s] -- Installing: /home/autoware/Autoware/install/custom_msgs/include/custom_msgs/XsensQuaternion.h
+[11.866s] -- Installing: /home/autoware/Autoware/install/custom_msgs/include/custom_msgs/Internal.h
+[11.867s] -- Installing: /home/autoware/Autoware/install/custom_msgs/include/custom_msgs/GnssSensorSample.h
+[11.867s] -- Installing: /home/autoware/Autoware/install/custom_msgs/include/custom_msgs/sensorSample.h
+[11.868s] -- Installing: /home/autoware/Autoware/install/custom_msgs/include/custom_msgs/positionEstimate.h
+[11.868s] -- Installing: /home/autoware/Autoware/install/custom_msgs/include/custom_msgs/ImuSensorSample.h
+[11.868s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/roseus/ros/custom_msgs
+[11.869s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/roseus/ros/custom_msgs/msg
+[11.869s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/roseus/ros/custom_msgs/msg/BaroSensorSample.l
+[11.869s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/roseus/ros/custom_msgs/msg/GnssSensorSample.l
+[11.870s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/roseus/ros/custom_msgs/msg/ImuSensorSample.l
+[11.870s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/roseus/ros/custom_msgs/msg/velocityEstimate.l
+[11.870s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/roseus/ros/custom_msgs/msg/baroSample.l
+[11.871s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/roseus/ros/custom_msgs/msg/positionEstimate.l
+[11.871s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/roseus/ros/custom_msgs/msg/sensorSample.l
+[11.872s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/roseus/ros/custom_msgs/msg/XsensQuaternion.l
+[11.872s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/roseus/ros/custom_msgs/msg/gnssSample.l
+[11.872s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/roseus/ros/custom_msgs/msg/orientationEstimate.l
+[11.873s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/roseus/ros/custom_msgs/msg/Internal.l
+[11.873s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/roseus/ros/custom_msgs/manifest.l
+[11.873s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs
+[11.874s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg
+[11.874s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_velocityEstimate.lisp
+[11.874s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package.lisp
+[11.875s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_baroSample.lisp
+[11.875s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_BaroSensorSample.lisp
+[11.875s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/gnssSample.lisp
+[11.876s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_GnssSensorSample.lisp
+[11.876s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/baroSample.lisp
+[11.877s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/orientationEstimate.lisp
+[11.877s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/ImuSensorSample.lisp
+[11.877s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/custom_msgs-msg.asd
+[11.878s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_sensorSample.lisp
+[11.878s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_ImuSensorSample.lisp
+[11.878s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/GnssSensorSample.lisp
+[11.879s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_XsensQuaternion.lisp
+[11.879s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_positionEstimate.lisp
+[11.879s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/positionEstimate.lisp
+[11.880s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/XsensQuaternion.lisp
+[11.880s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/velocityEstimate.lisp
+[11.881s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_Internal.lisp
+[11.881s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/sensorSample.lisp
+[11.881s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_orientationEstimate.lisp
+[11.882s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_gnssSample.lisp
+[11.882s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/Internal.lisp
+[11.882s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/BaroSensorSample.lisp
+[11.883s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/gennodejs/ros/custom_msgs
+[11.883s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg
+[11.884s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/ImuSensorSample.js
+[11.884s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/orientationEstimate.js
+[11.884s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/_index.js
+[11.885s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/sensorSample.js
+[11.885s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/gnssSample.js
+[11.885s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/GnssSensorSample.js
+[11.886s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/velocityEstimate.js
+[11.886s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/BaroSensorSample.js
+[11.886s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/Internal.js
+[11.887s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/XsensQuaternion.js
+[11.887s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/baroSample.js
+[11.888s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/positionEstimate.js
+[11.888s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/gennodejs/ros/custom_msgs/_index.js
+[11.918s] Listing /home/autoware/Autoware/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs ...
+[11.918s] Compiling /home/autoware/Autoware/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/__init__.py ...
+[11.918s] Listing /home/autoware/Autoware/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg ...
+[11.918s] Compiling /home/autoware/Autoware/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_BaroSensorSample.py ...
+[11.918s] Compiling /home/autoware/Autoware/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_GnssSensorSample.py ...
+[11.918s] Compiling /home/autoware/Autoware/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_ImuSensorSample.py ...
+[11.918s] Compiling /home/autoware/Autoware/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_Internal.py ...
+[11.918s] Compiling /home/autoware/Autoware/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_XsensQuaternion.py ...
+[11.918s] Compiling /home/autoware/Autoware/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/__init__.py ...
+[11.918s] Compiling /home/autoware/Autoware/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_baroSample.py ...
+[11.918s] Compiling /home/autoware/Autoware/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_gnssSample.py ...
+[11.919s] Compiling /home/autoware/Autoware/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_orientationEstimate.py ...
+[11.919s] Compiling /home/autoware/Autoware/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_positionEstimate.py ...
+[11.919s] Compiling /home/autoware/Autoware/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_sensorSample.py ...
+[11.919s] Compiling /home/autoware/Autoware/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_velocityEstimate.py ...
+[11.929s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs
+[11.929s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg
+[11.929s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_GnssSensorSample.py
+[11.929s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_baroSample.py
+[11.929s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_Internal.py
+[11.930s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_ImuSensorSample.py
+[11.930s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_BaroSensorSample.py
+[11.930s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_gnssSample.py
+[11.930s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_sensorSample.pyc
+[11.930s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_XsensQuaternion.pyc
+[11.930s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_velocityEstimate.pyc
+[11.930s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_orientationEstimate.py
+[11.930s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_Internal.pyc
+[11.930s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_positionEstimate.pyc
+[11.930s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_gnssSample.pyc
+[11.930s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/__init__.pyc
+[11.930s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_BaroSensorSample.pyc
+[11.930s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_sensorSample.py
+[11.931s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_positionEstimate.py
+[11.931s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_XsensQuaternion.py
+[11.931s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_ImuSensorSample.pyc
+[11.931s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_GnssSensorSample.pyc
+[11.931s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_velocityEstimate.py
+[11.931s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_orientationEstimate.pyc
+[11.931s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/__init__.py
+[11.931s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_baroSample.pyc
+[11.931s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/__init__.pyc
+[11.931s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/__init__.py
+[11.931s] -- Installing: /home/autoware/Autoware/install/custom_msgs/lib/pkgconfig/custom_msgs.pc
+[11.931s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/custom_msgs/cmake/custom_msgs-msg-extras.cmake
+[11.931s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig.cmake
+[11.931s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig-version.cmake
+[11.931s] -- Installing: /home/autoware/Autoware/install/custom_msgs/share/custom_msgs/package.xml
+[11.937s] Invoked command in '/home/autoware/Autoware/build/custom_msgs' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/custom_msgs --target install -- -j2 -l2

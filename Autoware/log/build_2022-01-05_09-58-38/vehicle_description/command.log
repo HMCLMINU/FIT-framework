@@ -1,0 +1,6 @@
+Invoking command in '/home/autoware/Autoware/build/vehicle_description': /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_description -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_description -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/vehicle_description': /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_description --target tests -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_description --target tests -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/vehicle_description': /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_description --target install -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/vehicle_description --target install -- -j32 -l32

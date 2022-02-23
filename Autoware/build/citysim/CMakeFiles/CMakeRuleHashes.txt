@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+a4b06021faceeeae5beb94a383a94a48 CMakeFiles/tests
+158b957a6c9d0a88ba24b55cefd11f3e plugins/CMakeFiles/BloomVisualPlugin_autogen
+1cd98986cb0bd31da2f0bfa2f11eae7f plugins/CMakeFiles/LensFlareVisualPlugin_autogen
+bd2d24e9c3e1ac2c7ef06f24c2d5ba5a plugins/CMakeFiles/TrafficLightsGUIPlugin_autogen

@@ -1,0 +1,28 @@
+/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp: In member function ‘autoware_health_checker::ErrorLevel autoware_health_checker::HealthChecker::CHECK_MIN_VALUE(const ErrorKey&, double, double, double, double, const string&)’:
+/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:198:32: warning: capture of variable ‘thresh_type’ with non-automatic storage duration
+   auto identify = [key, value, thresh_type, this](ErrorLevel level)
+                                ^~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:195:27: note: ‘const ThreshType thresh_type’ declared here
+   static const ThreshType thresh_type = "min";
+                           ^~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp: In member function ‘autoware_health_checker::ErrorLevel autoware_health_checker::HealthChecker::CHECK_MAX_VALUE(const ErrorKey&, double, double, double, double, const string&)’:
+/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:223:32: warning: capture of variable ‘thresh_type’ with non-automatic storage duration
+   auto identify = [key, value, thresh_type, this](ErrorLevel level)
+                                ^~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:220:27: note: ‘const ThreshType thresh_type’ declared here
+   static const ThreshType thresh_type = "max";
+                           ^~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp: In member function ‘autoware_health_checker::ErrorLevel autoware_health_checker::HealthChecker::CHECK_MIN_VALUE(const ErrorKey&, double, double, double, double, const string&)’:
+/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:198:32: warning: capture of variable ‘thresh_type’ with non-automatic storage duration
+   auto identify = [key, value, thresh_type, this](ErrorLevel level)
+                                ^~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:195:27: note: ‘const ThreshType thresh_type’ declared here
+   static const ThreshType thresh_type = "min";
+                           ^~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp: In member function ‘autoware_health_checker::ErrorLevel autoware_health_checker::HealthChecker::CHECK_MAX_VALUE(const ErrorKey&, double, double, double, double, const string&)’:
+/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:223:32: warning: capture of variable ‘thresh_type’ with non-automatic storage duration
+   auto identify = [key, value, thresh_type, this](ErrorLevel level)
+                                ^~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:220:27: note: ‘const ThreshType thresh_type’ declared here
+   static const ThreshType thresh_type = "max";
+                           ^~~~~~~~~~~

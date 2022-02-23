@@ -1,0 +1,2 @@
+Invoking command in '/home/autoware/Autoware/build/gnss': /usr/bin/cmake /home/autoware/Autoware/src/autoware/common/gnss -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/gnss
+Invoked command in '/home/autoware/Autoware/build/gnss' returned '-2': /usr/bin/cmake /home/autoware/Autoware/src/autoware/common/gnss -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/gnss

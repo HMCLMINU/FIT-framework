@@ -1,0 +1,13 @@
+[0.509s] Invoking command in '/home/autoware/Autoware/build/gazebo_world_description': /usr/bin/cmake --build /home/autoware/Autoware/build/gazebo_world_description -- -j32 -l32
+[0.790s] Invoked command in '/home/autoware/Autoware/build/gazebo_world_description' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/gazebo_world_description -- -j32 -l32
+[0.913s] Invoking command in '/home/autoware/Autoware/build/gazebo_world_description': /usr/bin/cmake --build /home/autoware/Autoware/build/gazebo_world_description --target tests -- -j32 -l32
+[1.044s] Built target tests
+[1.068s] Invoked command in '/home/autoware/Autoware/build/gazebo_world_description' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/gazebo_world_description --target tests -- -j32 -l32
+[1.201s] Invoking command in '/home/autoware/Autoware/build/gazebo_world_description': /usr/bin/cmake --build /home/autoware/Autoware/build/gazebo_world_description --target install -- -j32 -l32
+[1.282s] Install the project...
+[1.282s] -- Install configuration: "Release"
+[1.283s] -- Up-to-date: /home/autoware/Autoware/install/gazebo_world_description/lib/pkgconfig/gazebo_world_description.pc
+[1.283s] -- Up-to-date: /home/autoware/Autoware/install/gazebo_world_description/share/gazebo_world_description/cmake/gazebo_world_descriptionConfig.cmake
+[1.283s] -- Up-to-date: /home/autoware/Autoware/install/gazebo_world_description/share/gazebo_world_description/cmake/gazebo_world_descriptionConfig-version.cmake
+[1.283s] -- Up-to-date: /home/autoware/Autoware/install/gazebo_world_description/share/gazebo_world_description/package.xml
+[1.715s] Invoked command in '/home/autoware/Autoware/build/gazebo_world_description' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/gazebo_world_description --target install -- -j32 -l32

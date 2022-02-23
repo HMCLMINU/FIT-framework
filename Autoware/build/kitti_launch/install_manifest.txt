@@ -1,0 +1,11 @@
+/home/autoware/Autoware/install/kitti_launch/lib/pkgconfig/kitti_launch.pc
+/home/autoware/Autoware/install/kitti_launch/share/kitti_launch/cmake/kitti_launchConfig.cmake
+/home/autoware/Autoware/install/kitti_launch/share/kitti_launch/cmake/kitti_launchConfig-version.cmake
+/home/autoware/Autoware/install/kitti_launch/share/kitti_launch/package.xml
+/home/autoware/Autoware/install/kitti_launch/share/kitti_launch/launch/launch/xml/camera_lidar.xml
+/home/autoware/Autoware/install/kitti_launch/share/kitti_launch/launch/launch/xml/points_raw.xml
+/home/autoware/Autoware/install/kitti_launch/share/kitti_launch/launch/launch/kittiplayer.launch
+/home/autoware/Autoware/install/kitti_launch/share/kitti_launch/launch/xml/xml/camera_lidar.xml
+/home/autoware/Autoware/install/kitti_launch/share/kitti_launch/launch/xml/xml/points_raw.xml
+/home/autoware/Autoware/install/kitti_launch/share/kitti_launch/calib/calib/kitti_cam02_sync.yml
+/home/autoware/Autoware/install/kitti_launch/share/kitti_launch/calib/calib/kitti_cam02_sync_kitti_conv.yml

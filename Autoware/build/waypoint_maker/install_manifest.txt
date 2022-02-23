@@ -1,0 +1,16 @@
+/home/autoware/Autoware/install/waypoint_maker/lib/pkgconfig/waypoint_maker.pc
+/home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/cmake/waypoint_makerConfig.cmake
+/home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/cmake/waypoint_makerConfig-version.cmake
+/home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/package.xml
+/home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_loader
+/home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_replanner
+/home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_saver
+/home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_clicker
+/home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_marker_publisher
+/home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_velocity_visualizer
+/home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_extractor
+/home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_creator
+/home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/launch/waypoint_loader.launch
+/home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/launch/waypoint_saver.launch
+/home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/launch/waypoint_creator.launch
+/home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/launch/waypoint_velocity_visualizer.launch

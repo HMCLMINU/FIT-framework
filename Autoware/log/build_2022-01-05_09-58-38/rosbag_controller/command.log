@@ -1,0 +1,6 @@
+Invoking command in '/home/autoware/Autoware/build/rosbag_controller': /usr/bin/cmake --build /home/autoware/Autoware/build/rosbag_controller -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/rosbag_controller' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/rosbag_controller -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/rosbag_controller': /usr/bin/cmake --build /home/autoware/Autoware/build/rosbag_controller --target tests -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/rosbag_controller' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/rosbag_controller --target tests -- -j32 -l32
+Invoking command in '/home/autoware/Autoware/build/rosbag_controller': /usr/bin/cmake --build /home/autoware/Autoware/build/rosbag_controller --target install -- -j32 -l32
+Invoked command in '/home/autoware/Autoware/build/rosbag_controller' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/rosbag_controller --target install -- -j32 -l32

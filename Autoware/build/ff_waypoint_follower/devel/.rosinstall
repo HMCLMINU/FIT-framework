@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autoware/Autoware/build/ff_waypoint_follower/devel/setup.sh

@@ -1,0 +1,15 @@
+/home/autoware/Autoware/src/drivers/awf_drivers/microstrain/MIPSDK/C/Library/Source/mip.c: In function ‘mip_add_field’:
+/home/autoware/Autoware/src/drivers/awf_drivers/microstrain/MIPSDK/C/Library/Source/mip.c:189:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+   memcpy(field_data_ptr, field_data, data_size);
+   ^~~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/microstrain/MIPSDK/C/Library/Source/mip.c:189:3: warning: incompatible implicit declaration of built-in function ‘memcpy’
+/home/autoware/Autoware/src/drivers/awf_drivers/microstrain/MIPSDK/C/Library/Source/mip.c:189:3: note: include ‘<string.h>’ or provide a declaration of ‘memcpy’
+/home/autoware/Autoware/src/drivers/awf_drivers/microstrain/MIPSDK/C/Library/Source/mip.c: In function ‘mip_add_formatted_field’:
+/home/autoware/Autoware/src/drivers/awf_drivers/microstrain/MIPSDK/C/Library/Source/mip.c:250:2: warning: incompatible implicit declaration of built-in function ‘memcpy’
+  memcpy(field_location, field, field_header_ptr->size);
+  ^~~~~~
+/home/autoware/Autoware/src/drivers/awf_drivers/microstrain/MIPSDK/C/Library/Source/mip.c:250:2: note: include ‘<string.h>’ or provide a declaration of ‘memcpy’
+/home/autoware/Autoware/src/drivers/awf_drivers/microstrain/MIPSDK/C/Library/Source/mip_sdk_inteface.c: In function ‘__mip_interface_command_response_handler’:
+/home/autoware/Autoware/src/drivers/awf_drivers/microstrain/MIPSDK/C/Library/Source/mip_sdk_inteface.c:755:49: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    device_interface->command_response_data      = field_header_ptr;
+                                                 ^

@@ -1,0 +1,326 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CUDA compilation status: ON.
+-- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/vision_darknet_detect/devel
+-- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_config_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_config_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/vision_darknet_detect/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.26
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found CUDA: /usr/local/cuda (found version "10.0") 
+-- Found OpenCV: /usr (found version "3.2.0") 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/autoware/Autoware/build/vision_darknet_detect
+Scanning dependencies of target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+Scanning dependencies of target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+Scanning dependencies of target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+Scanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+Scanning dependencies of target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_py
+Scanning dependencies of target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+Scanning dependencies of target pcl_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_py
+Scanning dependencies of target pcl_msgs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+Scanning dependencies of target pcl_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_lisp
+Scanning dependencies of target pcl_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_eus
+Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+Scanning dependencies of target autoware_msgs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_cpp
+Scanning dependencies of target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+Scanning dependencies of target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+Scanning dependencies of target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+Scanning dependencies of target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_eus
+Scanning dependencies of target autoware_config_msgs_generate_messages_lisp
+[  0%] Built target autoware_config_msgs_generate_messages_lisp
+Scanning dependencies of target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+Scanning dependencies of target autoware_config_msgs_generate_messages_eus
+[  0%] Built target autoware_config_msgs_generate_messages_eus
+Scanning dependencies of target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+Scanning dependencies of target autoware_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+Scanning dependencies of target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_py
+Scanning dependencies of target autoware_config_msgs_generate_messages_py
+[  0%] Built target autoware_config_msgs_generate_messages_py
+Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+Scanning dependencies of target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+Scanning dependencies of target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+Scanning dependencies of target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+Scanning dependencies of target autoware_msgs_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_py
+Scanning dependencies of target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+Scanning dependencies of target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+Scanning dependencies of target autoware_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_eus
+Scanning dependencies of target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+Scanning dependencies of target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+Scanning dependencies of target pcl_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_cpp
+Scanning dependencies of target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+Scanning dependencies of target autoware_msgs_generate_messages_lisp
+[  0%] Built target autoware_msgs_generate_messages_lisp
+Scanning dependencies of target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_nodejs
+Scanning dependencies of target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+Scanning dependencies of target autoware_config_msgs_generate_messages_nodejs
+[  0%] Built target autoware_config_msgs_generate_messages_nodejs
+Scanning dependencies of target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+Scanning dependencies of target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+Scanning dependencies of target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+Scanning dependencies of target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+Scanning dependencies of target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+Scanning dependencies of target autoware_config_msgs_generate_messages_cpp
+[  0%] Built target autoware_config_msgs_generate_messages_cpp
+Scanning dependencies of target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+Scanning dependencies of target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+Scanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+Scanning dependencies of target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+[  1%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_maxpool_layer_kernels.cu.o
+[  3%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_activation_kernels.cu.o
+[  5%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_avgpool_layer_kernels.cu.o
+[  7%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_convolutional_kernels.cu.o
+[  8%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_crop_layer_kernels.cu.o
+[ 10%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_col2im_kernels.cu.o
+[ 12%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_blas_kernels.cu.o
+[ 14%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_deconvolutional_kernels.cu.o
+[ 15%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_dropout_layer_kernels.cu.o
+[ 17%] Building NVCC (Device) object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/vision_darknet_detect_lib_generated_im2col_kernels.cu.o
+Scanning dependencies of target vision_darknet_detect_lib
+[ 19%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/gemm.c.o
+[ 21%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/utils.c.o
+[ 22%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/cuda.c.o
+[ 24%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/deconvolutional_layer.c.o
+[ 26%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/convolutional_layer.c.o
+[ 28%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/list.c.o
+[ 29%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/image.c.o
+[ 31%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/activations.c.o
+[ 33%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/im2col.c.o
+[ 35%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/col2im.c.o
+[ 36%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/blas.c.o
+[ 38%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/crop_layer.c.o
+[ 40%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/dropout_layer.c.o
+[ 42%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/maxpool_layer.c.o
+[ 43%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/softmax_layer.c.o
+[ 45%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/data.c.o
+[ 47%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/matrix.c.o
+[ 49%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/network.c.o
+[ 50%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/connected_layer.c.o
+[ 52%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/cost_layer.c.o
+[ 54%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/parser.c.o
+[ 56%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/option_list.c.o
+[ 57%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/detection_layer.c.o
+[ 59%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/route_layer.c.o
+[ 61%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/upsample_layer.c.o
+[ 63%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/box.c.o
+[ 64%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/normalization_layer.c.o
+[ 66%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/avgpool_layer.c.o
+[ 68%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/layer.c.o
+[ 70%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/local_layer.c.o
+[ 71%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/shortcut_layer.c.o
+[ 73%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/logistic_layer.c.o
+[ 75%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/activation_layer.c.o
+[ 77%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/rnn_layer.c.o
+[ 78%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/gru_layer.c.o
+[ 80%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/crnn_layer.c.o
+[ 82%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/batchnorm_layer.c.o
+[ 84%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/region_layer.c.o
+[ 85%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/reorg_layer.c.o
+[ 87%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/tree.c.o
+[ 89%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/lstm_layer.c.o
+[ 91%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/l2norm_layer.c.o
+[ 92%] Building C object CMakeFiles/vision_darknet_detect_lib.dir/darknet/src/yolo_layer.c.o
+[ 94%] Linking CXX shared library devel/lib/libvision_darknet_detect_lib.so
+[ 94%] Built target vision_darknet_detect_lib
+Scanning dependencies of target vision_darknet_detect
+[ 96%] Building CXX object CMakeFiles/vision_darknet_detect.dir/src/vision_darknet_detect_node.cpp.o
+[ 98%] Building CXX object CMakeFiles/vision_darknet_detect.dir/src/vision_darknet_detect.cpp.o
+[100%] Linking CXX executable devel/lib/vision_darknet_detect/vision_darknet_detect
+[100%] Built target vision_darknet_detect
+-- CUDA compilation status: ON.
+-- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/vision_darknet_detect/devel
+-- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_config_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_config_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/vision_darknet_detect/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.26
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found OpenMP_C: -fopenmp  
+-- Found OpenMP_CXX: -fopenmp  
+-- Found OpenMP: TRUE   
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/autoware/Autoware/build/vision_darknet_detect
+Scanning dependencies of target tests
+Built target tests
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target autoware_config_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target autoware_config_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target autoware_config_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target autoware_config_msgs_generate_messages_cpp
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  1%] Linking CXX shared library devel/lib/libvision_darknet_detect_lib.so
+[ 94%] Built target vision_darknet_detect_lib
+[ 96%] Linking CXX executable devel/lib/vision_darknet_detect/vision_darknet_detect
+[100%] Built target vision_darknet_detect
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/autoware/Autoware/install/vision_darknet_detect/lib/pkgconfig/vision_darknet_detect.pc
+-- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/cmake/vision_darknet_detectConfig.cmake
+-- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/cmake/vision_darknet_detectConfig-version.cmake
+-- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/package.xml
+-- Installing: /home/autoware/Autoware/install/vision_darknet_detect/lib/libvision_darknet_detect_lib.so
+-- Set runtime path of "/home/autoware/Autoware/install/vision_darknet_detect/lib/libvision_darknet_detect_lib.so" to ""
+-- Installing: /home/autoware/Autoware/install/vision_darknet_detect/lib/vision_darknet_detect/vision_darknet_detect
+-- Set runtime path of "/home/autoware/Autoware/install/vision_darknet_detect/lib/vision_darknet_detect/vision_darknet_detect" to ""
+-- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/launch
+-- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/launch/vision_yolo3_detect.launch
+-- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/launch/vision_yolo2_detect.launch
+-- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg/
+-- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//coco.names
+-- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3-tiny.cfg
+-- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3-voc.cfg
+-- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov2.cfg
+-- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//voc.names
+-- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov2-tiny.cfg
+-- Installing: /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3.cfg

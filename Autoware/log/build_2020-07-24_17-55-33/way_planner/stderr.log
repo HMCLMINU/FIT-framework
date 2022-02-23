@@ -1,0 +1,33 @@
+In file included from /home/autoware/Autoware/src/autoware/core_planning/way_planner/include/way_planner_core.h:50:0,
+                 from /home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/way_planner.cpp:27:
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/include/ROSHelpers.h: In static member function ‘static std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)’:
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/include/ROSHelpers.h:105:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while (iSecondPart > 0 && iSecondPart < str.size())
+                               ~~~~~~~~~~~~^~~~~~~~~~~~
+In file included from /home/autoware/Autoware/src/autoware/core_planning/way_planner/include/way_planner_core.h:50:0,
+                 from /home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/way_planner_core.cpp:17:
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/include/ROSHelpers.h: In static member function ‘static std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)’:
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/include/ROSHelpers.h:105:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while (iSecondPart > 0 && iSecondPart < str.size())
+                               ~~~~~~~~~~~~^~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/way_planner_core.cpp: In member function ‘void WayPlannerNS::way_planner_core::PlannerMainLoop()’:
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/way_planner_core.cpp:712:72: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+           if(ret == true && info.iGlobalPath >= 0 &&  info.iGlobalPath < m_GeneratedTotalPaths.size() && info.iFront > 0 && info.iFront < m_GeneratedTotalPaths.at(info.iGlobalPath).size())
+                                                       ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/way_planner_core.cpp:712:137: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+           if(ret == true && info.iGlobalPath >= 0 &&  info.iGlobalPath < m_GeneratedTotalPaths.size() && info.iFront > 0 && info.iFront < m_GeneratedTotalPaths.at(info.iGlobalPath).size())
+                                                                                                                             ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/way_planner_core.cpp:718:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+               if(m_iCurrentGoalIndex >= m_GoalsPos.size())
+                  ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+In file included from /home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/ROSHelpers.cpp:8:0:
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/include/ROSHelpers.h: In static member function ‘static std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)’:
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/include/ROSHelpers.h:105:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while (iSecondPart > 0 && iSecondPart < str.size())
+                               ~~~~~~~~~~~~^~~~~~~~~~~~
+In file included from /home/autoware/Autoware/src/autoware/core_planning/way_planner/include/SocketServer.h:19:0,
+                 from /home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/SocketServer.cpp:8:
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/include/ROSHelpers.h: In static member function ‘static std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)’:
+/home/autoware/Autoware/src/autoware/core_planning/way_planner/include/ROSHelpers.h:105:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while (iSecondPart > 0 && iSecondPart < str.size())
+                               ~~~~~~~~~~~~^~~~~~~~~~~~

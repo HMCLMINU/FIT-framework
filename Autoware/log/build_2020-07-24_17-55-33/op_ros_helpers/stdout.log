@@ -1,0 +1,63 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CUDA compilation status: ON.
+-- Using CATKIN_DEVEL_PREFIX: /home/autoware/Autoware/build/op_ros_helpers/devel
+-- Using CMAKE_PREFIX_PATH: /home/autoware/Autoware/install/op_simu;/home/autoware/Autoware/install/op_planner;/home/autoware/Autoware/install/op_utility;/home/autoware/Autoware/install/map_file;/home/autoware/Autoware/install/vector_map_server;/home/autoware/Autoware/install/libwaypoint_follower;/home/autoware/Autoware/install/lanelet2_extension;/home/autoware/Autoware/install/vector_map;/home/autoware/Autoware/install/amathutils_lib;/home/autoware/Autoware/install/vector_map_msgs;/home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_lanelet2_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/autoware/Autoware/install/op_simu;/home/autoware/Autoware/install/op_planner;/home/autoware/Autoware/install/op_utility;/home/autoware/Autoware/install/map_file;/home/autoware/Autoware/install/vector_map_server;/home/autoware/Autoware/install/libwaypoint_follower;/home/autoware/Autoware/install/lanelet2_extension;/home/autoware/Autoware/install/vector_map;/home/autoware/Autoware/install/amathutils_lib;/home/autoware/Autoware/install/vector_map_msgs;/home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_lanelet2_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/autoware/Autoware/build/op_ros_helpers/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.26
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/autoware/Autoware/build/op_ros_helpers
+Scanning dependencies of target op_ros_helpers
+[ 33%] Building CXX object CMakeFiles/op_ros_helpers.dir/src/PolygonGenerator.cpp.o
+[ 66%] Building CXX object CMakeFiles/op_ros_helpers.dir/src/op_ROSHelpers.cpp.o
+[100%] Linking CXX shared library devel/lib/libop_ros_helpers.so
+[100%] Built target op_ros_helpers
+Scanning dependencies of target tests
+Built target tests
+[100%] Built target op_ros_helpers
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/autoware/Autoware/install/op_ros_helpers/lib/pkgconfig/op_ros_helpers.pc
+-- Installing: /home/autoware/Autoware/install/op_ros_helpers/share/op_ros_helpers/cmake/op_ros_helpersConfig.cmake
+-- Installing: /home/autoware/Autoware/install/op_ros_helpers/share/op_ros_helpers/cmake/op_ros_helpersConfig-version.cmake
+-- Installing: /home/autoware/Autoware/install/op_ros_helpers/share/op_ros_helpers/package.xml
+-- Installing: /home/autoware/Autoware/install/op_ros_helpers/include/op_ros_helpers
+-- Installing: /home/autoware/Autoware/install/op_ros_helpers/include/op_ros_helpers/op_ROSHelpers.h
+-- Installing: /home/autoware/Autoware/install/op_ros_helpers/include/op_ros_helpers/PolygonGenerator.h
+-- Installing: /home/autoware/Autoware/install/op_ros_helpers/lib/libop_ros_helpers.so
+-- Set runtime path of "/home/autoware/Autoware/install/op_ros_helpers/lib/libop_ros_helpers.so" to ""

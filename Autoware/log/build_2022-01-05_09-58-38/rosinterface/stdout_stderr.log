@@ -1,0 +1,16 @@
+[ 16%] Automatic MOC for target rosinterface
+[ 16%] Built target rosinterface_autogen
+[100%] Built target rosinterface
+Built target tests
+[ 16%] Automatic MOC for target rosinterface
+[ 16%] Built target rosinterface_autogen
+[100%] Built target rosinterface
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: /home/autoware/Autoware/install/rosinterface/lib/pkgconfig/rosinterface.pc
+-- Up-to-date: /home/autoware/Autoware/install/rosinterface/share/rosinterface/cmake/rosinterfaceConfig.cmake
+-- Up-to-date: /home/autoware/Autoware/install/rosinterface/share/rosinterface/cmake/rosinterfaceConfig-version.cmake
+-- Up-to-date: /home/autoware/Autoware/install/rosinterface/share/rosinterface/package.xml
+-- Up-to-date: /home/autoware/Autoware/install/rosinterface/include/rosinterface
+-- Up-to-date: /home/autoware/Autoware/install/rosinterface/include/rosinterface/rosinterface.h
+-- Up-to-date: /home/autoware/Autoware/install/rosinterface/lib/librosinterface.so

@@ -1,0 +1,8 @@
+prefix=/home/autoware/Autoware/install/vlg22c_cam
+
+Name: vlg22c_cam
+Description: Description of vlg22c_cam
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib -lvlg22c_cam
+Requires: 

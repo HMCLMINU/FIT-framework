@@ -1,0 +1,6 @@
+/home/autoware/Autoware/install/gnss/lib/pkgconfig/gnss.pc
+/home/autoware/Autoware/install/gnss/share/gnss/cmake/gnssConfig.cmake
+/home/autoware/Autoware/install/gnss/share/gnss/cmake/gnssConfig-version.cmake
+/home/autoware/Autoware/install/gnss/share/gnss/package.xml
+/home/autoware/Autoware/install/gnss/include/gnss/geo_pos_conv.hpp
+/home/autoware/Autoware/install/gnss/lib/libgnss.so

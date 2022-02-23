@@ -1,0 +1,5 @@
+/home/autoware/Autoware/install/gazebo_imu_description/lib/pkgconfig/gazebo_imu_description.pc
+/home/autoware/Autoware/install/gazebo_imu_description/share/gazebo_imu_description/cmake/gazebo_imu_descriptionConfig.cmake
+/home/autoware/Autoware/install/gazebo_imu_description/share/gazebo_imu_description/cmake/gazebo_imu_descriptionConfig-version.cmake
+/home/autoware/Autoware/install/gazebo_imu_description/share/gazebo_imu_description/package.xml
+/home/autoware/Autoware/install/gazebo_imu_description/share/gazebo_imu_description/urdf/imu.xacro

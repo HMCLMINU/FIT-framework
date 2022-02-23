@@ -1,0 +1,4 @@
+/home/autoware/Autoware/src/drivers/awf_drivers/analog_devices/src/adis16470.cpp: In member function ‘int Adis16470::read_register(char, int16_t&)’:
+/home/autoware/Autoware/src/drivers/awf_drivers/analog_devices/src/adis16470.cpp:201:47: warning: narrowing conversion of ‘address’ from ‘char’ to ‘unsigned char’ inside { } [-Wnarrowing]
+   unsigned char buff[3] = {0x61, address, 0x00};
+                                               ^
