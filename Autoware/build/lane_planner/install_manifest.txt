@@ -9,6 +9,6 @@
 /home/autoware/Autoware/install/lane_planner/lib/lane_planner/lane_rule_lanelet2
 /home/autoware/Autoware/install/lane_planner/lib/lane_planner/lane_select
 /home/autoware/Autoware/install/lane_planner/lib/lane_planner/lane_stop
-/home/autoware/Autoware/install/lane_planner/share/lane_planner/launch/lane_navi.launch
-/home/autoware/Autoware/install/lane_planner/share/lane_planner/launch/lane_rule_option.launch
 /home/autoware/Autoware/install/lane_planner/share/lane_planner/launch/lane_select.launch
+/home/autoware/Autoware/install/lane_planner/share/lane_planner/launch/lane_rule_option.launch
+/home/autoware/Autoware/install/lane_planner/share/lane_planner/launch/lane_navi.launch

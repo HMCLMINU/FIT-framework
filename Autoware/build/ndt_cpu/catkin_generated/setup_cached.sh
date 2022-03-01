@@ -8,5 +8,5 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/autoware/Autoware/build/ndt_cpu/devel:$CMAKE_PREFIX_PATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/autoware/Autoware/build/ndt_cpu/devel/share/common-lisp"
+export ROSLISP_PACKAGE_DIRECTORIES='/home/autoware/Autoware/build/ndt_cpu/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/autoware/Autoware/src/autoware/core_perception/ndt_cpu:$ROS_PACKAGE_PATH"

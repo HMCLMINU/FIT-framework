@@ -72,6 +72,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   endif()
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vision_lane_detect/launch" TYPE DIRECTORY FILES "/home/autoware/Autoware/src/autoware/core_perception/vision_lane_detect/launch/" REGEX "/\\.svn$" EXCLUDE)
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/autoware/Autoware/build/vision_lane_detect/gtest/cmake_install.cmake")

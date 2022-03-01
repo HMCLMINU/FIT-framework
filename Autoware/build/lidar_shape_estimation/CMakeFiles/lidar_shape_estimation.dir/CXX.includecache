@@ -203,10 +203,16 @@ ros/ros.h
 -
 
 /home/autoware/Autoware/src/autoware/core_perception/lidar_shape_estimation/src/model/bounding_box.cpp
-bounding_box.hpp
-/home/autoware/Autoware/src/autoware/core_perception/lidar_shape_estimation/src/model/bounding_box.hpp
 cmath
 -
+vector
+-
+utility
+-
+algorithm
+-
+bounding_box.hpp
+/home/autoware/Autoware/src/autoware/core_perception/lidar_shape_estimation/src/model/bounding_box.hpp
 opencv2/core/core.hpp
 -
 opencv2/highgui/highgui.hpp
@@ -239,6 +245,8 @@ lidar_shape_estimation/model_interface.hpp
 /home/autoware/Autoware/src/autoware/core_perception/lidar_shape_estimation/src/model/lidar_shape_estimation/model_interface.hpp
 
 /home/autoware/Autoware/src/autoware/core_perception/lidar_shape_estimation/src/model/cylinder.cpp
+algorithm
+-
 cylinder.hpp
 /home/autoware/Autoware/src/autoware/core_perception/lidar_shape_estimation/src/model/cylinder.hpp
 opencv2/core/core.hpp
@@ -265,6 +273,10 @@ lidar_shape_estimation/shape_estimator.hpp
 /home/autoware/Autoware/src/autoware/core_perception/lidar_shape_estimation/src/lidar_shape_estimation/shape_estimator.hpp
 
 /home/autoware/Autoware/src/autoware/core_perception/lidar_shape_estimation/src/shape_estimator.cpp
+memory
+-
+string
+-
 lidar_shape_estimation/shape_estimator.hpp
 /home/autoware/Autoware/src/autoware/core_perception/lidar_shape_estimation/src/lidar_shape_estimation/shape_estimator.hpp
 lidar_shape_estimation/model_interface.hpp
@@ -275,10 +287,6 @@ model/convex_hull.hpp
 /home/autoware/Autoware/src/autoware/core_perception/lidar_shape_estimation/src/model/convex_hull.hpp
 model/cylinder.hpp
 /home/autoware/Autoware/src/autoware/core_perception/lidar_shape_estimation/src/model/cylinder.hpp
-memory
--
-iostream
--
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string

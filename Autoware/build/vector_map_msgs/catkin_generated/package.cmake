@@ -1,5 +1,5 @@
 set(_CATKIN_CURRENT_PACKAGE "vector_map_msgs")
-set(vector_map_msgs_VERSION "1.13.0")
+set(vector_map_msgs_VERSION "1.14.0")
 set(vector_map_msgs_MAINTAINER "syouji <syouji@axe.bz>")
 set(vector_map_msgs_PACKAGE_FORMAT "2")
 set(vector_map_msgs_BUILD_DEPENDS "message_generation" "std_msgs")

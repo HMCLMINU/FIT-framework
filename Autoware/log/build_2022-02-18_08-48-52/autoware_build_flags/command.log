@@ -1,2 +1,0 @@
-Invoking command in '/home/autoware/Autoware/build/autoware_build_flags': /usr/bin/cmake /home/autoware/Autoware/src/autoware/common/autoware_build_flags -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/autoware_build_flags
-Invoked command in '/home/autoware/Autoware/build/autoware_build_flags' returned '-2': /usr/bin/cmake /home/autoware/Autoware/src/autoware/common/autoware_build_flags -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/autoware_build_flags

@@ -99,11 +99,8 @@ CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoin
 CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf/FrameGraphRequest.h
 CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf/FrameGraphResponse.h
 CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf/LinearMath/Matrix3x3.h
-CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf/LinearMath/MinMax.h
 CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf/LinearMath/Quaternion.h
-CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf/LinearMath/Scalar.h
 CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf/LinearMath/Transform.h
-CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf/LinearMath/Vector3.h
 CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf/exceptions.h
 CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf/tf.h
 CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf/tfMessage.h
@@ -111,8 +108,10 @@ CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoin
 CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf/transform_broadcaster.h
 CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf/transform_datatypes.h
 CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf/transform_listener.h
+CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf2/LinearMath/MinMax.h
 CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf2/LinearMath/QuadWord.h
 CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf2/LinearMath/Quaternion.h
+CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf2/LinearMath/Scalar.h
 CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf2/LinearMath/Transform.h
 CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf2/LinearMath/Vector3.h
 CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o: /opt/ros/melodic/include/tf2/buffer_core.h

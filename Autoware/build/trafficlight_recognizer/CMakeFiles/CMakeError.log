@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/autoware/Autoware/build/trafficlight_recognizer/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_57837/fast"
-/usr/bin/make -f CMakeFiles/cmTC_57837.dir/build.make CMakeFiles/cmTC_57837.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_86ec3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_86ec3.dir/build.make CMakeFiles/cmTC_86ec3.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/trafficlight_recognizer/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_57837.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_57837.dir/CheckSymbolExists.c.o   -c /home/autoware/Autoware/build/trafficlight_recognizer/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_57837
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57837.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_57837.dir/CheckSymbolExists.c.o  -o cmTC_57837 
-CMakeFiles/cmTC_57837.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_86ec3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_86ec3.dir/CheckSymbolExists.c.o   -c /home/autoware/Autoware/build/trafficlight_recognizer/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_86ec3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86ec3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_86ec3.dir/CheckSymbolExists.c.o  -o cmTC_86ec3 
+CMakeFiles/cmTC_86ec3.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_57837.dir/build.make:97: recipe for target 'cmTC_57837' failed
-make[1]: *** [cmTC_57837] Error 1
+CMakeFiles/cmTC_86ec3.dir/build.make:97: recipe for target 'cmTC_86ec3' failed
+make[1]: *** [cmTC_86ec3] Error 1
 make[1]: Leaving directory '/home/autoware/Autoware/build/trafficlight_recognizer/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_57837/fast' failed
-make: *** [cmTC_57837/fast] Error 2
+Makefile:126: recipe for target 'cmTC_86ec3/fast' failed
+make: *** [cmTC_86ec3/fast] Error 2
 
 File /home/autoware/Autoware/build/trafficlight_recognizer/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/autoware/Autoware/build/trafficlight_recognizer/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_840d3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_840d3.dir/build.make CMakeFiles/cmTC_840d3.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_84124/fast"
+/usr/bin/make -f CMakeFiles/cmTC_84124.dir/build.make CMakeFiles/cmTC_84124.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/trafficlight_recognizer/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_840d3.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_840d3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_840d3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_840d3.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_840d3.dir/CheckFunctionExists.c.o  -o cmTC_840d3 -lpthreads 
+Building C object CMakeFiles/cmTC_84124.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_84124.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_84124
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84124.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_84124.dir/CheckFunctionExists.c.o  -o cmTC_84124 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_840d3.dir/build.make:97: recipe for target 'cmTC_840d3' failed
-make[1]: *** [cmTC_840d3] Error 1
+CMakeFiles/cmTC_84124.dir/build.make:97: recipe for target 'cmTC_84124' failed
+make[1]: *** [cmTC_84124] Error 1
 make[1]: Leaving directory '/home/autoware/Autoware/build/trafficlight_recognizer/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_840d3/fast' failed
-make: *** [cmTC_840d3/fast] Error 2
+Makefile:126: recipe for target 'cmTC_84124/fast' failed
+make: *** [cmTC_84124/fast] Error 2
 
 

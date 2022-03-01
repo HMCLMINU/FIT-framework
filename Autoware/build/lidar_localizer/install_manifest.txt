@@ -11,11 +11,11 @@
 /home/autoware/Autoware/install/lidar_localizer/lib/lidar_localizer/ndt_matching_monitor
 /home/autoware/Autoware/install/lidar_localizer/lib/libndt_matching_monitor_lib.so
 /home/autoware/Autoware/install/lidar_localizer/lib/lidar_localizer/queue_counter
-/home/autoware/Autoware/install/lidar_localizer/share/lidar_localizer/launch/ndt_matching.launch
-/home/autoware/Autoware/install/lidar_localizer/share/lidar_localizer/launch/ndt_mapping.launch
 /home/autoware/Autoware/install/lidar_localizer/share/lidar_localizer/launch/ndt_matching_tku.launch
-/home/autoware/Autoware/install/lidar_localizer/share/lidar_localizer/launch/ndt_matching_tku_org.launch
-/home/autoware/Autoware/install/lidar_localizer/share/lidar_localizer/launch/ndt_matching_monitor.launch
+/home/autoware/Autoware/install/lidar_localizer/share/lidar_localizer/launch/ndt_matching.launch
 /home/autoware/Autoware/install/lidar_localizer/share/lidar_localizer/launch/approximate_ndt_mapping.launch
+/home/autoware/Autoware/install/lidar_localizer/share/lidar_localizer/launch/ndt_matching_monitor.launch
+/home/autoware/Autoware/install/lidar_localizer/share/lidar_localizer/launch/ndt_mapping.launch
+/home/autoware/Autoware/install/lidar_localizer/share/lidar_localizer/launch/ndt_matching_tku_org.launch
 /home/autoware/Autoware/install/lidar_localizer/share/lidar_localizer/launch/icp_matching.launch
 /home/autoware/Autoware/install/lidar_localizer/share/lidar_localizer/launch/ndt_mapping_tku.launch

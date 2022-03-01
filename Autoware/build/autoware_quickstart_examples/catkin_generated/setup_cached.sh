@@ -8,5 +8,5 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/autoware/Autoware/build/autoware_quickstart_examples/devel:$CMAKE_PREFIX_PATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/autoware/Autoware/build/autoware_quickstart_examples/devel/share/common-lisp"
+export ROSLISP_PACKAGE_DIRECTORIES='/home/autoware/Autoware/build/autoware_quickstart_examples/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/autoware/Autoware/src/autoware/documentation/autoware_quickstart_examples:$ROS_PACKAGE_PATH"

@@ -769,8 +769,6 @@ parser.h
 /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.h
 data.h
 /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.h
-darknet.h
-/home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/darknet.h
 
 /home/autoware/Autoware/src/autoware/core_perception/vision_darknet_detect/darknet/src/network.h
 darknet.h

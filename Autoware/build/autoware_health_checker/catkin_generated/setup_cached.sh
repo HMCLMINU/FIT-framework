@@ -8,7 +8,7 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/autoware/Autoware/build/autoware_health_checker/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/autoware/Autoware/install/ros_observer/lib:/home/autoware/Autoware/install/autoware_system_msgs/lib:/opt/ros/melodic/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64"
-export PKG_CONFIG_PATH="/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/autoware/Autoware/build/autoware_health_checker/devel/share/common-lisp"
+export LD_LIBRARY_PATH='/home/autoware/Autoware/install/ros_observer/lib:/home/autoware/Autoware/install/autoware_system_msgs/lib:/opt/ros/melodic/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'
+export PKG_CONFIG_PATH='/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/autoware/Autoware/build/autoware_health_checker/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/autoware/Autoware/src/autoware/common/autoware_health_checker:$ROS_PACKAGE_PATH"

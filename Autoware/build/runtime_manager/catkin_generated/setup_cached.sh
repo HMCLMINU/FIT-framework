@@ -9,6 +9,6 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/autoware/Autoware/build/runtime_manager/devel:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/autoware/Autoware/install/tablet_socket_msgs/lib:/home/autoware/Autoware/install/autoware_msgs/lib:/home/autoware/Autoware/install/autoware_config_msgs/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/autoware/Autoware/install/tablet_socket_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/autoware/Autoware/build/runtime_manager/devel/share/common-lisp"
+export PKG_CONFIG_PATH='/home/autoware/Autoware/install/tablet_socket_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_config_msgs/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/autoware/Autoware/build/runtime_manager/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/autoware/Autoware/src/autoware/utilities/runtime_manager:$ROS_PACKAGE_PATH"

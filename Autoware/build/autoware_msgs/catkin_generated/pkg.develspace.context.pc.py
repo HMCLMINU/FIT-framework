@@ -5,4 +5,4 @@ PROJECT_CATKIN_DEPENDS = "geometry_msgs;jsk_recognition_msgs;message_runtime;sen
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "autoware_msgs"
 PROJECT_SPACE_DIR = "/home/autoware/Autoware/build/autoware_msgs/devel"
-PROJECT_VERSION = "1.13.0"
+PROJECT_VERSION = "1.14.0"

@@ -1,10 +1,5 @@
 booted_cmds:
-  names:
-  - op_common_params
-  - op_trajectory_generator
-  - op_motion_predictor
-  - op_trajectory_evaluator
-  - op_behavior_selector
+  names: []
 calibration_publisher:
   camera_frame: camera
   camera_id: ''
@@ -48,6 +43,36 @@ detection_qs:
   file: ''
 lanelet_map:
   file_name: ''
+lidar_naive_l_shape_detect:
+  budget: 20
+  cpu_chks:
+  - true
+  - true
+  - true
+  - true
+  - true
+  - true
+  - true
+  - true
+  - true
+  - true
+  - true
+  - true
+  - true
+  - true
+  - true
+  - true
+  input_topic: !!python/unicode '/detection/lidar_objects'
+  nice: 0
+  num_points_thres: 10
+  output_topic: /detection/lidar_objects/l_shaped
+  period: 100
+  policy: !!python/unicode 'FIFO'
+  prio: 99
+  random_ponts: 80
+  real_time: true
+  sensor_height: 2.3
+  slope_dist_thres: 2
 localization_qs:
   file: ''
 map_qs:
@@ -56,66 +81,6 @@ mission_planning_qs:
   file: ''
 motion_planning_qs:
   file: ''
-mpc_follower:
-  admisible_position_error: 5.0
-  admisible_yaw_error_deg: 90.0
-  ctrl_period: 0.03
-  curvature_smoothing_num: 35
-  delay_compensation_time: 0.2
-  enable_path_smoothing: true
-  mpc_prediction_horizon: 70
-  mpc_prediction_sampling_time: 0.1
-  mpc_weight_heading_error: 0.0
-  mpc_weight_heading_error_squared_vel_coeff: 0.3
-  mpc_weight_lat_error: 0.1
-  mpc_weight_lat_jerk: 0.0
-  mpc_weight_steering_input: 1.0
-  mpc_weight_steering_input_squared_vel_coeff: 0.25
-  mpc_weight_terminal_heading_error: 0.1
-  mpc_weight_terminal_lat_error: 10.0
-  mpc_zero_ff_steer_deg: 2.0
-  path_filter_moving_ave_num: 35
-  path_smoothing_times: 1
-  qp_solver_type: unconstraint_fast
-  qpoases_max_iter: 500
-  show_debug_info: false
-  steer_lim_deg: 35.0
-  steering_lpf_cutoff_hz: 3.0
-  vehicle_model_steer_tau: 0.3
-  vehicle_model_type: kinematics
-  vehicle_model_wheelbase: 2.9
-op_common_params:
-  enableFollowing: true
-  enableLaneChange: false
-  enableStopSignBehavior: false
-  enableSwerving: true
-  enableTrafficLightBehavior: false
-  horizonDistance: 120.0
-  horizontalSafetyDistance: 1.0
-  maxAcceleration: 3.0
-  maxDeceleration: -3.0
-  maxDistanceToAvoid: 4.0
-  maxLocalPlanDistance: 80.0
-  maxVelocity: 3.0
-  minDistanceToAvoid: 15.0
-  minFollowingDistance: 30.0
-  pathDensity: 0.5
-  rollOutDensity: 0.5
-  rollOutsNumber: 4
-  velocitySource: 1
-  verticalSafetyDistance: 1.0
-op_motion_predictor:
-  enableCurbObstacles: false
-  enableGenrateBranches: false
-  enableParticleFilterPrediction: false
-  enableStepByStepSignal: false
-  max_distance_to_lane: 2.0
-  prediction_distance: 25.0
-op_trajectory_evaluator:
-  enablePrediction: false
-op_trajectory_generator:
-  samplingOutMargin: 12.0
-  samplingTipMargin: 4.0
 pcd_binarizer:
   path_pcd_binarizer: ''
   point_type: !!python/unicode 'PointXYZ'

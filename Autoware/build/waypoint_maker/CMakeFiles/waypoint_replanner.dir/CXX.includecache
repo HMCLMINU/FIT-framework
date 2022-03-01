@@ -141,6 +141,8 @@ autoware_msgs/Lane.h
 /home/autoware/Autoware/src/autoware/core_planning/waypoint_maker/nodes/waypoint_replanner/waypoint_replanner.cpp
 waypoint_replanner.h
 /home/autoware/Autoware/src/autoware/core_planning/waypoint_maker/nodes/waypoint_replanner/waypoint_replanner.h
+algorithm
+-
 
 /home/autoware/Autoware/src/autoware/core_planning/waypoint_maker/nodes/waypoint_replanner/waypoint_replanner.h
 ros/ros.h
@@ -553,13 +555,13 @@ ros/time.h
 /opt/ros/melodic/include/ros/callback_queue.h
 ros/callback_queue_interface.h
 /opt/ros/melodic/include/ros/ros/callback_queue_interface.h
+ros/internal/condition_variable.h
+/opt/ros/melodic/include/ros/ros/internal/condition_variable.h
 ros/time.h
 /opt/ros/melodic/include/ros/ros/time.h
 common.h
 /opt/ros/melodic/include/ros/common.h
 boost/shared_ptr.hpp
--
-boost/thread/condition_variable.hpp
 -
 boost/thread/mutex.hpp
 -

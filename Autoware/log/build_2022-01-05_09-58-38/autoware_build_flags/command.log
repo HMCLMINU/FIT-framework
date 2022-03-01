@@ -1,6 +1,0 @@
-Invoking command in '/home/autoware/Autoware/build/autoware_build_flags': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_build_flags -- -j32 -l32
-Invoked command in '/home/autoware/Autoware/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_build_flags -- -j32 -l32
-Invoking command in '/home/autoware/Autoware/build/autoware_build_flags': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_build_flags --target tests -- -j32 -l32
-Invoked command in '/home/autoware/Autoware/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_build_flags --target tests -- -j32 -l32
-Invoking command in '/home/autoware/Autoware/build/autoware_build_flags': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_build_flags --target install -- -j32 -l32
-Invoked command in '/home/autoware/Autoware/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/autoware_build_flags --target install -- -j32 -l32

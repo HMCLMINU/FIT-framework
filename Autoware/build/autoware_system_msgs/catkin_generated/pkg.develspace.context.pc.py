@@ -5,4 +5,4 @@ PROJECT_CATKIN_DEPENDS = "message_runtime;rosgraph_msgs;std_msgs".replace(';', '
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "autoware_system_msgs"
 PROJECT_SPACE_DIR = "/home/autoware/Autoware/build/autoware_system_msgs/devel"
-PROJECT_VERSION = "1.13.0"
+PROJECT_VERSION = "1.14.0"

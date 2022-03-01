@@ -5,6 +5,6 @@
 /home/autoware/Autoware/install/vehicle_sim_model/lib/libvehicle_sim_model.so
 /home/autoware/Autoware/install/vehicle_sim_model/include/vehicle_sim_model/vehicle_model_ideal.h
 /home/autoware/Autoware/install/vehicle_sim_model/include/vehicle_sim_model/vehicle_model_constant_acceleration.h
-/home/autoware/Autoware/install/vehicle_sim_model/include/vehicle_sim_model/vehicle_model_interface.h
 /home/autoware/Autoware/install/vehicle_sim_model/include/vehicle_sim_model/vehicle_model_time_delay.h
+/home/autoware/Autoware/install/vehicle_sim_model/include/vehicle_sim_model/vehicle_model_interface.h
 /home/autoware/Autoware/install/vehicle_sim_model/lib/vehicle_sim_model/fitParamDelayInputModel.py

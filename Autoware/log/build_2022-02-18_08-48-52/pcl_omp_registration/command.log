@@ -1,2 +1,0 @@
-Invoking command in '/home/autoware/Autoware/build/pcl_omp_registration': /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_perception/pcl_omp_registration -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/pcl_omp_registration
-Invoked command in '/home/autoware/Autoware/build/pcl_omp_registration' returned '-2': /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_perception/pcl_omp_registration -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/pcl_omp_registration

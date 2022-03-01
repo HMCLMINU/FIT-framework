@@ -145,7 +145,7 @@ devel/lib/lane_planner/test-lane_select: CMakeFiles/test-lane_select.dir/build.m
 devel/lib/lane_planner/test-lane_select: gtest/googlemock/gtest/libgtest.so
 devel/lib/lane_planner/test-lane_select: /home/autoware/Autoware/install/gnss/lib/libgnss.so
 devel/lib/lane_planner/test-lane_select: /home/autoware/Autoware/install/lanelet2_extension/lib/liblanelet2_extension_lib.so
-devel/lib/lane_planner/test-lane_select: /opt/ros/melodic/lib/liblanelet2_validation.so.1.0.1
+devel/lib/lane_planner/test-lane_select: /opt/ros/melodic/lib/liblanelet2_validation.so
 devel/lib/lane_planner/test-lane_select: /home/autoware/Autoware/install/libwaypoint_follower/lib/liblibwaypoint_follower.so
 devel/lib/lane_planner/test-lane_select: /home/autoware/Autoware/install/amathutils_lib/lib/libamathutils_lib.so
 devel/lib/lane_planner/test-lane_select: /home/autoware/Autoware/install/vector_map/lib/libvector_map.so
@@ -172,13 +172,13 @@ devel/lib/lane_planner/test-lane_select: /usr/lib/x86_64-linux-gnu/libboost_date
 devel/lib/lane_planner/test-lane_select: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 devel/lib/lane_planner/test-lane_select: /usr/lib/x86_64-linux-gnu/libpthread.so
 devel/lib/lane_planner/test-lane_select: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-devel/lib/lane_planner/test-lane_select: /opt/ros/melodic/lib/liblanelet2_projection.so.1.0.1
-devel/lib/lane_planner/test-lane_select: /opt/ros/melodic/lib/liblanelet2_io.so.1.0.1
+devel/lib/lane_planner/test-lane_select: /opt/ros/melodic/lib/liblanelet2_projection.so
+devel/lib/lane_planner/test-lane_select: /opt/ros/melodic/lib/liblanelet2_io.so
 devel/lib/lane_planner/test-lane_select: /usr/lib/x86_64-linux-gnu/libpugixml.so
 devel/lib/lane_planner/test-lane_select: /usr/lib/x86_64-linux-gnu/libGeographic.so
-devel/lib/lane_planner/test-lane_select: /opt/ros/melodic/lib/liblanelet2_routing.so.1.0.1
-devel/lib/lane_planner/test-lane_select: /opt/ros/melodic/lib/liblanelet2_traffic_rules.so.1.0.1
-devel/lib/lane_planner/test-lane_select: /opt/ros/melodic/lib/liblanelet2_core.so.1.0.1
+devel/lib/lane_planner/test-lane_select: /opt/ros/melodic/lib/liblanelet2_routing.so
+devel/lib/lane_planner/test-lane_select: /opt/ros/melodic/lib/liblanelet2_traffic_rules.so
+devel/lib/lane_planner/test-lane_select: /opt/ros/melodic/lib/liblanelet2_core.so
 devel/lib/lane_planner/test-lane_select: /usr/lib/x86_64-linux-gnu/libboost_wserialization.so
 devel/lib/lane_planner/test-lane_select: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 devel/lib/lane_planner/test-lane_select: /usr/lib/x86_64-linux-gnu/libboost_random.so

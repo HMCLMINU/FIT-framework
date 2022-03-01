@@ -5,5 +5,5 @@
 /home/autoware/Autoware/install/microstrain_driver/lib/libmicrostrain_driver.so
 /home/autoware/Autoware/install/microstrain_driver/lib/microstrain_driver/3dm_gx5_15_node
 /home/autoware/Autoware/install/microstrain_driver/lib/microstrain_driver/3dm_gx5_45_node
-/home/autoware/Autoware/install/microstrain_driver/share/microstrain_driver/launch/microstrain.launch
 /home/autoware/Autoware/install/microstrain_driver/share/microstrain_driver/launch/3dm_gx5_15.launch
+/home/autoware/Autoware/install/microstrain_driver/share/microstrain_driver/launch/microstrain.launch

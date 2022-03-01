@@ -1,5 +1,5 @@
 set(_CATKIN_CURRENT_PACKAGE "autoware_external_msgs")
-set(autoware_external_msgs_VERSION "1.13.0")
+set(autoware_external_msgs_VERSION "1.14.0")
 set(autoware_external_msgs_MAINTAINER "Abraham Monrroy <abrahammonrroy@yahoo.com>")
 set(autoware_external_msgs_PACKAGE_FORMAT "2")
 set(autoware_external_msgs_BUILD_DEPENDS "lgsvl_msgs")

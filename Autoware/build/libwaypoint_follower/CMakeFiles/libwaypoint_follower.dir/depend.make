@@ -44,6 +44,7 @@ CMakeFiles/libwaypoint_follower.dir/src/libwaypoint_follower.cpp.o: /opt/ros/mel
 CMakeFiles/libwaypoint_follower.dir/src/libwaypoint_follower.cpp.o: /opt/ros/melodic/include/ros/exceptions.h
 CMakeFiles/libwaypoint_follower.dir/src/libwaypoint_follower.cpp.o: /opt/ros/melodic/include/ros/forwards.h
 CMakeFiles/libwaypoint_follower.dir/src/libwaypoint_follower.cpp.o: /opt/ros/melodic/include/ros/init.h
+CMakeFiles/libwaypoint_follower.dir/src/libwaypoint_follower.cpp.o: /opt/ros/melodic/include/ros/internal/condition_variable.h
 CMakeFiles/libwaypoint_follower.dir/src/libwaypoint_follower.cpp.o: /opt/ros/melodic/include/ros/macros.h
 CMakeFiles/libwaypoint_follower.dir/src/libwaypoint_follower.cpp.o: /opt/ros/melodic/include/ros/master.h
 CMakeFiles/libwaypoint_follower.dir/src/libwaypoint_follower.cpp.o: /opt/ros/melodic/include/ros/message.h
@@ -364,6 +365,7 @@ CMakeFiles/libwaypoint_follower.dir/src/pure_pursuit.cpp.o: /opt/ros/melodic/inc
 CMakeFiles/libwaypoint_follower.dir/src/pure_pursuit.cpp.o: /opt/ros/melodic/include/ros/exceptions.h
 CMakeFiles/libwaypoint_follower.dir/src/pure_pursuit.cpp.o: /opt/ros/melodic/include/ros/forwards.h
 CMakeFiles/libwaypoint_follower.dir/src/pure_pursuit.cpp.o: /opt/ros/melodic/include/ros/init.h
+CMakeFiles/libwaypoint_follower.dir/src/pure_pursuit.cpp.o: /opt/ros/melodic/include/ros/internal/condition_variable.h
 CMakeFiles/libwaypoint_follower.dir/src/pure_pursuit.cpp.o: /opt/ros/melodic/include/ros/macros.h
 CMakeFiles/libwaypoint_follower.dir/src/pure_pursuit.cpp.o: /opt/ros/melodic/include/ros/master.h
 CMakeFiles/libwaypoint_follower.dir/src/pure_pursuit.cpp.o: /opt/ros/melodic/include/ros/message.h

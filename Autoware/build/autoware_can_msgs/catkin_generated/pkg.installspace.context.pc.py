@@ -5,4 +5,4 @@ PROJECT_CATKIN_DEPENDS = "message_runtime;std_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "autoware_can_msgs"
 PROJECT_SPACE_DIR = "/home/autoware/Autoware/install/autoware_can_msgs"
-PROJECT_VERSION = "1.13.0"
+PROJECT_VERSION = "1.14.0"

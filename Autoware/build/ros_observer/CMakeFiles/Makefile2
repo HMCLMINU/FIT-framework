@@ -678,10 +678,10 @@ CMakeFiles/ros_observer.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.d
 CMakeFiles/ros_observer.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
 CMakeFiles/ros_observer.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 CMakeFiles/ros_observer.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-CMakeFiles/ros_observer.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 CMakeFiles/ros_observer.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
 CMakeFiles/ros_observer.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/ros_observer.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+CMakeFiles/ros_observer.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 CMakeFiles/ros_observer.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
 CMakeFiles/ros_observer.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 CMakeFiles/ros_observer.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
@@ -1147,10 +1147,10 @@ CMakeFiles/lib_ros_observer.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_
 CMakeFiles/lib_ros_observer.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
 CMakeFiles/lib_ros_observer.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 CMakeFiles/lib_ros_observer.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-CMakeFiles/lib_ros_observer.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 CMakeFiles/lib_ros_observer.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
 CMakeFiles/lib_ros_observer.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/lib_ros_observer.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+CMakeFiles/lib_ros_observer.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 CMakeFiles/lib_ros_observer.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
 CMakeFiles/lib_ros_observer.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 CMakeFiles/lib_ros_observer.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all

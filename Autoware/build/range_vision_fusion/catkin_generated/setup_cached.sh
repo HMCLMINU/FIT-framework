@@ -5,10 +5,11 @@
 # it emulates the modifications of the setup script without recurring computations
 
 # new environment variables
+export ROSLISP_PACKAGE_DIRECTORIES='/home/autoware/Autoware/build/range_vision_fusion/devel/share/common-lisp'
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/autoware/Autoware/build/range_vision_fusion/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/autoware/Autoware/install/autoware_msgs/lib:/home/autoware/Autoware/install/autoware_build_flags/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/autoware/Autoware/build/range_vision_fusion/devel/share/common-lisp"
+export LD_LIBRARY_PATH="/home/autoware/Autoware/build/range_vision_fusion/devel/lib:/home/autoware/Autoware/install/autoware_msgs/lib:/home/autoware/Autoware/install/autoware_build_flags/lib:$LD_LIBRARY_PATH"
+export PATH='/opt/ros/melodic/bin:/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+export PKG_CONFIG_PATH='/home/autoware/Autoware/build/range_vision_fusion/devel/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'
 export ROS_PACKAGE_PATH="/home/autoware/Autoware/src/autoware/core_perception/range_vision_fusion:$ROS_PACKAGE_PATH"

@@ -1,0 +1,8 @@
+prefix=/home/autoware/Autoware/install/tvm_utility
+
+Name: tvm_utility
+Description: Description of tvm_utility
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: pcl_ros autoware_msgs

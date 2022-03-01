@@ -1,5 +1,5 @@
 set(_CATKIN_CURRENT_PACKAGE "autoware_config_msgs")
-set(autoware_config_msgs_VERSION "1.13.0")
+set(autoware_config_msgs_VERSION "1.14.0")
 set(autoware_config_msgs_MAINTAINER "Yusuke Fujii <yusuke.fujii@tier4.jp>")
 set(autoware_config_msgs_PACKAGE_FORMAT "2")
 set(autoware_config_msgs_BUILD_DEPENDS "message_generation" "std_msgs")

@@ -78,7 +78,7 @@ set(CUDA_NVCC_FLAGS_RELEASE  ; )
 set(CUDA_NVCC_FLAGS_DEBUG  ; )
 set(CUDA_NVCC_FLAGS_MINSIZEREL  ; )
 set(CUDA_NVCC_FLAGS_RELWITHDEBINFO  ; )
-set(nvcc_flags -m64;--std;c++11;-Dgpu_point_pillars_lib_EXPORTS) # list
+set(nvcc_flags -m64;-Dgpu_point_pillars_lib_EXPORTS) # list
 set(CUDA_NVCC_INCLUDE_DIRS "/usr/local/cuda/include;$<TARGET_PROPERTY:gpu_point_pillars_lib,INCLUDE_DIRECTORIES>") # list (needs to be in quotes to handle spaces properly).
 set(CUDA_NVCC_COMPILE_DEFINITIONS [==[$<TARGET_PROPERTY:gpu_point_pillars_lib,COMPILE_DEFINITIONS>]==]) # list (needs to be in lua quotes see #16510 ).
 set(format_flag "-c") # string
@@ -104,7 +104,7 @@ endif()
 
 # This is the list of host compilation flags.  It C or CXX should already have
 # been chosen by FindCUDA.cmake.
-set(CMAKE_HOST_FLAGS   -fPIC)
+set(CMAKE_HOST_FLAGS  -std=c++14 -fPIC)
 set(CMAKE_HOST_FLAGS_RELEASE -O3 -DNDEBUG)
 set(CMAKE_HOST_FLAGS_DEBUG -g)
 set(CMAKE_HOST_FLAGS_MINSIZEREL -Os -DNDEBUG)

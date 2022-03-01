@@ -8,7 +8,7 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/autoware/Autoware/build/mpc_follower/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/autoware/Autoware/install/autoware_health_checker/lib:/home/autoware/Autoware/install/amathutils_lib/lib:/home/autoware/Autoware/install/ros_observer/lib:/home/autoware/Autoware/install/autoware_system_msgs/lib:/home/autoware/Autoware/install/autoware_msgs/lib:/home/autoware/Autoware/install/autoware_build_flags/lib:/opt/ros/melodic/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64"
-export PKG_CONFIG_PATH="/home/autoware/Autoware/install/autoware_health_checker/lib/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/autoware/Autoware/build/mpc_follower/devel/share/common-lisp"
+export LD_LIBRARY_PATH='/home/autoware/Autoware/install/autoware_health_checker/lib:/home/autoware/Autoware/install/amathutils_lib/lib:/home/autoware/Autoware/install/ros_observer/lib:/home/autoware/Autoware/install/autoware_system_msgs/lib:/home/autoware/Autoware/install/autoware_msgs/lib:/home/autoware/Autoware/install/autoware_build_flags/lib:/opt/ros/melodic/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'
+export PKG_CONFIG_PATH='/home/autoware/Autoware/install/autoware_health_checker/lib/pkgconfig:/home/autoware/Autoware/install/amathutils_lib/lib/pkgconfig:/home/autoware/Autoware/install/ros_observer/lib/pkgconfig:/home/autoware/Autoware/install/autoware_system_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/autoware/Autoware/build/mpc_follower/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/autoware/Autoware/src/autoware/core_planning/mpc_follower:$ROS_PACKAGE_PATH"

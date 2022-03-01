@@ -105,7 +105,7 @@ devel/lib/libobject_map_utils_lib.so: /usr/lib/x86_64-linux-gnu/libopencv_imgpro
 devel/lib/libobject_map_utils_lib.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
 devel/lib/libobject_map_utils_lib.so: /home/autoware/Autoware/install/lanelet2_extension/lib/liblanelet2_extension_lib.so
 devel/lib/libobject_map_utils_lib.so: /home/autoware/Autoware/install/amathutils_lib/lib/libamathutils_lib.so
-devel/lib/libobject_map_utils_lib.so: /opt/ros/melodic/lib/liblanelet2_validation.so.1.0.1
+devel/lib/libobject_map_utils_lib.so: /opt/ros/melodic/lib/liblanelet2_validation.so
 devel/lib/libobject_map_utils_lib.so: /opt/ros/melodic/lib/libpcl_ros_filter.so
 devel/lib/libobject_map_utils_lib.so: /opt/ros/melodic/lib/libpcl_ros_tf.so
 devel/lib/libobject_map_utils_lib.so: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
@@ -323,13 +323,13 @@ devel/lib/libobject_map_utils_lib.so: /usr/lib/x86_64-linux-gnu/libboost_date_ti
 devel/lib/libobject_map_utils_lib.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 devel/lib/libobject_map_utils_lib.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 devel/lib/libobject_map_utils_lib.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-devel/lib/libobject_map_utils_lib.so: /opt/ros/melodic/lib/liblanelet2_projection.so.1.0.1
-devel/lib/libobject_map_utils_lib.so: /opt/ros/melodic/lib/liblanelet2_io.so.1.0.1
+devel/lib/libobject_map_utils_lib.so: /opt/ros/melodic/lib/liblanelet2_projection.so
+devel/lib/libobject_map_utils_lib.so: /opt/ros/melodic/lib/liblanelet2_io.so
 devel/lib/libobject_map_utils_lib.so: /usr/lib/x86_64-linux-gnu/libpugixml.so
 devel/lib/libobject_map_utils_lib.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
-devel/lib/libobject_map_utils_lib.so: /opt/ros/melodic/lib/liblanelet2_routing.so.1.0.1
-devel/lib/libobject_map_utils_lib.so: /opt/ros/melodic/lib/liblanelet2_traffic_rules.so.1.0.1
-devel/lib/libobject_map_utils_lib.so: /opt/ros/melodic/lib/liblanelet2_core.so.1.0.1
+devel/lib/libobject_map_utils_lib.so: /opt/ros/melodic/lib/liblanelet2_routing.so
+devel/lib/libobject_map_utils_lib.so: /opt/ros/melodic/lib/liblanelet2_traffic_rules.so
+devel/lib/libobject_map_utils_lib.so: /opt/ros/melodic/lib/liblanelet2_core.so
 devel/lib/libobject_map_utils_lib.so: /usr/lib/x86_64-linux-gnu/libboost_wserialization.so
 devel/lib/libobject_map_utils_lib.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 devel/lib/libobject_map_utils_lib.so: /usr/lib/x86_64-linux-gnu/libboost_random.so

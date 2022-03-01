@@ -9,6 +9,6 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/autoware/Autoware/build/vehicle_engage_panel/devel:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/autoware/Autoware/install/autoware_msgs/lib:/home/autoware/Autoware/install/autoware_build_flags/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/autoware/Autoware/build/vehicle_engage_panel/devel/share/common-lisp"
+export PKG_CONFIG_PATH='/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/autoware/Autoware/build/vehicle_engage_panel/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/autoware/Autoware/src/autoware/utilities/vehicle_engage_panel:$ROS_PACKAGE_PATH"

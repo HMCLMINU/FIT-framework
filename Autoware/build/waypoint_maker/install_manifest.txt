@@ -10,7 +10,7 @@
 /home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_velocity_visualizer
 /home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_extractor
 /home/autoware/Autoware/install/waypoint_maker/lib/waypoint_maker/waypoint_creator
+/home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/launch/waypoint_creator.launch
 /home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/launch/waypoint_loader.launch
 /home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/launch/waypoint_saver.launch
-/home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/launch/waypoint_creator.launch
 /home/autoware/Autoware/install/waypoint_maker/share/waypoint_maker/launch/waypoint_velocity_visualizer.launch

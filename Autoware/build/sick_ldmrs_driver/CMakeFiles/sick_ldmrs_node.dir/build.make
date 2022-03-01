@@ -90,6 +90,7 @@ sick_ldmrs_node_EXTERNAL_OBJECTS =
 
 devel/lib/sick_ldmrs_driver/sick_ldmrs_node: CMakeFiles/sick_ldmrs_node.dir/src/sick_ldmrs_node.cpp.o
 devel/lib/sick_ldmrs_driver/sick_ldmrs_node: CMakeFiles/sick_ldmrs_node.dir/build.make
+devel/lib/sick_ldmrs_driver/sick_ldmrs_node: /opt/ros/melodic/lib/libdiagnostic_updater.so
 devel/lib/sick_ldmrs_driver/sick_ldmrs_node: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
 devel/lib/sick_ldmrs_driver/sick_ldmrs_node: /usr/lib/x86_64-linux-gnu/libpcl_common.so
 devel/lib/sick_ldmrs_driver/sick_ldmrs_node: /usr/lib/x86_64-linux-gnu/libpcl_octree.so

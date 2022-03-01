@@ -1,4 +1,4 @@
-# Install script for directory: /home/autoware/Autoware/src/autoware/core_perception/lidar_imm_ukf_pda_track
+# Install script for directory: /home/autoware/Autoware/src/autoware/core_perception/imm_ukf_pda_track
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imm_ukf_pda_track" TYPE FILE FILES "/home/autoware/Autoware/src/autoware/core_perception/lidar_imm_ukf_pda_track/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imm_ukf_pda_track" TYPE FILE FILES "/home/autoware/Autoware/src/autoware/core_perception/imm_ukf_pda_track/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -93,7 +93,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imm_ukf_pda_track/launch" TYPE DIRECTORY FILES "/home/autoware/Autoware/src/autoware/core_perception/lidar_imm_ukf_pda_track/launch/" REGEX "/\\.svn$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imm_ukf_pda_track/launch" TYPE DIRECTORY FILES "/home/autoware/Autoware/src/autoware/core_perception/imm_ukf_pda_track/launch/" REGEX "/\\.svn$" EXCLUDE)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

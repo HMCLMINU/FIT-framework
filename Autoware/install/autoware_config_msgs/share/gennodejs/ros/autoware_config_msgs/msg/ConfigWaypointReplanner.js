@@ -25,16 +25,12 @@ class ConfigWaypointReplanner {
       this.velocity_min = null;
       this.accel_limit = null;
       this.decel_limit = null;
-      this.radius_thresh = null;
+      this.lateral_accel_limit = null;
       this.radius_min = null;
       this.resample_mode = null;
       this.resample_interval = null;
-      this.velocity_offset = null;
-      this.end_point_offset = null;
-      this.braking_distance = null;
       this.replan_curve_mode = null;
       this.replan_endpoint_mode = null;
-      this.overwrite_vmax_mode = null;
       this.realtime_tuning_mode = null;
     }
     else {
@@ -80,11 +76,11 @@ class ConfigWaypointReplanner {
       else {
         this.decel_limit = 0.0;
       }
-      if (initObj.hasOwnProperty('radius_thresh')) {
-        this.radius_thresh = initObj.radius_thresh
+      if (initObj.hasOwnProperty('lateral_accel_limit')) {
+        this.lateral_accel_limit = initObj.lateral_accel_limit
       }
       else {
-        this.radius_thresh = 0.0;
+        this.lateral_accel_limit = 0.0;
       }
       if (initObj.hasOwnProperty('radius_min')) {
         this.radius_min = initObj.radius_min
@@ -104,24 +100,6 @@ class ConfigWaypointReplanner {
       else {
         this.resample_interval = 0.0;
       }
-      if (initObj.hasOwnProperty('velocity_offset')) {
-        this.velocity_offset = initObj.velocity_offset
-      }
-      else {
-        this.velocity_offset = 0;
-      }
-      if (initObj.hasOwnProperty('end_point_offset')) {
-        this.end_point_offset = initObj.end_point_offset
-      }
-      else {
-        this.end_point_offset = 0;
-      }
-      if (initObj.hasOwnProperty('braking_distance')) {
-        this.braking_distance = initObj.braking_distance
-      }
-      else {
-        this.braking_distance = 0;
-      }
       if (initObj.hasOwnProperty('replan_curve_mode')) {
         this.replan_curve_mode = initObj.replan_curve_mode
       }
@@ -133,12 +111,6 @@ class ConfigWaypointReplanner {
       }
       else {
         this.replan_endpoint_mode = false;
-      }
-      if (initObj.hasOwnProperty('overwrite_vmax_mode')) {
-        this.overwrite_vmax_mode = initObj.overwrite_vmax_mode
-      }
-      else {
-        this.overwrite_vmax_mode = false;
       }
       if (initObj.hasOwnProperty('realtime_tuning_mode')) {
         this.realtime_tuning_mode = initObj.realtime_tuning_mode
@@ -165,26 +137,18 @@ class ConfigWaypointReplanner {
     bufferOffset = _serializer.float32(obj.accel_limit, buffer, bufferOffset);
     // Serialize message field [decel_limit]
     bufferOffset = _serializer.float32(obj.decel_limit, buffer, bufferOffset);
-    // Serialize message field [radius_thresh]
-    bufferOffset = _serializer.float32(obj.radius_thresh, buffer, bufferOffset);
+    // Serialize message field [lateral_accel_limit]
+    bufferOffset = _serializer.float32(obj.lateral_accel_limit, buffer, bufferOffset);
     // Serialize message field [radius_min]
     bufferOffset = _serializer.float32(obj.radius_min, buffer, bufferOffset);
     // Serialize message field [resample_mode]
     bufferOffset = _serializer.bool(obj.resample_mode, buffer, bufferOffset);
     // Serialize message field [resample_interval]
     bufferOffset = _serializer.float32(obj.resample_interval, buffer, bufferOffset);
-    // Serialize message field [velocity_offset]
-    bufferOffset = _serializer.int32(obj.velocity_offset, buffer, bufferOffset);
-    // Serialize message field [end_point_offset]
-    bufferOffset = _serializer.int32(obj.end_point_offset, buffer, bufferOffset);
-    // Serialize message field [braking_distance]
-    bufferOffset = _serializer.int32(obj.braking_distance, buffer, bufferOffset);
     // Serialize message field [replan_curve_mode]
     bufferOffset = _serializer.bool(obj.replan_curve_mode, buffer, bufferOffset);
     // Serialize message field [replan_endpoint_mode]
     bufferOffset = _serializer.bool(obj.replan_endpoint_mode, buffer, bufferOffset);
-    // Serialize message field [overwrite_vmax_mode]
-    bufferOffset = _serializer.bool(obj.overwrite_vmax_mode, buffer, bufferOffset);
     // Serialize message field [realtime_tuning_mode]
     bufferOffset = _serializer.bool(obj.realtime_tuning_mode, buffer, bufferOffset);
     return bufferOffset;
@@ -208,26 +172,18 @@ class ConfigWaypointReplanner {
     data.accel_limit = _deserializer.float32(buffer, bufferOffset);
     // Deserialize message field [decel_limit]
     data.decel_limit = _deserializer.float32(buffer, bufferOffset);
-    // Deserialize message field [radius_thresh]
-    data.radius_thresh = _deserializer.float32(buffer, bufferOffset);
+    // Deserialize message field [lateral_accel_limit]
+    data.lateral_accel_limit = _deserializer.float32(buffer, bufferOffset);
     // Deserialize message field [radius_min]
     data.radius_min = _deserializer.float32(buffer, bufferOffset);
     // Deserialize message field [resample_mode]
     data.resample_mode = _deserializer.bool(buffer, bufferOffset);
     // Deserialize message field [resample_interval]
     data.resample_interval = _deserializer.float32(buffer, bufferOffset);
-    // Deserialize message field [velocity_offset]
-    data.velocity_offset = _deserializer.int32(buffer, bufferOffset);
-    // Deserialize message field [end_point_offset]
-    data.end_point_offset = _deserializer.int32(buffer, bufferOffset);
-    // Deserialize message field [braking_distance]
-    data.braking_distance = _deserializer.int32(buffer, bufferOffset);
     // Deserialize message field [replan_curve_mode]
     data.replan_curve_mode = _deserializer.bool(buffer, bufferOffset);
     // Deserialize message field [replan_endpoint_mode]
     data.replan_endpoint_mode = _deserializer.bool(buffer, bufferOffset);
-    // Deserialize message field [overwrite_vmax_mode]
-    data.overwrite_vmax_mode = _deserializer.bool(buffer, bufferOffset);
     // Deserialize message field [realtime_tuning_mode]
     data.realtime_tuning_mode = _deserializer.bool(buffer, bufferOffset);
     return data;
@@ -236,7 +192,7 @@ class ConfigWaypointReplanner {
   static getMessageSize(object) {
     let length = 0;
     length += object.multi_lane_csv.length;
-    return length + 51;
+    return length + 38;
   }
 
   static datatype() {
@@ -246,7 +202,7 @@ class ConfigWaypointReplanner {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return '377fcfc666c7fdd690ae1373651c353b';
+    return '72d6b072a20ab4653993ebad17c0f697';
   }
 
   static messageDefinition() {
@@ -259,16 +215,12 @@ class ConfigWaypointReplanner {
     float32 velocity_min
     float32 accel_limit
     float32 decel_limit
-    float32 radius_thresh
+    float32 lateral_accel_limit
     float32 radius_min
     bool resample_mode
     float32 resample_interval
-    int32 velocity_offset
-    int32 end_point_offset
-    int32 braking_distance
     bool replan_curve_mode
     bool replan_endpoint_mode
-    bool overwrite_vmax_mode
     bool realtime_tuning_mode
     
     `;
@@ -329,11 +281,11 @@ class ConfigWaypointReplanner {
       resolved.decel_limit = 0.0
     }
 
-    if (msg.radius_thresh !== undefined) {
-      resolved.radius_thresh = msg.radius_thresh;
+    if (msg.lateral_accel_limit !== undefined) {
+      resolved.lateral_accel_limit = msg.lateral_accel_limit;
     }
     else {
-      resolved.radius_thresh = 0.0
+      resolved.lateral_accel_limit = 0.0
     }
 
     if (msg.radius_min !== undefined) {
@@ -357,27 +309,6 @@ class ConfigWaypointReplanner {
       resolved.resample_interval = 0.0
     }
 
-    if (msg.velocity_offset !== undefined) {
-      resolved.velocity_offset = msg.velocity_offset;
-    }
-    else {
-      resolved.velocity_offset = 0
-    }
-
-    if (msg.end_point_offset !== undefined) {
-      resolved.end_point_offset = msg.end_point_offset;
-    }
-    else {
-      resolved.end_point_offset = 0
-    }
-
-    if (msg.braking_distance !== undefined) {
-      resolved.braking_distance = msg.braking_distance;
-    }
-    else {
-      resolved.braking_distance = 0
-    }
-
     if (msg.replan_curve_mode !== undefined) {
       resolved.replan_curve_mode = msg.replan_curve_mode;
     }
@@ -390,13 +321,6 @@ class ConfigWaypointReplanner {
     }
     else {
       resolved.replan_endpoint_mode = false
-    }
-
-    if (msg.overwrite_vmax_mode !== undefined) {
-      resolved.overwrite_vmax_mode = msg.overwrite_vmax_mode;
-    }
-    else {
-      resolved.overwrite_vmax_mode = false
     }
 
     if (msg.realtime_tuning_mode !== undefined) {

@@ -606,7 +606,7 @@ devel/lib/decision_maker/decision_maker_node: /usr/lib/x86_64-linux-gnu/libtinyx
 devel/lib/decision_maker/decision_maker_node: /opt/ros/melodic/lib/librosconsole_bridge.so
 devel/lib/decision_maker/decision_maker_node: /home/autoware/Autoware/install/lanelet2_extension/lib/liblanelet2_extension_lib.so
 devel/lib/decision_maker/decision_maker_node: /home/autoware/Autoware/install/amathutils_lib/lib/libamathutils_lib.so
-devel/lib/decision_maker/decision_maker_node: /opt/ros/melodic/lib/liblanelet2_validation.so.1.0.1
+devel/lib/decision_maker/decision_maker_node: /opt/ros/melodic/lib/liblanelet2_validation.so
 devel/lib/decision_maker/decision_maker_node: /home/autoware/Autoware/install/state_machine_lib/lib/libstate_machine_lib.so
 devel/lib/decision_maker/decision_maker_node: /home/autoware/Autoware/install/vector_map/lib/libvector_map.so
 devel/lib/decision_maker/decision_maker_node: /opt/ros/melodic/lib/libtf.so
@@ -632,13 +632,13 @@ devel/lib/decision_maker/decision_maker_node: /usr/lib/x86_64-linux-gnu/libboost
 devel/lib/decision_maker/decision_maker_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 devel/lib/decision_maker/decision_maker_node: /usr/lib/x86_64-linux-gnu/libpthread.so
 devel/lib/decision_maker/decision_maker_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-devel/lib/decision_maker/decision_maker_node: /opt/ros/melodic/lib/liblanelet2_projection.so.1.0.1
-devel/lib/decision_maker/decision_maker_node: /opt/ros/melodic/lib/liblanelet2_io.so.1.0.1
+devel/lib/decision_maker/decision_maker_node: /opt/ros/melodic/lib/liblanelet2_projection.so
+devel/lib/decision_maker/decision_maker_node: /opt/ros/melodic/lib/liblanelet2_io.so
 devel/lib/decision_maker/decision_maker_node: /usr/lib/x86_64-linux-gnu/libpugixml.so
 devel/lib/decision_maker/decision_maker_node: /usr/lib/x86_64-linux-gnu/libGeographic.so
-devel/lib/decision_maker/decision_maker_node: /opt/ros/melodic/lib/liblanelet2_routing.so.1.0.1
-devel/lib/decision_maker/decision_maker_node: /opt/ros/melodic/lib/liblanelet2_traffic_rules.so.1.0.1
-devel/lib/decision_maker/decision_maker_node: /opt/ros/melodic/lib/liblanelet2_core.so.1.0.1
+devel/lib/decision_maker/decision_maker_node: /opt/ros/melodic/lib/liblanelet2_routing.so
+devel/lib/decision_maker/decision_maker_node: /opt/ros/melodic/lib/liblanelet2_traffic_rules.so
+devel/lib/decision_maker/decision_maker_node: /opt/ros/melodic/lib/liblanelet2_core.so
 devel/lib/decision_maker/decision_maker_node: /usr/lib/x86_64-linux-gnu/libboost_wserialization.so
 devel/lib/decision_maker/decision_maker_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 devel/lib/decision_maker/decision_maker_node: /usr/lib/x86_64-linux-gnu/libboost_random.so

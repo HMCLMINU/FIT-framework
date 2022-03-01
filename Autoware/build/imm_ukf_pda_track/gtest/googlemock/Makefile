@@ -48,7 +48,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/autoware/Autoware/src/autoware/core_perception/lidar_imm_ukf_pda_track
+CMAKE_SOURCE_DIR = /home/autoware/Autoware/src/autoware/core_perception/imm_ukf_pda_track
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/autoware/Autoware/build/imm_ukf_pda_track

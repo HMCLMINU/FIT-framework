@@ -273,6 +273,7 @@ devel/lib/points_downsampler/voxel_grid_filter: /opt/ros/melodic/lib/libroslz4.s
 devel/lib/points_downsampler/voxel_grid_filter: /usr/lib/x86_64-linux-gnu/liblz4.so
 devel/lib/points_downsampler/voxel_grid_filter: /opt/ros/melodic/lib/libtopic_tools.so
 devel/lib/points_downsampler/voxel_grid_filter: /opt/ros/melodic/lib/libvelodyne_input.so
+devel/lib/points_downsampler/voxel_grid_filter: /opt/ros/melodic/lib/libdiagnostic_updater.so
 devel/lib/points_downsampler/voxel_grid_filter: /opt/ros/melodic/lib/libnodeletlib.so
 devel/lib/points_downsampler/voxel_grid_filter: /opt/ros/melodic/lib/libbondcpp.so
 devel/lib/points_downsampler/voxel_grid_filter: /usr/lib/x86_64-linux-gnu/libuuid.so

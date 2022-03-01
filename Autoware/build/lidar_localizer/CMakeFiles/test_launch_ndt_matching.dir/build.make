@@ -167,6 +167,9 @@ devel/lib/lidar_localizer/test_launch_ndt_matching: /usr/lib/x86_64-linux-gnu/li
 devel/lib/lidar_localizer/test_launch_ndt_matching: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so
 devel/lib/lidar_localizer/test_launch_ndt_matching: /usr/lib/x86_64-linux-gnu/libpcl_people.so
 devel/lib/lidar_localizer/test_launch_ndt_matching: /home/autoware/Autoware/install/ndt_tku/lib/libndt_tku.so
+devel/lib/lidar_localizer/test_launch_ndt_matching: /opt/ros/melodic/lib/libtf_conversions.so
+devel/lib/lidar_localizer/test_launch_ndt_matching: /opt/ros/melodic/lib/libkdl_conversions.so
+devel/lib/lidar_localizer/test_launch_ndt_matching: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
 devel/lib/lidar_localizer/test_launch_ndt_matching: /opt/ros/melodic/lib/libvelodyne_rawdata.so
 devel/lib/lidar_localizer/test_launch_ndt_matching: /opt/ros/melodic/lib/libpcl_ros_filter.so
 devel/lib/lidar_localizer/test_launch_ndt_matching: /opt/ros/melodic/lib/libpcl_ros_tf.so
@@ -350,6 +353,7 @@ devel/lib/lidar_localizer/test_launch_ndt_matching: /opt/ros/melodic/lib/librosl
 devel/lib/lidar_localizer/test_launch_ndt_matching: /usr/lib/x86_64-linux-gnu/liblz4.so
 devel/lib/lidar_localizer/test_launch_ndt_matching: /opt/ros/melodic/lib/libtopic_tools.so
 devel/lib/lidar_localizer/test_launch_ndt_matching: /opt/ros/melodic/lib/libvelodyne_input.so
+devel/lib/lidar_localizer/test_launch_ndt_matching: /opt/ros/melodic/lib/libdiagnostic_updater.so
 devel/lib/lidar_localizer/test_launch_ndt_matching: /opt/ros/melodic/lib/libnodeletlib.so
 devel/lib/lidar_localizer/test_launch_ndt_matching: /opt/ros/melodic/lib/libbondcpp.so
 devel/lib/lidar_localizer/test_launch_ndt_matching: /usr/lib/x86_64-linux-gnu/libuuid.so

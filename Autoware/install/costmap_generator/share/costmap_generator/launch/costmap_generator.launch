@@ -1,6 +1,6 @@
 <launch>
   <!-- node parameters -->
-  <arg name="lidar_frame" default="ego_vehicle/lidar/lidar1" />
+  <arg name="lidar_frame" default="velodyne" />
   <arg name="map_frame" default="map" />
   <arg name="grid_min_value" default="0.0" />
   <arg name="grid_max_value" default="1.0" />

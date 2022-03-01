@@ -1553,6 +1553,8 @@ geometry_msgs/PoseStamped.h
 -
 std_msgs/Int32.h
 -
+tf2_ros/transform_listener.h
+-
 autoware_config_msgs/ConfigVelocitySet.h
 -
 autoware_health_checker/health_checker/health_checker.h
@@ -1578,6 +1580,8 @@ visualization_msgs/MarkerArray.h
 std_msgs/ColorRGBA.h
 -
 iostream
+-
+tf2_ros/transform_listener.h
 -
 waypoint_planner/velocity_set/libvelocity_set.h
 -
@@ -2097,13 +2101,13 @@ ros/time.h
 /opt/ros/melodic/include/ros/callback_queue.h
 ros/callback_queue_interface.h
 /opt/ros/melodic/include/ros/ros/callback_queue_interface.h
+ros/internal/condition_variable.h
+/opt/ros/melodic/include/ros/ros/internal/condition_variable.h
 ros/time.h
 /opt/ros/melodic/include/ros/ros/time.h
 common.h
 /opt/ros/melodic/include/ros/common.h
 boost/shared_ptr.hpp
--
-boost/thread/condition_variable.hpp
 -
 boost/thread/mutex.hpp
 -
@@ -2241,6 +2245,10 @@ ros/spinner.h
 /opt/ros/melodic/include/ros/ros/spinner.h
 common.h
 /opt/ros/melodic/include/ros/common.h
+
+/opt/ros/melodic/include/ros/internal/condition_variable.h
+boost/thread/condition_variable.hpp
+-
 
 /opt/ros/melodic/include/ros/macros.h
 

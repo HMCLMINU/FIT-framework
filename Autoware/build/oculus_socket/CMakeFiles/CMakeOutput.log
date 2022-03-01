@@ -1,4 +1,4 @@
-The system is: Linux - 5.3.0-1032-azure - x86_64
+The system is: Linux - 5.4.0-96-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/autoware/Autoware/build/
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5875e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5875e.dir/build.make CMakeFiles/cmTC_5875e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c4ce6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c4ce6.dir/build.make CMakeFiles/cmTC_c4ce6.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5875e.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_5875e.dir/testCCompiler.c.o   -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_5875e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5875e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5875e.dir/testCCompiler.c.o  -o cmTC_5875e 
+Building C object CMakeFiles/cmTC_c4ce6.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c4ce6.dir/testCCompiler.c.o   -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_c4ce6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4ce6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c4ce6.dir/testCCompiler.c.o  -o cmTC_c4ce6 
 make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8f28c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8f28c.dir/build.make CMakeFiles/cmTC_8f28c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8fbff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8fbff.dir/build.make CMakeFiles/cmTC_8fbff.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8f28c.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_8f28c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_8f28c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f28c.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_8f28c.dir/CMakeCCompilerABI.c.o  -o cmTC_8f28c 
+Building C object CMakeFiles/cmTC_8fbff.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8fbff.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_8fbff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fbff.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_8fbff.dir/CMakeCCompilerABI.c.o  -o cmTC_8fbff 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8f28c' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBJZSBS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8f28c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8f28c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8f28c' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8fbff' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMWSAA8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8fbff /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8fbff.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8fbff' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8f28c/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8f28c.dir/build.make CMakeFiles/cmTC_8f28c.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8fbff/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8fbff.dir/build.make CMakeFiles/cmTC_8fbff.dir/build]
   ignore line: [make[1]: Entering directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_8f28c.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_8f28c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_8f28c]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f28c.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_8f28c.dir/CMakeCCompilerABI.c.o  -o cmTC_8f28c ]
+  ignore line: [Building C object CMakeFiles/cmTC_8fbff.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_8fbff.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_8fbff]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fbff.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_8fbff.dir/CMakeCCompilerABI.c.o  -o cmTC_8fbff ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8f28c' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBJZSBS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8f28c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8f28c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8fbff' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMWSAA8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8fbff /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8fbff.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccBJZSBS.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccMWSAA8.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8f28c] ==> ignore
+    arg [cmTC_8fbff] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -128,7 +128,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/local/cuda/lib64/stubs] ==> dir [/usr/local/cuda/lib64/stubs]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_8f28c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_8fbff.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -161,14 +161,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_33a93/fast"
-/usr/bin/make -f CMakeFiles/cmTC_33a93.dir/build.make CMakeFiles/cmTC_33a93.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2c94b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c94b.dir/build.make CMakeFiles/cmTC_2c94b.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_33a93.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_33a93.dir/feature_tests.c.o   -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/feature_tests.c
-Linking C executable cmTC_33a93
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33a93.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_33a93.dir/feature_tests.c.o  -o cmTC_33a93 
+Building C object CMakeFiles/cmTC_2c94b.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_2c94b.dir/feature_tests.c.o   -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2c94b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c94b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2c94b.dir/feature_tests.c.o  -o cmTC_2c94b 
 make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
 
 
@@ -181,14 +181,14 @@ make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFil
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_96337/fast"
-/usr/bin/make -f CMakeFiles/cmTC_96337.dir/build.make CMakeFiles/cmTC_96337.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_41175/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41175.dir/build.make CMakeFiles/cmTC_41175.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_96337.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_96337.dir/feature_tests.c.o   -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/feature_tests.c
-Linking C executable cmTC_96337
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96337.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_96337.dir/feature_tests.c.o  -o cmTC_96337 
+Building C object CMakeFiles/cmTC_41175.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_41175.dir/feature_tests.c.o   -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/feature_tests.c
+Linking C executable cmTC_41175
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41175.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_41175.dir/feature_tests.c.o  -o cmTC_41175 
 make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
 
 
@@ -201,14 +201,14 @@ make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFil
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_63072/fast"
-/usr/bin/make -f CMakeFiles/cmTC_63072.dir/build.make CMakeFiles/cmTC_63072.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b3831/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b3831.dir/build.make CMakeFiles/cmTC_b3831.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_63072.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_63072.dir/feature_tests.c.o   -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/feature_tests.c
-Linking C executable cmTC_63072
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63072.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_63072.dir/feature_tests.c.o  -o cmTC_63072 
+Building C object CMakeFiles/cmTC_b3831.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_b3831.dir/feature_tests.c.o   -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b3831
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3831.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b3831.dir/feature_tests.c.o  -o cmTC_b3831 
 make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
 
 
@@ -219,28 +219,28 @@ make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFil
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_eb57e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_eb57e.dir/build.make CMakeFiles/cmTC_eb57e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a8665/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8665.dir/build.make CMakeFiles/cmTC_a8665.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_eb57e.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_eb57e.dir/testCXXCompiler.cxx.o -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_eb57e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb57e.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_eb57e.dir/testCXXCompiler.cxx.o  -o cmTC_eb57e 
+Building CXX object CMakeFiles/cmTC_a8665.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_a8665.dir/testCXXCompiler.cxx.o -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_a8665
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8665.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a8665.dir/testCXXCompiler.cxx.o  -o cmTC_a8665 
 make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c5cd9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c5cd9.dir/build.make CMakeFiles/cmTC_c5cd9.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_bc0ab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc0ab.dir/build.make CMakeFiles/cmTC_bc0ab.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c5cd9.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_c5cd9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_c5cd9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5cd9.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_c5cd9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c5cd9 
+Building CXX object CMakeFiles/cmTC_bc0ab.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_bc0ab.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_bc0ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc0ab.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_bc0ab.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_bc0ab 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -252,9 +252,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c5cd9' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfkJKzt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c5cd9 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c5cd9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c5cd9' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_bc0ab' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0DaAdH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bc0ab /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_bc0ab.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_bc0ab' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
 
 
@@ -262,14 +262,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c5cd9/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c5cd9.dir/build.make CMakeFiles/cmTC_c5cd9.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_bc0ab/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_bc0ab.dir/build.make CMakeFiles/cmTC_bc0ab.dir/build]
   ignore line: [make[1]: Entering directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_c5cd9.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_c5cd9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_c5cd9]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5cd9.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_c5cd9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c5cd9 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_bc0ab.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_bc0ab.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_bc0ab]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc0ab.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_bc0ab.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_bc0ab ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -281,13 +281,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c5cd9' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfkJKzt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c5cd9 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c5cd9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_bc0ab' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0DaAdH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bc0ab /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_bc0ab.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccfkJKzt.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc0DaAdH.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c5cd9] ==> ignore
+    arg [cmTC_bc0ab] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -319,7 +319,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/local/cuda/lib64/stubs] ==> dir [/usr/local/cuda/lib64/stubs]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_c5cd9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_bc0ab.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -348,14 +348,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ae650/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ae650.dir/build.make CMakeFiles/cmTC_ae650.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e61ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e61ae.dir/build.make CMakeFiles/cmTC_e61ae.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ae650.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_ae650.dir/feature_tests.cxx.o -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ae650
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae650.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ae650.dir/feature_tests.cxx.o  -o cmTC_ae650 
+Building CXX object CMakeFiles/cmTC_e61ae.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_e61ae.dir/feature_tests.cxx.o -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e61ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e61ae.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e61ae.dir/feature_tests.cxx.o  -o cmTC_e61ae 
 make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
 
 
@@ -421,14 +421,14 @@ make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFil
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c7e1e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c7e1e.dir/build.make CMakeFiles/cmTC_c7e1e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f84ce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f84ce.dir/build.make CMakeFiles/cmTC_f84ce.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c7e1e.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_c7e1e.dir/feature_tests.cxx.o -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c7e1e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7e1e.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c7e1e.dir/feature_tests.cxx.o  -o cmTC_c7e1e 
+Building CXX object CMakeFiles/cmTC_f84ce.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_f84ce.dir/feature_tests.cxx.o -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f84ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f84ce.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f84ce.dir/feature_tests.cxx.o  -o cmTC_f84ce 
 make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
 
 
@@ -494,14 +494,14 @@ make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFil
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_34869/fast"
-/usr/bin/make -f CMakeFiles/cmTC_34869.dir/build.make CMakeFiles/cmTC_34869.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_bc717/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc717.dir/build.make CMakeFiles/cmTC_bc717.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_34869.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_34869.dir/feature_tests.cxx.o -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_34869
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34869.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_34869.dir/feature_tests.cxx.o  -o cmTC_34869 
+Building CXX object CMakeFiles/cmTC_bc717.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_bc717.dir/feature_tests.cxx.o -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bc717
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc717.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_bc717.dir/feature_tests.cxx.o  -o cmTC_bc717 
 make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
 
 
@@ -567,14 +567,14 @@ make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFil
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d1db6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d1db6.dir/build.make CMakeFiles/cmTC_d1db6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c49a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c49a3.dir/build.make CMakeFiles/cmTC_c49a3.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d1db6.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_d1db6.dir/feature_tests.cxx.o -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d1db6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1db6.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_d1db6.dir/feature_tests.cxx.o  -o cmTC_d1db6 
+Building CXX object CMakeFiles/cmTC_c49a3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_c49a3.dir/feature_tests.cxx.o -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c49a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c49a3.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c49a3.dir/feature_tests.cxx.o  -o cmTC_c49a3 
 make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
 
 
@@ -638,28 +638,28 @@ make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFil
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1a179/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1a179.dir/build.make CMakeFiles/cmTC_1a179.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7a26b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7a26b.dir/build.make CMakeFiles/cmTC_7a26b.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1a179.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_1a179.dir/CheckIncludeFile.c.o   -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_1a179
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a179.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1a179.dir/CheckIncludeFile.c.o  -o cmTC_1a179 
+Building C object CMakeFiles/cmTC_7a26b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7a26b.dir/CheckIncludeFile.c.o   -c /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7a26b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a26b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7a26b.dir/CheckIncludeFile.c.o  -o cmTC_7a26b 
 make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0a9cb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0a9cb.dir/build.make CMakeFiles/cmTC_0a9cb.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4c177/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4c177.dir/build.make CMakeFiles/cmTC_4c177.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0a9cb.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0a9cb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_0a9cb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a9cb.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0a9cb.dir/CheckFunctionExists.c.o  -o cmTC_0a9cb -lpthread 
+Building C object CMakeFiles/cmTC_4c177.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4c177.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4c177
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c177.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4c177.dir/CheckFunctionExists.c.o  -o cmTC_4c177 -lpthread 
 make[1]: Leaving directory '/home/autoware/Autoware/build/oculus_socket/CMakeFiles/CMakeTmp'
 
 

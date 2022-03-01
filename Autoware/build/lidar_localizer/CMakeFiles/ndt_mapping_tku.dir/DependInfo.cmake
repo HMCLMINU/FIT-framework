@@ -52,6 +52,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/autoware/Autoware/install/autoware_config_msgs/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/opt/ros/melodic/share/orocos_kdl/cmake/../../../include"
   "/usr/include/pcl-1.8"
   "/usr/local/include/eigen3"
   "/usr/include/ni"

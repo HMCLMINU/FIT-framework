@@ -468,7 +468,7 @@ RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
 SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 
 //Name of the computer/site where compile is being run
-SITE:STRING=fv-az70
+SITE:STRING=hmc
 
 //LSB Distrib tag
 UBUNTU:BOOL=TRUE
@@ -598,7 +598,7 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 imm_ukf_pda_track_BINARY_DIR:STATIC=/home/autoware/Autoware/build/imm_ukf_pda_track
 
 //Value Computed by CMake
-imm_ukf_pda_track_SOURCE_DIR:STATIC=/home/autoware/Autoware/src/autoware/core_perception/lidar_imm_ukf_pda_track
+imm_ukf_pda_track_SOURCE_DIR:STATIC=/home/autoware/Autoware/src/autoware/core_perception/imm_ukf_pda_track
 
 //The directory containing a CMake configuration file for jsk_footstep_msgs.
 jsk_footstep_msgs_DIR:PATH=/opt/ros/melodic/share/jsk_footstep_msgs/cmake
@@ -947,7 +947,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/autoware/Autoware/src/autoware/core_perception/lidar_imm_ukf_pda_track
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/autoware/Autoware/src/autoware/core_perception/imm_ukf_pda_track
 //ADVANCED property for variable: CMAKE_INSTALL_BINDIR
 CMAKE_INSTALL_BINDIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_INSTALL_DATADIR

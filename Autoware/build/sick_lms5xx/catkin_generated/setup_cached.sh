@@ -8,5 +8,5 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/autoware/Autoware/build/sick_lms5xx/devel:$CMAKE_PREFIX_PATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/autoware/Autoware/build/sick_lms5xx/devel/share/common-lisp"
+export ROSLISP_PACKAGE_DIRECTORIES='/home/autoware/Autoware/build/sick_lms5xx/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/autoware/Autoware/src/drivers/awf_drivers/lms5xx:$ROS_PACKAGE_PATH"

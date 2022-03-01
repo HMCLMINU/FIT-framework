@@ -2,5 +2,5 @@
 /home/autoware/Autoware/install/nmea_navsat/share/nmea_navsat/cmake/nmea_navsatConfig.cmake
 /home/autoware/Autoware/install/nmea_navsat/share/nmea_navsat/cmake/nmea_navsatConfig-version.cmake
 /home/autoware/Autoware/install/nmea_navsat/share/nmea_navsat/package.xml
-/home/autoware/Autoware/install/nmea_navsat/share/nmea_navsat/launch/nmea_navsat.launch
 /home/autoware/Autoware/install/nmea_navsat/share/nmea_navsat/launch/README.md
+/home/autoware/Autoware/install/nmea_navsat/share/nmea_navsat/launch/nmea_navsat.launch

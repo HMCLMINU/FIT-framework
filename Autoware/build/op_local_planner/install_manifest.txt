@@ -7,8 +7,8 @@
 /home/autoware/Autoware/install/op_local_planner/lib/op_local_planner/op_trajectory_evaluator
 /home/autoware/Autoware/install/op_local_planner/lib/op_local_planner/op_behavior_selector
 /home/autoware/Autoware/install/op_local_planner/lib/op_local_planner/op_motion_predictor
-/home/autoware/Autoware/install/op_local_planner/share/op_local_planner/launch/op_trajectory_generator.launch
-/home/autoware/Autoware/install/op_local_planner/share/op_local_planner/launch/op_behavior_selector.launch
-/home/autoware/Autoware/install/op_local_planner/share/op_local_planner/launch/op_common_params.launch
 /home/autoware/Autoware/install/op_local_planner/share/op_local_planner/launch/op_trajectory_evaluator.launch
+/home/autoware/Autoware/install/op_local_planner/share/op_local_planner/launch/op_common_params.launch
 /home/autoware/Autoware/install/op_local_planner/share/op_local_planner/launch/op_motion_predictor.launch
+/home/autoware/Autoware/install/op_local_planner/share/op_local_planner/launch/op_behavior_selector.launch
+/home/autoware/Autoware/install/op_local_planner/share/op_local_planner/launch/op_trajectory_generator.launch

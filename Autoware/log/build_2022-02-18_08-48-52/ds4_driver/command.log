@@ -1,2 +1,0 @@
-Invoking command in '/home/autoware/Autoware/build/ds4_driver': /usr/bin/cmake /home/autoware/Autoware/src/drivers/ds4/ds4_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/ds4_driver
-Invoked command in '/home/autoware/Autoware/build/ds4_driver' returned '-2': /usr/bin/cmake /home/autoware/Autoware/src/drivers/ds4/ds4_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/ds4_driver

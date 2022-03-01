@@ -67,7 +67,7 @@ set(imm_ukf_pda_track_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(imm_ukf_pda_track_SOURCE_PREFIX /home/autoware/Autoware/src/autoware/core_perception/lidar_imm_ukf_pda_track)
+  set(imm_ukf_pda_track_SOURCE_PREFIX /home/autoware/Autoware/src/autoware/core_perception/imm_ukf_pda_track)
   set(imm_ukf_pda_track_DEVEL_PREFIX /home/autoware/Autoware/build/imm_ukf_pda_track/devel)
   set(imm_ukf_pda_track_INSTALL_PREFIX "")
   set(imm_ukf_pda_track_PREFIX ${imm_ukf_pda_track_DEVEL_PREFIX})

@@ -43,6 +43,7 @@ CMakeFiles/vehicle_gazebo_info_publisher.dir/src/vehicle_gazebo_info_publisher.c
 CMakeFiles/vehicle_gazebo_info_publisher.dir/src/vehicle_gazebo_info_publisher.cpp.o: /opt/ros/melodic/include/ros/exceptions.h
 CMakeFiles/vehicle_gazebo_info_publisher.dir/src/vehicle_gazebo_info_publisher.cpp.o: /opt/ros/melodic/include/ros/forwards.h
 CMakeFiles/vehicle_gazebo_info_publisher.dir/src/vehicle_gazebo_info_publisher.cpp.o: /opt/ros/melodic/include/ros/init.h
+CMakeFiles/vehicle_gazebo_info_publisher.dir/src/vehicle_gazebo_info_publisher.cpp.o: /opt/ros/melodic/include/ros/internal/condition_variable.h
 CMakeFiles/vehicle_gazebo_info_publisher.dir/src/vehicle_gazebo_info_publisher.cpp.o: /opt/ros/melodic/include/ros/macros.h
 CMakeFiles/vehicle_gazebo_info_publisher.dir/src/vehicle_gazebo_info_publisher.cpp.o: /opt/ros/melodic/include/ros/master.h
 CMakeFiles/vehicle_gazebo_info_publisher.dir/src/vehicle_gazebo_info_publisher.cpp.o: /opt/ros/melodic/include/ros/message.h

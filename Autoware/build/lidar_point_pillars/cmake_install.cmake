@@ -113,6 +113,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lidar_point_pillars/tvm_models" TYPE DIRECTORY FILES "/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/tvm_models/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lidar_point_pillars/lidar_point_pillars/" TYPE DIRECTORY FILES "/home/autoware/Autoware/src/autoware/core_perception/lidar_point_pillars/include/" REGEX "/\\.svn$" EXCLUDE)
 endif()
 

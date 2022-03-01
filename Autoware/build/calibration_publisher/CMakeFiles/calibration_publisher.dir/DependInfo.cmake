@@ -20,7 +20,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/autoware/Autoware/install/autoware_msgs/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/opt/ros/melodic/share/orocos_kdl/cmake/../../../include"
   "/usr/include/opencv"
+  "/usr/include/eigen3"
   )
 
 # Targets to which this target links.

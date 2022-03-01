@@ -1,2 +1,0 @@
-Invoking command in '/home/autoware/Autoware/build/custom_msgs': /usr/bin/cmake /home/autoware/Autoware/src/drivers/awf_drivers/custom_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/custom_msgs
-Invoked command in '/home/autoware/Autoware/build/custom_msgs' returned '-2': /usr/bin/cmake /home/autoware/Autoware/src/drivers/awf_drivers/custom_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/custom_msgs

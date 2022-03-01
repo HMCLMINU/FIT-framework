@@ -168,6 +168,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named clean_test_results_lidar_point_pillars
+
+# Build rule for target.
+clean_test_results_lidar_point_pillars: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_lidar_point_pillars
+.PHONY : clean_test_results_lidar_point_pillars
+
+# fast build rule for target.
+clean_test_results_lidar_point_pillars/fast:
+	$(MAKE) -f CMakeFiles/clean_test_results_lidar_point_pillars.dir/build.make CMakeFiles/clean_test_results_lidar_point_pillars.dir/build
+.PHONY : clean_test_results_lidar_point_pillars/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_lidar_point_pillars_gtest_test-point_pillars
+
+# Build rule for target.
+_run_tests_lidar_point_pillars_gtest_test-point_pillars: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_lidar_point_pillars_gtest_test-point_pillars
+.PHONY : _run_tests_lidar_point_pillars_gtest_test-point_pillars
+
+# fast build rule for target.
+_run_tests_lidar_point_pillars_gtest_test-point_pillars/fast:
+	$(MAKE) -f CMakeFiles/_run_tests_lidar_point_pillars_gtest_test-point_pillars.dir/build.make CMakeFiles/_run_tests_lidar_point_pillars_gtest_test-point_pillars.dir/build
+.PHONY : _run_tests_lidar_point_pillars_gtest_test-point_pillars/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_lidar_point_pillars_gtest_test-point_pillars
+
+# Build rule for target.
+run_tests_lidar_point_pillars_gtest_test-point_pillars: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_lidar_point_pillars_gtest_test-point_pillars
+.PHONY : run_tests_lidar_point_pillars_gtest_test-point_pillars
+
+# fast build rule for target.
+run_tests_lidar_point_pillars_gtest_test-point_pillars/fast:
+	$(MAKE) -f CMakeFiles/run_tests_lidar_point_pillars_gtest_test-point_pillars.dir/build.make CMakeFiles/run_tests_lidar_point_pillars_gtest_test-point_pillars.dir/build
+.PHONY : run_tests_lidar_point_pillars_gtest_test-point_pillars/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_lidar_point_pillars_gtest
+
+# Build rule for target.
+_run_tests_lidar_point_pillars_gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_lidar_point_pillars_gtest
+.PHONY : _run_tests_lidar_point_pillars_gtest
+
+# fast build rule for target.
+_run_tests_lidar_point_pillars_gtest/fast:
+	$(MAKE) -f CMakeFiles/_run_tests_lidar_point_pillars_gtest.dir/build.make CMakeFiles/_run_tests_lidar_point_pillars_gtest.dir/build
+.PHONY : _run_tests_lidar_point_pillars_gtest/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_lidar_point_pillars_gtest
+
+# Build rule for target.
+run_tests_lidar_point_pillars_gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_lidar_point_pillars_gtest
+.PHONY : run_tests_lidar_point_pillars_gtest
+
+# fast build rule for target.
+run_tests_lidar_point_pillars_gtest/fast:
+	$(MAKE) -f CMakeFiles/run_tests_lidar_point_pillars_gtest.dir/build.make CMakeFiles/run_tests_lidar_point_pillars_gtest.dir/build
+.PHONY : run_tests_lidar_point_pillars_gtest/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_lidar_point_pillars
+
+# Build rule for target.
+_run_tests_lidar_point_pillars: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_lidar_point_pillars
+.PHONY : _run_tests_lidar_point_pillars
+
+# fast build rule for target.
+_run_tests_lidar_point_pillars/fast:
+	$(MAKE) -f CMakeFiles/_run_tests_lidar_point_pillars.dir/build.make CMakeFiles/_run_tests_lidar_point_pillars.dir/build
+.PHONY : _run_tests_lidar_point_pillars/fast
+
+#=============================================================================
 # Target rules for targets named gpu_point_pillars_lib
 
 # Build rule for target.
@@ -725,6 +803,19 @@ nodelet_generate_messages_cpp: cmake_check_build_system
 nodelet_generate_messages_cpp/fast:
 	$(MAKE) -f CMakeFiles/nodelet_generate_messages_cpp.dir/build.make CMakeFiles/nodelet_generate_messages_cpp.dir/build
 .PHONY : nodelet_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_lidar_point_pillars
+
+# Build rule for target.
+run_tests_lidar_point_pillars: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_lidar_point_pillars
+.PHONY : run_tests_lidar_point_pillars
+
+# fast build rule for target.
+run_tests_lidar_point_pillars/fast:
+	$(MAKE) -f CMakeFiles/run_tests_lidar_point_pillars.dir/build.make CMakeFiles/run_tests_lidar_point_pillars.dir/build
+.PHONY : run_tests_lidar_point_pillars/fast
 
 #=============================================================================
 # Target rules for targets named bond_generate_messages_py
@@ -1442,6 +1533,19 @@ actionlib_generate_messages_nodejs/fast:
 .PHONY : actionlib_generate_messages_nodejs/fast
 
 #=============================================================================
+# Target rules for targets named test-point_pillars
+
+# Build rule for target.
+test-point_pillars: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test-point_pillars
+.PHONY : test-point_pillars
+
+# fast build rule for target.
+test-point_pillars/fast:
+	$(MAKE) -f CMakeFiles/test-point_pillars.dir/build.make CMakeFiles/test-point_pillars.dir/build
+.PHONY : test-point_pillars/fast
+
+#=============================================================================
 # Target rules for targets named actionlib_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -1640,6 +1744,33 @@ nodes/preprocess_points.cpp.s:
 	$(MAKE) -f CMakeFiles/point_pillars_lib.dir/build.make CMakeFiles/point_pillars_lib.dir/nodes/preprocess_points.cpp.s
 .PHONY : nodes/preprocess_points.cpp.s
 
+test/src/test_point_pillars.o: test/src/test_point_pillars.cpp.o
+
+.PHONY : test/src/test_point_pillars.o
+
+# target to build an object file
+test/src/test_point_pillars.cpp.o:
+	$(MAKE) -f CMakeFiles/test-point_pillars.dir/build.make CMakeFiles/test-point_pillars.dir/test/src/test_point_pillars.cpp.o
+.PHONY : test/src/test_point_pillars.cpp.o
+
+test/src/test_point_pillars.i: test/src/test_point_pillars.cpp.i
+
+.PHONY : test/src/test_point_pillars.i
+
+# target to preprocess a source file
+test/src/test_point_pillars.cpp.i:
+	$(MAKE) -f CMakeFiles/test-point_pillars.dir/build.make CMakeFiles/test-point_pillars.dir/test/src/test_point_pillars.cpp.i
+.PHONY : test/src/test_point_pillars.cpp.i
+
+test/src/test_point_pillars.s: test/src/test_point_pillars.cpp.s
+
+.PHONY : test/src/test_point_pillars.s
+
+# target to generate assembly for a file
+test/src/test_point_pillars.cpp.s:
+	$(MAKE) -f CMakeFiles/test-point_pillars.dir/build.make CMakeFiles/test-point_pillars.dir/test/src/test_point_pillars.cpp.s
+.PHONY : test/src/test_point_pillars.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1650,6 +1781,12 @@ help:
 	@echo "... install/local"
 	@echo "... list_install_components"
 	@echo "... test"
+	@echo "... clean_test_results_lidar_point_pillars"
+	@echo "... _run_tests_lidar_point_pillars_gtest_test-point_pillars"
+	@echo "... run_tests_lidar_point_pillars_gtest_test-point_pillars"
+	@echo "... _run_tests_lidar_point_pillars_gtest"
+	@echo "... run_tests_lidar_point_pillars_gtest"
+	@echo "... _run_tests_lidar_point_pillars"
 	@echo "... gpu_point_pillars_lib"
 	@echo "... lidar_point_pillars"
 	@echo "... jsk_footstep_msgs_generate_messages_py"
@@ -1694,6 +1831,7 @@ help:
 	@echo "... run_tests"
 	@echo "... download_extra_data"
 	@echo "... nodelet_generate_messages_cpp"
+	@echo "... run_tests_lidar_point_pillars"
 	@echo "... bond_generate_messages_py"
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_cpp"
@@ -1751,6 +1889,7 @@ help:
 	@echo "... pcl_msgs_generate_messages_lisp"
 	@echo "... tf_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_nodejs"
+	@echo "... test-point_pillars"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... point_pillars_lib"
 	@echo "... actionlib_msgs_generate_messages_py"
@@ -1770,6 +1909,9 @@ help:
 	@echo "... nodes/preprocess_points.o"
 	@echo "... nodes/preprocess_points.i"
 	@echo "... nodes/preprocess_points.s"
+	@echo "... test/src/test_point_pillars.o"
+	@echo "... test/src/test_point_pillars.i"
+	@echo "... test/src/test_point_pillars.s"
 .PHONY : help
 
 
