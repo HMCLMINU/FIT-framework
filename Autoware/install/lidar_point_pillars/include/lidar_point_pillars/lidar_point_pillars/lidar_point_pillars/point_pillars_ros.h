@@ -32,6 +32,8 @@
 #include <ros/ros.h>
 #include <sensor_msgs/PointCloud2.h>
 #include <tf/transform_listener.h>
+#include <visualization_msgs/MarkerArray.h>
+#include <visualization_msgs/Marker.h>
 
 // headers in PCL
 #include <pcl/io/pcd_io.h>
@@ -66,6 +68,7 @@ private:
   ros::NodeHandle nh_;
   ros::Subscriber sub_points_;
   ros::Publisher pub_objects_;
+  ros::Publisher point_pillar_visualizer;
 
   tf::TransformListener tf_listener_;
   tf::StampedTransform baselink2lidar_;

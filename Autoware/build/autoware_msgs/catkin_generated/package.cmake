@@ -1,5 +1,5 @@
 set(_CATKIN_CURRENT_PACKAGE "autoware_msgs")
-set(autoware_msgs_VERSION "1.13.0")
+set(autoware_msgs_VERSION "1.14.0")
 set(autoware_msgs_MAINTAINER "Yusuke Fujii <yusuke.fujii@tier4.jp>")
 set(autoware_msgs_PACKAGE_FORMAT "2")
 set(autoware_msgs_BUILD_DEPENDS "message_generation" "geometry_msgs" "jsk_recognition_msgs" "sensor_msgs" "std_msgs")

@@ -3,3 +3,4 @@
 /home/autoware/Autoware/install/vision_lane_detect/share/vision_lane_detect/cmake/vision_lane_detectConfig-version.cmake
 /home/autoware/Autoware/install/vision_lane_detect/share/vision_lane_detect/package.xml
 /home/autoware/Autoware/install/vision_lane_detect/lib/vision_lane_detect/vision_lane_detect
+/home/autoware/Autoware/install/vision_lane_detect/share/vision_lane_detect/launch/vision_lane_detect.launch

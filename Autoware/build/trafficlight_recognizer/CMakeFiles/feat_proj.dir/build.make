@@ -122,7 +122,7 @@ devel/lib/trafficlight_recognizer/feat_proj: /usr/lib/x86_64-linux-gnu/libopencv
 devel/lib/trafficlight_recognizer/feat_proj: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
 devel/lib/trafficlight_recognizer/feat_proj: /home/autoware/Autoware/install/lanelet2_extension/lib/liblanelet2_extension_lib.so
 devel/lib/trafficlight_recognizer/feat_proj: /home/autoware/Autoware/install/amathutils_lib/lib/libamathutils_lib.so
-devel/lib/trafficlight_recognizer/feat_proj: /opt/ros/melodic/lib/liblanelet2_validation.so.1.0.1
+devel/lib/trafficlight_recognizer/feat_proj: /opt/ros/melodic/lib/liblanelet2_validation.so
 devel/lib/trafficlight_recognizer/feat_proj: /home/autoware/Autoware/install/libvectormap/lib/liblibvectormap.a
 devel/lib/trafficlight_recognizer/feat_proj: /home/autoware/Autoware/install/vector_map/lib/libvector_map.so
 devel/lib/trafficlight_recognizer/feat_proj: /opt/ros/melodic/lib/libtf.so
@@ -174,13 +174,13 @@ devel/lib/trafficlight_recognizer/feat_proj: /usr/lib/x86_64-linux-gnu/libopencv
 devel/lib/trafficlight_recognizer/feat_proj: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0
 devel/lib/trafficlight_recognizer/feat_proj: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0
 devel/lib/trafficlight_recognizer/feat_proj: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0
-devel/lib/trafficlight_recognizer/feat_proj: /opt/ros/melodic/lib/liblanelet2_projection.so.1.0.1
-devel/lib/trafficlight_recognizer/feat_proj: /opt/ros/melodic/lib/liblanelet2_io.so.1.0.1
+devel/lib/trafficlight_recognizer/feat_proj: /opt/ros/melodic/lib/liblanelet2_projection.so
+devel/lib/trafficlight_recognizer/feat_proj: /opt/ros/melodic/lib/liblanelet2_io.so
 devel/lib/trafficlight_recognizer/feat_proj: /usr/lib/x86_64-linux-gnu/libpugixml.so
 devel/lib/trafficlight_recognizer/feat_proj: /usr/lib/x86_64-linux-gnu/libGeographic.so
-devel/lib/trafficlight_recognizer/feat_proj: /opt/ros/melodic/lib/liblanelet2_routing.so.1.0.1
-devel/lib/trafficlight_recognizer/feat_proj: /opt/ros/melodic/lib/liblanelet2_traffic_rules.so.1.0.1
-devel/lib/trafficlight_recognizer/feat_proj: /opt/ros/melodic/lib/liblanelet2_core.so.1.0.1
+devel/lib/trafficlight_recognizer/feat_proj: /opt/ros/melodic/lib/liblanelet2_routing.so
+devel/lib/trafficlight_recognizer/feat_proj: /opt/ros/melodic/lib/liblanelet2_traffic_rules.so
+devel/lib/trafficlight_recognizer/feat_proj: /opt/ros/melodic/lib/liblanelet2_core.so
 devel/lib/trafficlight_recognizer/feat_proj: /usr/lib/x86_64-linux-gnu/libboost_wserialization.so
 devel/lib/trafficlight_recognizer/feat_proj: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 devel/lib/trafficlight_recognizer/feat_proj: /usr/lib/x86_64-linux-gnu/libboost_random.so

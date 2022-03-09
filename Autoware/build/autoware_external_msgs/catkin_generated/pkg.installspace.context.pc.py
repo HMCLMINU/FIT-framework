@@ -5,4 +5,4 @@ PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "autoware_external_msgs"
 PROJECT_SPACE_DIR = "/home/autoware/Autoware/install/autoware_external_msgs"
-PROJECT_VERSION = "1.13.0"
+PROJECT_VERSION = "1.14.0"

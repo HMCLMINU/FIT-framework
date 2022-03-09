@@ -9,6 +9,6 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/autoware/Autoware/build/kvaser/devel:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/autoware/Autoware/install/autoware_can_msgs/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/autoware/Autoware/build/kvaser/devel/share/common-lisp"
+export PKG_CONFIG_PATH='/home/autoware/Autoware/install/autoware_can_msgs/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/autoware/Autoware/build/kvaser/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/autoware/Autoware/src/drivers/awf_drivers/kvaser:$ROS_PACKAGE_PATH"

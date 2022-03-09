@@ -391,7 +391,7 @@ devel/lib/libcostmap_generator_lib.so: /opt/ros/melodic/lib/librosconsole_backen
 devel/lib/libcostmap_generator_lib.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 devel/lib/libcostmap_generator_lib.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 devel/lib/libcostmap_generator_lib.so: /opt/ros/melodic/lib/libtf2.so
-devel/lib/libcostmap_generator_lib.so: /opt/ros/melodic/lib/liblanelet2_validation.so.1.0.1
+devel/lib/libcostmap_generator_lib.so: /opt/ros/melodic/lib/liblanelet2_validation.so
 devel/lib/libcostmap_generator_lib.so: /opt/ros/melodic/lib/libroscpp_serialization.so
 devel/lib/libcostmap_generator_lib.so: /opt/ros/melodic/lib/librostime.so
 devel/lib/libcostmap_generator_lib.so: /opt/ros/melodic/lib/libcpp_common.so
@@ -402,13 +402,13 @@ devel/lib/libcostmap_generator_lib.so: /usr/lib/x86_64-linux-gnu/libboost_date_t
 devel/lib/libcostmap_generator_lib.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 devel/lib/libcostmap_generator_lib.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 devel/lib/libcostmap_generator_lib.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-devel/lib/libcostmap_generator_lib.so: /opt/ros/melodic/lib/liblanelet2_projection.so.1.0.1
-devel/lib/libcostmap_generator_lib.so: /opt/ros/melodic/lib/liblanelet2_io.so.1.0.1
+devel/lib/libcostmap_generator_lib.so: /opt/ros/melodic/lib/liblanelet2_projection.so
+devel/lib/libcostmap_generator_lib.so: /opt/ros/melodic/lib/liblanelet2_io.so
 devel/lib/libcostmap_generator_lib.so: /usr/lib/x86_64-linux-gnu/libpugixml.so
 devel/lib/libcostmap_generator_lib.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
-devel/lib/libcostmap_generator_lib.so: /opt/ros/melodic/lib/liblanelet2_routing.so.1.0.1
-devel/lib/libcostmap_generator_lib.so: /opt/ros/melodic/lib/liblanelet2_traffic_rules.so.1.0.1
-devel/lib/libcostmap_generator_lib.so: /opt/ros/melodic/lib/liblanelet2_core.so.1.0.1
+devel/lib/libcostmap_generator_lib.so: /opt/ros/melodic/lib/liblanelet2_routing.so
+devel/lib/libcostmap_generator_lib.so: /opt/ros/melodic/lib/liblanelet2_traffic_rules.so
+devel/lib/libcostmap_generator_lib.so: /opt/ros/melodic/lib/liblanelet2_core.so
 devel/lib/libcostmap_generator_lib.so: /usr/lib/x86_64-linux-gnu/libboost_wserialization.so
 devel/lib/libcostmap_generator_lib.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 devel/lib/libcostmap_generator_lib.so: /usr/lib/x86_64-linux-gnu/libboost_random.so

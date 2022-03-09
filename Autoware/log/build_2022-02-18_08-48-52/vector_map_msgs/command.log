@@ -1,2 +1,0 @@
-Invoking command in '/home/autoware/Autoware/build/vector_map_msgs': /usr/bin/cmake /home/autoware/Autoware/src/autoware/messages/vector_map_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/vector_map_msgs
-Invoked command in '/home/autoware/Autoware/build/vector_map_msgs' returned '-2': /usr/bin/cmake /home/autoware/Autoware/src/autoware/messages/vector_map_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/vector_map_msgs

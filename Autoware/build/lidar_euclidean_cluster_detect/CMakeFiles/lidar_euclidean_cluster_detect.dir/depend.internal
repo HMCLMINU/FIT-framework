@@ -46,6 +46,7 @@ CMakeFiles/lidar_euclidean_cluster_detect.dir/nodes/lidar_euclidean_cluster_dete
  /opt/ros/melodic/include/ros/exceptions.h
  /opt/ros/melodic/include/ros/forwards.h
  /opt/ros/melodic/include/ros/init.h
+ /opt/ros/melodic/include/ros/internal/condition_variable.h
  /opt/ros/melodic/include/ros/macros.h
  /opt/ros/melodic/include/ros/master.h
  /opt/ros/melodic/include/ros/message.h
@@ -661,6 +662,7 @@ CMakeFiles/lidar_euclidean_cluster_detect.dir/nodes/lidar_euclidean_cluster_dete
  /opt/ros/melodic/include/ros/exceptions.h
  /opt/ros/melodic/include/ros/forwards.h
  /opt/ros/melodic/include/ros/init.h
+ /opt/ros/melodic/include/ros/internal/condition_variable.h
  /opt/ros/melodic/include/ros/macros.h
  /opt/ros/melodic/include/ros/master.h
  /opt/ros/melodic/include/ros/message.h

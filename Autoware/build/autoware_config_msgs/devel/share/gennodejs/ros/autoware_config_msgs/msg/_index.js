@@ -1,68 +1,68 @@
 
 "use strict";
 
-let ConfigWaypointReplanner = require('./ConfigWaypointReplanner.js');
-let ConfigSSD = require('./ConfigSSD.js');
-let ConfigRandomFilter = require('./ConfigRandomFilter.js');
-let ConfigNDTMapping = require('./ConfigNDTMapping.js');
-let ConfigPlannerSelector = require('./ConfigPlannerSelector.js');
-let ConfigICP = require('./ConfigICP.js');
-let ConfigTwistFilter = require('./ConfigTwistFilter.js');
-let ConfigPedestrianFusion = require('./ConfigPedestrianFusion.js');
-let ConfigPedestrianDPM = require('./ConfigPedestrianDPM.js');
-let ConfigNDTMappingOutput = require('./ConfigNDTMappingOutput.js');
-let ConfigApproximateNDTMapping = require('./ConfigApproximateNDTMapping.js');
-let ConfigRingGroundFilter = require('./ConfigRingGroundFilter.js');
-let ConfigLaneSelect = require('./ConfigLaneSelect.js');
-let ConfigLaneRule = require('./ConfigLaneRule.js');
-let ConfigCompareMapFilter = require('./ConfigCompareMapFilter.js');
-let ConfigVelocitySet = require('./ConfigVelocitySet.js');
-let ConfigNDT = require('./ConfigNDT.js');
-let ConfigPedestrianKF = require('./ConfigPedestrianKF.js');
-let ConfigWaypointFollower = require('./ConfigWaypointFollower.js');
-let ConfigRingFilter = require('./ConfigRingFilter.js');
-let ConfigVoxelGridFilter = require('./ConfigVoxelGridFilter.js');
 let ConfigDistanceFilter = require('./ConfigDistanceFilter.js');
-let ConfigCarKF = require('./ConfigCarKF.js');
-let ConfigRcnn = require('./ConfigRcnn.js');
-let ConfigCarFusion = require('./ConfigCarFusion.js');
+let ConfigNDTMapping = require('./ConfigNDTMapping.js');
+let ConfigPedestrianDPM = require('./ConfigPedestrianDPM.js');
+let ConfigRingFilter = require('./ConfigRingFilter.js');
+let ConfigVelocitySet = require('./ConfigVelocitySet.js');
 let ConfigDecisionMaker = require('./ConfigDecisionMaker.js');
-let ConfigLatticeVelocitySet = require('./ConfigLatticeVelocitySet.js');
-let ConfigLaneStop = require('./ConfigLaneStop.js');
+let ConfigICP = require('./ConfigICP.js');
+let ConfigLaneSelect = require('./ConfigLaneSelect.js');
 let ConfigCarDPM = require('./ConfigCarDPM.js');
+let ConfigLatticeVelocitySet = require('./ConfigLatticeVelocitySet.js');
+let ConfigLaneRule = require('./ConfigLaneRule.js');
+let ConfigRandomFilter = require('./ConfigRandomFilter.js');
+let ConfigPedestrianFusion = require('./ConfigPedestrianFusion.js');
+let ConfigNDT = require('./ConfigNDT.js');
+let ConfigNDTMappingOutput = require('./ConfigNDTMappingOutput.js');
+let ConfigPlannerSelector = require('./ConfigPlannerSelector.js');
+let ConfigTwistFilter = require('./ConfigTwistFilter.js');
+let ConfigWaypointReplanner = require('./ConfigWaypointReplanner.js');
+let ConfigCompareMapFilter = require('./ConfigCompareMapFilter.js');
+let ConfigPedestrianKF = require('./ConfigPedestrianKF.js');
+let ConfigVoxelGridFilter = require('./ConfigVoxelGridFilter.js');
+let ConfigRcnn = require('./ConfigRcnn.js');
+let ConfigRingGroundFilter = require('./ConfigRingGroundFilter.js');
+let ConfigWaypointFollower = require('./ConfigWaypointFollower.js');
+let ConfigCarKF = require('./ConfigCarKF.js');
+let ConfigSSD = require('./ConfigSSD.js');
+let ConfigApproximateNDTMapping = require('./ConfigApproximateNDTMapping.js');
+let ConfigLaneStop = require('./ConfigLaneStop.js');
 let ConfigPoints2Polygon = require('./ConfigPoints2Polygon.js');
+let ConfigCarFusion = require('./ConfigCarFusion.js');
 let ConfigRayGroundFilter = require('./ConfigRayGroundFilter.js');
 
 module.exports = {
-  ConfigWaypointReplanner: ConfigWaypointReplanner,
-  ConfigSSD: ConfigSSD,
-  ConfigRandomFilter: ConfigRandomFilter,
-  ConfigNDTMapping: ConfigNDTMapping,
-  ConfigPlannerSelector: ConfigPlannerSelector,
-  ConfigICP: ConfigICP,
-  ConfigTwistFilter: ConfigTwistFilter,
-  ConfigPedestrianFusion: ConfigPedestrianFusion,
-  ConfigPedestrianDPM: ConfigPedestrianDPM,
-  ConfigNDTMappingOutput: ConfigNDTMappingOutput,
-  ConfigApproximateNDTMapping: ConfigApproximateNDTMapping,
-  ConfigRingGroundFilter: ConfigRingGroundFilter,
-  ConfigLaneSelect: ConfigLaneSelect,
-  ConfigLaneRule: ConfigLaneRule,
-  ConfigCompareMapFilter: ConfigCompareMapFilter,
-  ConfigVelocitySet: ConfigVelocitySet,
-  ConfigNDT: ConfigNDT,
-  ConfigPedestrianKF: ConfigPedestrianKF,
-  ConfigWaypointFollower: ConfigWaypointFollower,
-  ConfigRingFilter: ConfigRingFilter,
-  ConfigVoxelGridFilter: ConfigVoxelGridFilter,
   ConfigDistanceFilter: ConfigDistanceFilter,
-  ConfigCarKF: ConfigCarKF,
-  ConfigRcnn: ConfigRcnn,
-  ConfigCarFusion: ConfigCarFusion,
+  ConfigNDTMapping: ConfigNDTMapping,
+  ConfigPedestrianDPM: ConfigPedestrianDPM,
+  ConfigRingFilter: ConfigRingFilter,
+  ConfigVelocitySet: ConfigVelocitySet,
   ConfigDecisionMaker: ConfigDecisionMaker,
-  ConfigLatticeVelocitySet: ConfigLatticeVelocitySet,
-  ConfigLaneStop: ConfigLaneStop,
+  ConfigICP: ConfigICP,
+  ConfigLaneSelect: ConfigLaneSelect,
   ConfigCarDPM: ConfigCarDPM,
+  ConfigLatticeVelocitySet: ConfigLatticeVelocitySet,
+  ConfigLaneRule: ConfigLaneRule,
+  ConfigRandomFilter: ConfigRandomFilter,
+  ConfigPedestrianFusion: ConfigPedestrianFusion,
+  ConfigNDT: ConfigNDT,
+  ConfigNDTMappingOutput: ConfigNDTMappingOutput,
+  ConfigPlannerSelector: ConfigPlannerSelector,
+  ConfigTwistFilter: ConfigTwistFilter,
+  ConfigWaypointReplanner: ConfigWaypointReplanner,
+  ConfigCompareMapFilter: ConfigCompareMapFilter,
+  ConfigPedestrianKF: ConfigPedestrianKF,
+  ConfigVoxelGridFilter: ConfigVoxelGridFilter,
+  ConfigRcnn: ConfigRcnn,
+  ConfigRingGroundFilter: ConfigRingGroundFilter,
+  ConfigWaypointFollower: ConfigWaypointFollower,
+  ConfigCarKF: ConfigCarKF,
+  ConfigSSD: ConfigSSD,
+  ConfigApproximateNDTMapping: ConfigApproximateNDTMapping,
+  ConfigLaneStop: ConfigLaneStop,
   ConfigPoints2Polygon: ConfigPoints2Polygon,
+  ConfigCarFusion: ConfigCarFusion,
   ConfigRayGroundFilter: ConfigRayGroundFilter,
 };

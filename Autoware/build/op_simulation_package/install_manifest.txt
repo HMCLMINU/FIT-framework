@@ -5,10 +5,10 @@
 /home/autoware/Autoware/install/op_simulation_package/lib/op_simulation_package/op_car_simulator
 /home/autoware/Autoware/install/op_simulation_package/lib/op_simulation_package/op_perception_simulator
 /home/autoware/Autoware/install/op_simulation_package/lib/op_simulation_package/op_signs_simulator
-/home/autoware/Autoware/install/op_simulation_package/share/op_simulation_package/launch/op_car_simulator_5.launch
-/home/autoware/Autoware/install/op_simulation_package/share/op_simulation_package/launch/op_car_simulator_2.launch
-/home/autoware/Autoware/install/op_simulation_package/share/op_simulation_package/launch/op_perception_simulator.launch
-/home/autoware/Autoware/install/op_simulation_package/share/op_simulation_package/launch/op_car_simulator_1.launch
-/home/autoware/Autoware/install/op_simulation_package/share/op_simulation_package/launch/op_car_simulator_4.launch
 /home/autoware/Autoware/install/op_simulation_package/share/op_simulation_package/launch/op_car_simulator_3.launch
 /home/autoware/Autoware/install/op_simulation_package/share/op_simulation_package/launch/op_signs_simulator.launch
+/home/autoware/Autoware/install/op_simulation_package/share/op_simulation_package/launch/op_perception_simulator.launch
+/home/autoware/Autoware/install/op_simulation_package/share/op_simulation_package/launch/op_car_simulator_5.launch
+/home/autoware/Autoware/install/op_simulation_package/share/op_simulation_package/launch/op_car_simulator_1.launch
+/home/autoware/Autoware/install/op_simulation_package/share/op_simulation_package/launch/op_car_simulator_2.launch
+/home/autoware/Autoware/install/op_simulation_package/share/op_simulation_package/launch/op_car_simulator_4.launch

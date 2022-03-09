@@ -1,28 +1,28 @@
 
 "use strict";
 
+let velocityEstimate = require('./velocityEstimate.js');
+let orientationEstimate = require('./orientationEstimate.js');
+let gnssSample = require('./gnssSample.js');
+let BaroSensorSample = require('./BaroSensorSample.js');
 let ImuSensorSample = require('./ImuSensorSample.js');
-let sensorSample = require('./sensorSample.js');
 let Internal = require('./Internal.js');
+let sensorSample = require('./sensorSample.js');
 let XsensQuaternion = require('./XsensQuaternion.js');
 let GnssSensorSample = require('./GnssSensorSample.js');
-let baroSample = require('./baroSample.js');
 let positionEstimate = require('./positionEstimate.js');
-let BaroSensorSample = require('./BaroSensorSample.js');
-let velocityEstimate = require('./velocityEstimate.js');
-let gnssSample = require('./gnssSample.js');
-let orientationEstimate = require('./orientationEstimate.js');
+let baroSample = require('./baroSample.js');
 
 module.exports = {
+  velocityEstimate: velocityEstimate,
+  orientationEstimate: orientationEstimate,
+  gnssSample: gnssSample,
+  BaroSensorSample: BaroSensorSample,
   ImuSensorSample: ImuSensorSample,
-  sensorSample: sensorSample,
   Internal: Internal,
+  sensorSample: sensorSample,
   XsensQuaternion: XsensQuaternion,
   GnssSensorSample: GnssSensorSample,
-  baroSample: baroSample,
   positionEstimate: positionEstimate,
-  BaroSensorSample: BaroSensorSample,
-  velocityEstimate: velocityEstimate,
-  gnssSample: gnssSample,
-  orientationEstimate: orientationEstimate,
+  baroSample: baroSample,
 };

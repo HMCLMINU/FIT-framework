@@ -60,6 +60,71 @@ CMAKE_SOURCE_DIR = /home/autoware/Autoware/src/autoware/core_perception/points_p
 CMAKE_BINARY_DIR = /home/autoware/Autoware/build/points_preprocessor
 
 #=============================================================================
+# Target rules for target CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir
+
+# All Build rule for target.
+CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/all: CMakeFiles/clean_test_results_points_preprocessor.dir/all
+CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/all: CMakeFiles/tests.dir/all
+	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/build.make CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/depend
+	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/build.make CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/autoware/Autoware/build/points_preprocessor/CMakeFiles --progress-num= "Built target _run_tests_points_preprocessor_roslint_package"
+.PHONY : CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 0
+.PHONY : CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/rule
+
+# Convenience name for target.
+_run_tests_points_preprocessor_roslint_package: CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/rule
+
+.PHONY : _run_tests_points_preprocessor_roslint_package
+
+# clean rule for target.
+CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/clean:
+	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/build.make CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/clean
+.PHONY : CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/_run_tests_points_preprocessor_roslint.dir
+
+# All Build rule for target.
+CMakeFiles/_run_tests_points_preprocessor_roslint.dir/all: CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/all
+	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_roslint.dir/build.make CMakeFiles/_run_tests_points_preprocessor_roslint.dir/depend
+	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_roslint.dir/build.make CMakeFiles/_run_tests_points_preprocessor_roslint.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/autoware/Autoware/build/points_preprocessor/CMakeFiles --progress-num= "Built target _run_tests_points_preprocessor_roslint"
+.PHONY : CMakeFiles/_run_tests_points_preprocessor_roslint.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/_run_tests_points_preprocessor_roslint.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_run_tests_points_preprocessor_roslint.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 0
+.PHONY : CMakeFiles/_run_tests_points_preprocessor_roslint.dir/rule
+
+# Convenience name for target.
+_run_tests_points_preprocessor_roslint: CMakeFiles/_run_tests_points_preprocessor_roslint.dir/rule
+
+.PHONY : _run_tests_points_preprocessor_roslint
+
+# clean rule for target.
+CMakeFiles/_run_tests_points_preprocessor_roslint.dir/clean:
+	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_roslint.dir/build.make CMakeFiles/_run_tests_points_preprocessor_roslint.dir/clean
+.PHONY : CMakeFiles/_run_tests_points_preprocessor_roslint.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/_run_tests_points_preprocessor_roslint.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/clean_test_results_points_preprocessor.dir
 
 # All Build rule for target.
@@ -92,67 +157,132 @@ clean: CMakeFiles/clean_test_results_points_preprocessor.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir
+# Target rules for target CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir
 
 # All Build rule for target.
-CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/all: CMakeFiles/clean_test_results_points_preprocessor.dir/all
-CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/all: CMakeFiles/tests.dir/all
-	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/build.make CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/depend
-	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/build.make CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/autoware/Autoware/build/points_preprocessor/CMakeFiles --progress-num= "Built target _run_tests_points_preprocessor_roslint_package"
-.PHONY : CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/all
+CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/all: CMakeFiles/clean_test_results_points_preprocessor.dir/all
+CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/all: CMakeFiles/test_points_preprocessor.dir/all
+CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/all: CMakeFiles/tests.dir/all
+	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/build.make CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/depend
+	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/build.make CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/autoware/Autoware/build/points_preprocessor/CMakeFiles --progress-num= "Built target _run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test"
+.PHONY : CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/rule: cmake_check_build_system
+CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 0
-.PHONY : CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/rule
+.PHONY : CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/rule
 
 # Convenience name for target.
-_run_tests_points_preprocessor_roslint_package: CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/rule
+_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test: CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/rule
 
-.PHONY : _run_tests_points_preprocessor_roslint_package
-
-# clean rule for target.
-CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/clean:
-	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/build.make CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/clean
-.PHONY : CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/clean
+.PHONY : _run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test
 
 # clean rule for target.
-clean: CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/clean
+CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/clean:
+	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/build.make CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/clean
+.PHONY : CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/_run_tests_points_preprocessor_roslint.dir
+# Target rules for target CMakeFiles/run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir
 
 # All Build rule for target.
-CMakeFiles/_run_tests_points_preprocessor_roslint.dir/all: CMakeFiles/_run_tests_points_preprocessor_roslint_package.dir/all
-	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_roslint.dir/build.make CMakeFiles/_run_tests_points_preprocessor_roslint.dir/depend
-	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_roslint.dir/build.make CMakeFiles/_run_tests_points_preprocessor_roslint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/autoware/Autoware/build/points_preprocessor/CMakeFiles --progress-num= "Built target _run_tests_points_preprocessor_roslint"
-.PHONY : CMakeFiles/_run_tests_points_preprocessor_roslint.dir/all
+CMakeFiles/run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/all: CMakeFiles/test_points_preprocessor.dir/all
+	$(MAKE) -f CMakeFiles/run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/build.make CMakeFiles/run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/depend
+	$(MAKE) -f CMakeFiles/run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/build.make CMakeFiles/run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/autoware/Autoware/build/points_preprocessor/CMakeFiles --progress-num= "Built target run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test"
+.PHONY : CMakeFiles/run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/_run_tests_points_preprocessor_roslint.dir/rule: cmake_check_build_system
+CMakeFiles/run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_run_tests_points_preprocessor_roslint.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 0
-.PHONY : CMakeFiles/_run_tests_points_preprocessor_roslint.dir/rule
+.PHONY : CMakeFiles/run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/rule
 
 # Convenience name for target.
-_run_tests_points_preprocessor_roslint: CMakeFiles/_run_tests_points_preprocessor_roslint.dir/rule
+run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test: CMakeFiles/run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/rule
 
-.PHONY : _run_tests_points_preprocessor_roslint
-
-# clean rule for target.
-CMakeFiles/_run_tests_points_preprocessor_roslint.dir/clean:
-	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_roslint.dir/build.make CMakeFiles/_run_tests_points_preprocessor_roslint.dir/clean
-.PHONY : CMakeFiles/_run_tests_points_preprocessor_roslint.dir/clean
+.PHONY : run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test
 
 # clean rule for target.
-clean: CMakeFiles/_run_tests_points_preprocessor_roslint.dir/clean
+CMakeFiles/run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/clean:
+	$(MAKE) -f CMakeFiles/run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/build.make CMakeFiles/run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/clean
+.PHONY : CMakeFiles/run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/_run_tests_points_preprocessor_rostest.dir
+
+# All Build rule for target.
+CMakeFiles/_run_tests_points_preprocessor_rostest.dir/all: CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/all
+	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_rostest.dir/build.make CMakeFiles/_run_tests_points_preprocessor_rostest.dir/depend
+	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_rostest.dir/build.make CMakeFiles/_run_tests_points_preprocessor_rostest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/autoware/Autoware/build/points_preprocessor/CMakeFiles --progress-num= "Built target _run_tests_points_preprocessor_rostest"
+.PHONY : CMakeFiles/_run_tests_points_preprocessor_rostest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/_run_tests_points_preprocessor_rostest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_run_tests_points_preprocessor_rostest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 0
+.PHONY : CMakeFiles/_run_tests_points_preprocessor_rostest.dir/rule
+
+# Convenience name for target.
+_run_tests_points_preprocessor_rostest: CMakeFiles/_run_tests_points_preprocessor_rostest.dir/rule
+
+.PHONY : _run_tests_points_preprocessor_rostest
+
+# clean rule for target.
+CMakeFiles/_run_tests_points_preprocessor_rostest.dir/clean:
+	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_rostest.dir/build.make CMakeFiles/_run_tests_points_preprocessor_rostest.dir/clean
+.PHONY : CMakeFiles/_run_tests_points_preprocessor_rostest.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/_run_tests_points_preprocessor_rostest.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/run_tests_points_preprocessor_rostest.dir
+
+# All Build rule for target.
+CMakeFiles/run_tests_points_preprocessor_rostest.dir/all: CMakeFiles/run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/all
+	$(MAKE) -f CMakeFiles/run_tests_points_preprocessor_rostest.dir/build.make CMakeFiles/run_tests_points_preprocessor_rostest.dir/depend
+	$(MAKE) -f CMakeFiles/run_tests_points_preprocessor_rostest.dir/build.make CMakeFiles/run_tests_points_preprocessor_rostest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/autoware/Autoware/build/points_preprocessor/CMakeFiles --progress-num= "Built target run_tests_points_preprocessor_rostest"
+.PHONY : CMakeFiles/run_tests_points_preprocessor_rostest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/run_tests_points_preprocessor_rostest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests_points_preprocessor_rostest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 0
+.PHONY : CMakeFiles/run_tests_points_preprocessor_rostest.dir/rule
+
+# Convenience name for target.
+run_tests_points_preprocessor_rostest: CMakeFiles/run_tests_points_preprocessor_rostest.dir/rule
+
+.PHONY : run_tests_points_preprocessor_rostest
+
+# clean rule for target.
+CMakeFiles/run_tests_points_preprocessor_rostest.dir/clean:
+	$(MAKE) -f CMakeFiles/run_tests_points_preprocessor_rostest.dir/build.make CMakeFiles/run_tests_points_preprocessor_rostest.dir/clean
+.PHONY : CMakeFiles/run_tests_points_preprocessor_rostest.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/run_tests_points_preprocessor_rostest.dir/clean
 
 .PHONY : clean
 
@@ -160,6 +290,7 @@ clean: CMakeFiles/_run_tests_points_preprocessor_roslint.dir/clean
 # Target rules for target CMakeFiles/run_tests_points_preprocessor.dir
 
 # All Build rule for target.
+CMakeFiles/run_tests_points_preprocessor.dir/all: CMakeFiles/run_tests_points_preprocessor_rostest.dir/all
 CMakeFiles/run_tests_points_preprocessor.dir/all: CMakeFiles/run_tests_points_preprocessor_roslint.dir/all
 	$(MAKE) -f CMakeFiles/run_tests_points_preprocessor.dir/build.make CMakeFiles/run_tests_points_preprocessor.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests_points_preprocessor.dir/build.make CMakeFiles/run_tests_points_preprocessor.dir/build
@@ -168,7 +299,7 @@ CMakeFiles/run_tests_points_preprocessor.dir/all: CMakeFiles/run_tests_points_pr
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests_points_preprocessor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests_points_preprocessor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests_points_preprocessor.dir/rule
@@ -185,6 +316,39 @@ CMakeFiles/run_tests_points_preprocessor.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/run_tests_points_preprocessor.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_points_preprocessor.dir
+
+# All Build rule for target.
+CMakeFiles/test_points_preprocessor.dir/all: CMakeFiles/ray_ground_filter_lib.dir/all
+CMakeFiles/test_points_preprocessor.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
+	$(MAKE) -f CMakeFiles/test_points_preprocessor.dir/build.make CMakeFiles/test_points_preprocessor.dir/depend
+	$(MAKE) -f CMakeFiles/test_points_preprocessor.dir/build.make CMakeFiles/test_points_preprocessor.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/autoware/Autoware/build/points_preprocessor/CMakeFiles --progress-num=26,27 "Built target test_points_preprocessor"
+.PHONY : CMakeFiles/test_points_preprocessor.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_points_preprocessor.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test_points_preprocessor.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 0
+.PHONY : CMakeFiles/test_points_preprocessor.dir/rule
+
+# Convenience name for target.
+test_points_preprocessor: CMakeFiles/test_points_preprocessor.dir/rule
+
+.PHONY : test_points_preprocessor
+
+# clean rule for target.
+CMakeFiles/test_points_preprocessor.dir/clean:
+	$(MAKE) -f CMakeFiles/test_points_preprocessor.dir/build.make CMakeFiles/test_points_preprocessor.dir/clean
+.PHONY : CMakeFiles/test_points_preprocessor.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/test_points_preprocessor.dir/clean
 
 .PHONY : clean
 
@@ -2050,6 +2214,7 @@ clean: CMakeFiles/nodelet_generate_messages_py.dir/clean
 
 # All Build rule for target.
 CMakeFiles/_run_tests_points_preprocessor.dir/all: CMakeFiles/_run_tests_points_preprocessor_roslint.dir/all
+CMakeFiles/_run_tests_points_preprocessor.dir/all: CMakeFiles/_run_tests_points_preprocessor_rostest.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor.dir/build.make CMakeFiles/_run_tests_points_preprocessor.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor.dir/build.make CMakeFiles/_run_tests_points_preprocessor.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/autoware/Autoware/build/points_preprocessor/CMakeFiles --progress-num= "Built target _run_tests_points_preprocessor"
@@ -2057,7 +2222,7 @@ CMakeFiles/_run_tests_points_preprocessor.dir/all: CMakeFiles/_run_tests_points_
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_run_tests_points_preprocessor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_run_tests_points_preprocessor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 0
 .PHONY : CMakeFiles/_run_tests_points_preprocessor.dir/rule
@@ -2089,7 +2254,7 @@ CMakeFiles/run_tests.dir/all: CMakeFiles/_run_tests_points_preprocessor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests.dir/rule
@@ -2465,7 +2630,7 @@ clean: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
 # Target rules for target CMakeFiles/tests.dir
 
 # All Build rule for target.
-CMakeFiles/tests.dir/all:
+CMakeFiles/tests.dir/all: CMakeFiles/test_points_preprocessor.dir/all
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/autoware/Autoware/build/points_preprocessor/CMakeFiles --progress-num= "Built target tests"
@@ -2473,7 +2638,7 @@ CMakeFiles/tests.dir/all:
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/autoware/Autoware/build/points_preprocessor/CMakeFiles 0
 .PHONY : CMakeFiles/tests.dir/rule

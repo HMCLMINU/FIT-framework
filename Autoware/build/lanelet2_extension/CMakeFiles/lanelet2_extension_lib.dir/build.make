@@ -252,7 +252,7 @@ devel/lib/liblanelet2_extension_lib.so: /opt/ros/melodic/lib/libtf2_ros.so
 devel/lib/liblanelet2_extension_lib.so: /opt/ros/melodic/lib/libactionlib.so
 devel/lib/liblanelet2_extension_lib.so: /opt/ros/melodic/lib/libmessage_filters.so
 devel/lib/liblanelet2_extension_lib.so: /opt/ros/melodic/lib/libtf2.so
-devel/lib/liblanelet2_extension_lib.so: /opt/ros/melodic/lib/liblanelet2_validation.so.1.0.1
+devel/lib/liblanelet2_extension_lib.so: /opt/ros/melodic/lib/liblanelet2_validation.so
 devel/lib/liblanelet2_extension_lib.so: /opt/ros/melodic/lib/libroscpp.so
 devel/lib/liblanelet2_extension_lib.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 devel/lib/liblanelet2_extension_lib.so: /opt/ros/melodic/lib/librosconsole.so
@@ -272,13 +272,13 @@ devel/lib/liblanelet2_extension_lib.so: /usr/lib/x86_64-linux-gnu/libboost_atomi
 devel/lib/liblanelet2_extension_lib.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 devel/lib/liblanelet2_extension_lib.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/liblanelet2_extension_lib.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
-devel/lib/liblanelet2_extension_lib.so: /opt/ros/melodic/lib/liblanelet2_projection.so.1.0.1
-devel/lib/liblanelet2_extension_lib.so: /opt/ros/melodic/lib/liblanelet2_io.so.1.0.1
+devel/lib/liblanelet2_extension_lib.so: /opt/ros/melodic/lib/liblanelet2_projection.so
+devel/lib/liblanelet2_extension_lib.so: /opt/ros/melodic/lib/liblanelet2_io.so
 devel/lib/liblanelet2_extension_lib.so: /usr/lib/x86_64-linux-gnu/libpugixml.so
 devel/lib/liblanelet2_extension_lib.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
-devel/lib/liblanelet2_extension_lib.so: /opt/ros/melodic/lib/liblanelet2_routing.so.1.0.1
-devel/lib/liblanelet2_extension_lib.so: /opt/ros/melodic/lib/liblanelet2_traffic_rules.so.1.0.1
-devel/lib/liblanelet2_extension_lib.so: /opt/ros/melodic/lib/liblanelet2_core.so.1.0.1
+devel/lib/liblanelet2_extension_lib.so: /opt/ros/melodic/lib/liblanelet2_routing.so
+devel/lib/liblanelet2_extension_lib.so: /opt/ros/melodic/lib/liblanelet2_traffic_rules.so
+devel/lib/liblanelet2_extension_lib.so: /opt/ros/melodic/lib/liblanelet2_core.so
 devel/lib/liblanelet2_extension_lib.so: /usr/lib/x86_64-linux-gnu/libboost_wserialization.so
 devel/lib/liblanelet2_extension_lib.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 devel/lib/liblanelet2_extension_lib.so: /usr/lib/x86_64-linux-gnu/libboost_random.so

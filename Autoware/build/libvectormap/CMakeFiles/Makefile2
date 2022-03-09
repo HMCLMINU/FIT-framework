@@ -607,12 +607,12 @@ clean: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/clean
 # Target rules for target CMakeFiles/libvectormap.dir
 
 # All Build rule for target.
+CMakeFiles/libvectormap.dir/all: CMakeFiles/vector_map_msgs_generate_messages_eus.dir/all
 CMakeFiles/libvectormap.dir/all: CMakeFiles/vector_map_msgs_generate_messages_cpp.dir/all
 CMakeFiles/libvectormap.dir/all: CMakeFiles/visualization_msgs_generate_messages_py.dir/all
 CMakeFiles/libvectormap.dir/all: CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 CMakeFiles/libvectormap.dir/all: CMakeFiles/visualization_msgs_generate_messages_cpp.dir/all
 CMakeFiles/libvectormap.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/libvectormap.dir/all: CMakeFiles/vector_map_msgs_generate_messages_eus.dir/all
 CMakeFiles/libvectormap.dir/all: CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 CMakeFiles/libvectormap.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 CMakeFiles/libvectormap.dir/all: CMakeFiles/tf2_msgs_generate_messages_eus.dir/all

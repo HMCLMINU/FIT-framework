@@ -1,5 +1,5 @@
 set(_CATKIN_CURRENT_PACKAGE "tablet_socket_msgs")
-set(tablet_socket_msgs_VERSION "1.13.0")
+set(tablet_socket_msgs_VERSION "1.14.0")
 set(tablet_socket_msgs_MAINTAINER "Shohei Fujii <fujii.shohei@gmail.com>")
 set(tablet_socket_msgs_PACKAGE_FORMAT "2")
 set(tablet_socket_msgs_BUILD_DEPENDS "message_generation" "std_msgs")

@@ -51,6 +51,7 @@ CMakeFiles/astar_avoid.dir/src/astar_avoid/astar_avoid.cpp.o: /opt/ros/melodic/i
 CMakeFiles/astar_avoid.dir/src/astar_avoid/astar_avoid.cpp.o: /opt/ros/melodic/include/ros/exceptions.h
 CMakeFiles/astar_avoid.dir/src/astar_avoid/astar_avoid.cpp.o: /opt/ros/melodic/include/ros/forwards.h
 CMakeFiles/astar_avoid.dir/src/astar_avoid/astar_avoid.cpp.o: /opt/ros/melodic/include/ros/init.h
+CMakeFiles/astar_avoid.dir/src/astar_avoid/astar_avoid.cpp.o: /opt/ros/melodic/include/ros/internal/condition_variable.h
 CMakeFiles/astar_avoid.dir/src/astar_avoid/astar_avoid.cpp.o: /opt/ros/melodic/include/ros/macros.h
 CMakeFiles/astar_avoid.dir/src/astar_avoid/astar_avoid.cpp.o: /opt/ros/melodic/include/ros/master.h
 CMakeFiles/astar_avoid.dir/src/astar_avoid/astar_avoid.cpp.o: /opt/ros/melodic/include/ros/message.h
@@ -202,6 +203,7 @@ CMakeFiles/astar_avoid.dir/src/astar_avoid/astar_avoid_node.cpp.o: /opt/ros/melo
 CMakeFiles/astar_avoid.dir/src/astar_avoid/astar_avoid_node.cpp.o: /opt/ros/melodic/include/ros/exceptions.h
 CMakeFiles/astar_avoid.dir/src/astar_avoid/astar_avoid_node.cpp.o: /opt/ros/melodic/include/ros/forwards.h
 CMakeFiles/astar_avoid.dir/src/astar_avoid/astar_avoid_node.cpp.o: /opt/ros/melodic/include/ros/init.h
+CMakeFiles/astar_avoid.dir/src/astar_avoid/astar_avoid_node.cpp.o: /opt/ros/melodic/include/ros/internal/condition_variable.h
 CMakeFiles/astar_avoid.dir/src/astar_avoid/astar_avoid_node.cpp.o: /opt/ros/melodic/include/ros/macros.h
 CMakeFiles/astar_avoid.dir/src/astar_avoid/astar_avoid_node.cpp.o: /opt/ros/melodic/include/ros/master.h
 CMakeFiles/astar_avoid.dir/src/astar_avoid/astar_avoid_node.cpp.o: /opt/ros/melodic/include/ros/message.h

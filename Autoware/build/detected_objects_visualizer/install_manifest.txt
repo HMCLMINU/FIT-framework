@@ -4,9 +4,9 @@
 /home/autoware/Autoware/install/detected_objects_visualizer/share/detected_objects_visualizer/package.xml
 /home/autoware/Autoware/install/detected_objects_visualizer/lib/detected_objects_visualizer/visualize_detected_objects
 /home/autoware/Autoware/install/detected_objects_visualizer/lib/detected_objects_visualizer/visualize_rects
-/home/autoware/Autoware/install/detected_objects_visualizer/share/detected_objects_visualizer/models/truck.dae
 /home/autoware/Autoware/install/detected_objects_visualizer/share/detected_objects_visualizer/models/box.dae
+/home/autoware/Autoware/install/detected_objects_visualizer/share/detected_objects_visualizer/models/bike.dae
+/home/autoware/Autoware/install/detected_objects_visualizer/share/detected_objects_visualizer/models/truck.dae
+/home/autoware/Autoware/install/detected_objects_visualizer/share/detected_objects_visualizer/models/car.dae
 /home/autoware/Autoware/install/detected_objects_visualizer/share/detected_objects_visualizer/models/bus.dae
 /home/autoware/Autoware/install/detected_objects_visualizer/share/detected_objects_visualizer/models/person.dae
-/home/autoware/Autoware/install/detected_objects_visualizer/share/detected_objects_visualizer/models/car.dae
-/home/autoware/Autoware/install/detected_objects_visualizer/share/detected_objects_visualizer/models/bike.dae

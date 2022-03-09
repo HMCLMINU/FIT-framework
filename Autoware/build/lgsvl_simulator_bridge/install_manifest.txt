@@ -2,8 +2,8 @@
 /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/cmake/lgsvl_simulator_bridgeConfig.cmake
 /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/cmake/lgsvl_simulator_bridgeConfig-version.cmake
 /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/package.xml
-/home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/launch/lgsvl_simulator.launch
 /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/launch/bridge.launch
+/home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/launch/lgsvl_simulator.launch
 /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/rviz/lgsvl_simulator.rviz
 /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/config/sample.json
 /home/autoware/Autoware/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/media/lgsvl_simulator_bridge.png

@@ -31,6 +31,7 @@ CMakeFiles/rosinterface.dir/ROSInterface/rosinterface.cpp.o: /opt/ros/melodic/in
 CMakeFiles/rosinterface.dir/ROSInterface/rosinterface.cpp.o: /opt/ros/melodic/include/ros/exceptions.h
 CMakeFiles/rosinterface.dir/ROSInterface/rosinterface.cpp.o: /opt/ros/melodic/include/ros/forwards.h
 CMakeFiles/rosinterface.dir/ROSInterface/rosinterface.cpp.o: /opt/ros/melodic/include/ros/init.h
+CMakeFiles/rosinterface.dir/ROSInterface/rosinterface.cpp.o: /opt/ros/melodic/include/ros/internal/condition_variable.h
 CMakeFiles/rosinterface.dir/ROSInterface/rosinterface.cpp.o: /opt/ros/melodic/include/ros/macros.h
 CMakeFiles/rosinterface.dir/ROSInterface/rosinterface.cpp.o: /opt/ros/melodic/include/ros/master.h
 CMakeFiles/rosinterface.dir/ROSInterface/rosinterface.cpp.o: /opt/ros/melodic/include/ros/message.h
@@ -256,6 +257,7 @@ CMakeFiles/rosinterface.dir/include/rosinterface/moc_rosinterface.cpp.o: /opt/ro
 CMakeFiles/rosinterface.dir/include/rosinterface/moc_rosinterface.cpp.o: /opt/ros/melodic/include/ros/exceptions.h
 CMakeFiles/rosinterface.dir/include/rosinterface/moc_rosinterface.cpp.o: /opt/ros/melodic/include/ros/forwards.h
 CMakeFiles/rosinterface.dir/include/rosinterface/moc_rosinterface.cpp.o: /opt/ros/melodic/include/ros/init.h
+CMakeFiles/rosinterface.dir/include/rosinterface/moc_rosinterface.cpp.o: /opt/ros/melodic/include/ros/internal/condition_variable.h
 CMakeFiles/rosinterface.dir/include/rosinterface/moc_rosinterface.cpp.o: /opt/ros/melodic/include/ros/macros.h
 CMakeFiles/rosinterface.dir/include/rosinterface/moc_rosinterface.cpp.o: /opt/ros/melodic/include/ros/master.h
 CMakeFiles/rosinterface.dir/include/rosinterface/moc_rosinterface.cpp.o: /opt/ros/melodic/include/ros/message.h

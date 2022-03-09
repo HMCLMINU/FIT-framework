@@ -513,8 +513,8 @@ clean: CMakeFiles/_run_tests_vehicle_sim_model.dir/clean
 # Target rules for target CMakeFiles/test-vehicle_sim_model.dir
 
 # All Build rule for target.
-CMakeFiles/test-vehicle_sim_model.dir/all: CMakeFiles/_catkin_empty_exported_target.dir/all
 CMakeFiles/test-vehicle_sim_model.dir/all: CMakeFiles/vehicle_sim_model.dir/all
+CMakeFiles/test-vehicle_sim_model.dir/all: CMakeFiles/_catkin_empty_exported_target.dir/all
 CMakeFiles/test-vehicle_sim_model.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f CMakeFiles/test-vehicle_sim_model.dir/build.make CMakeFiles/test-vehicle_sim_model.dir/depend
 	$(MAKE) -f CMakeFiles/test-vehicle_sim_model.dir/build.make CMakeFiles/test-vehicle_sim_model.dir/build

@@ -279,6 +279,7 @@ devel/lib/points_preprocessor/points_concat_filter: /opt/ros/melodic/lib/librosl
 devel/lib/points_preprocessor/points_concat_filter: /usr/lib/x86_64-linux-gnu/liblz4.so
 devel/lib/points_preprocessor/points_concat_filter: /opt/ros/melodic/lib/libtopic_tools.so
 devel/lib/points_preprocessor/points_concat_filter: /opt/ros/melodic/lib/libvelodyne_input.so
+devel/lib/points_preprocessor/points_concat_filter: /opt/ros/melodic/lib/libdiagnostic_updater.so
 devel/lib/points_preprocessor/points_concat_filter: /opt/ros/melodic/lib/libnodeletlib.so
 devel/lib/points_preprocessor/points_concat_filter: /opt/ros/melodic/lib/libbondcpp.so
 devel/lib/points_preprocessor/points_concat_filter: /usr/lib/x86_64-linux-gnu/libuuid.so
@@ -632,6 +633,7 @@ devel/lib/points_preprocessor/points_concat_filter: /opt/ros/melodic/lib/librosl
 devel/lib/points_preprocessor/points_concat_filter: /usr/lib/x86_64-linux-gnu/liblz4.so
 devel/lib/points_preprocessor/points_concat_filter: /opt/ros/melodic/lib/libtopic_tools.so
 devel/lib/points_preprocessor/points_concat_filter: /opt/ros/melodic/lib/libvelodyne_input.so
+devel/lib/points_preprocessor/points_concat_filter: /opt/ros/melodic/lib/libdiagnostic_updater.so
 devel/lib/points_preprocessor/points_concat_filter: /opt/ros/melodic/lib/libnodeletlib.so
 devel/lib/points_preprocessor/points_concat_filter: /opt/ros/melodic/lib/libbondcpp.so
 devel/lib/points_preprocessor/points_concat_filter: /usr/lib/x86_64-linux-gnu/libuuid.so

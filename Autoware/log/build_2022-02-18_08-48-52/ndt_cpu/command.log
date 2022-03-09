@@ -1,2 +1,0 @@
-Invoking command in '/home/autoware/Autoware/build/ndt_cpu': /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_perception/ndt_cpu -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/ndt_cpu
-Invoked command in '/home/autoware/Autoware/build/ndt_cpu' returned '-2': /usr/bin/cmake /home/autoware/Autoware/src/autoware/core_perception/ndt_cpu -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/ndt_cpu

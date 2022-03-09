@@ -5,7 +5,7 @@
 /home/autoware/Autoware/install/waypoint_planner/lib/waypoint_planner/astar_avoid
 /home/autoware/Autoware/install/waypoint_planner/lib/waypoint_planner/velocity_set
 /home/autoware/Autoware/install/waypoint_planner/lib/waypoint_planner/velocity_set_lanelet2
-/home/autoware/Autoware/install/waypoint_planner/share/waypoint_planner/launch/velocity_set_option.launch
-/home/autoware/Autoware/install/waypoint_planner/share/waypoint_planner/launch/astar_avoid.launch
 /home/autoware/Autoware/install/waypoint_planner/share/waypoint_planner/launch/velocity_set.launch
+/home/autoware/Autoware/install/waypoint_planner/share/waypoint_planner/launch/astar_avoid.launch
+/home/autoware/Autoware/install/waypoint_planner/share/waypoint_planner/launch/velocity_set_option.launch
 /home/autoware/Autoware/install/waypoint_planner/share/waypoint_planner/launch/velocity_set_lanelet2.launch

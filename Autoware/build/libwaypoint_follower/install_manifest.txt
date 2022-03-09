@@ -3,6 +3,6 @@
 /home/autoware/Autoware/install/libwaypoint_follower/share/libwaypoint_follower/cmake/libwaypoint_followerConfig-version.cmake
 /home/autoware/Autoware/install/libwaypoint_follower/share/libwaypoint_follower/package.xml
 /home/autoware/Autoware/install/libwaypoint_follower/lib/liblibwaypoint_follower.so
+/home/autoware/Autoware/install/libwaypoint_follower/include/libwaypoint_follower/test_libwaypoint_follower.h
 /home/autoware/Autoware/install/libwaypoint_follower/include/libwaypoint_follower/libwaypoint_follower.h
 /home/autoware/Autoware/install/libwaypoint_follower/include/libwaypoint_follower/pure_pursuit.h
-/home/autoware/Autoware/install/libwaypoint_follower/include/libwaypoint_follower/test_libwaypoint_follower.h

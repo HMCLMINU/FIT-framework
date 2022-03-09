@@ -92,7 +92,7 @@ devel/lib/map_file/points_map_loader: CMakeFiles/points_map_loader.dir/nodes/poi
 devel/lib/map_file/points_map_loader: CMakeFiles/points_map_loader.dir/build.make
 devel/lib/map_file/points_map_loader: /home/autoware/Autoware/install/lanelet2_extension/lib/liblanelet2_extension_lib.so
 devel/lib/map_file/points_map_loader: /home/autoware/Autoware/install/amathutils_lib/lib/libamathutils_lib.so
-devel/lib/map_file/points_map_loader: /opt/ros/melodic/lib/liblanelet2_validation.so.1.0.1
+devel/lib/map_file/points_map_loader: /opt/ros/melodic/lib/liblanelet2_validation.so
 devel/lib/map_file/points_map_loader: /opt/ros/melodic/lib/libpcl_ros_filter.so
 devel/lib/map_file/points_map_loader: /opt/ros/melodic/lib/libpcl_ros_tf.so
 devel/lib/map_file/points_map_loader: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
@@ -601,13 +601,13 @@ devel/lib/map_file/points_map_loader: /opt/ros/melodic/lib/libroscpp_serializati
 devel/lib/map_file/points_map_loader: /opt/ros/melodic/lib/librostime.so
 devel/lib/map_file/points_map_loader: /opt/ros/melodic/lib/libcpp_common.so
 devel/lib/map_file/points_map_loader: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-devel/lib/map_file/points_map_loader: /opt/ros/melodic/lib/liblanelet2_projection.so.1.0.1
-devel/lib/map_file/points_map_loader: /opt/ros/melodic/lib/liblanelet2_io.so.1.0.1
+devel/lib/map_file/points_map_loader: /opt/ros/melodic/lib/liblanelet2_projection.so
+devel/lib/map_file/points_map_loader: /opt/ros/melodic/lib/liblanelet2_io.so
 devel/lib/map_file/points_map_loader: /usr/lib/x86_64-linux-gnu/libpugixml.so
 devel/lib/map_file/points_map_loader: /usr/lib/x86_64-linux-gnu/libGeographic.so
-devel/lib/map_file/points_map_loader: /opt/ros/melodic/lib/liblanelet2_routing.so.1.0.1
-devel/lib/map_file/points_map_loader: /opt/ros/melodic/lib/liblanelet2_traffic_rules.so.1.0.1
-devel/lib/map_file/points_map_loader: /opt/ros/melodic/lib/liblanelet2_core.so.1.0.1
+devel/lib/map_file/points_map_loader: /opt/ros/melodic/lib/liblanelet2_routing.so
+devel/lib/map_file/points_map_loader: /opt/ros/melodic/lib/liblanelet2_traffic_rules.so
+devel/lib/map_file/points_map_loader: /opt/ros/melodic/lib/liblanelet2_core.so
 devel/lib/map_file/points_map_loader: /usr/lib/x86_64-linux-gnu/libboost_wserialization.so
 devel/lib/map_file/points_map_loader: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 devel/lib/map_file/points_map_loader: /usr/lib/x86_64-linux-gnu/libboost_random.so

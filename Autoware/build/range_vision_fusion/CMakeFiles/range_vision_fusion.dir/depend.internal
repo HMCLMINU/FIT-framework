@@ -67,6 +67,7 @@ CMakeFiles/range_vision_fusion.dir/src/range_vision_fusion_node.cpp.o
  /opt/ros/melodic/include/pcl_msgs/PointIndices.h
  /opt/ros/melodic/include/pcl_msgs/PolygonMesh.h
  /opt/ros/melodic/include/pcl_msgs/Vertices.h
+ /opt/ros/melodic/include/pcl_ros/transforms.h
  /opt/ros/melodic/include/ros/advertise_options.h
  /opt/ros/melodic/include/ros/advertise_service_options.h
  /opt/ros/melodic/include/ros/assert.h
@@ -82,6 +83,7 @@ CMakeFiles/range_vision_fusion.dir/src/range_vision_fusion_node.cpp.o
  /opt/ros/melodic/include/ros/exceptions.h
  /opt/ros/melodic/include/ros/forwards.h
  /opt/ros/melodic/include/ros/init.h
+ /opt/ros/melodic/include/ros/internal/condition_variable.h
  /opt/ros/melodic/include/ros/macros.h
  /opt/ros/melodic/include/ros/master.h
  /opt/ros/melodic/include/ros/message.h

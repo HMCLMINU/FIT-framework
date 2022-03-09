@@ -6,5 +6,5 @@
 /home/autoware/Autoware/install/ros_observer/include/ros_observer/lib_ros_observer.h
 /home/autoware/Autoware/install/ros_observer/lib/ros_observer/ros_observer
 /home/autoware/Autoware/install/ros_observer/lib/liblib_ros_observer.so
-/home/autoware/Autoware/install/ros_observer/share/ros_observer/launch/test.launch
 /home/autoware/Autoware/install/ros_observer/share/ros_observer/launch/ros_observer.launch
+/home/autoware/Autoware/install/ros_observer/share/ros_observer/launch/test.launch

@@ -8,7 +8,7 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/autoware/Autoware/build/gnss_localizer/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/autoware/Autoware/install/gnss/lib:/home/autoware/Autoware/install/autoware_build_flags/lib:/opt/ros/melodic/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64"
-export PKG_CONFIG_PATH="/home/autoware/Autoware/install/gnss/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/autoware/Autoware/build/gnss_localizer/devel/share/common-lisp"
+export LD_LIBRARY_PATH='/home/autoware/Autoware/install/gnss/lib:/home/autoware/Autoware/install/autoware_build_flags/lib:/opt/ros/melodic/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'
+export PKG_CONFIG_PATH='/home/autoware/Autoware/install/gnss/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/autoware/Autoware/build/gnss_localizer/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/autoware/Autoware/src/autoware/core_perception/gnss_localizer:$ROS_PACKAGE_PATH"

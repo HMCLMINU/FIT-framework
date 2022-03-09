@@ -803,6 +803,10 @@ tf/tf.h
 -
 op_planner/RoadNetwork.h
 /home/autoware/Autoware/src/autoware/core_planning/way_planner/include/op_planner/RoadNetwork.h
+string
+-
+vector
+-
 
 /home/autoware/Autoware/src/autoware/core_planning/way_planner/include/SocketServer.h
 cstdio
@@ -812,8 +816,6 @@ sys/types.h
 sys/socket.h
 -
 netinet/in.h
--
-sys/types.h
 -
 unistd.h
 -
@@ -877,6 +879,10 @@ ROSHelpers.h
 /home/autoware/Autoware/src/autoware/core_planning/way_planner/include/ROSHelpers.h
 SocketServer.h
 /home/autoware/Autoware/src/autoware/core_planning/way_planner/include/SocketServer.h
+string
+-
+vector
+-
 
 /home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/ROSHelpers.cpp
 ROSHelpers.h
@@ -887,6 +893,10 @@ sstream
 -
 fstream
 -
+string
+-
+vector
+-
 math.h
 -
 op_planner/PlanningHelpers.h
@@ -895,16 +905,22 @@ op_planner/PlanningHelpers.h
 /home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/SocketServer.cpp
 SocketServer.h
 /home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/SocketServer.h
+string
+-
 
 /home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/way_planner.cpp
 ros/ros.h
 -
 way_planner_core.h
-/home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/way_planner_core.h
+-
 
 /home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/way_planner_core.cpp
 way_planner_core.h
-/home/autoware/Autoware/src/autoware/core_planning/way_planner/nodes/way_planner_core.h
+-
+string
+-
+vector
+-
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string
@@ -1329,13 +1345,13 @@ ros/time.h
 /opt/ros/melodic/include/ros/callback_queue.h
 ros/callback_queue_interface.h
 /opt/ros/melodic/include/ros/ros/callback_queue_interface.h
+ros/internal/condition_variable.h
+/opt/ros/melodic/include/ros/ros/internal/condition_variable.h
 ros/time.h
 /opt/ros/melodic/include/ros/ros/time.h
 common.h
 /opt/ros/melodic/include/ros/common.h
 boost/shared_ptr.hpp
--
-boost/thread/condition_variable.hpp
 -
 boost/thread/mutex.hpp
 -
@@ -1473,6 +1489,10 @@ ros/spinner.h
 /opt/ros/melodic/include/ros/ros/spinner.h
 common.h
 /opt/ros/melodic/include/ros/common.h
+
+/opt/ros/melodic/include/ros/internal/condition_variable.h
+boost/thread/condition_variable.hpp
+-
 
 /opt/ros/melodic/include/ros/macros.h
 

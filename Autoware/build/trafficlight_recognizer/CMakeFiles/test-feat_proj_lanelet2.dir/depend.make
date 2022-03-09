@@ -92,6 +92,7 @@ CMakeFiles/test-feat_proj_lanelet2.dir/nodes/feat_proj_lanelet2/feat_proj_lanele
 CMakeFiles/test-feat_proj_lanelet2.dir/nodes/feat_proj_lanelet2/feat_proj_lanelet2_core.cpp.o: /opt/ros/melodic/include/ros/exceptions.h
 CMakeFiles/test-feat_proj_lanelet2.dir/nodes/feat_proj_lanelet2/feat_proj_lanelet2_core.cpp.o: /opt/ros/melodic/include/ros/forwards.h
 CMakeFiles/test-feat_proj_lanelet2.dir/nodes/feat_proj_lanelet2/feat_proj_lanelet2_core.cpp.o: /opt/ros/melodic/include/ros/init.h
+CMakeFiles/test-feat_proj_lanelet2.dir/nodes/feat_proj_lanelet2/feat_proj_lanelet2_core.cpp.o: /opt/ros/melodic/include/ros/internal/condition_variable.h
 CMakeFiles/test-feat_proj_lanelet2.dir/nodes/feat_proj_lanelet2/feat_proj_lanelet2_core.cpp.o: /opt/ros/melodic/include/ros/macros.h
 CMakeFiles/test-feat_proj_lanelet2.dir/nodes/feat_proj_lanelet2/feat_proj_lanelet2_core.cpp.o: /opt/ros/melodic/include/ros/master.h
 CMakeFiles/test-feat_proj_lanelet2.dir/nodes/feat_proj_lanelet2/feat_proj_lanelet2_core.cpp.o: /opt/ros/melodic/include/ros/message.h

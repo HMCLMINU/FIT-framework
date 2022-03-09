@@ -9,7 +9,7 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/autoware/Autoware/build/autoware_camera_lidar_calibrator/devel:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/autoware/Autoware/build/autoware_camera_lidar_calibrator/devel/lib:/home/autoware/Autoware/install/autoware_msgs/lib:/home/autoware/Autoware/install/autoware_build_flags/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/autoware/Autoware/build/autoware_camera_lidar_calibrator/devel/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig"
+export PKG_CONFIG_PATH='/home/autoware/Autoware/build/autoware_camera_lidar_calibrator/devel/lib/pkgconfig:/home/autoware/Autoware/install/autoware_msgs/lib/pkgconfig:/home/autoware/Autoware/install/autoware_build_flags/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'
 export PYTHONPATH="/home/autoware/Autoware/build/autoware_camera_lidar_calibrator/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/autoware/Autoware/build/autoware_camera_lidar_calibrator/devel/share/common-lisp"
+export ROSLISP_PACKAGE_DIRECTORIES='/home/autoware/Autoware/build/autoware_camera_lidar_calibrator/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/autoware/Autoware/src/autoware/utilities/autoware_camera_lidar_calibrator:$ROS_PACKAGE_PATH"

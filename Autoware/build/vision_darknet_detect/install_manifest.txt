@@ -6,10 +6,10 @@
 /home/autoware/Autoware/install/vision_darknet_detect/lib/vision_darknet_detect/vision_darknet_detect
 /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/launch/vision_yolo2_detect.launch
 /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/launch/vision_yolo3_detect.launch
-/home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//voc.names
-/home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//coco.names
-/home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov2-tiny.cfg
-/home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov2.cfg
-/home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3-voc.cfg
-/home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3-tiny.cfg
 /home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3.cfg
+/home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov2.cfg
+/home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//coco.names
+/home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//voc.names
+/home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov2-tiny.cfg
+/home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3-tiny.cfg
+/home/autoware/Autoware/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3-voc.cfg

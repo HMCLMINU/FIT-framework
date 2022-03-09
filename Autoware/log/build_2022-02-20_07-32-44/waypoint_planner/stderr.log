@@ -1,6 +1,0 @@
-[01m[K/home/autoware/Autoware/src/autoware/core_planning/waypoint_planner/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp:44:11:[m[K [01;31m[Kerror: [m[Kuninitialized const ‘[01m[Kpoints_threshold[m[K’ [[01;31m[K-fpermissive[m[K]
- const int [01;31m[Kpoints_threshold[m[K;
-           [01;31m[K^~~~~~~~~~~~~~~~[m[K
-make[2]: *** [CMakeFiles/velocity_set_lanelet2.dir/src/velocity_set_lanelet2/velocity_set_lanelet2.cpp.o] Error 1
-make[1]: *** [CMakeFiles/velocity_set_lanelet2.dir/all] Error 2
-make: *** [all] Error 2

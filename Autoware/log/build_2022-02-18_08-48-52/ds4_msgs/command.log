@@ -1,2 +1,0 @@
-Invoking command in '/home/autoware/Autoware/build/ds4_msgs': /usr/bin/cmake /home/autoware/Autoware/src/drivers/ds4/ds4_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/ds4_msgs
-Invoked command in '/home/autoware/Autoware/build/ds4_msgs' returned '-2': /usr/bin/cmake /home/autoware/Autoware/src/drivers/ds4/ds4_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autoware/Autoware/install/ds4_msgs

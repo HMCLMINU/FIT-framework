@@ -168,19 +168,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named clean_test_results_points_preprocessor
-
-# Build rule for target.
-clean_test_results_points_preprocessor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_points_preprocessor
-.PHONY : clean_test_results_points_preprocessor
-
-# fast build rule for target.
-clean_test_results_points_preprocessor/fast:
-	$(MAKE) -f CMakeFiles/clean_test_results_points_preprocessor.dir/build.make CMakeFiles/clean_test_results_points_preprocessor.dir/build
-.PHONY : clean_test_results_points_preprocessor/fast
-
-#=============================================================================
 # Target rules for targets named _run_tests_points_preprocessor_roslint_package
 
 # Build rule for target.
@@ -207,6 +194,71 @@ _run_tests_points_preprocessor_roslint/fast:
 .PHONY : _run_tests_points_preprocessor_roslint/fast
 
 #=============================================================================
+# Target rules for targets named clean_test_results_points_preprocessor
+
+# Build rule for target.
+clean_test_results_points_preprocessor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_points_preprocessor
+.PHONY : clean_test_results_points_preprocessor
+
+# fast build rule for target.
+clean_test_results_points_preprocessor/fast:
+	$(MAKE) -f CMakeFiles/clean_test_results_points_preprocessor.dir/build.make CMakeFiles/clean_test_results_points_preprocessor.dir/build
+.PHONY : clean_test_results_points_preprocessor/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test
+
+# Build rule for target.
+_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test
+.PHONY : _run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test
+
+# fast build rule for target.
+_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test/fast:
+	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/build.make CMakeFiles/_run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/build
+.PHONY : _run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test
+
+# Build rule for target.
+run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test
+.PHONY : run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test
+
+# fast build rule for target.
+run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test/fast:
+	$(MAKE) -f CMakeFiles/run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/build.make CMakeFiles/run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test.dir/build
+.PHONY : run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_points_preprocessor_rostest
+
+# Build rule for target.
+_run_tests_points_preprocessor_rostest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_points_preprocessor_rostest
+.PHONY : _run_tests_points_preprocessor_rostest
+
+# fast build rule for target.
+_run_tests_points_preprocessor_rostest/fast:
+	$(MAKE) -f CMakeFiles/_run_tests_points_preprocessor_rostest.dir/build.make CMakeFiles/_run_tests_points_preprocessor_rostest.dir/build
+.PHONY : _run_tests_points_preprocessor_rostest/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_points_preprocessor_rostest
+
+# Build rule for target.
+run_tests_points_preprocessor_rostest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_points_preprocessor_rostest
+.PHONY : run_tests_points_preprocessor_rostest
+
+# fast build rule for target.
+run_tests_points_preprocessor_rostest/fast:
+	$(MAKE) -f CMakeFiles/run_tests_points_preprocessor_rostest.dir/build.make CMakeFiles/run_tests_points_preprocessor_rostest.dir/build
+.PHONY : run_tests_points_preprocessor_rostest/fast
+
+#=============================================================================
 # Target rules for targets named run_tests_points_preprocessor
 
 # Build rule for target.
@@ -218,6 +270,19 @@ run_tests_points_preprocessor: cmake_check_build_system
 run_tests_points_preprocessor/fast:
 	$(MAKE) -f CMakeFiles/run_tests_points_preprocessor.dir/build.make CMakeFiles/run_tests_points_preprocessor.dir/build
 .PHONY : run_tests_points_preprocessor/fast
+
+#=============================================================================
+# Target rules for targets named test_points_preprocessor
+
+# Build rule for target.
+test_points_preprocessor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_points_preprocessor
+.PHONY : test_points_preprocessor
+
+# fast build rule for target.
+test_points_preprocessor/fast:
+	$(MAKE) -f CMakeFiles/test_points_preprocessor.dir/build.make CMakeFiles/test_points_preprocessor.dir/build
+.PHONY : test_points_preprocessor/fast
 
 #=============================================================================
 # Target rules for targets named compare_map_filter
@@ -1981,6 +2046,33 @@ nodes/space_filter/space_filter.cpp.s:
 	$(MAKE) -f CMakeFiles/space_filter.dir/build.make CMakeFiles/space_filter.dir/nodes/space_filter/space_filter.cpp.s
 .PHONY : nodes/space_filter/space_filter.cpp.s
 
+test/src/test_points_preprocessor.o: test/src/test_points_preprocessor.cpp.o
+
+.PHONY : test/src/test_points_preprocessor.o
+
+# target to build an object file
+test/src/test_points_preprocessor.cpp.o:
+	$(MAKE) -f CMakeFiles/test_points_preprocessor.dir/build.make CMakeFiles/test_points_preprocessor.dir/test/src/test_points_preprocessor.cpp.o
+.PHONY : test/src/test_points_preprocessor.cpp.o
+
+test/src/test_points_preprocessor.i: test/src/test_points_preprocessor.cpp.i
+
+.PHONY : test/src/test_points_preprocessor.i
+
+# target to preprocess a source file
+test/src/test_points_preprocessor.cpp.i:
+	$(MAKE) -f CMakeFiles/test_points_preprocessor.dir/build.make CMakeFiles/test_points_preprocessor.dir/test/src/test_points_preprocessor.cpp.i
+.PHONY : test/src/test_points_preprocessor.cpp.i
+
+test/src/test_points_preprocessor.s: test/src/test_points_preprocessor.cpp.s
+
+.PHONY : test/src/test_points_preprocessor.s
+
+# target to generate assembly for a file
+test/src/test_points_preprocessor.cpp.s:
+	$(MAKE) -f CMakeFiles/test_points_preprocessor.dir/build.make CMakeFiles/test_points_preprocessor.dir/test/src/test_points_preprocessor.cpp.s
+.PHONY : test/src/test_points_preprocessor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1991,10 +2083,15 @@ help:
 	@echo "... install/local"
 	@echo "... list_install_components"
 	@echo "... test"
-	@echo "... clean_test_results_points_preprocessor"
 	@echo "... _run_tests_points_preprocessor_roslint_package"
 	@echo "... _run_tests_points_preprocessor_roslint"
+	@echo "... clean_test_results_points_preprocessor"
+	@echo "... _run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test"
+	@echo "... run_tests_points_preprocessor_rostest_test_test_points_preprocessor.test"
+	@echo "... _run_tests_points_preprocessor_rostest"
+	@echo "... run_tests_points_preprocessor_rostest"
 	@echo "... run_tests_points_preprocessor"
+	@echo "... test_points_preprocessor"
 	@echo "... compare_map_filter"
 	@echo "... ray_ground_filter"
 	@echo "... ray_ground_filter_lib"
@@ -2140,6 +2237,9 @@ help:
 	@echo "... nodes/space_filter/space_filter.o"
 	@echo "... nodes/space_filter/space_filter.i"
 	@echo "... nodes/space_filter/space_filter.s"
+	@echo "... test/src/test_points_preprocessor.o"
+	@echo "... test/src/test_points_preprocessor.i"
+	@echo "... test/src/test_points_preprocessor.s"
 .PHONY : help
 
 

@@ -172,7 +172,7 @@ devel/lib/waypoint_planner/velocity_set: /home/autoware/Autoware/install/astar_s
 devel/lib/waypoint_planner/velocity_set: /home/autoware/Autoware/install/autoware_health_checker/lib/libhealth_checker.so
 devel/lib/waypoint_planner/velocity_set: /home/autoware/Autoware/install/autoware_health_checker/lib/libsystem_status_subscriber.so
 devel/lib/waypoint_planner/velocity_set: /home/autoware/Autoware/install/lanelet2_extension/lib/liblanelet2_extension_lib.so
-devel/lib/waypoint_planner/velocity_set: /opt/ros/melodic/lib/liblanelet2_validation.so.1.0.1
+devel/lib/waypoint_planner/velocity_set: /opt/ros/melodic/lib/liblanelet2_validation.so
 devel/lib/waypoint_planner/velocity_set: /home/autoware/Autoware/install/libwaypoint_follower/lib/liblibwaypoint_follower.so
 devel/lib/waypoint_planner/velocity_set: /home/autoware/Autoware/install/amathutils_lib/lib/libamathutils_lib.so
 devel/lib/waypoint_planner/velocity_set: /opt/ros/melodic/lib/libpcl_ros_filter.so
@@ -392,13 +392,13 @@ devel/lib/waypoint_planner/velocity_set: /usr/lib/x86_64-linux-gnu/libboost_date
 devel/lib/waypoint_planner/velocity_set: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 devel/lib/waypoint_planner/velocity_set: /usr/lib/x86_64-linux-gnu/libpthread.so
 devel/lib/waypoint_planner/velocity_set: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-devel/lib/waypoint_planner/velocity_set: /opt/ros/melodic/lib/liblanelet2_projection.so.1.0.1
-devel/lib/waypoint_planner/velocity_set: /opt/ros/melodic/lib/liblanelet2_io.so.1.0.1
+devel/lib/waypoint_planner/velocity_set: /opt/ros/melodic/lib/liblanelet2_projection.so
+devel/lib/waypoint_planner/velocity_set: /opt/ros/melodic/lib/liblanelet2_io.so
 devel/lib/waypoint_planner/velocity_set: /usr/lib/x86_64-linux-gnu/libpugixml.so
 devel/lib/waypoint_planner/velocity_set: /usr/lib/x86_64-linux-gnu/libGeographic.so
-devel/lib/waypoint_planner/velocity_set: /opt/ros/melodic/lib/liblanelet2_routing.so.1.0.1
-devel/lib/waypoint_planner/velocity_set: /opt/ros/melodic/lib/liblanelet2_traffic_rules.so.1.0.1
-devel/lib/waypoint_planner/velocity_set: /opt/ros/melodic/lib/liblanelet2_core.so.1.0.1
+devel/lib/waypoint_planner/velocity_set: /opt/ros/melodic/lib/liblanelet2_routing.so
+devel/lib/waypoint_planner/velocity_set: /opt/ros/melodic/lib/liblanelet2_traffic_rules.so
+devel/lib/waypoint_planner/velocity_set: /opt/ros/melodic/lib/liblanelet2_core.so
 devel/lib/waypoint_planner/velocity_set: /usr/lib/x86_64-linux-gnu/libboost_wserialization.so
 devel/lib/waypoint_planner/velocity_set: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 devel/lib/waypoint_planner/velocity_set: /usr/lib/x86_64-linux-gnu/libboost_random.so

@@ -1,4 +1,4 @@
-The system is: Linux - 5.3.0-1032-azure - x86_64
+The system is: Linux - 5.4.0-96-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/autoware/Autoware/build/
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0924f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0924f.dir/build.make CMakeFiles/cmTC_0924f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_93f4a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_93f4a.dir/build.make CMakeFiles/cmTC_93f4a.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0924f.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_0924f.dir/testCCompiler.c.o   -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_0924f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0924f.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0924f.dir/testCCompiler.c.o  -o cmTC_0924f 
+Building C object CMakeFiles/cmTC_93f4a.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_93f4a.dir/testCCompiler.c.o   -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_93f4a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93f4a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_93f4a.dir/testCCompiler.c.o  -o cmTC_93f4a 
 make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b047b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b047b.dir/build.make CMakeFiles/cmTC_b047b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f6d3e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6d3e.dir/build.make CMakeFiles/cmTC_f6d3e.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b047b.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b047b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_b047b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b047b.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_b047b.dir/CMakeCCompilerABI.c.o  -o cmTC_b047b 
+Building C object CMakeFiles/cmTC_f6d3e.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f6d3e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_f6d3e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6d3e.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_f6d3e.dir/CMakeCCompilerABI.c.o  -o cmTC_f6d3e 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b047b' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyDwJKX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b047b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_b047b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b047b' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f6d3e' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZfCcGa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f6d3e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f6d3e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f6d3e' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b047b/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b047b.dir/build.make CMakeFiles/cmTC_b047b.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f6d3e/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f6d3e.dir/build.make CMakeFiles/cmTC_f6d3e.dir/build]
   ignore line: [make[1]: Entering directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_b047b.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_b047b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_b047b]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b047b.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_b047b.dir/CMakeCCompilerABI.c.o  -o cmTC_b047b ]
+  ignore line: [Building C object CMakeFiles/cmTC_f6d3e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_f6d3e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_f6d3e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6d3e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_f6d3e.dir/CMakeCCompilerABI.c.o  -o cmTC_f6d3e ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b047b' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyDwJKX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b047b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_b047b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f6d3e' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZfCcGa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f6d3e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f6d3e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccyDwJKX.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZfCcGa.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b047b] ==> ignore
+    arg [cmTC_f6d3e] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -128,7 +128,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/local/cuda/lib64/stubs] ==> dir [/usr/local/cuda/lib64/stubs]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_b047b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_f6d3e.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -161,14 +161,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fed43/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fed43.dir/build.make CMakeFiles/cmTC_fed43.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e8031/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8031.dir/build.make CMakeFiles/cmTC_e8031.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fed43.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_fed43.dir/feature_tests.c.o   -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/feature_tests.c
-Linking C executable cmTC_fed43
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fed43.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fed43.dir/feature_tests.c.o  -o cmTC_fed43 
+Building C object CMakeFiles/cmTC_e8031.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_e8031.dir/feature_tests.c.o   -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e8031
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8031.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e8031.dir/feature_tests.c.o  -o cmTC_e8031 
 make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
 
 
@@ -181,14 +181,14 @@ make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b042c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b042c.dir/build.make CMakeFiles/cmTC_b042c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_89d76/fast"
+/usr/bin/make -f CMakeFiles/cmTC_89d76.dir/build.make CMakeFiles/cmTC_89d76.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b042c.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_b042c.dir/feature_tests.c.o   -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b042c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b042c.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b042c.dir/feature_tests.c.o  -o cmTC_b042c 
+Building C object CMakeFiles/cmTC_89d76.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_89d76.dir/feature_tests.c.o   -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/feature_tests.c
+Linking C executable cmTC_89d76
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89d76.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_89d76.dir/feature_tests.c.o  -o cmTC_89d76 
 make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
 
 
@@ -201,14 +201,14 @@ make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_48d6c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_48d6c.dir/build.make CMakeFiles/cmTC_48d6c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_eda77/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eda77.dir/build.make CMakeFiles/cmTC_eda77.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_48d6c.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_48d6c.dir/feature_tests.c.o   -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/feature_tests.c
-Linking C executable cmTC_48d6c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48d6c.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_48d6c.dir/feature_tests.c.o  -o cmTC_48d6c 
+Building C object CMakeFiles/cmTC_eda77.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_eda77.dir/feature_tests.c.o   -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/feature_tests.c
+Linking C executable cmTC_eda77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eda77.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_eda77.dir/feature_tests.c.o  -o cmTC_eda77 
 make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
 
 
@@ -219,28 +219,28 @@ make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_41d99/fast"
-/usr/bin/make -f CMakeFiles/cmTC_41d99.dir/build.make CMakeFiles/cmTC_41d99.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_dd272/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd272.dir/build.make CMakeFiles/cmTC_dd272.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_41d99.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_41d99.dir/testCXXCompiler.cxx.o -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_41d99
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41d99.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_41d99.dir/testCXXCompiler.cxx.o  -o cmTC_41d99 
+Building CXX object CMakeFiles/cmTC_dd272.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_dd272.dir/testCXXCompiler.cxx.o -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_dd272
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd272.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_dd272.dir/testCXXCompiler.cxx.o  -o cmTC_dd272 
 make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_46c10/fast"
-/usr/bin/make -f CMakeFiles/cmTC_46c10.dir/build.make CMakeFiles/cmTC_46c10.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4c845/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4c845.dir/build.make CMakeFiles/cmTC_4c845.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_46c10.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_46c10.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_46c10
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46c10.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_46c10.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_46c10 
+Building CXX object CMakeFiles/cmTC_4c845.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_4c845.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_4c845
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c845.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_4c845.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4c845 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -252,9 +252,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_46c10' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWKUrsh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_46c10 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_46c10.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_46c10' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4c845' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFEkZmH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4c845 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_4c845.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4c845' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
 
 
@@ -262,14 +262,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_46c10/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_46c10.dir/build.make CMakeFiles/cmTC_46c10.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4c845/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4c845.dir/build.make CMakeFiles/cmTC_4c845.dir/build]
   ignore line: [make[1]: Entering directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_46c10.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_46c10.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_46c10]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46c10.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_46c10.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_46c10 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_4c845.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_4c845.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_4c845]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c845.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_4c845.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4c845 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -281,13 +281,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_46c10' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWKUrsh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_46c10 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_46c10.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4c845' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFEkZmH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4c845 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_4c845.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccWKUrsh.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFEkZmH.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_46c10] ==> ignore
+    arg [cmTC_4c845] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -319,7 +319,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/local/cuda/lib64/stubs] ==> dir [/usr/local/cuda/lib64/stubs]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_46c10.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_4c845.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -348,14 +348,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_723f0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_723f0.dir/build.make CMakeFiles/cmTC_723f0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b8c4a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8c4a.dir/build.make CMakeFiles/cmTC_b8c4a.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_723f0.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_723f0.dir/feature_tests.cxx.o -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_723f0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_723f0.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_723f0.dir/feature_tests.cxx.o  -o cmTC_723f0 
+Building CXX object CMakeFiles/cmTC_b8c4a.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_b8c4a.dir/feature_tests.cxx.o -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b8c4a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8c4a.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_b8c4a.dir/feature_tests.cxx.o  -o cmTC_b8c4a 
 make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
 
 
@@ -421,14 +421,14 @@ make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_40898/fast"
-/usr/bin/make -f CMakeFiles/cmTC_40898.dir/build.make CMakeFiles/cmTC_40898.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3bd96/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3bd96.dir/build.make CMakeFiles/cmTC_3bd96.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_40898.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_40898.dir/feature_tests.cxx.o -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_40898
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40898.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_40898.dir/feature_tests.cxx.o  -o cmTC_40898 
+Building CXX object CMakeFiles/cmTC_3bd96.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_3bd96.dir/feature_tests.cxx.o -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3bd96
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bd96.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_3bd96.dir/feature_tests.cxx.o  -o cmTC_3bd96 
 make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
 
 
@@ -494,14 +494,14 @@ make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fa026/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fa026.dir/build.make CMakeFiles/cmTC_fa026.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_77ead/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77ead.dir/build.make CMakeFiles/cmTC_77ead.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fa026.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_fa026.dir/feature_tests.cxx.o -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_fa026
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa026.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_fa026.dir/feature_tests.cxx.o  -o cmTC_fa026 
+Building CXX object CMakeFiles/cmTC_77ead.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_77ead.dir/feature_tests.cxx.o -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_77ead
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77ead.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_77ead.dir/feature_tests.cxx.o  -o cmTC_77ead 
 make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
 
 
@@ -567,14 +567,14 @@ make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9348b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9348b.dir/build.make CMakeFiles/cmTC_9348b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8436a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8436a.dir/build.make CMakeFiles/cmTC_8436a.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9348b.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_9348b.dir/feature_tests.cxx.o -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9348b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9348b.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_9348b.dir/feature_tests.cxx.o  -o cmTC_9348b 
+Building CXX object CMakeFiles/cmTC_8436a.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_8436a.dir/feature_tests.cxx.o -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8436a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8436a.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8436a.dir/feature_tests.cxx.o  -o cmTC_8436a 
 make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
 
 
@@ -638,28 +638,28 @@ make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_670a4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_670a4.dir/build.make CMakeFiles/cmTC_670a4.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_975f9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_975f9.dir/build.make CMakeFiles/cmTC_975f9.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_670a4.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_670a4.dir/CheckIncludeFile.c.o   -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_670a4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_670a4.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_670a4.dir/CheckIncludeFile.c.o  -o cmTC_670a4 
+Building C object CMakeFiles/cmTC_975f9.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_975f9.dir/CheckIncludeFile.c.o   -c /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_975f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_975f9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_975f9.dir/CheckIncludeFile.c.o  -o cmTC_975f9 
 make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ea818/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ea818.dir/build.make CMakeFiles/cmTC_ea818.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a25a2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a25a2.dir/build.make CMakeFiles/cmTC_a25a2.dir/build
 make[1]: Entering directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ea818.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ea818.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ea818
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea818.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ea818.dir/CheckFunctionExists.c.o  -o cmTC_ea818 -lpthread 
+Building C object CMakeFiles/cmTC_a25a2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a25a2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a25a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a25a2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a25a2.dir/CheckFunctionExists.c.o  -o cmTC_a25a2 -lpthread 
 make[1]: Leaving directory '/home/autoware/Autoware/build/lidar_shape_estimation/CMakeFiles/CMakeTmp'
 
 

@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = '/home/autoware/Autoware/install/ndt_gpu;/home/autoware/Autoware/install/autoware_health_checker;/home/autoware/Autoware/install/ros_observer;/home/autoware/Autoware/install/pcl_omp_registration;/home/autoware/Autoware/install/ndt_tku;/home/autoware/Autoware/install/ndt_cpu;/home/autoware/Autoware/install/autoware_system_msgs;/home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_config_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic'.split(';')
+            CMAKE_PREFIX_PATH = r'/home/autoware/Autoware/install/ndt_gpu;/home/autoware/Autoware/install/autoware_health_checker;/home/autoware/Autoware/install/ros_observer;/home/autoware/Autoware/install/pcl_omp_registration;/home/autoware/Autoware/install/ndt_tku;/home/autoware/Autoware/install/ndt_cpu;/home/autoware/Autoware/install/autoware_system_msgs;/home/autoware/Autoware/install/autoware_msgs;/home/autoware/Autoware/install/autoware_config_msgs;/home/autoware/Autoware/install/autoware_build_flags;/opt/ros/melodic'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []

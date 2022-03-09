@@ -1,10 +1,10 @@
 
 "use strict";
 
-let ObjectArray = require('./ObjectArray.js');
 let Object = require('./Object.js');
+let ObjectArray = require('./ObjectArray.js');
 
 module.exports = {
-  ObjectArray: ObjectArray,
   Object: Object,
+  ObjectArray: ObjectArray,
 };

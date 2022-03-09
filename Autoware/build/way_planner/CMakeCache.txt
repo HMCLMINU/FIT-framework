@@ -255,7 +255,7 @@ RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
 SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 
 //Name of the computer/site where compile is being run
-SITE:STRING=fv-az70
+SITE:STRING=hmc
 
 //LSB Distrib tag
 UBUNTU:BOOL=TRUE
@@ -455,6 +455,9 @@ rosgraph_msgs_DIR:PATH=/opt/ros/melodic/share/rosgraph_msgs/cmake
 
 //The directory containing a CMake configuration file for roslib.
 roslib_DIR:PATH=/opt/ros/melodic/share/roslib/cmake
+
+//The directory containing a CMake configuration file for roslint.
+roslint_DIR:PATH=/opt/ros/melodic/share/roslint/cmake
 
 //The directory containing a CMake configuration file for roslz4.
 roslz4_DIR:PATH=/opt/ros/melodic/share/roslz4/cmake

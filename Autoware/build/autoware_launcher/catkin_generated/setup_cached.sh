@@ -10,5 +10,5 @@
 export CMAKE_PREFIX_PATH="/home/autoware/Autoware/build/autoware_launcher/devel:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/autoware/Autoware/build/autoware_launcher/devel/lib:$LD_LIBRARY_PATH"
 export PYTHONPATH="/home/autoware/Autoware/build/autoware_launcher/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/autoware/Autoware/build/autoware_launcher/devel/share/common-lisp"
+export ROSLISP_PACKAGE_DIRECTORIES='/home/autoware/Autoware/build/autoware_launcher/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/autoware/Autoware/src/autoware/utilities/autoware_launcher:$ROS_PACKAGE_PATH"

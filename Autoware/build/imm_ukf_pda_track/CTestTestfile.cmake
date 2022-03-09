@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/autoware/Autoware/src/autoware/core_perception/lidar_imm_ukf_pda_track
+# Source directory: /home/autoware/Autoware/src/autoware/core_perception/imm_ukf_pda_track
 # Build directory: /home/autoware/Autoware/build/imm_ukf_pda_track
 # 
 # This file includes the relevant testing commands required for 

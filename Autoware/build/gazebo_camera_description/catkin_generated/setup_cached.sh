@@ -8,5 +8,5 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/autoware/Autoware/build/gazebo_camera_description/devel:$CMAKE_PREFIX_PATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/autoware/Autoware/build/gazebo_camera_description/devel/share/common-lisp"
+export ROSLISP_PACKAGE_DIRECTORIES='/home/autoware/Autoware/build/gazebo_camera_description/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/autoware/Autoware/src/autoware/simulation/gazebo_camera_description:$ROS_PACKAGE_PATH"

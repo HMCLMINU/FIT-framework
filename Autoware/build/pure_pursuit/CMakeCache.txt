@@ -255,7 +255,7 @@ RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
 SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 
 //Name of the computer/site where compile is being run
-SITE:STRING=fv-az70
+SITE:STRING=hmc
 
 //LSB Distrib tag
 UBUNTU:BOOL=TRUE
@@ -385,7 +385,7 @@ jsk_footstep_msgs_DIR:PATH=/opt/ros/melodic/share/jsk_footstep_msgs/cmake
 jsk_recognition_msgs_DIR:PATH=/opt/ros/melodic/share/jsk_recognition_msgs/cmake
 
 //Path to a library.
-lib:FILEPATH=/home/autoware/Autoware/install/libwaypoint_follower/lib/liblibwaypoint_follower.so
+lib:FILEPATH=/home/autoware/Autoware/install/amathutils_lib/lib/libamathutils_lib.so
 
 //The directory containing a CMake configuration file for libwaypoint_follower.
 libwaypoint_follower_DIR:PATH=/home/autoware/Autoware/install/libwaypoint_follower/share/libwaypoint_follower/cmake

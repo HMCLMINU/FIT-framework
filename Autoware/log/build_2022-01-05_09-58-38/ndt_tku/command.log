@@ -1,6 +1,0 @@
-Invoking command in '/home/autoware/Autoware/build/ndt_tku': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_tku -- -j32 -l32
-Invoked command in '/home/autoware/Autoware/build/ndt_tku' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_tku -- -j32 -l32
-Invoking command in '/home/autoware/Autoware/build/ndt_tku': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_tku --target tests -- -j32 -l32
-Invoked command in '/home/autoware/Autoware/build/ndt_tku' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_tku --target tests -- -j32 -l32
-Invoking command in '/home/autoware/Autoware/build/ndt_tku': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_tku --target install -- -j32 -l32
-Invoked command in '/home/autoware/Autoware/build/ndt_tku' returned '0': /usr/bin/cmake --build /home/autoware/Autoware/build/ndt_tku --target install -- -j32 -l32
