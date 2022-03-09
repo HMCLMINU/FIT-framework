@@ -11,12 +11,9 @@ ros-bridge/rviz_carla_plugin/CMakeFiles/rviz_carla_plugin.dir/rviz_carla_plugin_
  /home/autoware/carla_ws/devel/include/carla_msgs/CarlaEgoVehicleControl.h
  /home/autoware/carla_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h
  /home/autoware/carla_ws/devel/include/carla_msgs/CarlaStatus.h
- /home/autoware/carla_ws/devel/include/carla_ros_scenario_runner_types/CarlaScenario.h
- /home/autoware/carla_ws/devel/include/carla_ros_scenario_runner_types/CarlaScenarioList.h
- /home/autoware/carla_ws/devel/include/carla_ros_scenario_runner_types/CarlaScenarioRunnerStatus.h
- /home/autoware/ros-bridge/rviz_carla_plugin/src/carla_control_panel.h
- /home/autoware/ros-bridge/rviz_carla_plugin/src/drive_widget.h
- /home/autoware/ros-bridge/rviz_carla_plugin/src/indicator_widget.h
+ /home/autoware/carla_ws/src/ros-bridge/rviz_carla_plugin/src/carla_control_panel.h
+ /home/autoware/carla_ws/src/ros-bridge/rviz_carla_plugin/src/drive_widget.h
+ /home/autoware/carla_ws/src/ros-bridge/rviz_carla_plugin/src/indicator_widget.h
  /opt/ros/melodic/include/geometry_msgs/Accel.h
  /opt/ros/melodic/include/geometry_msgs/Point.h
  /opt/ros/melodic/include/geometry_msgs/Pose.h
@@ -267,12 +264,6 @@ ros-bridge/rviz_carla_plugin/CMakeFiles/rviz_carla_plugin.dir/src/carla_control_
  /home/autoware/carla_ws/devel/include/carla_msgs/CarlaEgoVehicleControl.h
  /home/autoware/carla_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h
  /home/autoware/carla_ws/devel/include/carla_msgs/CarlaStatus.h
- /home/autoware/carla_ws/devel/include/carla_ros_scenario_runner_types/CarlaScenario.h
- /home/autoware/carla_ws/devel/include/carla_ros_scenario_runner_types/CarlaScenarioList.h
- /home/autoware/carla_ws/devel/include/carla_ros_scenario_runner_types/CarlaScenarioRunnerStatus.h
- /home/autoware/carla_ws/devel/include/carla_ros_scenario_runner_types/ExecuteScenario.h
- /home/autoware/carla_ws/devel/include/carla_ros_scenario_runner_types/ExecuteScenarioRequest.h
- /home/autoware/carla_ws/devel/include/carla_ros_scenario_runner_types/ExecuteScenarioResponse.h
  /home/autoware/carla_ws/src/ros-bridge/rviz_carla_plugin/src/carla_control_panel.cpp
  /home/autoware/carla_ws/src/ros-bridge/rviz_carla_plugin/src/carla_control_panel.h
  /home/autoware/carla_ws/src/ros-bridge/rviz_carla_plugin/src/drive_widget.h

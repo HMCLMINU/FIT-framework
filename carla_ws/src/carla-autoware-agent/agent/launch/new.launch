@@ -1,0 +1,8 @@
+<launch>
+  <include file='$(find range_vision_fusion)/launch/range_vision_fusion.launch'>
+    <arg name='detected_objects_range' value='/detection/lidar_detector/objects'/>
+    <arg name='detected_objects_vision' value='/detection/image_detector/objects'/>
+    <arg name='camera_info_src' value='/carla/ego_vehicle/camera/rgb/front/camera_info'/>
+    <arg name='namespace' value='/detection/fusion_tools'/>
+  </include>
+</launch>
