@@ -1,12 +1,12 @@
 
 "use strict";
 
-let CarlaScenarioRunnerStatus = require('./CarlaScenarioRunnerStatus.js');
-let CarlaScenarioList = require('./CarlaScenarioList.js');
 let CarlaScenario = require('./CarlaScenario.js');
+let CarlaScenarioList = require('./CarlaScenarioList.js');
+let CarlaScenarioRunnerStatus = require('./CarlaScenarioRunnerStatus.js');
 
 module.exports = {
-  CarlaScenarioRunnerStatus: CarlaScenarioRunnerStatus,
-  CarlaScenarioList: CarlaScenarioList,
   CarlaScenario: CarlaScenario,
+  CarlaScenarioList: CarlaScenarioList,
+  CarlaScenarioRunnerStatus: CarlaScenarioRunnerStatus,
 };

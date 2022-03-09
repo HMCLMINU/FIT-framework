@@ -7,7 +7,7 @@ set(AM_CMAKE_CURRENT_SOURCE_DIR "/home/autoware/carla_ws/src/ros-bridge/rviz_car
 set(AM_CMAKE_CURRENT_BINARY_DIR "/home/autoware/carla_ws/build/ros-bridge/rviz_carla_plugin/")
 set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
 set(AM_BUILD_DIR "/home/autoware/carla_ws/build/ros-bridge/rviz_carla_plugin/rviz_carla_plugin_autogen")
-set(AM_SOURCES "/home/autoware/ros-bridge/rviz_carla_plugin/src/carla_control_panel.cpp;/home/autoware/ros-bridge/rviz_carla_plugin/src/drive_widget.cpp;/home/autoware/ros-bridge/rviz_carla_plugin/src/indicator_widget.cpp")
+set(AM_SOURCES "/home/autoware/carla_ws/src/ros-bridge/rviz_carla_plugin/src/carla_control_panel.cpp;/home/autoware/carla_ws/src/ros-bridge/rviz_carla_plugin/src/drive_widget.cpp;/home/autoware/carla_ws/src/ros-bridge/rviz_carla_plugin/src/indicator_widget.cpp")
 set(AM_HEADERS "")
 # Qt environment
 set(AM_QT_VERSION_MAJOR "5")
