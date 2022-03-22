@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="rosbag" type="record" name="record_ros" launch-prefix="sudo"
+        args="-o /home/autoware/AIFI_ws/src/sensor_config_edit/src/bagfile/
+              /carla/ego_vehicle/imu/imu1" 
+        output="screen"/>
+</launch>

@@ -44,7 +44,7 @@ from carla import VehicleLightState as vls
 import easydict
 from agents.navigation.basic_agent import BasicAgent
 from agents.navigation.behavior_agent import BehaviorAgent
-
+from nav_msgs.msg import Odometry
 
 secure_random = random.SystemRandom()
 
@@ -66,15 +66,23 @@ class ScenarioManager(object):
         self.world = self.client.get_world()
         self.startPosePub = rospy.Publisher('initialpose', PoseWithCovarianceStamped, queue_size=1)
         self.goalPosePub = rospy.Publisher('move_base_simple/goal', PoseStamped, queue_size=1)
+        self.simCheckerPub = rospy.Publisher('sim_done', Int64, queue_size=1)
         self.done = False
+
+    def odomCallback(self,data):
+        self.xPose = data.pose.pose.position.x
+        self.yPose = data.pose.pose.position.y
+
+    def listener(self):
+        rospy.Subscriber("/carla/ego_vehicle/odometry", Odometry, self.odomCallback)
 
     def setEgo(self): # set ego state publish
 
         filtered_waypoints = self.egoselectWPT(self.world) 
         # set SV spawn point selection  
-        spawn_point_v = filtered_waypoints[38].transform
+        spawn_point_v = filtered_waypoints[38].transform # VerifAI sample
         # set a destination of SV
-        destination = filtered_waypoints[1].transform
+        destination = filtered_waypoints[1].transform # VerifAI sample
         spawn_quat = quaternion_from_euler(math.radians(spawn_point_v.rotation.roll),
         math.radians(spawn_point_v.rotation.pitch), math.radians(spawn_point_v.rotation.yaw))
         dest_quat = quaternion_from_euler(math.radians(destination.rotation.roll),
@@ -110,11 +118,10 @@ class ScenarioManager(object):
         else:
             # print("now : {}".format(now))
             self.startPosePub.publish(startpose)
-            self.goalPosePub.publish(goalpose)
-            
-
-
-
+            if (abs(startpose.pose.pose.position.x - self.xPose) < 1) and (abs(startpose.pose.pose.position.y - self.yPose) < 1):
+                self.goalPosePub.publish(goalpose)
+                self.done=True
+    
     def setObstacle(self): # set obstacle state
         # return start_position, goal_position, start_vel
 
@@ -201,6 +208,8 @@ class ScenarioManager(object):
             print("SV set done. \n")
             while True: # control SV
                 if agent.done():
+                    for i in range(10):
+                        self.simCheckerPub.publish(1)
                     # agent.set_destination(random.choice(spawn_points).location)
                     # print("The target has been reached, searching for another target")
                     self.reset()
@@ -210,55 +219,6 @@ class ScenarioManager(object):
                 if done == 0:
                     print("Control surrounding vehicles ...")
                     done = 1
-
-            
-            # if args.number_of_vehicles < number_of_spawn_points:
-            #     random.shuffle(spawn_points)
-            # elif args.number_of_vehicles > number_of_spawn_points:
-            #     msg = 'requested %d vehicles, but could only find %d spawn points'
-            #     # logging.warning(msg, args.number_of_vehicles, number_of_spawn_points)
-            #     args.number_of_vehicles = number_of_spawn_points
-
-            # # @todo cannot import these directly.
-            # SpawnActor = carla.command.SpawnActor
-            # SetAutopilot = carla.command.SetAutopilot
-            # SetVehicleLightState = carla.command.SetVehicleLightState
-            # FutureActor = carla.command.FutureActor
-
-            # # --------------
-            # # Spawn vehicles
-            # # --------------
-            # batch = []
-            # for n, transform in enumerate(spawn_points):
-            #     print("n : {}".format(n))
-            #     print("transform : {}".format(transform))
-            #     if n >= args.number_of_vehicles:
-            #         break
-            #     blueprint = random.choice(blueprints)
-            #     if blueprint.has_attribute('color'):
-            #         color = random.choice(blueprint.get_attribute('color').recommended_values)
-            #         blueprint.set_attribute('color', color)
-            #     if blueprint.has_attribute('driver_id'):
-            #         driver_id = random.choice(blueprint.get_attribute('driver_id').recommended_values)
-            #         blueprint.set_attribute('driver_id', driver_id)
-            #     blueprint.set_attribute('role_name', 'autopilot')
-            #     # spawn_point_v = waypoints[n].transform
-            #     # prepare the light state of the cars to spawn
-            #     light_state = vls.NONE
-            #     if args.car_lights_on:
-            #         light_state = vls.Position | vls.LowBeam | vls.LowBeam
-
-            #     # spawn the cars and set their autopilot and light state all together
-            #     batch.append(SpawnActor(blueprint, transform)
-            #         .then(SetAutopilot(FutureActor, True, traffic_manager.get_port()))
-            #         .then(SetVehicleLightState(FutureActor, light_state)))
-
-            # for response in client.apply_batch_sync(batch, synchronous_master):
-            #     if response.error:
-            #         logging.error(response.error)
-            #         pass
-            #     else:
-            #         vehicles_list.append(response.actor_id)
 
             # -------------
             # Spawn Walkers
@@ -418,43 +378,18 @@ class ScenarioManager(object):
                         persistent_lines=True) 
         return filtered_waypoints
 
-    # def camFaultParam(self):
-    #     return camera_param
-
-    # def imuFaultParam(self):
-    #     return imu_param
-    
-    # def gpsFaultParam(self):
-    #     return gps_param
-    
-    # def lidarFaultParam(self):
-    #     return lidar_param
-    
-    # def faultID(self):
-    #     return fault_id
-    
-    # def faultInjector(self): # RL
-    #     # Deep RL Gen
-    #     # -- Scenario param gen --
-    #     # Distribute
-    #     self.faultID() 
-    #     return
-
     def reset(self):
         self.client.reload_world()
 
     def run(self): # main loop
         r = rospy.Rate(10)
-        j = 0
         # self.setMap()
         while not rospy.is_shutdown():
+            self.listener()
             self.setEgo()
-            if j > 1:
-                self.done=True
-
             if self.done == True:
                 break
-            j += 1
+            
             r.sleep()
        
         self.setObstacle()
